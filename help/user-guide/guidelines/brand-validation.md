@@ -3,9 +3,9 @@ title: Validación de marca en Adobe GenStudio para marketing de rendimiento
 description: Descubra cómo funciona el sistema de validación de marca integrado en GenStudio para el marketing de rendimiento.
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: f9bfd6d7429f1f24947c398ec73b4b350a7e828f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -65,19 +65,22 @@ Para maximizar la eficacia del contenido generado y mantener una identidad de ma
 
 **Para mejorar la alineación de marca de las variantes de contenido generadas**:
 
-1. Haga clic en el icono **[!UICONTROL [!DNL Brand]directrices para comprobar]** de una variante individual.
+1. Haga clic en el icono **[!UICONTROL [!DNL Brand]directrices para comprobar]** de una variante individual. La comprobación de las directrices [!DNL Brand] muestra un número porcentual de alineación de marca para una variante.
 
    Consulte un resumen de cuántas directrices de marca cumplen los requisitos de validación de marca o necesitan más atención.
 
 1. Para obtener los detalles de las secciones y directrices que deben mejorarse, haga clic en **[!UICONTROL Revisar]** _o_ haga clic en el icono _Validación de marca_ de la barra de menú superior para abrir el panel _Validación de marca_.
 
-   Consulte todas las secciones y directrices de marca que requieran su atención. <!-- The section highlighted in the panel corresponds to the section highlighted in the generated variant in the Canvas. -->
+   Consulte todas las secciones y directrices de marca que requieran su atención.
 
    >[!NOTE]
    >
    > La directriz _Brand voice_ indicada en el _panel de validación de marca_ se aplica a toda la variante, no a una sección individual. Se resalta toda la variante de contenido para sugerir mejoras.
 
-1. Revise manualmente las secciones de variante para lograr la alineación más sólida con su marca.
+1. Haga clic en cada directriz que necesite atención, utilizando los botones **[!UICONTROL Siguiente]** y **[!UICONTROL Anterior]**.
+
+1. Utilice el razonamiento anotado para cada directriz para informar a las revisiones de las secciones de variante a fin de lograr la alineación más sólida con su marca.
+
 
 1. Después de hacer las revisiones necesarias, haz clic en **[!UICONTROL Verificar de nuevo]** para volver a comprobar y validar los cambios y asegurarte de que estén más alineados con la identidad de tu marca.
 
