@@ -3,9 +3,9 @@ title: Administración de recursos y experiencias
 description: Simplifique y mejore la administración de los recursos aprobados por la marca para usarlos y reutilizarlos en su recorrido de marketing digital.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 82ac164cb852305fce206845d15f04c4b4395387
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,11 @@ De manera predeterminada, los recursos que agrega a [!DNL Content] a través del
 
 La lista **[!UICONTROL Ubicación]** situada encima de la galería en el lado derecho le permite seleccionar entre repositorios de Adobe Experience Manager AEM () [!DNL Assets Content Hub] conectados. AEM Al seleccionar un repositorio de, la galería muestra un inventario de los recursos de ese repositorio, lo que le permite aprovechar los recursos aprobados de estos repositorios como entradas para la creación de contenido. Las opciones de filtro cambian para reflejar las categorías configuradas en [!DNL AEM Assets Content Hub].
 
+AEM Consulte [Conectar un repositorio de](connect-aem-repo.md) para obtener instrucciones sobre cómo agregar el repositorio [!DNL AEM Assets Content Hub] a GenStudio for Performance Marketing.
+
 AEM AEM El repositorio de datos es de solo lectura, lo que significa que no puede guardar borradores, nuevos recursos ni metadatos en el repositorio de datos de la biblioteca de datos de la biblioteca de recursos (). Todos los borradores y las actualizaciones finales de los recursos, las experiencias y las plantillas se guardan en el repositorio `GenStudio assets` con los nuevos [metadatos del sistema](asset-details.md#system-metadata).
 
-AEM Consulte [Conectar un repositorio de](connect-aem-repo.md) para obtener instrucciones sobre cómo agregar el repositorio [!DNL AEM Assets Content Hub] a GenStudio for Performance Marketing.
+{{note-aem-assets}}
 
 ## Administración de Assets
 
