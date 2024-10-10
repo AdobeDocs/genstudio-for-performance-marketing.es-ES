@@ -2,9 +2,9 @@
 title: Administrar variantes
 description: Personalice y mejore las variantes y los recursos generados para adaptarlos a sus necesidades de marketing digital.
 feature: Content, Assets, Experiences
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: 9aca8368c2ea39a4059fc8d83fe69234619b1e3d
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -38,22 +38,22 @@ Puede editar los campos de texto en las variantes generadas. Refine el texto par
 1. Introduzca el nuevo texto.
 1. Haga clic fuera del campo de texto para guardarlo.
 
-<!-- ## Re-generate sections
+## Volver a generar secciones
 
-GenStudio for Performance Marketing has the built-in functionality to regenerate single sections of generated variants using _[!UICONTROL Suggested edits]_ and fresh prompts.
+GenStudio for Performance Marketing tiene la funcionalidad integrada para regenerar secciones únicas de variantes generadas usando _[!UICONTROL ediciones sugeridas]_ y peticiones de datos nuevas.
 
-For example, you can re-generate the headline section of one Meta ad variant to see how it looks with a specific background asset using the _[!UICONTROL Suggested edits]_ options—_[!UICONTROL Rephrase]_, _[!UICONTROL Shorten]_, or _[!UICONTROL Lengthen]_—and entering a new prompt.
+Por ejemplo, puede volver a generar la sección de titulares de una variante de anuncio Meta para ver el aspecto que tendrá con un recurso de fondo específico mediante las _[!UICONTROL ediciones sugeridas]_ opciones—_[!UICONTROL Reformular]_, _[!UICONTROL Acortar]_ o _[!UICONTROL Alargar]_— e introduciendo un nuevo mensaje.
 
-**To re-generate individual variant sections**:
+**Para volver a generar secciones de variante individuales**:
 
-1. After generating a set of variants, single-click editable text in a variant.
-1. (_Optional_) Enter a new prompt to change the focus of the regenerated content.
-1. Select a _[!UICONTROL Suggested edits]_ option—_[!UICONTROL Rephrase]_, _[!UICONTROL Shorten]_, or _[!UICONTROL Lengthen]_.
-1. Click **[!UICONTROL Generate]**.
-1. If you want to regenerate results, click the regenerate icon adjacent to _Results_.
-1. From the _Results_ that appear, select the desired option and click **[!UICONTROL Replace]**.
+1. Después de generar un conjunto de variantes, haga clic con el botón derecho en cualquier texto editable de una variante.
+1. (_Opcional_) Escriba un nuevo mensaje para cambiar el enfoque del contenido regenerado.
+1. Seleccione una opción de _[!UICONTROL ediciones sugeridas]_—_[!UICONTROL Reformular]_, _[!UICONTROL Acortar]_ o _[!UICONTROL Alargar]_.
+1. Haga clic en **[!UICONTROL Generar]**.
+1. Si desea regenerar los resultados, haga clic en el icono de regeneración situado junto a _Results_.
+1. De los _resultados_ que aparecen, seleccione la opción que desee y haga clic en **[!UICONTROL Reemplazar]**.
 
-   The variant is updated with the revised text. -->
+   La variante se actualiza con el texto revisado.
 
 ## Recortar recursos
 

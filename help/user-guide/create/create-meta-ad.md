@@ -4,12 +4,11 @@ description: Aprenda a crear experiencias de publicidad Meta en la marca, para F
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
-type: Tutorial
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 30cd73ba1beb582ea4ac73eca7e17715f9aafc66
+source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1016'
 ht-degree: 0%
 
 ---
@@ -43,13 +42,12 @@ Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Pa
 
    Si no hay marcas, personalidades o productos disponibles en estos menús, [agregue directrices a su GenStudio para marketing de rendimiento](/help/user-guide/guidelines/add-guidelines.md).
 
-1. Haga clic en **[!UICONTROL Seleccionar contenido]** para agregar contenido que se utilizará en la experiencia *y* para influir en la generación de contenido.
-   * Para seleccionar recursos (imágenes) ya publicados en [!DNL Content], haga clic en **[!UICONTROL Seleccionar a partir del contenido]** y haga clic para seleccionar las imágenes que desee. Utilice los filtros para restringir aún más los resultados de búsqueda.
+1. Agregue contenido para utilizarlo en la experiencia *y* para influir en la generación de contenido:
+   * Haga clic en **[!UICONTROL Seleccionar del contenido]** para seleccionar recursos (imágenes) del repositorio [!DNL Content], filtrar y seleccionar una o más imágenes.
 
-     AEM Si desea utilizar recursos que ya están presentes en un repositorio conectado a un repositorio de Content Hub, seleccione la ubicación aplicable en el menú desplegable _Ubicación_ y haga clic para seleccionar las imágenes que desee.
+     Para usar recursos de un repositorio [!DNL AEM Assets Content Hub] conectado, elija un repositorio en el menú desplegable _Ubicación_. Filtre y seleccione una o varias imágenes.
 
-   * Haga clic en **[!UICONTROL Cargar]** para examinar los archivos y elegir los recursos que desea utilizar. Además de explorar el dispositivo, también puede importar desde Microsoft OneDrive o Dropbox. Haga clic en para seleccionar las imágenes que desee.
-   * Arrastre y suelte los recursos en la sección _Contenido_.
+   * O bien, arrastre y suelte los recursos en la sección **[!UICONTROL Seleccionar del contenido]** para cargar uno o más recursos nuevos.
 1. Haga clic en **[!UICONTROL Usar]**.
 
 Cuando haya terminado de agregar parámetros, puede contraer el área de solicitud si vuelve a hacer clic en el icono _Parámetros_.
@@ -84,10 +82,10 @@ Antes de seleccionar qué enviar para su aprobación o publicación a [!DNL Cont
 **Para revisar las variantes generadas**:
 
 * **Para [editar el nombre del borrador del anuncio Meta](/help/user-guide/create/manage-variants.md#change-draft-name)**, haga clic en el título de _Borrador sin título_ en la parte superior del lienzo y escriba un nuevo título.
-* **Para [editar manualmente un Meta ad](/help/user-guide/create/manage-variants.md#manually-edit-text)**, haga doble clic en cualquiera de las secciones de anuncios (como la línea de asunto, el encabezado o la copia del cuerpo) y edítela según sea necesario.
+* **Para [editar manualmente un Meta ad](/help/user-guide/create/manage-variants.md#manually-edit-text)**, haga doble clic en cualquiera de las secciones de anuncios (como la línea de asunto,
+encabezado o copia de cuerpo) y edite según sea necesario.
 * **Para cambiar o seleccionar la llamada a la acción**, haga clic en el botón de llamada a la acción y seleccione las opciones de texto de botón disponibles. En _[!UICONTROL Vínculo]_, escriba una dirección URL para el texto de llamada a acción.
-* **Para [cambiar el tamaño y la proporción de aspecto del anuncio](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**, haga clic en el botón _[!UICONTROL Cambiar tamaño]_ (cuadro con un icono de botón en el lado izquierdo del lienzo) y seleccione un nuevo tamaño y proporción de aspecto para aplicar a todas las variantes. Las variantes se duplican y se cambia su tamaño.
-<!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**. -->
+* **Para [regenerar una sección de una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, haga clic en un campo de texto editable y use las opciones _[!UICONTROL Ediciones sugeridas]_ o escriba una nueva solicitud y haga clic en **[!UICONTROL Generar]**.
 * **Para [recortar o cambiar la posición de las imágenes](/help/user-guide/create/manage-variants.md#crop-assets)**, pase el ratón sobre una imagen, haga clic en el icono de recorte que aparece y ajuste el tamaño y la ubicación de la imagen.
 * **Para [eliminar un Meta ad](/help/user-guide/create/manage-variants.md#delete-variant)**, haz clic en el título del anuncio (por ejemplo, &quot;Meta 4&quot;) y haz clic en **[!UICONTROL Eliminar variante]**.
 
@@ -126,7 +124,7 @@ Consulte [Revisiones y aprobaciones](/help/user-guide/approvals/overview.md) par
 
 Para que los anuncios Meta generados estén disponibles para su uso actual y futuro, publíquelos en [!UICONTROL Contenido] y exporte el contenido para su uso en campañas de marketing.
 
-1. **Para publicar tus nuevas experiencias con Meta Ad**, haz clic en **[!UICONTROL Publish]** en la barra de herramientas superior.
+1. **Para publicar tus nuevas experiencias con Meta Ad**, haz clic en **[!UICONTROL Publish]** en la barra de herramientas superior o dentro del flujo de aprobaciones.
 1. **Para exportar tus nuevas experiencias con Meta Ad**, haz clic en **[!UICONTROL Exportar]** en la barra de herramientas superior.
    1. Seleccione el formato (solo CSV e imágenes o HTML) y haga clic en **[!UICONTROL Exportar]**.
 
