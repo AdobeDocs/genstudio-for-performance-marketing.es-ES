@@ -34,85 +34,44 @@ Consulte la [descripción general de las directrices](../user-guide/guidelines/o
 La demanda es alta para experiencias de calidad en varios canales a un ritmo más rápido. GenStudio for Performance Marketing simplifica la cadena de suministro de contenido para convertirla en un flujo de trabajo bien organizado para los especialistas en marketing. GenStudio for Performance Marketing aprovecha la tecnología de Adobe en cada fase del ciclo de vida.
 
 <table style="table-layout:fixed">
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
        <img alt="calendario" src="../assets/csc-workflow-planning.png" width="100">
-
     </td>
-
     <td>
-
         <p>Haga una lluvia de ideas, defina directrices y cree una estrategia en torno al contenido para atraer a su audiencia.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
         <img alt="pincel y lienzo" src="../assets/csc-creation-production.png" width="100">
-
     </td>
-
     <td>
-
         <p>Produzca el contenido en función del plan. Colabore en tiempo real, reciba comentarios, realice ediciones y apruebe contenido.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
         <img alt="imágenes y mucho más" src="../assets/csc-content-mgmt.png" width="100">
-
     </td>
-
     <td>
-
         <p>Almacene, comparta y busque recursos creativos en el repositorio centralizado. Reutilice y revitalice contenido en función del rendimiento.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
         <img alt="avión de papel" src="../assets/csc-delivery-activation.png" width="100">
-
     </td>
-
     <td>
-
         <p>Active el contenido y publíquelo en varios canales de marketing.</P>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
         <img alt="gráfico" src="../assets/csc-reporting-insights.png" width="100">
-
     </td>
-
     <td>
-
         <p>Recopile datos y obtenga perspectivas para la optimización del rendimiento de los recursos.</p>
-
     </td>
-
 </tr>
-
 </table>
