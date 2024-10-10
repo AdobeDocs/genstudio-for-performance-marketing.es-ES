@@ -4,9 +4,9 @@ breadcrumb-title: Guía del usuario
 user-guide-description: Explore las funcionalidades de Adobe GenStudio for Performance Marketing. Aprenda a crear rápidamente recursos en la marca, generar variaciones y optimizar experiencias.
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
-source-git-commit: 0e4026ae6f40a0a84d3d638cd4157f63976dc13b
+source-git-commit: 5cf78a1c00abf384d7424eb3d6b52b21d4160cd8
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '159'
 ht-degree: 4%
 
 ---
@@ -32,9 +32,11 @@ ht-degree: 4%
    + [[!DNL Create] descripción general](create/overview.md)
    + [Experiencias de correo electrónico](create/email-experiences.md)
    + [Metaexperiencias](create/meta-experiences.md)
+   + [Mostrar experiencias de anuncios](create/display-ad-experiences.md)
    + [Administrar variantes](create/manage-variants.md)
    + [Crear una experiencia de correo electrónico](create/create-email-experience.md)
    + [Crear una experiencia de Meta ad](create/create-meta-ad.md)
+   + [Crear una experiencia de anuncio en pantalla](create/create-display-ad.md)
 + Revisiones y aprobaciones {#approve}
    + [Resumen de revisión y aprobaciones](approvals/overview.md)
    + [Solicitar revisión y aprobación del contenido](approvals/request-review.md)
