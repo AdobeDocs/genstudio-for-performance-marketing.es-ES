@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 0%
@@ -33,11 +33,11 @@ Para crear una nueva experiencia de correo electrónico, utilice una plantilla d
 
 ## Añadir parámetros
 
-Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Parámetros_ en el área de solicitud sobrecarga el proceso de generación de contenido y es un paso preparatorio integral para generar una experiencia de correo electrónico.
+Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Parámetros_ en el cajón de solicitud sobrecarga el proceso de generación de contenido y es un paso preparatorio integral para generar una experiencia de correo electrónico.
 
 **Para agregar parámetros y recursos**:
 
-1. Haga clic en el icono _Parameters_ para expandir el área de solicitud.
+1. Haga clic en el icono _Parameters_ para expandir el cajón de mensajes.
 1. En la sección _Parameters_, seleccione las directrices—[!DNL Brands], [!DNL Personas] y [!DNL Products]—para informar sobre la creación de contenido.
 
    Si no hay marcas, personalidades o productos disponibles en estos menús, [agregue directrices a su GenStudio para marketing de rendimiento](/help/user-guide/guidelines/add-guidelines.md).
@@ -54,7 +54,7 @@ Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Pa
 >
 >Si la plantilla de correo electrónico tiene varias secciones, seleccione [!DNL Products] y el contenido (recursos visuales) de cada sección de correo electrónico en _Correos electrónicos de varias secciones_. Los correos electrónicos de varias secciones admiten un recurso visual por sección.
 
-Cuando haya terminado de agregar parámetros, puede contraer el área de solicitud haciendo clic de nuevo en el icono _Parameters_.
+Cuando haya terminado de agregar parámetros, puede contraer el cajón de mensajes si vuelve a hacer clic en el icono _Parámetros_.
 
 ## Introduzca una solicitud
 

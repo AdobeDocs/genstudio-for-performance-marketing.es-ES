@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 0%
@@ -33,11 +33,11 @@ Para empezar a generar una nueva experiencia de publicidad de metadatos, utilice
 
 ## Añadir parámetros
 
-Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Parámetros_ en el área de solicitud mejora el proceso de generación de contenido y es un paso crucial en la preparación para generar un anuncio Meta.
+Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Parámetros_ en el cajón de solicitud mejora el proceso de generación de contenido y es un paso crucial en la preparación para generar un anuncio Meta.
 
 **Para agregar parámetros y recursos**:
 
-1. Haga clic en el icono _Parameters_ para expandir el área de solicitud.
+1. Haga clic en el icono _Parameters_ para expandir el cajón de mensajes.
 1. En la sección _Parameters_, seleccione las directrices—[!DNL Brands], [!DNL Personas] y [!DNL Products]—para informar sobre la creación de contenido.
 
    Si no hay marcas, personalidades o productos disponibles en estos menús, [agregue directrices a su GenStudio para marketing de rendimiento](/help/user-guide/guidelines/add-guidelines.md).
@@ -50,7 +50,7 @@ Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Pa
    * O bien, arrastre y suelte los recursos en la sección **[!UICONTROL Seleccionar del contenido]** para cargar uno o más recursos nuevos.
 1. Haga clic en **[!UICONTROL Usar]**.
 
-Cuando haya terminado de agregar parámetros, puede contraer el área de solicitud si vuelve a hacer clic en el icono _Parámetros_.
+Cuando haya terminado de agregar parámetros, puede contraer el cajón de mensajes si vuelve a hacer clic en el icono _Parámetros_.
 
 ## Introduzca una solicitud
 

@@ -1,11 +1,11 @@
 ---
 title: Crear una experiencia de anuncio en pantalla
-description: Aprenda a crear experiencias de anuncios en pantalla en Adobe [!DNL GenStudio] para especialistas en marketing de rendimiento.
+description: Aprenda a crear experiencias de anuncios en pantalla en Adobe [!DNL GenStudio] for Performance Marketing.
 feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 0d453aafad2b783beef91fffd10ce537fde9ea86
+source-git-commit: 9fc0ad86b99ca61a73b46fd8febfcf66b2975d75
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -33,14 +33,14 @@ Para crear una experiencia de anuncio en pantalla, utilice una plantilla disponi
 
 ## Añadir parámetros
 
-Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Parámetros_ en el área de solicitud sobrecarga el proceso de generación de contenido y es un paso preparatorio integral para generar una experiencia de anuncio en pantalla.
+Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Parámetros_ en el cajón de solicitud sobrecarga el proceso de generación de contenido y es un paso preparatorio integral para generar una experiencia de anuncio en pantalla.
 
 **Para agregar parámetros y recursos**:
 
-1. Haga clic en el icono _Parameters_ para expandir el área de solicitud.
+1. Haga clic en el icono _Parameters_ para expandir el cajón de mensajes.
 1. En la sección _Parameters_, seleccione las directrices—[!DNL Brands], [!DNL Personas] y [!DNL Products]—para informar sobre la creación de contenido.
 
-   Si no hay marcas, personalidades o productos disponibles en estos menús, [agregue directrices a su GenStudio para especialistas en marketing de rendimiento](/help/user-guide/guidelines/add-guidelines.md).
+   Si no hay marcas, personalidades o productos disponibles en estos menús, [agregue directrices a su GenStudio para marketing de rendimiento](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Para agregar contenido para utilizarlo en la experiencia *y* para influir en la generación de contenido:
    * Haga clic en **[!UICONTROL Seleccionar del contenido]** para seleccionar recursos (imágenes) del repositorio [!DNL Content], filtrar y seleccionar una o más imágenes.
@@ -50,7 +50,7 @@ Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Pa
    * O bien, arrastre y suelte los recursos en la sección **[!UICONTROL Seleccionar del contenido]** para cargar uno o más recursos nuevos.
 1. Haga clic en **[!UICONTROL Usar]**.
 
-Cuando haya terminado de agregar parámetros, contraiga el área de solicitud haciendo clic de nuevo en el icono _Parameters_.
+Cuando haya terminado de agregar parámetros, contraiga el cajón de mensajes haciendo clic de nuevo en el icono _Parameters_.
 
 ## Introduzca una solicitud
 

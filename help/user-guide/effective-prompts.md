@@ -3,9 +3,9 @@ title: Escribir indicadores efectivos
 description: Aprenda a escribir mensajes efectivos para Adobe GenStudio for Performance Marketing.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
@@ -39,13 +39,13 @@ Write an email to motivate infrequent users of Photoshop to follow an in-app tut
 
 ## Criterios de solicitud
 
-En GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md), puede usar **[!UICONTROL Criterios de solicitud]** ([_Parámetros_](/help/user-guide/create/overview.md#parameters) y un mensaje) en el área de solicitud para agregar detalles mediante la selección y mejorar la interpretación de IA.
+En GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md), puede usar **[!UICONTROL Criterios del indicador]** ([_Parámetros_](/help/user-guide/create/overview.md#parameters) y un indicador) en el cajón del indicador para agregar detalles a través de la selección y mejorar la interpretación de IA.
 
 Para [correos electrónicos](/help/user-guide/create/email-experiences.md), los criterios de solicitud pueden incluir la adición de [directrices](/help/user-guide/guidelines/overview.md) en _Parámetros_, la carga de un recurso para utilizarlo en las variantes de correo electrónico y una solicitud descriptiva. Para un [Meta ad](/help/user-guide/create/create-meta-ad.md), los criterios de solicitud pueden incluir una directriz de marca en _Parámetros_, la selección o carga de un recurso existente, la configuración relacionada con imágenes o recursos como la proporción de aspecto y un mensaje. El poder real comienza con [configurar directrices](/help/user-guide/guidelines/add-guidelines.md).
 
 >[!NOTE]
 >
->Si se agregan directrices en _Parameters_ en el área de solicitud, no es necesario incluir una referencia a ellas en la solicitud. GenStudio for Performance Marketing aprovecha [!DNL Brands], [!DNL Products] y [!DNL Personas] en la generación de contenido.
+>Si se agregan directrices en _Parameters_ en el cajón de mensajes, no es necesario incluir una referencia a ellas en el mensaje. GenStudio for Performance Marketing aprovecha [!DNL Brands], [!DNL Products] y [!DNL Personas] en la generación de contenido.
 
 ### Directrices
 

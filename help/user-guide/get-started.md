@@ -4,7 +4,7 @@ description: Aprenda a configurar su GenStudio for Performance Marketing para ge
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 1%
@@ -40,7 +40,7 @@ Existen tres tipos de funciones de usuario de GenStudio for Performance Marketin
 
 **Los editores** tienen los permisos básicos necesarios para crear los recursos de GenStudio for Performance Marketing [!DNL Brands], [!DNL Campaigns] y [!DNL Content]. También pueden editar y eliminar los recursos que han creado. GenStudio for Performance Marketing permite crear rápidamente cientos de fragmentos de contenido. Estos usuarios pueden generar secciones de contenido o experiencias completas que organicen partes discretas de contenido aprobado para satisfacer las necesidades de campañas de marketing específicas.
 
-Los editores interactúan con las tecnologías de IA generativa de GenStudio for Performance Marketing mediante _mensajes_. El área de mensajes del lienzo proporciona herramientas para colocar mensajes en el contexto de las directrices de una campaña específica. Como resultado, la calidad y el éxito del contenido generado dependen parcialmente de la calidad de las directrices de marca que su organización ha cargado y de la especificidad del mensaje.
+Los editores interactúan con las tecnologías de IA generativa de GenStudio for Performance Marketing mediante _mensajes_. El cajón de mensajes del lienzo proporciona herramientas para colocar mensajes en el contexto de las directrices de una campaña específica. Como resultado, la calidad y el éxito del contenido generado dependen parcialmente de la calidad de las directrices de marca que su organización ha cargado y de la especificidad del mensaje.
 
 Consulte [Escribir mensajes efectivos](effective-prompts.md).
 

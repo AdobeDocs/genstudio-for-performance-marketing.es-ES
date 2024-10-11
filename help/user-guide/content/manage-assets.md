@@ -3,7 +3,7 @@ title: Administración de recursos y experiencias
 description: Simplifique y mejore la administración de los recursos aprobados por la marca para usarlos y reutilizarlos en su recorrido de marketing digital.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 82ac164cb852305fce206845d15f04c4b4395387
+source-git-commit: 600d4a37be22bd057074b4dd3773b75f0273a567
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 0%
@@ -36,7 +36,7 @@ AEM AEM El repositorio de datos es de solo lectura, lo que significa que no pued
 
 ## Administración de Assets
 
-En [!UICONTROL Contenido], los especialistas en marketing de rendimiento pueden almacenar, recuperar y administrar fácilmente sus recursos digitales. AEM Al aprovechar tanto el repositorio `GenStudio assets` como los repositorios de la, los usuarios pueden asegurarse de que sus recursos estén bien organizados y sean accesibles para diversas campañas de marketing. Este enfoque de varios repositorios proporciona flexibilidad y control sobre el uso de los recursos en todos los entornos, lo que garantiza que solo se utilicen recursos aprobados y actualizados en las actividades de marketing.
+En [!UICONTROL Contenido], Marketing de rendimiento puede almacenar, recuperar y administrar fácilmente sus recursos digitales. AEM Al aprovechar tanto el repositorio `GenStudio assets` como los repositorios de la, los usuarios pueden asegurarse de que sus recursos estén bien organizados y sean accesibles para diversas campañas de marketing. Este enfoque de varios repositorios proporciona flexibilidad y control sobre el uso de los recursos en todos los entornos, lo que garantiza que solo se utilicen recursos aprobados y actualizados en las actividades de marketing.
 
 ### Añadir recursos
 
@@ -66,7 +66,7 @@ Al agregar recursos a [!DNL Content], se almacenan de forma predeterminada en el
 
 1. Para ver los nuevos recursos que has cargado, haz clic en **[!UICONTROL Actualizar]** en la notificación _Nuevos recursos disponibles_ que aparece en la parte inferior del lienzo.
 
-<!-- 
+<!--
 In the future, need guidance on template upload errors. For now, the UI just says error.
 -->
 

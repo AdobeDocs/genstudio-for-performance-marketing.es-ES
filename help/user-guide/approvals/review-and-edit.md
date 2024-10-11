@@ -3,7 +3,7 @@ title: Revisar y editar contenido
 description: Aprenda a revisar y editar contenido de forma iterativa.
 feature: Approval
 exl-id: 9a3a15aa-355f-439e-9417-850704402f39
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
