@@ -4,10 +4,10 @@ breadcrumb-title: Guía del usuario
 user-guide-description: Explore las funcionalidades de Adobe GenStudio for Performance Marketing. Aprenda a crear rápidamente recursos en la marca, generar variaciones y optimizar experiencias.
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
-source-git-commit: 5cf78a1c00abf384d7424eb3d6b52b21d4160cd8
+source-git-commit: fba6b26608b4fc31c9cee643124816adc3d67ecd
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 4%
+source-wordcount: '156'
+ht-degree: 5%
 
 ---
 
@@ -15,8 +15,7 @@ ht-degree: 4%
 # Guía de Adobe GenStudio for Performance Marketing {#user-guide}
 
 + [Guía de GenStudio for Performance Marketing](home.md)
-+ Notas de la versión {#release-notes}
-   + [Notas de la versión de Beta](beta-release-notes.md)
++ [Notas de la versión](release-notes.md)
 + [Introducción](get-started.md)
 + Introducción {#intro}
    + [Conceptos](concepts.md)
