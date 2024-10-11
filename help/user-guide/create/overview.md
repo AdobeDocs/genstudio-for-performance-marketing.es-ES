@@ -25,71 +25,38 @@ Junto con la potencia de [directrices](/help/user-guide/guidelines/overview.md)�
 ## Casos de uso de [!DNL Create]
 
 <table style="table-layout:fixed">
-
 <tr style="border: 0;">
-
    <td align="center" valign="top" width="100">
-
       <a href="/help/user-guide/create/create-email-experience.md">
-
       <img alt="Crear contenido nuevo" src="../../assets/icons/icon-create.svg" width="35">
-
       </a>
-
       <div>
-
          <a href="/help/user-guide/create/create-email-experience.md">
-
          <strong>Crear una experiencia de correo electrónico</strong>
-
          </a>
-
       </div>
-
    </td>
-
    <!-- <td align="center" valign="top" width="100">
-
       <a href="/help/user-guide/content/overview.md">
-
       <img alt="Re-use existing content" src="../../assets/icons/icon-addContent.svg" width="35">
-
       </a>
-
       <div>
-
          <a href="/help/user-guide/content/overview.md">
-
          <strong>Re-use existing content</strong>
-
          </a>
-
       </div>
-
    </td>
-
    <td align="center" valign="top" width="100">
-
       <a href="../create/generate-variants.md">
-
       <img alt="Generate variants of approved content" src="../../assets/icons/icon-template.svg" width="35">
-
       </a>
-
       <div>
-
          <a href="../create/generate-variants.md">
-
          <strong>Generate variants of approved content</strong>
-
          </a>
-
       </div>
-
    </td> -->
-
 </tr>
-
 </table>
 
 GenStudio for Performance Marketing permite a los especialistas en marketing **crear nuevo contenido de marketing**. En este caso de uso, use [directrices](/help/user-guide/guidelines/overview.md) definidas e imágenes de inspiración para informar la creación de contenido alineado con la marca.
