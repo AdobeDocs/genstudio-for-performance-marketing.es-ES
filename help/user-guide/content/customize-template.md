@@ -4,7 +4,7 @@ description: Aprenda a personalizar y optimizar su plantilla para Adobe GenStudi
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 94a3b4c764e29b84fc07620994913c528ffe0cdd
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 0%
@@ -49,7 +49,7 @@ GenStudio for Performance Marketing rellena ciertos campos automáticamente en l
 - **La plantilla de anuncios Meta** no requiere que identifique los campos `headline`, `body` y `CTA`
 
 <!--
-- **Display Ads template** does not require you to idenitify the `CTA` field
+- **Display Ads template** does not require you to identify the `CTA` field
 -->
 
 >[!WARNING]

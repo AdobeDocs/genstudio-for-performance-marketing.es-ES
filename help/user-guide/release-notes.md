@@ -2,10 +2,10 @@
 title: Notas de la versión de Adobe GenStudio for Performance Marketing
 description: Obtenga información sobre las últimas funciones y mejoras de Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-source-git-commit: 9b5e8b37ba988c3dd4a1e5a828487997375474ac
+source-git-commit: 94a3b4c764e29b84fc07620994913c528ffe0cdd
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 2%
+source-wordcount: '40'
+ht-degree: 0%
 
 ---
 
@@ -13,6 +13,7 @@ ht-degree: 2%
 
 Esta información de la versión detalla las últimas actualizaciones de la aplicación de GenStudio for Performance Marketing.
 
-## 15 de octubre {#latest}
+<!--
+## October 15 {#latest}
 
-Por determinar
+TBD -->
