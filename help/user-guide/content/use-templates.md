@@ -3,9 +3,9 @@ title: Trabajo con plantillas
 description: Descubra cómo utilizar las plantillas de forma eficaz para optimizar el proceso creativo en Adobe GenStudio for Performance Marketing.
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 3a361134a0b56a2973399e38e62f4ab345a3dbc8
+source-git-commit: 61a939ae81eb5ff61d741bb1092e9e4c82119f7e
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '684'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Use [Personalizar plantillas](customize-template.md) como guía al preparar una 
    El nombre de la plantilla y el tipo de canal son obligatorios. Los requisitos adicionales pueden incluir:
 
    - **Meta**: requiere proporción de aspecto
-   <!-- - **Display ads**: requires Dimensions -->
+   - **Anuncios de visualización**: requiere Dimension
 
 1. Añada tantos detalles como pueda para mejorar la identificación de la plantilla en las búsquedas y el filtrado.
 
