@@ -3,9 +3,9 @@ title: Resumen de canales
 description: Vea una descripción general de la participación del cliente, el rendimiento, el presupuesto y los gastos para campañas de marketing en Adobe GenStudio for Performance Marketing.
 feature: Insights, Channels
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 2e1ef218bbdccc3c48cf402a7fb3916a570369e5
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ La siguiente tabla proporciona definiciones y perspectivas para métricas clave 
 | **[!UICONTROL Impresiones]** | Un recuento de cada vez que se carga contenido dentro del canal, independientemente de la interacción o visualización. | Un recuento alto de impresiones puede indicar una visibilidad amplia, pero para obtener una perspectiva de rendimiento real, considere la posibilidad de con otras métricas de participación. |
 | **[!UICONTROL Clics]** | Número de veces que los usuarios interactúan dentro de la campaña de publicidad con un elemento en el que se puede hacer clic, como un vínculo o un botón de llamada a la acción. | Un alto número de clics indica un fuerte interés y participación en el contenido, que puede ser eficaz y llegar a la audiencia adecuada. |
 | **[!UICONTROL tasa de pulsaciones ]**<br>_CTR_ | Porcentaje (%) de impresiones que generaron clics de campaña dentro de un canal.<br>**Cálculo**: (`clicks` dividido entre `impressions`) x 100 = % | Una alta tasa de clics indica que el contenido es muy relevante y motivador para la audiencia en cuanto a mensajería y diseño, y que se dirige de manera efectiva a los intereses de la audiencia. |
-| **[!UICONTROL CPM ]**<br>_Costo por mil_ | Coste ($) por cada mil impresiones de publicidad de la campaña publicitaria. <br>**Cálculo**: (importe total `spent` dividido entre `impressions`) x 1000 = $ | Un valor bajo puede indicar una visibilidad rentable, especialmente cuando se asocia con una tasa de pulsaciones alta. |
+| **[!UICONTROL CPM ]**<br>_Costo por mil_ | Coste ($) por cada mil impresiones de publicidad de la campaña publicitaria. <br>**Cálculo**: (importe total `spent` dividido entre `impressions`) x 1000 | Un valor bajo puede indicar una visibilidad rentable, especialmente cuando se asocia con una tasa de pulsaciones alta. |
 | **[!UICONTROL CPC ]**<br>_Costo por clic_ | Coste promedio ($) asociado con cada clic en una campaña publicitaria.<br>**Cálculo**: importe total `spent` dividido entre `clicks` = $ | Unos costes medios menores pueden indicar un gasto publicitario rentable, especialmente en comparación con un aumento de las conversiones. |
 | **[!UICONTROL Se reproduce el vídeo]** | Porcentaje (%) de espectadores que vieron un vídeo hasta el final. | Un número elevado de reproducciones de vídeo puede indicar que el vídeo está captando la atención y puede significar que la miniatura, el título o la ubicación están atrayendo efectivamente a los espectadores. Las altas tasas de finalización de la reproducción sugieren que el contenido del vídeo es convincente y relevante. |
 | **[!UICONTROL Presupuesto]** | Total de fondos ($) asignados a una campaña de publicidad para lograr los objetivos de la campaña. | Un presupuesto elevado significa más recursos para un mayor alcance y un impacto potencialmente mayor. |
