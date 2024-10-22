@@ -1,11 +1,11 @@
 ---
 title: Escribir indicadores efectivos
-description: Aprenda a escribir mensajes efectivos para Adobe GenStudio for Performance Marketing.
+description: Aprenda a escribir indicaciones efectivas para Adobe GenStudio for Performance Marketing.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
 source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
