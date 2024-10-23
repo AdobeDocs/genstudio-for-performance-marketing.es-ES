@@ -3,10 +3,10 @@ title: GenStudio para marketing de rendimiento [!DNL Brands]
 description: GenStudio for Performance Marketing [!DNL Brands] es una colección completa de recursos de marca (textos de marketing, imágenes, experiencias y mucho más) para informar la creación de contenido alineado con la marca.
 feature: Brands Service, Guidelines
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 1%
+source-wordcount: '802'
+ht-degree: 0%
 
 ---
 
@@ -27,6 +27,8 @@ Puede cargar documentos de directrices de marca (hasta tres archivos de PDF o DO
 ## [!DNL Brands] directrices
 
 Las directrices proporcionan a GenStudio para marketing de rendimiento una imagen clara del enfoque, el tono, la sensación visual y mucho más específicos de la marca.
+
+![Directrices de marca](/help/assets/brands.png){width="600" zoomable="yes"}
 
 Las siguientes secciones de directrices detallan cada categoría de directrices, ejemplos, directrices y posibles resultados. Los ejemplos de directrices son entradas de muestra que dan forma a la salida de resultados (ejemplos de resultados a continuación); utilícelas para informar las directrices de su propia marca.
 

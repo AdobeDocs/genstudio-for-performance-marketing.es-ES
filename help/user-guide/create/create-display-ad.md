@@ -5,9 +5,9 @@ feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, 
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 94a3b4c764e29b84fc07620994913c528ffe0cdd
+source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,8 @@ Cuando haya terminado de agregar parámetros, contraiga el cajón de mensajes ha
 ## Introduzca una solicitud
 
 Una vez seleccionadas las directrices, cree un mensaje con lenguaje natural para empezar a generar contenido para la nueva experiencia de anuncio en pantalla. Para mejorar la calidad de las experiencias de anuncios en pantalla generadas, es crucial crear indicadores detallados y descriptivos.
+
+![Escriba un mensaje](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
 
 Consulte [Escribir mensajes efectivos](/help/user-guide/effective-prompts.md) para obtener más información sobre cómo escribir mensajes.
 
@@ -115,6 +117,11 @@ Ver [revisiones y aprobaciones](/help/user-guide/approvals/overview.md).
 Para que los anuncios en pantalla generados estén disponibles para su uso actual y futuro, publíquelo en [!UICONTROL Contenido] y expórtelo para su uso en campañas de marketing.
 
 1. **Para publicar tus nuevas experiencias con anuncios en pantalla**, haz clic en **[!UICONTROL Publish]** en la barra de herramientas superior o dentro del flujo de aprobaciones.
+   1. Seleccione _[!UICONTROL [!DNL Campaigns]]_y agregue_[!UICONTROL  más detalles ]_si lo desea.
+   1. Haga clic en **[!UICONTROL Publicar]**.
+
+      ![Publish es un anuncio en pantalla](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
+
 1. **Para exportar las nuevas experiencias de anuncios en pantalla**, haga clic en **[!UICONTROL Exportar]** en la barra de herramientas superior.
    1. Seleccione el formato (solo para el JPG) y haga clic en **[!UICONTROL Exportar]**.
 

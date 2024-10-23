@@ -3,9 +3,9 @@ title: GenStudio para marketing de rendimiento [!DNL Personas]
 description: GenStudio for Performance Marketing [!DNL Personas] es una verdadera representación de los segmentos de sus clientes, que capturan sus intereses, puntos problemáticos, preferencias y características de comportamiento.
 feature: Personas Service, Guidelines
 exl-id: f8c86f0b-81fe-4b94-b3d1-438de411864a
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 [!DNL Personas] proporciona una representación auténtica de los segmentos de sus clientes, incluida su información, intereses, puntos problemáticos, preferencias y características de comportamiento.
 
 GenStudio para marketing de rendimiento aprovecha el poder de las directrices ([[!DNL Brands], [!DNL Products] y [!DNL Personas]](overview.md)) y la tecnología de IA generativa de Adobe para depurar contenido de marketing personalizado para los clientes de destino&#x200B;
-
-Directrices de ![[!DNL Personas] en GenStudio para marketing de rendimiento](/help/assets/personas-guidelines.png){width="650" zoomable="yes"}
 
 **Para ver o modificar un perfil**:
 
@@ -29,6 +27,8 @@ Consulte [Agregar directrices](add-guidelines.md) para obtener información sobr
 ## [!DNL Personas] directrices
 
 Las directrices de personalidad individual ofrecen a GenStudio for Performance Marketing una imagen clara de su [!DNL Personas].
+
+![Directrices personales](/help/assets/personas.png){width="600" zoomable="yes"}
 
 Estas directrices detallan cada categoría de directrices y ejemplos relacionados. Los ejemplos son entradas de muestra que dan forma a la salida del contenido generado. Utilícelos para informar sobre sus propias directrices de [!DNL Personas].
 
