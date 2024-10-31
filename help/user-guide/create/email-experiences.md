@@ -4,9 +4,9 @@ description: Obtenga información sobre las experiencias de correo electrónico 
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: cb700de090d6a2f6a6c75afcf8a4ba118ded9527
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -53,3 +53,9 @@ Cada campo y sección de experiencias de correo electrónico se cargan progresiv
 1. Titulares, cuerpo del correo electrónico (para correos electrónicos de una sola sección) y llamadas a la acción
 1. Cuerpo del correo electrónico para las secciones siguientes (para correos electrónicos de varias secciones)
 1. Se lleva a cabo un proceso de validación de marca y se comprueba [_las directrices de marca_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) para cada variante.
+
+## Recuentos de caracteres
+
+Después de generar un conjunto de variantes de correo electrónico, puede ver el recuento de caracteres mostrado para cada sección de correo electrónico. Pase el ratón sobre una sección generada (por ejemplo, la línea de asunto o el cuerpo) o haga clic en ella y vea el nombre de la sección y el recuento de caracteres de dicha sección.
+
+![Recuento de caracteres](/help/assets/character-count.png){width="500" zoomable="yes"}
