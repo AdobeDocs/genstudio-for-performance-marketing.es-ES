@@ -4,9 +4,9 @@ description: Obtenga información sobre las experiencias de anuncios en pantalla
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: 0d453aafad2b783beef91fffd10ce537fde9ea86
+source-git-commit: f6483eeb9a4aadc81e1e99796754c978edfa334c
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '84'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 1%
 Con Adobe GenStudio for Performance Marketing, puedes usar IA generativa para optimizar la [creación de experiencias de anuncios en pantalla exitosas](/help/user-guide/create/create-display-ad.md).
 
 [!DNL Create] permite a los especialistas en marketing moderno [producir experiencias de anuncios en pantalla coherentes con la marca](/help/user-guide/create/create-display-ad.md) mediante [directrices](/help/user-guide/guidelines/overview.md), recursos de imagen y un [mensaje bien diseñado](/help/user-guide/effective-prompts.md).
+
+Al generar experiencias Meta, se crean cuatro variaciones que se muestran en el lienzo.
 
 Las secciones editables de una experiencia de anuncio en pantalla incluyen:
 

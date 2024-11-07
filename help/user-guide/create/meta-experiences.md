@@ -4,9 +4,9 @@ description: Obtenga toda la información acerca de las metaexperiencias en Adob
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: f6483eeb9a4aadc81e1e99796754c978edfa334c
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 Con Adobe GenStudio for Performance Marketing, puedes usar IA generativa para optimizar la [creación de metaexperiencias de alto impacto](/help/user-guide/create/create-meta-ad.md).
 
 [!DNL Create] permite que los creadores de contenido usen [directrices](/help/user-guide/guidelines/overview.md), recursos de imagen y un [mensaje bien diseñado](/help/user-guide/effective-prompts.md) para [crear experiencias de anuncios Meta rápidamente](/help/user-guide/create/create-meta-ad.md).
+
+Al generar experiencias Meta, se crean cuatro variaciones que se muestran en el lienzo.
 
 Las secciones editables de una experiencia de correo electrónico incluyen:
 

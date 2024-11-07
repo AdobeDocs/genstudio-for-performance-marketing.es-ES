@@ -5,7 +5,7 @@ feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, 
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
+source-git-commit: 5cd6abba1f56c9a2875c7e7dc5b94a353fc5e78e
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Pa
 1. Haga clic en el icono _Parameters_ para expandir el cajón de mensajes.
 1. En la sección _Parameters_, seleccione las directrices—[!DNL Brands], [!DNL Personas] y [!DNL Products]—para informar sobre la creación de contenido.
 
-   Si no hay marcas, personalidades o productos disponibles en estos menús, [agregue directrices a su GenStudio para marketing de rendimiento](/help/user-guide/guidelines/add-guidelines.md).
+   Si no hay marcas, personalidades o productos disponibles en estos menús, [agregue directrices a su GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Para agregar contenido para utilizarlo en la experiencia *y* para influir en la generación de contenido:
    * Haga clic en **[!UICONTROL Seleccionar del contenido]** para seleccionar recursos (imágenes) del repositorio [!DNL Content], filtrar y seleccionar una o más imágenes.
@@ -65,7 +65,7 @@ Consulte [Escribir mensajes efectivos](/help/user-guide/effective-prompts.md) pa
 1. Escriba una solicitud en el cuadro de solicitud _&quot;Describa las experiencias que desea generar&quot;_.
 1. Haga clic en **[!UICONTROL Generar]**.
 
-De forma predeterminada, se genera y se muestra en el lienzo una variación (alimentada por el mensaje, las directrices y el contenido añadido).
+De forma predeterminada, se generan y muestran en el lienzo cuatro variaciones (impulsadas por el mensaje, las directrices y el contenido añadido).
 
 ## Revisión de anuncios en pantalla generados
 
