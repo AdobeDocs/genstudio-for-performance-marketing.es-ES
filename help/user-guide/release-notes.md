@@ -2,10 +2,10 @@
 title: Notas de la versión de Adobe GenStudio for Performance Marketing
 description: Obtenga información sobre las últimas funciones y mejoras de Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-source-git-commit: ea897aaf6069aa70ef73baf961f56e485eeb383e
+source-git-commit: b502e0a558cbc26c70d813938734a2f6f230dc8e
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 5%
+source-wordcount: '656'
+ht-degree: 3%
 
 ---
 
@@ -13,11 +13,55 @@ ht-degree: 5%
 
 Esta información de la versión detalla las últimas actualizaciones de la aplicación de GenStudio for Performance Marketing.
 
-## 2024.10.31  {#latest}
+## 2024.11.07 {#latest}
+
+### Correcciones
+
+* El control de número _Guardar en curso_ ya no se muestra cuando un usuario hace clic en **[!UICONTROL Cargar nueva imagen]** y cancela la operación antes de que se complete la carga. <!-- GS-6780 -->
+
+* Los títulos de las experiencias ahora se crean correctamente durante la regeneración de la experiencia. <!-- GS-7006 -->
+
+* Se han resuelto los problemas con las barras de desplazamiento parpadeantes durante la carga del borrador. <!-- GS-5587 -->
+
+* El vínculo `View documentation` en la ventana emergente [!DNL Content] _Agregar la plantilla aprobada_ funciona ahora según lo esperado. <!-- GS-6881 -->
+
+* La eliminación de una imagen del cajón de mensajes durante una operación de cambio de tamaño ya no provoca un error. <!-- GS-7115 7009 -->
+
+* Ahora, seleccionar **[!UICONTROL Eliminar]** del menú de acción [!DNL Create] (...) funciona según lo esperado. <!-- GS-6871 -->
+
+* Ahora los usuarios pueden controlar todos los elementos interactivos de las plantillas de publicidad Meta mediante el teclado. <!-- GS-4066 -->
+
+* Se ha añadido la extracción de dimensiones de imagen de campos de imagen de plantilla para mostrar plantillas de anuncios. Las solicitudes de recorte inteligente ahora se envían para la dimensión real de la imagen y no para toda la plantilla. <!-- GS-6926 -->
+
+* Se localizó la cadena `Zoom to fit to screen` en el correo electrónico y los anuncios Meta generados. <!-- GS-5063 -->
+
+* El cajón de mensajes [!DNL Create] ahora se cierra como se espera cuando un usuario hace clic fuera. <!-- GS-5254 -->
+
+* La exportación de meta-ads ahora incluye la etiqueta de llamada a la acción seleccionada según lo esperado. <!-- GS-6504 -->
+
+* La puntuación de la marca ahora se actualiza y se conserva según lo esperado para las experiencias regeneradas. <!-- GS-6535 -->
+
+* La exportación de HTML de anuncios Meta y anuncios de visualización ya no incluye los elementos envolvente `div` y `chrome`. <!-- GS-7116 -->
+
+* Ya se han resuelto los problemas con el procesamiento del borrador de correo electrónico durante la publicación. <!-- GS-6394 -->
+
+* El botón Lienzo **[!UICONTROL Marca]** ahora está deshabilitado cuando no se genera una puntuación de marca. <!-- GS-6429 -->
+
+* El conmutador Facebook/Instagram de la barra de acciones Lienzo ahora actualiza las representaciones de experiencias como se espera cuando la configuración Lienzo `ReadOnly` está habilitada. <!-- GS-7039 -->
+
+#### Regeneración de imagen
+
+* Ahora, cambiar el tamaño de varias variantes de MetaAd funciona según lo esperado. Anteriormente, el lienzo no mostraba variantes regeneradas, pero permanecía en blanco. <!-- GS-7010 -->
+
+* La regeneración de fragmentos ahora funciona según lo esperado para las experiencias cuyo tamaño se ha cambiado. <!-- GS-6836 -->
+
+* La regeneración de las imágenes de Meta y Ad después de cambiar su tamaño ya no provoca un error. Anteriormente, el cambio de tamaño de las imágenes antes de la regeneración cambió los metadatos de canal de `meta` a `facebook`. <!-- GS-7042 -->
+
+## 2024.10.31
 
 ### Nuevas funciones
 
-* El filtro de búsqueda **[!DNL Content]** ahora admite la búsqueda por etiqueta de color.  <!-- GS-5501 -->
+* El filtro de búsqueda **[!DNL Content]** ahora admite la búsqueda por etiqueta de color. <!-- GS-5501 -->
 
 * El lienzo **[!DNL Create]** ahora muestra recuentos de caracteres para los fragmentos de correo electrónico. <!-- GS-5819 -->
 
