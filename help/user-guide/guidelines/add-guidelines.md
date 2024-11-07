@@ -1,24 +1,24 @@
 ---
-title: Agregar directrices al Adobe GenStudio para marketing de rendimiento
-description: Aprenda a agregar directrices ([!DNL Brands], [!DNL Products] y [!DNL Personas]) en el Adobe GenStudio de marketing de rendimiento.
+title: Adición de directrices a Adobe GenStudio for Performance Marketing
+description: Aprenda a agregar directrices ([!DNL Brands], [!DNL Products] y [!DNL Personas]) en Adobe GenStudio for Performance Marketing.
 feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: 11bd93e90a01d89adb9ed12d1e93774c67f27b6b
+source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1651'
 ht-degree: 0%
 
 ---
 
 # Adición de directrices
 
-[[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) y [[!DNL Personas]](/help/user-guide/guidelines/personas.md) son directrices definidas por el usuario en GenStudio para el marketing de rendimiento que garantizan que cualquier contenido generado por IA se personalice para alinearse con la identidad de la marca, lo que permite una personalización eficaz del contenido.
+[[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) y [[!DNL Personas]](/help/user-guide/guidelines/personas.md) son directrices definidas por el usuario en GenStudio for Performance Marketing que garantizan que cualquier contenido generado por IA se personalice para alinearse con la identidad de la marca, lo que permite una personalización eficaz del contenido.
 
 Consulte la [descripción general de las directrices](/help/user-guide/guidelines/overview.md).
 
-Añadir directrices a GenStudio para el marketing de rendimiento es un paso importante en el proceso de creación. Las directrices informan el proceso de creación de contenido, junto con indicadores definidos por el usuario y tecnología de IA generativa de Adobe, para crear recursos impactantes.
+Añadir directrices a GenStudio for Performance Marketing es un paso importante en el proceso de creación. Las directrices informan el proceso de creación de contenido, junto con indicadores definidos por el usuario y tecnología de IA generativa de Adobe, para crear recursos impactantes.
 
 ## Agregar [!DNL Brands]
 
@@ -44,7 +44,7 @@ Ver [[!DNL Brands]](/help/user-guide/guidelines/brands.md).
 
 1. Seleccione **[!UICONTROL Agregar marca]**.
 
-Con la tecnología de IA generativa de Adobe, GenStudio para marketing de rendimiento extrae información de los documentos cargados y comienza a crear su marca. La información de la marca, como la voz de la marca, el canal y las directrices de imagen, se rellena a medida que se ensamblan las directrices de los documentos de marca.
+Con la tecnología de IA generativa de Adobe, GenStudio for Performance Marketing extrae información de los documentos cargados y comienza a crear su marca. La información de la marca, como la voz de la marca, el canal y las directrices de imagen, se rellena a medida que se ensamblan las directrices de los documentos de marca.
 
 Una ventana emergente le recuerda que revise el contenido extraído antes de [publicar la marca](#publish-brand).
 
@@ -72,31 +72,46 @@ Puede agregar manualmente los detalles de la marca, en lugar de cargar documento
 
 Para ver su [!DNL Brands] creado, haga clic en la flecha hacia atrás cerca de la parte superior del panel _Marca_ para volver a la página de inicio de _[!DNL Brands]_.
 
-No tiene que [publicar](#publish-brand) su marca para que la información sea accesible. Cualquier información añadida manualmente está disponible inmediatamente después de agregarse. Para que otros miembros de su organización utilicen la información de marca en GenStudio para el marketing de rendimiento, debe publicarla.
+No tiene que [publicar](#publish-brand) su marca para que la información sea accesible. Cualquier información añadida manualmente está disponible inmediatamente después de agregarse. Para que otros miembros de su organización utilicen la información de marca en GenStudio for Performance Marketing, debe publicarla.
 
 ### marca Publish
 
 Antes de publicar su marca, haga clic en las secciones _Directrices de voz de marca_, _Directrices de canal_, _Directrices de imagen_ y _Logotipos_ para revisar toda la información rellenada. Realice los cambios necesarios en las directrices de marca.
 
-**Para publicar la marca**:
+**Para publicar un borrador de directrices de marca**:
 
+1. En el área de navegación izquierda, haga clic en **[!UICONTROL [!DNL Brands]]**.
+
+   Un distintivo _Publicado_ es visible para todas las marcas que están publicadas actualmente.
+
+1. Haga clic en para abrir una marca no publicada. Si la marca no se publica, se ve un botón **[!UICONTROL Publish]**.
+1. En la ventana emergente _Publish brand_, verifique quién tiene acceso para ver y utilizar la marca publicada.
 1. Seleccione **[!UICONTROL Publicar]**.
+1. En la ventana emergente _Publish brand_ que aparece, selecciona **[!UICONTROL Publish]**.
 
-   En la ventana emergente _Publish brand_, verifique quién tiene acceso (para ver y usar) a la marca publicada.
+   La ventana emergente confirma que la marca está publicada: &quot;La nueva marca ya está lista&quot;.
 
-1. Haga clic en **[!UICONTROL Publicar]**.
+1. Haga clic en **[!UICONTROL Listo]** para salir de la ventana emergente.
 
-Cuando se publique la marca, aparecerá un banner que confirma que la marca está lista para usar: &quot;*Marca publicada y disponible para usar*&quot;.
+La marca muestra un punto verde y &quot;Publicado&quot;, y aparece un botón **[!UICONTROL Publish]**.
+
+**Para cancelar la publicación de una marca publicada**, haga clic para abrirla y luego haga clic en **[!UICONTROL Publish]**.
 
 La marca publicada ya está disponible para su uso en _[!DNL Create]_o_[!DNL Content]_.
 
 ### Administrar [!DNL Brands]
 
-En la página de inicio de _[!DNL Brands]_, puede hacer clic para **abrir una marca ya creada**para editarla o revisarla, o **cambiar el nombre**o **eliminar una marca**de la lista del menú de acción de [!DNL Brands]:
+En la página de inicio _[!DNL Brands]_, puede hacer clic para abrir una marca ya creada y administrarla o publicarla.
 
-* Haga clic en un mosaico de marca para abrir una marca.
-* Seleccione **[!UICONTROL Cambiar nombre]** en el menú de acciones [!DNL Brands] para cambiar el nombre de una persona existente.
-* Seleccione **[!UICONTROL Eliminar]** del menú de acciones [!DNL Brands] para eliminar una marca.
+**Para ver o modificar una marca**:
+
+1. En el área de navegación izquierda, haga clic en **[!UICONTROL [!DNL Brands]]**.
+1. Para ver la información general de una marca, haga clic en para abrir una marca definida.
+1. Para ver detalles individuales o modificar las directrices de marca, haga clic en [**[!UICONTROL Directrices de voz de marca]**](#brand-voice-guidelines), [**[!UICONTROL Directrices de canal]**](#channel-guidelines), **[!UICONTROL Directrices de imagen]** o **[!UICONTROL Logotipos]** en la parte superior.
+1. Para cambiar el nombre de una marca existente, selecciona **[!UICONTROL Cambiar nombre]** en el menú de acción [!DNL Brands].
+1. Para eliminar una marca, selecciona **[!UICONTROL Eliminar]** en el menú de acción [!DNL Brands].
+
+Puede cargar documentos de directrices de marca (hasta tres archivos de PDF o DOC) en GenStudio for Performance Marketing para crear automáticamente una marca.
 
 ## Agregar [!DNL Products]
 
@@ -176,7 +191,7 @@ Para agregar una persona, [sube una guía de persona](#upload-a-persona) o [crea
 
 En el área de navegación izquierda, haga clic en **[!DNL Personas]**. En el panel _[!DNL Personas]_, seleccione **Agregar persona**.
 
-Puede agregar [!DNL Persona] en GenStudio para el marketing de rendimiento con el fin de ayudar a dirigir el contenido que cree a su audiencia ideal.
+Puede agregar [!DNL Persona] en GenStudio for Performance Marketing para ayudar a dirigir el contenido que cree a su audiencia ideal.
 
 Ver [[!DNL Personas]](personas.md).
 
