@@ -5,9 +5,9 @@ feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, 
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 5cd6abba1f56c9a2875c7e7dc5b94a353fc5e78e
+source-git-commit: 885900eb259246c2d86a07791a1b7070e0dbf12a
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
@@ -124,5 +124,7 @@ Para que los anuncios en pantalla generados estén disponibles para su uso actua
 
 1. **Para exportar las nuevas experiencias de anuncios en pantalla**, haga clic en **[!UICONTROL Exportar]** en la barra de herramientas superior.
    1. Seleccione el formato (solo para el JPG) y haga clic en **[!UICONTROL Exportar]**.
+
+      El HTML exportado debe colocarse dentro de una propiedad web predefinida, como una plantilla o un contenedor de `div`. Sin estas cotas definidas, las imágenes pueden aparecer distorsionadas cuando se visualizan de forma independiente.
 
 Ver [[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content).
