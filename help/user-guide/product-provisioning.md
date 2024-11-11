@@ -3,16 +3,17 @@ title: Aprovisionar Adobe GenStudio for Performance Marketing
 description: Obtenga información sobre el aprovisionamiento del producto GenStudio for Performance Marketing.
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
-source-git-commit: 3e9a2a4f42ba79389691705c571bf6bbd0b990c5
+exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
+source-git-commit: 0998362a50c63958e331796fd1deebd61f170d2e
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
 
 # Aprovisionar Adobe GenStudio for Performance Marketing
 
-El aprovisionamiento de productos es la configuración única de la instancia de GenStudio for Performance Marketing de su organización. Un administrador del sistema de Adobe realiza estas tareas de aprovisionamiento inicial en [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview). Desde el Admin Console, un administrador del sistema de Adobe puede acceder al perfil de producto de GenStudio y asignar las licencias de producto disponibles a los usuarios.
+Un administrador del sistema de Adobe realiza tareas de aprovisionamiento iniciales en [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview). Desde el Admin Console, un administrador del sistema de Adobe puede acceder al perfil de producto de GenStudio y asignar las licencias de producto disponibles a los usuarios.
 
 >[!NOTE]
 >

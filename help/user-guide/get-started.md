@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo empezar a utilizar GenStudio for P
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 6454090c9fffb4b288b615680597b80e5b71a89c
+source-git-commit: 3c391753ebd0d19ad7dcb17870915eeccc55cc05
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Siga estas prácticas recomendadas al preparar las directrices:
 
 * Evite la redundancia. Puede sentirse tentado a repetir una directiva varias veces, pero la redundancia en sus directrices no ayuda al LLM subyacente a capturar e implementar sus directrices de marca.
 
-* Identifique los elementos que desea que el LLM excluya durante la generación de contenido (por ejemplo, exclamaciones en el texto)
+* Identifique los elementos que desea que el LLM excluya durante la generación de contenido (por ejemplo, exclamaciones en el texto).
 
 Puede cargar documentos de directrices o consultarlos cuando introduzca manualmente información en GenStudio for Performance Marketing. Consulte [Agregar directrices](./guidelines/overview.md) para obtener instrucciones sobre cómo cargar o escribir esta información.
 
@@ -49,16 +49,28 @@ Puede cargar documentos de directrices o consultarlos cuando introduzca manualme
 
 Un administrador del sistema de GenStudio puede preparar la estructura de IA generativa subyacente del producto introduciendo o cargando manualmente los requisitos de marca específicos de su organización. Aunque la configuración de las directrices de marca de una organización es una acción única, puede revisar y mejorar estas directrices en función de la volatilidad, el crecimiento y las circunstancias cambiantes del mercado de su organización.
 
-### Paso 2: Cargar plantillas
+## Paso 2: Configurar un proyecto de Adobe Admin Console para GenStudio [!DNL Brands]
+
+Los administradores del sistema deben completar tareas de configuración adicionales para que los colaboradores puedan editar o crear [!DNL Brands]. Los administradores del sistema de Adobe realizan estas tareas en Adobe Admin Console:
+
+* Cree un nuevo grupo de usuarios que incluya a todos los usuarios que necesitan editar y crear [!DNL Brands] autorizaciones.
+
+* Cree un nuevo proyecto en Adobe Admin Console.
+
+Consulte [Asignar permisos de marca](configure-brand-permissions.md).
+
+### Paso 3: Cargar plantillas
 
 Las plantillas aceleran la creación de contenido. Una plantilla contiene funciones aprobadas, como encabezados y pies de página, y está optimizada para canales específicos. Normalmente, los administradores de sistemas cargan y administran plantillas para su organización. Los editores de contenido utilizan plantillas para impulsar el proceso de creación de contenido dentro de los límites establecidos de la marca de la organización.
 
-Consulte [Trabajar con plantillas](./content/use-templates.md) para obtener instrucciones sobre cómo personalizar y cargar plantillas.
+Ver [Trabajar con plantillas](./content/use-templates.md).
 
-### Paso 3: cargar los recursos aprobados
+### Paso 4: cargar los recursos aprobados
 
-Los recursos aprobados en [!DNL Content] están disponibles para todos los editores de GenStudio for Performance Marketing. Puede rellenar [!DNL Content] con recursos que los editores de contenido pueden usar en la creación de experiencias o recursos nuevos. Consulte [Cargar recursos aprobados](./content/manage-assets.md) para obtener instrucciones sobre cómo cargar y administrar recursos.
+Los recursos aprobados en [!DNL Content] están disponibles para todos los editores de GenStudio for Performance Marketing. Puede rellenar [!DNL Content] con recursos que los editores de contenido pueden usar en la creación de experiencias o recursos nuevos.
 
-### Paso 4: Conectarse a una cuenta de Meta (Facebook)
+Ver [Cargar recursos aprobados](./content/manage-assets.md).
+
+### Paso 5: Conectarse a una cuenta de Meta (Facebook)
 
 Configure una conexión entre GenStudio for Performance Marketing y las cuentas sociales de su organización para recibir datos de sus campañas de marketing, recursos y experiencias activos. [[!DNL Insights]](./insights/overview.md) proporciona herramientas para analizar datos derivados del canal. Ver [Conectarse a una cuenta de Meta (Facebook)](./insights/connect-channel.md#meta-ads-connect).
