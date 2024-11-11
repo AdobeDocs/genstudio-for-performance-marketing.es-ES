@@ -3,9 +3,9 @@ title: Detalles del recurso
 description: Adobe GenStudio for Performance Marketing almacena contenido aprobado con metadatos enriquecidos para permitir búsquedas y realizar un seguimiento del rendimiento.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: edd27a6151cb81213ee27813beb4ecee835a1229
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,9 @@ Los metadatos predeterminados que se almacenan y capturan para un recurso incluy
 
 ### Etiquetas generadas
 
-Cuando almacena un recurso aprobado en [!DNL Content], GenStudio for Performance Marketing utiliza la IA de Adobe y las capacidades de aprendizaje automático para estudiar el recurso y aplicar etiquetas basadas en las funciones del recurso. Por ejemplo, la imagen de un gato puede generar etiquetas de atributos como `pet photography` o `cat`, y etiquetas de color que identifican colores dominantes en la imagen. No puede editar etiquetas.
+Cuando almacena un recurso aprobado en [!DNL Content], GenStudio for Performance Marketing utiliza la IA de Adobe y las capacidades de aprendizaje automático para estudiar el recurso y aplicar etiquetas basadas en las funciones del recurso. Por ejemplo, la imagen de un gato puede generar etiquetas de atributos como `pet photography` o `cat`, y etiquetas de color que identifican colores dominantes en la imagen. No se pueden editar las etiquetas que se detectan y aplican automáticamente.
 
-Consulte [Atributos de Insights](/help/user-guide/insights/attributes.md).
+Consulte [!DNL Insights] [Categorías de atributos](/help/user-guide/insights/attribute-category.md) para obtener listas detalladas de las características de imagen, vídeo y texto.
 
 ### Metadatos de contenido generados
 

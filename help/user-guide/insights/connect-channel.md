@@ -4,9 +4,9 @@ description: Conecte una cuenta de canal para monitorizar las campañas de marke
 level: Intermediate
 feature: Insights, Channels
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 7b3ecc1964df3d5a3fdc5c32b1e5c80f29133560
+source-git-commit: 310a6ea3b64e223222e0664750547be1812b8ef6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ GenStudio for Performance Marketing retiene los datos de canal durante 13 meses.
 
 **Para conectar una cuenta de Meta ads en GenStudio for Performance Marketing**:
 
-1. En _[!DNL Insights]_, haga clic en **[!UICONTROL Conectar una cuenta de canal]**.
+1. En _[!DNL Insights]_, haga clic en **[!UICONTROL Conectar una cuenta de canal]**en el banner o haga clic en el botón **[!UICONTROL Agregar cuentas]**(forma de persona con signo más) en la esquina superior derecha.
 
    Se le puede indicar que inicie sesión en Facebook. Facebook es la única opción disponible en este momento.
 

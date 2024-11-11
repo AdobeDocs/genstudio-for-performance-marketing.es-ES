@@ -1,10 +1,11 @@
 ---
 title: Resumen de experiencias
 description: Vea una descripción general de la participación del cliente, el presupuesto y los gastos para obtener experiencias y el rendimiento de la ubicación de los anuncios en Adobe GenStudio for Performance Marketing.
-feature: Insights, Experiences
-source-git-commit: 87a8833549569aaeaa60f5760b4e9a8b710a6033
+feature: Insights, Experiences, Attributes
+exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
+source-git-commit: 693557104bc880445c021f942b728af10243fe27
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '992'
 ht-degree: 0%
 
 ---
@@ -39,15 +40,20 @@ GenStudio for Performance Marketing admite formatos de anuncio, como fuentes de 
 
 | Instagram | Facebook/Meta | Messenger | Audience Network |
 | ------------ | ---------------- | ------------ | ---------------- |
-| Explorar<br>Explorar la página principal<br>Explorar la página principal de Grid<br>Feed<br>Carretes<br>Fuente de perfiles<br>Buscar<br>Tienda<br>Historias | Exploración empresarial<br>Fuente<br>Vídeo en flujo<br>Mercado<br>Carretes<br>Superposición de carretes<br>Columna derecha<br>Resultados de búsqueda<br>Historias<br>Fuentes de vídeo<br>Anuncios en carretes de Facebook | Bandeja de entrada<br>Historias | Nativo, titular e intersticial<br>Vídeo con recompensa |
+| Explorar<br>Explorar inicio<br>Explorar cuadrícula Inicio<br>Alimentación<br>Carretes<br>Fuente de perfiles<br>Buscar<br>Tienda<br>Historias | Exploración empresarial<br>Fuente<br>Vídeo en flujo<br>Mercado<br>Carretes<br>Superposición de carretes<br>Columna derecha<br>Resultados de búsqueda<br>Historias<br>Fuentes de vídeo<br>Anuncios en carretes de Facebook | Bandeja de entrada<br>Historias | Nativo, banner e intersticial<br>Vídeo premiado |
 
-## Métricas de experiencias
+#### Ubicaciones no admitidas
+
+GenStudio for Performance Marketing no admite las siguientes ubicaciones de anuncios:
+
+- Colaborativo
+- Catálogo/catálogo Advantage+
+- Experiencia de instancia
+- Carrusel
+
+## Rendimiento de experiencia
 
 Las métricas de perspectivas pueden ayudarle a evaluar qué experiencias contribuyen al éxito de una campaña y qué ubicaciones de anuncios son las más efectivas.
-
-<!-- For example, -->
-
-### Detalles de métricas
 
 La siguiente tabla proporciona definiciones y perspectivas para métricas clave de marketing digital en la vista de tabla de [!UICONTROL Experiencias]. Cada métrica incluye una breve definición en relación con los nombres de los anuncios, cómo se calcula la métrica y una o más perspectivas para ayudar a comprender su importancia e impacto en una experiencia.
 
@@ -60,7 +66,18 @@ La siguiente tabla proporciona definiciones y perspectivas para métricas clave 
 | **[!UICONTROL Impresiones]** | Un recuento de cada vez que la ubicación del anuncio o la experiencia se carga en el canal, independientemente de la interacción o visualización. | Un recuento alto de impresiones puede indicar una visibilidad amplia, pero para obtener una perspectiva de rendimiento real, considere la posibilidad de con otras métricas de participación. |
 | **[!UICONTROL Clics]** | Número de veces que los usuarios interactúan con un elemento en el que se puede hacer clic, como un vínculo o un botón de llamada a la acción, en una ubicación de experiencia. | Un alto número de clics indica un fuerte interés y participación en el contenido, que puede ser eficaz y llegar a la audiencia adecuada. |
 | **[!UICONTROL tasa de pulsaciones ]**<br>_CTR_ | Porcentaje (%) de impresiones que generaron clics en la ubicación de la experiencia dentro de una campaña.<br>**Cálculo**: `clicks` dividido por `impressions` | Una alta tasa de clics indica que el contenido es muy relevante y motivador para la audiencia en cuanto a mensajería y diseño, y que se dirige de manera efectiva a los intereses de la audiencia. |
-| **[!UICONTROL CPM ]**<br>_Costo por mil_ | Costo ($) por cada mil impresiones de publicidad para la ubicación de la experiencia.<br>**Cálculo**: importe total `spent` dividido por alcance y luego multiplicado por 1000 | Un valor bajo puede indicar una visibilidad rentable, especialmente cuando se asocia con una tasa de pulsaciones alta. |
-| **[!UICONTROL CPA ]**<br>_Costo por acción_ | Coste promedio ($) empleado para realizar una acción específica del cliente, como una compra o suscripción.<br>**Cálculo**: importe total `spent` dividido por el número de acciones del cliente completadas | Se utiliza para supervisar el gasto en experiencias que resultan en valiosas acciones del cliente. |
-| **[!UICONTROL CPC ]**<br>_Costo por clic_ | Coste promedio ($) asociado con cada clic en una ubicación de experiencia.<br>**Cálculo**: importe total `spent` dividido entre `clicks` | Unos costes medios menores pueden indicar un gasto publicitario rentable, especialmente en comparación con un aumento de las conversiones. |
-| **[!UICONTROL Gasto]** | La cantidad ($) gastada del presupuesto durante un período de tiempo determinado. | Un gasto elevado en un período corto puede indicar un uso rápido, lo que podría dar lugar a un agotamiento prematuro de los recursos. Realice un seguimiento de la cantidad gastada con métricas de rendimiento clave para ayudar a monitorizar la rentabilidad general de la inversión. |
+| **[!UICONTROL CPM ]**<br>_Costo por mil_ | Coste por cada mil impresiones de publicidad para la ubicación de la experiencia.<br>**Cálculo**: importe total `spent` dividido por alcance y luego multiplicado por 1000 | Un valor bajo puede indicar una visibilidad rentable, especialmente cuando se asocia con una tasa de pulsaciones alta. |
+| **[!UICONTROL CPA ]**<br>_Costo por acción_ | Coste promedio empleado para lograr una acción específica del cliente, como una compra o suscripción.<br>**Cálculo**: importe total `spent` dividido por el número de acciones del cliente completadas | Se utiliza para supervisar el gasto en experiencias que resultan en valiosas acciones del cliente. |
+| **[!UICONTROL CPC ]**<br>_Costo por clic_ | Coste promedio asociado con cada clic en una ubicación de experiencia.<br>**Cálculo**: importe total `spent` dividido entre `clicks` | Unos costes medios menores pueden indicar un gasto publicitario rentable, especialmente en comparación con un aumento de las conversiones. |
+| **[!UICONTROL Gasto]** | La cantidad gastada del presupuesto durante un período de tiempo determinado. | Un gasto elevado en un período corto puede indicar un uso rápido, lo que podría dar lugar a un agotamiento prematuro de los recursos. Realice un seguimiento de la cantidad gastada con métricas de rendimiento clave para ayudar a monitorizar la rentabilidad general de la inversión. |
+
+## Rendimiento de ubicación
+
+En la vista _Detalles de la experiencia_, las tres métricas principales reflejan el rendimiento general de la experiencia seleccionada. Sin embargo, la sección _Rendimiento por ubicación_ muestra las métricas detalladas para cada ubicación de anuncio. La siguiente tabla proporciona definiciones para métricas de rendimiento de ubicación:
+
+| Métrica | Definición | Cálculo |
+| ---------------------- | ----------------------------- | ----------- |
+| **[!UICONTROL tasa de pulsaciones ]**<br>_CTR_ | Porcentaje (%) de impresiones que generaron clics en la ubicación de publicidad de la experiencia. | `clicks` dividido por `impressions` |
+| **[!UICONTROL CPA ]**<br>_Costo por acción_ | Coste promedio empleado en la colocación de este anuncio para lograr una acción específica del cliente, como una compra o suscripción. | importe total `spent` dividido por el número de acciones del cliente completadas |
+| **[!UICONTROL CPC ]**<br>_Costo por clic_ | Coste promedio asociado con cada clic en una ubicación de experiencia. | importe total `spent` dividido entre `clicks` |
+| **[!UICONTROL Gasto]** | La cantidad gastada del presupuesto durante un período de tiempo determinado. | |
