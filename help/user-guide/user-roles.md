@@ -4,9 +4,9 @@ description: Obtenga información sobre las funciones de usuario y los permisos 
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
-source-git-commit: 0998362a50c63958e331796fd1deebd61f170d2e
+source-git-commit: 8f8aa9b92a97d528e1dec6e183d0e4ea1e3a5bdc
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1115'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,10 @@ Consulte [Funciones administrativas](https://helpx.adobe.com/enterprise/using/ad
 ## Derechos
 
 _Derechos_ conceden permiso para realizar tareas específicas y acceder a recursos protegidos. Los derechos o permisos se definen en la función de usuario dentro del perfil del producto y los usuarios reciben estos derechos cuando se les asigna esa función.
+
+>[!IMPORTANT]
+>
+>No agregue perfiles de producto nuevos ni edite ni elimine los existentes. Modificar los perfiles de producto predeterminados puede afectar gravemente a la implementación de GenStudio for Performance Marketing.
 
 ## Funciones de los usuarios
 

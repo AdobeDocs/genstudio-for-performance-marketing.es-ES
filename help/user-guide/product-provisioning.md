@@ -4,9 +4,9 @@ description: Obtenga información sobre el aprovisionamiento del producto GenStu
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
-source-git-commit: 0998362a50c63958e331796fd1deebd61f170d2e
+source-git-commit: 8f8aa9b92a97d528e1dec6e183d0e4ea1e3a5bdc
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ Un administrador del sistema de Adobe realiza tareas de aprovisionamiento inicia
 >[!NOTE]
 >
 >Solo los administradores del sistema de Adobe pueden implementar tareas de habilitación que requieran acceso a Adobe Admin Console.
+
+>[!IMPORTANT]
+>
+>No agregue perfiles de producto nuevos ni edite ni elimine los existentes. Modificar los perfiles de producto predeterminados puede afectar gravemente a la implementación de GenStudio for Performance Marketing.
 
 ## Paso 1: Acceso al perfil de producto en Adobe Admin Console
 
