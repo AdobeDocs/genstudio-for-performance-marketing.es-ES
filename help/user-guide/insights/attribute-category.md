@@ -3,9 +3,11 @@ title: Categorías de atributos
 description: Obtenga información sobre las categorías de atributos utilizadas en GenStudio for Performance Marketing.
 feature: Insights, Attributes, Generative AI
 recommendations: noDisplay
-source-git-commit: 3b5fc55595f766db0327b6aefb0e29c3896e00c0
+last-substanial-update: 2024-11-11T00:00:00Z
+exl-id: c3b51ef2-56ac-4dd8-98b7-79185b5998d0
+source-git-commit: 13b5e63afffc5a88d6d8c98fddac6d2d85f6e862
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---
@@ -14,7 +16,7 @@ ht-degree: 1%
 
 Una categoría de atributos es un grupo de clasificación que organiza atributos relacionados que comparten una característica común. Estas categorías ayudan a optimizar el descubrimiento, la identificación y la comprensión de atributos específicos al proporcionar un mayor contexto y facilitar su aplicación y uso.
 
-GenStudio for Performance Marketing usa la IA y las capacidades de aprendizaje automático de Adobe para estudiar imágenes, vídeos y texto y aplicar [!UICONTROL atributos de recursos] en función del nivel de confianza. _Confianza_ hace referencia a la probabilidad de que la IA asigne una predicción o clasificación. En el contexto del aprendizaje automático, es una especie de puntuación que mide cuán &quot;segura&quot; está la IA de que la clasificación es correcta. Cuanto mayor sea la puntuación de confianza, mayor será la certeza. Por ejemplo, al analizar una imagen, la IA puede identificar varias funciones y asignar una puntuación a cada una de ellas, lo que indica cuán segura es de que la función es correcta. La lista de atributos de un recurso no es exhaustiva. Las Assets que contienen un conjunto completo de funciones pueden limitarse a un umbral de confianza, como las tres funciones más dominantes identificadas.
+GenStudio for Performance Marketing usa la IA y las capacidades de aprendizaje automático de Adobe para estudiar imágenes, vídeos y texto y aplicar [!UICONTROL atributos de recursos] según la probabilidad de que sean correctos. La lista de atributos de un recurso no es exhaustiva. Las Assets que contienen un conjunto completo de funciones pueden limitarse a las tres funciones más dominantes identificadas por la API.
 
 ## Funciones de imagen
 
