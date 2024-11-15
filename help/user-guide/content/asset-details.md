@@ -3,9 +3,9 @@ title: Detalles del recurso
 description: Adobe GenStudio for Performance Marketing almacena contenido aprobado con metadatos enriquecidos para permitir búsquedas y realizar un seguimiento del rendimiento.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: edd27a6151cb81213ee27813beb4ecee835a1229
+source-git-commit: a2c2a39a8ed69a36c7126312ac42f6e02dd0598e
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,19 @@ Cada recurso (incluidas experiencias y plantillas) tiene _detalles_ asociados (m
 ## Editar en Express
 
 JPG Puede editar recursos de imagen (o PNG) directamente en GenStudio for Performance Marketing mediante el Adobe Express. El lienzo _[!UICONTROL Powered by Adobe Express]_ proporciona funciones prácticas para mejorar tus imágenes sin salir de la aplicación GenStudio. Puede quitar fondos fácilmente, aplicar rellenos generativos, ajustar efectos y recortar imágenes.
+
+>[!BEGINSHADEBOX]
+
+Criterios para mejorar imágenes con la característica [!DNL Edit in Adobe Express]:
+
+- Los tipos MIME admitidos son `image/png` y `image/jpeg`
+- Las dimensiones mínimas de la imagen son de 50 x 50 píxeles
+- Las dimensiones máximas de la imagen son de 8000 x 8000 píxeles
+- El tamaño máximo es 40 MB (40 000 000 bytes)
+
+>[!ENDSHADEBOX]
+
+**Para editar un recurso con Express**:
 
 1. En _[!DNL Content]_, seleccione un recurso de imagen. Al hacer clic en un recurso, se abre una vista enfocada del recurso.
 
