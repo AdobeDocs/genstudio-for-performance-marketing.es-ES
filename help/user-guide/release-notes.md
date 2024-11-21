@@ -2,10 +2,11 @@
 title: Notas de la versión de Adobe GenStudio for Performance Marketing
 description: Obtenga información sobre las últimas funciones y mejoras de Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
+last-substanial-update: 2024-11-14T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 958ad60d1d9a88e0dd4cba0decf8da8bc398d542
+source-git-commit: 720b23061d7e56a9b1e712d7787158c6a1bb771c
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '791'
 ht-degree: 2%
 
 ---
@@ -28,7 +29,7 @@ Se ha agregado compatibilidad con las plantillas de medios enriquecidos, lo que 
 
 * Los botones de la ventana emergente [!DNL Content] _Experiencias_ **[!UICONTROL Exportar]** ya no están truncados en algunos idiomas. <!-- GS-6873 -->
 
-* Los anuncios de visualización creados con plantillas de tamaño 50 x 50 ahora se exportan con el tamaño de imagen esperado. Anteriormente, los archivos PNG exportados se exportaban al doble de las dimensiones esperadas. <!-- GS-7192 -->
+* Los anuncios de visualización creados con plantillas de tamaño 50 x 50 ahora se exportan con el tamaño de imagen esperado. Anteriormente, los archivos PNG se exportaban al doble de las dimensiones esperadas. <!-- GS-7192 -->
 
 * Los errores de plantilla que se producían cuando se cambió el tamaño de los anuncios de visualización ahora se resuelven. <!-- GS-7322 -->
 
@@ -36,11 +37,13 @@ Se ha agregado compatibilidad con las plantillas de medios enriquecidos, lo que 
 
 Esta versión incluye mejoras en la localización en toda la interfaz de usuario, como:
 
-* Ahora todas las cadenas de la ventana emergente [!DNL Content] _Cargar recurso_ están correctamente localizadas. <!-- GS-6872 6770 -->
+* Todas las cadenas de la ventana emergente [!DNL Content] _Cargar recurso_ se han localizado correctamente. <!-- GS-6872 6770 -->
 * Se ha localizado toda la información de objeto del campo [!DNL Content] _Assets_ vista **[!UICONTROL Buscar]**. <!-- GS-6879 -->
 * Al reemplazar una imagen existente en una variante de correo electrónico en el lienzo [!DNL Create], la vista _Seleccionar del contenido_ ahora está localizada. <!-- GS-6906 -->
 
-## 2024.11.07
+## Notas de la versión anteriores
+
++++Notas de la versión 2024.11.07
 
 ### Correcciones y mejoras
 
@@ -84,7 +87,9 @@ Esta versión incluye mejoras en la localización en toda la interfaz de usuario
 
 * La regeneración de las imágenes de Meta y Ad después de cambiar su tamaño ya no provoca un error. Anteriormente, el cambio de tamaño de las imágenes antes de la regeneración cambió los metadatos de canal de `meta` a `facebook`. <!-- GS-7042 -->
 
-## 2024.10.31
++++
+
++++Notas de 2024.10.31
 
 ### Nuevas funciones
 
@@ -122,10 +127,4 @@ Las principales funciones del producto incluyen:
 
 GenStudio for Performance Marketing se integra con otros productos de Adobe Experience Cloud, incluidos los AEM Assets de Adobe Express y Adobe.
 
-### Más información
-
-Consulte los siguientes recursos útiles:
-
-* [Guía del usuario de Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio/user-guide/home)
-
-* [Academia de Adobe GenStudio](https://learningmanager.adobe.com/genstudioacademy), la plataforma de aprendizaje en línea de Adobe para usar tecnologías de IA generativa en el proceso creativo.
++++
