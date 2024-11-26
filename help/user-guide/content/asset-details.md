@@ -3,9 +3,9 @@ title: Detalles del recurso
 description: Adobe GenStudio for Performance Marketing almacena contenido aprobado con metadatos enriquecidos para permitir búsquedas y realizar un seguimiento del rendimiento.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: a2c2a39a8ed69a36c7126312ac42f6e02dd0598e
+source-git-commit: 7cb19de7f1fe61465046b0d27a528c2f5e1a4d5e
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -26,50 +26,15 @@ Cada recurso (incluidas experiencias y plantillas) tiene _detalles_ asociados (m
    >
    >Si la sección _[!UICONTROL Detalles]_ no está visible, haga clic en el icono **[!UICONTROL Información]** (i).
 
-   Los detalles del recurso incluyen los metadatos aplicados durante el proceso de creación o carga. Los tipos de metadatos de recursos incluyen [metadatos del sistema](#system-metadata) y [metadatos definidos por el usuario](#user-defined-metadata).
+Los detalles del recurso incluyen los metadatos aplicados durante el proceso de creación o carga. Los tipos de metadatos de recursos incluyen [metadatos del sistema](#system-metadata) y [metadatos definidos por el usuario](#user-defined-metadata).
+
+El siguiente recurso de imagen contiene metadatos del sistema que describen el tipo de archivo, el tamaño y otras características, una palabra clave definida por el usuario y varios atributos y colores detectados por IA.
+
+![detalles de un recurso con varias etiquetas](/help/assets/content-asset-details.png)
 
 >[!NOTE]
 >
 >Assets AEM de los repositorios de la muestran metadatos diferentes. Consulte [Configurar la visibilidad de los recursos](connect-aem-repo.md#step-4-configure-asset-visibility) para obtener información sobre cómo configurar [!DNL AEM Assets Content Hub] detalles de recursos.
-
-## Editar en Express
-
-JPG Puede editar recursos de imagen (o PNG) directamente en GenStudio for Performance Marketing mediante el Adobe Express. El lienzo _[!UICONTROL Powered by Adobe Express]_ proporciona funciones prácticas para mejorar tus imágenes sin salir de la aplicación GenStudio. Puede quitar fondos fácilmente, aplicar rellenos generativos, ajustar efectos y recortar imágenes.
-
->[!BEGINSHADEBOX]
-
-Criterios para mejorar imágenes con la característica [!DNL Edit in Adobe Express]:
-
-- Los tipos MIME admitidos son `image/png` y `image/jpeg`
-- Las dimensiones mínimas de la imagen son de 50 x 50 píxeles
-- Las dimensiones máximas de la imagen son de 8000 x 8000 píxeles
-- El tamaño máximo es 40 MB (40 000 000 bytes)
-
->[!ENDSHADEBOX]
-
-**Para editar un recurso con Express**:
-
-1. En _[!DNL Content]_, seleccione un recurso de imagen. Al hacer clic en un recurso, se abre una vista enfocada del recurso.
-
-1. En la vista de recursos, haga clic en el Adobe Express **[!UICONTROL Editar en]** en la esquina superior derecha.
-
-1. En el lienzo _[!UICONTROL Powered by Adobe Express]_, usa los controles Express del panel izquierdo para mejorar tu imagen.
-
-1. Cuando esté satisfecho con la imagen actualizada, haga clic en **[!UICONTROL Guardar una copia]** en la esquina superior derecha.
-
-1. Seleccione el formato de archivo (JPG o PNG) y haga clic en **[!UICONTROL Guardar una copia]**.
-
-1. En la ventana emergente _[!UICONTROL Guardar una copia del recurso]_, actualice **[!UICONTROL Nombre del recurso]**.
-
-   - Seleccione **[!UICONTROL Mismos detalles que el recurso original]** para transferir los detalles del recurso a la nueva imagen.
-
-   - Expanda la sección **[!UICONTROL Más detalles]** para actualizar la campaña, las directrices y otros metadatos.
-
-   >[!TIP]
-   >
-   >Cuantos más detalles proporcione, más experimentará las sólidas capacidades de GenStudio for Performance Marketing. Seleccione uno o más detalles de la lista o introduzca uno nuevo cuando corresponda, por ejemplo, con palabras clave. Cada detalle que agregue aparecerá debajo de la lista. Haga clic **`x`** para eliminar un detalle.
-
-1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Metadatos del sistema
 
@@ -107,7 +72,7 @@ La siguiente tabla detalla los metadatos (detalles del recurso) que puede defini
 | Periodo de tiempo | Periodo de tiempo para el que se utiliza el recurso, como trimestre, temporada, año, etc. Ejemplo: `Winter 2023` |
 | Región | Regiones para las que se utiliza el recurso. Ejemplos: `North America`, `APAC`, `Italy` |
 | Idioma | Idiomas para los que se utiliza el recurso. Ejemplo: `Spanish` |
-| Palabras clave | Palabras clave utilizadas para la identificación adicional de las características y el propósito del activo |
+| Palabras clave | Palabras clave definidas por el usuario que se utilizan para la identificación adicional de características y fines del recurso |
 
 <!-- ## History
 
