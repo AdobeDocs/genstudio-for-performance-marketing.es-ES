@@ -4,10 +4,10 @@ description: Obtenga información sobre las funciones de usuario y los permisos 
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
-source-git-commit: 8f8aa9b92a97d528e1dec6e183d0e4ea1e3a5bdc
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
 source-wordcount: '1115'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,7 @@ Estos títulos de funciones de usuario pueden parecer similares, pero identifica
 
 **Los administradores del sistema de Adobe** tienen privilegios de usuario avanzado en Adobe Admin Console y realizan todas las tareas de administración de usuarios, como agregar o eliminar usuarios. Esta función de administrador del sistema no proporciona privilegios en la aplicación de GenStudio for Performance Marketing, lo que explica por qué los administradores del sistema de Adobe no necesitan una licencia para GenStudio. Los administradores del sistema de Adobe suelen utilizar el Admin Console para agregar y eliminar cuentas de usuario de implementaciones de GenStudio y asignar o quitar derechos o permisos de usuarios o grupos de usuarios individuales.
 
-**Los administradores del sistema de GenStudio** son usuarios avanzados dentro de GenStudio for Performance Marketing, pero no tienen permiso para realizar tareas en Adobe Admin Console. Esta función de administrador del sistema requiere una licencia de producto Genstudio y corresponde a un usuario avanzado en la [descripción del producto de Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html). Los administradores del sistema de GenStudio tienen derecho total a las funciones de GenStudio for Performance Marketing, incluidas [!DNL Brands], [!DNL Persona] y [!DNL Product], creación, eliminación, actualización y publicación. [Descripción del producto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) explica cómo se relacionan las funciones de usuario de GenStudio con las licencias de productos.
+**Los administradores del sistema de GenStudio** son usuarios avanzados dentro de GenStudio for Performance Marketing, pero no tienen permiso para realizar tareas en Adobe Admin Console. Esta función de administrador del sistema requiere una licencia de producto de GenStudio y corresponde a un usuario avanzado en la [descripción del producto de Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html). Los administradores del sistema de GenStudio tienen derecho total a las funciones de GenStudio for Performance Marketing, incluidas [!DNL Brands], [!DNL Persona] y [!DNL Product], creación, eliminación, actualización y publicación. [Descripción del producto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) explica cómo se relacionan las funciones de usuario de GenStudio con las licencias de productos.
 
 Consulte [Funciones administrativas](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise) en la _Guía de administración de empresas y equipos_.
 
@@ -55,17 +55,17 @@ Los editores interactúan con las tecnologías de IA generativa de GenStudio for
 
 La siguiente tabla muestra los permisos de editor predeterminados:
 
-| Funcionalidad | Crear | Actualizar | Eliminar | Ver |
+| Función | Crear | Actualizar | Eliminar | Ver |
 |-----------|----------------|----------------|----------------|----------------|
-| [!DNL Brands] | no | no | no | yes |
-| [!DNL Campaigns] | yes | yes | yes | yes |
-| [!DNL Content] | yes | yes | yes | yes |
-| [!DNL Create] | yes | yes | yes | yes |
-| [!DNL Insights] | solo puede configurar conectores |    |     | yes |
-| [!DNL Personas] | yes | sí* | sí* | yes |
-| [!DNL Products] | yes | sí* | sí* | yes |
-| [!DNL Reviews and approvals] | yes | yes | yes | yes |
-| [!DNL Templates] | no | no | no | yes |
+| [!DNL Brands] | no | no | no | sí |
+| [!DNL Campaigns] | sí | sí | sí | sí |
+| [!DNL Content] | sí | sí | sí | sí |
+| [!DNL Create] | sí | sí | sí | sí |
+| [!DNL Insights] | solo puede configurar conectores |    |     | sí |
+| [!DNL Personas] | sí | sí* | sí* | sí |
+| [!DNL Products] | sí | sí* | sí* | sí |
+| [!DNL Reviews and approvals] | sí | sí | sí | sí |
+| [!DNL Templates] | no | no | no | sí |
 
 Los editores pueden editar y eliminar [!DNL Personas] y [!DNL Products] que hayan creado.
 
@@ -77,17 +77,17 @@ _Los colaboradores_ pueden ver los recursos en GenStudio for Performance Marketi
 
 En la tabla siguiente se muestran los permisos de colaborador predeterminados:
 
-| Funcionalidad | Crear | Actualizar | Eliminar | Ver |
+| Función | Crear | Actualizar | Eliminar | Ver |
 |-----------|----------------|----------------|----------------|----------------|
-| [!DNL Brands] | no | no | no | yes |
-| [!DNL Campaigns] | no | no | no | yes |
-| [!DNL Content] | no | no | no | yes |
-| [!DNL Create] | no | no | no | yes |
-| [!DNL Insights] | no | no | no | yes |
-| [!DNL Personas] | no | no | no | yes |
-| [!DNL Products] | no | no | no | yes |
-| [!DNL Reviews and approvals] | no | no | no | yes |
-| [!DNL Templates] | no | no | no | yes |
+| [!DNL Brands] | no | no | no | sí |
+| [!DNL Campaigns] | no | no | no | sí |
+| [!DNL Content] | no | no | no | sí |
+| [!DNL Create] | no | no | no | sí |
+| [!DNL Insights] | no | no | no | sí |
+| [!DNL Personas] | no | no | no | sí |
+| [!DNL Products] | no | no | no | sí |
+| [!DNL Reviews and approvals] | no | no | no | sí |
+| [!DNL Templates] | no | no | no | sí |
 
 ### administradores del sistema de GenStudio
 
@@ -95,16 +95,16 @@ _Administradores del sistema de GenStudio_ tienen el conjunto más potente de pe
 
 En la tabla siguiente se muestran los permisos predeterminados del administrador del sistema:
 
-| Funcionalidad | Crear | Actualizar | Eliminar | Ver |
+| Función | Crear | Actualizar | Eliminar | Ver |
 |-----------|----------------|----------------|----------------|----------------|
-| [!DNL Brands] | yes | yes | yes | yes |
-| [!DNL Campaigns] | yes | yes | yes | yes |
-| [!DNL Content] | yes | yes | yes | yes |
-| [!DNL Insights] | yes | yes | yes | yes |
-| [!DNL Personas] | yes | yes | yes | yes |
-| [!DNL Products] | yes | yes | yes | yes |
-| [!DNL Reviews and approvals] | yes | yes | yes | yes |
-| [!DNL Templates] | yes | yes | yes | yes |
+| [!DNL Brands] | sí | sí | sí | sí |
+| [!DNL Campaigns] | sí | sí | sí | sí |
+| [!DNL Content] | sí | sí | sí | sí |
+| [!DNL Insights] | sí | sí | sí | sí |
+| [!DNL Personas] | sí | sí | sí | sí |
+| [!DNL Products] | sí | sí | sí | sí |
+| [!DNL Reviews and approvals] | sí | sí | sí | sí |
+| [!DNL Templates] | sí | sí | sí | sí |
 
 Los administradores del sistema también pueden cargar plantillas.
 

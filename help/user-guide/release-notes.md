@@ -2,9 +2,9 @@
 title: Notas de la versión de Adobe GenStudio for Performance Marketing
 description: Obtenga información sobre las últimas funciones y mejoras de Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-last-substanial-update: 2024-11-14T00:00:00Z
+last-substantial-update: 2024-11-14T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 720b23061d7e56a9b1e712d7787158c6a1bb771c
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 2%
@@ -111,7 +111,7 @@ Esta versión incluye mejoras en la localización en toda la interfaz de usuario
 
 Esta versión presenta Adobe GenStudio for Performance Marketing, una aplicación generativa basada en IA que acelera la planificación, el desarrollo y el análisis de las campañas de marketing. GenStudio for Performance Marketing permite a los equipos de marketing crear contenido multicanal y de marca para anuncios, correos electrónicos y campañas, a la vez que proporciona perspectivas en tiempo real para optimizar el rendimiento del contenido.
 
-### Características
+### Funciones
 
 Las principales funciones del producto incluyen:
 

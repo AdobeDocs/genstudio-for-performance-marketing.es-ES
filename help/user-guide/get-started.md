@@ -4,7 +4,7 @@ description: Aprenda a configurar su GenStudio para Performance Marketing para g
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 3c391753ebd0d19ad7dcb17870915eeccc55cc05
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 2%
@@ -61,7 +61,7 @@ Consulte [Asignar permisos de marca](configure-brand-permissions.md).
 
 ### Paso 3: Cargar plantillas
 
-Las plantillas aceleran la creación de contenido. Una plantilla contiene funciones aprobadas, como encabezados y pies de página, y está optimizada para canales específicos. Normalmente, los administradores de sistemas cargan y administran plantillas para su organización. Los editores de contenido utilizan plantillas para impulsar el proceso de creación de contenido dentro de los límites establecidos de la marca de la organización.
+Las plantillas aceleran la creación de contenido. Una plantilla contiene funciones aprobadas, como encabezados y pies de página, y está optimizada para canales específicos. Normalmente, los administradores de sistemas cargan y administran plantillas para su organización. Los editores de contenido utilizan plantillas para iniciar el proceso de creación de contenido dentro de los límites establecidos de la marca de la organización.
 
 Ver [Trabajar con plantillas](./content/use-templates.md).
 

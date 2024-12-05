@@ -1,8 +1,8 @@
 ---
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 36%
+source-wordcount: '311'
+ht-degree: 35%
 
 ---
 # Documentación de GenStudio for Performance Marketing
@@ -15,7 +15,7 @@ Este proyecto ha adoptado el [Código de conducta de código abierto de Adobe](c
 
 ### Cambios menores
 
-Si va a contribuir con actualizaciones menores, abra el artículo y haga clic en el vínculo **Editar**, que le lleva al origen de GitHub del artículo. Utilice la interfaz de usuario de GitHub para realizar las actualizaciones. Consulte la [guía para colaboradores de Adobe Docs](https://experienceleague.adobe.com/es_es/docs/contributor/contributor-guide/introduction).
+Si va a contribuir con actualizaciones menores, abra el artículo y haga clic en el vínculo **Editar**, que le lleva al origen de GitHub del artículo. Utilice la interfaz de usuario de GitHub para realizar las actualizaciones. Consulte la [guía para colaboradores de Adobe Docs](https://experienceleague.adobe.com/es/docs/contributor/contributor-guide/introduction).
 
 Las correcciones o aclaraciones menores que envíe para la documentación y los ejemplos de código en este repositorio están sujetos a las condiciones de uso del Adobe.
 
@@ -31,14 +31,14 @@ Si es redactor técnico, administrador de programa o desarrollador de un equipo 
 
 Los colaboradores de la comunidad pueden utilizar la interfaz de usuario de GitHub para la edición básica o bifurcar el repositorio para realizar colaboraciones importantes.
 
-Consulte la [Guía del colaborador de Adobe Docs](https://experienceleague.adobe.com/es_es/docs/contributor/contributor-guide/introduction) para obtener más información.
+Consulte la [Guía del colaborador de Adobe Docs](https://experienceleague.adobe.com/es/docs/contributor/contributor-guide/introduction) para obtener más información.
 
 ## Markdown
 
 Todos los artículos de este repositorio utilizan Markdown al estilo de GitHub. Si no conoce markdown, consulte:
 
 - [Conceptos básicos de markdown](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Hoja de referencia imprimible de markdown](https://docs.github.com/en/get-started/getting-started-with-git/git-cheatsheet)
+- [Hoja de trucos de markdown imprimible](https://docs.github.com/en/get-started/getting-started-with-git/git-cheatsheet)
 
 ## Etiquetas
 

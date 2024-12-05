@@ -3,12 +3,12 @@ title: Categorías de atributos
 description: Obtenga información sobre las categorías de atributos utilizadas en GenStudio for Performance Marketing.
 feature: Insights, Attributes, Generative AI
 recommendations: noDisplay
-last-substanial-update: 2024-11-11T00:00:00Z
+last-substantial-update: 2024-11-11T00:00:00Z
 exl-id: c3b51ef2-56ac-4dd8-98b7-79185b5998d0
-source-git-commit: 13b5e63afffc5a88d6d8c98fddac6d2d85f6e862
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ Las características de imagen representan patrones o elementos distintos e info
 
 <!-- For the writer: turn off word wrap to work with these tables. Option + Z -->
 
-| Categoría | Descripción | Ejemplos |
+| Categoría | Descripción | Ejemplo |
 | ----------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Ángulo de cámara | La ubicación y el ángulo de la cámara en relación con el sujeto. |                                                                                                                                                                                |
 | Distancia al sujeto | Distancia entre la cámara y el sujeto de una imagen. | `close up`, `mid shot`, `long shot` |
@@ -34,7 +34,7 @@ Las características de imagen representan patrones o elementos distintos e info
 | Estado de iluminación | Tipo de luz de una imagen. |                                                                                                                                                                                |
 | Objetos | Identifica uno o más elementos, entidades y elementos que conforman la imagen. | ![girasol, avión, objeto de flor](../../assets/category/image-objects.png){width="200" zoomable="yes"} |
 | Orientación | La posición de la imagen en relación con la relación de aspecto. | `landscape`, `portrait`, `square` |
-| People | Cuando hay al menos una persona presente, uno o más atributos pueden describir a la persona o personas en la imagen. | ![bailarina femenina](../../assets/category/image-people.png){width="200" zoomable="yes"} |
+| Personas | Cuando hay al menos una persona presente, uno o más atributos pueden describir a la persona o personas en la imagen. | ![bailarina femenina](../../assets/category/image-people.png){width="200" zoomable="yes"} |
 | Géneros fotográficos | Detecta el asunto y la técnica utilizados para capturar una imagen, como `abstract` o `landscape` (distinto de la orientación horizontal). |           |
 | Escenas | Detecta la configuración o el entorno representado en una imagen. |                                             |
 | Etiquetas | Detecta objetos, elementos y otras características de imagen que no pertenecen a una clasificación específica. |                                      |
@@ -48,7 +48,7 @@ Las características de imagen representan patrones o elementos distintos e info
 
 Las características de imagen representan elementos, sonidos o patrones distintos e informativos dentro de un vídeo para su análisis con [!DNL Insights]. En la tabla siguiente se enumeran las categorías de funciones de vídeo reconocidas por la API de GenStudio for Performance Marketing.
 
-| Categoría | Descripción | Ejemplos |
+| Categoría | Descripción | Ejemplo |
 | ------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
 | Género de audio | Cuando hay música, el vídeo puede recibir una clasificación de estilo musical, como `electronic` o `classical`. |          |
 | Categoría de género de audio | Cuando hay música, el vídeo puede recibir una clasificación amplia de género musical, como `acoustic` o `traditional`. |          |
@@ -56,7 +56,7 @@ Las características de imagen representan elementos, sonidos o patrones distint
 | Tipos de audio | Cuando hay audio, el vídeo puede recibir una etiqueta para uno o más tipos de audio, como `music` o `speech`. |          |
 | Objetos | Identifica uno o más elementos, entidades y elementos que aparecen en el vídeo. | ![objetos en el vídeo](../../assets/category/video-objects.png){width="200" zoomable="yes"} |
 | Orientación | La posición del vídeo en relación con la relación de aspecto del fotograma. | `landscape`, `portrait`, `square` |
-| People | Cuando hay al menos una persona presente, uno o más atributos pueden describir a la persona o personas en el vídeo. |        |
+| Personas | Cuando hay al menos una persona presente, uno o más atributos pueden describir a la persona o personas en el vídeo. |        |
 | Escenas | La configuración o el entorno que se muestra en el vídeo. |        |
 | Estilos | Detecta tratamientos visuales aplicados a elementos del vídeo, como `matte` o `neon`. |        |
 | Etiquetas | Detecta objetos, elementos y otras características de vídeo que no pertenecen a una clasificación específica. |        |

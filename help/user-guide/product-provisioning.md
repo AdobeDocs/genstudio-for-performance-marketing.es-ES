@@ -4,7 +4,7 @@ description: Obtenga información sobre el aprovisionamiento del producto GenStu
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
-source-git-commit: 8f8aa9b92a97d528e1dec6e183d0e4ea1e3a5bdc
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -65,4 +65,4 @@ Puede agregar usuarios individualmente o importar información de la cuenta de v
 
 * [Administrar varios usuarios/cargar CSV en lotes](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)
 
-Una vez que incorpore usuarios al GenStudio for Performance Marketing de su organización, un administrador del sistema de Genstudio puede [configurar las directrices de marca y medios de su organización](get-started.md).
+Una vez que incorpore usuarios al GenStudio for Performance Marketing de su organización, un administrador del sistema de GenStudio puede [configurar las directrices de marca y medios de su organización](get-started.md).
