@@ -1,11 +1,12 @@
 ---
-title: "Conectarse a un  [!DNL AEM Assets Content Hub] repositorio"
+title: Conectar con un  [!DNL AEM Assets Content Hub] repositorio
 description: Aprenda a conectar Adobe GenStudio for Performance Marketing a un repositorio de Adobe Experience Manager AEM () [!DNL Content Hub] y a aprovechar el contenido aprobado existente.
 level: Experienced
 feature: Assets, Content
-source-git-commit: 82ac164cb852305fce206845d15f04c4b4395387
+exl-id: abb587fd-593c-4b9f-baad-993d92400d9b
+source-git-commit: abe1de42b81bff63d473a67632d27f96db7c1c7d
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,13 +19,13 @@ Si tiene recursos en Adobe Experience Manager AEM (), puede seguir estos pasos p
 
 **Requisitos previos**:
 
-Los siguientes pasos requieren acceso administrativo a Admin Console y AEM Assets as a Cloud Service.
+Los siguientes pasos requieren acceso administrativo al Admin Console y al as a Cloud Service de los AEM Assets.
 
 >[!ENDSHADEBOX]
 
 ## Paso 1: Habilitar [!DNL AEM Assets Content Hub]
 
-Siga el proceso de autoservicio **Implementar Content Hub** para habilitar [!DNL Content Hub] para su AEM Assets existente en Cloud Manager. Ver [Implementar [!DNL Content Hub]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub) en la documentación de _AEM as a Cloud Service_.
+Siga el proceso de autoservicio **Implementar Content Hub** para habilitar [!DNL Content Hub] para los AEM Assets existentes en Cloud Manager. Ver [Implementar [!DNL Content Hub]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub) en la documentación de _AEM as a Cloud Service_.
 
 Después de habilitar [!DNL AEM Assets Content Hub], tiene una nueva instancia con el sufijo `contenthub` en [!DNL AEM Assets as a Cloud Service] en el Admin Console.
 
@@ -54,3 +55,5 @@ Consulte [Configuración de la interfaz de usuario de Content Hub](https://exper
 ## Paso 5: Verificar la conexión
 
 En el contenido de GenStudio for Performance Marketing, la lista _[!UICONTROL Ubicación]_ está disponible encima de la galería, en el lado derecho. La lista no está disponible si no tiene acceso o si su organización no ha implementado y conectado un repositorio [!DNL AEM Assets Content Hub].
+
+Consulte [Ubicación de Assets](manage-assets.md#assets-location) para obtener información sobre la lista Ubicación y los repositorios que se están cambiando.

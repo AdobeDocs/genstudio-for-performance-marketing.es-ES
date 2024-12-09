@@ -3,9 +3,9 @@ title: Creación de plantillas accesibles
 description: Cree plantillas en Adobe GenStudio for Performance Marketing capaces de llegar a una mayor audiencia y proporcionar una experiencia óptima.
 feature: Templates, Content
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: fee67ba0d9781cf16ac909eddf385bd3d60ac97b
+source-git-commit: cc1d750a8a520c793b1b605747c091f8a5f5e1a2
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Proporcione alternativas textuales para el contenido no textual, como las imáge
 <img alt="Collage of ideas, books, man holding giant pencil, computer" src="card-create-assets.png">
 ```
 
-![Collage de ideas, libros, hombre con lápiz gigante, equipo](../../assets/card-create-assets.png){width="400"}
+![Collage de ideas, libros, hombre con lápiz gigante, equipo](/help/assets/card-create-assets.png){width="400"}
 
 ## Fuentes
 

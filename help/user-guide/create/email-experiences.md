@@ -4,13 +4,13 @@ description: Obtenga información sobre las experiencias de correo electrónico 
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: f6483eeb9a4aadc81e1e99796754c978edfa334c
+exl-id: e2bddd02-914e-43a8-92b6-fdcbced94a6a
+source-git-commit: 333d40a733f5417ea182d7708bef38907dfd5722
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Experiencias de correo electrónico
 
@@ -39,7 +39,7 @@ Content creators and marketers can produce brand-consistent email experiences in
 
 Las experiencias de correo electrónico pueden tener varias secciones, lo que permite una personalización completa para alinearse con la marca y los objetivos. [Seleccione [!DNL Products] y recursos visuales para cada sección](/help/user-guide/create/create-email-experience.md#add-parameters) y use [mensajes estructurados](/help/user-guide/effective-prompts.md#structured-prompts) para crear contenido único. Cada sección admite un recurso visual.
 
-Consulte [Preparar una plantilla de correo electrónico](/help/user-guide/content/email-template.md) para aprender a crear una plantilla de varias secciones.
+Consulte [personalización de plantillas con secciones](/help/user-guide/content/customize-template.md#sections-or-groups) para obtener información sobre cómo crear una plantilla de varias secciones.
 
 ## Carga progresiva
 

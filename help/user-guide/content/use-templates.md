@@ -3,10 +3,10 @@ title: Trabajo con plantillas
 description: Descubra cómo utilizar las plantillas de forma eficaz para optimizar el proceso creativo en Adobe GenStudio for Performance Marketing.
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 61a939ae81eb5ff61d741bb1092e9e4c82119f7e
+source-git-commit: bfe1ae2c734b19e474ab1614fa72afea7d35a73e
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +16,9 @@ GenStudio for Performance Marketing permite a los creadores de contenido produci
 
 ## Elementos de plantilla
 
-Una plantilla es un conjunto de instrucciones definidas con HTML y CSS en línea que se pueden utilizar para generar una experiencia de correo electrónico o Meta ad.
+Una plantilla es un conjunto de instrucciones definidas con HTML y CSS en línea que pueden utilizarse para generar una experiencia de correo electrónico, anuncio social o anuncio en pantalla. Los elementos de plantilla proporcionan la estructura para la creación de contenido.
 
-A continuación se muestra una lista de los elementos que se utilizan en las plantillas y algunos detalles sobre sus características.
+A continuación se muestra una lista de los elementos que se utilizan en las plantillas y algunos detalles sobre sus características:
 
 - **Encabezado previo**
 
@@ -73,19 +73,13 @@ A continuación se muestra una lista de los elementos que se utilizan en las pla
 >
 >Ver los [nombres de campo reconocidos](customize-template.md#recognized-field-names) que GenStudio for Performance Marketing admite para las plantillas de cada tipo de canal.
 
-## Configuración de directrices de canal
-
-Se recomienda configurar [directrices de canal](../guidelines/brands.md#channel-guidelines) para cada marca antes de usar las plantillas en GenStudio for Performance Marketing. Las directrices de canal influyen directamente en el tipo de contenido generado al utilizar la plantilla. Por ejemplo, puede establecer límites de caracteres en el cuerpo de un correo electrónico.
-
-![Especificaciones del cuerpo](/help/assets/channel-email-body.png)
-
 ## Personalizar plantilla
 
 Usted [personaliza su plantilla](customize-template.md) para usarla en GenStudio for Performance Marketing al insertar marcadores de posición de contenido, o campos, que la inteligencia artificial aplicada generativa usa para insertar contenido. GenStudio for Performance Marketing reconoce ciertos campos, como el campo `body`, y se adhiere a las directrices de canal configuradas para la marca seleccionada.
 
 >[!TIP]
 >
->Siga [las directrices de accesibilidad para crear plantillas](accessibility-for-templates.md) para que pueda llegar a una mayor audiencia y proporcionar una experiencia óptima.
+>Siga las [directrices de accesibilidad](accessibility-for-templates.md) y las [prácticas recomendadas](/help/user-guide/content/best-practices-for-templates.md) para que pueda llegar a más audiencia y proporcionar una experiencia óptima.
 
 ## Cargar una plantilla
 
@@ -103,7 +97,7 @@ Use [Personalizar plantillas](customize-template.md) como guía al preparar una 
 
    Ejemplo de previsualización para una plantilla de correo electrónico:
 
-   ![Campos de vista previa detectados](../../assets/template-detected-fields.png){width="650"}
+   ![Campos de vista previa detectados](/help/assets/template-detected-fields.png){width="650"}
 
    >[!TIP]
    >
@@ -128,7 +122,7 @@ Busque y utilice una plantilla existente en GenStudio for Performance Marketing 
 
 1. En _[!DNL Content]_, seleccione la sección **[!UICONTROL Plantillas]**.
 
-   ![Lista de plantillas de contenido](../../assets/content-templates.png){width="650" zoomable="yes"}
+   ![Lista de plantillas de contenido](/help/assets/content-templates.png){width="650" zoomable="yes"}
 
 1. Seleccione una plantilla para una vista completa y una lista de detalles.
 

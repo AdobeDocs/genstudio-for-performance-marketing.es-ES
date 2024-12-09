@@ -3,10 +3,10 @@ title: Detalles del recurso
 description: Adobe GenStudio for Performance Marketing almacena contenido aprobado con metadatos enriquecidos para permitir búsquedas y realizar un seguimiento del rendimiento.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 5e1702b26d34f519c4ab321b2adc04754fa1fcb6
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,9 +22,7 @@ Cada recurso (incluidas experiencias y plantillas) tiene _detalles_ asociados (m
 
 1. En la vista de recursos, revise la sección _[!UICONTROL Detalles]_ a la derecha.
 
-   >[!TIP]
-   >
-   >Si la sección _[!UICONTROL Detalles]_ no está visible, haga clic en el icono **[!UICONTROL Información]** (i).
+1. Si la sección _[!UICONTROL Detalles]_ no está visible, haga clic en el icono **[!UICONTROL Información]** (i).
 
 Los detalles del recurso incluyen los metadatos aplicados durante el proceso de creación o carga. Los tipos de metadatos de recursos incluyen [metadatos del sistema](#system-metadata) y [metadatos definidos por el usuario](#user-defined-metadata).
 
@@ -38,9 +36,7 @@ El siguiente recurso de imagen contiene metadatos del sistema que describen el t
 
 ## Metadatos del sistema
 
-Algunos metadatos de recursos se recopilan automáticamente cuando se carga un recurso. No puede editar los metadatos predeterminados del sistema.
-
-Los metadatos predeterminados que se almacenan y capturan para un recurso incluyen el nombre del archivo, sus dimensiones, el origen, etc.
+Algunos metadatos de recursos se recopilan automáticamente cuando se carga un recurso, como el tipo de archivo, el tamaño, las dimensiones, el origen y mucho más. Excepto por el nombre de archivo, no se pueden editar los metadatos predeterminados del sistema.
 
 ### Etiquetas generadas
 

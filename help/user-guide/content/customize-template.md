@@ -4,18 +4,25 @@ description: Aprenda a personalizar y optimizar su plantilla para Adobe GenStudi
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: f95848546abc2decbb5ac52491307977820ce503
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Personalizar una plantilla
 
-Adapte las plantillas de HTML para Adobe GenStudio for Performance Marketing usando el lenguaje de plantilla _Handlebars_. La sintaxis [!DNL Handlebars] utiliza texto normal con llaves dobles como marcadores de posición de contenido. Consulte [`What is [!DNL Handlebars]?`](https://handlebarsjs.com/guide/#what-is-handlebars) en la _Guía de idioma de Handlebars_ para aprender a preparar la plantilla.
+Puede personalizar una plantilla para utilizarla en GenStudio for Performance Marketing insertando marcadores de posición o campos de contenido que la API generativa utiliza para insertar contenido.
 
-En las siguientes secciones se explica cómo agregar marcadores de posición de contenido, ocultar elementos innecesarios de la vista previa y administrar vínculos a contenido estático. Una vez que la plantilla esté lista, puedes [cargarla en GenStudio for Performance Marketing](use-templates.md#upload-a-template) y empezar a generar correos electrónicos personalizados basados en la plantilla personalizada.
+En las siguientes secciones se explica cómo adaptar las plantillas de HTML para GenStudio for Performance Marketing mediante el lenguaje de plantilla _Handlebars_. La sintaxis [!DNL Handlebars] utiliza texto normal con llaves dobles como marcadores de posición de contenido. Ver [¿Qué es [!DNL Handlebars]?](https://handlebarsjs.com/guide/#what-is-handlebars) en la _guía de idioma de Handlebars_ para aprender a preparar la plantilla.
+
+
+Una vez que la plantilla esté lista, puedes [cargarla en GenStudio for Performance Marketing](use-templates.md#upload-a-template) y empezar a generar correos electrónicos personalizados basados en la plantilla personalizada.
+
+>[!TIP]
+>
+>Siga las [directrices de accesibilidad](accessibility-for-templates.md) y las [prácticas recomendadas](/help/user-guide/content/best-practices-for-templates.md) para que pueda llegar a más audiencia y proporcionar una experiencia óptima.
 
 ## Marcadores de contenido
 
@@ -34,14 +41,14 @@ Por ejemplo, puede usar `{{ headline }}` con la sintaxis [!DNL Handlebars] para 
 En la tabla siguiente se enumeran los nombres de campo reconocidos por GenStudio for Performance Marketing para la población en plantillas. Agregue estos nombres de campo con la sintaxis [!DNL Handlebars] a la plantilla donde necesite que GenStudio for Performance Marketing genere contenido.
 
 | Campo | Función | Plantilla de canal |
-| -------------- | ---------------------- | ------------------------------ |
-| `pre_header` | Encabezado previo | email |
-| `headline` | Titular | Enviar correo electrónico a <br>Meta ad |
-| `body` | Copia de cuerpo | Enviar correo electrónico a <br>Meta ad |
-| `cta` | Llamada a la acción | Enviar correo electrónico a <br>Meta ad |
-| `on_image_text` | En texto de imagen | Meta anuncio |
-| `image` | Imagen | Enviar correo electrónico a <br>Meta ad |
-| `brand_logo` | Logotipo de la marca seleccionada<br>Consulte [Nombre del campo del logotipo de la marca](#brand-logo-field-name) para ver el uso recomendado. | correo electrónico<br>Meta anuncio |
+| ------------------ | ---------------------- | -------------------------------- |
+| `{{pre_header}}` | Encabezado previo | email |
+| `{{headline}}` | Titular | correo electrónico <br>Meta ad <br>anuncio de visualización |
+| `{{body}}` | Copia de cuerpo | correo electrónico <br>Meta ad <br>anuncio de visualización |
+| `{{cta}}` | Llamada a la acción | correo electrónico <br>Meta ad <br>anuncio de visualización |
+| `{{on_image_text}}` | En texto de imagen | Meta anuncio |
+| `{{image}}` | Imagen: seleccionar del contenido | correo electrónico <br>Meta ad <br>anuncio de visualización |
+| `{{brand_logo}}` | Logotipo de la marca seleccionada<br>Consulte [Nombre del campo del logotipo de la marca](#brand-logo-field-name) para ver el uso recomendado. | correo electrónico<br>Meta anuncio |
 
 GenStudio for Performance Marketing rellena ciertos campos automáticamente en las siguientes plantillas:
 
@@ -93,23 +100,27 @@ Para crear una sección editable, agregue corchetes dobles alrededor del nombre 
 
 _Las secciones_ informan a GenStudio for Performance Marketing de que los campos de esta sección requieren un alto grado de coherencia. El establecimiento de esta relación ayuda a la IA a generar contenido que coincida con los elementos creativos de la sección.
 
-Utilice un prefijo de su elección en el nombre del campo para indicar que un campo forma parte de una sección o grupo. Por ejemplo, es posible que desee resaltar el contenido que aparece en un área resaltada:
+Utilice un prefijo de su elección en el nombre del campo para indicar que un campo forma parte de una sección o grupo. Use un nombre de campo (`headline`, `body`, `image` o `cta`) después del guion bajo (`_`). Por ejemplo, el siguiente titular y cuerpo pertenecen a la sección `pod1`:
 
 - `pod1_headline`
 - `pod1_body`
 
-Cada sección solo puede utilizar uno de cada tipo de campo. En el ejemplo anterior, la sección `pod1` solo puede usar un campo `pod1_headline`.
+Cada sección solo puede utilizar uno de cada tipo de campo. En el ejemplo anterior, la sección `pod1` solo puede usar un campo `pod1_headline`. Debido a esta regla, las secciones no se pueden anidar.
 
-Una plantilla puede incluir hasta tres secciones:
+Una plantilla de correo electrónico puede incluir hasta tres secciones. Por ejemplo, la siguiente lista tiene tres secciones de titular y cuerpo:
 
-- `headline`
-- `body`
+- `pre-header`
 - `pod1_headline`
 - `pod1_body`
 - `pod2_headline`
 - `pod2_body`
+- `pod3_headline`
+- `pod3_body`
+- `cta`
 
 GenStudio for Performance Marketing entiende que `pod1_headline` está más relacionado con `pod1_body` que con `pod2_body`.
+
+Consulte [Mensajes estructurados](/help/user-guide/effective-prompts.md#structured-prompts) para aprender a crear un mensaje que genere contenido variable para cada sección de un mensaje de correo electrónico.
 
 ## Previsualización de plantilla
 
@@ -117,7 +128,7 @@ Al [cargar una plantilla](use-templates.md#upload-a-template), GenStudio for Per
 
 Ejemplo de previsualización para una plantilla de correo electrónico:
 
-![Campos de vista previa detectados](../../assets/template-detected-fields.png){width="650"}
+![Campos de vista previa detectados](/help/assets/template-detected-fields.png){width="650"}
 
 ### Previsualización de control
 

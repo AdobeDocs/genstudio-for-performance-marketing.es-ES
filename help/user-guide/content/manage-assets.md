@@ -3,9 +3,9 @@ title: Administración de recursos y experiencias
 description: Simplifique y mejore la administración de los recursos aprobados por la marca para usarlos y reutilizarlos en su recorrido de marketing digital.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 3a32c26ff746989798842afa5798ffa397a19ef8
+source-git-commit: 802ee1b5c403394b66567bbe4bffbda8124f3624
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ La galería muestra un inventario de recursos, experiencias o plantillas aprobad
 
 A continuación se muestra una búsqueda del término `dog` en la galería [!UICONTROL Assets]:
 
-![Vista de Assets con búsqueda en perro](../../assets/content-assets.png)
+![Vista de Assets con búsqueda en perro](/help/assets/content-assets.png)
 
 ### Buscar contenido
 
@@ -51,7 +51,7 @@ Al buscar _Experiencias_, puede usar el filtro **[!UICONTROL Creado por]** para 
 
    Haga clic en **[!UICONTROL Descargar]** (flecha abajo) para usar el recurso en la estación de trabajo local.
 
-### Lugar de residencia
+### Ubicación
 
 De manera predeterminada, los recursos que agrega a [!DNL Content] a través del proceso [!DNL Create] o de la carga se almacenan en el repositorio `GenStudio assets`. El repositorio `GenStudio assets` es de lectura y escritura en GenStudio for Performance Marketing. Esto significa que puede guardar, editar y eliminar recursos en el repositorio `GenStudio assets`.
 
@@ -120,7 +120,7 @@ In the future, need guidance on template upload errors. For now, the UI just say
 
 1. En _[!DNL Content]_, seleccione un recurso de imagen. Al hacer clic en un recurso, se abre una vista enfocada del recurso.
 
-1. En la vista de recursos, haga clic en el icono **[!UICONTROL Eliminar]** (papelera) en la esquina superior derecha.
+1. En la vista de recursos, haga clic en **[!UICONTROL Eliminar]** (papelera) en la esquina superior derecha.
 
 1. En la ventana emergente _Eliminar recurso_, verifique el recurso y haga clic en **[!UICONTROL Eliminar]**.
 
@@ -155,7 +155,7 @@ Criterios para mejorar imágenes con la característica [!DNL Edit in Adobe Expr
 
    - Seleccione **[!UICONTROL Mismos detalles que el recurso original]** para transferir los detalles del recurso a la nueva imagen.
 
-   - Expanda la sección **[!UICONTROL Más detalles]** para actualizar la campaña, las directrices y otros metadatos.
+   - Expanda la sección **[!UICONTROL Más detalles]** para actualizar las directrices y otros metadatos.
 
    >[!TIP]
    >

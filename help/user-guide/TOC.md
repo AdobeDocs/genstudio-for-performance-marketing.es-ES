@@ -4,10 +4,10 @@ breadcrumb-title: Guía del usuario
 user-guide-description: Explore las funcionalidades de Adobe GenStudio for Performance Marketing. Aprenda rápidamente a crear recursos de la marca, generar variaciones y optimizar experiencias.
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
-source-git-commit: 92686c8a0cce6c2e21d2f16e7faa7934693e3f1f
+source-git-commit: cf6e0679999614a4d14d224c9a8dce0b66f50262
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 23%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 23%
    + [Agregar directrices](guidelines/add-guidelines.md)
    + [Validación de marca](guidelines/brand-validation.md)
 + Crear {#create}
-   + [[!DNL Create] descripción general](create/overview.md)
+   + [[!DNL Create] Información general](create/overview.md)
    + [Experiencias de correo electrónico](create/email-experiences.md)
    + [Metaexperiencias](create/meta-experiences.md)
    + [Mostrar experiencias de anuncios](create/display-ad-experiences.md)
@@ -54,8 +54,7 @@ ht-degree: 23%
       + [Trabajar con plantillas](content/use-templates.md)
       + [Personalizar una plantilla](content/customize-template.md)
       + [Crear plantillas accesibles](content/accessibility-for-templates.md)
-      + [Preparar una plantilla de correo electrónico](content/email-template.md)
-      + [Preparar una plantilla de anuncio Meta](content/meta-template.md)
+      + [Prácticas recomendadas para plantillas](content/best-practices-for-templates.md)
 + Campañas {#campaigns}
    + [Resumen de campañas](campaigns/overview.md)
 + Activación {#activation}

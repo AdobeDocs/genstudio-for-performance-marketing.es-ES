@@ -3,10 +3,10 @@ title: Escribir indicadores efectivos
 description: Aprenda a escribir indicaciones efectivas para Adobe GenStudio for Performance Marketing.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: e3745e1eed08512f9f2c7d62a2f3af6812e2019f
+source-git-commit: 79430c3279529c4871141489e409240852e1f4fc
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -57,9 +57,9 @@ Las directrices de GenStudio for Performance Marketing ayudan a la IA generativa
 
 ### Indicadores estructurados
 
-En el caso de los correos electrónicos de varias secciones, puede estructurar las solicitudes para proporcionar instrucciones específicas de cada sección a fin de generar contenido variable para cada sección en un [correo electrónico](/help/user-guide/create/email-experiences.md). Los mensajes estructurados deben hacer referencia directamente a [nombres de sección en la plantilla de correo electrónico](/help/user-guide/content/email-template.md#multi-section-emails) para que el contenido generado se pueda insertar en los marcadores de posición de contenido correspondientes.
+En el caso de los correos electrónicos de varias secciones, puede estructurar las solicitudes para proporcionar instrucciones específicas de la sección a fin de generar contenido variable para cada sección de un correo electrónico. Los mensajes estructurados deben hacer referencia directamente a [nombres de sección en la plantilla de correo electrónico](/help/user-guide/content/customize-template.md#sections-or-groups) para que el contenido generado se pueda insertar en los marcadores de posición de contenido correspondientes.
 
-Por ejemplo, puede indicar a GenStudio for Performance Marketing que genere contenido que promocione un nuevo producto en la primera sección de un correo electrónico y que genere contenido que detalle las ventajas de ahorro del producto en la segunda sección de correo electrónico.
+Por ejemplo, puede indicar a GenStudio for Performance Marketing que genere contenido para un correo electrónico que promocione un nuevo producto en la primera sección y detalle las ventajas de ahorro en la segunda.
 
 La petición de datos estructurada debería:
 
@@ -72,7 +72,7 @@ La petición de datos estructurada debería:
   Por ejemplo, si la plantilla usa `moduleA` o `Group-3` como nombre de sección, puede hacer referencia a esos nombres de sección en el mensaje.
 
 - Siga las reglas o la estructura recomendadas. Si la estructura de la solicitud no cumple el formato proporcionado, se aplica a *todas* las secciones de correo electrónico y sigue facilitando la generación de contenido.
-- Use nombres de sección como [definidos en su plantilla de correo electrónico](/help/user-guide/content/email-template.md#code-an-email-template). Las referencias de solicitud deben coincidir con los nombres de sección codificados en la plantilla de correo electrónico.
+- Utilice los nombres de sección definidos en la plantilla de correo electrónico. Las referencias de solicitud deben coincidir con los nombres de sección codificados en la plantilla de correo electrónico.
 - No distinguir mayúsculas de minúsculas. Por ejemplo, puede usar `Pod` o `pod` en la plantilla de correo electrónico y en la solicitud estructurada.
 - Consulte primero el símbolo del sistema genérico y, a continuación, las directivas específicas de sección.
 - Use dos puntos, un guión, una coma u otra demarcación (`,:;#$!~|@=-%&*^_`) como separación entre la referencia del nombre de sección y la directiva. Por ejemplo, puede usar lo siguiente como directiva de solicitud específica de la sección: `Pod1; Describe how to easily edit text and swap images.`
@@ -91,7 +91,7 @@ Pod2: Focus on Adobe Illustrator and its new generative AI tools, such as Genera
 Pod3: Focus on Adobe Acrobat Pro. Make users aware that with Acrobat Pro they can edit images and text inside a PDF.
 ```
 
-Consulte [Preparar una plantilla de correo electrónico](/help/user-guide/content/email-template.md#code-an-email-template).
+Consulte las [prácticas recomendadas para usar plantillas](/help/user-guide/content/best-practices-for-templates.md).
 
 ## Inténtelo de nuevo
 
