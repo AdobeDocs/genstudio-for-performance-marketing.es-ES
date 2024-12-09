@@ -4,7 +4,7 @@ description: Aprenda a configurar su GenStudio para Performance Marketing para g
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: fd49abb491477b0a8ed5b1f646219458efc49365
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 2%
@@ -49,7 +49,7 @@ Puede cargar documentos de directrices o consultarlos cuando introduzca manualme
 
 Un administrador del sistema de GenStudio puede preparar la estructura de IA generativa subyacente del producto introduciendo o cargando manualmente los requisitos de marca específicos de su organización. Aunque la configuración de las directrices de marca de una organización es una acción única, puede revisar y mejorar estas directrices en función de la volatilidad, el crecimiento y las circunstancias cambiantes del mercado de su organización.
 
-## Paso 2: Configurar un proyecto de Adobe Admin Console para GenStudio [!DNL Brands]
+### Paso 2: Configurar un proyecto de Adobe Admin Console para GenStudio [!DNL Brands]
 
 Los administradores del sistema deben completar tareas de configuración adicionales para que los colaboradores puedan editar o crear [!DNL Brands]. Los administradores del sistema de Adobe realizan estas tareas en Adobe Admin Console:
 
