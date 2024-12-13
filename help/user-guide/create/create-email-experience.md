@@ -1,12 +1,12 @@
 ---
 title: Crear una experiencia de correo electrónico
-description: Aprenda a crear experiencias de correo electrónico en Adobe GenStudio para el marketing de rendimiento.
+description: Aprenda a crear experiencias de correo electrónico en Adobe GenStudio for Performance Marketing.
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 11bd93e90a01d89adb9ed12d1e93774c67f27b6b
+source-git-commit: 763c907598d92779483938295a99d640ee3f4d20
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Este tutorial muestra cómo generar [experiencias de correo electrónico](/help/user-guide/create/email-experiences.md) de marca mediante GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icono de pincel en el área de navegación izquierda).
 
-Para crear una experiencia de correo electrónico efectiva, se recomienda [agregar directrices a GenStudio para el marketing de rendimiento](/help/user-guide/guidelines/add-guidelines.md) y profundizar en los [conceptos básicos para crear un mensaje](/help/user-guide/effective-prompts.md) antes de comenzar.
+Para crear una experiencia de correo electrónico efectiva, se recomienda [agregar directrices a GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) y profundizar en los [conceptos básicos para escribir un mensaje](/help/user-guide/effective-prompts.md) antes de comenzar.
 
 ## Elija una plantilla
 
@@ -42,7 +42,7 @@ Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Pa
 
    ![Elegir persona](/help/assets/persona-select.png){width="600" zoomable="yes"}
 
-   Si no hay marcas, personalidades o productos disponibles en estos menús, [agregue directrices a su GenStudio para marketing de rendimiento](/help/user-guide/guidelines/add-guidelines.md).
+   Si no hay marcas, personalidades o productos disponibles en estos menús, [agregue directrices a su GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Agregue contenido para utilizarlo en la experiencia *y* para influir en la generación de contenido:
    * Haga clic en **[!UICONTROL Seleccionar del contenido]** para seleccionar recursos (imágenes) del repositorio [!DNL Content], filtrar y seleccionar una o más imágenes.
@@ -82,7 +82,7 @@ Antes de seleccionar lo que se enviará para su aprobación o publicación en [!
 **Para revisar las variantes generadas**:
 
 * **Para [editar el nombre del borrador del correo electrónico](/help/user-guide/create/manage-variants.md#change-draft-name)**, haga clic en el título de _Borrador sin título_ en la parte superior del lienzo y escriba un nuevo título.
-* **Para [editar manualmente un correo electrónico](/help/user-guide/create/manage-variants.md#manually-edit-text)**, haga doble clic en cualquiera de los campos de texto editables (como la línea de asunto, el encabezado o la copia de cuerpo) y edítelo según sea necesario
+* **Para [editar manualmente un correo electrónico](/help/user-guide/create/manage-variants.md#manually-edit-text)**, haga clic en cualquiera de los campos de texto editables (como la línea de asunto, el encabezado o la copia de cuerpo) y edítelo según sea necesario
 * **Para [regenerar una sección de una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, haga clic en un campo de texto editable y use las opciones _[!UICONTROL Ediciones sugeridas]_ o escriba una nueva solicitud y haga clic en **[!UICONTROL Generar]**.
 * **Para [agregar o intercambiar imágenes en una variante](/help/user-guide/create/manage-variants.md#swap-image)**, haga clic en un recurso de imagen (o en el área del recurso de imagen si todavía no existe una imagen) y haga clic en **[!UICONTROL Seleccionar o intercambiar a partir del contenido]** o **[!UICONTROL Cargar nueva imagen]** para agregar o intercambiar una imagen en una variante individual.
 * **Para [eliminar un correo electrónico](/help/user-guide/create/manage-variants.md#delete-variant)**, haga clic para seleccionar el título del correo electrónico (por ejemplo, &quot;Correo electrónico 1/4&quot;) y haga clic en **[!UICONTROL Eliminar variante]**.

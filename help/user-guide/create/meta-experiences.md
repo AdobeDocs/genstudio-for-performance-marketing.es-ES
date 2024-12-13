@@ -4,13 +4,13 @@ description: Obtenga toda la información acerca de las metaexperiencias en Adob
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: f6483eeb9a4aadc81e1e99796754c978edfa334c
+exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
+source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
-
 
 # Metaexperiencias
 
@@ -54,3 +54,9 @@ Cada campo y sección de las experiencias Meta y Ad se carga progresivamente en 
 1. Titulares
 1. Texto en la imagen
 1. Se lleva a cabo el proceso de validación de marca y se comprueba [_las directrices de marca_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) para cada variante.
+
+## Recuentos de caracteres
+
+Después de generar un conjunto de metavariantes, puede ver el recuento de caracteres que se muestra para cada sección. Pase el ratón sobre una sección generada (por ejemplo, la línea de asunto o el cuerpo) o haga clic en ella y vea el nombre de la sección y el recuento de caracteres de dicha sección.
+
+![Recuento de caracteres](/help/assets/character-count.png){width="500" zoomable="yes"}

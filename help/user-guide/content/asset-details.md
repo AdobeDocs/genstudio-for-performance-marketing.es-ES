@@ -3,10 +3,10 @@ title: Detalles del recurso
 description: Adobe GenStudio for Performance Marketing almacena contenido aprobado con metadatos enriquecidos para permitir búsquedas y realizar un seguimiento del rendimiento.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 5e1702b26d34f519c4ab321b2adc04754fa1fcb6
+source-git-commit: cd3cfface9121788c1dd0808f7f7db36c36766df
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '706'
+ht-degree: 1%
 
 ---
 
@@ -54,25 +54,53 @@ Los metadatos definidos por el usuario añaden contexto de marketing al contenid
 
 Al [cargar un recurso](/help/user-guide/content/manage-assets.md#add-assets), puede definir un conjunto de detalles de recurso opcionales que existen en GenStudio for Performance Marketing como metadatos. Incluir más detalles puede mejorar la identificación de recursos en las búsquedas y el filtrado.
 
+**Para editar los metadatos definidos por el usuario**:
+
+1. En _[!DNL Content]_, seleccione un recurso, experiencia o plantilla.
+
+1. En la vista de recursos, revise la sección _[!UICONTROL Detalles]_ a la derecha.
+
+1. Haga clic en **[!UICONTROL Editar detalles]** (lápiz) para editar los metadatos del recurso.
+
+   Cuantos más detalles proporcione, más experimentará las sólidas capacidades de GenStudio for Performance Marketing. Seleccione uno o más detalles de la lista o introduzca uno nuevo cuando corresponda, por ejemplo, con palabras clave. Cada detalle que agregue aparecerá debajo de la lista. Haga clic **`x`** para eliminar un detalle.
+
 ### Detalles de metadatos
 
 La siguiente tabla detalla los metadatos (detalles del recurso) que puede definir al crear un recurso.
 
 | Campo | Descripción |
-| ------------- | ----------- |
-| Campañas (nombre del proyecto) | Metadatos predeterminados capturados y almacenados con el recurso |
+| -------------- | ----------- |
+| Título | Nombre del recurso; el título predeterminado puede ser el nombre de archivo original |
+| [!DNL Campaigns] | [[!DNL Campaigns]](/help/user-guide/campaigns/overview.md) incluye contenido promocional con mensajes coherentes para lograr un objetivo comercial<br>Al hacer clic en un vínculo de campaña, accederá a la página de información general de la campaña |
 | [!DNL Brands] | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) se agregó a GenStudio for Performance Marketing y se publicó para su uso |
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) se agregó a GenStudio for Performance Marketing para su uso |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) se agregó a GenStudio for Performance Marketing para su uso |
-| Canales | Tipos de contenido en GenStudio for Performance Marketing para los que se utiliza el recurso, como correo electrónico y anuncios Meta |
+| Canales | Plataformas para distribuir ciertos tipos de contenido, como correo electrónico y anuncios en pantalla |
 | [!UICONTROL Periodo De Tiempo] | Lapso de tiempo para el que se utiliza el recurso, como trimestre, temporada, año, etc. Ejemplo: `Winter 2023` |
 | Región | Regiones para las que se utiliza el recurso. Ejemplos: `North America`, `APAC`, `Italy` |
 | Idioma | Idiomas para los que se utiliza el recurso. Ejemplo: `Spanish` |
-| Keywords | Palabras clave definidas por el usuario que se utilizan para la identificación adicional de características y fines del recurso |
+| Keywords | Las palabras clave definidas por el usuario se utilizan para una mayor identificación de las características y el propósito del recurso |
 
-<!-- ## History
+>[!TIP]
+>
+>Haga clic en **[!UICONTROL Editar detalles]** (lápiz) para editar los metadatos del recurso. Por ejemplo, puede cambiar el nombre del recurso o agregar o quitar palabras clave.
 
-Expand the _[!UICONTROL History]_ section to view a timeline of approvals and activity.
+## Contexto generador
 
-list other activity, show screenshot?
--->
+La sección [!UICONTROL Contexto generador] muestra qué información se utilizó para generar la experiencia, como la `Prompt` utilizada durante el proceso [!DNL Create]. Esta perspectiva puede ayudarle a crear variantes aún más exitosas.
+
+La información puede incluir:
+
+- Parámetros `Brand`, `Product` y `Persona`
+- `Subject line` y `Pre Header` para experiencias de correo electrónico
+- `Headline` y `Body` para anuncios Meta
+
+## Historia
+
+Expanda la sección _[!UICONTROL Historial]_ de una experiencia para ver una cronología de aprobaciones y actividad. Por ejemplo, una experiencia aprobada muestra la fecha, la hora y el aprobador de la aprobación:
+
+```
+Approved
+
+December 10, 2024 at 6:00 PM by Username
+```

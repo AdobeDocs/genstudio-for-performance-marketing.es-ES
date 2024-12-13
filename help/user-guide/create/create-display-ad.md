@@ -5,9 +5,10 @@ feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, 
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 885900eb259246c2d86a07791a1b7070e0dbf12a
+exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
+source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Para diseñar una experiencia atractiva de anuncios en pantalla, se recomienda [
 
 ## Elija una plantilla
 
-Para crear una experiencia de anuncio en pantalla, utilice una plantilla disponible para proporcionar el marco de trabajo para el contenido.
+Para crear una experiencia de anuncio en pantalla, utilice una plantilla disponible para proporcionar el marco de trabajo para el contenido. Consulte [Prácticas recomendadas para plantillas](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para obtener información acerca de las dimensiones de anuncios en pantalla admitidas.
 
 **Para elegir una plantilla de anuncio en pantalla**:
 
@@ -75,6 +76,7 @@ Antes de seleccionar qué enviar para su aprobación o publicación a [!DNL Cont
 
 * **Para [editar el nombre del borrador del anuncio para mostrar](/help/user-guide/create/manage-variants.md#change-draft-name)**, haga clic en el título de _Borrador sin título_ en la parte superior del lienzo y escriba un nuevo título.
 * **Para [editar manualmente un anuncio en pantalla](/help/user-guide/create/manage-variants.md#manually-edit-text)**, haga doble clic en cualquiera de las secciones o campos de anuncios en pantalla (como la línea de asunto, el encabezado o la copia de cuerpo) y edítelo según sea necesario.
+* **Para [volver a generar una sección de una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, haga clic en un campo de texto editable y use las opciones disponibles para reformular, acortar, alargar o generar texto nuevo.
 * **Para [cambiar el tamaño y la proporción de aspecto del anuncio](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**, haga clic en el botón _[!UICONTROL Cambiar tamaño]_ (cuadro con un icono de botón en el lado izquierdo del lienzo) y seleccione un nuevo tamaño y proporción de aspecto para aplicar a todas las variantes. Las variantes se duplican y se cambia su tamaño.
 * **Para [recortar o cambiar la posición de las imágenes](/help/user-guide/create/manage-variants.md#crop-assets)**, pase el ratón sobre la imagen, haga clic en el icono de recorte que aparece y ajuste el tamaño y la ubicación de la imagen. Haga clic en **[!UICONTROL Aplicar]**.
 
@@ -123,7 +125,7 @@ Para que los anuncios en pantalla generados estén disponibles para su uso actua
       ![Publish es un anuncio en pantalla](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
 
 1. **Para exportar las nuevas experiencias de anuncios en pantalla**, haga clic en **[!UICONTROL Exportar]** en la barra de herramientas superior.
-   1. Seleccione el formato (solo para el JPG) y haga clic en **[!UICONTROL Exportar]**.
+   1. Seleccione el formato (HTML e imágenes, PNG o JPG de) y haga clic en **[!UICONTROL Exportar]**.
 
       El HTML exportado debe colocarse dentro de una propiedad web predefinida, como una plantilla o un contenedor de `div`. Sin estas cotas definidas, las imágenes pueden aparecer distorsionadas cuando se visualizan de forma independiente.
 

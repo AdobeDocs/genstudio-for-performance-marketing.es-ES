@@ -2,13 +2,13 @@
 title: Administrar variantes
 description: Personalice y mejore las variantes y los recursos generados para adaptarlos a sus necesidades de marketing digital.
 feature: Content, Assets, Experiences
-source-git-commit: 5e92233248c555a3b0a59bd4dbb0935e4c8cfb1f
+exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
+source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
-
 
 # Administrar variantes
 
@@ -40,23 +40,36 @@ Puede editar los campos de texto en las variantes generadas. Refine el texto par
 
 ## Volver a generar secciones
 
-GenStudio for Performance Marketing tiene la funcionalidad integrada para regenerar secciones únicas de variantes generadas usando _[!UICONTROL ediciones sugeridas]_ y peticiones de datos nuevas.
+GenStudio for Performance Marketing tiene la funcionalidad integrada para regenerar secciones de variantes generadas. Puede reformular, acortar o alargar el texto, o agregar nuevos mensajes para generar contenido nuevo.
 
-Por ejemplo, puede volver a generar la sección de titulares de una variante de anuncio Meta para ver el aspecto que tendrá con un recurso de fondo específico mediante las _[!UICONTROL ediciones sugeridas]_ opciones—_[!UICONTROL Reformular]_, _[!UICONTROL Acortar]_ o _[!UICONTROL Alargar]_— e introduciendo un nuevo mensaje.
+Por ejemplo, puede volver a generar la sección de titulares de una variante de anuncio Meta para ver el aspecto que tendrá con un recurso de fondo específico. Puede _[!UICONTROL Reformular]_, _[!UICONTROL Acortar]_ o _[!UICONTROL Alargar]_ el contenido de una sección, o _[!UICONTROL Generar texto nuevo]_ para agregar un nuevo aviso.
 
 ![Volver a generar secciones](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
 
 **Para volver a generar secciones de variante individuales**:
 
 1. Después de generar un conjunto de variantes, haga clic con el botón derecho en cualquier texto editable de una variante.
-1. Seleccione una opción de _[!UICONTROL ediciones sugeridas]_—_[!UICONTROL Reformular]_, _[!UICONTROL Acortar]_ o _[!UICONTROL Alargar]_.
-   * Elija una opción disponible y haga clic en **[!UICONTROL Reemplazar]**.
-1. (_Opcional_) Seleccione _[!UICONTROL Generar con solicitud] e introduzca una nueva solicitud para cambiar el enfoque del contenido regenerado.
-   * Haga clic en **[!UICONTROL Generar]**.
-1. Si desea regenerar los resultados para ver más opciones, haga clic en el icono de regeneración situado junto a _Results_.
-1. De los _resultados_ que aparecen, seleccione la opción que desee y haga clic en **[!UICONTROL Reemplazar]**.
+1. Para modificar el texto existente, selecciona _[!UICONTROL Reformular]_, _[!UICONTROL Acortar]_ o _[!UICONTROL Alargar]_.
+1. Para generar nuevas opciones de redacción, seleccione _[!UICONTROL Generar nuevo texto]_ e introduzca un nuevo mensaje.
+   1. Haga clic en **[!UICONTROL Generar]**.
+1. Cuando vuelva a generar el texto de una sección, haga clic en el icono de regeneración para ver más opciones de texto.
+1. De los resultados que aparecen, selecciona la opción que desees y haz clic en **[!UICONTROL Reemplazar]**.
 
    La variante se actualiza con el texto revisado.
+
+## Revisión de la llamada a acción
+
+Después de generar un conjunto de variantes, puede revisar el texto y el vínculo de la llamada a la acción (CTA).
+
+**Para revisar el CTA en una variante**:
+
+1. Después de generar un conjunto de variantes, haga clic en el botón que muestra el texto de CTA.
+1. Para cambiar el texto del botón CTA, seleccione una de las opciones disponibles en la lista _Llamar a la acción_.
+1. Para cambiar el vínculo en CTA, haga clic en **[!UICONTROL Vínculo]**.
+   1. Escribe o pega un vínculo nuevo o revisa el vínculo existente en la sección _Editar vínculo_ y haz clic en **[!UICONTROL Aplicar]**. Puede hacer clic en **[!UICONTROL Quitar vínculo]** para quitar el vínculo existente antes de escribir uno nuevo.
+
+
+El vínculo añadido o revisado se aplica a todas las CTA del conjunto de variantes.
 
 ## Recortar recursos
 

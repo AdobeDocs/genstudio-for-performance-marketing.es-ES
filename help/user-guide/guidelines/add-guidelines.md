@@ -5,9 +5,9 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: b644a69fd63c8b1deaf42736659dfe9b3b6bd8ab
+source-git-commit: a308972afc9fa6aeced0168b14d3c5f864d678f8
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1725'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ En el área de navegación izquierda, haga clic en **[!DNL Brands]**. En el pane
 
 ### Cargar una marca
 
-Puede cargar sus propios documentos de marca para rellenar una nueva marca.
+Puede cargar sus propios documentos de directrices de marca (hasta tres archivos de PDF o DOC) en GenStudio for Performance Marketing para crear automáticamente una marca.
 
 Ver [[!DNL Brands]](/help/user-guide/guidelines/brands.md).
 
@@ -85,7 +85,7 @@ Antes de publicar su marca, haga clic en las secciones _Directrices de voz de ma
 
 1. En el área de navegación izquierda, haga clic en **[!UICONTROL [!DNL Brands]]**.
 
-   Un distintivo _Publicado_ es visible para todas las marcas que están publicadas actualmente.
+   Un distintivo _Publicado_ y la última fecha de publicación de la marca son visibles para todas las marcas que están publicadas actualmente.
 
 1. Haga clic en para abrir una marca no publicada. Si la marca no se publica, se ve un botón **[!UICONTROL Publish]**.
 1. En la ventana emergente _Publish brand_, verifique quién tiene acceso para ver y utilizar la marca publicada.
@@ -98,23 +98,30 @@ Antes de publicar su marca, haga clic en las secciones _Directrices de voz de ma
 
 La marca muestra un punto verde y &quot;Publicado&quot;, y aparece un botón **[!UICONTROL Publish]**.
 
-**Para cancelar la publicación de una marca publicada**, haga clic para abrirla y luego haga clic en **[!UICONTROL Publish]**.
+**Para cancelar la publicación de una marca publicada**, haga clic para abrirla y luego haga clic en **[!UICONTROL Cancelar la publicación]**.
 
-La marca publicada ya está disponible para su uso en _[!DNL Create]_o_[!DNL Content]_.
+La marca publicada ya está disponible para su uso en [_[!DNL Create]_](/help/user-guide/create/overview.md) o [_[!DNL Content]_](/help/user-guide/content/overview.md).
 
 ### Administrar [!DNL Brands]
 
 En la página de inicio _[!DNL Brands]_, puede hacer clic para abrir una marca ya creada y administrarla o publicarla.
 
-**Para ver o modificar una marca**:
+Para **ver la información de marca**, haz clic en **[!UICONTROL [!DNL Brands]]** en el área de navegación izquierda y haz clic para abrir una marca existente.
 
-1. En el área de navegación izquierda, haga clic en **[!UICONTROL [!DNL Brands]]**.
-1. Para ver la información general de una marca, haga clic en para abrir una marca definida.
+**Para modificar una marca** en la vista [!DNL Brands]:
+
+1. En **[!DNL Brands]**, haga clic en para abrir una marca definida.
 1. Para ver detalles individuales o modificar las directrices de marca, haga clic en [**[!UICONTROL Directrices de voz de marca]**](#brand-voice-guidelines), [**[!UICONTROL Directrices de canal]**](#channel-guidelines), **[!UICONTROL Directrices de imagen]** o **[!UICONTROL Logotipos]** en la parte superior.
-1. Para cambiar el nombre de una marca existente, selecciona **[!UICONTROL Cambiar nombre]** en el menú de acción [!DNL Brands].
+1. Para cambiar el nombre de una marca existente, selecciona **[!UICONTROL Cambiar nombre]** en el menú de acción _[!DNL Brands]_.
+1. Para duplicar una marca existente, selecciona **[!UICONTROL Duplicate]** del menú de acción _[!DNL Brands]_.
+   1. Escriba un nombre de marca en la ventana emergente _Marca duplicada_ y haga clic en **[!UICONTROL Marca duplicada]**.
+
+      La ventana emergente confirma que la marca está duplicada: &quot;Nueva marca creada&quot;. La marca duplicada está inicialmente en modo _Sin publicar_.
+
+   1. Personalice la marca duplicada y luego [publíquela](#publish-brand) para que esté disponible para su uso.
 1. Para eliminar una marca, selecciona **[!UICONTROL Eliminar]** en el menú de acción [!DNL Brands].
 
-Puede cargar documentos de directrices de marca (hasta tres archivos de PDF o DOC) en GenStudio for Performance Marketing para crear automáticamente una marca.
+También puede administrar marcas en la vista [!DNL Brands] desde el menú de acciones _[!DNL Brands]_(tres puntos).
 
 ## Agregar [!DNL Products]
 

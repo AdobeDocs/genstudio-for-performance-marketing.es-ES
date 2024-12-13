@@ -3,10 +3,10 @@ title: GenStudio for Performance Marketing [!DNL Brands]
 description: GenStudio for Performance Marketing [!DNL Brands]  es una colección completa de recursos de marca (copias de marketing, imágenes, experiencias y mucho más) para informar la creación de contenido alineado con la marca.
 feature: Brands Service, Guidelines
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
+source-git-commit: 435c792d1991c2e34c500d072f23f1ed1ccdbcc9
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 0%
+source-wordcount: '809'
+ht-degree: 1%
 
 ---
 
@@ -20,11 +20,11 @@ GenStudio for Performance Marketing utiliza la abundante información de marca d
 
 Después de agregar las directrices de marca a GenStudio for Performance Marketing, puedes [administrarlas](/help/user-guide/guidelines/add-guidelines.md#manage-brands) y [publicarlas](/help/user-guide/guidelines/add-guidelines.md#publish-brand). La publicación los pone a disposición de su equipo para que los utilice en la generación de recursos.
 
-[!DNL Brands] puede estar en estado _Borrador_ o _Publicado_. El nuevo [!DNL brands] comienza como _Borrador_.
+[!DNL Brands] puede estar en estado _No publicado_ o _Publicado_. Los [!DNL brands] nuevos comienzan como _Sin publicar_.
 
-Debe publicar un(a) [!DNL brand] para que su equipo lo pueda generar.
+Debe [publicar una marca](/help/user-guide/guidelines/add-guidelines.md#publish-brand) para que su equipo la pueda generar.
 
-Los [!DNL brands] publicados se pueden editar y los cambios estarán disponibles inmediatamente. Solo se puede utilizar el(la) [!DNL brands] publicado(a) para crear y validar contenido.
+Las marcas publicadas se pueden editar (los cambios están disponibles inmediatamente), duplicar o cancelar su publicación. Solo se puede utilizar el(la) [!DNL brands] publicado(a) para crear y validar contenido. Consulte [Administrar marcas](/help/user-guide/guidelines/add-guidelines.md#manage-brands).
 
 Las [!DNL brands] eliminadas se archivan durante 30 días y se pueden recuperar dentro de ese período.
 
