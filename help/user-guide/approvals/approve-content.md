@@ -1,11 +1,11 @@
 ---
 title: Aprobar contenido
-description: Obtenga información sobre cómo aprobar contenido.
+description: Obtenga información sobre cómo aprobar contenido generado con Adobe GenStudio for Performance Marketing.
 feature: Approval
 exl-id: f6458d8f-dff3-448e-9f08-6d192f8a91d9
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---

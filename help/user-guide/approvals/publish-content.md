@@ -1,11 +1,11 @@
 ---
 title: Contenido aprobado por Publish
-description: Obtenga información sobre cómo publicar contenido aprobado.
+description: Obtenga información sobre cómo publicar contenido aprobado con Adobe GenStudio for Performance Marketing.
 feature: Approval, Content
 exl-id: 2bb93815-8a7f-40db-a56a-2aefda40a2f4
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---

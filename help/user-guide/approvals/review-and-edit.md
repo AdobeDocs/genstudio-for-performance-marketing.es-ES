@@ -1,11 +1,11 @@
 ---
 title: Revisar y editar contenido
-description: Aprenda a revisar y editar contenido de forma iterativa.
+description: Aprenda a revisar y editar contenido de forma iterativa con Adobe GenStudio for Performance Marketing.
 feature: Approval
 exl-id: 9a3a15aa-355f-439e-9417-850704402f39
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Puede aprobar el contenido si ha recibido un correo electrónico en el que se so
 
 ## Solicitar cambios
 
-Puede enumerar los cambios sugeridos o hacer preguntas sobre el borrador desde el panel _Aprobación_ de contenido. El estado de borrador de **Necesita trabajo** notifica al creador de contenido que se solicitan cambios.
+Puede enumerar los cambios sugeridos o hacer preguntas sobre el borrador desde el panel [!DNL Content] _Aprobación_. El estado de borrador de **Necesita trabajo** notifica al creador de contenido que se solicitan cambios.
 
 Este proceso de revisar, sugerir ediciones al creador de contenido y luego revisar el contenido y, opcionalmente, solicitar entradas adicionales a través de `@mention` comentarios es altamente iterativo. En esta parte del ciclo es donde puede ver las capacidades de GenStudio for Performance Marketing para ahorrar tiempo.
 
