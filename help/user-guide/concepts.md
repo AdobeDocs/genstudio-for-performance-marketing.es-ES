@@ -3,9 +3,9 @@ title: Conceptos de Adobe GenStudio for Performance Marketing
 description: Aprenda los conceptos y la terminología de Adobe GenStudio for Performance Marketing.
 feature: Workflow, Generative AI
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: e8a210a22856683f7d61c5309c451689e445c8fe
+source-git-commit: bfe961a06f62e55f3207088f6f390204b12e7142
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,48 @@ Comience por ingerir la marca, las personalidades del cliente y las descripcione
 GenStudio for Performance Marketing aprovecha la plataforma de IA generativa de Adobe, que ofrece servicios fundamentales de IA y aprendizaje automático (ML). Esta plataforma simplifica el uso de modelos de lenguaje de gran tamaño (LLM), lo que permite que las capacidades GenAI de Adobe creen experiencias atractivas.
 
 GenStudio for Performance Marketing usa la serie GPT de LLM de terceros a través de Azure OpenAI.<!-- Claude, and Gemini models. -->
+
+## [!DNL Generative Actions]
+
+_[!DNL Generative Actions]_, tal como se define en la [descripción del producto de Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html), son las unidades que cuantifican el uso de características de IA generativa dentro de GenStudio for Performance Marketing.
+
+<!-- Add example about usage mode?
+Where users check how many generative actions they have left
+How they re-up their genactions
+If genactions roll over month to month or not -->
+
+### Tarifas
+
+Recibirá una asignación predeterminada de [!DNL Generative Actions] como se describe en la [descripción del producto de GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html).
+
+>[!NOTE]
+>
+>Las tasas de uso pueden variar. Los planes están sujetos a cambios. Consulte la [descripción del producto de Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) para obtener información actualizada sobre la tarifa.
+
+Las siguientes funciones consumen [!DNL Generative Actions] a la velocidad especificada.
+
+| Función | Tasa de acciones generativas |
+| -----------------------  | ------------------ |
+| Crear correo electrónico | 5 por generación |
+| Creación de anuncios de medios pagados | 5 por generación |
+| Creación de anuncios en pantalla | 5 por generación |
+| Regenerar secciones | 1 por generación |
+
+<!-- | Generate on-brand images | 1 per prompt  |
+| Translation              | 1 per prompt  |
+| Video: ADLS              | 1 per prompt  |
+| Video: TTS + Avatar      | 1 per prompt  | -->
+
+[!DNL Generative Actions] _no se_ consumen cuando:
+
+* Usando [validación de marca](/help/user-guide/guidelines/brand-validation.md) durante la generación de variante
+* Extrayendo información de [directrices cargadas](/help/user-guide/guidelines/add-guidelines.md)
+* [Volver a comprobar las variantes](/help/user-guide/guidelines/brand-validation.md#improve-brand-alignment) manualmente
+* Los recursos digitales se etiquetan automáticamente con atributos ([[!DNL Insights]](/help/user-guide/insights/overview.md))
+
+>[!TIP]
+>
+>Si supera su asignación de [!DNL Generative Actions], puede comprar más directamente a su representante de cuentas.
 
 ## Gobernanza de datos
 
