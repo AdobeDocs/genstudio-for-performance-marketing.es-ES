@@ -3,16 +3,26 @@ title: Trabajo con plantillas
 description: Descubra cómo utilizar las plantillas de forma eficaz para optimizar el proceso creativo en Adobe GenStudio for Performance Marketing.
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: bfe1ae2c734b19e474ab1614fa72afea7d35a73e
+source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '929'
+ht-degree: 1%
 
 ---
 
 # Trabajo con plantillas
 
 GenStudio for Performance Marketing permite a los creadores de contenido producir rápidamente contenido de marketing coherente de la marca mediante _plantillas_. Una plantilla reduce significativamente el tiempo y el esfuerzo necesarios para generar contenido nuevo al proporcionar un punto de partida que incluye diseños y elementos de diseño preconfigurados.
+
+Aunque GenStudio for Performance Marketing no admite la creación directa de plantillas dentro de la aplicación, puede diseñar y preparar fácilmente plantillas con herramientas de diseño populares, como Adobe InDesign, Illustrator o Express. Una vez completado el diseño, puede adaptarlo para utilizarlo en GenStudio for Performance Marketing. Empiece a utilizar las plantillas siguiendo estos pasos:
+
+1. **Diseña tu plantilla**: usa tu herramienta de diseño preferida para crear el diseño visual de tu [plantilla con elementos](#template-elements) como un preencabezado, un titular, un cuerpo, un CTA, imágenes y un pie de página.
+
+2. **Codifique su plantilla**: convierta su diseño en CSS en línea y de HTML para asegurarse de que esté limpio y adaptable en varios dispositivos. Tenga en cuenta las [directrices de accesibilidad](accessibility-for-templates.md) para alcanzar la audiencia máxima deseada.
+
+3. **Prepararse para GenStudio for Performance Marketing**: adapte la plantilla de HTML mediante el lenguaje de creación de plantillas Handlebars. Inserte marcadores de posición para indicar dónde debe generar contenido GenStudio for Performance Marketing de forma dinámica. Ver cómo [personalizar una plantilla](customize-template.md) para GenStudio for Performance Marketing.
+
+Al seguir estos pasos, puede crear plantillas profesionales y eficaces listas para usar en GenStudio for Performance Marketing, lo que le permite producir contenido de marca de forma rápida y eficaz.
 
 ## Elementos de plantilla
 
@@ -81,9 +91,15 @@ Usted [personaliza su plantilla](customize-template.md) para usarla en GenStudio
 >
 >Siga las [directrices de accesibilidad](accessibility-for-templates.md) y las [prácticas recomendadas](/help/user-guide/content/best-practices-for-templates.md) para que pueda llegar a más audiencia y proporcionar una experiencia óptima.
 
-## Cargar una plantilla
+## Administración de plantillas
 
-Use [Personalizar plantillas](customize-template.md) como guía al preparar una plantilla para GenStudio for Performance Marketing. Consulte [directrices de accesibilidad para plantillas](accessibility-for-templates.md) para obtener instrucciones sobre cómo proporcionar una mejor experiencia a todas las audiencias.
+La galería [!DNL Templates] muestra su inventario de plantillas personalizadas para generar experiencias en GenStudio for Performance Marketing. Puede filtrar las plantillas por tipo de canal, como correo electrónico, anuncios en pantalla y anuncios Meta.
+
+![Lista de plantillas de contenido](/help/assets/content-templates.png){width="650" zoomable="yes"}
+
+### Añadir una plantilla
+
+Antes de cargar una plantilla, asegúrate de que esté totalmente preparada y lista para usarla en GenStudio for Performance Marketing siguiendo las instrucciones de [Personalizar plantillas](customize-template.md).
 
 **Para agregar una plantilla**:
 
@@ -114,7 +130,19 @@ Use [Personalizar plantillas](customize-template.md) como guía al preparar una 
 
 1. Haga clic en **[!UICONTROL Listo]**.
 
-## Creación con una plantilla
+### Actualizar plantilla
+
+Las plantillas pueden incluir archivos estáticos, como iconos o logotipos. Utilice la actualización para actualizar la vista previa de la plantilla con las últimas versiones de estos recursos.
+
+**Para actualizar la plantilla**:
+
+1. En _[!DNL Content]_, seleccione la sección **[!UICONTROL Plantillas]**.
+
+1. Haga clic en una plantilla para obtener una vista completa y una lista de detalles.
+
+1. Haga clic en **[!UICONTROL Actualizar]** (flechas de círculo) desde la esquina superior derecha para actualizar todos los recursos utilizados en la plantilla.
+
+### Crear una experiencia con una plantilla
 
 Busque y utilice una plantilla existente en GenStudio for Performance Marketing para crear más experiencias.
 
@@ -122,9 +150,7 @@ Busque y utilice una plantilla existente en GenStudio for Performance Marketing 
 
 1. En _[!DNL Content]_, seleccione la sección **[!UICONTROL Plantillas]**.
 
-   ![Lista de plantillas de contenido](/help/assets/content-templates.png){width="650" zoomable="yes"}
-
-1. Seleccione una plantilla para una vista completa y una lista de detalles.
+1. Haga clic en una plantilla para obtener una vista completa y una lista de detalles.
 
 1. Haga clic en **[!UICONTROL Crear experiencia]** (pincel) en la esquina superior derecha para usar la plantilla.
 

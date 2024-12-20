@@ -4,9 +4,9 @@ description: Aprenda a personalizar y optimizar su plantilla para Adobe GenStudi
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: f95848546abc2decbb5ac52491307977820ce503
+source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
@@ -160,6 +160,10 @@ Para asegurarse de que estos recursos están disponibles durante el proceso de g
 1. **Usar encabezados CORS**: El servidor host debe enviar respuestas con un encabezado `Access-Control-Allow-Origin` establecido en `https://experience.adobe.com` como valor para entornos de producción. Este método permite a GenStudio for Performance Marketing acceder a los recursos e incluirlos.
 
 1. **Usar URL de datos**: incruste los recursos externos directamente en la plantilla mediante URL de datos. Este método evita las restricciones CORS y garantiza que los recursos estén disponibles durante la generación de miniaturas.
+
+>[!TIP]
+>
+>Use [actualizar](/help/user-guide/content/use-templates.md#refresh-template) para actualizar la vista previa de la plantilla con el contenido estático más reciente.
 
 ## Ejemplos de plantillas
 

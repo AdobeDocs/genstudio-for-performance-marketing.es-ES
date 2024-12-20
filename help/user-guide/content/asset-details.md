@@ -3,9 +3,9 @@ title: Detalles del recurso
 description: Adobe GenStudio for Performance Marketing almacena contenido aprobado con metadatos enriquecidos para permitir búsquedas y realizar un seguimiento del rendimiento.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: cd3cfface9121788c1dd0808f7f7db36c36766df
+source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '724'
 ht-degree: 1%
 
 ---
@@ -56,11 +56,11 @@ Al [cargar un recurso](/help/user-guide/content/manage-assets.md#add-assets), pu
 
 **Para editar los metadatos definidos por el usuario**:
 
-1. En _[!DNL Content]_, seleccione un recurso, experiencia o plantilla.
+1. En _[!DNL Content]_, seleccione un recurso, experiencia o plantilla. Al hacer clic en un recurso, se abre una vista enfocada del recurso.
 
 1. En la vista de recursos, revise la sección _[!UICONTROL Detalles]_ a la derecha.
 
-1. Haga clic en **[!UICONTROL Editar detalles]** (lápiz) para editar los metadatos del recurso.
+1. Haga clic en **[!UICONTROL Editar detalles]** (lápiz) para editar metadatos de recursos, experiencias o plantillas.
 
    Cuantos más detalles proporcione, más experimentará las sólidas capacidades de GenStudio for Performance Marketing. Seleccione uno o más detalles de la lista o introduzca uno nuevo cuando corresponda, por ejemplo, con palabras clave. Cada detalle que agregue aparecerá debajo de la lista. Haga clic **`x`** para eliminar un detalle.
 
@@ -91,8 +91,8 @@ La sección [!UICONTROL Contexto generador] muestra qué información se utiliz�
 
 La información puede incluir:
 
-- Parámetros `Brand`, `Product` y `Persona`
-- `Subject line` y `Pre Header` para experiencias de correo electrónico
+- `Brand`, `Product` y `Persona` parámetros seleccionados durante el proceso [!DNL Create]
+- `Subject line` y `Preheader` para experiencias de correo electrónico
 - `Headline` y `Body` para anuncios Meta
 
 ## Historia
