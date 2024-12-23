@@ -3,10 +3,10 @@ title: Administración de recursos y experiencias
 description: Simplifique y mejore la administración de los recursos aprobados por la marca para usarlos y reutilizarlos en su recorrido de marketing digital.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: d5efabbaf3dd0817bd3158acb59d997a727e5f62
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -66,6 +66,8 @@ AEM Consulte [Conectar un repositorio de](connect-aem-repo.md) para obtener inst
 AEM AEM El repositorio de es de solo lectura, lo que significa que puede acceder al contenido, pero no puede guardar borradores, nuevos recursos ni metadatos en el repositorio de la. Todos los borradores y las actualizaciones finales de los recursos, las experiencias y las plantillas se guardan en el repositorio `GenStudio assets` con los nuevos [metadatos del sistema](asset-details.md#system-metadata).
 
 {{note-aem-assets}}
+
+AEM Un repositorio de recursos puede aplicar ciertos requisitos de licencia, como la caducidad de los recursos. Es posible que estos recursos no estén disponibles para su uso en [!DNL Create] flujos de trabajo. Es posible que haya que renovar o reemplazar los recursos caducados para mantener la continuidad de los proyectos. Consulte a su administrador de [!DNL AEM Assets Content Hub] para obtener ayuda con estos recursos.
 
 ## Administración de Assets
 
