@@ -4,9 +4,9 @@ description: Aprenda a personalizar y optimizar su plantilla para Adobe GenStudi
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 8930d3284f9dd1223067239c0077e481ea98335a
+source-git-commit: 229d16019d71b8228acf16e651885ce8c6d325e5
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Puede personalizar una plantilla para utilizarla en GenStudio for Performance Marketing insertando marcadores de posición o campos de contenido que la API generativa utiliza para insertar contenido.
 
-En las siguientes secciones se explica cómo adaptar las plantillas de HTML para GenStudio for Performance Marketing mediante el lenguaje de plantilla _Handlebars_. La sintaxis [!DNL Handlebars] utiliza texto normal con llaves dobles como marcadores de posición de contenido. Ver [¿Qué es [!DNL Handlebars]?](https://handlebarsjs.com/guide/#what-is-handlebars) en la _guía de idioma de Handlebars_ para aprender a preparar la plantilla.
+En las siguientes secciones se explica cómo adaptar las plantillas de HTML para GenStudio for Performance Marketing utilizando el idioma de plantilla _[!DNL Handlebars]_. La sintaxis [!DNL Handlebars] utiliza texto normal con llaves dobles como marcadores de posición de contenido. Consulte [Qué es [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars) en la_ Guía de idioma de Handlebars _para aprender a preparar la plantilla.
 
 
 Una vez que la plantilla esté lista, puedes [cargarla en GenStudio for Performance Marketing](use-templates.md#upload-a-template) y empezar a generar correos electrónicos personalizados basados en la plantilla personalizada.
@@ -123,6 +123,32 @@ Por ejemplo, una plantilla de correo electrónico puede incluir hasta tres secci
 GenStudio for Performance Marketing entiende que `pod1_headline` está más relacionado con `pod1_body` que con `pod2_body`.
 
 Consulte [Mensajes estructurados](/help/user-guide/effective-prompts.md#structured-prompts) para aprender a crear un mensaje que genere contenido variable para cada sección de un mensaje de correo electrónico.
+
+### Llamadas a la acción
+
+Una llamada a la acción (CTA) incluye una frase y un vínculo. Para que las capacidades de CTA _[!UICONTROL Rephrase]_ y _[!UICONTROL Add link]_ funcionen correctamente durante el proceso de generación de variantes, debe incluir marcadores de posición para el vínculo y la frase en la plantilla.
+
+Siga estas directrices para configurar los marcadores de posición de CTA:
+
+- La frase CTA está disponible y el vínculo puede editarse
+
+  ```html
+  <a class="button" href="{{pod1_link}}" >{{cta}}</a>
+  ```
+
+- La frase CTA está disponible, pero el vínculo **no** se puede editar porque en ella se ha proporcionado un vínculo real
+
+  ```html
+  <a align="center" href="https://link">{{cta}}</a>
+  ```
+
+- El vínculo de CTA es editable, pero la frase de reformulación **no** está disponible porque la frase se ha proporcionado en la plantilla
+
+  ```html
+  <a class="button" href="{{pod1_link}}" >Register now</a>
+  ```
+
+GenStudio for Performance Marketing también puede proporcionar frases de llamada a la acción de variante. Ver [Revisar la llamada a la acción](/help/user-guide/create/manage-variants.md#revise-call-to-action).
 
 ## Previsualización de plantilla
 

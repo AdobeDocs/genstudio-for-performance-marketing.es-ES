@@ -2,13 +2,14 @@
 title: Mostrar experiencias de publicidad
 description: Obtenga información sobre las experiencias de anuncios en pantalla en Adobe GenStudio for Performance Marketing.
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
+badgeBeta: label="Beta" tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."
 role: User
 level: Beginner
 exl-id: 7951646f-38da-437d-a270-c5ac99fa51cf
-source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 2%
+source-wordcount: '116'
+ht-degree: 1%
 
 ---
 
@@ -20,13 +21,13 @@ Con Adobe GenStudio for Performance Marketing, puedes usar IA generativa para op
 
 Al generar experiencias de anuncio en pantalla, se crean cuatro variaciones que se muestran en el lienzo.
 
-Adobe GenStudio for Performance Marketing admite [anuncios en pantalla estándar y personalizados](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+GenStudio for Performance Marketing admite [anuncios en pantalla estándar y personalizados](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
 Las secciones editables de una experiencia de anuncio en pantalla incluyen:
 
 * Titular
 * Cuerpo
-* Llamada a acción (CTA)
+* Llamada a la acción (CTA)
 * Imagen
 
 Ver [elementos de plantilla](/help/user-guide/content/use-templates.md#template-elements).

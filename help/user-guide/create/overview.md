@@ -1,18 +1,18 @@
 ---
-title: Información general de GenStudio para marketing de rendimiento [!DNL Create]
-description: Genere rápidamente contenido de alto rendimiento que no pertenezca a la marca con IA generativa en Adobe GenStudio para el marketing de rendimiento [!DNL Create].
+title: Descripción general de GenStudio for Performance Marketing [!DNL Create]
+description: Genere rápidamente contenido de alto rendimiento que no pertenezca a la marca con IA generativa en Adobe GenStudio for Performance Marketing [!DNL Create].
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 8f77f877eb09f91160cb149d5df55e1030989370
+source-git-commit: ef4e6f48fe9aeffdd575dd83d49368cd438d62f2
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '600'
 ht-degree: 1%
 
 ---
 
-# GenStudio para marketing de rendimiento [!DNL Create]
+# GenStudio for Performance Marketing [!DNL Create]
 
-GenStudio for Performance Marketing [!DNL Create] aprovecha la potencia de GenAI de Adobe para permitir que los especialistas en marketing y los equipos distribuidos creen experiencias de alto rendimiento en la marca.
+GenStudio for Performance Marketing [!DNL Create] aprovecha el poder del Adobe GenAI para permitir a los especialistas en marketing y a los equipos distribuidos crear experiencias de alto rendimiento en la marca.
 
 ![Crear tablero](/help/assets/create.png){width="600" zoomable="yes"}
 
@@ -27,45 +27,78 @@ Junto con la potencia de [directrices](/help/user-guide/guidelines/overview.md)�
 ## Casos de uso de [!DNL Create]
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="Crear contenido nuevo" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong>Crear una experiencia de correo electrónico</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
+
       <img alt="Crear una experiencia de Meta ad" src="../../assets/icons/icon-asset.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
+
          <strong>Crear una experiencia de Meta ad</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-display-ad.md">
+
       <img alt="Crear una experiencia de anuncio en pantalla" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-display-ad.md">
+
          <strong>Crear una experiencia de anuncio en pantalla</strong>
+
          </a>
+
       </div>
+
    </td>
+
 </tr>
+
 </table>
 
-GenStudio for Performance Marketing permite a los especialistas en marketing **crear nuevo contenido de marketing**. En este caso de uso, use [directrices](/help/user-guide/guidelines/overview.md) definidas e imágenes de inspiración para informar la creación de contenido alineado con la marca.
+GenStudio for Performance Marketing permite que los especialistas en marketing **creen nuevo contenido de marketing**. En este caso de uso, use [directrices](/help/user-guide/guidelines/overview.md) definidas e imágenes de inspiración para informar la creación de contenido alineado con la marca.
 
 ## Funciones de [!DNL Create]
 
-[!DNL Create] integra varios componentes de GenStudio para el marketing de rendimiento con el fin de ayudar a los usuarios a generar contenido.
+[!DNL Create] integra varios componentes de GenStudio for Performance Marketing para ayudar a los usuarios a generar contenido.
 
 ### Plantillas
 
@@ -77,7 +110,7 @@ Se han [cargado y almacenado las plantillas en [!DNL Content]](/help/user-guide/
 
 En el cajón de mensajes, puede agregar _Parámetros_ como [!DNL Brands], [!DNL Products] y [!DNL Personas] (directrices) y [!DNL Content] (recursos) para dar forma a la experiencia generada.
 
-Estos parámetros agregados insertan [directrices](/help/user-guide/guidelines/overview.md) y recursos en el proceso de generación, lo que garantiza que el contenido se personalice para que se ajuste a la identidad completa de una marca. Se recomienda añadir directrices a su GenStudio para el marketing de rendimiento y utilizarlas durante el proceso de generación de contenido, ya que mejoran en gran medida la creación de contenido adecuado para la marca.
+Estos parámetros agregados insertan [directrices](/help/user-guide/guidelines/overview.md) y recursos en el proceso de generación, lo que garantiza que el contenido se personalice para que se ajuste a la identidad completa de una marca. Se recomienda añadir directrices a su GenStudio for Performance Marketing y utilizarlas durante el proceso de generación de contenido, ya que mejoran en gran medida la creación de contenido adecuado en la marca.
 
 El contenido —los recursos de imagen cargados o agregados— de _Parameters_ se utilizan en variantes generadas e informan el contenido de copia (texto) generado para variantes. AEM Puede cargar recursos o seleccionar recursos que ya estén presentes en [!DNL Content] o en cualquier repositorio conectado a Content Hub, ya sea que esté conectado a un repositorio de este tipo de recursos.
 
@@ -89,7 +122,7 @@ Para crear contenido generado por IA, escriba un [mensaje descriptivo](/help/use
 
 ### Validación de marca
 
-GenStudio for Performance Marketing valida la marca en distintos aspectos de la identidad de una marca (tal como se definen en [directrices](/help/user-guide/guidelines/overview.md)). La información de [validación de marca](/help/user-guide/guidelines/brand-validation.md) está disponible para cualquier contenido generado, lo que indica su conformidad con las directrices de marca y la coherencia entre texto e imágenes. Puede utilizar esta información para revisar o mejorar la experiencia generada y alinearla mejor con su marca.
+GenStudio for Performance Marketing valida la marca en varios aspectos de la identidad de una marca (tal como se definen en [directrices](/help/user-guide/guidelines/overview.md)). La información de [validación de marca](/help/user-guide/guidelines/brand-validation.md) está disponible para cualquier contenido generado, lo que indica su conformidad con las directrices de marca y la coherencia entre texto e imágenes. Puede utilizar esta información para revisar o mejorar la experiencia generada y alinearla mejor con su marca.
 
 ### Revisiones y aprobaciones
 
@@ -99,9 +132,11 @@ Una vez que termine de generar variaciones de contenido, envíe los borradores p
 
 ### Borradores
 
-En la sección _Trabajo reciente_ de [!DNL Create], acceda y administre todos los borradores recientes. Vea y complete su trabajo anterior para prepararlo para publicarlo en [[!DNL Content]](/help/user-guide/content/overview.md).
+En la sección _Trabajo reciente_ de [!DNL Create], acceda y administre todos los borradores recientes. Vea y complete su trabajo anterior para prepararlo para publicarlo en [[!DNL Content]](/help/user-guide/content/overview.md) o exportarlo para su uso.
 
-Los borradores en curso se guardan automáticamente. Cuando vuelva a la página de inicio de [!DNL Create], la sección _Trabajo reciente_ se actualizará con los borradores más recientes. Para cada borrador, puede ver si se ha _aprobado_ o si aún está en formato _Borrador_.
+Los borradores en curso se guardan automáticamente. Cuando vuelva a la página de inicio de [!DNL Create], la sección _Trabajo reciente_ se actualizará con los borradores más recientes. Cada borrador de esta sección muestra un estado, como _Borrador_ o _Aprobado_.
+
+Haga clic en los iconos de ordenación (cuadrícula o tabla) para mostrar _Trabajo reciente_ elementos en una vista de cuadrícula o tabla.
 
 ### Administrar variantes
 

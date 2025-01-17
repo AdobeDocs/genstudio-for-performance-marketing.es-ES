@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 5f5ab9647aab3c928d04c464f47bb3924b0bb73a
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Antes de empezar a generar una experiencia de anuncio Meta, es importante [incor
 
 ## Elija una plantilla
 
-Para empezar a generar una nueva experiencia de publicidad de metadatos, utilice una plantilla disponible para proporcionar el marco de trabajo para el contenido.
+Para empezar a generar una nueva experiencia de publicidad de metadatos, utilice una plantilla disponible para proporcionar el marco de trabajo para el contenido. Consulte [Prácticas recomendadas para plantillas](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para obtener información sobre las proporciones de aspecto de metadatos y publicidad admitidas.
 
 **Para elegir una plantilla Meta ad**:
 
@@ -58,7 +58,7 @@ Cuando haya terminado de agregar parámetros, puede contraer el cajón de mensaj
 
 ## Introduzca una solicitud
 
-Una vez seleccionadas las directrices, cree un mensaje con lenguaje natural para empezar a generar contenido para la nueva experiencia de publicidad de Meta. Las indicaciones detalladas generan un resultado de mayor calidad que las indicaciones vagas o indescriptivas.
+Una vez seleccionadas las directrices, cree un mensaje con lenguaje natural para empezar a generar contenido para la nueva experiencia de publicidad de Meta. Las indicaciones detalladas generan un resultado de mayor calidad que las indicaciones vagas o ambiguas.
 
 Consulte [Escribir mensajes efectivos](/help/user-guide/effective-prompts.md) para obtener más información sobre cómo escribir mensajes.
 
@@ -88,7 +88,8 @@ Antes de seleccionar qué enviar para su aprobación o publicación a [!DNL Cont
 * **Para [editar el nombre del borrador del anuncio Meta](/help/user-guide/create/manage-variants.md#change-draft-name)**, haga clic en el título de _Borrador sin título_ en la parte superior del lienzo y escriba un nuevo título.
 * **Para [editar manualmente un Meta ad](/help/user-guide/create/manage-variants.md#manually-edit-text)**, haga clic en cualquiera de las secciones de anuncios (como la línea de asunto,
 encabezado o copia de cuerpo) y edite según sea necesario.
-* **Para cambiar o seleccionar la llamada a la acción**, haga clic en el botón que muestra la llamada a la acción y seleccione entre las opciones de texto de botón disponibles.<!-- In _[!UICONTROL Link]_, enter a new URL or revise an existing URL. -->
+* **Para cambiar o seleccionar la llamada a la acción**, haga clic en el botón de llamada a la acción y seleccione las opciones de texto de botón disponibles. En _Vínculo_, escriba una dirección URL para el texto de llamada a acción.
+<!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **Para [regenerar una sección de una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, haga clic en un campo de texto editable y use las opciones _[!UICONTROL Ediciones sugeridas]_ o escriba una nueva solicitud y haga clic en **[!UICONTROL Generar]**.
 * **Para [recortar o cambiar la posición de las imágenes](/help/user-guide/create/manage-variants.md#crop-assets)**, pase el ratón sobre una imagen, haga clic en el icono de recorte que aparece y ajuste el tamaño y la ubicación de la imagen.
 * **Para [eliminar un Meta ad](/help/user-guide/create/manage-variants.md#delete-variant)**, haz clic en el título del anuncio (por ejemplo, &quot;Meta 4&quot;) y haz clic en **[!UICONTROL Eliminar variante]**.

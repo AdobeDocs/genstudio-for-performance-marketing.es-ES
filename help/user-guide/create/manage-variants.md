@@ -3,9 +3,9 @@ title: Administrar variantes
 description: Personalice y mejore las variantes y los recursos generados para adaptarlos a sus necesidades de marketing digital.
 feature: Content, Assets, Experiences
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe GenStudio for Performance Marketing [!DNL Create] le permite personalizar y mejorar variantes generadas ([correos electrónicos](/help/user-guide/create/email-experiences.md), [anuncios Meta](/help/user-guide/create/meta-experiences.md) y más) para usarlas en iniciativas de marketing digital.
 
-Al [crear experiencias](/help/user-guide/create/overview.md), puede modificar el contenido y los recursos de variantes generadas de forma individual o en lote. La capacidad de administrar variantes en el micro nivel individual le permite administrar explícitamente cada parte del contenido generado.
+Al [crear experiencias](/help/user-guide/create/overview.md), puede modificar el contenido y los recursos de variantes generadas de forma individual o en lote. La capacidad de administrar variantes en el micro nivel individual le permite administrar cada parte del contenido generado.
 
 ## Cambiar nombre de borrador
 
@@ -52,22 +52,38 @@ Por ejemplo, puede volver a generar la sección de titulares de una variante de 
 1. Para modificar el texto existente, selecciona _[!UICONTROL Reformular]_, _[!UICONTROL Acortar]_ o _[!UICONTROL Alargar]_.
 1. Para generar nuevas opciones de redacción, seleccione _[!UICONTROL Generar nuevo texto]_ e introduzca un nuevo mensaje.
    1. Haga clic en **[!UICONTROL Generar]**.
-1. Cuando vuelva a generar el texto de una sección, haga clic en el icono de regeneración para ver más opciones de texto.
+1. A medida que vuelva a generar el texto de una sección, haga clic en el icono de regeneración (flechas de círculo) para ver más opciones de texto.
 1. De los resultados que aparecen, selecciona la opción que desees y haz clic en **[!UICONTROL Reemplazar]**.
 
    La variante se actualiza con el texto revisado.
 
-## Revisión de la llamada a acción
+## Revisar la llamada a acción
 
 Después de generar un conjunto de variantes, puede revisar el texto y el vínculo de la llamada a la acción (CTA).
 
+>[!NOTE]
+>
+>Puede editar el texto de las etiquetas de CTA con la opción _[!UICONTROL Refrasear]_ si el texto de las etiquetas es un campo de plantilla generado (no codificado en la plantilla). Puede editar un vínculo de CTA con la opción _[!UICONTROL Editar vínculo]_ si el vínculo existe y se puede editar (no codificado en la plantilla).
+
 **Para revisar el CTA en una variante**:
 
-1. Después de generar un conjunto de variantes, haga clic en el botón que muestra el texto de CTA.
-1. Para cambiar el texto del botón CTA, seleccione una de las opciones disponibles en la lista _Llamar a la acción_.
-1. Para cambiar el vínculo en CTA, haga clic en **[!UICONTROL Vínculo]**.
-   1. Escribe o pega un vínculo nuevo o revisa el vínculo existente en la sección _Editar vínculo_ y haz clic en **[!UICONTROL Aplicar]**. Puede hacer clic en **[!UICONTROL Quitar vínculo]** para quitar el vínculo existente antes de escribir uno nuevo.
+1. Haga clic en un botón de CTA en una de las variantes.
 
+   El botón está seleccionado, muestra el recuento de caracteres y presenta dos opciones: _[!UICONTROL Reexpresar]_ y _[!UICONTROL Agregar vínculo]_.
+
+1. Haga clic en **[!UICONTROL Reformular]**.
+
+   1. Elija de la lista de frases regeneradas o haga clic en **[!UICONTROL Actualizar resultados]** para obtener más opciones.
+
+   1. Haga clic en **[!UICONTROL Reemplazar]**.
+
+      El texto de CTA se actualiza y aparece un mensaje _&quot;Se reemplazó una etiqueta de botón&quot;_ que confirma el cambio.
+
+1. Haga clic en **[!UICONTROL Agregar vínculo]**.
+
+   1. Escriba o pegue una dirección URL y haga clic en **[!UICONTROL Aplicar]**.
+
+      Para revisar un vínculo existente en tu CTA, edita la URL existente o pega en una nueva URL y haz clic en **[!UICONTROL Aplicar]**.
 
 El vínculo añadido o revisado se aplica a todas las CTA del conjunto de variantes.
 

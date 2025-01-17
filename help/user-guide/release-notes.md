@@ -2,11 +2,11 @@
 title: Notas de la versión de Adobe GenStudio for Performance Marketing
 description: Obtenga información sobre las últimas funciones y mejoras de Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-last-substantial-update: 2024-12-13T00:00:00Z
+last-substantial-update: 2025-01-16T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 00359960b6cf314203382d74faa23bae3e753875
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1644'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,49 @@ ht-degree: 1%
 
 Esta información de la versión detalla las últimas actualizaciones de la aplicación de GenStudio for Performance Marketing.
 
-## 2024.12.12 {#latest}
+## 2025.1.16 {#latest}
+
+### Integración con Adobe Workfront Proof
+
+[!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
+
+El programa Beta de integración de GenStudio for Performance Marketing y Adobe Workfront Proof se lanzará este mes. Workfront Proof aumenta el ciclo vital de creación y activación de contenido con plantillas de aprobación, flujos de trabajo de varias fases y anotaciones. Los usuarios de GenStudio for Performance Marketing con derechos de Workfront Proof pueden utilizar las funcionalidades avanzadas de Proof en GenStudio for Performance Marketing para revisar y comentar contenido generado por GenStudio.
+
+Los programas de Beta ofrecen una forma de ayudar a dar forma al desarrollo de productos y determinar la preparación general para la disponibilidad. Póngase en contacto con Etienne Bosch (etienneb@adobe.com) para obtener información sobre el programa GenStudio for Performance Marketing/Workfront Proof integration Beta.
+
+### Generar nuevas llamadas a la acción
+
+Ahora puede generar nuevas frases de llamada a la acción (CTA) al administrar variantes. Use las nuevas opciones _Refrasear_ y _Agregar vínculo_ para generar nuevas frases y editar el vínculo de CTA. La plantilla debe estar configurada correctamente para que funcionen estas nuevas funciones de CTA. Siga las directrices de _Personalizar una plantilla_: [Llamadas a la acción](/help/user-guide/content/customize-template.md#calls-to-action). Para obtener instrucciones sobre la administración de CTA en variantes, consulte [Revisar la llamada a la acción](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
+
+### Correcciones y mejoras
+
+* Los recuentos de caracteres ahora se muestran en todos los campos generados y manuales de los anuncios en pantalla. Ver _Recuentos de caracteres_ en [metaexperiencias](/help/user-guide/create/meta-experiences.md#character-counts). <!-- GS-7732 -->
+
+* _Los colaboradores_ ahora pueden ver los recursos, pero no crearlos, editarlos o eliminarlos. Anteriormente, los derechos de colaborador no se aplicaban como se esperaba en [!DNL Create]. <!-- GS-7614 -->
+
+* Los editores de contenido ahora pueden editar metadatos de recursos, experiencias y plantillas. <!-- GS-4905 -->
+
+* Ahora se admiten tamaños de imagen personalizados dentro de plantillas de publicidad Meta. <!-- GS-7512 -->
+
+* Las selecciones de persona, marca y producto ahora se cargan previamente durante la generación de la plantilla. <!-- GS-8069 -->
+
+* El vínculo de llamada a acción de correo electrónico ya no es un campo obligatorio. <!-- GS-8103 -->
+
+* El menú desplegable del selector [!DNL Brand] ahora funciona según lo esperado para las plantillas. Anteriormente, el selector no se cargaba correctamente en algunas plantillas. <!-- GS-8908 -->
+
+* Los editores ahora pueden seleccionar un máximo de cuatro imágenes para correos electrónicos de un solo pod y anuncios Meta. <!-- GS-2631 -->
+
+* El valor de año del campo `Created by` de una experiencia aprobada ahora se mantiene coherente como se espera después de editar los metadatos de la experiencia. <!-- GS-8344 -->
+
+* Los editores de contenido ahora pueden seleccionar correctamente una plantilla de [!DNL Create]. Anteriormente, la aplicación arrojaba un error de consola cuando un editor seleccionaba una plantilla.  <!-- GS-8798 -->
+
+* Se han resuelto los problemas con las operaciones de redimensionado y regeneración para los anuncios Meta. <!-- GS-8900 -->
+
+* El botón **[!UICONTROL Atrás]** ahora devuelve a los usuarios a la página anterior o a la página de aterrizaje [!DNL Create] según lo esperado. <!-- GS-8622 -->
+
+## Notas de la versión anteriores
+
++++Notas de 2024.12.12
 
 ### Nuevas funciones
 
@@ -89,7 +131,7 @@ Las nuevas funciones adicionales permiten a los editores:
 
 * Se mejoró el rendimiento del botón [!DNL Create] **[!UICONTROL Atrás]**. <!-- GS-6767 -->
 
-## Notas de la versión anteriores
++++
 
 +++Notas de 2024.11.14
 

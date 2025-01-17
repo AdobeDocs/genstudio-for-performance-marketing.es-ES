@@ -3,9 +3,9 @@ title: Trabajo con plantillas
 description: Descubra cómo utilizar las plantillas de forma eficaz para optimizar el proceso creativo en Adobe GenStudio for Performance Marketing.
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '936'
 ht-degree: 1%
 
 ---
@@ -55,8 +55,9 @@ A continuación se muestra una lista de los elementos que se utilizan en las pla
    - Capaz de incluir texto, imágenes y otros medios
    - Se utiliza en plantillas de correo electrónico y metadatos.
 
-- **CTA (llamada a la acción)**
+- **CTA**
 
+   - El botón Llamada a la acción utiliza una frase y un vínculo
    - Anima al destinatario a realizar una acción específica, como hacer clic en un vínculo o realizar una compra
    - Se utiliza en plantillas de correo electrónico y metadatos.
 

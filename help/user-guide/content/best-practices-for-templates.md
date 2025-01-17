@@ -4,9 +4,9 @@ description: Siga las prácticas recomendadas al utilizar plantillas con Adobe G
 feature: Templates, Content
 last-substantial-update: 2024-12-13T00:00:00Z
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: df613ffa66b76e0810500f22d2a7b1c7cf7860af
+source-git-commit: 9cc284cdb00a204baf6b0a2d9d7f67cf9bc9c81f
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,7 @@ Siga estas prácticas recomendadas de diseño al personalizar las plantillas de 
 - Cuadrado 1:1 (1080 x 1080 píxeles)
 - Vertical 4:5 (1080 x 1350 píxeles)
 - Historia 9:16 (1080 x 1920 píxeles)
+- Tamaño de imagen personalizado: (anchura mínima de imagen de 50 x 50 píxeles)
 
 **Nombres de campo reconocidos**:
 
@@ -121,6 +122,8 @@ Para los anuncios Meta, los campos `headline`, `body` y `CTA` se generan automá
 Consulte [Marcadores de posición de contenido](customize-template.md#content-placeholders) para obtener más información sobre el uso de nombres de campo en las plantillas.
 
 >[!TAB Anuncio de visualización]
+
+[!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
 
 Siga estas prácticas recomendadas de diseño al personalizar las plantillas de anuncios en pantalla para trabajar con GenStudio for Performance Marketing:
 

@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 763c907598d92779483938295a99d640ee3f4d20
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Cuando haya terminado de agregar parámetros, puede contraer el cajón de mensaj
 
 ## Introduzca una solicitud
 
-Una vez seleccionadas las directrices, cree un mensaje con lenguaje natural para empezar a generar contenido para la nueva experiencia de correo electrónico. Las indicaciones detalladas generan un resultado de mayor calidad que las indicaciones vagas o indescriptivas.
+Una vez seleccionadas las directrices, cree un mensaje con lenguaje natural para empezar a generar contenido para la nueva experiencia de correo electrónico. Las indicaciones detalladas generan un resultado de mayor calidad que las indicaciones vagas o ambiguas.
 
 Consulte [Escribir mensajes efectivos](/help/user-guide/effective-prompts.md) para obtener más información sobre cómo escribir mensajes.
 
@@ -83,6 +83,7 @@ Antes de seleccionar lo que se enviará para su aprobación o publicación en [!
 
 * **Para [editar el nombre del borrador del correo electrónico](/help/user-guide/create/manage-variants.md#change-draft-name)**, haga clic en el título de _Borrador sin título_ en la parte superior del lienzo y escriba un nuevo título.
 * **Para [editar manualmente un correo electrónico](/help/user-guide/create/manage-variants.md#manually-edit-text)**, haga clic en cualquiera de los campos de texto editables (como la línea de asunto, el encabezado o la copia de cuerpo) y edítelo según sea necesario
+* **Para [cambiar o seleccionar la llamada a la acción](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, haga clic en el botón de llamada a la acción y seleccione _[!UICONTROL Reformular]_ o _[!UICONTROL Agregar vínculo]_.
 * **Para [regenerar una sección de una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, haga clic en un campo de texto editable y use las opciones _[!UICONTROL Ediciones sugeridas]_ o escriba una nueva solicitud y haga clic en **[!UICONTROL Generar]**.
 * **Para [agregar o intercambiar imágenes en una variante](/help/user-guide/create/manage-variants.md#swap-image)**, haga clic en un recurso de imagen (o en el área del recurso de imagen si todavía no existe una imagen) y haga clic en **[!UICONTROL Seleccionar o intercambiar a partir del contenido]** o **[!UICONTROL Cargar nueva imagen]** para agregar o intercambiar una imagen en una variante individual.
 * **Para [eliminar un correo electrónico](/help/user-guide/create/manage-variants.md#delete-variant)**, haga clic para seleccionar el título del correo electrónico (por ejemplo, &quot;Correo electrónico 1/4&quot;) y haga clic en **[!UICONTROL Eliminar variante]**.
