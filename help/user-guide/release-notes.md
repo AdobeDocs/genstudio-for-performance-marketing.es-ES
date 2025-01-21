@@ -4,9 +4,9 @@ description: Obtenga información sobre las últimas funciones y mejoras de Adob
 recommendations: noDisplay
 last-substantial-update: 2025-01-16T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 9bddfe4118715b13f893fc9b8fbc24eda6c8cf66
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1664'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,10 @@ Los programas de Beta ofrecen una forma de ayudar a dar forma al desarrollo de p
 ### Generar nuevas llamadas a la acción
 
 Ahora puede generar nuevas frases de llamada a la acción (CTA) al administrar variantes. Use las nuevas opciones _Refrasear_ y _Agregar vínculo_ para generar nuevas frases y editar el vínculo de CTA. La plantilla debe estar configurada correctamente para que funcionen estas nuevas funciones de CTA. Siga las directrices de _Personalizar una plantilla_: [Llamadas a la acción](/help/user-guide/content/customize-template.md#calls-to-action). Para obtener instrucciones sobre la administración de CTA en variantes, consulte [Revisar la llamada a la acción](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
+
+La siguiente previsualización muestra el recuento de caracteres de CTA, las nuevas opciones y un ejemplo de cómo reformular y reemplazar:
+
+![Reformulación de CTA en acción](/help/assets/animation/rephrase-cta.gif "Reformulación de CTA"){width="250" zoomable="yes"}
 
 ### Correcciones y mejoras
 
