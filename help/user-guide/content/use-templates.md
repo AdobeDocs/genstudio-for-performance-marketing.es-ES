@@ -3,9 +3,9 @@ title: Trabajo con plantillas
 description: Descubra cómo utilizar las plantillas de forma eficaz para optimizar el proceso creativo en Adobe GenStudio for Performance Marketing.
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 62ab3849296195ca4d9525cb5688f74ce8bede54
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '960'
 ht-degree: 1%
 
 ---
@@ -133,7 +133,7 @@ Antes de cargar una plantilla, asegúrate de que esté totalmente preparada y li
 
 ### Actualizar plantilla
 
-Las plantillas pueden incluir archivos estáticos, como iconos o logotipos. Utilice la actualización para actualizar la vista previa de la plantilla con las últimas versiones de estos recursos.
+Las plantillas pueden incluir archivos estáticos, como iconos o logotipos. [El contenido estático](/help/user-guide/content/customize-template.md#static-content) no se almacena después de crear la vista previa de la plantilla. GenStudio for Performance Marketing sigue haciendo referencia al vínculo de origen proporcionado en la plantilla. Utilice la actualización para actualizar la vista previa de la plantilla con las últimas versiones de estos recursos.
 
 **Para actualizar la plantilla**:
 
@@ -155,4 +155,4 @@ Busque y utilice una plantilla existente en GenStudio for Performance Marketing 
 
 1. Haga clic en **[!UICONTROL Crear experiencia]** (pincel) en la esquina superior derecha para usar la plantilla.
 
-1. Continuar para [crear](/help/user-guide/create/overview.md) una experiencia.
+1. Continuar para [crear](/help/user-guide/create/overview.md#create-use-cases) una experiencia.
