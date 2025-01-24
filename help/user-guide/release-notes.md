@@ -4,9 +4,9 @@ description: Obtenga información sobre las últimas funciones y mejoras de Adob
 recommendations: noDisplay
 last-substantial-update: 2025-01-16T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 9bddfe4118715b13f893fc9b8fbc24eda6c8cf66
+source-git-commit: a14da101907c3e7dd990082723f7c59f7f5ff3fd
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1676'
 ht-degree: 1%
 
 ---
@@ -141,7 +141,7 @@ Las nuevas funciones adicionales permiten a los editores:
 
 ### Nuevas funciones
 
-Se ha agregado compatibilidad con las plantillas de medios enriquecidos, lo que permite a los clientes reutilizar recursos que ya se han publicado a través de sus propios canales de contenido administrado. <!-- GS-6107 -->
+Se ha agregado compatibilidad para mostrar contenido estático alojado en dominios externos. GenStudio for Performance Marketing valida el origen de contenido definido en la plantilla e incrusta una copia para obtener la vista previa de la plantilla. Ver [contenido estático](/help/user-guide/content/customize-template.md#static-content). <!-- GS-6107 -->
 
 ### Correcciones y mejoras
 
