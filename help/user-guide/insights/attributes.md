@@ -3,9 +3,9 @@ title: Resumen de atributos
 description: Obtenga información sobre cómo evaluar el rendimiento de atributos específicos en Adobe GenStudio for Performance Marketing.
 feature: Insights, Attributes
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: d6ea1a34a8679ae958fb184e40ad0673abbab0a4
+source-git-commit: 94cb773f63584eb28e843b8d4ef94d6141a8a2f1
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,11 @@ La siguiente tabla proporciona definiciones y perspectivas para métricas clave 
 | Métrica | Definición | Insight |
 | ---------------------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL Atributo]** | El nombre del atributo. | Ordene la tabla haciendo clic en el encabezado de la columna de cualquiera de las métricas clave. |
-| **[!UICONTROL Categoría]** | [category](#categories) que representa la calidad inherente de un atributo. |  |
-| **[!UICONTROL # de imágenes]** | Un recuento de imágenes con este atributo. |  |
-| **[!UICONTROL # de vídeos]** | Un recuento de vídeos con este atributo. |  |
-| **[!UICONTROL Impresiones]** | Un recuento de cada vez que una imagen o vídeos con este atributo se cargan en el canal, independientemente de la interacción o visualización. | Un recuento alto de impresiones puede indicar una visibilidad amplia, pero para obtener una perspectiva de rendimiento real, considere la posibilidad de con otras métricas de participación. |
-| **[!UICONTROL Clics]** | Número de veces que los usuarios interactúan con una imagen o un vídeo con este atributo. | Un alto número de clics indica un fuerte interés y participación en el contenido, que puede ser eficaz y llegar a la audiencia adecuada. |
+| **[!UICONTROL Category]** | [category](#categories) que representa la calidad inherente de un atributo. |  |
+| **[!UICONTROL # de imágenes]** | El número de imágenes que tienen este atributo. | El recuento de la tabla Atributos puede ser diferente al recuento de la vista Detalles del atributo. Esta discrepancia puede producirse si el origen del canal, como Meta y GenStudio, utiliza cálculos de resumen ligeramente diferentes. |
+| **[!UICONTROL # de vídeos]** | El número de vídeos que tienen este atributo. | El recuento de la tabla Atributos puede ser diferente al recuento de la vista Detalles del atributo. Esta discrepancia puede producirse si el origen del canal, como Meta y GenStudio, utiliza cálculos de resumen ligeramente diferentes. |
+| **[!UICONTROL Impresiones]** | Un recuento de cada vez que una imagen o vídeos con este atributo se cargan en el canal, independientemente de la interacción o visualización. | Un recuento alto de impresiones puede indicar una visibilidad amplia, pero para obtener una verdadera perspectiva de rendimiento, considérala en relación con otras métricas de participación. |
+| **[!UICONTROL Clics]** | La cantidad de veces que los usuarios interactúan con una imagen o un vídeo con este atributo. | Un alto número de clics indica un fuerte interés y participación en el contenido, que puede ser eficaz y llegar a la audiencia adecuada. |
 | **[!UICONTROL tasa de pulsaciones ]**<br>_CTR_ | Porcentaje (%) de impresiones que generaron clics en imágenes o vídeos con este atributo.<br>**Cálculo**: `clicks` dividido por `impressions` | Una alta tasa de clics indica que el contenido es muy relevante y motivador para la audiencia en cuanto a mensajería y diseño, y que se dirige de manera efectiva a los intereses de la audiencia. |
 | **[!UICONTROL CPM ]**<br>_Costo por mil_ | Coste por cada mil impresiones de publicidad de una imagen o vídeo con este atributo.<br>**Cálculo**: importe total `spent` dividido por alcance y luego multiplicado por 1000 | Un valor bajo puede indicar una visibilidad rentable, especialmente cuando se asocia con una tasa de pulsaciones alta. |
 | **[!UICONTROL CPA ]**<br>_Costo por acción_ | Coste promedio empleado para lograr una acción específica del cliente, como una compra o suscripción.<br>**Cálculo**: importe total `spent` dividido por el número de acciones del cliente completadas | Ayuda a identificar atributos que resultan en acciones valiosas del cliente. |

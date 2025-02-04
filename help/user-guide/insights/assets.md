@@ -3,9 +3,9 @@ title: Información general de Assets
 description: Obtenga información sobre cómo evaluar el rendimiento de los recursos en Adobe GenStudio for Performance Marketing.
 feature: Insights, Assets
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: d6ea1a34a8679ae958fb184e40ad0673abbab0a4
+source-git-commit: 94cb773f63584eb28e843b8d4ef94d6141a8a2f1
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -44,8 +44,8 @@ La siguiente tabla proporciona definiciones y perspectivas para métricas clave 
 | Métrica | Definición | Insight |
 | ---------------------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL ID de recurso]** | El nombre asociado con este recurso. | Ordene la tabla haciendo clic en el encabezado de la columna de cualquiera de las métricas clave. |
-| **[!UICONTROL Impresiones]** | Un recuento de cada vez que el recurso se carga en el canal, independientemente de la interacción o la visualización. | Un recuento alto de impresiones puede indicar una visibilidad amplia, pero para obtener una perspectiva de rendimiento real, considere la posibilidad de con otras métricas de participación. |
-| **[!UICONTROL Clics]** | Número de veces que los usuarios interactúan con un elemento en el que se puede hacer clic, como un vínculo, en el recurso. | Un alto número de clics indica un fuerte interés y participación en el contenido, que puede ser eficaz y llegar a la audiencia adecuada. |
+| **[!UICONTROL Impresiones]** | Un recuento de cada vez que el recurso se carga en el canal, independientemente de la interacción o la visualización. | Un recuento alto de impresiones puede indicar una visibilidad amplia, pero para obtener una verdadera perspectiva de rendimiento, considérala en relación con otras métricas de participación. |
+| **[!UICONTROL Clics]** | La cantidad de veces que los usuarios interactúan con un elemento en el que se puede hacer clic, como un vínculo, en el recurso. | Un alto número de clics indica un fuerte interés y participación en el contenido, que puede ser eficaz y llegar a la audiencia adecuada. |
 | **[!UICONTROL tasa de pulsaciones ]**<br>_CTR_ | Porcentaje (%) de impresiones que generaron clics en recursos dentro de una experiencia.<br>**Cálculo**: `clicks` dividido por `impressions` | Una alta tasa de clics indica que el contenido es muy relevante y motivador para la audiencia en cuanto a mensajería y diseño, y que se dirige de manera efectiva a los intereses de la audiencia. |
 | **[!UICONTROL CPM ]**<br>_Costo por mil_ | Coste por cada mil impresiones de publicidad del recurso.<br>**Cálculo**: importe total `spent` dividido por alcance y luego multiplicado por 1000 | Un valor bajo puede indicar una visibilidad rentable, especialmente cuando se asocia con una tasa de pulsaciones alta. |
 | **[!UICONTROL CPA ]**<br>_Costo por acción_ | Coste promedio empleado para lograr una acción específica del cliente, como una compra o suscripción.<br>**Cálculo**: importe total `spent` dividido por el número de acciones del cliente completadas | Ayuda a identificar los recursos que generan valiosas acciones del cliente. |

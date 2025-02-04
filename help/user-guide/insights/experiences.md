@@ -3,9 +3,9 @@ title: Resumen de experiencias
 description: Vea una descripción general de la participación del cliente, el presupuesto y los gastos para obtener experiencias y el rendimiento de la ubicación de los anuncios en Adobe GenStudio for Performance Marketing.
 feature: Insights, Experiences, Attributes
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: 693557104bc880445c021f942b728af10243fe27
+source-git-commit: c027d5fa15b05feb95c976805d06d8fe3204c5d1
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -60,11 +60,11 @@ La siguiente tabla proporciona definiciones y perspectivas para métricas clave 
 | Métrica | Definición | Insight |
 | ---------------------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL Nombre de experiencia]** | Una lista de experiencias para la cuenta del canal conectado. Filtre los anuncios seleccionando una campaña. | Ordene la lista de experiencias haciendo clic en cualquiera de las métricas clave. |
-| **[!UICONTROL Campaña]** | Una campaña es un conjunto de experiencias diseñadas para lograr un objetivo específico. | |
-| **[!UICONTROL Ubicaciones]** | Un recuento de las [ubicaciones](#ad-placements) del anuncio, ubicaciones en las que apareció una experiencia en la campaña. | Las ubicaciones aumentan el alcance de la audiencia. |
-| **[!UICONTROL Assets]** | Un recuento de los recursos utilizados en el anuncio o la experiencia. | |
-| **[!UICONTROL Impresiones]** | Un recuento de cada vez que la ubicación del anuncio o la experiencia se carga en el canal, independientemente de la interacción o visualización. | Un recuento alto de impresiones puede indicar una visibilidad amplia, pero para obtener una perspectiva de rendimiento real, considere la posibilidad de con otras métricas de participación. |
-| **[!UICONTROL Clics]** | Número de veces que los usuarios interactúan con un elemento en el que se puede hacer clic, como un vínculo o un botón de llamada a la acción, en una ubicación de experiencia. | Un alto número de clics indica un fuerte interés y participación en el contenido, que puede ser eficaz y llegar a la audiencia adecuada. |
+| **[!UICONTROL Campaña]** | Una campaña es un conjunto de experiencias diseñadas para lograr un objetivo específico. | Al filtrar la tabla Experiencias por campaña, las métricas del resumen de todas las experiencias de la campaña pueden ser diferentes a la fila de resumen de la campaña en la vista [!UICONTROL Canales]. Esta discrepancia puede producirse si el origen del canal, como Meta y GenStudio, utiliza cálculos de resumen ligeramente diferentes. |
+| **[!UICONTROL Ubicaciones]** | Un recuento de las [ubicaciones](#ad-placements) del anuncio, ubicaciones en las que apareció una experiencia en la campaña. | Las ubicaciones aumentan el alcance de la audiencia.<p>Los anuncios que no muestran ninguna ubicación ni ningún recurso pueden indicar un [tipo de anuncio no admitido](#unsupported-placements).</p> |
+| **[!UICONTROL Assets]** | El número de recursos utilizados en el anuncio o la experiencia. | El recuento de la tabla Experiencias puede ser diferente al recuento de la vista Detalles de la experiencia. Esta discrepancia puede producirse si el origen del canal, como Meta y GenStudio, utiliza cálculos de resumen ligeramente diferentes. |
+| **[!UICONTROL Impresiones]** | Un recuento de cada vez que la ubicación del anuncio o la experiencia se carga en el canal, independientemente de la interacción o visualización. | Un recuento alto de impresiones puede indicar una visibilidad amplia, pero para obtener una verdadera perspectiva de rendimiento, considérala en relación con otras métricas de participación. |
+| **[!UICONTROL Clics]** | El número de veces que los usuarios interactúan con un elemento en el que se puede hacer clic, como un vínculo o un botón de llamada a la acción, en una ubicación de experiencia. | Un alto número de clics indica un fuerte interés y participación en el contenido, que puede ser eficaz y llegar a la audiencia adecuada. |
 | **[!UICONTROL tasa de pulsaciones ]**<br>_CTR_ | Porcentaje (%) de impresiones que generaron clics en la ubicación de la experiencia dentro de una campaña.<br>**Cálculo**: `clicks` dividido por `impressions` | Una alta tasa de clics indica que el contenido es muy relevante y motivador para la audiencia en cuanto a mensajería y diseño, y que se dirige de manera efectiva a los intereses de la audiencia. |
 | **[!UICONTROL CPM ]**<br>_Costo por mil_ | Coste por cada mil impresiones de publicidad para la ubicación de la experiencia.<br>**Cálculo**: importe total `spent` dividido por alcance y luego multiplicado por 1000 | Un valor bajo puede indicar una visibilidad rentable, especialmente cuando se asocia con una tasa de pulsaciones alta. |
 | **[!UICONTROL CPA ]**<br>_Costo por acción_ | Coste promedio empleado para lograr una acción específica del cliente, como una compra o suscripción.<br>**Cálculo**: importe total `spent` dividido por el número de acciones del cliente completadas | Se utiliza para supervisar el gasto en experiencias que resultan en valiosas acciones del cliente. |
