@@ -3,7 +3,7 @@ title: Resumen de experiencias
 description: Vea una descripción general de la participación del cliente, el presupuesto y los gastos para obtener experiencias y el rendimiento de la ubicación de los anuncios en Adobe GenStudio for Performance Marketing.
 feature: Insights, Experiences, Attributes
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: c027d5fa15b05feb95c976805d06d8fe3204c5d1
+source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 0%
@@ -12,11 +12,15 @@ ht-degree: 0%
 
 # Resumen de experiencias
 
-La vista [!DNL Insights] _[!UICONTROL Experiencias]_ muestra una lista de experiencias para la cuenta de anuncios del canal conectado. Para Facebook, las experiencias son Metadatos y nombres.
+La vista [!DNL Insights] _[!UICONTROL Experiencias]_ muestra una lista de experiencias para la cuenta de anuncios del canal conectado. Para Facebook, las experiencias son nombres de anuncios Meta.
+
+{{connect-insights}}
 
 La tabla _[!UICONTROL Experiencias]_ está organizada con [!UICONTROL nombres de anuncios]. Haga clic en el icono de configuración (cog) situado encima de la parte derecha de la tabla para alternar las columnas visibles. El icono de filtro (canal) situado encima de la parte izquierda de la tabla abre el menú **[!UICONTROL Filtro]**, en el que puede seleccionar entre las listas [!UICONTROL Cuenta] y [!UICONTROL Campaña] para filtrar los nombres de los anuncios de la tabla.
 
 ![Filtro y tabla de experiencias](/help/assets/insights-experiences-filter.png){zoomable="yes"}
+
+{{$include /help/_includes/download-insights.md}}
 
 ## Detalles de la experiencia
 

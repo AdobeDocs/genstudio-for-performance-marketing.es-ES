@@ -3,9 +3,9 @@ title: Información general de Assets
 description: Obtenga información sobre cómo evaluar el rendimiento de los recursos en Adobe GenStudio for Performance Marketing.
 feature: Insights, Assets
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: 94cb773f63584eb28e843b8d4ef94d6141a8a2f1
+source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -14,18 +14,20 @@ ht-degree: 0%
 
 La vista [!DNL Insights] _[!UICONTROL Assets]_ muestra una lista de recursos utilizados en experiencias y campañas de publicidad para la cuenta de canal seleccionada.
 
-La galería _[!UICONTROL Assets]_ es la vista predeterminada que muestra un collage de vistas previas de recursos y una métrica, como la tasa de pulsaciones. Haga clic en el icono de configuración (cog) situado encima de la parte derecha de la galería para alternar una de las tres métricas visibles:
+{{connect-insights}}
+
+La tabla _[!UICONTROL Assets]_ está organizada con [!UICONTROL ID de recurso]. Puede alternar entre las vistas mediante el icono de lista de vistas (tabla) y el icono de vista de galería (cuadrícula). Haga clic en el icono de configuración (cog) situado encima de la parte derecha de la tabla para alternar las columnas visibles. El icono de filtro (canal) situado encima de la parte izquierda de la tabla abre el menú **[!UICONTROL Filtro]**, en el que puede seleccionar entre varias listas.
+
+![Filtro y tabla de Assets](/help/assets/insights-assets-filter.png){zoomable="yes"}
+
+{{$include /help/_includes/download-insights.md}}
+
+La vista de galería de _[!UICONTROL Assets]_ muestra un collage de vistas previas de recursos y una métrica, como la tasa de pulsaciones. Haga clic en el icono de configuración (cog) situado encima de la parte derecha de la galería para abrir **[!UICONTROL Configuración de la tarjeta]** y alternar una de las tres métricas visibles:
 
 - CPA (coste por acción)
 - CTR (tasa de pulsaciones)
 - CPC (coste por clic)
 - Gasto
-
-La tabla _[!UICONTROL Assets]_ está organizada con [!UICONTROL ID de recurso]. El icono de filtro (canal) situado encima de la parte izquierda de la tabla abre el menú **[!UICONTROL Filtro]**, en el que puede seleccionar entre varias listas.
-
-![Filtro y tabla de Assets](/help/assets/insights-assets-filter.png){zoomable="yes"}
-
-Puede alternar entre las vistas mediante el icono de lista de vistas (tabla) y el icono de vista de galería (cuadrícula).
 
 ## Detalles del recurso
 

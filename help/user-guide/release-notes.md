@@ -2,11 +2,11 @@
 title: Notas de la versión de Adobe GenStudio for Performance Marketing
 description: Obtenga información sobre las últimas funciones y mejoras de Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-last-substantial-update: 2025-01-16T00:00:00Z
+last-substantial-update: 2025-02-13T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: a14da101907c3e7dd990082723f7c59f7f5ff3fd
+source-git-commit: a48ffd2147f79109803c49cc1a696c083c44e879
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: '1746'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,19 @@ ht-degree: 1%
 
 Esta información de la versión detalla las últimas actualizaciones de la aplicación de GenStudio for Performance Marketing.
 
-## 2025.1.16 {#latest}
+## 2025.2.13 {#latest}
+
+### Mejoras en la página de aterrizaje de [!DNL Create]
+
+La página de aterrizaje [!DNL Create] de GenStudio for Performance Marketing incluye mejoras en la interfaz de usuario que mejoran la experiencia del usuario. La sección _Trabajo reciente_ se ha refinado y configurado con la vista de lista como vista predeterminada. El relleno y otras mejoras visuales optimizan el aspecto del lienzo [!DNL Create].
+
+### Exportación de perspectivas a CSV
+
+Ahora puede descargar la tabla visible desde cualquier vista de [!DNL Insights] en un archivo CSV. Esta característica le permite exportar y analizar fácilmente datos de varias vistas de [!DNL Insights], lo que facilita el análisis de datos y las opciones de informes.
+
+## Notas de la versión anteriores
+
++++Notas de la versión 2025.1.16
 
 ### Integración con Adobe Workfront Proof
 
@@ -28,10 +40,6 @@ Los programas de Beta ofrecen una forma de ayudar a dar forma al desarrollo de p
 ### Generar nuevas llamadas a la acción
 
 Ahora puede generar nuevas frases de llamada a la acción (CTA) al administrar variantes. Use las nuevas opciones _Refrasear_ y _Agregar vínculo_ para generar nuevas frases y editar el vínculo de CTA. La plantilla debe estar configurada correctamente para que funcionen estas nuevas funciones de CTA. Siga las directrices de _Personalizar una plantilla_: [Llamadas a la acción](/help/user-guide/content/customize-template.md#calls-to-action). Para obtener instrucciones sobre la administración de CTA en variantes, consulte [Revisar la llamada a la acción](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
-
-La siguiente previsualización muestra el recuento de caracteres de CTA, las nuevas opciones y un ejemplo de cómo reformular y reemplazar:
-
-![Reformulación de CTA en acción](/help/assets/animation/rephrase-cta.gif "Reformulación de CTA"){width="250" zoomable="yes"}
 
 ### Correcciones y mejoras
 
@@ -59,7 +67,7 @@ La siguiente previsualización muestra el recuento de caracteres de CTA, las nue
 
 * El botón **[!UICONTROL Atrás]** ahora devuelve a los usuarios a la página anterior o a la página de aterrizaje [!DNL Create] según lo esperado. <!-- GS-8622 -->
 
-## Notas de la versión anteriores
++++
 
 +++Notas de 2024.12.12
 
@@ -75,7 +83,7 @@ Los editores ahora pueden especificar valores personalizados para estos aspectos
 
 * Anchura y altura de los titulares web en las plantillas de anuncios en pantalla. Estos valores ahora se guardan como metadatos de plantilla. <!-- GS-6735 -->
 
-* Dimension a imágenes en experiencias de anuncios en pantalla durante la carga de imágenes.<!-- GS-7166 -->
+* Dimensiones de las imágenes en las experiencias de anuncios en pantalla durante la carga de imágenes.<!-- GS-7166 -->
 
 * Consulte las directrices específicas del canal en las [Prácticas recomendadas para plantillas](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
@@ -193,13 +201,13 @@ Esta versión incluye mejoras en la localización en toda la interfaz de usuario
 
 * La puntuación de la marca ahora se actualiza y se conserva según lo esperado para las experiencias regeneradas. <!-- GS-6535 -->
 
-* La exportación de HTML de anuncios Meta y anuncios de visualización ya no incluye los elementos envolvente `div` y `chrome`. <!-- GS-7116 -->
+* La exportación de anuncios Meta y anuncios de visualización de HTML ya no incluye los elementos envolvente `div` y `chrome`. <!-- GS-7116 -->
 
 * Ya se han resuelto los problemas con el procesamiento del borrador de correo electrónico durante la publicación. <!-- GS-6394 -->
 
 * El botón Lienzo **[!UICONTROL Marca]** ahora está deshabilitado cuando no se genera una puntuación de marca. <!-- GS-6429 -->
 
-* El conmutador Facebook/Instagram de la barra de acciones Lienzo ahora actualiza las representaciones de experiencias como se espera cuando la configuración Lienzo `ReadOnly` está habilitada. <!-- GS-7039 -->
+* La opción Facebook/Instagram de la barra de acciones Lienzo ahora actualiza las representaciones de experiencias como se espera cuando la configuración Lienzo `ReadOnly` está habilitada. <!-- GS-7039 -->
 
 #### Regeneración de imagen
 

@@ -1,11 +1,17 @@
 ---
-source-git-commit: e3745e1eed08512f9f2c7d62a2f3af6812e2019f
+source-git-commit: f2850d3f535cc06dd8da4e744c081dda299e27f4
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
 # Fragmentos de GenStudio for Performance Marketing
+
+## Conectar perspectivas {#connect-insights}
+
+>[!TIP]
+>
+>GenStudio for Performance Marketing requiere que se conecte a una cuenta de canal para comenzar a recibir datos. Ver [Conectar cuenta de canal](/help/user-guide/insights/connect-channel.md).
 
 ## AEM Assets de notas {#note-aem-assets}
 
@@ -17,4 +23,4 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Enriquezca sus habilidades sobre este tema con [Academia de Adobe GenStudio](https://learningmanager.adobe.com/genstudioacademy).
+>Enriquezca sus habilidades sobre este tema con [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy).
