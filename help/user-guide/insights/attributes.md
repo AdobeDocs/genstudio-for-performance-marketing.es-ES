@@ -3,9 +3,9 @@ title: Resumen de atributos
 description: Obtenga información sobre cómo evaluar el rendimiento de atributos específicos en Adobe GenStudio for Performance Marketing.
 feature: Insights, Attributes
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
+source-git-commit: 4284026bf14d58eecb547d80b4bdae6ac0422078
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ La vista [!DNL Insights] _[!UICONTROL Atributos]_ muestra una lista de atributos
 
 La tabla _[!UICONTROL Attributes]_ está organizada con el nombre [!UICONTROL Attribute]. Puede alternar entre los tipos de lista usando el botón **[!UICONTROL Imágenes]** y el botón **[!UICONTROL Vídeo]**. Haga clic en el icono de configuración (cog) situado encima de la parte derecha de la tabla para alternar las columnas visibles.
 
-El icono de filtro (canal) situado encima de la parte izquierda de la tabla abre el menú **[!UICONTROL Filtro]**, en el que puede seleccionar entre [!UICONTROL Cuenta] y [!UICONTROL Categoría de atributos] para filtrar los atributos de la tabla. El ejemplo siguiente muestra una lista de atributos en la categoría `Lighting Condition`.
+El icono de filtro (canal) situado encima de la parte izquierda de la tabla abre el menú **[!UICONTROL Filtro]**, en el que puede seleccionar entre [!UICONTROL Cuenta] y [!UICONTROL Categoría de atributos] para filtrar los atributos de la tabla. El ejemplo siguiente muestra una lista de atributos en la categoría `Lighting Condition`. Haga clic en **Restablecer** para borrar todas las selecciones de filtros.
 
 ![Filtro y tabla de atributos](/help/assets/insights-attributes-filter.png){zoomable="yes"}
 
@@ -36,11 +36,17 @@ GenStudio for Performance Marketing detecta determinadas funciones y aplica el a
 
 ## Categorías
 
-GenStudio for Performance Marketing reconoce determinadas funciones de imágenes, vídeos y texto, y aplica una etiqueta de características al recurso. Una _categoría_ es un conjunto de características que comparten una característica específica. Por ejemplo, la categoría _orientación de la imagen_ tiene un valor `landscape`, `portrait` o `square`.
+Una categoría de atributos es un grupo de clasificación que organiza atributos relacionados que comparten una característica común. Estas categorías ayudan a optimizar el descubrimiento, la identificación y la comprensión de atributos específicos al proporcionar un mayor contexto y facilitar su aplicación y uso.
 
-No se pueden editar las etiquetas que se detectan y aplican automáticamente.
+GenStudio for Performance Marketing usa la IA y las capacidades de aprendizaje automático de Adobe para estudiar [imágenes](image-features.md), [vídeos](video-features.md), y enviar texto y aplicar [!UICONTROL atributos de recursos] según la probabilidad de que sean correctos.
 
-Consulte [Categorías de atributos](/help/user-guide/insights/attribute-category.md) para obtener listas detalladas de las funciones de imagen, vídeo y texto.
+La lista de atributos detectados para un recurso no es exhaustiva. Las Assets que contienen un conjunto completo de funciones pueden limitarse a las tres funciones más dominantes identificadas por la API. Por ejemplo, la siguiente ilustración contiene varios atributos de imagen detectados, incluidos varios objetos, colores de primer plano y de fondo.
+
+![atributos de recurso de imagen](/help/assets/category/asset-attributes.png "La imagen de Toucan incluye varios atributos detectados"){width="300" zoomable="yes"}
+
+>[!INFO]
+>
+>No se pueden editar las etiquetas que se detectan y aplican automáticamente.
 
 ## Rendimiento de atributos
 
@@ -60,4 +66,4 @@ La siguiente tabla proporciona definiciones y perspectivas para métricas clave 
 | **[!UICONTROL CPM ]**<br>_Costo por mil_ | Coste por cada mil impresiones de publicidad de una imagen o vídeo con este atributo.<br>**Cálculo**: importe total `spent` dividido por alcance y luego multiplicado por 1000 | Un valor bajo puede indicar una visibilidad rentable, especialmente cuando se asocia con una tasa de pulsaciones alta. |
 | **[!UICONTROL CPA ]**<br>_Costo por acción_ | Coste promedio empleado para lograr una acción específica del cliente, como una compra o suscripción.<br>**Cálculo**: importe total `spent` dividido por el número de acciones del cliente completadas | Ayuda a identificar atributos que resultan en acciones valiosas del cliente. |
 | **[!UICONTROL CPC ]**<br>_Costo por clic_ | Coste medio asociado con cada clic en imágenes o vídeos con este atributo.<br>**Cálculo**: importe total `spent` dividido entre `clicks` | Unos costes medios menores pueden indicar un gasto publicitario rentable, especialmente en comparación con un aumento de las conversiones. |
-| **[!UICONTROL Gasto]** | El importe gastado del presupuesto en relación con los atributos durante un período de tiempo determinado. | Un gasto elevado en un período corto puede indicar un uso rápido, lo que podría dar lugar a un agotamiento prematuro de los recursos. Realice un seguimiento de la cantidad gastada con métricas de rendimiento clave para ayudar a monitorizar la rentabilidad general de la inversión. |
+| **[!UICONTROL Gasto]** | El importe gastado del presupuesto en relación con los atributos durante un período de tiempo determinado. | Un gasto elevado en un período corto puede indicar un uso rápido, lo que podría dar lugar a un agotamiento prematuro de los recursos. Realice un seguimiento de la cantidad gastada con respecto a las métricas de rendimiento clave para ayudar a monitorizar la rentabilidad general de la inversión. |

@@ -4,10 +4,10 @@ breadcrumb-title: Guía del usuario
 user-guide-description: Explore las funcionalidades de Adobe GenStudio for Performance Marketing. Aprenda rápidamente a crear recursos de la marca, generar variaciones y optimizar experiencias.
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
-source-git-commit: c76e0584c049b77e5e5742f4b52e959503422016
+source-git-commit: 3309dfa13e476d6acce60bfdcd4e5e9801b74149
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 24%
+source-wordcount: '171'
+ht-degree: 23%
 
 ---
 
@@ -44,11 +44,11 @@ ht-degree: 24%
    + [Solicitar revisión y aprobación del contenido](approvals/request-review.md)
    + [Revisar y editar contenido](approvals/review-and-edit.md)
    + [Aprobar contenido](approvals/approve-content.md)
-   + [Contenido aprobado por Publish](approvals/publish-content.md)
+   + [Publicar contenido aprobado](approvals/publish-content.md)
 + Contenido {#content}
    + [Resumen del contenido](content/overview.md)
    + [Administrar recursos y experiencias](content/manage-assets.md)
-   + AEM [Conectar un repositorio de la](content/connect-aem-repo.md)
+   + [Conectar un repositorio de AEM](content/connect-aem-repo.md)
    + [Detalles del recurso](content/asset-details.md)
    + Plantillas {#templates}
       + [Trabajar con plantillas](content/use-templates.md)
@@ -66,7 +66,10 @@ ht-degree: 24%
    + [Experiencias](insights/experiences.md)
    + [Assets](insights/assets.md)
    + [Atributos](insights/attributes.md)
-   + [Categorías de atributos](insights/attribute-category.md)
+   + Categorías de atributo {#categories}
+      + [Características de la imagen](insights/image-features.md)
+      + [Características del vídeo](insights/video-features.md)
+      + [Características de texto - Ocultas](insights/text-features.md)
    + [Administración de datos](insights/data-management.md)
-+ [Academia GenStudio - Oculta](genstudioacademy.md)
++ [GenStudio Academy - Oculto](genstudioacademy.md)
 + [Marcado de prueba - Oculto](test-markdown.md)

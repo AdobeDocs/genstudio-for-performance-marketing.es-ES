@@ -3,10 +3,10 @@ title: Administración de recursos y experiencias
 description: Simplifique y mejore la administración de los recursos aprobados por la marca para usarlos y reutilizarlos en su recorrido de marketing digital.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: d5efabbaf3dd0817bd3158acb59d997a727e5f62
+source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1348'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ A continuación se muestra una búsqueda del término `dog` en la galería [!UIC
 
 La interfaz de filtro y búsqueda es rápida y adaptable, y proporciona una experiencia productiva de búsqueda en primer lugar. Cada vista de [!DNL Content] proporciona opciones de filtro para restringir la búsqueda del recurso, la experiencia o la plantilla ideales. Para los recursos y las experiencias, puede seleccionar una campaña y directrices específicas, como el contenido creado para un producto específico.
 
-Hay filtros basados en [keywords](asset-details.md#user-defined-metadata) y [categorías de atributos](/help/user-guide/insights/attribute-category.md) para reducir los resultados de búsqueda. Por ejemplo: es posible que desee encontrar un recurso de un tipo de archivo o tema en particular para que le ayude a crear una nueva experiencia para su campaña. O puede filtrar el contenido en función de su nombre de usuario o el nombre de un miembro del equipo:
+Hay filtros basados en [keywords](asset-details.md#user-defined-metadata) y [categorías de atributos](/help/user-guide/insights/attributes.md#categories) para reducir los resultados de búsqueda. Por ejemplo: es posible que desee encontrar un recurso de un tipo de archivo o tema en particular para que le ayude a crear una nueva experiencia para su campaña. O puede filtrar el contenido en función de su nombre de usuario o el nombre de un miembro del equipo:
 
 - El filtro **[!UICONTROL Cargado por]** limita la lista de _[!UICONTROL Assets]_ para mostrar solamente los recursos cargados por usted o por una persona específica.
 - El filtro **[!UICONTROL Creado por]** limita la lista de _[!UICONTROL Experiencias]_ para mostrar únicamente las experiencias creadas por usted o por una persona específica.
@@ -39,7 +39,7 @@ Hay filtros basados en [keywords](asset-details.md#user-defined-metadata) y [cat
 
    >[!IMPORTANT]
    >
-   >AEM La lista _Ubicación_ solo está disponible cuando [te conectas a un repositorio de](connect-aem-repo.md).
+   >La lista _Ubicación_ solo está disponible cuando [se conecta a un repositorio de AEM](connect-aem-repo.md).
 
 1. Haga clic en **[!UICONTROL Buscar]** (lupa) para escribir una palabra clave o descripción.
 
@@ -55,23 +55,23 @@ Hay filtros basados en [keywords](asset-details.md#user-defined-metadata) y [cat
 
 De manera predeterminada, los recursos que agrega a [!DNL Content] a través del proceso [!DNL Create] o de la carga se almacenan en el repositorio `GenStudio assets`. El repositorio `GenStudio assets` es de lectura y escritura en GenStudio for Performance Marketing. Esto significa que puede guardar, editar y eliminar recursos en el repositorio `GenStudio assets`.
 
-La lista **[!UICONTROL Location]** sobre la galería _[!UICONTROL Assets]_ a la derecha te permite seleccionar entre repositorios conectados de Adobe Experience Manager AEM () [!DNL Assets Content Hub].
+La lista **[!UICONTROL Ubicación]** sobre la galería _[!UICONTROL Assets]_ a la derecha permite seleccionar entre repositorios de Adobe Experience Manager (AEM) conectados [!DNL Assets Content Hub].
 
 ![Lista de ubicaciones de repositorios](../../assets/content-location-selection.png){width="350"}
 
-AEM Al seleccionar un repositorio de, la galería muestra un inventario de los recursos de ese repositorio, lo que le permite aprovechar los recursos aprobados de estos repositorios como entradas para la creación de contenido. Las opciones de filtro cambian para reflejar las categorías configuradas en [!DNL AEM Assets Content Hub].
+Al seleccionar un repositorio de AEM, la galería muestra un inventario de los recursos de ese repositorio, lo que le permite aprovechar los recursos aprobados de estos repositorios como entradas para la creación de contenido. Las opciones de filtro cambian para reflejar las categorías configuradas en [!DNL AEM Assets Content Hub].
 
-AEM Consulte [Conectar un repositorio de](connect-aem-repo.md) para obtener instrucciones sobre cómo agregar el repositorio [!DNL AEM Assets Content Hub] a GenStudio for Performance Marketing.
+Consulte [Conectar un repositorio de AEM](connect-aem-repo.md) para obtener instrucciones sobre cómo agregar el repositorio [!DNL AEM Assets Content Hub] a GenStudio for Performance Marketing.
 
-AEM AEM El repositorio de es de solo lectura, lo que significa que puede acceder al contenido, pero no puede guardar borradores, nuevos recursos ni metadatos en el repositorio de la. Todos los borradores y las actualizaciones finales de los recursos, las experiencias y las plantillas se guardan en el repositorio `GenStudio assets` con los nuevos [metadatos del sistema](asset-details.md#system-metadata).
+El repositorio de AEM es de solo lectura, lo que significa que puede acceder al contenido, pero no puede guardar borradores, nuevos recursos ni metadatos en el repositorio de AEM. Todos los borradores y las actualizaciones finales de los recursos, las experiencias y las plantillas se guardan en el repositorio `GenStudio assets` con los nuevos [metadatos del sistema](asset-details.md#system-metadata).
 
 {{note-aem-assets}}
 
-AEM Un repositorio de recursos puede aplicar ciertos requisitos de licencia, como la caducidad de los recursos. Es posible que estos recursos no estén disponibles para su uso en [!DNL Create] flujos de trabajo. Es posible que haya que renovar o reemplazar los recursos caducados para mantener la continuidad de los proyectos. Consulte a su administrador de [!DNL AEM Assets Content Hub] para obtener ayuda con estos recursos.
+Un repositorio de AEM puede aplicar ciertos requisitos de licencia, como la caducidad de los recursos. Es posible que estos recursos no estén disponibles para su uso en [!DNL Create] flujos de trabajo. Es posible que haya que renovar o reemplazar los recursos caducados para mantener la continuidad de los proyectos. Consulte a su administrador de [!DNL AEM Assets Content Hub] para obtener ayuda con estos recursos.
 
 ## Administración de Assets
 
-En [!UICONTROL Contenido], puede almacenar, recuperar y administrar fácilmente sus recursos digitales. AEM Si aprovecha tanto el repositorio `GenStudio assets` como los repositorios de los recursos de la aplicación, puede asegurarse de que los recursos estén bien organizados y sean accesibles para diversas campañas de marketing. Este enfoque de varios repositorios proporciona flexibilidad y control sobre el uso de los recursos en todos los entornos, lo que garantiza que solo se utilicen recursos aprobados y actualizados en las actividades de marketing.
+En [!UICONTROL Contenido], puede almacenar, recuperar y administrar fácilmente sus recursos digitales. Al aprovechar el repositorio `GenStudio assets` y los repositorios de AEM, puede asegurarse de que los recursos estén bien organizados y sean accesibles para diversas campañas de marketing. Este enfoque de varios repositorios proporciona flexibilidad y control sobre el uso de los recursos en todos los entornos, lo que garantiza que solo se utilicen recursos aprobados y actualizados en las actividades de marketing.
 
 En la tabla siguiente se enumeran las tareas de administración disponibles para los recursos, las experiencias y las plantillas:
 
@@ -79,7 +79,7 @@ En la tabla siguiente se enumeran las tareas de administración disponibles para
 | --------------------------------------------------------- | :----: | :---------: | :-------: |
 | [Ver detalles](/help/user-guide/content/asset-details.md) | ✓ | ✓ | ✓ |
 | [Crear experiencia](/help/user-guide/create/overview.md) |        |             | ✓ |
-| [Editar en el Adobe Express](#edit-in-express) | ✓ |             |           |
+| [Editar en Adobe Express](#edit-in-express) | ✓ |             |           |
 | [Exportar para activación](#export-for-activation) |        | ✓ |           |
 | [Actualizar](/help/user-guide/content/use-templates.md#refresh-template) |   |      | ✓ |
 | [Descargar](#download-assets) | ✓ |             | ✓ |
@@ -152,7 +152,7 @@ Consulte [Activación](/help/user-guide/activation/overview.md).
 
 ## Editar en Express
 
-JPG Puede editar recursos de imagen (o PNG) directamente en GenStudio for Performance Marketing mediante el Adobe Express. El lienzo _[!UICONTROL Powered by Adobe Express]_ proporciona funciones prácticas para mejorar tus imágenes sin salir de la aplicación GenStudio. Puede quitar fondos fácilmente, aplicar rellenos generativos, ajustar efectos y recortar imágenes.
+Puede editar recursos de imagen (JPG o PNG) directamente en GenStudio for Performance Marketing mediante Adobe Express. El lienzo _[!UICONTROL Powered by Adobe Express]_ proporciona funciones prácticas para mejorar tus imágenes sin salir de la aplicación GenStudio. Puede quitar fondos fácilmente, aplicar rellenos generativos, ajustar efectos y recortar imágenes.
 
 >[!BEGINSHADEBOX]
 
@@ -169,7 +169,7 @@ Criterios para mejorar imágenes con la característica [!DNL Edit in Adobe Expr
 
 1. En _[!DNL Content]_, seleccione un recurso de imagen. Al hacer clic en un recurso, se abre una vista enfocada del recurso.
 
-1. En la vista de recursos, haga clic en el Adobe Express **[!UICONTROL Editar en]** en la esquina superior derecha.
+1. En la vista de recursos, haga clic en el icono **[!UICONTROL Editar en Adobe Express]** en la esquina superior derecha.
 
 1. En el lienzo _[!UICONTROL Powered by Adobe Express]_, usa los controles Express del panel izquierdo para mejorar tu imagen.
 

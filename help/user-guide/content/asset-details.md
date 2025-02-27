@@ -3,7 +3,7 @@ title: Detalles del recurso
 description: Adobe GenStudio for Performance Marketing almacena contenido aprobado con metadatos enriquecidos para permitir búsquedas y realizar un seguimiento del rendimiento.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 1%
@@ -32,7 +32,7 @@ El siguiente recurso de imagen contiene metadatos del sistema que describen el t
 
 >[!NOTE]
 >
->Assets AEM de los repositorios de la muestran metadatos diferentes. Consulte [Configurar la visibilidad de los recursos](connect-aem-repo.md#step-4-configure-asset-visibility) para obtener información sobre cómo configurar [!DNL AEM Assets Content Hub] detalles de recursos.
+>Assets de repositorios de AEM muestra metadatos diferentes. Consulte [Configurar la visibilidad de los recursos](connect-aem-repo.md#step-4-configure-asset-visibility) para obtener información sobre cómo configurar [!DNL AEM Assets Content Hub] detalles de recursos.
 
 ## Metadatos del sistema
 
@@ -42,7 +42,7 @@ Algunos metadatos de recursos se recopilan automáticamente cuando se carga un r
 
 Cuando almacena un recurso aprobado en [!DNL Content], GenStudio for Performance Marketing utiliza la IA de Adobe y las capacidades de aprendizaje automático para estudiar el recurso y aplicar etiquetas basadas en las funciones del recurso. Por ejemplo, la imagen de un gato puede generar etiquetas de atributos como `pet photography` o `cat`, y etiquetas de color que identifican colores dominantes en la imagen. No se pueden editar las etiquetas que se detectan y aplican automáticamente.
 
-Consulte [!DNL Insights] [Categorías de atributos](/help/user-guide/insights/attribute-category.md) para obtener listas detalladas de las características de imagen, vídeo y texto.
+Consulte [!DNL Insights] [Categorías de atributos](/help/user-guide/insights/attributes.md#categories) para obtener listas detalladas de las características de imagen, vídeo y texto.
 
 ### Metadatos de contenido generados
 

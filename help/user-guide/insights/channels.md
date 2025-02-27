@@ -3,9 +3,9 @@ title: Resumen de canales
 description: Vea una descripción general de la participación del cliente, el rendimiento, el presupuesto y los gastos para campañas de marketing en Adobe GenStudio for Performance Marketing.
 feature: Insights, Channels, Campaigns
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
+source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ En el momento en que creó una campaña con anuncios Meta, es posible que haya s
 
 ## Rendimiento de canal
 
-Según sus objetivos de rendimiento, las métricas de Perspectivas pueden ayudarle a evaluar si está logrando su objetivo.
+Según sus objetivos de rendimiento, las métricas de [!DNL Insights] pueden ayudarle a evaluar si está alcanzando su objetivo.
 
 Por ejemplo, si la concienciación es su objetivo, un aumento en la tasa de `impressions` puede indicar que está ampliando su alcance. Para saber si eso está logrando su objetivo, podría consultar las métricas que indican que su contenido es atractivo, como `clicks` o `video plays`. ¿Con qué eficacia interactúa la audiencia con el contenido?
 
