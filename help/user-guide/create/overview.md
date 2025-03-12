@@ -3,16 +3,16 @@ title: Descripción general de GenStudio for Performance Marketing [!DNL Create]
 description: Genere rápidamente contenido de alto rendimiento que no pertenezca a la marca con IA generativa en Adobe GenStudio for Performance Marketing [!DNL Create].
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: ef4e6f48fe9aeffdd575dd83d49368cd438d62f2
+source-git-commit: 11d86ddddd1289c0bd198f21fe75a84b1459253e
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '618'
 ht-degree: 1%
 
 ---
 
 # GenStudio for Performance Marketing [!DNL Create]
 
-GenStudio for Performance Marketing [!DNL Create] aprovecha el poder del Adobe GenAI para permitir a los especialistas en marketing y a los equipos distribuidos crear experiencias de alto rendimiento en la marca.
+GenStudio for Performance Marketing [!DNL Create] aprovecha el poder de Adobe GenAI para permitir que los especialistas en marketing y los equipos distribuidos creen experiencias de alto rendimiento y de marca.
 
 ![Crear tablero](/help/assets/create.png){width="600" zoomable="yes"}
 
@@ -24,41 +24,76 @@ Con [!DNL Create], puede generar contenido para los siguientes canales:
 
 Junto con la potencia de [directrices](/help/user-guide/guidelines/overview.md)—[!DNL Brands], [!DNL Products] y [!DNL Personas]—[Contenido](/help/user-guide/content/overview.md), [revisiones y aprobaciones](/help/user-guide/approvals/overview.md) y [perspectivas](/help/user-guide/insights/overview.md), [!DNL Create] facilita la creación de contenido de marketing impactante y alineado con la marca.
 
+Los editores y administradores de sistema tienen acceso completo a [!DNL Create]. Consulte [Funciones de usuario y permisos](/help/user-guide/user-roles.md) para obtener información detallada sobre el acceso a funciones.
+
 ## Casos de uso de [!DNL Create]
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="Crear contenido nuevo" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong>Crear una experiencia de correo electrónico</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
+
       <img alt="Crear una experiencia de Meta ad" src="../../assets/icons/icon-asset.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
+
          <strong>Crear una experiencia de Meta ad</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-display-ad.md">
+
       <img alt="Crear una experiencia de anuncio en pantalla" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-display-ad.md">
+
          <strong>Crear una experiencia de anuncio en pantalla</strong>
+
          </a>
+
       </div>
+
    </td>
+
 </tr>
+
 </table>
 
 GenStudio for Performance Marketing permite que los especialistas en marketing **creen nuevo contenido de marketing**. En este caso de uso, use [directrices](/help/user-guide/guidelines/overview.md) definidas e imágenes de inspiración para informar la creación de contenido alineado con la marca.
@@ -79,7 +114,7 @@ En el cajón de mensajes, puede agregar _Parámetros_ como [!DNL Brands], [!DNL 
 
 Estos parámetros agregados insertan [directrices](/help/user-guide/guidelines/overview.md) y recursos en el proceso de generación, lo que garantiza que el contenido se personalice para que se ajuste a la identidad completa de una marca. Se recomienda añadir directrices a su GenStudio for Performance Marketing y utilizarlas durante el proceso de generación de contenido, ya que mejoran en gran medida la creación de contenido adecuado en la marca.
 
-El contenido —los recursos de imagen cargados o agregados— de _Parameters_ se utilizan en variantes generadas e informan el contenido de copia (texto) generado para variantes. AEM Puede cargar recursos o seleccionar recursos que ya estén presentes en [!DNL Content] o en cualquier repositorio conectado a Content Hub, ya sea que esté conectado a un repositorio de este tipo de recursos.
+El contenido —los recursos de imagen cargados o agregados— de _Parameters_ se utilizan en variantes generadas e informan el contenido de copia (texto) generado para variantes. Puede cargar recursos o seleccionar recursos que ya estén presentes en [!DNL Content] o en cualquier repositorio de AEM Content Hub conectado.
 
 ### Indicadores
 
