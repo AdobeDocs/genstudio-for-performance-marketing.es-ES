@@ -112,3 +112,4 @@ Haga clic en los iconos de ordenación (cuadrícula o tabla) para mostrar _Traba
 GenStudio for Performance Marketing permite [un control exhaustivo de secciones de variantes individuales](/help/user-guide/create/manage-variants.md).
 
 Puede revisar secciones de una sola variante, volver a generar el contenido de secciones individuales y utilizar las ediciones sugeridas para mejorar el mensaje, el tamaño de los recursos y mucho más, todo dentro del lienzo.
+
