@@ -1,12 +1,12 @@
 ---
 title: Conectar cuenta de canal
-description: Conecte una cuenta de canal para monitorizar las campañas de marketing y el rendimiento de los recursos de Adobe GenStudio for Performance Marketing.
+description: Conecte una cuenta de canal para monitorizar las campañas de Adobe GenStudio for Performance Marketing y el rendimiento de los medios.
 level: Intermediate
 feature: Insights, Channels
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 310a6ea3b64e223222e0664750547be1812b8ef6
+source-git-commit: 2ba00288ca55fdb1686f051fc28c8e816a645f2d
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 La primera vez que abra [!DNL Insights], verá un banner que le guiará para conectar Adobe GenStudio for Performance Marketing con una cuenta de canal.
 
-Esta conexión permite que GenStudio for Performance Marketing reciba datos estadísticos de sus campañas de marketing, recursos y experiencias activos. Inicialmente, GenStudio for Performance Marketing ingiere los últimos 6 meses de datos para que tenga las herramientas necesarias para analizar los datos más recientes y actuar en consecuencia.
+Esta conexión permite que GenStudio for Performance Marketing reciba datos estadísticos de sus campañas de marketing, medios y anuncios activos. Inicialmente, GenStudio for Performance Marketing ingiere los últimos 6 meses de datos para que tenga las herramientas necesarias para analizar los datos más recientes y actuar en consecuencia.
 
 >[!BEGINSHADEBOX]
 
@@ -31,7 +31,7 @@ GenStudio for Performance Marketing retiene los datos de canal durante 13 meses.
 
 **Requisitos previos**:
 
-- Cuenta de facebook/Meta ads
+- Cuenta de Facebook/Meta ads
 - Acceso a la cuenta de Meta ads con nivel de permiso `View performance` para acceder a informes y ver anuncios
 - Elimine los bloqueadores de ventanas emergentes del explorador
 
@@ -47,7 +47,7 @@ GenStudio for Performance Marketing retiene los datos de canal durante 13 meses.
 
    Es posible que tenga que quitar los bloqueadores de ventanas emergentes y, a continuación, usar **[!UICONTROL Actualizar]** para intentarlo de nuevo.
 
-1. En la ventana emergente _[!UICONTROL Volver a conectar]_ (símbolo Meta a Adobe), verifique la información de la cuenta y haga clic en **[!UICONTROL Volver a conectar]**.
+1. En la ventana emergente _[!UICONTROL Volver a conectar]_ (símbolo Meta a Adobe), verifica la información de la cuenta y haz clic en **[!UICONTROL Volver a conectar]**.
 
    La reconexión vuelve a hacer que GenStudio for Performance Marketing sea visible.
 

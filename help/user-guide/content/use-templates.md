@@ -3,9 +3,9 @@ title: Trabajo con plantillas
 description: Descubra cómo utilizar las plantillas de forma eficaz para optimizar el proceso creativo en Adobe GenStudio for Performance Marketing.
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 62ab3849296195ca4d9525cb5688f74ce8bede54
+source-git-commit: 624629700d8bf7d9e4c0e6d8b4373f40b14d4e05
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '1157'
 ht-degree: 1%
 
 ---
@@ -18,67 +18,29 @@ Aunque GenStudio for Performance Marketing no admite la creación directa de pla
 
 1. **Diseña tu plantilla**: usa tu herramienta de diseño preferida para crear el diseño visual de tu [plantilla con elementos](#template-elements) como un preencabezado, un titular, un cuerpo, un CTA, imágenes y un pie de página.
 
-2. **Codifique su plantilla**: convierta su diseño en CSS en línea y de HTML para asegurarse de que esté limpio y adaptable en varios dispositivos. Tenga en cuenta las [directrices de accesibilidad](accessibility-for-templates.md) para alcanzar la audiencia máxima deseada.
+2. **Codifique su plantilla**: convierta su diseño en HTML y CSS en línea para asegurarse de que esté limpio y adaptable en varios dispositivos. Tenga en cuenta las [directrices de accesibilidad](accessibility-for-templates.md) para alcanzar la audiencia máxima deseada.
 
-3. **Prepararse para GenStudio for Performance Marketing**: adapte la plantilla de HTML mediante el lenguaje de creación de plantillas Handlebars. Inserte marcadores de posición para indicar dónde debe generar contenido GenStudio for Performance Marketing de forma dinámica. Ver cómo [personalizar una plantilla](customize-template.md) para GenStudio for Performance Marketing.
+3. **Prepararse para GenStudio for Performance Marketing**: adapte la plantilla de HTML usando el lenguaje de creación de plantillas Handlebars. Inserte marcadores de posición para indicar dónde debe generar contenido GenStudio for Performance Marketing de forma dinámica. Ver cómo [personalizar una plantilla](customize-template.md) para GenStudio for Performance Marketing.
 
 Al seguir estos pasos, puede crear plantillas profesionales y eficaces listas para usar en GenStudio for Performance Marketing, lo que le permite producir contenido de marca de forma rápida y eficaz.
 
 ## Elementos de plantilla
 
-Una plantilla es un conjunto de instrucciones definidas con HTML y CSS en línea que pueden utilizarse para generar una experiencia de correo electrónico, anuncio social o anuncio en pantalla. Los elementos de plantilla proporcionan la estructura para la creación de contenido.
+Una plantilla es un conjunto de instrucciones definidas con HTML y CSS en línea que puede utilizarse para generar una experiencia de correo electrónico, anuncio social o anuncio en pantalla. Los elementos de plantilla proporcionan la estructura para la creación de contenido.
 
 A continuación se muestra una lista de los elementos que se utilizan en las plantillas y algunos detalles sobre sus características:
 
-- **Encabezado previo**
-
-   - Actúa como una línea de asunto secundaria en un correo electrónico, mejorando la línea de asunto principal
-   - Entre 40 y 50 caracteres
-   - Visible en la bandeja de entrada junto al asunto antes de abrir el correo electrónico
-   - Se utiliza en plantillas de correo electrónico
-
-- **Encabezado**
-
-   - Sección superior del correo electrónico que ve el destinatario al abrir el correo electrónico
-   - Establece el tono y proporciona contexto para el contenido incluido
-   - Se utiliza en plantillas de correo electrónico
-
-- **Titular**
-
-   - Primer contenido que ve el destinatario
-   - Debería ser convincente para captar interés
-   - Se utiliza en plantillas de metadatos
-
-- **Cuerpo**
-
-   - Área de contenido principal donde se transmite el mensaje principal
-   - Capaz de incluir texto, imágenes y otros medios
-   - Se utiliza en plantillas de correo electrónico y metadatos.
-
-- **CTA**
-
-   - El botón Llamada a la acción utiliza una frase y un vínculo
-   - Anima al destinatario a realizar una acción específica, como hacer clic en un vínculo o realizar una compra
-   - Se utiliza en plantillas de correo electrónico y metadatos.
-
-- **Imágenes**
-
-   - Aumenta el atractivo visual
-   - Dividir texto
-   - Apoyar el mensaje
-   - Debe ser de alta calidad y llamativo
-   - Se utiliza en plantillas de correo electrónico y metadatos.
-
-- **Pie de página**
-
-   - Sección inferior que contiene contenido adicional, como detalles de contacto, vínculos de medios sociales, exenciones de responsabilidad legal y opciones de cancelación de suscripción
-   - Se utiliza en plantillas de correo electrónico
-
-- **Superposición de texto**
-
-   - Texto en una imagen
-   - Utilice para apoyar y mejorar el titular y el cuerpo
-   - Se utiliza en plantillas de metadatos
+| **Elemento** | **Canal** | **Descripción** |
+|----------------------|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Encabezado previo** | Correo electrónico | Una línea de asunto secundaria en un correo electrónico, normalmente entre 40 y 50 caracteres, que mejora la línea de asunto principal. Se puede ver en la bandeja de entrada junto al asunto antes de abrir el correo electrónico. |
+| **Encabezado** | Correo electrónico | La sección superior del correo electrónico que ve el destinatario al abrir el correo electrónico establece el tono y proporciona contexto para el contenido incluido. |
+| **Titular** | Meta ad, Banner y anuncios de visualización, LinkedIn | El primer contenido que el destinatario ve debe ser convincente para captar el interés. |
+| **Texto introductorio** | LinkedIn | El mensaje principal transmite el mensaje principal, similar a la copia de cuerpo. Puede utilizar hasta 150 caracteres, incluidos espacios, un máximo de cuatro emojis y puntuación. |
+| **Cuerpo** | Correo electrónico, Meta-anuncio, Banner y Anuncios en pantalla | El texto principal del anuncio transmite el mensaje principal. Debe ser atractivo, informativo y persuasivo alentar la acción deseada de la audiencia. |
+| **CTA** | Correo electrónico, publicidad en metadatos, anuncios en banners y pantallas, LinkedIn | Un botón de llamada a la acción utiliza una frase y un vínculo para animar al destinatario a realizar una acción específica, como hacer clic en un vínculo o realizar una compra. |
+| **Imágenes** | Correo electrónico, publicidad en metadatos, anuncios en banners y pantallas, LinkedIn | Mejore el atractivo visual, divida el texto y admita el mensaje. Las imágenes deben ser de alta calidad y llamativas. |
+| **Pie de página** | Correo electrónico | La sección inferior del correo electrónico contiene contenido adicional, como detalles de contacto, vínculos de medios sociales, exenciones de responsabilidad y opciones de cancelación de suscripción. |
+| **Superposición de texto** | Meta anuncio | Texto colocado en una imagen para apoyar y mejorar el titular y el contenido del cuerpo. |
 
 >[!TIP]
 >
@@ -94,9 +56,9 @@ Usted [personaliza su plantilla](customize-template.md) para usarla en GenStudio
 
 ## Administración de plantillas
 
-La galería [!DNL Templates] muestra su inventario de plantillas personalizadas para generar experiencias en GenStudio for Performance Marketing. Puede filtrar las plantillas por tipo de canal, como correo electrónico, anuncios en pantalla y anuncios Meta.
+La galería _[!DNL Templates]_muestra su inventario de plantillas personalizadas para generar experiencias en GenStudio for Performance Marketing. Puede filtrar las plantillas por tipo de canal, como correo electrónico, anuncios de visualización, anuncios Meta y anuncios LinkedIn.
 
-![Lista de plantillas de contenido](/help/assets/content-templates.png){width="650" zoomable="yes"}
+![Lista de plantillas de contenido](/help/assets/content-templates-filter.png "Buscar en las plantillas de LinkedIn"){width="650" zoomable="yes"}
 
 ### Añadir una plantilla
 
@@ -108,24 +70,26 @@ Antes de cargar una plantilla, asegúrate de que esté totalmente preparada y li
 
 1. Haga clic en **[!UICONTROL Agregar plantilla]**.
 
-1. En el panel _[!UICONTROL Agregar la plantilla aprobada]_, busque el archivo de plantilla de HTML o arrastre el archivo de plantilla de HTML al espacio de colocación. Haga clic en **[!UICONTROL Siguiente]**.
+1. En el panel _[!UICONTROL Agregar su plantilla aprobada]_, busque el archivo de plantilla de HTML o arrastre el archivo de plantilla de HTML al espacio de colocación. Haga clic en **[!UICONTROL Siguiente]**.
 
-1. En el panel _[!UICONTROL Revisar campos detectados]_, revise los campos detectados. Compruebe que está utilizando la plantilla correcta y que todos los detalles son los esperados. Haga clic en **[!UICONTROL Siguiente]**.
+1. En el panel _[!UICONTROL Comprobar campos detectados]_, revise los campos. Compruebe que está utilizando la plantilla correcta y que todos los detalles son los esperados.
 
    Ejemplo de previsualización para una plantilla de correo electrónico:
 
-   ![Campos de vista previa detectados](/help/assets/template-detected-fields.png){width="650"}
+   ![Campos de vista previa detectados](/help/assets/template-detected-fields.png){width="650" zoomable="yes"}
 
    >[!TIP]
    >
-   >Si la plantilla no es correcta, haga clic en **[!UICONTROL Atrás]** y vuelva al paso anterior. Cargue el archivo de plantilla corregido.
+   >Si la plantilla no es correcta, haga clic en **[!UICONTROL Atrás]** y vuelva al paso anterior. Cargue el archivo de plantilla corregido. O use el [editor de código de plantilla](/help/user-guide/content/code-editor.md) para hacer correcciones simples.
+
+1. Haga clic en **[!UICONTROL Siguiente]** cuando esté satisfecho con la vista previa de la plantilla.
 
 1. En el panel _[!UICONTROL Proporcionar detalles de plantilla y cargar]_, asigne un nombre a la plantilla y seleccione un tipo de **[!UICONTROL canal]**.
 
    El nombre de la plantilla y el tipo de canal son obligatorios. Los requisitos adicionales pueden incluir:
 
    - **Meta**: requiere proporción de aspecto
-   - **Anuncios de visualización**: requiere Dimension
+   - **Titular y anuncio para mostrar**: requiere dimensiones
 
 1. Añada tantos detalles como pueda para mejorar la identificación de la plantilla en las búsquedas y el filtrado.
 
@@ -156,3 +120,23 @@ Busque y utilice una plantilla existente en GenStudio for Performance Marketing 
 1. Haga clic en **[!UICONTROL Crear experiencia]** (pincel) en la esquina superior derecha para usar la plantilla.
 
 1. Continuar para [crear](/help/user-guide/create/overview.md#create-use-cases) una experiencia.
+
+## Plantillas de AJO y Marketo
+
+Puede cargar una plantilla que haya creado en Adobe Journey Optimizer (AJO) o Marketo. GenStudio for Performance Marketing detecta los patrones específicos de la aplicación y los ignora, conservando el formulario original para utilizarlo de forma continua en AJO o Marketo. No es necesario realizar ningún cambio en la sintaxis original de AJO o Marketo.
+
+Los patrones de aplicación reconocidos incluyen:
+
+- **AJO**: `{{profile.*}}`, `{{context.*}}`
+- **Marketo**: `{{my.*}}`, `{{lead.*}}`, `{{system.*}}`
+
+>[!BEGINSHADEBOX]
+
+**Requisitos previos**
+
+- La aplicación (AJO, Marketo) y GenStudio for Performance Marketing deben pertenecer a la misma organización de IMS para la integración
+- Los usuarios deben tener la función &quot;Colaborador&quot; (nivel inferior) o superior
+
+>[!ENDSHADEBOX]
+
+A continuación, [personalice su plantilla](/help/user-guide/content/customize-template.md) con marcadores de posición para indicar dónde GenStudio for Performance Marketing debe generarle contenido. [Agregue su plantilla](#add-a-template) al repositorio [!DNL Content] y valide la plantilla. Realice correcciones menores con el editor de código.

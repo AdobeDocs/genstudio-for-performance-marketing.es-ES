@@ -4,10 +4,10 @@ breadcrumb-title: Guía del usuario
 user-guide-description: Explore las funcionalidades de Adobe GenStudio for Performance Marketing. Aprenda rápidamente a crear recursos de la marca, generar variaciones y optimizar experiencias.
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
-source-git-commit: 3309dfa13e476d6acce60bfdcd4e5e9801b74149
+source-git-commit: 86eeac0231ffc465365709eb42250383868a4462
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 23%
+source-wordcount: '189'
+ht-degree: 20%
 
 ---
 
@@ -34,11 +34,15 @@ ht-degree: 23%
    + [[!DNL Create] Información general](create/overview.md)
    + [Experiencias de correo electrónico](create/email-experiences.md)
    + [Metaexperiencias](create/meta-experiences.md)
+   + [Experiencias de LinkedIn](create/linkedin-experiences.md)
    + [Mostrar experiencias de anuncios](create/display-ad-experiences.md)
+   + [Experiencias del titular](create/banner-experiences.md)
    + [Administrar variantes](create/manage-variants.md)
    + [Crear una experiencia de correo electrónico](create/create-email-experience.md)
    + [Crear una experiencia de Meta ad](create/create-meta-ad.md)
+   + [Crear una experiencia de LinkedIn](create/create-linkedin.md)
    + [Crear una experiencia de anuncio en pantalla](create/create-display-ad.md)
+   + [Crear una experiencia de banner](create/create-banner-experience.md)
 + Revisiones y aprobaciones {#approve}
    + [Resumen de revisión y aprobaciones](approvals/overview.md)
    + [Solicitar revisión y aprobación del contenido](approvals/request-review.md)
@@ -53,6 +57,7 @@ ht-degree: 23%
    + Plantillas {#templates}
       + [Trabajar con plantillas](content/use-templates.md)
       + [Personalizar una plantilla](content/customize-template.md)
+      + [Editor de código de plantilla](content/code-editor.md)
       + [Crear plantillas accesibles](content/accessibility-for-templates.md)
       + [Prácticas recomendadas para plantillas](content/best-practices-for-templates.md)
 + Campañas {#campaigns}
@@ -63,8 +68,8 @@ ht-degree: 23%
    + [Información general sobre Insights](insights/overview.md)
    + [Conectar cuenta de canal](insights/connect-channel.md)
    + [Canales](insights/channels.md)
-   + [Experiencias](insights/experiences.md)
-   + [Assets](insights/assets.md)
+   + [Anuncios y ubicación de anuncios](insights/ads.md)
+   + [Medios](insights/media.md)
    + [Atributos](insights/attributes.md)
    + Categorías de atributo {#categories}
       + [Características de la imagen](insights/image-features.md)

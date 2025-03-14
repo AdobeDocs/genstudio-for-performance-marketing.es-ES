@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 4fae540faafdf3f3b32e567e033ea6e8e44ad978
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ Para crear una nueva experiencia de correo electrónico, utilice una plantilla d
 
 Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Parámetros_ en el cajón de solicitud sobrecarga el proceso de generación de contenido y es un paso preparatorio integral para generar una experiencia de correo electrónico.
 
+Si usa una plantilla con directrices predefinidas—[!DNL Brands], [!DNL Personas] o [!DNL Products]—estas directrices se aplican a las variantes. Si lo desea, puede cambiarlos.
+
 **Para agregar parámetros y recursos**:
 
 1. Haga clic en el icono _Parameters_ para expandir el cajón de mensajes.
@@ -54,9 +56,9 @@ Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Pa
    * O bien, arrastre y suelte los recursos en la sección **[!UICONTROL Seleccionar del contenido]** para cargar uno o más recursos nuevos.
 1. Haga clic en **[!UICONTROL Usar]**.
 
->[!NOTE]
->Si la plantilla de correo electrónico tiene varias secciones, seleccione [!DNL Products] y el contenido (recursos visuales) de cada sección de correo electrónico en _Correos electrónicos de varias secciones_. Los correos electrónicos de varias secciones admiten un recurso visual por sección. Solo puede agregar recursos visuales a correos electrónicos de varias secciones desde [!DNL Content]; no puede arrastrar y soltar ni cargar recursos desde su origen local.
->![Agregar contenido y parámetros para cada sección de correo electrónico ](/help/assets/parameters-multisection-email.png){width="450" zoomable="yes"}
+   >[!NOTE]
+   >Si la plantilla de correo electrónico tiene varias secciones, seleccione [!DNL Products] y el contenido (recursos visuales) de cada sección de correo electrónico en _Correos electrónicos de varias secciones_. Los correos electrónicos de varias secciones admiten un recurso visual por sección. Solo puede agregar recursos visuales a correos electrónicos de varias secciones desde [!DNL Content]; no puede arrastrar y soltar ni cargar recursos desde su origen local.
+   >![Agregar contenido y parámetros a cada sección de correo electrónico](/help/assets/parameters-multisection-email.png){width="450" zoomable="yes"}
 
 Cuando haya terminado de agregar parámetros, puede contraer el cajón de mensajes si vuelve a hacer clic en el icono _Parámetros_.
 
@@ -75,7 +77,7 @@ De forma predeterminada, se generan y muestran en el lienzo cuatro variaciones (
 
 El contenido generado se carga progresivamente: a medida que se generan todas las secciones de las experiencias de correo electrónico, estas aparecen en el lienzo. Consulte [Experiencias de correo electrónico](/help/user-guide/create/meta-experiences.md#progressive-loading) para saber cómo se cargan los cambios en el lienzo.
 
-## Revisar correos electrónicos generados
+## Revisar variantes generadas
 
 Antes de seleccionar lo que se enviará para su aprobación o publicación en [!DNL Content], puede editar las secciones de correo electrónico o eliminar una variante del conjunto de correos electrónicos generados.
 
@@ -85,7 +87,8 @@ Antes de seleccionar lo que se enviará para su aprobación o publicación en [!
 * **Para [editar manualmente un correo electrónico](/help/user-guide/create/manage-variants.md#manually-edit-text)**, haga clic en cualquiera de los campos de texto editables (como la línea de asunto, el encabezado o la copia de cuerpo) y edítelo según sea necesario
 * **Para [cambiar o seleccionar la llamada a la acción](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, haga clic en el botón de llamada a la acción y seleccione _[!UICONTROL Reformular]_ o _[!UICONTROL Agregar vínculo]_.
 * **Para [regenerar una sección de una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, haga clic en un campo de texto editable y use las opciones _[!UICONTROL Ediciones sugeridas]_ o escriba una nueva solicitud y haga clic en **[!UICONTROL Generar]**.
-* **Para [agregar o intercambiar imágenes en una variante](/help/user-guide/create/manage-variants.md#swap-image)**, haga clic en un recurso de imagen (o en el área del recurso de imagen si todavía no existe una imagen) y haga clic en **[!UICONTROL Seleccionar o intercambiar a partir del contenido]** o **[!UICONTROL Cargar nueva imagen]** para agregar o intercambiar una imagen en una variante individual.
+* **Para [agregar o intercambiar imágenes en una variante](/help/user-guide/create/manage-variants.md#swap-image)**, haga clic en un recurso de imagen (o en el área del recurso de imagen si todavía no existe una imagen) y haga clic en el icono **[!UICONTROL Intercambiar desde contenido]**.
+* **Para [agregar un vínculo a una imagen en una variante](/help/user-guide/create/manage-variants.md#add-image-link)**, haga clic en un recurso de imagen (o en el área del recurso de imagen si la imagen no existe actualmente) y haga clic en el icono de vínculo.
 * **Para [eliminar un correo electrónico](/help/user-guide/create/manage-variants.md#delete-variant)**, haga clic para seleccionar el título del correo electrónico (por ejemplo, &quot;Correo electrónico 1/4&quot;) y haga clic en **[!UICONTROL Eliminar variante]**.
 
 ## Enviar comentarios de generación
@@ -96,29 +99,23 @@ Para [enviar comentarios](/help/user-guide/create/manage-variants.md#generation-
 
 Al revisar y preparar experiencias por correo electrónico, puede [alternar entre vistas previas para escritorio y vistas móviles](/help/user-guide/create/manage-variants.md#preview-for-device) para garantizar la coherencia y el atractivo visual de las variantes de borrador.
 
-## Verificar alineación de marca
+## Verificar alineación de comprobación de contenido
 
-Para optimizar los mensajes de correo electrónico generados y garantizar el cumplimiento estricto de la identidad de marca, aproveche la potencia de la [_comprobación de las directrices de marca_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) (que proporciona un resumen de la alineación de marca para una variante) y del panel [_Validación de marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel) (que muestra detalles completos de validación de marca y áreas de mejora ilustrativas).
+Para optimizar las variantes generadas y garantizar el cumplimiento estricto de la identidad de marca, las directrices de plataforma y los estándares de accesibilidad, aproveche la potencia del panel [_Comprobación de contenido_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Este panel muestra detalles completos de comprobación de contenido e ilumina las áreas de mejora.
 
-**Para comprobar la alineación de marca**:
+**Para realizar comprobaciones de contenido en una variante**:
 
-1. Haga clic en el icono [**[!UICONTROL [!DNL Brand] directrices para buscar una variante ]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) y vea un resumen del rendimiento de esa variante cuando se compara con su marca.
+1. Haga clic en el icono del panel _Comprobación de contenido_ en la barra de acciones derecha para abrir el panel [_Comprobación de contenido_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Vea un resumen de las comprobaciones de *Necesidades de revisión* y *Superado* para ver qué secciones y directrices necesitan mejorarse.
 
-   ![Comprobación de las directrices de marca](/help/assets/brand-guidelines-check.png){width="350" zoomable="yes"}
+   ![_Comprobación de contenido_ panel](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
 
-1. Para obtener los detalles de las secciones y directrices que deben mejorarse, haga clic en **[!UICONTROL Revisar]** _o_ haga clic en el icono Validación de marca en la barra de menú superior para abrir el [_Panel de validación de marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
-
-1. Desplácese por cada correo electrónico para ver cómo puede mejorar el contenido generado y alinearlo mejor con la marca.
-
-   ![Panel de validación de marca](/help/assets/brand-validation-panel.png){width="600" zoomable="yes"}
-
-1. [Revisa manualmente los correos electrónicos](#revise-generated-emails) para asegurarte de que estén alineados con tu marca.
+1. [Revise manualmente las variantes](#revise-generated-variants) para asegurarse de que las variantes estén alineadas con las comprobaciones de contenido realizadas.
 
 Consulte [Validación de marca](/help/user-guide/guidelines/brand-validation.md).
 
 ## Obtener revisiones y aprobaciones
 
-Utilice el panel Aprobaciones, al que se puede acceder desde la barra de menú superior del lienzo, para obtener críticas, realizar un seguimiento de los comentarios de las revisiones y obtener las aprobaciones de las partes interesadas.
+Utilice el panel Aprobaciones, accesible como icono en la barra de acciones derecha del lienzo, para obtener críticas, realizar un seguimiento de los comentarios de revisión y obtener aprobaciones de las partes interesadas.
 
 **Para obtener revisiones y aprobaciones**:
 
@@ -129,11 +126,11 @@ Utilice el panel Aprobaciones, al que se puede acceder desde la barra de menú s
 
 Consulte [Revisiones y aprobaciones](/help/user-guide/approvals/overview.md) para obtener más información.
 
-## Publish y experiencia de exportación
+## Publicar y exportar experiencias
 
 Para que los mensajes de correo electrónico generados estén disponibles para su uso actual y futuro, publíquelos en [!UICONTROL Contenido] y expórtelos para su uso en campañas de marketing.
 
-1. **Para publicar tus nuevas experiencias de correo electrónico**, haz clic en **[!UICONTROL Publish]** en la barra de herramientas superior o dentro del flujo de aprobaciones.
+1. **Para publicar sus nuevas experiencias de correo electrónico**, haga clic en **[!UICONTROL Publicar]** en la barra de herramientas superior o dentro del flujo de aprobaciones.
 1. **Para exportar las nuevas experiencias de correo electrónico**, haga clic en **[!UICONTROL Exportar]** en la barra de herramientas superior.
    1. Seleccione el formato (solo CSV e imágenes o HTML) y haga clic en **[!UICONTROL Exportar]**.
 

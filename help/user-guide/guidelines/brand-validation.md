@@ -1,100 +1,88 @@
 ---
-title: Validación de marca en Adobe GenStudio para marketing de rendimiento
-description: Descubra cómo funciona el sistema de validación de marca integrado en GenStudio para el marketing de rendimiento.
+title: Validación de marca en Adobe GenStudio for Performance Marketing
+description: Descubra cómo funciona el sistema de validación de marca integrado en GenStudio for Performance Marketing.
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
+source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
 # Validación de marca
 
-En GenStudio para el marketing de rendimiento, la validación de marca es un componente esencial que funciona en colaboración con la funcionalidad y las directrices generativas de IA: [[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) y [[!DNL Personas]](/help/user-guide/guidelines/personas.md). Garantiza que todo el contenido se ajuste a la identidad de su marca.
+En GenStudio for Performance Marketing, la validación de marca es un componente esencial que funciona en colaboración con la funcionalidad y las directrices generativas de IA: [[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) y [[!DNL Personas]](/help/user-guide/guidelines/personas.md). Garantiza que todo su contenido se ajuste a la identidad de su marca, a los estándares de ADA y a la guía de plataformas de canales individuales.
 
-GenStudio for Performance Marketing valida la marca en varios aspectos, entre ellos:
+GenStudio for Performance Marketing valida la marca y comprueba otros contenidos en distintos aspectos, entre ellos:
 
-* Directrices de marca específicas para cada cliente
-* Copiar directrices para diferentes plataformas de canal
+* Directrices [!DNL Brand], [!DNL Persona] y [!DNL Product] definidas o predeterminadas
+* Directrices de Platform
 * Consideraciones éticas relacionadas con el género, la etnia, la raza, el estado de discapacidad y la edad en el contenido generado por IA
+* Estándares de la Ley de Estadounidenses con Discapacidades (ADA)
 
-## [!DNL Brand] comprobación de directrices
+## Resumen de comprobación de contenido
 
-Se puede acceder a un resumen de la información de validación de marca para cada variante de contenido generada a través del icono de comprobación _[!DNL Brand]directrices_ junto a cada variante en el lienzo.
+Se puede acceder a un resumen de la validación de marca y a otra información de comprobación de contenido para cada variante de contenido generada a través del icono de resumen _Comprobación de contenido_ para cada variante en el lienzo.
 
-La comprobación de las directrices _[!DNL Brand]_ muestra el porcentaje de cumplimiento de la [marca](brands.md). El porcentaje se calcula como el número de [directrices](overview.md) que superaron la validación en comparación con el número de directrices probadas.
+El resumen _Comprobación de contenido_ muestra:
 
-![[!DNL Brand] comprobación de directrices](/help/assets/brand-guidelines-check.png){width="450" zoomable="yes"}
+* Porcentaje de cumplimiento de [[!DNL Brand]](brands.md) calculado como el número de [directrices](overview.md) que superaron la validación en comparación con el número de directrices probadas
+* `Pass` o `Fail` resultado de las directrices de la plataforma, como Meta o LinkedIn
+* `Pass` o `Fail` resultado para los estándares de accesibilidad de ADA
 
-Haga clic en el icono para ver cuántas directrices cumplen la marca y cuántas directrices deben revisarse.
+![Resumen de comprobación de contenido](/help/assets/content-check-summary.png){width="400" zoomable="yes"}
 
-Ver [Mejorar la alineación de la marca](#improve-brand-alignment).
-
-## Panel de validación de marca
-
-El panel _Validación de marca_ se abre en el lado derecho del lienzo cuando se hace clic desde la barra de menú superior _o_ desde el icono _Comprobación de directrices de marca_ para ver si hay una variante. Este panel proporciona información detallada de validación de marca e ilustra las oportunidades de mejora para cada sección de variante.
-
-![[!DNL Brand] panel de validación](/help/assets/brand-validation-panel.png){width="650" zoomable="yes"}
-
-El panel _Validación de marca_ muestra información para:
-
-* **Correo electrónico**:
-   * Sección de línea de asunto
-   * Sección de preencabezado
-   * Sección de encabezado
-   * Sección Cuerpo
-   * Sección CTA (llamada a la acción)
-   * Directrices de voz de marca
-* **Meta ad**:
-   * Sección de encabezado
-   * Sección de copia de cuerpo
-   * Sección CTA (llamada a la acción)
-   * Sección de texto en la imagen
+Haga clic en el porcentaje para ver qué tan compatible es la variante. Las puntuaciones se actualizan automáticamente a medida que realiza ediciones en las variantes. Puede hacer clic en _Ver y corregir problemas_ para garantizar una mayor conformidad.
 
 Ver [Mejorar la alineación de la marca](#improve-brand-alignment).
 
-### Filter
+## Panel de verificación de contenido
 
-En el panel _Validación de marca_ puede filtrar qué directrices se muestran. Haga clic en el icono de filtro en la parte superior del panel para ver:
+El panel _Comprobación de contenido_ se abre en el lado derecho del lienzo cuando se hace clic desde la barra de acciones derecha _o_ desde el icono de resumen [_Comprobación de contenido_](#content-check-summary) para una variante. Este panel proporciona una validación de marca detallada. las directrices de la plataforma y la información sobre los estándares de accesibilidad iluminan las oportunidades de mejora para cada sección de variante.
 
-* **Directrices que se cumplen**: muestra solamente las directrices que aprobaron la validación de marca.
-* **Directrices que requieren atención**: muestra únicamente las directrices que no superaron la validación de marca y necesitan más ediciones para ser más compatibles con la marca.
-* **Ambos**: muestra todas las directrices con las que se miden las variantes.
+![Panel de verificación de contenido](/help/assets/content-check-panel.png){height="250" zoomable="yes"}
+
+El panel _Comprobación de contenido_ muestra validación e [información de cumplimiento](/help/user-guide/guidelines/overview.md#compliance) para cada sección de la variante:
+
+* Representación de la información de resumen de _comprobación de contenido_ para [!DNL Brand], directrices de plataforma y estándares de accesibilidad
+* _Necesita revisión_ sección que muestra el número de directrices con errores e información detallada sobre cada directriz que necesita revisión
+* _Pasado_ sección que muestra la cantidad de directrices aprobadas e información detallada sobre cada directriz superada
+
+Consulte [Mejorar la alineación de la marca](#improve-brand-alignment) para obtener información sobre cómo mejorar las puntuaciones del panel _Comprobación de contenido_.
+
+### Tipo de contenido
+
+En el panel _Comprobación de contenido_ puede alternar las comprobaciones de pautas y estándares de accesibilidad que se deben realizar. Haga clic en el icono _Tipo de contenido_ (icono de niveles) en la parte superior del panel para activar o desactivar:
+
+* **[!DNL Brand]**: realiza las comprobaciones asociadas con las directrices de [!DNL Brand]
+* **Directrices de plataforma**: realiza las comprobaciones asociadas con la plataforma específica del canal, como Meta
+* **Accesibilidad**: realiza las comprobaciones asociadas con los estándares de accesibilidad de ADA
+
+Para **establecer el tipo de contenido** para las comprobaciones que desea realizar, haga clic para desactivar o activar los tipos disponibles y haga clic en **Aplicar**.
 
 ## Mejorar la alineación de marca
 
-Para maximizar la eficacia del contenido generado y mantener una identidad de marca coherente, use la _comprobación de directrices de marca_ y el panel _Validación de marca_. Puede modificar manualmente secciones específicas para alinearlas con las [directrices de marca](brands.md).
+Para maximizar la eficacia del contenido generado y mantener una identidad de marca coherente, use [_Comprobación de contenido_ resumen](#content-check-summary) y [_Comprobación de contenido_ panel](#content-check-panel). Puede modificar manualmente secciones específicas para alinearlas con sus [[!DNL Brand] directrices](brands.md), comprobaciones de directrices de plataforma y comprobaciones de estándares de accesibilidad.
 
-**Para mejorar la alineación de marca de las variantes de contenido generadas**:
+**Para mejorar la alineación de marca de las variantes generadas**:
 
-1. Haga clic en el icono **[!UICONTROL [!DNL Brand]directrices para comprobar]** de una variante individual. La comprobación de las directrices [!DNL Brand] muestra un número porcentual de alineación de marca para una variante.
+1. Haga clic en el icono del panel _Comprobación de contenido_ en la barra de acciones derecha para ver la información de validación y accesibilidad de una sola variante.
 
-   Consulte un resumen de cuántas directrices de marca cumplen los requisitos de validación de marca o necesitan más atención.
-
-1. Para obtener los detalles de las secciones y directrices que deben mejorarse, haga clic en **[!UICONTROL Revisar]** _o_ haga clic en el icono _Validación de marca_ de la barra de menú superior para abrir el panel _Validación de marca_.
-
-   Consulte todas las secciones y directrices de marca que requieran su atención.
+   Puede ver un resumen de las comprobaciones de _Necesidades de revisión_ y _Superado_ para ver qué secciones y directrices necesitan mejorarse.
 
    >[!NOTE]
    >
-   > La directriz _Brand voice_ indicada en el _panel de validación de marca_ se aplica a toda la variante, no a una sección individual. Se resalta toda la variante de contenido para sugerir mejoras.
+   > La directriz _Brand voice_ indicada en el panel _Comprobación de contenido_ se aplica a toda la variante, no a una sección individual. Se resalta toda la variante de contenido para sugerir mejoras.
 
-1. Haga clic en cada directriz que necesite atención, utilizando los botones **[!UICONTROL Siguiente]** y **[!UICONTROL Anterior]**.
+1. Haga clic en para corregir las directrices que actualmente no son compatibles.
+1. Haga clic para expandir e inspeccionar cada comprobación que deba revisarse en secciones disponibles como _Titular_ y _Voz de marca_.
 
-1. Utilice el razonamiento anotado para cada directriz para informar a las revisiones de las secciones de variante a fin de lograr la alineación más sólida con su marca.
+   Utilice el razonamiento proporcionado para cada comprobación para guiarle en la revisión de las variantes.
 
+1. Después de realizar las revisiones necesarias, haga clic en **[!UICONTROL Puntuación de comprobación]** para volver a comprobar y validar los cambios y asegurarse de que estén más en consonancia con la identidad de la marca, las directrices de la plataforma y los estándares de accesibilidad.
 
-1. Después de hacer las revisiones necesarias, haz clic en **[!UICONTROL Verificar de nuevo]** para volver a comprobar y validar los cambios y asegurarte de que estén más alineados con la identidad de tu marca.
+   El proceso de comprobación de contenido se ejecuta de nuevo. Si los elementos revisados superan la validación, aparece un aviso verde en la parte inferior del lienzo para confirmar que la puntuación se ha actualizado. Si no ha habido ningún cambio después de una nueva comprobación, el banner confirma que no se ha producido ningún cambio en la puntuación. El porcentaje del icono de resumen _Comprobación de contenido_ para la variante revisada también muestra su progreso.
 
-   El proceso de validación de marca se ejecuta de nuevo. Si la sección o guía supera la validación, aparece un aviso verde en la parte inferior del lienzo para confirmar que la puntuación de las directrices de marca se ha actualizado. Si no ha habido cambios después de una nueva comprobación, el banner confirma &quot;Sin cambios en la puntuación de la directriz de marca&quot;. El porcentaje del icono _Comprobación de la directriz de marca_ para la variante revisada también muestra su progreso.
+1. Continúe revisando las secciones para asegurarse de que toda la variante pase las comprobaciones de validación y accesibilidad. Desplácese por cada variante con las flechas adyacentes a una variante individual en el lienzo.
 
-1. Continúe revisando las secciones para asegurarse de que toda la variante apruebe la validación de marca.
-
-   Desplácese entre las directrices del _panel de validación de marca_ con los botones **[!UICONTROL Siguiente]** y **[!UICONTROL Anterior]**.
-
-1. Desplácese por cada variante con las flechas adyacentes a una variante individual en el lienzo. Por ejemplo, use la flecha para pasar de `Email 1/4` a `Email 2/4`.
-1. Continúe revisando las secciones para adherirse mejor a su marca.
-
-   Consulte [Directrices de voz de marca](/help/user-guide/guidelines/brands.md#brand-voice-guidelines) para obtener más información sobre las directrices consideradas.

@@ -5,7 +5,8 @@ feature: Insights, Attributes, Generative AI
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
+exl-id: 7b81b0ae-0c62-468f-965c-fd8070644fb3
+source-git-commit: 808ffdb7f55f7ff938e9346b8513fab46f86df7c
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 1%
@@ -16,7 +17,7 @@ ht-degree: 1%
 
 Las características de texto incluyen recuentos para determinados elementos de texto, como palabras, oraciones, emojis y clasificaciones de semántica, emoción y tono que se utilizan para el análisis con [!DNL Insights]. El texto también puede recibir una puntuación de legibilidad.
 
-GenStudio for Performance Marketing usa la IA de Adobe y las capacidades de aprendizaje automático para estudiar texto y aplicar [!UICONTROL atributos de recursos] en función de los tonos de texto y la narrativa de marketing asociados. El proceso valida el texto de entrada para asegurarse de que contiene caracteres alfanuméricos, elimina los espacios en blanco adicionales y los caracteres no imprimibles, y trunca el texto al máximo permitido de 1500 palabras. Antes de aplicar las etiquetas de atributo detectadas, la IA predice el tono predominante.
+GenStudio for Performance Marketing usa la IA de Adobe y las capacidades de aprendizaje automático para estudiar texto y aplicar [!UICONTROL atributos de medios] en función de los tonos de texto y la narrativa de marketing asociados. El proceso valida el texto de entrada para asegurarse de que contiene caracteres alfanuméricos, elimina los espacios en blanco adicionales y los caracteres no imprimibles, y trunca el texto al máximo permitido de 1500 palabras. Antes de aplicar las etiquetas de atributo detectadas, la IA predice el tono predominante.
 
 ## Tono de voz
 
@@ -52,7 +53,7 @@ Otros valores secundarios para el tono incluyen: `Enthusiastic`, `Assertive`, `H
 
 ## Narrativa
 
-Los atributos narrativos le ayudan a identificar recursos que comunican los valores, el propósito o la identidad que resuenan en la audiencia de destino.
+Los atributos narrativos le ayudan a identificar medios que comunican los valores, el propósito o la identidad que resuenan en la audiencia de destino.
 
 | Narrativa | Descripción | Ejemplo |
 | ----------------- | ----------- | ------- |

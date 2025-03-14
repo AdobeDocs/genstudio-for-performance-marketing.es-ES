@@ -5,9 +5,9 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: a308972afc9fa6aeced0168b14d3c5f864d678f8
+source-git-commit: 4fae540faafdf3f3b32e567e033ea6e8e44ad978
 workflow-type: tm+mt
-source-wordcount: '1725'
+source-wordcount: '1991'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,19 @@ ht-degree: 0%
 
 Consulte la [descripción general de las directrices](/help/user-guide/guidelines/overview.md).
 
-Añadir directrices a GenStudio for Performance Marketing es un paso importante en el proceso de creación. Las directrices informan el proceso de creación de contenido, junto con indicadores definidos por el usuario y tecnología de IA generativa de Adobe, para crear recursos impactantes.
+Añadir directrices a GenStudio for Performance Marketing es un paso importante en el proceso de creación. Las directrices informan el proceso de creación de contenido, junto con mensajes definidos por el usuario, [comprobaciones de accesibilidad y contenido](overview.md#compliance) y la tecnología de IA generativa de Adobe para crear recursos impactantes.
+
+Las directrices pueden estar definidas por el usuario o pueden existir como directrices predeterminadas, como [default [!DNL Brand] channel guidelines](/help/user-guide/guidelines/brands.md#default-channel-guidelines).
+
+Al crear variantes a partir de una plantilla con directrices predefinidas—[!DNL Brands], [!DNL Personas] o [!DNL Products]—estas directrices se aplican a las variantes. Si lo desea, puede cambiarlos.
 
 {{in-academy}}
 
-## Agregar [!DNL Brands]
+## Añadir marcas
 
-Para agregar una marca, [sube una guía de marca](#upload-a-brand) o [crea manualmente una marca](#manually-add-brand) seleccionando directrices e introduciendo los detalles de tu marca. [Publish cambió la marca](#publish-brand) a [!DNL Content] para que esté disponible para usarla en futuras generaciones de contenido.
+Para agregar [!DNL Brand], [carga una guía de marca](#upload-a-brand) o [crea manualmente una marca](#manually-add-brand) seleccionando directrices e introduciendo los detalles de tu marca. [Publicar [!DNL Brand]](#publish-brand) en [!DNL Content] para que esté disponible para usarla en futuras generaciones de contenido.
 
-En el área de navegación izquierda, haga clic en **[!DNL Brands]**. En el panel _[!DNL Brands]_, seleccione **Agregar marca**.
+En el área de navegación izquierda, haga clic en **[!DNL Brands]** de la lista _Compartido_. En el panel _[!DNL Brands]_, seleccione **Agregar marca**.
 
 >[!TIP]
 >
@@ -34,22 +38,24 @@ En el área de navegación izquierda, haga clic en **[!DNL Brands]**. En el pane
 
 ### Cargar una marca
 
-Puede cargar sus propios documentos de directrices de marca (hasta tres archivos de PDF o DOC) en GenStudio for Performance Marketing para crear automáticamente una marca.
+Puede cargar sus propios documentos de directrices de marca (hasta tres archivos PDF o DOC) en GenStudio for Performance Marketing para crear automáticamente una marca.
 
 Ver [[!DNL Brands]](/help/user-guide/guidelines/brands.md).
 
 **Para cargar documentos de marca**:
 
-1. Seleccione el botón **[!UICONTROL Agregar marca]** y elija **Usar directrices de marca**.
-1. En la ventana emergente _Agregar nueva marca_, escribe un nombre de marca y adjunta o arrastra en la guía de marca.
+1. Seleccione el botón **[!UICONTROL Agregar marca]**.
+1. Elija **[!UICONTROL Cargar PDF]** e introduzca un nombre de marca en la ventana emergente _Elija una forma de agregar su marca_.
+1. Seleccione **[!UICONTROL Continuar]**.
+1. Examine y adjunte o arrastre sus documentos de directrices de marca a la ventana emergente _[!UICONTROL Agregar su marca]_.
 
-   Puede adjuntar hasta tres archivos de PDF o DOC.
+   Puede adjuntar hasta cinco archivos PDF para un máximo de 500 MB.
 
 1. Seleccione **[!UICONTROL Agregar marca]**.
 
-Con la tecnología de IA generativa de Adobe, GenStudio for Performance Marketing extrae información de los documentos cargados y comienza a crear su marca. La información de la marca, como la voz de la marca, el canal y las directrices de imagen, se rellena a medida que se ensamblan las directrices de los documentos de marca.
+   Con la tecnología de IA generativa de Adobe, GenStudio for Performance Marketing extrae información de los documentos cargados y comienza a crear su marca. La información de la marca, como la voz de la marca, el canal y las directrices de imagen, se rellena a medida que se ensamblan las directrices de los documentos de marca.
 
-Una ventana emergente le recuerda que revise el contenido extraído antes de [publicar la marca](#publish-brand).
+Se abre la vista de la nueva marca, que muestra los detalles de las directrices de marca extraídos de los documentos. Una ventana emergente le notifica _&quot;Su marca está lista para revisarse&quot;_ y le recuerda que revise el contenido extraído y realice las modificaciones necesarias.
 
 ### Añadir marca manualmente
 
@@ -57,52 +63,63 @@ Puede agregar manualmente los detalles de la marca, en lugar de cargar documento
 
 **Para agregar manualmente una marca**:
 
-1. Seleccione el botón **[!UICONTROL Agregar marca]** y elija **[!UICONTROL Agregar marca manualmente]**.
+1. Seleccione el botón **[!UICONTROL Agregar marca]**.
+1. Elija **[!UICONTROL Cargar manualmente]** e introduzca un nombre de marca en la ventana emergente _Elija una forma de agregar su marca_.
+1. Seleccione **[!UICONTROL Agregar marca]**.
 
-   Puede rellenar varias directrices e imágenes opcionales para crear su marca.
+   Se crea y se muestra una nueva marca en blanco.
 
-1. Agrega información sobre tu marca en la sección _Acerca de_.
-1. Escriba [_[!DNL Brand] directrices de voz _](brands.md#brand-voice-guidelines).
+1. Rellene varios datos, directrices e imágenes de marca para crear su marca en las secciones correspondientes (vistas de pestaña en la parte superior).
 
-   ![Agregar [!DNL Brand] directrices de voz ](/help/assets/brand-voice-add.png){width="650" zoomable="yes"}
+   Puede agregar directrices directamente desde la vista de página principal de su nueva marca _o_. Puede agregarlas en las secciones con fichas individuales (que incluyen información sobre herramientas _Ver ejemplos_ para guiarlo) en la parte superior.
 
-1. Escriba [_Directrices de canal_](brands.md#channel-guidelines) para cada canal aplicable.
-1. Escriba [_directrices de imágenes_](brands.md#image-guidelines). Expanda cada categoría en la sección Directrices de imagen para ver todas las directrices.
+   ![Marcas](/help/assets/brands.png){width="600" zoomable="yes"}
 
-   Si lo desea, haga clic en **[!UICONTROL Agregar categoría]** para agregar una categoría de directrices personalizadas, como Fotografías o Ilustraciones.
+   - _Cuándo usar esta marca_: Haz clic en **[!UICONTROL Agregar]** (o haz clic en el campo de texto para cambiar el texto existente) e introduce información general e información de uso sobre la marca. Haga clic en **[!UICONTROL Guardar cambios]**.
+   - [_[!DNL Brand] directrices de voz _](brands.md#brand-voice-guidelines): Agregue información aplicable en cada campo de directrices.
 
-1. Haz clic en el título de _Nueva marca_ e introduce un nombre de marca descriptivo.
+     ![Agregar [!DNL Brand] directrices de voz ](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
 
-Para ver su [!DNL Brands] creado, haga clic en la flecha hacia atrás cerca de la parte superior del panel _Marca_ para volver a la página de inicio de _[!DNL Brands]_.
+   - [_Directrices de imagen_](brands.md#image-guidelines): haga clic en **[!UICONTROL Agregar categoría]** para agregar categorías de guía como &quot;Directrices generales de arte&quot; o &quot;Fotografía de producto&quot;. Rellene las directrices en cada categoría añadida.
+   - [_Directrices de canal_](brands.md#channel-guidelines): haga clic en cada canal disponible y agregue las directrices correspondientes.
+   - [_Logotipos_](brands.md#logos): haga clic en **[!UICONTROL Agregar logotipo]** para arrastrar y soltar o examinar los logotipos para cargarlos.
+   - [_Colores_](brands.md#colors): Haz clic en **[!UICONTROL Agregar color]** para usar un código de color hexadecimal o RGB, o el selector de color, para agregar colores individuales.
 
-No tiene que [publicar](#publish-brand) su marca para que la información sea accesible. Cualquier información añadida manualmente está disponible inmediatamente después de agregarse. Para que otros miembros de su organización utilicen la información de marca en GenStudio for Performance Marketing, debe publicarla.
+     ![Colores de marca](/help/assets/colors.png){width="600" zoomable="yes"}
 
-### marca Publish
+Para ver su [!DNL Brands] creado, haga clic en la flecha hacia atrás cerca de la parte superior del panel _[!UICONTROL Marcas]_ para volver a la página de inicio de _[!UICONTROL Marcas]_.
 
-Antes de publicar su marca, haga clic en las secciones _Directrices de voz de marca_, _Directrices de canal_, _Directrices de imagen_ y _Logotipos_ para revisar toda la información rellenada. Realice los cambios necesarios en las directrices de marca.
+No tiene que [publicar](#publish-brand) su [!DNL Brand] para que la información sea accesible. Cualquier información añadida manualmente está disponible inmediatamente después de agregarse. Para que otros miembros de su organización utilicen la información de [!DNL Brand] en GenStudio for Performance Marketing, debe publicarla. Un(a) [!DNL Brand] creado está en forma de borrador hasta su publicación.
 
-**Para publicar un borrador de directrices de marca**:
+### Publicar marca
+
+Antes de publicar un borrador de [!DNL Brand], haga clic en todas las secciones de directrices para revisar toda la información rellenada. Realice los cambios necesarios en las directrices de marca.
+
+En _[!DNL Brands]_, cualquier borrador o [!DNL Brands] publicado aparecerá como mosaico. En la parte inferior de cada mosaico se muestra una insignia de estado (_ Publicado _o_ Borrador _) y la última vez que se modificó la marca.
+
+>[!TIP]
+>
+>Si desea ver solamente las marcas que ha creado, seleccione **[!UICONTROL Creado por usted]** del filtro [!DNL Brands] (icono de canal).
+
+**Para publicar un borrador de marca**:
 
 1. En el área de navegación izquierda, haga clic en **[!UICONTROL [!DNL Brands]]**.
+1. Haga clic para abrir un borrador de [!DNL Brand] existente.
+1. Haga clic en el botón **[!UICONTROL Publicar]** (solo disponible para borradores).
+1. En la ventana emergente _Publicar marca_, verifique quién tiene acceso para ver y usar la [!DNL Brand] publicada.
+1. En la ventana emergente _Publicar marca_ que aparece, seleccione **[!UICONTROL Publicar]**.
 
-   Un distintivo _Publicado_ y la última fecha de publicación de la marca son visibles para todas las marcas que están publicadas actualmente.
-
-1. Haga clic en para abrir una marca no publicada. Si la marca no se publica, se ve un botón **[!UICONTROL Publish]**.
-1. En la ventana emergente _Publish brand_, verifique quién tiene acceso para ver y utilizar la marca publicada.
-1. Seleccione **[!UICONTROL Publicar]**.
-1. En la ventana emergente _Publish brand_ que aparece, selecciona **[!UICONTROL Publish]**.
-
-   La ventana emergente confirma que la marca está publicada: &quot;La nueva marca ya está lista&quot;.
+   La ventana emergente confirma que [!DNL brand] se ha publicado—&quot;{Brand} ya está listo&quot;.
 
 1. Haga clic en **[!UICONTROL Listo]** para salir de la ventana emergente.
 
-La marca muestra un punto verde y &quot;Publicado&quot;, y aparece un botón **[!UICONTROL Publish]**.
+[!DNL brand] muestra un punto verde y &quot;Publicado&quot; junto al nombre, y aparece un botón **[!UICONTROL Editar[!DNL brand]]** en lugar del botón **[!UICONTROL Publicar]**.
 
-**Para cancelar la publicación de una marca publicada**, haga clic para abrirla y luego haga clic en **[!UICONTROL Cancelar la publicación]**.
+**Para cancelar la publicación de un(a)[!DNL brand]** publicado(a), haga clic en la marca para abrirlo y luego en **[!UICONTROL Cancelar la publicación]** en el menú de acciones (icono de tres puntos).
 
-La marca publicada ya está disponible para su uso en [_[!DNL Create]_](/help/user-guide/create/overview.md) o [_[!DNL Content]_](/help/user-guide/content/overview.md).
+La marca publicada ya está disponible para su uso en [_[!DNL Create]_](/help/user-guide/create/overview.md) y [_[!DNL Content]_](/help/user-guide/content/overview.md).
 
-### Administrar [!DNL Brands]
+### Administrar marcas
 
 En la página de inicio _[!DNL Brands]_, puede hacer clic para abrir una marca ya creada y administrarla o publicarla.
 
@@ -111,8 +128,8 @@ Para **ver la información de marca**, haz clic en **[!UICONTROL [!DNL Brands]]*
 **Para modificar una marca** en la vista [!DNL Brands]:
 
 1. En **[!DNL Brands]**, haga clic en para abrir una marca definida.
-1. Para ver detalles individuales o modificar las directrices de marca, haga clic en [**[!UICONTROL Directrices de voz de marca]**](#brand-voice-guidelines), [**[!UICONTROL Directrices de canal]**](#channel-guidelines), **[!UICONTROL Directrices de imagen]** o **[!UICONTROL Logotipos]** en la parte superior.
-1. Para cambiar el nombre de una marca existente, selecciona **[!UICONTROL Cambiar nombre]** en el menú de acción _[!DNL Brands]_.
+1. Para ver los detalles individuales o modificar las directrices, haga clic en [**[!UICONTROL Directrices de voz de marca]**](brands.md#brand-voice-guidelines), [**[!UICONTROL Directrices de imagen]**](brands.md#image-guidelines), [**[!UICONTROL Directrices de canal]**](brands.md#channel-guidelines), [**[!UICONTROL Logotipos]**](brands.md#logos) o [**[!DNL Colors]**](brands.md#colors) en la parte superior.
+1. Para cambiar el nombre de una marca existente, haga clic en el título e introduzca uno nuevo.
 1. Para duplicar una marca existente, selecciona **[!UICONTROL Duplicate]** del menú de acción _[!DNL Brands]_.
    1. Escriba un nombre de marca en la ventana emergente _Marca duplicada_ y haga clic en **[!UICONTROL Marca duplicada]**.
 
@@ -121,85 +138,11 @@ Para **ver la información de marca**, haz clic en **[!UICONTROL [!DNL Brands]]*
    1. Personalice la marca duplicada y luego [publíquela](#publish-brand) para que esté disponible para su uso.
 1. Para eliminar una marca, selecciona **[!UICONTROL Eliminar]** en el menú de acción [!DNL Brands].
 
-También puede administrar marcas en la vista [!DNL Brands] desde el menú de acciones _[!DNL Brands]_(tres puntos).
-
-## Agregar [!DNL Products]
-
-Para agregar un producto, [sube una guía de productos](#upload-a-product) o [crea manualmente un producto](#manually-add-product) seleccionando directrices e introduciendo los detalles del producto.
-
-En el área de navegación izquierda, haga clic en **[!DNL Products]**. En el panel _[!DNL Products]_, seleccione **Agregar producto**.
-
-![Agregar un(a) [!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"}
-
-Puede agregar [!DNL Products] en GenStudio for Performance Marketing para especificar áreas de enfoque de producto individuales al crear contenido.
-
-Ver [[!DNL Products]](products.md).
-
-### Cargar un producto
-
-Puede cargar documentos de producto para rellenar nuevos productos.
-
-Ver [[!DNL Products]](/help/user-guide/guidelines/products.md).
-
-**Para cargar documentos de productos**:
-
-1. Seleccione el botón **[!UICONTROL Agregar producto]** y elija **Cargar PDF**.
-1. Haga clic en **[!UICONTROL Continuar]**.
-1. En la ventana emergente _Agregar tu producto_, adjunta o arrastra el documento del producto.
-
-   Puede adjuntar hasta cinco archivos de PDF con un máximo de 500 MG combinados.
-
-1. Seleccione **[!UICONTROL Agregar productos]**.
-
-   Con la tecnología de IA generativa de Adobe, GenStudio for Performance Marketing extrae información de los documentos cargados y comienza a crear los productos.
-
-   Aparece una ventana emergente que muestra el progreso de la extracción de productos de sus documentos.
-
-1. En la ventana emergente _Generando productos_, elimine los productos extraídos que no desee usar o cambie el nombre de los productos como desee.
-1. Si falta un producto, haga clic en **[!UICONTROL Agregar nombre]** e introduzca el nombre del producto que falta.
-1. Haga clic en **[!UICONTROL Confirmar]**.
-
-   Una ventana emergente le recuerda que debe verificar y revisar los productos extraídos.
-
-### Añadir el producto manualmente
-
-Puede agregar manualmente los detalles del producto, en lugar de cargar los documentos de producto existentes, para rellenar un nuevo [producto](products.md) en GenStudio for Performance Marketing.
-
-**Para agregar manualmente un producto**:
-
-1. Seleccione el botón **[!UICONTROL Agregar marca]** y elija **[!UICONTROL Agregar manualmente]**.
-1. Haga clic en **[!UICONTROL Continuar]**.
-
-   Puede rellenar varias directrices opcionales e imágenes para crear el producto.
-
-1. Haga clic en **[!UICONTROL Nuevo nombre de producto]** e introduzca un nombre para [!DNL Product].
-1. Haga clic en _Descripción_ e introduzca una descripción de este(a) [!DNL product].
-1. Haga clic en _Propuesta de valor_ e introduzca detalles sobre el valor del producto.
-Haz clic en _Preferencias de mensajería_ e introduce los detalles de mensajería para [!DNL product].
-1. Para editar la miniatura, pasa el ratón sobre la miniatura y, en el menú de acciones Miniaturas, selecciona **[!UICONTROL Editar miniatura]**.
-   1. Cargue una imagen nueva o quite la ya cargada en la ficha _Cargar_.
-   1. Elija una imagen de la galería en la ficha _Galería_.
-   1. Haga clic en **[!UICONTROL Usar imagen]**.
-1. Para editar la imagen de portada, pasa el ratón sobre la portada y, en el menú Acciones de portada, selecciona **[!UICONTROL Editar portada]**.
-   1. Cargue una imagen nueva o quite la ya cargada en la ficha _Cargar_.
-   1. Elija una imagen de la galería en la ficha _Galería_ y haga clic en **[!UICONTROL Usar imagen]**.
-   1. Para cambiar la posición de la imagen de portada, haga clic en **[!UICONTROL Cambiar posición]**, arrastre la imagen a la posición deseada y haga clic en **[!UICONTROL Guardar]**.
-
-   Para ver su [!DNL products] creado, haga clic en la flecha hacia atrás cerca de la parte superior de la vista _Producto_ para volver a la página de inicio de _[!DNL Products]_.
-
-### Administrar [!DNL Products]
-
-En el inicio de _[!DNL Products]_, puede **abrir un elemento[!DNL Product]**ya creado para editarlo o revisarlo, o **eliminar un producto**de la lista:
-
-* Seleccione **[!UICONTROL Abrir]** del menú de acciones [!DNL Products] para revisar un producto existente.
-* Seleccione **[!UICONTROL Eliminar]** del menú de acción [!DNL Products] para **eliminar** un producto.
-* Seleccione **[!UICONTROL Rename]** del menú de acción [!DNL Products] para **Rename** un producto.
-
 ## Agregar [!DNL Personas]
 
 Para agregar una persona, [sube una guía de persona](#upload-a-persona) o [crea manualmente una persona](#manually-add-persona) seleccionando directrices e introduciendo tus detalles de persona.
 
-En el área de navegación izquierda, haga clic en **[!DNL Personas]**. En el panel _[!DNL Personas]_, seleccione **Agregar persona**.
+En el área de navegación izquierda, haga clic en **[!DNL Personas]** de la lista _Compartido_. En el panel _[!DNL Personas]_, seleccione **Agregar persona**.
 
 Puede agregar [!DNL Persona] en GenStudio for Performance Marketing para ayudar a dirigir el contenido que cree a su audiencia ideal.
 
@@ -211,25 +154,18 @@ Puede cargar sus propios documentos de personalidad para rellenar nuevos perfile
 
 Ver [[!DNL Personas]](/help/user-guide/guidelines/personas.md).
 
-**Para cargar documentos personales**:
+1. Seleccione el botón **[!UICONTROL Agregar persona]**.
+1. Elija **[!UICONTROL Cargar archivos]** e introduzca un nombre de persona en la ventana emergente _Elija una forma de agregar su persona_.
+1. Seleccione **[!UICONTROL Continuar]**.
+1. Examine y adjunte o arrastre sus documentos de directrices de personalidad a la ventana emergente _[!UICONTROL Agregar su personalidad]_.
 
-1. Seleccione el botón **[!UICONTROL Agregar persona]** y elija **Cargar PDF**.
-1. Haga clic en **[!UICONTROL Continuar]**.
-1. En la ventana emergente _Agregar tu persona_, adjunta o arrastra tu documento personal.
-
-   Puede adjuntar hasta cinco archivos de PDF con un máximo de 500 MG combinados.
+   Puede adjuntar hasta cinco archivos PDF o DOC por un máximo de 500 MB.
 
 1. Seleccione **[!UICONTROL Agregar personalidades]**.
 
-   Con la tecnología de IA generativa de Adobe, GenStudio for Performance Marketing extrae información de los documentos cargados y comienza a crear las personalidades.
+   Con la tecnología de IA generativa de Adobe, GenStudio for Performance Marketing extrae información de los documentos cargados y comienza a crear su personalidad. A medida que se reúne cada directriz de sus documentos personales, verá detalles como la voz personal, el canal y las directrices de imagen.
 
-   Aparece una ventana emergente que muestra el progreso de la extracción de personas de sus documentos.
-
-1. En la ventana emergente _Creación de personalidades_ que aparece, elimine las personalidades extraídas que no quiera usar o cambie el nombre de las personalidades como desee.
-1. Si falta una persona, haga clic en **[!UICONTROL Agregar nombre]** e introduzca el nombre de la persona que falta.
-1. Haga clic en **[!UICONTROL Confirmar]**.
-
-   Una vez finalizada la extracción, una ventana emergente le recordará que verifique y revise las personalidades extraídas.
+   Se abrirá la vista de la nueva persona, en la que se mostrarán los detalles de las directrices de personalidad extraídos de los documentos. Una ventana emergente le notifica _&quot;Su perfil está listo para revisarse&quot;_ y le recuerda que revise el contenido extraído y realice las modificaciones necesarias.
 
 ### Añadir persona manualmente
 
@@ -242,21 +178,23 @@ Puede agregar manualmente los detalles de la persona, en lugar de cargar documen
 
    Puede rellenar varias directrices e imágenes opcionales para crear su personalidad.
 
+1. Haga clic en **[!UICONTROL Nuevo nombre de persona]** e introduzca un nombre para [!DNL Persona].
 1. Agregue información sobre su [!DNL Persona] en la sección _Descripción_.
 
    ![Agregar un(a) [!DNL Persona]](/help/assets/personas-add.png){width="650" zoomable="yes"}
 
-1. Haga clic en **[!UICONTROL Nuevo nombre de persona]** e introduzca un nombre para [!DNL Persona].
 1. Haga clic en _Descripción_ e introduzca una descripción de este(a) [!DNL Persona].
 1. Haz clic en _Preferencias de mensajería_ e introduce los detalles de mensajería para [!DNL Persona].
-1. Para editar la miniatura, pasa el ratón sobre la miniatura y, en el menú de acciones Miniaturas, selecciona **[!UICONTROL Editar miniatura]**.
-   1. Cargue una imagen nueva o quite la ya cargada en la ficha _Cargar_.
-   1. Elija una imagen de la galería en la ficha _Galería_.
+1. Para editar la miniatura, pasa el ratón sobre ella y, en el menú de acciones, selecciona **[!UICONTROL Editar miniatura]**.
+   1. Elija una imagen de la galería en la ficha _Galería_ _o_ cargue una nueva imagen en la ficha _Cargar_.
+
+      También puede eliminar o recortar una imagen en miniatura existente en la ficha _Cargar_.
+
    1. Haga clic en **[!UICONTROL Usar imagen]**.
-1. Para editar la imagen de portada, pasa el ratón sobre la portada y, en el menú Acciones de portada, selecciona **[!UICONTROL Editar portada]**.
-   1. Cargue una imagen nueva o quite la ya cargada en la ficha _Cargar_.
-   1. Elija una imagen de la galería en la ficha _Galería_ y haga clic en **[!UICONTROL Usar imagen]**.
-   1. Para cambiar la posición de la imagen de portada, haga clic en **[!UICONTROL Cambiar posición]**, arrastre la imagen a la posición deseada y haga clic en **[!UICONTROL Guardar]**.
+1. Para editar la imagen de portada, pasa el ratón sobre la portada y en el menú de acciones selecciona **[!UICONTROL Editar portada]**.
+   1. Elija una imagen de la galería en la ficha _Galería_ _o_ cargue una nueva imagen en la ficha _Cargar_.
+   1. Haga clic en **[!UICONTROL Usar imagen]**.
+   1. Para cambiar la posición de la imagen de portada, haga clic en **[!UICONTROL Cambiar posición]** en el menú de acción, arrastre la imagen a la posición deseada y haga clic en **[!UICONTROL Guardar]**.
 
    Para ver su [!DNL Personas] creado, haga clic en la flecha hacia atrás cerca de la parte superior de la vista _Persona_ para volver a la página de inicio de _[!DNL Personas]_.
 
@@ -264,6 +202,74 @@ Puede agregar manualmente los detalles de la persona, en lugar de cargar documen
 
 En la página de inicio de _[!DNL Personas]_, puedes **abrir un elemento[!DNL Persona]**ya creado para editarlo o revisarlo, o **eliminar un elemento personal**de la lista:
 
-* Seleccione **[!UICONTROL Abrir]** en el menú de acciones de [!DNL Personas] para revisar un perfil existente.
-* Seleccione **[!UICONTROL Eliminar]** del menú de acción [!DNL Personas] para **eliminar** una persona.
-* Seleccione **[!UICONTROL Cambiar nombre]** del menú de acción [!DNL Personas] para **Cambiar nombre** de persona.
+- Seleccione **[!UICONTROL Abrir]** en el menú de acciones de [!DNL Personas] para revisar un perfil existente.
+- Seleccione **[!UICONTROL Eliminar]** del menú de acción [!DNL Personas] para **eliminar** una persona.
+- Seleccione **[!UICONTROL Cambiar nombre]** del menú de acción [!DNL Personas] para **Cambiar nombre** de persona.
+
+## Agregar [!DNL Products]
+
+Para agregar un producto, [sube una guía de productos](#upload-a-product) o [crea manualmente un producto](#manually-add-product) seleccionando directrices e introduciendo los detalles del producto.
+
+En el área de navegación izquierda, haga clic en **[!DNL Products]** de la lista _Compartido_. En el panel _[!DNL Products]_, seleccione **Agregar producto**.
+
+![Agregar un(a) [!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"}
+
+Puede incluir a [!DNL Product] en GenStudio for Performance Marketing para adaptar mejor el contenido que crea para un producto específico.
+
+Ver [[!DNL Products]](products.md).
+
+### Cargar un producto
+
+Puede cargar sus propios documentos de producto para rellenar nuevos productos.
+
+Ver [[!DNL Products]](/help/user-guide/guidelines/products.md).
+
+1. Seleccione el botón **[!UICONTROL Agregar producto]**.
+1. Elija **[!UICONTROL Cargar archivos]** e introduzca un nombre de producto en la ventana emergente _Elija una forma de agregar su producto_.
+1. Seleccione **[!UICONTROL Continuar]**.
+1. Examine y adjunte o arrastre sus documentos de directrices de productos a la ventana emergente _[!UICONTROL Agregar su producto]_.
+
+   Puede adjuntar hasta cinco archivos PDF o DOC por un máximo de 500 MB.
+
+1. Seleccione **[!UICONTROL Agregar productos]**.
+
+   Con la tecnología de IA generativa de Adobe, GenStudio for Performance Marketing analiza los documentos cargados para crear el perfil del producto. A medida que se procesa cada directriz de los documentos del producto, verá información como las descripciones de los productos, las propuestas de valores y las preferencias de mensajería.
+
+   Se abre la vista del nuevo producto, que muestra los detalles de las directrices del producto extraídas de los documentos. Una ventana emergente le notifica _&quot;Su producto está listo para revisarse&quot;_ y le recuerda que revise el contenido extraído y realice las modificaciones necesarias.
+
+### Añadir el producto manualmente
+
+Puede agregar manualmente los detalles del producto, en lugar de cargar documentos de producto existentes, para rellenar [productos](products.md) nuevos.
+
+**Para agregar manualmente un producto**:
+
+1. Seleccione el botón **[!UICONTROL Agregar producto]** y elija **[!UICONTROL Agregar manualmente]**.
+1. Haga clic en **[!UICONTROL Continuar]**.
+
+   Puede rellenar varios datos opcionales para crear el producto.
+
+1. Haga clic en **[!UICONTROL Nuevo nombre de producto]** e introduzca un nombre para [!DNL product].
+1. Agregue información sobre su [!DNL product] en la sección _Descripción_.
+1. Haga clic en _Descripción_ e introduzca una descripción de este(a) [!DNL Product].
+1. Haga clic en _Propuesta de valor_ e introduzca los detalles de la propuesta de valor para colocar correctamente su [!DNL Product].
+1. Haz clic en _Preferencias de mensajería_ e introduce los detalles de mensajería para [!DNL product].
+1. Para editar la miniatura, pasa el ratón sobre ella y, en el menú de acciones, selecciona **[!UICONTROL Editar miniatura]**.
+   1. Elija una imagen de la galería en la ficha _Galería_ _o_ cargue una nueva imagen en la ficha _Cargar_.
+
+      También puede eliminar o recortar una imagen en miniatura existente en la ficha _Cargar_.
+
+   1. Haga clic en **[!UICONTROL Usar imagen]**.
+1. Para editar la imagen de portada, pasa el ratón sobre la portada y en el menú de acciones selecciona **[!UICONTROL Editar portada]**.
+   1. Elija una imagen de la galería en la ficha _Galería_ _o_ cargue una nueva imagen en la ficha _Cargar_.
+   1. Haga clic en **[!UICONTROL Usar imagen]**.
+   1. Para cambiar la posición de la imagen de portada, haga clic en **[!UICONTROL Cambiar posición]** en el menú de acción, arrastre la imagen a la posición deseada y haga clic en **[!UICONTROL Guardar]**.
+
+   Para ver su [!DNL Products] creado, haga clic en la flecha hacia atrás cerca de la parte superior de la vista _Producto_ para volver a la página de inicio de _[!DNL Products]_.
+
+### Administrar [!DNL Products]
+
+En el inicio de _[!DNL Products]_, puede **abrir un elemento[!DNL Product]**ya creado para editarlo o revisarlo, o **eliminar un producto**de la lista:
+
+- Seleccione **[!UICONTROL Abrir]** del menú de acciones [!DNL Products] para revisar un producto existente.
+- Seleccione **[!UICONTROL Eliminar]** del menú de acción [!DNL Products] para **eliminar** un producto.
+- Seleccione **[!UICONTROL Rename]** del menú de acción [!DNL Products] para **Rename** un producto.

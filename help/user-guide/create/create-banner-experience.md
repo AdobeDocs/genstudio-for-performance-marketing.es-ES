@@ -1,42 +1,40 @@
 ---
-title: Crear una experiencia de anuncio en pantalla
-description: Aprenda a crear experiencias de anuncios en pantalla en Adobe [!DNL GenStudio] for Performance Marketing.
+title: Crear una experiencia de banner
+description: Aprenda a crear experiencias de banner en Adobe [!DNL GenStudio] for Performance Marketing.
 feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, Experiences, Variant Generation
+badgeBeta: label="Beta" tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."
 role: User
 level: Beginner
 recommendations: noDisplay
-exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 4fae540faafdf3f3b32e567e033ea6e8e44ad978
+source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '981'
 ht-degree: 0%
 
 ---
 
-# Crear una experiencia de anuncio en pantalla
+# Crear una experiencia de banner
 
-Este tutorial muestra cómo generar [experiencias de anuncios en pantalla](display-ad-experiences.md) de marca mediante GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icono de pincel en el área de navegación izquierda).
+Este tutorial muestra cómo crear [experiencias de banner](banner-experiences.md) con marca mediante GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icono de pincel en el área de navegación izquierda).
 
-Para diseñar una experiencia atractiva de anuncios en pantalla, se recomienda [agregar directrices a GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) y revisar los [conceptos básicos para escribir avisos](/help/user-guide/effective-prompts.md) antes de empezar.
+Para diseñar una experiencia de banner atractiva, se recomienda [agregar directrices a GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) y revisar los [conceptos básicos para escribir avisos](/help/user-guide/effective-prompts.md) antes de comenzar.
 
 ## Elija una plantilla
 
-Para crear una experiencia de anuncio en pantalla, utilice una plantilla disponible para proporcionar el marco de trabajo para el contenido. Consulte [Prácticas recomendadas para plantillas](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para obtener información acerca de las dimensiones de anuncios en pantalla admitidas.
+Para crear una experiencia de banner, utilice una plantilla disponible para proporcionar el marco de trabajo para el contenido. Consulte [Prácticas recomendadas para plantillas](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para obtener información sobre las dimensiones de banner admitidas.
 
-**Para elegir una plantilla de anuncio en pantalla**:
+**Para elegir una plantilla de banner**:
 
-1. En _[!DNL Create]_, haga clic en **[!UICONTROL Mostrar anuncios]**en_ &quot;¿Qué desea crear hoy?&quot;_sección.
-1. Utilice la opción de búsqueda, adyacente a _Filter_, para encontrar una plantilla de anuncio en pantalla específica.
-1. En la vista _Seleccionar plantilla_, haga clic en una plantilla de anuncio en pantalla.
+1. En _[!DNL Create]_, haga clic en **[!UICONTROL Banners]**en_ &quot;¿Qué desea crear hoy?&quot;_sección.
+1. Utilice la opción de búsqueda, adyacente a _Filter_, para encontrar una plantilla de banner específica.
+1. En la vista _Seleccionar plantilla_, haga clic en una plantilla de banner.
 1. Haga clic en **[!UICONTROL Usar]**.
 
-   Se muestra el lienzo, que sirve como centro para la creación de contenido.
+   Se muestra el lienzo, que es la base de inicio para la creación de contenido.
 
 ## Añadir parámetros
 
-Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Parámetros_ en el cajón de solicitud sobrecarga el proceso de generación de contenido y es un paso preparatorio integral para generar una experiencia de anuncio en pantalla.
-
-Si usa una plantilla con directrices predefinidas—[!DNL Brands], [!DNL Personas] o [!DNL Products]—estas directrices se aplican a las variantes. Si lo desea, puede cambiarlos.
+La incorporación de [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Parámetros_ dentro del cajón de solicitud mejora el proceso de generación de contenido y es un paso preparatorio crucial para crear una experiencia de banner.
 
 **Para agregar parámetros y recursos**:
 
@@ -57,7 +55,7 @@ Cuando haya terminado de agregar parámetros, contraiga el cajón de mensajes ha
 
 ## Introduzca una solicitud
 
-Una vez seleccionadas las directrices, cree un mensaje con lenguaje natural para empezar a generar contenido para la nueva experiencia de anuncio en pantalla. Para mejorar la calidad de las experiencias de anuncios en pantalla generadas, es crucial crear indicadores detallados y descriptivos.
+Una vez seleccionadas las directrices, utilice un lenguaje natural para crear un mensaje que inicie la generación de contenido para la nueva experiencia del titular. Para garantizar resultados de alta calidad, es esencial crear indicadores detallados y descriptivos.
 
 ![Escriba un mensaje](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
 
@@ -70,14 +68,14 @@ Consulte [Escribir mensajes efectivos](/help/user-guide/effective-prompts.md) pa
 
 De forma predeterminada, se generan y muestran en el lienzo cuatro variaciones (impulsadas por el mensaje, las directrices y el contenido añadido).
 
-## Revisar variantes generadas
+## Revisar titulares generados
 
-Antes de seleccionar qué enviar para su aprobación o publicación a [!DNL Content], puede editar las secciones de anuncios en pantalla y los campos de texto, o eliminar una variante generada.
+Antes de seleccionar lo que se enviará para su aprobación o publicación en [!DNL Content], puede editar las secciones de banner y los campos de texto, o eliminar una variante generada.
 
 **Para revisar las variantes generadas**:
 
-* **Para [editar el nombre del borrador del anuncio para mostrar](/help/user-guide/create/manage-variants.md#change-draft-name)**, haga clic en el título de _Borrador sin título_ en la parte superior del lienzo y escriba un nuevo título.
-* **Para [editar manualmente un anuncio en pantalla](/help/user-guide/create/manage-variants.md#manually-edit-text)**, haga doble clic en cualquiera de las secciones o campos de anuncios en pantalla (como la línea de asunto, el encabezado o la copia de cuerpo) y edítelo según sea necesario.
+* **Para [editar el nombre del borrador del banner](/help/user-guide/create/manage-variants.md#change-draft-name)**, haga clic en el título de _Borrador sin título_ en la parte superior del lienzo y escriba un nuevo título.
+* **Para [editar manualmente un banner](/help/user-guide/create/manage-variants.md#manually-edit-text)**, haga doble clic en cualquiera de las secciones o campos del banner (como el titular o CTA) y edítelo según sea necesario.
 * **Para [volver a generar una sección de una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, haga clic en un campo de texto editable y use las opciones _[!UICONTROL Ediciones sugeridas]_ o escriba un nuevo mensaje en _[!UICONTROL Generar nuevo texto_ sección] y haga clic en **[!UICONTROL Generar]**.
 * **Para [agregar o intercambiar imágenes en una variante](/help/user-guide/create/manage-variants.md#swap-image)**, haga clic en un recurso de imagen (o en el área del recurso de imagen si todavía no existe una imagen) y haga clic en el icono **[!UICONTROL Intercambiar desde contenido]**.
 * **Para [agregar un vínculo a una imagen en una variante](/help/user-guide/create/manage-variants.md#add-image-link)**, haga clic en un recurso de imagen (o en el área del recurso de imagen si la imagen no existe actualmente) y haga clic en el icono de vínculo.
@@ -98,7 +96,7 @@ Para optimizar las variantes generadas y garantizar el cumplimiento estricto de 
 
 **Para realizar comprobaciones de contenido en una variante**:
 
-1. Haga clic en el icono del panel _Comprobación de contenido_ en la barra de acciones derecha para abrir el panel [_Comprobación de contenido_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Vea un resumen de las comprobaciones de *Necesidades de revisión* y *Superado* para ver qué secciones y directrices necesitan mejorarse.
+1. Haga clic en el icono del panel _Comprobación de contenido_ en la barra de acciones derecha para abrir el panel [_Comprobación de contenido_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Vea un resumen de las comprobaciones de _Necesidades de revisión_ y _Superado_ para ver qué secciones y directrices necesitan mejorarse.
 
    ![_Comprobación de contenido_ panel](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
 
@@ -108,28 +106,28 @@ Consulte [Validación de marca](/help/user-guide/guidelines/brand-validation.md)
 
 ## Obtener revisiones y aprobaciones
 
-Utilice el panel Aprobaciones, accesible como icono en la barra de acciones derecha del lienzo, para obtener críticas, realizar un seguimiento de los comentarios de revisión y obtener aprobaciones de las partes interesadas.
+Utilice el panel _Aprobaciones_, al que se puede acceder como icono en la barra de acciones derecha del lienzo, para obtener críticas, realizar un seguimiento de los comentarios de las revisiones y obtener aprobaciones de las partes interesadas.
 
 **Para obtener revisiones y aprobaciones**:
 
-1. [Inicie una solicitud de aprobación](/help/user-guide/approvals/request-review.md) para solicitar una [aprobación de las experiencias de anuncios en pantalla redactadas](/help/user-guide/approvals/approve-content.md).
+1. [Iniciar una solicitud de aprobación](/help/user-guide/approvals/request-review.md) para solicitar una [aprobación de las experiencias de banner esbozadas](/help/user-guide/approvals/approve-content.md).
 1. [Quitar o agregar revisores](/help/user-guide/approvals/review-and-edit.md#manage-approvals) durante el proceso de revisión.
 1. [Acceda al contenido para revisarlo](/help/user-guide/approvals/review-and-edit.md#access-content-for-review) y vea las solicitudes de revisión.
-1. Edite los borradores por comentarios de revisión y [publique sus experiencias de anuncios en pantalla](#publish-and-export-experience).
+1. Edite los borradores por comentarios de revisión y [publique sus experiencias de banner](#publish-and-export-experience).
 
 Ver [revisiones y aprobaciones](/help/user-guide/approvals/overview.md).
 
 ## Publicar y exportar experiencias
 
-Para que los anuncios en pantalla generados estén disponibles para su uso actual y futuro, publíquelo en [!UICONTROL Contenido] y expórtelo para su uso en campañas de marketing.
+Para que los banners generados estén disponibles para su uso actual y futuro, publíquelos en [!UICONTROL Contenido] y expórtelos para su uso en campañas de marketing.
 
-1. **Para publicar tus nuevas experiencias con anuncios en pantalla**, haz clic en **[!UICONTROL Publicar]** en la barra de herramientas superior o dentro del flujo de aprobaciones.
+1. **Para publicar tus nuevas experiencias de banner**, haz clic en **[!UICONTROL Publicar]** en la barra de herramientas superior o dentro del flujo de aprobaciones.
    1. Seleccione _[!UICONTROL [!DNL Campaigns]]_y agregue_[!UICONTROL  más detalles ]_si lo desea.
    1. Haga clic en **[!UICONTROL Publicar]**.
 
-      ![Publicar un anuncio para mostrar](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
+      ![Publicar un titular](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
 
-1. **Para exportar las nuevas experiencias de anuncios en pantalla**, haga clic en **[!UICONTROL Exportar]** en la barra de herramientas superior.
+1. **Para exportar los nuevos titulares**, haga clic en **[!UICONTROL Exportar]** en la barra de herramientas superior.
    1. Seleccione el formato HTML e imágenes, PNG o JPG y haga clic en **[!UICONTROL Exportar]**.
 
       La HTML exportada debe colocarse dentro de una propiedad web predefinida, como una plantilla o un contenedor de `div`. Sin estas cotas definidas, las imágenes pueden aparecer distorsionadas cuando se visualizan de forma independiente.

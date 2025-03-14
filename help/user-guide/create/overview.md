@@ -3,9 +3,9 @@ title: Descripción general de GenStudio for Performance Marketing [!DNL Create]
 description: Genere rápidamente contenido de alto rendimiento que no pertenezca a la marca con IA generativa en Adobe GenStudio for Performance Marketing [!DNL Create].
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 11d86ddddd1289c0bd198f21fe75a84b1459253e
+source-git-commit: cccf207ce1cb2773a18ed553e14d1dbe3b77635b
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '708'
 ht-degree: 1%
 
 ---
@@ -14,53 +14,130 @@ ht-degree: 1%
 
 GenStudio for Performance Marketing [!DNL Create] aprovecha el poder de Adobe GenAI para permitir que los especialistas en marketing y los equipos distribuidos creen experiencias de alto rendimiento y de marca.
 
-![Crear tablero](/help/assets/create.png){width="600" zoomable="yes"}
+![Crear página principal](/help/assets/create-home.png){width="600" zoomable="yes"}
+
+La página de inicio de [!DNL Create] está organizada en secciones de canal—_Medios de propiedad_, _Medios de pago_ y _Contenido_—y en una sección de _Recientes_ que muestra todos los borradores recientes y el contenido publicado. Cada sección de canal permite la creación de contenido para ese conjunto específico de canales. Por ejemplo, ve a la sección _Medios en propiedad_ para empezar a crear un correo electrónico o banner.
 
 Con [!DNL Create], puede generar contenido para los siguientes canales:
 
 * [Correos electrónicos](email-experiences.md)
 * [Meta ads](meta-experiences.md)
+* [Anuncios de LinkedIn](linkedin-experiences.md)
 * [Anuncios de visualización](display-ad-experiences.md)
+* [Banners](banner-experiences.md)
 
-Junto con la potencia de [directrices](/help/user-guide/guidelines/overview.md)—[!DNL Brands], [!DNL Products] y [!DNL Personas]—[Contenido](/help/user-guide/content/overview.md), [revisiones y aprobaciones](/help/user-guide/approvals/overview.md) y [perspectivas](/help/user-guide/insights/overview.md), [!DNL Create] facilita la creación de contenido de marketing impactante y alineado con la marca.
+Junto con la potencia de [directrices](/help/user-guide/guidelines/overview.md)—[!DNL Brands], [!DNL Products] y [!DNL Personas]—[Contenido](/help/user-guide/content/overview.md), [Campañas](/help/user-guide/campaigns/overview.md), [Revisiones y aprobaciones](/help/user-guide/approvals/overview.md), [Activación](/help/user-guide/activation/overview.md) y [Perspectivas](/help/user-guide/insights/overview.md), [!DNL Create] facilita la creación de contenido de marketing impactante y alineado con la marca.
 
 Los editores y administradores de sistema tienen acceso completo a [!DNL Create]. Consulte [Funciones de usuario y permisos](/help/user-guide/user-roles.md) para obtener información detallada sobre el acceso a funciones.
 
 ## Casos de uso de [!DNL Create]
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="Crear contenido nuevo" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong>Crear una experiencia de correo electrónico</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
+
       <img alt="Crear una experiencia de Meta ad" src="../../assets/icons/icon-asset.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
+
          <strong>Crear una experiencia de Meta ad</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
-      <a href="/help/user-guide/create/create-display-ad.md">
-      <img alt="Crear una experiencia de anuncio en pantalla" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
+      <a href="/help/user-guide/create/create-linkedin.md">
+
+      <img alt="Crear una experiencia de publicidad de LinkedIn" src="../../assets/icons/icon-dataAnalytics.svg" width="35">
+
       </a>
+
       <div>
-         <a href="/help/user-guide/create/create-display-ad.md">
-         <strong>Crear una experiencia de anuncio en pantalla</strong>
+
+         <a href="/help/user-guide/create/create-linkedin.md">
+
+         <strong>Crear una experiencia de anuncio de LinkedIn</strong>
+
          </a>
+
       </div>
+
    </td>
+
+   <td align="center" valign="top" width="100">
+
+      <a href="/help/user-guide/create/create-display-ad.md">
+
+      <img alt="Crear una experiencia de anuncio en pantalla" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
+      </a>
+
+      <div>
+
+         <a href="/help/user-guide/create/create-display-ad.md">
+
+         <strong>Crear una experiencia de anuncio en pantalla</strong>
+
+         </a>
+
+      </div>
+
+   </td>
+
+   <td align="center" valign="top" width="100">
+
+      <a href="/help/user-guide/create/create-banner-experience.md">
+
+      <img alt="Crear una experiencia de banner" src="../../assets/icons/icon-search.png" width="35">
+
+      </a>
+
+      <div>
+
+         <a href="/help/user-guide/create/create-banner-experience.md">
+
+         <strong>Crear una experiencia de banner</strong>
+
+         </a>
+
+      </div>
+
+   </td>
+
 </tr>
+
 </table>
 
 GenStudio for Performance Marketing permite que los especialistas en marketing **creen nuevo contenido de marketing**. En este caso de uso, use [directrices](/help/user-guide/guidelines/overview.md) definidas e imágenes de inspiración para informar la creación de contenido alineado con la marca.
@@ -89,9 +166,9 @@ El contenido —los recursos de imagen cargados o agregados— de _Parameters_ s
 
 Para crear contenido generado por IA, escriba un [mensaje descriptivo](/help/user-guide/effective-prompts.md) que describa el contexto o la experiencia que desea generar, junto con [directrices](/help/user-guide/guidelines/overview.md) y [_Parámetros_](#parameters), en el cajón de mensajes y haga clic en **[!UICONTROL Generar]**.
 
-### Validación de marca
+### Comprobaciones de contenido
 
-GenStudio for Performance Marketing valida la marca en varios aspectos de la identidad de una marca (tal como se definen en [directrices](/help/user-guide/guidelines/overview.md)). La información de [validación de marca](/help/user-guide/guidelines/brand-validation.md) está disponible para cualquier contenido generado, lo que indica su conformidad con las directrices de marca y la coherencia entre texto e imágenes. Puede utilizar esta información para revisar o mejorar la experiencia generada y alinearla mejor con su marca.
+GenStudio for Performance Marketing realiza [comprobaciones de contenido](/help/user-guide/guidelines/brand-validation.md#content-check-panel) en relación con las [directrices de marca](/help/user-guide/guidelines/brands.md), las directrices de plataforma y los [estándares de accesibilidad](/help/user-guide/guidelines/overview.md#compliance) en cada variante para garantizar que cumple con los máximos requisitos en [!DNL Brand], la plataforma y los estándares de accesibilidad. La información de [comprobación de contenido](/help/user-guide/guidelines/brand-validation.md#content-check-summary) está disponible para cualquier contenido generado, lo que indica su conformidad con las comprobaciones de contenido completas y la coherencia entre texto e imágenes. Puede utilizar esta información para revisar o mejorar la experiencia generada y alinearla mejor con su marca.
 
 ### Revisiones y aprobaciones
 
@@ -112,4 +189,3 @@ Haga clic en los iconos de ordenación (cuadrícula o tabla) para mostrar _Traba
 GenStudio for Performance Marketing permite [un control exhaustivo de secciones de variantes individuales](/help/user-guide/create/manage-variants.md).
 
 Puede revisar secciones de una sola variante, volver a generar el contenido de secciones individuales y utilizar las ediciones sugeridas para mejorar el mensaje, el tamaño de los recursos y mucho más, todo dentro del lienzo.
-

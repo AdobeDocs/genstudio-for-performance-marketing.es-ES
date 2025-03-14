@@ -2,11 +2,10 @@
 title: Notas de la versión de Adobe GenStudio for Performance Marketing
 description: Obtenga información sobre las últimas funciones y mejoras de Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-last-substantial-update: 2025-02-13T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 0d55b89d550a8e44e7dd354d809f00699fccf468
+source-git-commit: 41fb13b1067851194871a1101f2630de7ca1c008
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '2067'
 ht-degree: 1%
 
 ---
@@ -15,7 +14,50 @@ ht-degree: 1%
 
 Esta información de la versión detalla las últimas actualizaciones de la aplicación de GenStudio for Performance Marketing.
 
-## 2025.2.13 {#latest}
+## 2025.03.13 {#latest}
+
+### Creación de experiencias de LinkedIn
+
+[!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
+
+Se agregó compatibilidad con [la creación de experiencias de LinkedIn](/help/user-guide/create/create-linkedin.md). Consulte la ficha [Anuncio de LinkedIn](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) en las directrices específicas del canal.
+
+### Crear experiencias de banner
+
+[!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
+
+Se agregó compatibilidad con [creación de experiencias de banner](/help/user-guide/create/create-banner-experience.md). Consulte la pestaña [Banner](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) en las directrices específicas del canal.
+
+### Compatibilidad
+
+Como parte del proceso de validación de la marca, se han introducido [estándares de cumplimiento](/help/user-guide/guidelines/overview.md) en [comprobaciones de contenido](/help/user-guide/guidelines/brand-validation.md). Estas comprobaciones revisan cada variante de una experiencia en relación con las directrices de [!DNL Brand], [!DNL Product] y [!DNL Persona], las directrices de la plataforma (como para Meta), las consideraciones éticas y los estándares de ADA. Este proceso proporciona un resumen completo de las directrices y normas que deben revisarse para mejorar su cumplimiento.
+
+### Extensibilidad
+
+El nuevo marco de trabajo de extensibilidad [de GenStudio for Performance Marketing](/help/extensibility/overview.md) proporciona herramientas para que las organizaciones incorporen sus propios protocolos de conformidad de notificaciones en el flujo de trabajo de creación y validación de contenido mediante complementos o aplicaciones ampliables.
+
+### Plantillas
+
+* **Editor de código de plantilla**: el nuevo [editor de código de plantilla](/help/user-guide/content/code-editor.md) le ayuda a comprobar y perfeccionar su plantilla para que pueda utilizarla de forma óptima al generar nuevas experiencias con GenStudio for Performance Marketing.
+
+  ![Vista del editor de código](/help/assets/template-detected-fields.png "Comprobar campos detectados"){width="500" zoomable="yes"}
+
+* **Vínculos en la imagen**: personalice la plantilla de correo electrónico habilitando vínculos de imagen. Ver [Personalizar una plantilla: vínculo en la imagen](/help/user-guide/content/customize-template.md#link-on-image).
+* **Plantillas de AJO y Marketo**: cargue una plantilla que haya creado en Adobe Journey Optimizer (AJO) o Marketo. Ver [Trabajar con plantillas de AJO y Marketo](/help/user-guide/content/use-templates.md#templates-from-ajo-and-marketo).
+
+### Correcciones y mejoras
+
+* Funcionalidad habilitada para las directrices de [canal predeterminado](/help/user-guide/guidelines/brands.md#channel-guidelines), [imagen](/help/user-guide/guidelines/brands.md#image-guidelines), [logotipo](/help/user-guide/guidelines/brands.md#logos) y [color](/help/user-guide/guidelines/brands.md#colors) para [[!DNL Brands]](/help/user-guide/guidelines/brands.md).
+* Se ha agregado la capacidad de [agregar vínculos a imágenes](/help/user-guide/create/manage-variants.md#add-image-link) dentro de una variante.
+* Se cambió la funcionalidad [Comprobación de contenido](/help/user-guide/guidelines/brand-validation.md) y Revisión y aprobación a la nueva barra de acciones derecha para maximizar el espacio en el lienzo y mejorar la experiencia del usuario.
+* Se ha simplificado el flujo para [cargar o agregar manualmente una marca](/help/user-guide/guidelines/add-guidelines.md#add-brands).
+* Se ha introducido la capacidad de [agregar o intercambiar recursos de imagen dentro de una variante](/help/user-guide/create/manage-variants.md#swap-image) en el lienzo.
+* Se mejoró la experiencia del usuario y la visibilidad de las categorías de canal [en la página de inicio Crear](/help/user-guide/create/overview.md) al separarlas en las secciones Medios propios, Medios de pago y Contenido.
+* Se mejoró el filtrado en [!DNL Insights] vistas de tabla y galería.
+
+## Notas de la versión anteriores
+
++++Notas del 13 de febrero de 2025
 
 ### Mejoras en la página de aterrizaje de [!DNL Create]
 
@@ -23,11 +65,11 @@ La página de aterrizaje [!DNL Create] de GenStudio for Performance Marketing in
 
 ### Exportación de perspectivas a CSV
 
-Ahora puede descargar la tabla visible desde cualquier vista de [!DNL Insights] en un archivo CSV. Esta característica le permite exportar y analizar fácilmente datos de varias vistas de [!DNL Insights], lo que facilita el análisis de datos y las opciones de informes.
+Ahora puede descargar la tabla visible desde cualquier vista de [!DNL Insights] en un archivo CSV. Esta característica le permite exportar y analizar datos de varias vistas de [!DNL Insights], lo que facilita el análisis de datos y las opciones de informes.
 
-## Notas de la versión anteriores
++++
 
-+++Notas de la versión 2025.1.16
++++Notas a partir del 16 de enero de 2025
 
 ### Integración con Adobe Workfront Proof
 

@@ -2,9 +2,10 @@
 title: Funciones de vídeo
 description: Obtenga información acerca de la función de vídeo de las categorías de atributos utilizadas en GenStudio for Performance Marketing.
 feature: Insights, Attributes, Generative AI
-source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
+exl-id: 0dfdd735-b365-4a15-a6fd-e981697442cb
+source-git-commit: 808ffdb7f55f7ff938e9346b8513fab46f86df7c
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '570'
 ht-degree: 1%
 
 ---
@@ -35,7 +36,7 @@ La detección de audio en GenStudio for Performance Marketing implica el anális
 
 1. Cambie el botón **reactivar el silencio** (ubicado en la esquina inferior izquierda de una vista previa de vídeo) y escuche el audio de la vista previa del vídeo.
 
-En la tabla siguiente se enumeran las categorías de funciones de vídeo reconocidas por la API de GenStudio for Performance Marketing. La lista de atributos detectados para un recurso no es exhaustiva. Las Assets que contienen un conjunto completo de funciones pueden limitarse a las tres funciones más dominantes identificadas por la API.
+En la tabla siguiente se enumeran las categorías de funciones de vídeo reconocidas por la API de GenStudio for Performance Marketing. La lista de atributos detectados para un contenido multimedia no es exhaustiva. Los medios que contienen un conjunto completo de funciones pueden limitarse a las tres funciones más dominantes identificadas por la API.
 
 <!-- For the writer: turn off word wrap to work with these tables. Option + Z -->
 

@@ -3,9 +3,9 @@ title: Resumen de canales
 description: Vea una descripción general de la participación del cliente, el rendimiento, el presupuesto y los gastos para campañas de marketing en Adobe GenStudio for Performance Marketing.
 feature: Insights, Channels, Campaigns
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
+source-git-commit: e4507e53896348bca2ebec4ae299be50a0d277a7
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ La vista [!DNL Insights] _[!UICONTROL Canales]_ muestra una lista de campañas p
 
 {{connect-insights}}
 
-La tabla _[!UICONTROL Canales]_ está organizada mediante la campaña de anuncios basada en canales. Haga clic en el icono de configuración (cog) situado encima de la parte derecha de la tabla para alternar las columnas visibles. El icono de filtro (canal) situado encima de la parte izquierda de la tabla abre el menú **[!UICONTROL Filtro]**, en el que puede seleccionar entre las listas [!UICONTROL Cuenta], [!UICONTROL Estado] y [!UICONTROL Objetivo] para filtrar las campañas de la tabla.
+La tabla _[!UICONTROL Canales]_ está organizada mediante la campaña de anuncios basada en canales. Haga clic en el icono de configuración (cog) situado encima de la parte derecha de la tabla para alternar las columnas visibles. El icono de filtro (canal) situado encima de la parte izquierda de la tabla abre el menú **[!UICONTROL Filtro]**, en el que puede seleccionar entre varias listas. Seleccione **[!UICONTROL Borrar todo]** sobre la tabla para eliminar todos los filtros.
 
 ![Filtro y tabla de canales](/help/assets/insights-channels-filter.png){zoomable="yes"}
 
 {{$include /help/_includes/download-insights.md}}
 
-Al seleccionar una campaña, la ficha [[!UICONTROL Experiencias]](experiences.md) se abre a una lista de nombres de anuncios asociados con esa campaña, lo que le permite identificar qué experiencias han contribuido a su éxito general.
+Al seleccionar una campaña, la ficha [[!UICONTROL Anuncios]](ads.md) se abre a una lista de nombres de anuncios asociados con esa campaña, lo que le permite identificar qué anuncios han contribuido a su éxito general.
 
 ## Objetivos
 
