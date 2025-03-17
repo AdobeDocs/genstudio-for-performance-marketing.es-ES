@@ -3,9 +3,9 @@ title: Notas de la versión de Adobe GenStudio for Performance Marketing
 description: Obtenga información sobre las últimas funciones y mejoras de Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 86974fec02bd50fa36ef16bd4d1881794972fc79
+source-git-commit: 8a8815d49ce4a950fcfc2f425ca58ae7fbd42c73
 workflow-type: tm+mt
-source-wordcount: '2112'
+source-wordcount: '2109'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Se agregó compatibilidad con [creación de experiencias de banner](/help/user-g
 
 ### Compatibilidad
 
-Como parte del proceso de validación de la marca, se han introducido [estándares de cumplimiento](/help/user-guide/guidelines/overview.md) en [comprobaciones de contenido](/help/user-guide/guidelines/brand-validation.md). Estas comprobaciones revisan cada variante de una experiencia en relación con las directrices de [!DNL Brand], [!DNL Product] y [!DNL Persona], las directrices de la plataforma (como para Meta), las consideraciones éticas y los estándares de ADA. Este proceso proporciona un resumen completo de las directrices y normas que deben revisarse para mejorar su cumplimiento.
+Como parte del proceso de validación de la marca, se han introducido [estándares de cumplimiento](/help/user-guide/guidelines/overview.md) en [comprobaciones de contenido](/help/user-guide/guidelines/brand-validation.md). Estas comprobaciones revisan cada variante de una experiencia comparándola con las directrices de [!DNL Brand], las directrices de plataforma (como para Meta) y los estándares de ADA. Este proceso proporciona un resumen completo de las directrices y normas que deben revisarse para mejorar su cumplimiento.
 
 ### Extensibilidad
 
