@@ -1,9 +1,9 @@
 ---
 title: Trabajo con plantillas
 description: Descubra cómo utilizar las plantillas de forma eficaz para optimizar el proceso creativo en Adobe GenStudio for Performance Marketing.
-feature: Templates, Content
+feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 624629700d8bf7d9e4c0e6d8b4373f40b14d4e05
+source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 1%

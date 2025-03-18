@@ -1,18 +1,18 @@
 ---
 title: Creación de plantillas accesibles
 description: Cree plantillas en Adobe GenStudio for Performance Marketing capaces de llegar a una mayor audiencia y proporcionar una experiencia óptima.
-feature: Templates, Content
+feature: Media Templates
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: cc1d750a8a520c793b1b605747c091f8a5f5e1a2
+source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
 
 # Creación de plantillas accesibles
 
-El Adobe se compromete a proporcionar una experiencia óptima para todas las audiencias. Consulte [Iniciativas de accesibilidad en el Adobe](https://www.adobe.com/trust/accessibility/initiatives.html) para obtener más información.
+Adobe se compromete a proporcionar una experiencia óptima para todas las audiencias. Consulte [Iniciativas de accesibilidad en Adobe](https://www.adobe.com/trust/accessibility/initiatives.html) para obtener más información.
 
 En GenStudio for Performance Marketing, puede cargar recursos y plantillas que permitan la creación de contenido para diversas experiencias. El cumplimiento de los estándares de accesibilidad ayuda a que el contenido llegue a la audiencia máxima deseada.
 

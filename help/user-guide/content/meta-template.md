@@ -2,12 +2,13 @@
 title: Preparación de una plantilla de Meta ad para Adobe GenStudio for Performance Marketing
 description: Aprenda a crear una plantilla de anuncio Meta personalizada para Adobe GenStudio for Performance Marketing.
 level: Intermediate
+feature: Media Templates
 hidefromtoc: true
-feature: Templates, Content
+recommendations: noCatalog
 exl-id: e69039b0-272d-4f39-b0e4-916be710fd5f
-source-git-commit: cf6e0679999614a4d14d224c9a8dce0b66f50262
+source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -42,7 +43,7 @@ Si el anuncio no está diseñado en ninguna de estas relaciones de aspecto, GenS
 
 ## Prueba de una plantilla de publicidad Meta
 
-Pruebe la plantilla con Creative Hub de Meta para ver el aspecto del anuncio en diferentes ubicaciones, como en una fuente o como una historia.
+Pruebe la plantilla con el Creative Hub de Meta para ver el aspecto del anuncio en diferentes ubicaciones, como en una fuente o como una historia.
 
 Utilice la plataforma de envío o prueba de correo electrónico para probar el correo electrónico y comprobar que se procesa correctamente en diferentes clientes y dispositivos de correo electrónico.
 
