@@ -1,16 +1,21 @@
 ---
 title: Distribuya su aplicación
 description: Distribuya su aplicación, o complemento, para GenStudio for Performance Marketing.
-source-git-commit: 6830e345577ca44ef8dee8de6195314a899f4e57
+exl-id: 4935356b-08df-402c-b1a2-b89627afc188
+source-git-commit: 8884f3438a0010119f578ca9a3b7158e2e01cfa3
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
 
 # Distribuya su aplicación
 
-Al distribuir la aplicación, esta estará disponible para los miembros de su organización.
+La distribución del complemento hace que esté disponible para su uso en su organización y potencialmente en otras organizaciones.
+
+La distribución privada restringe la implementación del complemento a la organización identificada por la organización de IMS para la que ha desarrollado el complemento. La distribución pública hace que el complemento esté disponible como aplicación en Adobe Exchange. El flujo de trabajo de distribución depende de si el complemento está diseñado para distribución pública o privada.
+
+En este tema se describe la distribución privada. [Distribución pública](https://developer.adobe.com/app-builder/docs/guides/distribution/public/) en la documentación para desarrolladores de _App Builder_ describe cómo poner tu aplicación a disposición de cualquier organización de Adobe.
 
 >[!BEGINSHADEBOX]
 
@@ -26,7 +31,9 @@ La aplicación de App Builder debe implementarse en un proyecto de App Builder.
 
 >[!ENDSHADEBOX]
 
-**Para distribuir su aplicación**:
+**Para distribuir la aplicación de forma privada**:
+
+La distribución privada hace que la aplicación solo esté disponible para los miembros de la organización.
 
 1. En [Adobe Developer Console](https://developer.adobe.com/console/), seleccione la organización, el proyecto y el espacio de trabajo donde se implementa la aplicación.
 
