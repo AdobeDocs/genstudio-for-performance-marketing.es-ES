@@ -4,9 +4,9 @@ description: Aprenda a configurar su GenStudio para Performance Marketing para g
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: fd49abb491477b0a8ed5b1f646219458efc49365
+source-git-commit: 462834fb622dae4680a64e3de5c370b9268ee4cb
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '616'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ Adobe GenStudio for Performance Marketing ofrece un completo conjunto de herrami
 
 ## Empezar a crear, compartir y revisar contenido
 
-Si no tiene experiencia previa con herramientas generativas basadas en IA o simplemente siente curiosidad por conocer los principios básicos de GenStudio for Performance Marketing, consulte [Conceptos](concepts.md) y [Escribir mensajes efectivos](effective-prompts.md). Puedes consultar la [Academia de Adobe GenStudio](https://learningmanager.adobe.com/genstudioacademy), la plataforma de aprendizaje en línea de Adobe, sobre el uso de tecnologías de IA generativa en el proceso creativo.
+Si no tiene experiencia previa con herramientas generativas basadas en IA o simplemente siente curiosidad por conocer los principios básicos de GenStudio for Performance Marketing, consulte [Conceptos](concepts.md) y [Escribir mensajes efectivos](effective-prompts.md). Puedes consultar [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy), la plataforma de aprendizaje en línea de Adobe, sobre el uso de tecnologías de IA generativa en el proceso creativo.
 
 ## Entrenar GenStudio for Performance Marketing
 
@@ -31,19 +31,7 @@ La configuración de los componentes clave de la identidad de marca de su organi
 
 #### Preparación de los documentos de directrices
 
-Las directrices detalladas y centradas de [[!DNL Brands]](./guidelines/brands.md), [[!DNL Products]](./guidelines/products.md) y [[!DNL Personas]](./guidelines/personas.md) definen aspectos básicos de las campañas de marketing de su organización. GenStudio for Performance Marketing extrae información de estas directrices para empezar a crear su marca.
-
-Siga estas prácticas recomendadas al preparar las directrices:
-
-* Utilice un idioma específico.
-
-* Incluya los mejores ejemplos que pueda encontrar del estilo y el tono que desea que incorporen los recursos de la campaña.
-
-* Evite la redundancia. Puede sentirse tentado a repetir una directiva varias veces, pero la redundancia en sus directrices no ayuda al LLM subyacente a capturar e implementar sus directrices de marca.
-
-* Identifique los elementos que desea que el LLM excluya durante la generación de contenido (por ejemplo, exclamaciones en el texto).
-
-Puede cargar documentos de directrices o consultarlos cuando introduzca manualmente información en GenStudio for Performance Marketing. Consulte [Agregar directrices](./guidelines/overview.md) para obtener instrucciones sobre cómo cargar o escribir esta información.
+Las directrices detalladas y centradas de [[!DNL Brands]](./guidelines/brands.md), [[!DNL Products]](./guidelines/products.md) y [[!DNL Personas]](./guidelines/personas.md) definen aspectos básicos de las campañas de marketing de su organización. GenStudio for Performance Marketing extrae información de estas directrices para empezar a crear su marca. Puede cargar documentos de directrices o consultarlos cuando introduzca manualmente información en GenStudio for Performance Marketing. Consulte [Agregar directrices](./guidelines/overview.md) para obtener instrucciones sobre cómo cargar o escribir esta información.
 
 #### Revisar directrices
 
@@ -71,6 +59,6 @@ Los recursos aprobados en [!DNL Content] están disponibles para todos los edito
 
 Ver [Cargar recursos aprobados](./content/manage-assets.md).
 
-### Paso 5: Conectarse a una cuenta de Meta (Facebook)
+### Paso 5: Conexión a una cuenta de Meta (Facebook)
 
 Configure una conexión entre GenStudio for Performance Marketing y las cuentas sociales de su organización para recibir datos de sus campañas de marketing, recursos y experiencias activos. [[!DNL Insights]](./insights/overview.md) proporciona herramientas para analizar datos derivados del canal. Ver [Conectarse a una cuenta de Meta (Facebook)](./insights/connect-channel.md#meta-ads-connect).
