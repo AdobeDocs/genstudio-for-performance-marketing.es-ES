@@ -1,12 +1,12 @@
 ---
 title: Administración de datos
 description: Obtenga información acerca de la ingesta y el almacenamiento de datos para  [!DNL Insights] en GenStudio for Performance Marketing.
-feature: Insights
+feature: Reporting and Insights
 level: Experienced
 role: Admin
 last-substantial-update: 2025-1-7
 exl-id: a5ab44d6-75c0-405b-82ad-9c65f6094bd6
-source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
+source-git-commit: 3448392bc3f1496dafdbed2995f40bdba9c91c31
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -19,7 +19,7 @@ GenStudio for Performance Marketing usa Adobe Experience Platform (AEP) para la 
 
 ## Conexiones de datos
 
-GenStudio for Performance Marketing utiliza Customer Journey Analytics (CJA) para agregar varias fuentes de datos creando una conexión con uno o varios conjuntos de datos de AEP. CJA utiliza estas conexiones de datos para crear vistas de datos y analizar métricas con [!DNL Insights].
+GenStudio for Performance Marketing utiliza Customer Journey Analytics (CJA) para agregar varias fuentes de datos creando una conexión con uno o varios conjuntos de datos de AEP. CJA usa estas conexiones de datos para crear vistas de datos y analizar métricas con [!DNL Insights].
 
 >[!BEGINSHADEBOX]
 

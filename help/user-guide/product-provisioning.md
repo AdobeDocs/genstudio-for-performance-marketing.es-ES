@@ -2,9 +2,9 @@
 title: Aprovisionar Adobe GenStudio for Performance Marketing
 description: Obtenga información sobre el aprovisionamiento del producto GenStudio for Performance Marketing.
 level: Beginner
-feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
+feature: Generative AI
 exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 3448392bc3f1496dafdbed2995f40bdba9c91c31
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Aprovisionar Adobe GenStudio for Performance Marketing
 
-Un administrador del sistema de Adobe realiza tareas de aprovisionamiento iniciales en [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview). Desde el Admin Console, un administrador del sistema de Adobe puede acceder al perfil de producto de GenStudio y asignar las licencias de producto disponibles a los usuarios.
+Un administrador del sistema de Adobe realiza tareas de aprovisionamiento iniciales en [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview). Desde Admin Console, un administrador del sistema de Adobe puede acceder al perfil de producto de GenStudio y asignar las licencias de producto disponibles a los usuarios.
 
 >[!NOTE]
 >
@@ -25,17 +25,17 @@ Un administrador del sistema de Adobe realiza tareas de aprovisionamiento inicia
 
 ## Paso 1: Acceso al perfil de producto en Adobe Admin Console
 
-Dentro del Admin Console, el perfil de producto define reglas y perfiles de usuario únicos para la creación y administración de marcas y campañas en GenStudio for Performance Marketing.
+Dentro de Admin Console, el perfil de producto define reglas y perfiles de usuario únicos para la creación y administración de marcas y campañas dentro de GenStudio for Performance Marketing.
 
 **Para tener acceso al perfil de producto de GenStudio**
 
 1. Haga clic en el vínculo **Introducción** del correo electrónico de bienvenida para ir a [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview).
 
-1. Inicie sesión en el Admin Console con su Adobe ID.
+1. Inicie sesión en Admin Console con su Adobe ID.
 
    Una vez que inicie sesión correctamente, verá la ficha _Información general_ de Adobe Admin Console.
 
-1. Vaya a la ficha _Productos_. Esta pestaña muestra todos los productos de Adobe que ha comprado su organización.
+1. Vaya a la ficha _Productos_. Esta pestaña muestra todos los productos de Adobe que ha adquirido su organización.
 
 1. Seleccione **[!UICONTROL GenStudio]** de la lista de productos. La consola muestra el perfil de producto de GenStudio, que contiene información clave sobre las licencias de productos que ha adquirido su organización. También proporciona opciones para administrar estas licencias.
 
@@ -43,7 +43,7 @@ Ya está listo para asignar licencias a usuarios (de aprovisionamiento) de GenSt
 
 ## Paso 2: Aprovisionar usuarios
 
-El aprovisionamiento de usuarios en el Admin Console es el proceso de asignación de licencias de producto a los usuarios. Estos usuarios deben pertenecer a la organización de IMS especificada en el perfil del producto. Puede aprovisionar usuarios a su organización de GenStudio for Performance Marketing del mismo modo que aprovisiona usuarios a otros productos de Adobe. Puede agregar usuarios manualmente o importar usuarios de forma masiva.
+El aprovisionamiento de usuarios en Admin Console es el proceso de asignación de licencias de producto a los usuarios. Estos usuarios deben pertenecer a la organización de IMS especificada en el perfil del producto. Puede aprovisionar usuarios a su organización de GenStudio for Performance Marketing del mismo modo que aprovisiona usuarios a otros productos de Adobe. Puede agregar usuarios manualmente o importar usuarios de forma masiva.
 
 >[!TIP]
 >
