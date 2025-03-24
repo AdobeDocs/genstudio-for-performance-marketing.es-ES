@@ -1,7 +1,9 @@
 ---
 title: Creación de una aplicación de App Builder para ampliar GenStudio for Performance Marketing
 description: Comience a crear una aplicación o un complemento.
-source-git-commit: cd53f566981a005b24ef1f1951aa2e55c6dd46c1
+feature: Extensibility
+exl-id: 4e757dd4-a02d-472c-bc13-6f27dffa48f2
+source-git-commit: 52e8e078bc013fe686b5cc2105089f7098cce575
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
