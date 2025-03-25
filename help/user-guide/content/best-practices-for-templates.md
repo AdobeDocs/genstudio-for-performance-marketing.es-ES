@@ -1,11 +1,13 @@
 ---
 title: Prácticas recomendadas para plantillas
 description: Siga las prácticas recomendadas al utilizar plantillas con Adobe GenStudio for Performance Marketing.
+level: Intermediate
+role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: daada794dd39c9bd2aea7815d887821454d162fc
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -41,7 +43,13 @@ Consulte [directrices de canal](/help/user-guide/guidelines/brands.md#channel-gu
 
 ## Siga las directrices de plantillas específicas del canal
 
-Cree plantillas que se adapten al diseño y a los requisitos visuales de cada canal. Tenga en cuenta las siguientes sugerencias y restricciones al trabajar con cada tipo de plantilla para garantizar un rendimiento y una compatibilidad óptimos:
+Al crear plantillas, asegúrese de que cumplen los requisitos específicos del canal al que va dirigido. Cree plantillas que se adapten al diseño y a los requisitos visuales de cada canal. Existen directrices generales que se aplican a cualquier plantilla, como:
+
+- Utilizar HTML y CSS en línea limpios y adaptables
+- Usar fuentes Adobe o Google
+- **no** usa JavaScript
+
+Tenga en cuenta las siguientes sugerencias y restricciones al trabajar con cada tipo de plantilla para garantizar un rendimiento y una compatibilidad óptimos:
 
 >[!BEGINTABS]
 
@@ -83,20 +91,11 @@ Siga estas prácticas recomendadas de diseño al personalizar las plantillas de 
 - Utilizar una anchura de 360 píxeles para los diseños de columna
 - Utilice una resolución mínima de 1080 x 1080 píxeles para las imágenes
 - **no** usa un tamaño de fuente relativo
-- **no** define ventanillas móviles
+- **no** define la ventanilla
 - **no** usa JavaScript
 - **no** anula un elemento HTML en CSS
-- Utilice la siguiente configuración para las imágenes de fondo:
-
-  Agregar el valor `object-fit: cover` a la clase CSS `background-image`:
-
-  ```css
-  .background-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  ```
+- Usar la etiqueta `<img>` en lugar de `background-image`
+- Utilice el enmascaramiento para mejorar la legibilidad del texto sobre las imágenes de fondo
 
 **Restricciones**:
 
@@ -151,11 +150,10 @@ Siga estas prácticas recomendadas de diseño al personalizar las plantillas de 
 
 **Nombres de campo reconocidos**:
 
-Utilice marcadores de posición de contenido para los siguientes campos:
+Para el titular y los anuncios en pantalla, el campo `CTA` se genera automáticamente. Utilice marcadores de posición de contenido para los siguientes campos:
 
 - `headline`
 - `body`
-- `cta`
 - `image` (seleccionado de JPEG de contenido, PNG o GIF)
 
 Consulte [Marcadores de posición de contenido](customize-template.md#content-placeholders) para obtener más información sobre el uso de nombres de campo en las plantillas.
@@ -188,21 +186,20 @@ Siga estas prácticas recomendadas de diseño al personalizar las plantillas de 
    - mobile
    - Mínimo: 360 x 640 píxeles
    - Máx.: 2430 x 4320 píxeles
-- Vértice 2.3
+- Vertical 2,3
    - mobile
    - Mínimo: 360 x 640 píxeles
    - Máx.: 2430 x 4320 píxeles
-- Vértice 4.5 (recomendado)
+- Vertical 4,5 (recomendado)
    - mobile
    - Mínimo: 360 x 640 píxeles
    - Máx.: 2430 x 4320 píxeles
 
 **Nombres de campo reconocidos**:
 
-Para los anuncios de LinkedIn, los campos `headline` y `CTA` se generan automáticamente. Utilice marcadores de posición de contenido para los siguientes campos:
+Para los anuncios de LinkedIn, los campos `headline`, `introductory_text` y `CTA` se generan automáticamente. Utilice marcadores de posición de contenido para los siguientes campos:
 
 - `image` (seleccionado de JPEG de contenido, PNG o GIF)
-- `introductory_text`
 - `on_image_text`
 - `brand_logo`
 
