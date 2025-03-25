@@ -1,5 +1,5 @@
 ---
-user-guide-title: Guía de extensibilidad de Adobe GenStudio for Performance Marketing
+user-guide-title: Guía del usuario de extensibilidad de Adobe GenStudio for Performance Marketing
 breadcrumb-title: Guía de extensibilidad
 user-guide-description: Explore las funcionalidades del marco de trabajo de extensibilidad de Adobe GenStudio for Performance Marketing.
 feature-set: GenStudio for Performance Marketing
@@ -8,12 +8,12 @@ role: Developer
 source-git-commit: bcf969f599279ba28354837b3949316a1bf7df27
 workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 1%
+ht-degree: 57%
 
 ---
 
 
-# Guía de extensibilidad de Adobe GenStudio for Performance Marketing {#ext-guide}
+# Guía del usuario de extensibilidad de Adobe GenStudio for Performance Marketing {#ext-guide}
 
 + [Guía de extensibilidad](home.md)
 + Introducción a {#get-started}
