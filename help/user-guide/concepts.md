@@ -2,8 +2,9 @@
 title: Conceptos de Adobe GenStudio for Performance Marketing
 description: Aprenda los conceptos y la terminología de Adobe GenStudio for Performance Marketing.
 feature: Workflow, Generative AI
+role: User
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: bfe961a06f62e55f3207088f6f390204b12e7142
+source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 0%
@@ -80,7 +81,7 @@ Las siguientes funciones consumen [!DNL Generative Actions] a la velocidad espec
 
 ## Gobernanza de datos
 
-Al trabajar con IA para generar contenido, es esencial asegurarse de que el resultado sea seguro e inclusivo para todos los usuarios. Esto requiere la evaluación del contenido para detectar posibles sesgos dañinos, discursos de odio, material ofensivo o blasfemias. El Adobe prueba exhaustivamente la tecnología de generación de contenido desde múltiples perspectivas, realiza revisiones éticas exhaustivas e implementa planes de mitigación eficaces para evitar que el contenido perjudicial aparezca en los resultados.
+Al trabajar con IA para generar contenido, es esencial asegurarse de que el resultado sea seguro e inclusivo para todos los usuarios. Esto requiere la evaluación del contenido para detectar posibles sesgos dañinos, discursos de odio, material ofensivo o blasfemias. Adobe prueba exhaustivamente la tecnología de generación de contenido desde múltiples perspectivas, realiza revisiones éticas exhaustivas e implementa planes de mitigación eficaces para evitar que el contenido perjudicial aparezca en los resultados.
 
 Este enfoque refuerza la responsabilidad social, minimiza el riesgo de reputación y garantiza el cumplimiento de las [políticas de Confianza y Seguridad y Ética de Adobe](https://www.adobe.com/content/dam/cc/en/ai-ethics/pdfs/Adobe-AI-Ethics-Principles.pdf).
 

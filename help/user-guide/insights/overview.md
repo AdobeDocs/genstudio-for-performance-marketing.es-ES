@@ -1,9 +1,10 @@
 ---
 title: Información general de  [!DNL Insights]
 description: Aprenda a optimizar los anuncios en función de las métricas de rendimiento de contenido en tiempo real.
+level: Intermediate
 feature: Reporting and Insights
 exl-id: 26402a06-f776-42be-9d8d-fc498c0f75a8
-source-git-commit: 3448392bc3f1496dafdbed2995f40bdba9c91c31
+source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%
