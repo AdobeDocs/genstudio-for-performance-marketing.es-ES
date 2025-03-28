@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: daada794dd39c9bd2aea7815d887821454d162fc
+source-git-commit: 059c7271bcbe558d41f3df128c6a0681accec826
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -80,7 +80,6 @@ Para el correo electrónico, el campo `subject` se incluye automáticamente. Uti
 - `body`
 - `cta`
 - `image` (seleccionado de JPEG de contenido, PNG o GIF)
-- `brand_logo`
 
 Consulte [Marcadores de posición de contenido](customize-template.md#content-placeholders) para obtener más información sobre el uso de nombres de campo en las plantillas.
 
@@ -115,7 +114,6 @@ Para los anuncios Meta, los campos `headline`, `body` y `CTA` se generan automá
 
 - `image` (seleccionado de JPEG de contenido, PNG o GIF)
 - `on_image_text`
-- `brand_logo`
 
 Consulte [Marcadores de posición de contenido](customize-template.md#content-placeholders) para obtener más información sobre el uso de nombres de campo en las plantillas.
 
@@ -201,7 +199,6 @@ Para los anuncios de LinkedIn, los campos `headline`, `introductory_text` y `CTA
 
 - `image` (seleccionado de JPEG de contenido, PNG o GIF)
 - `on_image_text`
-- `brand_logo`
 
 Consulte [Marcadores de posición de contenido](customize-template.md#content-placeholders) para obtener más información sobre el uso de nombres de campo en las plantillas.
 

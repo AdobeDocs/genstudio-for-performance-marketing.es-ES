@@ -1,13 +1,13 @@
 ---
 title: Personalizar una plantilla
-description: Aprenda a personalizar y optimizar su plantilla para Adobe GenStudio for Performance Marketing.
+description: Aprenda a personalizar la plantilla de HTML mediante marcadores de posición de contenido reconocidos por la IA generativa de Adobe GenStudio for Performance Marketing.
 level: Intermediate
 role: Developer
-feature: Media Templates, Content Generation
+feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 0a1f13db9a976bac026f49e908b6b8c124bc5df7
+source-git-commit: 81133e4360a9ba7d7fb29f33e418fde8582b0f23
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1391'
 ht-degree: 0%
 
 ---
@@ -46,18 +46,19 @@ En la tabla siguiente se enumeran los nombres de campo reconocidos por GenStudio
 | `{{headline}}` | Titular | Enviar por correo electrónico <br>Meta ad <br>Anuncio para mostrar y titular <br>Anuncio de LinkedIn |
 | `{{introductory_text}}` | Texto introductorio | Anuncio de LinkedIn |
 | `{{body}}` | Copia de cuerpo | Enviar por correo electrónico <br>Meta ad <br>Banner y anuncio en pantalla |
-| `{{cta}}` | Llamada a la acción | Enviar por correo electrónico <br>Meta ad <br>Anuncio para mostrar y titular <br>Anuncio de LinkedIn |
+| `{{cta}}` | Llamada a la acción<br>Ver [Llamadas a la acción](#calls-to-action) | Enviar por correo electrónico <br>Meta ad <br>Anuncio para mostrar y titular <br>Anuncio de LinkedIn |
 | `{{image}}` | Imagen: seleccionar de [!DNL Content] | Enviar por correo electrónico <br>Meta ad <br>Anuncio para mostrar y titular <br>Anuncio de LinkedIn |
-| `{{on_image_text}}` | En texto de imagen | Meta ad <br>LinkedIn ad |
+| `{{on_image_text}}` | En texto de imagen<br>Ver [En texto de imagen](#on-image-text). | Meta ad <br>LinkedIn ad |
 | `{{link}}` | Llamada a acción en la imagen<br>Ver [Vínculo en la imagen](#link-on-image). | email |
-| `{{brand_logo}}` | Logotipo de la marca seleccionada<br>Consulte [Nombre del campo del logotipo de la marca](#brand-logo-field-name). | correo electrónico<br>Meta anuncio <br>LinkedIn |
 
-GenStudio for Performance Marketing rellena ciertos campos automáticamente en las siguientes plantillas:
+<!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
+
+GenStudio for Performance Marketing genera automáticamente ciertos campos en las siguientes plantillas:
 
 - **La plantilla de correo electrónico** no requiere que identifique el campo `subject`
 - **La plantilla de anuncio Meta** no requiere que identifique los campos `headline`, `body` y `CTA`
 - **El titular y la plantilla de anuncio para mostrar** no requieren que identifique el campo `CTA`
-- **Las plantillas de anuncios de LinkedIn** no requieren que identifique los campos `headline`, `introductory_text` y `CTA`
+- **La plantilla de anuncio de LinkedIn** no requiere que identifique los campos `headline`, `introductory_text` y `CTA`
 
 >[!WARNING]
 >
@@ -109,17 +110,19 @@ En este ejemplo:
 - `src="image-source.jpg"` debe reemplazarse con la dirección URL real del origen de la imagen.
 - `alt="description"` proporciona un texto alternativo para la imagen, que resulta útil para la accesibilidad y la optimización de los motores de búsqueda.
 
-### Nombre del campo del logotipo de marca
+<!-- this field does not work in Create canvas 2025/03
 
-En este momento, no puede seleccionar el logotipo de la marca para cargar la plantilla. Los siguientes ejemplos muestran dos métodos que representan de forma condicional el logotipo de la marca. Cada método verifica el origen, proporciona una imagen predeterminada o alternativa en caso de que el logotipo de la marca no esté disponible y aplica un estilo:
+### Brand logo field name
 
-**Ejemplo 1**: Se usa la condición [!DNL Handlebars] de los ayudantes integrados directamente en el atributo `img src` de HTML:
+At this time, you cannot select the brand logo for the template upload. The following examples demonstrate two methods that conditionally render the brand logo. Each method verifies the source, provides a default or alternative image in case the brand logo is not available, and applies a style:
+
+**Example 1**: Using [!DNL Handlebars] Built-in Helpers condition directly in the HTML `img src` attribute:
 
 ```html
 <img src="{{#if brand_logo}}{{brand_logo}}{{else}}<default-image>{{/if}}" alt="img alt text" style="max-width: 88px; margin: 10px auto; display: block;">
 ```
 
-**Ejemplo 2**: Se usa [!DNL Handlebars] instrucción de condición integrada para envolver la etiqueta de HTML `img`:
+**Example 2**: Using [!DNL Handlebars] Built-in condition statement to wrap the HTML `img` tag:
 
 ```html
 {{#if brand_logo}}
@@ -128,6 +131,8 @@ En este momento, no puede seleccionar el logotipo de la marca para cargar la pla
     <img src="data:image/png;base64,iVBORw0KGgo..." alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
 {{/if}}
 ```
+
+-->
 
 ### Nombres de campo manuales
 
@@ -139,10 +144,18 @@ Para crear una sección editable, agregue corchetes dobles alrededor del nombre 
 <tbody>
     <tr>
         <td>
-            <p><span class="s1">{{ footerLegal }}</span></p>
+            <p><span class="footer-text">{{ footerLegal }}</span></p>
         </td>
     </tr>
 </tbody>
+```
+
+## En texto de imagen
+
+El marcador de posición `{{ on_image_text }}` se usa para especificar una superposición de texto de mensajes cortos e impactantes, colocados directamente en la imagen de una experiencia.
+
+```html
+<div class="image-text">{{ on_image_text }}</div>
 ```
 
 ## Secciones o grupos
@@ -179,7 +192,6 @@ Por ejemplo, una plantilla de correo electrónico puede incluir hasta tres secci
 GenStudio for Performance Marketing entiende que `pod1_headline` está más relacionado con `pod1_body` que con `pod2_body`.
 
 Consulte [Mensajes estructurados](/help/user-guide/effective-prompts.md#structured-prompts) para obtener información sobre cómo crear un mensaje que genere contenido variable para cada sección en un mensaje de correo electrónico de varias secciones.
-
 
 ## Previsualización de plantilla
 
