@@ -2,9 +2,9 @@
 title: Asignar  [!DNL Brand] permisos
 description: Obtenga información acerca de la asignación de derechos para creadores y editores de GenStudio for Performance Marketing [!DNL Brand] s.
 level: Intermediate
-feature: Brands Service, Generative AI
+feature: Brand Personalization, Generative AI
 exl-id: fc33ecd3-4403-4045-87af-012a0377226c
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 1%
@@ -13,15 +13,15 @@ ht-degree: 1%
 
 # Asignar permisos de [!DNL Brand]
 
-De manera predeterminada, los administradores del sistema de GenStudio pueden crear y editar [!DNL Brands]. Las funciones de editor de contenido y colaborador tienen permisos de edición y creación, pero es posible que no requieran derechos de administración del sistema. Para conceder a los editores de contenido y a los colaboradores estos derechos relacionados con [!DNL Brand], un administrador del sistema de Adobe debe realizar algunas tareas de configuración adicionales en Adobe Admin Console. Consulte [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview) en la _guía de administración de empresas y equipos_.
+De manera predeterminada, los administradores del sistema de GenStudio pueden crear y editar [!DNL Brands]. Las funciones de editor de contenido y colaborador tienen permisos de edición y creación, pero es posible que no requieran derechos de administración del sistema. Para conceder a los editores de contenido y a los colaboradores estas autorizaciones relacionadas con [!DNL Brand], un administrador del sistema de Adobe debe realizar algunas tareas de configuración adicionales en Adobe Admin Console. Consulte [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview) en la _guía de administración de empresas y equipos_.
 
-Añadir usuarios y grupos de usuarios son tareas básicas comunes a todos los productos de Adobe con autorizaciones que se administran mediante el Admin Console. Consulte [Usuarios de Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/users.html) en la _Guía de administración de equipos y empresas_ para obtener una descripción general de la administración de usuarios y los procedimientos para agregar usuarios y grupos de usuarios.
+Añadir usuarios y grupos de usuarios son tareas básicas comunes a todos los productos de Adobe con autorizaciones que se administran mediante Admin Console. Consulte [Usuarios de Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/users.html) en la _Guía de administración de equipos y empresas_ para obtener una descripción general de la administración de usuarios y los procedimientos para agregar usuarios y grupos de usuarios.
 
 ## Paso 1: Crear un grupo de usuarios
 
 **Para crear un grupo de usuarios**:
 
-1. Inicie sesión en el Admin Console y navegue hasta **[!UICONTROL Usuarios]** > **[!UICONTROL Grupos de usuarios]**.
+1. Inicie sesión en Admin Console y vaya a **[!UICONTROL Usuarios]** > **[!UICONTROL Grupos de usuarios]**.
 
 1. Haga clic en **[!UICONTROL Nuevo grupo de usuarios]**. Se abre la ventana emergente _Crear un nuevo grupo de usuarios_.
 
@@ -29,13 +29,13 @@ Añadir usuarios y grupos de usuarios son tareas básicas comunes a todos los pr
 
 1. Opcionalmente, añada una descripción del grupo y su propósito.
 
-1. Haga clic en **[!UICONTROL Guardar]**. El Admin Console abre la ventana emergente _Nuevo grupo_ con el nombre del grupo recién creado.
+1. Haga clic en **[!UICONTROL Guardar]**. Admin Console abre la ventana emergente _Nuevo grupo_ con el nombre del grupo recién creado.
 
 Consulte [Administrar grupos de usuarios](https://helpx.adobe.com/es/enterprise/using/user-groups.html) en la _Guía de administración de empresas y equipos_.
 
 ## Paso 2: Asignar un perfil de administrador del sistema de GenStudio al grupo de usuarios
 
-Una vez que haya creado un nuevo grupo de usuarios y agregado usuarios, puede asignar el perfil **administrador del sistema de Adobe GenStudio** a este grupo. La asignación de derechos asociada al perfil asignado otorga a todos los usuarios de este grupo de GenStudio [!DNL Brands] permisos (crear, actualizar y eliminar marcas).
+Una vez que haya creado un nuevo grupo de usuarios y agregado usuarios, puede asignar el perfil **Adobe GenStudio system manager** a este grupo. La asignación de derechos asociada al perfil asignado otorga a todos los usuarios de este grupo de GenStudio [!DNL Brands] permisos (crear, actualizar y eliminar marcas).
 
 **Para asignar un perfil al grupo de usuarios**:
 
@@ -45,7 +45,7 @@ Una vez que haya creado un nuevo grupo de usuarios y agregado usuarios, puede as
 
 1. Seleccione `Adobe GenStudio` de la lista _Seleccionar productos_.
 
-1. Haga clic en **[!UICONTROL Aplicar]**. Se abre la ventana emergente _Seleccionar perfiles de producto_, que muestra los perfiles de producto asociados con el Adobe GenStudio.
+1. Haga clic en **[!UICONTROL Aplicar]**. Se abre la ventana emergente _Seleccionar perfiles de producto_, que muestra los perfiles de producto asociados con Adobe GenStudio.
 
 1. Seleccione `Adobe GenStudio system manager`.
 
@@ -65,7 +65,7 @@ Para asignar a los usuarios el permiso para crear, editar y publicar [!DNL Brand
 
 **Para agregar usuarios al grupo de usuarios**:
 
-1. Desde el _Admin Console_, vaya a **[!UICONTROL Usuarios]** > **[!UICONTROL Grupos de usuarios]**.
+1. En _Admin Console_, vaya a **[!UICONTROL Usuarios]** > **[!UICONTROL Grupos de usuarios]**.
 
 1. Seleccione el nombre del grupo de usuarios que creó anteriormente. Se abre la ventana emergente _Agregar usuarios a este grupo de usuarios_.
 
@@ -79,7 +79,7 @@ Un _proyecto_ proporciona una ubicación de almacenamiento donde determinados us
 
 **Para crear un proyecto [!DNL Brands] desde la ficha _Almacenamiento_**:
 
-1. Vaya a la ficha _Almacenamiento_ en el Admin Console.
+1. Vaya a la ficha _Almacenamiento_ en Admin Console.
 
 1. Haga clic en **[!UICONTROL Proyectos]** en la navegación lateral. Se abre la pestaña _Proyectos_.
 

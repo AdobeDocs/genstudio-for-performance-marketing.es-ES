@@ -1,9 +1,9 @@
 ---
 title: Administración de activaciones
 description: Aprenda a administrar experiencias activadas con Adobe Genstudio para Performance Marketing.
-feature: Ad Activation, Workflow
+feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: 445b5c2fce07ee8bc67e96f95e670fecda356b22
+source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%

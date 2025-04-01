@@ -3,9 +3,9 @@ title: Introducción a Adobe GenStudio for Performance Marketing
 description: Aprenda a configurar su GenStudio para Performance Marketing para generar nuevo contenido de marketing alineado con la marca.
 level: Beginner
 role: User
-feature: Media Templates, Brand Personalization, Persona Personalization, Product Personalization, Generative AI
+feature: Media Templates, Guidelines, Generative AI
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 2%

@@ -2,9 +2,9 @@
 title: Información general de Activate
 description: Obtenga información sobre cómo activar contenido con Adobe Experience Cloud y aplicaciones de terceros.
 level: Beginner
-feature: Ad Activation, Workflow
+feature: Ad Activation
 exl-id: 365fe253-d189-467e-a723-f54cd74ff60b
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
