@@ -6,9 +6,9 @@ badgeBeta: label="Beta" tooltip="Esta función se encuentra actualmente en Beta,
 role: User
 level: Beginner
 exl-id: 91d0c2ef-3610-4a1a-b1ab-a9e2a6cb3723
-source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
+source-git-commit: 7784f8a722d808159df9522ff7fce5fbddcc34ce
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '113'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Adobe GenStudio for Performance Marketing le permite aprovechar la IA generativa para mejorar la [creación de experiencias de banner exitosas](/help/user-guide/create/create-banner-experience.md).
 
-[!DNL Create] permite a los especialistas en marketing moderno [crear experiencias de banner coherentes](/help/user-guide/create/create-banner-experience.md) mediante la utilización de [directrices](/help/user-guide/guidelines/overview.md), recursos de imagen y un [diseño bien diseñado](/help/user-guide/effective-prompts.md).
+[!DNL Create] permite a los especialistas en marketing moderno [crear experiencias de banner coherentes](/help/user-guide/create/create-banner-experience.md) mediante [directrices](/help/user-guide/guidelines/overview.md), recursos de imagen y un [mensaje bien diseñado](/help/user-guide/effective-prompts.md).
 
 Al generar experiencias de banner, se crean cuatro variaciones que se muestran en el lienzo.
 
