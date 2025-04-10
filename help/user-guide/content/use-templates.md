@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 1f62546f4fc2381bcc4d8fd3acadd1d6470ed9e8
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1326'
 ht-degree: 1%
 
 ---
@@ -37,9 +37,10 @@ A continuación se muestra una lista de los elementos que se utilizan en las pla
 | **Encabezado previo** | Correo electrónico | Una línea de asunto secundaria en un correo electrónico, normalmente entre 40 y 50 caracteres, que mejora la línea de asunto principal. Se puede ver en la bandeja de entrada junto al asunto antes de abrir el correo electrónico. |
 | **Encabezado** | Correo electrónico | La sección superior del correo electrónico que ve el destinatario al abrir el correo electrónico establece el tono y proporciona contexto para el contenido incluido. |
 | **Titular** | Meta ad, Banner y anuncios de visualización, LinkedIn | El primer contenido que el destinatario ve debe ser convincente para captar el interés. |
+| **Subtítulo** | Correo electrónico, banner y anuncios en pantalla | Elemento de texto secundario que admite el titular. Por lo general, es conciso y está diseñado para complementar el titular principal, lo que lleva la atención del lector más allá en el contenido. |
 | **Texto introductorio** | LinkedIn | El mensaje principal transmite el mensaje principal, similar a la copia de cuerpo. Puede utilizar hasta 150 caracteres, incluidos espacios, un máximo de cuatro emojis y puntuación. |
 | **Cuerpo** | Correo electrónico, Meta-anuncio, Banner y Anuncios en pantalla | El texto principal del anuncio transmite el mensaje principal. Debe ser atractivo, informativo y persuasivo alentar la acción deseada de la audiencia. |
-| **CTA** | Correo electrónico, publicidad en metadatos, anuncios en banners y pantallas, LinkedIn | Un botón de llamada a la acción utiliza una frase y un vínculo para animar al destinatario a realizar una acción específica, como hacer clic en un vínculo o realizar una compra. |
+| **CTA** | Correo electrónico, publicidad en metadatos, anuncios en banners y pantallas, LinkedIn | Un botón de call-to-action utiliza una frase y un vínculo para animar al destinatario a realizar una acción específica, como hacer clic en un vínculo o realizar una compra. |
 | **Imágenes** | Correo electrónico, publicidad en metadatos, anuncios en banners y pantallas, LinkedIn | Mejore el atractivo visual, divida el texto y admita el mensaje. Las imágenes deben ser de alta calidad y llamativas. |
 | **Pie de página** | Correo electrónico | La sección inferior del correo electrónico contiene contenido adicional, como detalles de contacto, vínculos de medios sociales, exenciones de responsabilidad y opciones de cancelación de suscripción. |
 | **Superposición de texto** | Meta anuncio | Texto colocado en una imagen para apoyar y mejorar el titular y el contenido del cuerpo. |
@@ -58,13 +59,26 @@ Usted [personaliza su plantilla](customize-template.md) para usarla en GenStudio
 
 ## Administración de plantillas
 
-La galería _[!DNL Templates]_muestra su inventario de plantillas personalizadas para generar experiencias en GenStudio for Performance Marketing. Puede filtrar las plantillas por tipo de canal, como correo electrónico, anuncios de visualización, anuncios Meta y anuncios LinkedIn.
+La galería _[!DNL Templates]_muestra su inventario de plantillas personalizadas para generar experiencias en GenStudio for Performance Marketing.
+
+### Buscar conjunto de datos
+
+Cada vista de [!DNL Content] proporciona opciones de filtro para restringir la búsqueda del recurso, la experiencia o la plantilla ideales. Hay filtros basados en [directrices](/help/user-guide/guidelines/overview.md), [palabras clave](asset-details.md#user-defined-metadata) y [categorías de atributos](/help/user-guide/insights/attributes.md#categories) para reducir los resultados de búsqueda.
+
+Por ejemplo, es posible que desee encontrar una plantilla con un tipo de canal o una proporción de aspecto específicos creados por usted:
+
+- **[!UICONTROL Creado por]**: limita la lista _[!UICONTROL Plantillas]_ para mostrar únicamente las plantillas creadas por usted o por una persona específica.
+- **[!UICONTROL Proporción de aspecto]**: limita la lista _[!UICONTROL Plantillas]_ para mostrar plantillas diseñadas para una proporción de aspecto específica.
+
+A continuación, se muestra un filtro por tipo de canal, como correo electrónico, anuncios de visualización, anuncios Meta y anuncios LinkedIn.
 
 ![Lista de plantillas de contenido](/help/assets/content-templates-filter.png "Buscar en las plantillas de LinkedIn"){width="650" zoomable="yes"}
 
+La capacidad de búsqueda de plantillas está disponible durante [!UICONTROL Crear] al seleccionar una plantilla para medios propios o de pago. Si determinadas opciones de filtro no están visibles, indica que ninguna plantilla del repositorio coincide con los criterios de metadatos correspondientes. Asegúrese de que las plantillas estén etiquetadas correctamente con los metadatos para que se puedan detectar a través de estos filtros.
+
 ### Añadir una plantilla
 
-Antes de cargar una plantilla, asegúrate de que esté totalmente preparada y lista para usarla en GenStudio for Performance Marketing siguiendo las instrucciones de [Personalizar plantillas](customize-template.md).
+Antes de cargar una plantilla, asegúrate de que esté totalmente preparada y lista para usarla en GenStudio for Performance Marketing siguiendo las instrucciones que se indican en [Personalizar plantillas](customize-template.md).
 
 **Para agregar una plantilla**:
 
@@ -86,7 +100,7 @@ Antes de cargar una plantilla, asegúrate de que esté totalmente preparada y li
 
 1. Haga clic en **[!UICONTROL Siguiente]** cuando esté satisfecho con la vista previa de la plantilla.
 
-1. En el panel _[!UICONTROL Proporcionar detalles de plantilla y cargar]_, asigne un nombre a la plantilla y seleccione un tipo de **[!UICONTROL canal]**.
+1. En _[!UICONTROL Proporcione detalles de plantilla y cargue]_, asigne un nombre a la plantilla y seleccione un tipo de **[!UICONTROL canal]**.
 
    El nombre de la plantilla y el tipo de canal son obligatorios. Los requisitos adicionales pueden incluir:
 
