@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Para crear una nueva experiencia de correo electrónico, utilice una plantilla d
 **Para elegir una plantilla de correo electrónico**:
 
 1. En _[!DNL Create]_, haga clic en **[!UICONTROL Correo electrónico]**en_&quot;¿Qué desea crear hoy?&quot;_sección.
-1. Utilice la opción de búsqueda, adyacente a _Filter_, para encontrar una plantilla de correo electrónico específica.
+1. Use las opciones [buscar y _Filtrar_](/help/user-guide/content/use-templates.md#search-templates) para encontrar una plantilla específica.
 1. Haga clic para seleccionar una plantilla de correo electrónico y haga clic en **[!UICONTROL Usar]**.
 
    Aparece Canvas, el epicentro de la creación de contenido.
@@ -85,7 +85,7 @@ Antes de seleccionar lo que se enviará para su aprobación o publicación en [!
 
 * **Para [editar el nombre del borrador del correo electrónico](/help/user-guide/create/manage-variants.md#change-draft-name)**, haga clic en el título de _Borrador sin título_ en la parte superior del lienzo y escriba un nuevo título.
 * **Para [editar manualmente un correo electrónico](/help/user-guide/create/manage-variants.md#manually-edit-text)**, haga clic en cualquiera de los campos de texto editables (como la línea de asunto, el encabezado o la copia de cuerpo) y edítelo según sea necesario
-* **Para [cambiar o seleccionar la llamada a la acción](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, haga clic en el botón de llamada a la acción y seleccione _[!UICONTROL Reformular]_ o _[!UICONTROL Agregar vínculo]_.
+* **Para [cambiar o seleccionar la llamada a la acción](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, haga clic en el botón call-to-action y seleccione _[!UICONTROL Reformular]_ o _[!UICONTROL Agregar vínculo]_.
 * **Para [regenerar una sección de una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, haga clic en un campo de texto editable y use las opciones _[!UICONTROL Ediciones sugeridas]_ o escriba una nueva solicitud y haga clic en **[!UICONTROL Generar]**.
 * **Para [agregar o intercambiar imágenes en una variante](/help/user-guide/create/manage-variants.md#swap-image)**, haga clic en un recurso de imagen (o en el área del recurso de imagen si todavía no existe una imagen) y haga clic en el icono **[!UICONTROL Intercambiar desde contenido]**.
 * **Para [agregar un vínculo a una imagen en una variante](/help/user-guide/create/manage-variants.md#add-image-link)**, haga clic en un recurso de imagen (o en el área del recurso de imagen si la imagen no existe actualmente) y haga clic en el icono de vínculo.

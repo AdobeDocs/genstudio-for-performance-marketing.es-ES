@@ -6,9 +6,9 @@ badgeBeta: label="Beta" tooltip="Esta función se encuentra actualmente en Beta,
 role: User
 level: Beginner
 exl-id: 91d0c2ef-3610-4a1a-b1ab-a9e2a6cb3723
-source-git-commit: 7784f8a722d808159df9522ff7fce5fbddcc34ce
+source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '114'
 ht-degree: 1%
 
 ---
@@ -26,6 +26,7 @@ Consulte [Seguir las directrices de plantillas específicas del canal](/help/use
 Las secciones editables de una experiencia de anuncio en pantalla incluyen:
 
 * Titular
+* Subtítulo
 * Cuerpo
 * Llamada a la acción (CTA)
 * Imagen

@@ -7,9 +7,9 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Para generar una nueva experiencia de LinkedIn, necesita una plantilla para prop
 **Para elegir una plantilla de LinkedIn**:
 
 1. En _[!DNL Create]_, haga clic en **[!UICONTROL LinkedIn]**en_ &quot;¿Qué desea crear hoy?&quot;_sección.
-1. Utilice la opción de búsqueda, adyacente a _Filter_, para encontrar una plantilla específica.
+1. Use las opciones [buscar y _Filtrar_](/help/user-guide/content/use-templates.md#search-templates) para encontrar una plantilla específica.
 1. Haga clic para seleccionar una plantilla y luego haga clic en **[!UICONTROL Usar]**.
 
    Esta acción abre el lienzo, que es el centro de trabajo para la creación de contenido.
@@ -80,7 +80,7 @@ Antes de enviar variantes para su aprobación o publicación en [!DNL Content], 
 
 * **Para [editar el nombre del borrador del anuncio de LinkedIn](/help/user-guide/create/manage-variants.md#change-draft-name)**, haga clic en el título de _Borrador sin título_ en la parte superior del lienzo e introduzca un nuevo título.
 * **Para [editar manualmente un anuncio de LinkedIn](/help/user-guide/create/manage-variants.md#manually-edit-text)**, haga clic en cualquiera de las secciones de anuncios (como la línea de asunto, el encabezado o la copia del cuerpo) y edítela según sea necesario.
-* **Para cambiar o seleccionar la llamada a la acción**, haga clic en el botón de llamada a la acción y seleccione las opciones de texto de botón disponibles. En _Vínculo_, escriba una dirección URL para el texto de llamada a acción.
+* **Para cambiar o seleccionar la llamada a la acción**, haga clic en el botón call-to-action y seleccione las opciones de texto de botón disponibles. En _Vínculo_, escriba una dirección URL para el texto de call-to-action.
 * **Para [volver a generar una sección de una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, haga clic en un campo de texto editable y use las opciones _[!UICONTROL Ediciones sugeridas]_ o escriba un nuevo mensaje en _[!UICONTROL Generar nuevo texto_ sección] y haga clic en **[!UICONTROL Generar]**.
 * **Para [recortar o cambiar la posición de las imágenes](/help/user-guide/create/manage-variants.md#crop-assets)**, pase el ratón sobre una imagen, haga clic en el icono de recorte que aparece y ajuste el tamaño y la ubicación de la imagen.
 * **Para [eliminar un anuncio de LinkedIn](/help/user-guide/create/manage-variants.md#delete-variant)**, haz clic en el menú de opciones de una variante y haz clic en **[!UICONTROL Eliminar variante]**.

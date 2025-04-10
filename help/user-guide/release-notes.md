@@ -4,9 +4,9 @@ description: Obtenga información sobre las últimas funciones y mejoras de Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 2f5c79c8a339b10305a8c06f7036dd7182937cc5
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2198'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,17 @@ ht-degree: 1%
 
 Esta información de la versión detalla las últimas actualizaciones de la aplicación de GenStudio for Performance Marketing.
 
-## 2025.03.13 {#latest}
+## 2025.04.10 {#latest}
+
+### Correcciones y mejoras
+
+* Nuevas opciones de filtro para las plantillas Ahora puedes refinar tu lista de _[!UICONTROL Seleccionar plantillas]_ en [!DNL Create] y en _[!UICONTROL Contenido]_ > _[!UICONTROL Plantillas]_. Ver [plantillas de búsqueda](/help/user-guide/content/use-templates.md#search-templates). Asegúrese de que las plantillas estén etiquetadas correctamente con los metadatos para que se puedan detectar a través de estos filtros.
+* Funcionalidad habilitada para [ver y seleccionar capas individuales](/help/user-guide/create/manage-variants.md#view-layers) (campos de texto editables o imágenes editables) de una experiencia para resaltarlas en revisiones, como la regeneración de contenido o el recorte de imágenes.
+* Se ha agregado un [nuevo campo de plantilla](/help/user-guide/content/use-templates.md#template-elements), `sub-headline`, para texto adicional en las experiencias a fin de atraer la atención de la audiencia y resaltar los mensajes de marketing.
+
+## Notas de la versión anteriores
+
++++Notas del 13 de marzo de 2025
 
 ### Activar anuncios Meta
 
@@ -60,7 +70,7 @@ El nuevo marco de trabajo de extensibilidad [de GenStudio for Performance Market
 * Se mejoró la experiencia del usuario y la visibilidad de las categorías de canal [en la página de inicio Crear](/help/user-guide/create/overview.md) al separarlas en las secciones Medios propios, Medios de pago y Contenido.
 * Se mejoró el filtrado en [!DNL Insights] vistas de tabla y galería.
 
-## Notas de la versión anteriores
++++
 
 +++Notas del 13 de febrero de 2025
 
@@ -86,7 +96,7 @@ Los programas de Beta ofrecen una forma de ayudar a dar forma al desarrollo de p
 
 ### Generar nuevas llamadas a la acción
 
-Ahora puede generar nuevas frases de llamada a la acción (CTA) al administrar variantes. Use las nuevas opciones _Refrasear_ y _Agregar vínculo_ para generar nuevas frases y editar el vínculo de CTA. La plantilla debe estar configurada correctamente para que funcionen estas nuevas funciones de CTA. Siga las directrices de _Personalizar una plantilla_: [Llamadas a la acción](/help/user-guide/content/customize-template.md#calls-to-action). Para obtener instrucciones sobre la administración de CTA en variantes, consulte [Revisar la llamada a la acción](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
+Ahora puede generar nuevas frases de call-to-action (CTA) al administrar variantes. Use las nuevas opciones _Refrasear_ y _Agregar vínculo_ para generar nuevas frases y editar el vínculo de CTA. La plantilla debe estar configurada correctamente para que funcionen estas nuevas funciones de CTA. Siga las directrices de _Personalizar una plantilla_: [Llamadas a la acción](/help/user-guide/content/customize-template.md#calls-to-action). Para obtener instrucciones sobre la administración de CTA en variantes, consulte [Revisar la llamada a la acción](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
 
 ### Correcciones y mejoras
 
@@ -100,7 +110,7 @@ Ahora puede generar nuevas frases de llamada a la acción (CTA) al administrar v
 
 * Las selecciones de persona, marca y producto ahora se cargan previamente durante la generación de la plantilla. <!-- GS-8069 -->
 
-* El vínculo de llamada a acción de correo electrónico ya no es un campo obligatorio. <!-- GS-8103 -->
+* El vínculo de call-to-action de correo electrónico ya no es un campo obligatorio. <!-- GS-8103 -->
 
 * El menú desplegable del selector [!DNL Brand] ahora funciona según lo esperado para las plantillas. Anteriormente, el selector no se cargaba correctamente en algunas plantillas. <!-- GS-8908 -->
 
@@ -244,7 +254,7 @@ Esta versión incluye mejoras en la localización en toda la interfaz de usuario
 
 * El cajón de mensajes [!DNL Create] ahora se cierra como se espera cuando un usuario hace clic fuera. <!-- GS-5254 -->
 
-* La exportación de meta-ads ahora incluye la etiqueta de llamada a la acción seleccionada según lo esperado. <!-- GS-6504 -->
+* La exportación de metadatos ahora incluye la etiqueta de call-to-action seleccionada según lo esperado. <!-- GS-6504 -->
 
 * La puntuación de la marca ahora se actualiza y se conserva según lo esperado para las experiencias regeneradas. <!-- GS-6535 -->
 

@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Para crear una experiencia de anuncio en pantalla, utilice una plantilla disponi
 **Para elegir una plantilla de anuncio en pantalla**:
 
 1. En _[!DNL Create]_, haga clic en **[!UICONTROL Mostrar anuncios]**en_ &quot;¿Qué desea crear hoy?&quot;_sección.
-1. Utilice la opción de búsqueda, adyacente a _Filter_, para encontrar una plantilla de anuncio en pantalla específica.
+1. Use las opciones [buscar y _Filtrar_](/help/user-guide/content/use-templates.md#search-templates) para encontrar una plantilla específica.
 1. En la vista _Seleccionar plantilla_, haga clic en una plantilla de anuncio en pantalla.
 1. Haga clic en **[!UICONTROL Usar]**.
 
@@ -73,6 +73,8 @@ De forma predeterminada, se generan y muestran en el lienzo cuatro variaciones (
 ## Revisar variantes generadas
 
 Antes de seleccionar qué enviar para su aprobación o publicación a [!DNL Content], puede editar las secciones de anuncios en pantalla y los campos de texto, o eliminar una variante generada.
+
+Para resaltar una capa individual para revisarla, haga clic en un campo o imagen editable y luego en _[!UICONTROL Ver capas]_.
 
 **Para revisar las variantes generadas**:
 

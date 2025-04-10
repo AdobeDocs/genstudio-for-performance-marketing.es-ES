@@ -3,9 +3,9 @@ title: Administración de recursos y experiencias
 description: Simplifique y mejore la administración de los recursos aprobados por la marca para usarlos y reutilizarlos en su recorrido de marketing digital.
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: f79fb713b5387fd305ecf4a1102b301aa547babb
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1409'
 ht-degree: 1%
 
 ---
@@ -26,10 +26,13 @@ A continuación se muestra una búsqueda del término `space` en la galería [!U
 
 La interfaz de filtro y búsqueda es rápida y adaptable, y proporciona una experiencia productiva de búsqueda en primer lugar. Cada vista de [!DNL Content] proporciona opciones de filtro para restringir la búsqueda del recurso, la experiencia o la plantilla ideales. Para los recursos y las experiencias, puede seleccionar una campaña y directrices específicas, como el contenido creado para un producto específico.
 
-Hay filtros basados en [keywords](asset-details.md#user-defined-metadata) y [categorías de atributos](/help/user-guide/insights/attributes.md#categories) para reducir los resultados de búsqueda. Por ejemplo: es posible que desee encontrar un recurso de un tipo de archivo o tema en particular para que le ayude a crear una nueva experiencia para su campaña. O puede filtrar el contenido en función de su nombre de usuario o el nombre de un miembro del equipo:
+Hay filtros basados en [directrices](/help/user-guide/guidelines/overview.md), [palabras clave](asset-details.md#user-defined-metadata) y [categorías de atributos](/help/user-guide/insights/attributes.md#categories) para reducir los resultados de búsqueda. Por ejemplo: es posible que desee encontrar un recurso de un tipo de archivo o tema en particular para que le ayude a crear una nueva experiencia para su campaña. O puede filtrar el contenido en función de su nombre de usuario o el nombre de un miembro del equipo:
 
-- El filtro **[!UICONTROL Cargado por]** limita la lista de _[!UICONTROL Assets]_ para mostrar solamente los recursos cargados por usted o por una persona específica.
-- El filtro **[!UICONTROL Creado por]** limita la lista de _[!UICONTROL Experiencias]_ para mostrar únicamente las experiencias creadas por usted o por una persona específica.
+- **[!UICONTROL Cargado por]**: limita la lista de _[!UICONTROL Assets]_ para mostrar solamente los recursos cargados por usted o por una persona específica.
+- **[!UICONTROL Creado por]**: limita la lista de _[!UICONTROL Experiencias]_ para mostrar únicamente las experiencias creadas por usted o por una persona específica.
+- **[!UICONTROL Plantilla]**: limita la lista _[!UICONTROL Experiencias]_ para mostrar solo las experiencias creadas con la plantilla seleccionada.
+
+Si determinadas opciones de filtro no están visibles, indica que ninguna plantilla del repositorio coincide con los criterios de metadatos correspondientes. Asegúrese de que las plantillas estén etiquetadas correctamente con los metadatos para que se puedan detectar a través de estos filtros.
 
 **Para buscar contenido para reutilizarlo**:
 

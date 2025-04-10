@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 059c7271bcbe558d41f3df128c6a0681accec826
+source-git-commit: 0f296fe6ec92178498e2e0eeb3e190a194e46aa0
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -77,6 +77,7 @@ Para el correo electrónico, el campo `subject` se incluye automáticamente. Uti
 
 - `pre_header`
 - `headline`
+- `sub_headline`
 - `body`
 - `cta`
 - `image` (seleccionado de JPEG de contenido, PNG o GIF)
@@ -151,6 +152,7 @@ Siga estas prácticas recomendadas de diseño al personalizar las plantillas de 
 Para el titular y los anuncios en pantalla, el campo `CTA` se genera automáticamente. Utilice marcadores de posición de contenido para los siguientes campos:
 
 - `headline`
+- `sub_headline`
 - `body`
 - `image` (seleccionado de JPEG de contenido, PNG o GIF)
 

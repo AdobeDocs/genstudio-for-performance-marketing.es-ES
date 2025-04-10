@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 81133e4360a9ba7d7fb29f33e418fde8582b0f23
+source-git-commit: 0f296fe6ec92178498e2e0eeb3e190a194e46aa0
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,7 @@ En la tabla siguiente se enumeran los nombres de campo reconocidos por GenStudio
 | ----------------------- | ------------------------- | ------------------------------------------------ |
 | `{{pre_header}}` | Preencabezado | email |
 | `{{headline}}` | Titular | Enviar por correo electrónico <br>Meta ad <br>Anuncio para mostrar y titular <br>Anuncio de LinkedIn |
+| `{{sub_headline}}` | Subtítulo | correo electrónico<br>Banner y anuncio en pantalla |
 | `{{introductory_text}}` | Texto introductorio | Anuncio de LinkedIn |
 | `{{body}}` | Copia de cuerpo | Enviar por correo electrónico <br>Meta ad <br>Banner y anuncio en pantalla |
 | `{{cta}}` | Llamada a la acción<br>Ver [Llamadas a la acción](#calls-to-action) | Enviar por correo electrónico <br>Meta ad <br>Anuncio para mostrar y titular <br>Anuncio de LinkedIn |
@@ -101,14 +102,14 @@ GenStudio for Performance Marketing también puede proporcionar frases de llamad
 Puede personalizar la plantilla de correo electrónico para permitir que los creativos agreguen un vínculo a una imagen. De forma similar al vínculo de CTA, siga las instrucciones siguientes para aplicar un marcador de posición `link` a una etiqueta de imagen:
 
 ```html
-<a href="{{link}}"><img src="image-source.jpg" alt="description"></a>
+<a href="{{link}}"><img src="image-source.jpg" alt="{{imageDescription}}"></a>
 ```
 
 En este ejemplo:
 
 - `{{link}}` es un marcador de posición para la dirección URL real.
 - `src="image-source.jpg"` debe reemplazarse con la dirección URL real del origen de la imagen.
-- `alt="description"` proporciona un texto alternativo para la imagen, que resulta útil para la accesibilidad y la optimización de los motores de búsqueda.
+- `{{imageDescription}}` es un nombre de campo definido por el usuario que proporciona un marcador de posición para el texto alternativo de la imagen, el cual es útil para la accesibilidad y la optimización de los motores de búsqueda.
 
 <!-- this field does not work in Create canvas 2025/03
 
@@ -136,7 +137,7 @@ At this time, you cannot select the brand logo for the template upload. The foll
 
 ### Nombres de campo manuales
 
-Todos los demás nombres de campo se tratan como campos rellenados manualmente. Por ejemplo, puede reservar una sección para el contenido del pie de página.
+Todos los demás nombres de campo están definidos por el usuario y se tratan como campos rellenados manualmente. Por ejemplo, puede reservar una sección para el contenido del pie de página.
 
 Para crear una sección editable, agregue corchetes dobles alrededor del nombre de la sección:
 

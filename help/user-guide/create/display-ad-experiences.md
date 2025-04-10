@@ -5,9 +5,9 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: 7951646f-38da-437d-a270-c5ac99fa51cf
-source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
+source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '103'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,7 @@ Consulte [Seguir las directrices de plantillas específicas del canal](/help/use
 Las secciones editables de una experiencia de anuncio en pantalla incluyen:
 
 * Titular
+* Subtítulo
 * Cuerpo
 * Llamada a la acción (CTA)
 * Imagen
