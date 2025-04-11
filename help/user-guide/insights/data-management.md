@@ -6,7 +6,7 @@ level: Experienced
 role: Admin, Data Architect
 last-substantial-update: 2025-1-7
 exl-id: a5ab44d6-75c0-405b-82ad-9c65f6094bd6
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -47,4 +47,4 @@ Consulte [Eliminar implicaciones](https://experienceleague.adobe.com/en/docs/ana
 
 GenStudio for Performance Marketing retiene los datos de canal durante 13 meses. Esta política de retención incluye los 6 meses de datos introducidos durante la conexión inicial, lo que garantiza un análisis y unos informes de datos históricos completos.
 
-Ver [Conectar cuenta de anuncios de canal](/help/user-guide/insights/connect-channel.md).
+Ver [Conectar cuenta de anuncios de canal](/help/user-guide/connectors/connect-channel.md).
