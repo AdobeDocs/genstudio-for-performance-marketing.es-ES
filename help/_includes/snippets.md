@@ -5,22 +5,22 @@ source-wordcount: '79'
 ht-degree: 0%
 
 ---
-# Fragmentos de GenStudio para Performance Marketing
+# Fragmentos de GenStudio for Performance Marketing
 
 ## Conectar perspectivas {#connect-insights}
 
 >[!TIP]
 >
->GenStudio para Performance Marketing requiere que se conecte a un cuenta de canal para comenzar a recibir datos. Consulte Conectar [canal cuenta](/help/user-guide/connectors/connect-channel.md).
+>GenStudio for Performance Marketing requiere que se conecte a una cuenta de canal para comenzar a recibir datos. Ver [Conectar cuenta de canal](/help/user-guide/connectors/connect-channel.md).
 
-## Nota Recursos AEM {#note-aem-assets}
+## AEM Assets de notas {#note-aem-assets}
 
 >[!INFO]
 >
->Si tiene problemas para ver o trabajar con activos de una [!DNL AEM Assets Content Hub] repositorio, consulte al administrador del sistema y asegúrese de que tiene acceso a la organización o al perfil de productos correctos. Consulte Conectar [con una [!DNL AEM Assets Content Hub] repositorio](/help/user-guide/content/connect-aem-repo.md).
+>Si tiene problemas para ver o trabajar con recursos de un repositorio de [!DNL AEM Assets Content Hub], póngase en contacto con el administrador del sistema y asegúrese de que tiene acceso a la organización o al perfil de producto correctos. Ver [Conectarse a un [!DNL AEM Assets Content Hub] repositorio](/help/user-guide/content/connect-aem-repo.md).
 
-## Sugerencia en contenido de la Academia {#in-academy}
+## Sugerencia sobre el contenido de la Academia {#in-academy}
 
 >[!TIP]
 >
->Enriquece tus habilidades sobre este tema con [Adobe Systems GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy).
+>Enriquezca sus habilidades sobre este tema con [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy).
