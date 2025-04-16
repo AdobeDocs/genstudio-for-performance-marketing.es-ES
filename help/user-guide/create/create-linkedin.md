@@ -7,9 +7,9 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
+source-git-commit: d5019f1cdceccb8ce2fdd86c54cf2d36673a90aa
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ Para generar una nueva experiencia de LinkedIn, necesita una plantilla para prop
 
 **Para elegir una plantilla de LinkedIn**:
 
-1. En _[!DNL Create]_, haga clic en **[!UICONTROL LinkedIn]**en_ &quot;¿Qué desea crear hoy?&quot;_sección.
-1. Use las opciones [buscar y _Filtrar_](/help/user-guide/content/use-templates.md#search-templates) para encontrar una plantilla específica.
+1. En _[!DNL Create]_, haga clic en **[!UICONTROL LinkedIn]**.
+1. Utilice la opción de búsqueda, adyacente a _Filter_, para encontrar una plantilla específica.
 1. Haga clic para seleccionar una plantilla y luego haga clic en **[!UICONTROL Usar]**.
 
    Esta acción abre el lienzo, que es el centro de trabajo para la creación de contenido.

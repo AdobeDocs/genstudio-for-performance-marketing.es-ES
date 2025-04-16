@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
+source-git-commit: d5019f1cdceccb8ce2fdd86c54cf2d36673a90aa
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ Para crear una nueva experiencia de correo electrónico, utilice una plantilla d
 
 **Para elegir una plantilla de correo electrónico**:
 
-1. En _[!DNL Create]_, haga clic en **[!UICONTROL Correo electrónico]**en_&quot;¿Qué desea crear hoy?&quot;_sección.
-1. Use las opciones [buscar y _Filtrar_](/help/user-guide/content/use-templates.md#search-templates) para encontrar una plantilla específica.
+1. En _[!DNL Create]_, haga clic en **[!UICONTROL Correo electrónico]**.
+1. Utilice la opción de búsqueda, adyacente a _Filter_, para encontrar una plantilla de correo electrónico específica.
 1. Haga clic para seleccionar una plantilla de correo electrónico y haga clic en **[!UICONTROL Usar]**.
 
    Aparece Canvas, el epicentro de la creación de contenido.

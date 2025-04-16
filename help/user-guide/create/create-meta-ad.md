@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
+source-git-commit: a9da9ba1e93335896640e52837cc7226ec8e4bef
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ Para empezar a generar una nueva experiencia de publicidad de metadatos, utilice
 
 **Para elegir una plantilla Meta ad**:
 
-1. En _[!DNL Create]_, haga clic en **[!UICONTROL Meta ads]**en_ &quot;¿Qué desea crear hoy?&quot;_sección.
-1. Use las opciones [buscar y _Filtrar_](/help/user-guide/content/use-templates.md#search-templates) para encontrar una plantilla específica.
+1. En _[!DNL Create]_, haga clic en **[!UICONTROL Meta ads]**.
+1. Utilice la opción de búsqueda, adyacente a _Filter_, para encontrar una plantilla de anuncio Meta específica.
 1. Haga clic para seleccionar una plantilla y luego haga clic en **[!UICONTROL Usar]**.
 
    Esta acción abre el lienzo, que es el centro de trabajo para la creación de contenido.

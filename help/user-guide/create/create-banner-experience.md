@@ -7,9 +7,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
-source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
+source-git-commit: d5019f1cdceccb8ce2fdd86c54cf2d36673a90aa
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ Para crear una experiencia de banner, utilice una plantilla disponible para prop
 
 **Para elegir una plantilla de banner**:
 
-1. En _[!DNL Create]_, haga clic en **[!UICONTROL Banners]**en_ &quot;¿Qué desea crear hoy?&quot;_sección.
-1. Use las opciones [buscar y _Filtrar_](/help/user-guide/content/use-templates.md#search-templates) para encontrar una plantilla específica.
+1. En _[!DNL Create]_, haga clic en **[!UICONTROL Banners]**.
+1. Utilice la opción de búsqueda, adyacente a _Filter_, para encontrar una plantilla de banner específica.
 1. En la vista _Seleccionar plantilla_, haga clic en una plantilla de banner.
 1. Haga clic en **[!UICONTROL Usar]**.
 
