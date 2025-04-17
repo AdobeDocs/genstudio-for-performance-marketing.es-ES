@@ -4,9 +4,9 @@ description: Obtenga información sobre las últimas funciones y mejoras de Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 2f5c79c8a339b10305a8c06f7036dd7182937cc5
+source-git-commit: c51afb3decac43f3a71d5859ba4296a8c09730d7
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2252'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,7 @@ Esta información de la versión detalla las últimas actualizaciones de la apli
 * Nuevas opciones de filtro para las plantillas Ahora puedes refinar tu lista de _[!UICONTROL Seleccionar plantillas]_ en [!DNL Create] y en _[!UICONTROL Contenido]_ > _[!UICONTROL Plantillas]_. Ver [plantillas de búsqueda](/help/user-guide/content/use-templates.md#search-templates). Asegúrese de que las plantillas estén etiquetadas correctamente con los metadatos para que se puedan detectar a través de estos filtros.
 * Funcionalidad habilitada para [ver y seleccionar capas individuales](/help/user-guide/create/manage-variants.md#view-layers) (campos de texto editables o imágenes editables) de una experiencia para resaltarlas en revisiones, como la regeneración de contenido o el recorte de imágenes.
 * Se ha agregado un [nuevo campo de plantilla](/help/user-guide/content/use-templates.md#template-elements), `sub-headline`, para texto adicional en las experiencias a fin de atraer la atención de la audiencia y resaltar los mensajes de marketing.
+* Se agregó compatibilidad con [publicar experiencias de anuncios](/help/user-guide/activation/overview.md) de GenStudio for Performance Marketing en Google Campaign Manager 360. Activate admite vistas previas de anuncios detalladas de Google Campaign Manager 360 antes de publicarlas en un anunciante de Campaign Manager 360. Los anuncios publicados mediante Activate se incorporan automáticamente a Insights una vez en directo, lo que permite a los usuarios rastrear el rendimiento de los anuncios e informar sobre él.
 
 ## Notas de la versión anteriores
 
