@@ -4,16 +4,16 @@ description: Obtenga información sobre cómo activar contenido con Adobe Experi
 level: Beginner
 feature: Ad Activation
 exl-id: 365fe253-d189-467e-a723-f54cd74ff60b
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: 19f36badd66a5dc90585b4399b87230847474a81
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
 
 # Activar Adobe GenStudio for Performance Marketing
 
-GenStudio for Performance Marketing _[!DNL Activate]_proporciona una ubicación central para preparar la experiencia de anuncio para la activación en determinados canales de publicidad de pago._ Activation _es el proceso de entrega de experiencias publicitarias a canales designados en un estado inactivo, listo para la revisión final y la implementación desde el canal. Las experiencias publicitarias se pueden distribuir en los mercados para los que están destinadas.
+GenStudio for Performance Marketing _[!DNL Activate]_proporciona una ubicación central para preparar la experiencia de anuncio para la activación en determinados canales de publicidad de pago._ Activation _es el proceso de preparación de experiencias de publicidad, recursos y texto como un elemento creativo personalizado de forma única para su colocación en un canal de pago específico. Activation envía el elemento creativo a canales designados en un estado inactivo, listos para la revisión final y la implementación desde el canal. Las experiencias publicitarias se pueden distribuir en los mercados para los que están destinadas.
 
 Los editores de contenido y los administradores del sistema pueden publicar experiencias cuyos recursos se generen en GenStudio for Performance Marketing o se carguen en esta.
 
@@ -21,23 +21,23 @@ Los editores de contenido y los administradores del sistema pueden publicar expe
 
 Antes de activar una experiencia publicitaria, todas las cuentas de canal de medios de pago deben estar conectadas a GenStudio for Performance Marketing.
 
-## Casos de uso de [!DNL Activate]
+## Activar casos de uso
 
 * [Crear una activación](create-activation.md). Puede crear una experiencia publicitaria seleccionando recursos visuales, asignando texto y definiendo metadatos antes de transferirlos a un canal de pago.
 
 * [Administrar activaciones](manage-activations.md). _[!DNL Activate]_proporciona una descripción general de todas las experiencias activadas. También puede ver los detalles de las activaciones individuales.
 
-## Funciones de [!DNL Activate]
+## Activar funciones
 
 _[!DNL Activate]_facilita la preparación de la experiencia de anuncios para su distribución en los canales de pago de destino.
 
 ### Preparar para la activación
 
-La página _Configuración de Creative_ consolida las herramientas que necesita para seleccionar los elementos visuales de una experiencia publicitaria, modificar el texto del anuncio (incluido el texto de llamada a la acción) y agregar metadatos útiles que mejoren el seguimiento y la visibilidad de la experiencia.
+La página _Configuración de Creative_ consolida las herramientas que necesita para seleccionar los elementos visuales de una experiencia publicitaria, modificar el texto del anuncio (incluido el texto de call-to-action) y agregar metadatos útiles que mejoren el seguimiento y la visibilidad de la experiencia.
 
 ### Seleccionar recursos para la experiencia publicitaria
 
-Busque y seleccione recursos visuales aprobados de _[!DNL Content]_, o bien cargue recursos de Dropbox o OneDrive. También puede cargar recursos directamente desde el dispositivo. Una experiencia de anuncio se puede ejecutar en varias ubicaciones. Assets se puede cargar en las relaciones de aspecto que requieren sus ubicaciones de anuncios.
+Busque y seleccione recursos visuales aprobados de _[!DNL Content]_, o bien cargue recursos de Dropbox o OneDrive. Puede cargar recursos directamente desde el dispositivo. Una experiencia de publicidad, o creativa, se puede ejecutar en varias ubicaciones. Assets se puede cargar en las relaciones de aspecto que requieren sus ubicaciones de anuncios.
 
 ### Previsualización y activación de la experiencia en un canal de publicidad
 

@@ -1,9 +1,9 @@
 ---
 title: Administración de activaciones
-description: Aprenda a administrar experiencias activadas con Adobe Genstudio para Performance Marketing.
+description: Obtenga información sobre cómo administrar experiencias activadas con Adobe GenStudio for Performance Marketing.
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: f6e0d0138f30527a1fdf7bef6fc4c30884316e0e
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 _[!DNL Activate]_ofrece una vista centralizada del estado de activación de cada canal de publicidad, incluidas las activaciones Publicado (correcto), Fallido (incorrecto) y Publicación (pendiente). La vista_ Experiencias activadas _muestra todas las activaciones de una cuenta de anuncio de canal conectada.
 
-Las experiencias activadas se organizan por canal de publicidad. En _[!DNL Activate]_, haga clic en **[!UICONTROL Ver]**en el mosaico del canal. Se abre la vista de_ experiencias activadas _para el canal seleccionado. Las experiencias se enumeran por nombre de experiencia y se ordenan por fecha de activación. Si su organización no ha activado experiencias para ese canal, el mosaico del producto no incluye el botón **[!UICONTROL Ver]**.
+_[!DNL Activate]_organiza las experiencias activadas por canal de publicidad. Haga clic en **[!UICONTROL Ver]**en el mosaico del canal. Se abre la vista de_ experiencias activadas _para el canal seleccionado. Esta vista enumera las experiencias por nombre y las ordena por fecha de activación. Si su organización no ha activado experiencias para ese canal, el mosaico del producto no incluye el botón **[!UICONTROL Ver]**.
 
 ## Vista de experiencia activada
 
-Las activaciones se enumeran por nombre de experiencia en orden cronológico descendente (primero, el más reciente).
+Esta vista enumera las activaciones por nombre de experiencia en orden cronológico descendente (primero la más reciente enumerada).
 
 En la tabla siguiente se enumeran los atributos que definen cada experiencia.
 
