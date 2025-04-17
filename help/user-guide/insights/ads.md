@@ -4,9 +4,9 @@ description: Vea una descripción general de la participación del cliente, el p
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 2d396b183084996c45616d29387e068a5d502c53
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1260'
 ht-degree: 0%
 
 ---
@@ -33,24 +33,23 @@ Seleccione un anuncio y vea las métricas de rendimiento, los atributos de texto
 
 Debajo de la vista previa del anuncio hay una lista de [!UICONTROL atributos de texto] asociados con el anuncio. Cuando los recursos y los anuncios se aprueban y almacenan en [!DNL Content], GenStudio for Performance Marketing genera etiquetas en función de sus características inherentes. Consulte [Detalles multimedia](/help/user-guide/content/asset-details.md#system-metadata) para obtener detalles acerca de los metadatos del sistema.
 
+### Formatos de anuncio
+
+[!DNL Insights] en GenStudio for Performance Marketing admite actualmente los siguientes formatos de publicidad disponibles.
+
+| Compatible | No compatible |
+|-----------|-------------|
+| Especificación de fuente de recursos (optimización de ubicación)<br>Imagen o vídeo únicos<br>Vínculo | Carrusel<br>Catálogo<br>Colaborativo<br>Experiencia instantánea<br>Especificaciones de fuente de recursos (además de la optimización de la ubicación)<br>Llamada (imagen/vídeo)<br>Aplicación (imagen/vídeo)<br>Mensajería<br>Posible cliente (imagen/vídeo)<br>Presentación de diapositivas (vídeo)<br>Colección (imagen/vídeo/recurso héroe)<br>Tienda (imagen/vídeo)<br>Foto o vídeo de la publicación de la página/publicación de Instagram/medios<br>Contenido de marca<br>Flexible<br>Ventaja+ |
+
 ### Ubicaciones de anuncios
 
-En el momento en que creó una campaña con Meta ads, es posible que haya seleccionado dónde ejecutar sus anuncios en función de la campaña [objective](channels.md#objectives). Las ubicaciones de anuncios amplían el alcance de audiencia de su anuncio.
+Al crear una campaña con Meta ads, es posible que hayas seleccionado dónde publicar tus anuncios según la campaña [objective](channels.md#objectives). Las ubicaciones de anuncios amplían el alcance de audiencia de su anuncio.
 
-GenStudio for Performance Marketing admite formatos de anuncio, como fuentes de recursos, anuncios de vínculos y una sola imagen o vídeo. A continuación se muestra una lista de formatos de anuncios por plataforma:
+A continuación se muestra una lista de ubicaciones de anuncios compatibles:
 
-| Instagram | Facebook/Meta | Messenger | Audience Network |
-| ------------ | ---------------- | ------------ | ---------------- |
-| Explorar<br>Explorar inicio<br>Explorar cuadrícula Inicio<br>Alimentación<br>Carretes<br>Fuente de perfiles<br>Buscar<br>Tienda<br>Historias | Exploración empresarial<br>Fuente<br>Vídeo en flujo<br>Mercado<br>Carretes<br>Superposición de carretes<br>Columna derecha<br>Resultados de búsqueda<br>Historias<br>Fuentes de vídeo<br>Anuncios en carretes de Facebook | Bandeja de entrada<br>Historias | Nativo, banner e intersticial<br>Vídeo premiado |
-
-#### Ubicaciones no admitidas
-
-GenStudio for Performance Marketing no admite las siguientes ubicaciones de anuncios:
-
-- Colaborativo
-- Catálogo/catálogo Advantage+
-- Experiencia de instancia
-- Carrusel
+| Audience Network | [Facebook/Meta](https://www.facebook.com/business/help/407108559393196?id=369787570424415) | Instagram | Messenger |
+|--------------------|--------------------|-------------------------|---------------------|
+| Vídeo premiado | Fuente<br>Fuentes de vídeo<br>Historias<br>Mercado<br>Columna derecha<br>Carretes<br>Superposición de carretes<br>Vídeo en el flujo<br>Buscar<br>Fuente de discoteca para empresas<br>Fuente de perfiles | Historias<br>Fuente<br>Explorar<br>Carretes<br>Explorar la cuadrícula Inicio<br>Fuente de perfiles<br>Buscar<br>Secuencia | Historias<br>Bandeja de entrada |
 
 ## Rendimiento del anuncio
 
@@ -64,8 +63,8 @@ La siguiente tabla proporciona definiciones y perspectivas para métricas clave 
 | **[!UICONTROL Campaña]** | Una campaña es un conjunto de anuncios diseñados para lograr un objetivo específico. | Al filtrar la tabla Anuncios por campaña, las métricas del resumen de todos los anuncios de la campaña pueden ser diferentes a la fila de resumen de la campaña en la vista [!UICONTROL Canales]. Esta discrepancia puede producirse si el origen del canal, como Meta y GenStudio, utiliza cálculos de resumen ligeramente diferentes. |
 | **[!UICONTROL Ubicaciones]** | Un recuento de las [ubicaciones](#ad-placements) del anuncio, ubicaciones en las que apareció un anuncio en la campaña. | Las ubicaciones aumentan el alcance de la audiencia.<p>Los anuncios que no muestran ninguna ubicación ni ningún medio pueden indicar un [tipo de anuncio no admitido](#unsupported-placements).</p> |
 | **[!UICONTROL Medios]** | El número de recursos utilizados en el anuncio o la publicidad. | El recuento de la tabla Anuncios puede ser diferente al recuento de la vista Detalles de anuncio. Esta discrepancia puede producirse si el origen del canal, como Meta y GenStudio, utiliza cálculos de resumen ligeramente diferentes. |
-| **[!UICONTROL Impresiones]** | Un recuento de cada vez que la ubicación del anuncio o el anuncio se carga en el canal, independientemente de la interacción o visualización. | Un recuento alto de impresiones puede indicar una visibilidad amplia, pero para obtener una verdadera perspectiva de rendimiento, considérala en relación con otras métricas de participación. |
-| **[!UICONTROL Clics]** | El número de veces que los usuarios interactúan con un elemento en el que se puede hacer clic, como un vínculo o un botón de llamada a la acción, en una ubicación de anuncio. | Un alto número de clics indica un fuerte interés y participación en el contenido, que puede ser eficaz y llegar a la audiencia adecuada. |
+| **[!UICONTROL Impresiones]** | Un recuento de cada vez que la ubicación del anuncio o el anuncio se carga en el canal, independientemente de la interacción o visualización. | Un recuento alto de impresiones puede indicar una visibilidad amplia, pero si se trata de un insight de verdadero rendimiento, considéralo en relación con otras métricas de participación. |
+| **[!UICONTROL Clics]** | El número de veces que los usuarios interactúan con un elemento en el que se puede hacer clic, como un vínculo o un botón de call-to-action, en una ubicación de anuncio. | Un alto número de clics indica un fuerte interés y participación en el contenido, que puede ser eficaz y llegar a la audiencia adecuada. |
 | **[!UICONTROL tasa de pulsaciones ]**<br>_CTR_ | Porcentaje (%) de impresiones que generaron clics en el anuncio dentro de una campaña.<br>**Cálculo**: `clicks` dividido por `impressions` | Una alta tasa de clics indica que el contenido es muy relevante y motivador para la audiencia en cuanto a mensajería y diseño, y que se dirige de manera efectiva a los intereses de la audiencia. |
 | **[!UICONTROL CPM ]**<br>_Costo por mil_ | Coste por cada mil impresiones de publicidad.<br>**Cálculo**: importe total `spent` dividido por alcance y luego multiplicado por 1000 | Un valor bajo puede indicar una visibilidad rentable, especialmente cuando se asocia con una tasa de pulsaciones alta. |
 | **[!UICONTROL CPA ]**<br>_Costo por acción_ | Coste promedio empleado para lograr una acción específica del cliente, como una compra o suscripción.<br>**Cálculo**: importe total `spent` dividido por el número de acciones del cliente completadas | Se utiliza para monitorizar el gasto en anuncios que resultan en valiosas acciones de los clientes. |
