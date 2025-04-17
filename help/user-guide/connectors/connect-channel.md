@@ -5,9 +5,9 @@ level: Intermediate
 role: Admin, Data Engineer
 feature: Reporting and Insights
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 2844914d25d9bc3a2be7f47d0cd7f26f7c921555
+source-git-commit: af354448ef609db3c51026ee0e9991ac5cedeba5
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,31 @@ _[!DNL Data connectors]_habilita la integración perfecta entre GenStudio for Pe
 ## Conexiones de medios de pago
 
 GenStudio for Performance Marketing admite varios tipos de conectores para integrarlos con las plataformas de marketing que prefiera. Cada tipo de conector tiene requisitos previos específicos y pasos de configuración que se deben completar para que la conexión se realice correctamente.
+
+### Google Campaign Manager 360 connect
+
+>[!BEGINSHADEBOX]
+
+**Requisitos previos**:
+
+- Cuenta de Google Campaign Manager 360
+- Elimine los bloqueadores de ventanas emergentes del explorador
+
+>[!ENDSHADEBOX]
+
+**Para conectar una cuenta de Google Campaign Manager 360**:
+
+1. En la sección _Conectores de datos_, haga clic en **[!UICONTROL Conectar]** en la tarjeta de _Google Campaign Manager 360_.
+
+1. Inicie sesión en su cuenta de Google Campaign Manager 360.
+
+   Es posible que tenga que quitar los bloqueadores de ventanas emergentes y, a continuación, usar **[!UICONTROL Actualizar]** para intentarlo de nuevo.
+
+1. Lea los términos y condiciones y haga clic en **[!UICONTROL Permitir]** para conceder acceso.
+
+1. En la vista _[!UICONTROL Google Campaign Manager 360]_, seleccione uno o más anunciantes y haga clic en **[!UICONTROL Seleccionar]**.
+
+La vista de _[!UICONTROL cuentas de Google Campaign Manager 360]_ enumera `Account name`, `Added by`, `Date added` y `Status`. Use **[!UICONTROL Agregar cuenta]** para agregar más cuentas a la lista.
 
 ### Meta ads connect
 
