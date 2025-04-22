@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo evaluar el rendimiento de los medi
 level: Intermediate
 feature: Reporting and Insights, Media Performance, Content Attributes
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: a7241193b38a45dbd927269d65c1edac05cab002
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,10 @@ En la vista _Detalles multimedia_, puede ver qué anuncios utilizan los medios s
 
 ![Detalles multimedia](/help/assets/insights-media-details.png){zoomable="yes"}
 
+### Atributos de medios
+
+{{$include /help/_includes/generated-attributes.md}}
+
 ## Rendimiento de medios
 
 Las métricas de perspectivas pueden ayudarle a evaluar qué medios contribuyen al éxito de una campaña y qué atributos de medios son los más efectivos.
@@ -45,7 +49,7 @@ La siguiente tabla proporciona definiciones y perspectivas para métricas clave 
 | Métrica | Definición | Insight |
 | ---------------------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL ID de medio]** | El nombre asociado a una imagen, vídeo, texto u otro contenido creativo. | Ordene la tabla haciendo clic en el encabezado de la columna de cualquiera de las métricas clave. |
-| **[!UICONTROL Impresiones]** | Recuento de cada vez que los medios se cargan en el canal, independientemente de la interacción o la visualización. | Un recuento alto de impresiones puede indicar una visibilidad amplia, pero para obtener una verdadera perspectiva de rendimiento, considérala en relación con otras métricas de participación. |
+| **[!UICONTROL Impresiones]** | Recuento de cada vez que los medios se cargan en el canal, independientemente de la interacción o la visualización. | Un recuento alto de impresiones puede indicar una visibilidad amplia, pero si se trata de un insight de verdadero rendimiento, considéralo en relación con otras métricas de participación. |
 | **[!UICONTROL Clics]** | El número de veces que los usuarios interactúan con un elemento en el que se puede hacer clic, como un vínculo, en los medios. | Un alto número de clics indica un fuerte interés y participación en el contenido, que puede ser eficaz y llegar a la audiencia adecuada. |
 | **[!UICONTROL tasa de pulsaciones ]**<br>_CTR_ | Porcentaje (%) de impresiones que generaron clics en medios dentro de un anuncio.<br>**Cálculo**: `clicks` dividido por `impressions` | Una alta tasa de clics indica que el contenido es muy relevante y atractivo para la audiencia. Sugiere que la mensajería y el diseño están capturando efectivamente el interés de la audiencia y motivándolos a tomar medidas. Además, un CTR alto puede implicar que los medios están bien dirigidos y resuenan con la audiencia deseada, lo que conduce a un mejor rendimiento general de la campaña. |
 | **[!UICONTROL CPM ]**<br>_Costo por mil_ | Coste por cada mil impresiones en los medios.<br>**Cálculo**: importe total `spent` dividido por el número de impresiones y luego multiplicado por 1000 | Un valor de CPM bajo puede indicar un rendimiento de medios rentable, especialmente cuando se combina con una tasa de pulsaciones alta. |
@@ -53,4 +57,4 @@ La siguiente tabla proporciona definiciones y perspectivas para métricas clave 
 | **[!UICONTROL CPC ]**<br>_Costo por clic_ | Coste medio asociado con cada clic en el contenido.<br>**Cálculo**: importe total `spent` dividido entre `clicks` | Unos costes medios menores pueden indicar un gasto publicitario rentable, especialmente en comparación con un aumento de las conversiones. |
 | **[!UICONTROL Gasto]** | La cantidad gastada del presupuesto en relación con los medios individuales durante un período de tiempo determinado. | Un gasto elevado en un período corto puede indicar un uso rápido, lo que podría dar lugar a un agotamiento prematuro de los recursos. Realice un seguimiento de la cantidad gastada con respecto a las métricas de rendimiento clave para ayudar a monitorizar la rentabilidad general de la inversión. |
 | **[!UICONTROL Se usa en estos anuncios]** | El número de anuncios que utilizan este medio. | |
-| **[!UICONTROL Atributos]** | Lista de atributos detectados y aplicados a este medio. | |
+| **Atributos** | Lista de características inherentes presentes en este medio. | Puede ayudar a identificar los elementos creativos que más interesan a su audiencia. |

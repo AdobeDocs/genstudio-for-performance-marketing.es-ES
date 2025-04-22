@@ -4,9 +4,9 @@ description: Vea una descripción general de la participación del cliente, el p
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: 2d396b183084996c45616d29387e068a5d502c53
+source-git-commit: b4e0892af62be754f7b596537125458fc28930f3
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,11 @@ Seleccione un anuncio y vea las métricas de rendimiento, los atributos de texto
 
 ![Detalles de anuncios con métricas y ubicaciones de anuncios](/help/assets/insights-ad-details.png){zoomable="yes"}
 
-### Atributos de texto
+### Atributos de anuncio
 
-Debajo de la vista previa del anuncio hay una lista de [!UICONTROL atributos de texto] asociados con el anuncio. Cuando los recursos y los anuncios se aprueban y almacenan en [!DNL Content], GenStudio for Performance Marketing genera etiquetas en función de sus características inherentes. Consulte [Detalles multimedia](/help/user-guide/content/asset-details.md#system-metadata) para obtener detalles acerca de los metadatos del sistema.
+Debajo de la vista previa del anuncio hay una lista de atributos asociados con el anuncio.
+
+{{$include /help/_includes/generated-attributes.md}}
 
 ### Formatos de anuncio
 
@@ -58,11 +60,11 @@ Las métricas de perspectivas pueden ayudarle a evaluar qué anuncios contribuye
 La siguiente tabla proporciona definiciones y perspectivas para métricas clave de marketing digital en la vista de tabla [!UICONTROL Ads]. Cada métrica incluye una breve definición en relación con los nombres de los anuncios, cómo se calcula la métrica y una o más perspectivas para ayudar a comprender su importancia e impacto en un anuncio.
 
 | Métrica | Definición | Insight |
-| ---------------------- | ----------------------------- | -------------------------------- |
+| ---------------------------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL Nombre del anuncio]** | Una lista de anuncios para la cuenta del canal conectado. Filtre los anuncios seleccionando una campaña. | Ordene la lista de anuncios haciendo clic en cualquiera de las métricas clave. |
 | **[!UICONTROL Campaña]** | Una campaña es un conjunto de anuncios diseñados para lograr un objetivo específico. | Al filtrar la tabla Anuncios por campaña, las métricas del resumen de todos los anuncios de la campaña pueden ser diferentes a la fila de resumen de la campaña en la vista [!UICONTROL Canales]. Esta discrepancia puede producirse si el origen del canal, como Meta y GenStudio, utiliza cálculos de resumen ligeramente diferentes. |
 | **[!UICONTROL Ubicaciones]** | Un recuento de las [ubicaciones](#ad-placements) del anuncio, ubicaciones en las que apareció un anuncio en la campaña. | Las ubicaciones aumentan el alcance de la audiencia.<p>Los anuncios que no muestran ninguna ubicación ni ningún medio pueden indicar un [tipo de anuncio no admitido](#unsupported-placements).</p> |
-| **[!UICONTROL Medios]** | El número de recursos utilizados en el anuncio o la publicidad. | El recuento de la tabla Anuncios puede ser diferente al recuento de la vista Detalles de anuncio. Esta discrepancia puede producirse si el origen del canal, como Meta y GenStudio, utiliza cálculos de resumen ligeramente diferentes. |
+| **[!UICONTROL Medios]** | El número de recursos utilizados en las ubicaciones de anuncios y anuncios | El recuento de la tabla Anuncios puede ser diferente al recuento de la vista Detalles de anuncio. Esta discrepancia puede producirse si el origen del canal, como Meta y GenStudio, utiliza cálculos de resumen ligeramente diferentes. |
 | **[!UICONTROL Impresiones]** | Un recuento de cada vez que la ubicación del anuncio o el anuncio se carga en el canal, independientemente de la interacción o visualización. | Un recuento alto de impresiones puede indicar una visibilidad amplia, pero si se trata de un insight de verdadero rendimiento, considéralo en relación con otras métricas de participación. |
 | **[!UICONTROL Clics]** | El número de veces que los usuarios interactúan con un elemento en el que se puede hacer clic, como un vínculo o un botón de call-to-action, en una ubicación de anuncio. | Un alto número de clics indica un fuerte interés y participación en el contenido, que puede ser eficaz y llegar a la audiencia adecuada. |
 | **[!UICONTROL tasa de pulsaciones ]**<br>_CTR_ | Porcentaje (%) de impresiones que generaron clics en el anuncio dentro de una campaña.<br>**Cálculo**: `clicks` dividido por `impressions` | Una alta tasa de clics indica que el contenido es muy relevante y motivador para la audiencia en cuanto a mensajería y diseño, y que se dirige de manera efectiva a los intereses de la audiencia. |
@@ -70,6 +72,7 @@ La siguiente tabla proporciona definiciones y perspectivas para métricas clave 
 | **[!UICONTROL CPA ]**<br>_Costo por acción_ | Coste promedio empleado para lograr una acción específica del cliente, como una compra o suscripción.<br>**Cálculo**: importe total `spent` dividido por el número de acciones del cliente completadas | Se utiliza para monitorizar el gasto en anuncios que resultan en valiosas acciones de los clientes. |
 | **[!UICONTROL CPC ]**<br>_Costo por clic_ | Coste medio asociado con cada clic en una ubicación de anuncio.<br>**Cálculo**: importe total `spent` dividido entre `clicks` | Unos costes medios menores pueden indicar un gasto publicitario rentable, especialmente en comparación con un aumento de las conversiones. |
 | **[!UICONTROL Gasto]** | Cantidad gastada del presupuesto de Campaign durante un período de tiempo determinado para publicar este anuncio. | Un gasto elevado en un período corto puede indicar un uso rápido, lo que podría dar lugar a un agotamiento prematuro de los recursos. Realice un seguimiento de la cantidad gastada con respecto a las métricas de rendimiento clave para ayudar a monitorizar la rentabilidad general de la inversión. |
+| **Atributos** | Lista de características inherentes presentes en este anuncio. | Puede ayudar a identificar los elementos creativos que más interesan a su audiencia. Ver [Categorías](/help/user-guide/insights/attributes.md#categories). |
 
 ## Rendimiento de ubicación
 
@@ -78,8 +81,9 @@ En la vista _[!UICONTROL Página de detalles del anuncio]_, las tres métricas p
 La siguiente tabla proporciona definiciones para métricas de rendimiento de ubicación de anuncios:
 
 | Métrica | Definición | Insight |
-| ---------------------- | ----------------------------- | ----------- |
+| ---------------------------- | ----------------------------- | --------------------------------- |
 | **[!UICONTROL tasa de pulsaciones ]**<br>_CTR_ | El porcentaje (%) de impresiones de una sola ubicación de publicidad que resultó en clics.<p>**Cálculo**:`clicks` dividido entre `impressions`<p>Esta métrica ayuda a determinar la eficacia de la colocación de anuncios para atraer a la audiencia. | Un CTR alto indica que la ubicación del anuncio es relevante y convincente para la audiencia, lo que conduce a más interacciones. |
 | **[!UICONTROL CPA ]**<br>_Costo por acción_ | Coste promedio empleado en una sola ubicación de publicidad para lograr una acción del cliente deseada, como una compra o suscripción.<p>**Cálculo**: importe total `spent` dividido por el número de acciones del cliente completadas<p>Esta métrica ayuda a evaluar la rentabilidad de la colocación de anuncios a la hora de impulsar acciones valiosas. | Un CPA menor sugiere que la ubicación del anuncio es eficaz para convertir las interacciones de audiencia en acciones deseadas a un coste más bajo. |
 | **[!UICONTROL CPC ]**<br>_Costo por clic_ | El coste medio asociado a cada clic en una sola ubicación de publicidad.<p>**Cálculo**: importe total `spent` dividido entre `clicks`<p>Esta métrica ayuda a evaluar la rentabilidad de la ubicación del anuncio en la generación de clics. | Un CPC más bajo indica que la colocación de anuncios está generando clics a un coste más bajo, lo que puede ser beneficioso para maximizar el retorno de la inversión. |
 | **[!UICONTROL Gasto]** | La cantidad gastada en una sola ubicación de publicidad, que representa una fracción de la cantidad total gastada en todo el anuncio. Esta métrica ayuda a realizar un seguimiento de la asignación del presupuesto y la eficiencia de gasto de cada ubicación de publicidad. | La supervisión del gasto puede ayudar a garantizar que los recursos se utilicen de forma eficaz en diferentes ubicaciones. |
+| **Atributos** | Lista de funciones inherentes presentes en esta ubicación de anuncio. | Puede ayudar a identificar los elementos creativos que más interesan a su audiencia. Ver [Categorías](/help/user-guide/insights/attributes.md#categories). |
