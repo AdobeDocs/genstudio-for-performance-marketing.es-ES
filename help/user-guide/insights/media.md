@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo evaluar el rendimiento de los medi
 level: Intermediate
 feature: Reporting and Insights, Media Performance, Content Attributes
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: a7241193b38a45dbd927269d65c1edac05cab002
+source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 0%
@@ -20,6 +20,8 @@ La vista [!DNL Insights] _[!UICONTROL Medios]_ muestra una lista de medios utili
 La tabla _[!UICONTROL Media]_ está organizada con **[!UICONTROL Media ID]**. Puede alternar entre las vistas mediante el icono de lista de vistas (tabla) y el icono de vista de galería (cuadrícula). Haga clic en el icono de configuración (cog) situado encima de la parte derecha de la tabla para alternar las columnas visibles. El icono de filtro (canal) situado encima de la parte izquierda de la tabla abre el menú **[!UICONTROL Filtro]**, en el que puede seleccionar entre varias listas. Seleccione **[!UICONTROL Borrar todo]** sobre la tabla para eliminar todos los filtros.
 
 ![Filtro y tabla de medios](/help/assets/insights-media-filter.png){zoomable="yes"}
+
+{{empty-table}}
 
 {{$include /help/_includes/download-insights.md}}
 

@@ -4,7 +4,7 @@ description: Vea una descripción general de la participación del cliente, el p
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: b4e0892af62be754f7b596537125458fc28930f3
+source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 0%
@@ -20,6 +20,8 @@ La vista [!DNL Insights] _[!UICONTROL Anuncios]_ muestra una lista de anuncios p
 La tabla _[!UICONTROL Ads]_ está organizada con [!UICONTROL Nombres de anuncios]. Haga clic en el icono de configuración (cog) situado encima de la parte derecha de la tabla para alternar las columnas visibles. El icono de filtro (canal) situado encima de la parte izquierda de la tabla abre el menú **[!UICONTROL Filtro]**, en el que puede seleccionar entre varias listas. Seleccione **[!UICONTROL Borrar todo]** sobre la tabla para eliminar todos los filtros.
 
 ![Filtro y tabla de anuncios](/help/assets/insights-ads-filter.png){zoomable="yes"}
+
+{{empty-table}}
 
 {{$include /help/_includes/download-insights.md}}
 

@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo evaluar el rendimiento de atributo
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: a7241193b38a45dbd927269d65c1edac05cab002
+source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 0%
@@ -22,6 +22,8 @@ La tabla _[!UICONTROL Attributes]_ está organizada con el nombre [!UICONTROL At
 El icono de filtro (canal) situado encima de la parte izquierda de la tabla abre el menú **[!UICONTROL Filtro]**, en el que puede seleccionar entre varias listas. Seleccione **[!UICONTROL Borrar todo]** sobre la tabla para eliminar todos los filtros.
 
 ![Filtro y tabla de atributos](/help/assets/insights-attributes-filter.png){zoomable="yes"}
+
+{{empty-table}}
 
 {{$include /help/_includes/download-insights.md}}
 

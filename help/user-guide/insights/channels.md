@@ -4,7 +4,7 @@ description: Vea una descripción general de la participación del cliente, el r
 level: Intermediate
 feature: Reporting and Insights, Ad Performance
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -20,6 +20,8 @@ La vista [!DNL Insights] _[!UICONTROL Canales]_ muestra una lista de campañas p
 La tabla _[!UICONTROL Canales]_ está organizada mediante la campaña de anuncios basada en canales. Haga clic en el icono de configuración (cog) situado encima de la parte derecha de la tabla para alternar las columnas visibles. El icono de filtro (canal) situado encima de la parte izquierda de la tabla abre el menú **[!UICONTROL Filtro]**, en el que puede seleccionar entre varias listas. Seleccione **[!UICONTROL Borrar todo]** sobre la tabla para eliminar todos los filtros.
 
 ![Filtro y tabla de canales](/help/assets/insights-channels-filter.png){zoomable="yes"}
+
+{{empty-table}}
 
 {{$include /help/_includes/download-insights.md}}
 
@@ -48,8 +50,8 @@ La siguiente tabla proporciona definiciones y perspectivas para métricas clave 
 | ----------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL Nombre de la metacampaña]** | Una lista de nombres de campaña para la cuenta del canal conectado. El estado de la campaña puede ser `Active`, `Paused`, `Deleted` o `Archived`. Filtrar campañas por estado y objetivo. | Ordene la tabla haciendo clic en el encabezado de la columna de cualquiera de las métricas clave. |
 | **[!UICONTROL Lanzamiento]** | La fecha en la que se lanzó o publicó la campaña en el mercado. | Un recuento alto de impresiones puede indicar que el anuncio está llegando a la audiencia deseada. |
-| **[!UICONTROL Impresiones]** | Un recuento de cada vez que se carga contenido dentro del canal, independientemente de la interacción o visualización. | Un recuento alto de impresiones puede indicar una visibilidad amplia, pero para obtener una verdadera perspectiva de rendimiento, considérala junto con otras métricas de participación. |
-| **[!UICONTROL Clics]** | El número de veces que los usuarios interactúan dentro de la campaña de publicidad con un elemento en el que se puede hacer clic, como un vínculo o un botón de llamada a la acción. | Un alto número de clics indica un fuerte interés y participación en el contenido, que puede ser eficaz y llegar a la audiencia adecuada. |
+| **[!UICONTROL Impresiones]** | Un recuento de cada vez que se carga contenido dentro del canal, independientemente de la interacción o visualización. | Un recuento alto de impresiones puede indicar una visibilidad amplia, pero para un verdadero rendimiento de insight, considéralo junto con otras métricas de participación. |
+| **[!UICONTROL Clics]** | El número de veces que los usuarios interactúan con un elemento en el que se puede hacer clic, como un vínculo o un botón de call-to-action, dentro de la campaña publicitaria. | Un alto número de clics indica un fuerte interés y participación en el contenido, que puede ser eficaz y llegar a la audiencia adecuada. |
 | **[!UICONTROL tasa de pulsaciones ]**<br>_CTR_ | Porcentaje (%) de impresiones que generaron clics de campaña dentro de un canal.<br>**Cálculo**: (`clicks` dividido entre `impressions`) x 100 = % | Una alta tasa de clics indica que el contenido es muy relevante y motivador para la audiencia en cuanto a mensajería y diseño, y que se dirige de manera efectiva a los intereses de la audiencia. |
 | **[!UICONTROL CPM ]**<br>_Costo por mil_ | Coste por cada mil impresiones de publicidad para la campaña de publicidad. <br>**Cálculo**: (importe total `spent` dividido entre `impressions`) x 1000 | Un valor bajo puede indicar una visibilidad rentable, especialmente cuando se asocia con una tasa de pulsaciones alta. |
 | **[!UICONTROL CPC ]**<br>_Costo por clic_ | Coste promedio asociado con cada clic en una campaña de publicidad.<br>**Cálculo**: importe total `spent` dividido entre `clicks` = $ | Unos costes medios menores pueden indicar un gasto publicitario rentable, especialmente en comparación con un aumento de las conversiones. |
