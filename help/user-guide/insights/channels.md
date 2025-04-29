@@ -4,9 +4,9 @@ description: Vea una descripción general de la participación del cliente, el r
 level: Intermediate
 feature: Reporting and Insights, Ad Performance
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
+source-git-commit: 997bd2ce2243bbfe59567c5dd3b389408446f5e7
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,21 @@ La vista [!DNL Insights] _[!UICONTROL Canales]_ muestra una lista de campañas p
 
 {{connect-insights}}
 
-La tabla _[!UICONTROL Canales]_ está organizada mediante la campaña de anuncios basada en canales. Haga clic en el icono de configuración (cog) situado encima de la parte derecha de la tabla para alternar las columnas visibles. El icono de filtro (canal) situado encima de la parte izquierda de la tabla abre el menú **[!UICONTROL Filtro]**, en el que puede seleccionar entre varias listas. Seleccione **[!UICONTROL Borrar todo]** sobre la tabla para eliminar todos los filtros.
+La tabla _[!UICONTROL Canales]_ está organizada mediante la campaña de anuncios basada en canales. Haga clic en el icono de configuración (cog) situado encima de la parte derecha de la tabla para alternar las columnas visibles.
 
 ![Filtro y tabla de canales](/help/assets/insights-channels-filter.png){zoomable="yes"}
 
+Al seleccionar una campaña, la ficha [[!UICONTROL Anuncios]](ads.md) se abre a una lista de nombres de anuncios asociados con esa campaña, lo que le permite identificar qué anuncios han contribuido a su éxito general.
+
 {{empty-table}}
 
-{{$include /help/_includes/download-insights.md}}
+## Filtrar canales
 
-Al seleccionar una campaña, la ficha [[!UICONTROL Anuncios]](ads.md) se abre a una lista de nombres de anuncios asociados con esa campaña, lo que le permite identificar qué anuncios han contribuido a su éxito general.
+El icono de filtro (canal) situado encima de la parte izquierda de la tabla abre el menú **[!UICONTROL Filtro]**, en el que puede seleccionar entre varias listas. El filtro aplicado persiste en todas las vistas de [!DNL Insights]. Seleccione **[!UICONTROL Borrar todo]** sobre la tabla o galería de anuncios para eliminar todos los filtros seleccionados.
+
+### Descargar resultados de tabla
+
+{{$include /help/_includes/download-insights.md}}
 
 ## Objetivos
 
@@ -57,4 +63,4 @@ La siguiente tabla proporciona definiciones y perspectivas para métricas clave 
 | **[!UICONTROL CPC ]**<br>_Costo por clic_ | Coste promedio asociado con cada clic en una campaña de publicidad.<br>**Cálculo**: importe total `spent` dividido entre `clicks` = $ | Unos costes medios menores pueden indicar un gasto publicitario rentable, especialmente en comparación con un aumento de las conversiones. |
 | **[!UICONTROL Se reproduce el vídeo]** | El número de veces que un vídeo empieza a reproducirse en una campaña de publicidad, excluidas las reproducciones. Un vídeo comienza a reproducirse cuando un usuario hace clic en Reproducir o se reproduce automáticamente. | Un número elevado de reproducciones de vídeo puede indicar que el vídeo está captando la atención y puede significar que la miniatura, el título o la ubicación están atrayendo efectivamente a los espectadores. |
 | **[!UICONTROL Presupuesto]** | Fondos totales asignados a una campaña de publicidad para lograr los objetivos de la campaña. | Un presupuesto elevado significa más recursos para un mayor alcance y un impacto potencialmente mayor. |
-| **[!UICONTROL Gasto]** | La cantidad gastada del presupuesto durante un periodo determinado para colocar anuncios en diferentes plataformas. | Un gasto elevado en un período corto puede indicar un uso rápido, lo que podría dar lugar a un agotamiento prematuro de los recursos. Realice un seguimiento de la cantidad gastada con métricas de rendimiento clave para ayudar a monitorizar la rentabilidad general de la inversión. |
+| **[!UICONTROL Gasto]** | La cantidad gastada del presupuesto durante un periodo determinado para colocar anuncios en diferentes plataformas. | Un gasto elevado en un período corto puede indicar un uso rápido, lo que podría dar lugar a un agotamiento prematuro de los recursos. Realice un seguimiento de la cantidad gastada con respecto a las métricas de rendimiento clave para ayudar a monitorizar la rentabilidad general de la inversión. |

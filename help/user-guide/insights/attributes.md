@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo evaluar el rendimiento de atributo
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
+source-git-commit: c619f092d0f64ca6d847f058e343578d0b22a3d6
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,20 @@ La vista [!DNL Insights] _[!UICONTROL Atributos]_ muestra una lista de atributos
 
 La tabla _[!UICONTROL Attributes]_ está organizada con el nombre [!UICONTROL Attribute]. Puede alternar entre los tipos de lista usando el botón **[!UICONTROL Imágenes]** y el botón **[!UICONTROL Vídeo]**. Haga clic en el icono de configuración (cog) situado encima de la parte derecha de la tabla para alternar las columnas visibles.
 
-El icono de filtro (canal) situado encima de la parte izquierda de la tabla abre el menú **[!UICONTROL Filtro]**, en el que puede seleccionar entre varias listas. Seleccione **[!UICONTROL Borrar todo]** sobre la tabla para eliminar todos los filtros.
-
 ![Filtro y tabla de atributos](/help/assets/insights-attributes-filter.png){zoomable="yes"}
 
 {{empty-table}}
+
+## Atributos de filtro
+
+El icono de filtro (canal) situado encima de la parte izquierda de la tabla abre el menú **[!UICONTROL Filtro]**, en el que puede seleccionar entre varias listas. Consulte [Filtrar elementos multimedia](/help/user-guide/insights/media.md#filter-media) para obtener más información sobre los filtros de palabras clave para campañas y anuncios.
+
+
+>[!NOTE]
+>
+>El filtro aplicado persiste en todas las vistas de [!DNL Insights]. Seleccione **[!UICONTROL Borrar todo]** sobre la tabla o galería de anuncios para eliminar todos los filtros seleccionados.
+
+### Descargar resultados de tabla
 
 {{$include /help/_includes/download-insights.md}}
 
