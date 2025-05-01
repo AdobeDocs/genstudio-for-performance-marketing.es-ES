@@ -3,7 +3,7 @@ title: Flujo de trabajo de activación
 description: Obtenga información acerca del flujo de trabajo de activación para experiencias publicitarias.
 feature: Ad Activation
 exl-id: 17e1bade-d52a-4953-a85c-c10d093e73d6
-source-git-commit: 8db25ba42a8eebc2d17f8b8b1a5f5fbede1a6e0f
+source-git-commit: 09090a57a0f41c23e8787bfb267e74427d9b7356
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -17,7 +17,8 @@ _[!DNL Activate]_admite la activación de experiencias de publicidad en forma de
 Una experiencia de GenStudio for Performance Marketing es un componente de campaña de marketing, como un anuncio, que se prepara como un elemento creativo para una audiencia específica en un canal de publicidad de pago o correo electrónico. Los creativos contienen tres componentes principales:
 
 * **Recursos multimedia**: Los recursos multimedia son las imágenes (GIF, PNG, JPEG) incluidas en su experiencia publicitaria. Actualmente, Activation admite imágenes estáticas.
-Para seleccionar un recurso de imagen para la experiencia publicitaria, es necesario elegir una relación de aspecto adecuada. Las relaciones de aspecto definen la relación proporcional entre la anchura y la altura de una imagen y son cruciales para la eficacia de las ubicaciones de anuncios. Los canales de medios de pago especifican cuidadosamente las relaciones de aspecto válidas para cada ubicación de publicidad en su plataforma. Al añadir recursos de imagen a la activación, debe seleccionar la relación de aspecto en función de las ubicaciones de los anuncios finales para su experiencia. Los tipos de archivo están restringidos a JPEG, PNG y GIF.
+
+  Para seleccionar un recurso de imagen para la experiencia publicitaria, es necesario elegir una relación de aspecto adecuada. Las relaciones de aspecto definen la relación proporcional entre la anchura y la altura de una imagen y son cruciales para la eficacia de las ubicaciones de anuncios. Los canales de medios de pago especifican cuidadosamente las relaciones de aspecto válidas para cada ubicación de publicidad en su plataforma. Al añadir recursos de imagen a la activación, debe seleccionar la relación de aspecto en función de las ubicaciones de los anuncios finales para su experiencia. Los tipos de archivo están restringidos a JPEG, PNG y GIF.
 
 * **Texto**: el texto incluye todas las formas de texto que se incluyen en el anuncio, incluidos los titulares, el texto principal y los elementos de call-to-action.
 
@@ -33,9 +34,9 @@ Aunque los requisitos de ubicación únicos definen cada canal de pago, todas la
 
 * **Prepare su experiencia para la activación**. La preparación incluye la selección de los recursos de medios en la relación de aspecto adecuada para la ubicación específica del anuncio y la asignación de texto a los elementos de call-to-action y a la copia de cuerpo. También puede agregar metadatos informativos que ayuden a los usuarios a buscar la experiencia después de la activación. Cada ubicación de canal de publicidad especifica relaciones de aspecto válidas para los recursos visuales incluidos en la ubicación.
 
->[!TIP]
->
->Puede seleccionar experiencias de publicidad aprobadas directamente desde la galería de experiencias _[!DNL Content]_para prepararse como creativos de Google Campaign Manager 360. Una vez seleccionada una experiencia en la galería_[!DNL Content]_, no podrá editar ni agregar recursos a su elemento creativo.
+  >[!TIP]
+  >
+  >Puede seleccionar experiencias de publicidad aprobadas directamente desde la galería de experiencias _[!DNL Content]_para prepararse como creativos de Google Campaign Manager 360. Una vez seleccionada una experiencia en la galería_[!DNL Content]_, no podrá editar ni agregar recursos a su elemento creativo.
 
 * **Revise y publique su experiencia en el canal de destino**. Use el panel _Vista previa_ durante la configuración creativa para evaluar la elección de ubicación de anuncios y elementos de texto antes de finalizar la activación. La revisión final previa a la publicación se realizará en la aplicación de administración de anuncios del canal de destino. Por ejemplo, después de activar una experiencia de Meta Ads en GenStudio for Performance Marketing, debe iniciar sesión en el administrador de Meta Ads, revisar su creativo y, a continuación, seleccionar sus atributos específicos antes de publicarlo.
 
