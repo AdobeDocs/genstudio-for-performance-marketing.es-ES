@@ -3,7 +3,7 @@ title: Implemente su aplicación de App Builder
 description: Implemente su aplicación de App Builder o complemento para GenStudio for Performance Marketing.
 feature: Extensibility
 exl-id: 51888ab7-7772-4ac8-838d-26db3019e9b0
-source-git-commit: 52e8e078bc013fe686b5cc2105089f7098cce575
+source-git-commit: 6fef5933421a56cf9f77c19bc198f017ee6c117e
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Implemente la aplicación
 
 La ejecución de la aplicación proporciona una instantánea preliminar del comportamiento del complemento antes de implementarlo. Esta información puede facilitar la depuración. Puede forzar la compilación y la implementación de una aplicación implementada sin volver a enviarla para su aprobación.
-
 
 **Para ejecutar la aplicación**:
 
