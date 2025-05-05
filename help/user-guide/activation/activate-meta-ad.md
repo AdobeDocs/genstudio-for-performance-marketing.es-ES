@@ -43,7 +43,7 @@ Los administradores de sistemas y editores de GenStudio pueden activar las exper
 
 **Para preparar tu experiencia para la activación**:
 
-1. En _[!DNL Activate]_, haga clic en **[!UICONTROL Nuevo]**en el mosaico Meta product. Se abre la vista_ Configuración de Creative _.
+1. En _[!DNL Activate]_, haga clic en **[!UICONTROL Nuevo]**&#x200B;en el mosaico Meta product. Se abre la vista_ Configuración de Creative _.
 
    La página de configuración de Creative proporciona una ubicación central para preparar la activación del anuncio Meta. La preparación del anuncio incluye estas tres tareas:
 
@@ -62,13 +62,13 @@ Después de la carga, los recursos se guardan en _[!DNL Content]_. El área_ Med
 
 **Para cargar un recurso desde el contenido**:
 
-_[!DNL Content]_proporciona una vista central para los recursos y las experiencias aprobados de su organización. Puede enfocar la galería[_[!DNL Content]_](/help/user-guide/content/manage-assets.md) que muestra el inventario de recursos mediante las opciones de menú **[!UICONTROL Buscar]** (lupa) y _Filtrar_.
+_[!DNL Content]_&#x200B;proporciona una vista central para los recursos y las experiencias aprobados de su organización. Puede enfocar la galería[_[!DNL Content]_](/help/user-guide/content/manage-assets.md) que muestra el inventario de recursos mediante las opciones de menú **[!UICONTROL Buscar]** (lupa) y _Filtrar_.
 
-1. En _[!DNL Activate]_, haga clic en **[!UICONTROL Nuevo]**en el mosaico Meta Ads. Se abre la vista_ Configuración de Creative _.
+1. En _[!DNL Activate]_, haga clic en **[!UICONTROL Nuevo]**&#x200B;en el mosaico Meta Ads. Se abre la vista_ Configuración de Creative _.
 
 1. Haga clic en **[!UICONTROL Seleccionar]** y, a continuación, seleccione **[!UICONTROL Seleccionar del contenido]**. Se abre la vista _Seleccionar contenido_, que muestra una galería de recursos de imagen que puede filtrar o buscar.
 
-1. Utilice las herramientas de búsqueda y filtrado de la galería _[!DNL Content]_para seleccionar al menos un recurso para cargar.
+1. Utilice las herramientas de búsqueda y filtrado de la galería _[!DNL Content]_&#x200B;para seleccionar al menos un recurso para cargar.
 
 1. Haga clic en **[!UICONTROL Usar]** para incluir el recurso seleccionado en el elemento creativo. La ventana _Configuración de Creative_ incluye el recurso en su proporción de aspecto predeterminada en el área _Medios_. El panel _Vista previa_ obtiene una vista previa del recurso en la ubicación del anuncio que admite esta relación de aspecto.
 
@@ -76,9 +76,9 @@ Si la carga no se ha realizado correctamente, se abrirá un mensaje de error inf
 
 **Para cargar un recurso externo**:
 
-Puede cargar hasta seis imágenes estáticas externas a la galería _[!DNL Content]_desde Microsoft OneDrive o Dropbox.
+Puede cargar hasta seis imágenes estáticas externas a la galería _[!DNL Content]_&#x200B;desde Microsoft OneDrive o Dropbox.
 
-1. En _[!DNL Activate]_, haga clic en **[!UICONTROL Nuevo]**en el mosaico Meta. Se abre la ventana_ Configuración de Creative _.
+1. En _[!DNL Activate]_, haga clic en **[!UICONTROL Nuevo]**&#x200B;en el mosaico Meta. Se abre la ventana_ Configuración de Creative _.
 
 1. En la sección _Medios_, haga clic en **[!UICONTROL Seleccionar]**. Un menú desplegable muestra opciones para _Seleccionar entre el contenido_ o _Cargar_.
 

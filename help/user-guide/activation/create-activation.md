@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Flujo de trabajo de activación
 
-_[!DNL Activate]_admite la activación de experiencias de publicidad en forma de un elemento creativo en formatos específicos de canal, como una experiencia de anuncio Meta o Google Campaign Manager 360.
+_[!DNL Activate]_&#x200B;admite la activación de experiencias de publicidad en forma de un elemento creativo en formatos específicos de canal, como una experiencia de anuncio Meta o Google Campaign Manager 360.
 
 Una experiencia de GenStudio for Performance Marketing es un componente de campaña de marketing, como un anuncio, que se prepara como un elemento creativo para una audiencia específica en un canal de publicidad de pago o correo electrónico. Los creativos contienen tres componentes principales:
 
@@ -36,11 +36,11 @@ Aunque los requisitos de ubicación únicos definen cada canal de pago, todas la
 
   >[!TIP]
   >
-  >Puede seleccionar experiencias de publicidad aprobadas directamente desde la galería de experiencias _[!DNL Content]_para prepararse como creativos de Google Campaign Manager 360. Una vez seleccionada una experiencia en la galería_[!DNL Content]_, no podrá editar ni agregar recursos a su elemento creativo.
+  >Puede seleccionar experiencias de publicidad aprobadas directamente desde la galería de experiencias _[!DNL Content]_&#x200B;para prepararse como creativos de Google Campaign Manager 360. Una vez seleccionada una experiencia en la galería&#x200B;_[!DNL Content]_, no podrá editar ni agregar recursos a su elemento creativo.
 
 * **Revise y publique su experiencia en el canal de destino**. Use el panel _Vista previa_ durante la configuración creativa para evaluar la elección de ubicación de anuncios y elementos de texto antes de finalizar la activación. La revisión final previa a la publicación se realizará en la aplicación de administración de anuncios del canal de destino. Por ejemplo, después de activar una experiencia de Meta Ads en GenStudio for Performance Marketing, debe iniciar sesión en el administrador de Meta Ads, revisar su creativo y, a continuación, seleccionar sus atributos específicos antes de publicarlo.
 
-Una vez que un elemento creativo esté activo en su canal de medios pagados de destino, _[!DNL Insights]_podrá realizar el seguimiento y analizar sus datos de rendimiento.
+Una vez que un elemento creativo esté activo en su canal de medios pagados de destino, _[!DNL Insights]_&#x200B;podrá realizar el seguimiento y analizar sus datos de rendimiento.
 
 ## Canales admitidos
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Conectar cuentas de medios de pago
 
-_[!DNL Data connectors]_habilita la integración perfecta entre GenStudio for Performance Marketing y sus cuentas de red de medios de pago. Al conectarse a cuentas de canales de terceros, puede intercambiar datos esenciales, como métricas de rendimiento de campañas en [[!DNL Insights]](/help/user-guide/insights/overview.md), y puede entregar nuevas ubicaciones de anuncios con [[!DNL Activate]](/help/user-guide/activation/overview.md). Esta integración permite a GenStudio for Performance Marketing administrar los contenidos y los anuncios a la vez que recibe información valiosa, como impresiones, clics y conversiones, de las campañas activas.
+_[!DNL Data connectors]_&#x200B;habilita la integración perfecta entre GenStudio for Performance Marketing y sus cuentas de red de medios de pago. Al conectarse a cuentas de canales de terceros, puede intercambiar datos esenciales, como métricas de rendimiento de campañas en [[!DNL Insights]](/help/user-guide/insights/overview.md), y puede entregar nuevas ubicaciones de anuncios con [[!DNL Activate]](/help/user-guide/activation/overview.md). Esta integración permite a GenStudio for Performance Marketing administrar los contenidos y los anuncios a la vez que recibe información valiosa, como impresiones, clics y conversiones, de las campañas activas.
 
 **Para conectarse a una cuenta de medios pagados**:
 

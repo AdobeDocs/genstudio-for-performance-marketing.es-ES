@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Activar Adobe GenStudio for Performance Marketing
 
-GenStudio for Performance Marketing _[!DNL Activate]_proporciona una ubicación central para preparar la experiencia de anuncio para la activación en determinados canales de publicidad de pago._ Activation _es el proceso de preparación de experiencias de publicidad, recursos y texto como un elemento creativo personalizado de forma única para su colocación en un canal de pago específico. Activation envía el elemento creativo a canales designados en un estado inactivo, listos para la revisión final y la implementación desde el canal. Las experiencias publicitarias se pueden distribuir en los mercados para los que están destinadas.
+GenStudio for Performance Marketing _[!DNL Activate]_&#x200B;proporciona una ubicación central para preparar la experiencia de anuncio para la activación en determinados canales de publicidad de pago._ Activation _es el proceso de preparación de experiencias de publicidad, recursos y texto como un elemento creativo personalizado de forma única para su colocación en un canal de pago específico. Activation envía el elemento creativo a canales designados en un estado inactivo, listos para la revisión final y la implementación desde el canal. Las experiencias publicitarias se pueden distribuir en los mercados para los que están destinadas.
 
 Los editores de contenido y los administradores del sistema pueden publicar experiencias cuyos recursos se generen en GenStudio for Performance Marketing o se carguen en esta.
 
@@ -25,11 +25,11 @@ Antes de activar una experiencia publicitaria, todas las cuentas de canal de med
 
 * [Crear una activación](create-activation.md). Puede crear una experiencia publicitaria seleccionando recursos visuales, asignando texto y definiendo metadatos antes de transferirlos a un canal de pago.
 
-* [Administrar activaciones](manage-activations.md). _[!DNL Activate]_proporciona una descripción general de todas las experiencias activadas. También puede ver los detalles de las activaciones individuales.
+* [Administrar activaciones](manage-activations.md). _[!DNL Activate]_&#x200B;proporciona una descripción general de todas las experiencias activadas. También puede ver los detalles de las activaciones individuales.
 
 ## Activar funciones
 
-_[!DNL Activate]_facilita la preparación de la experiencia de anuncios para su distribución en los canales de pago de destino.
+_[!DNL Activate]_&#x200B;facilita la preparación de la experiencia de anuncios para su distribución en los canales de pago de destino.
 
 ### Preparar para la activación
 

@@ -22,7 +22,7 @@ Si eres nuevo en las herramientas generativas basadas en IA o simplemente tienes
 
 ## Entrene a GenStudio para el marketing de rendimiento
 
-GenStudio para Performance Marketing utiliza información sobre sus marca y mercados para mejorar la creación de contenido compatibles con marca. Los materiales de capacitación incluyen ejemplos, descripciones de los perfiles](/help/user-guide/guidelines/personas.md) y [productos](/help/user-guide/guidelines/products.md) de los clientes[, y [pautas](/help/user-guide/guidelines/overview.md) marca.
+GenStudio para Performance Marketing utiliza información sobre sus marca y mercados para mejorar la creación de contenido compatibles con marca. Los materiales de capacitación incluyen ejemplos, descripciones de los perfiles[&#128279;](/help/user-guide/guidelines/personas.md) y [productos](/help/user-guide/guidelines/products.md) de los clientes, y [pautas](/help/user-guide/guidelines/overview.md) marca.
 
 Los administradores de sistemas configuran Adobe Systems GenStudio para Performance Marketing ingresando o cargando información específica de la organización. Esta preparación garantiza que los editores y colaboradores de contenido puedan usar de manera efectiva las características generativas de IA para crear y revisar campaña activos. Una vez que un administrador de sistemas de Adobe Systems aprovisiona el instancia de producto de su organización y asigna permisos de administrador de sistemas GenStudio, el administrador de sistemas de GenStudio puede preparar la IA generativa subyacente del producto marco de trabajo utilizando directrices.
 
@@ -32,7 +32,7 @@ Establecer los bloques de construcción clave de la identidad de marca de su org
 
 #### Prepare su guía documentos
 
-Las directrices completas y [[!DNL Personas]](./guidelines/personas.md) enfocadas [[!DNL Brands]](./guidelines/brands.md)[[!DNL Products]](./guidelines/products.md)definen los aspectos centrales de las campañas de marketing de su organización. GenStudio para Performance Marketing extrae información de estas pautas para comenzar a crear su marca. Puede cargar guía documentos o consultarlas a medida que ingresa manualmente información en GenStudio for Performance Marketing. Consulte [añadir directrices](./guidelines/overview.md) para obtener instrucciones sobre cómo cargar o introducir esta información.
+Las directrices completas y [[!DNL Personas]](./guidelines/personas.md) enfocadas [[!DNL Brands]](./guidelines/brands.md) [[!DNL Products]](./guidelines/products.md)definen los aspectos centrales de las campañas de marketing de su organización. GenStudio para Performance Marketing extrae información de estas pautas para comenzar a crear su marca. Puede cargar guía documentos o consultarlas a medida que ingresa manualmente información en GenStudio for Performance Marketing. Consulte [añadir directrices](./guidelines/overview.md) para obtener instrucciones sobre cómo cargar o introducir esta información.
 
 #### Revisar las directrices
 
