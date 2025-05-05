@@ -54,7 +54,7 @@ Estados de borrador disponibles:
 
 Las notificaciones internas del producto de GenStudio for Performance Marketing actualizan a los aprobadores y editores de contenido en tiempo real de los cambios de estado de los recursos y `@mention` comentarios. Las notificaciones admiten la iteración rápida a través de varios ciclos de revisión, edición y aprobación.
 
-Los editores y aprobadores de contenido pueden registrarse para recibir estas notificaciones en Slack. Ver [Suscribirse a servicios en Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack).
+Los editores y aprobadores de contenido pueden registrarse para recibir estas notificaciones en Slack. Ver [Suscribirse a servicios en Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences#slack).
 
 Las acciones realizadas por los participantes de la aprobación almacenan en déclencheur las notificaciones automáticas internas del producto y las notificaciones por correo electrónico. Al iniciar un proceso de aprobación, los aprobadores designados reciben notificaciones por correo electrónico y dentro del producto. Se le mantiene al tanto de las notificaciones internas del producto y por correo electrónico cada vez que un aprobador agrega `@mention` comentarios o toma una decisión. Las notificaciones incluyen vínculos al borrador de contenido.
 
