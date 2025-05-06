@@ -1,7 +1,7 @@
 ---
-source-git-commit: 9362ed03a54d5cbd661a2f278096b3a1fd692e36
+source-git-commit: facc38b8afe8104e27a89ac3d9ec40d1209229a9
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ ht-degree: 0%
 >
 >Enriquezca sus habilidades sobre este tema con [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy).
 
-## Sugerencia sobre tablas vacías {#empty-table}
+## Sugerencia sobre el filtrado de tablas {#filter-table}
 
 >[!TIP]
 >
->¿Ve un mensaje de `No results found`? Ajuste los filtros modificando las selecciones, borrando todos los filtros o ampliando el intervalo de fechas.
+>¿Ve demasiados resultados o un mensaje `No results found`? Ajuste los filtros modificando las selecciones, borrando todos los filtros o ajustando el intervalo de fechas. Consulte [Filtro para vistas de información](/help/user-guide/insights/filter-views.md) para obtener más información sobre las capacidades de filtrado dinámicas y versátiles.
