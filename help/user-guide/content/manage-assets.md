@@ -3,7 +3,7 @@ title: Administración de recursos y experiencias
 description: Simplifique y mejore la administración de los recursos aprobados por la marca para usarlos y reutilizarlos en su recorrido de marketing digital.
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: f79fb713b5387fd305ecf4a1102b301aa547babb
+source-git-commit: 67a760051b513dfd2bd6e69c886598efd7142090
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 1%
@@ -16,7 +16,7 @@ Adobe GenStudio for Performance Marketing [!DNL Content] simplifica y mejora la 
 
 ## [!DNL Content] galería
 
-La galería muestra un inventario de recursos, experiencias o plantillas aprobados según la vista seleccionada. El icono de filtro (canal) situado encima de la parte izquierda de la tabla abre el menú **[!UICONTROL Filtro]**, donde puede seleccionar entre muchas categorías para filtrar el contenido mostrado en la galería. En la vista _[!UICONTROL Assets]_, haga clic en el icono de búsqueda (lupa) para usar una palabra clave para encontrar un recurso.
+La galería muestra un inventario de recursos, experiencias o plantillas aprobados según la vista seleccionada. La opción de filtro (canal) situada encima de la parte izquierda de la tabla abre el menú **[!UICONTROL Filtro]**, en el que puede seleccionar entre muchas categorías para filtrar el contenido mostrado en la galería. En la vista _[!UICONTROL Assets]_, haga clic en el icono de búsqueda (lupa) para usar una palabra clave para encontrar un recurso.
 
 A continuación se muestra una búsqueda del término `space` en la galería [!UICONTROL Assets]:
 
