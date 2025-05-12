@@ -3,9 +3,9 @@ title: Activación de un anuncio Meta
 description: Obtenga información sobre cómo activar una experiencia de publicidad de Meta.
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 19f36badd66a5dc90585b4399b87230847474a81
+source-git-commit: f98a853965ce05420cd178c294b3b4d69500977b
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1354'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Debe tener permiso para publicar contenido en el administrador de metadatos de a
 
 Para que su organización pueda activar experiencias, un administrador del sistema de GenStudio debe conectar sus cuentas Meta a GenStudio for Performance Marketing. Esta conexión permite que los datos fluyan entre GenStudio y herramientas de marketing externas como Meta, lo que permite los procesos de activación.
 
-Ver [Conectarse a una cuenta de Meta (Facebook)](/help/user-guide/connectors/connect-channel.md#meta-ads-connect).
+Ver [Conectarse a Meta Ads](/help/user-guide/connectors/meta-ads.md).
 
 Una vez finalizada la sincronización, puede ver las cuentas añadidas. Las grandes cantidades de datos tardan más en sincronizarse.
 
@@ -43,7 +43,7 @@ Los administradores de sistemas y editores de GenStudio pueden activar las exper
 
 **Para preparar tu experiencia para la activación**:
 
-1. En _[!DNL Activate]_, haga clic en **[!UICONTROL Nuevo]**&#x200B;en el mosaico Meta product. Se abre la vista_ Configuración de Creative _.
+1. En _[!DNL Activate]_, haga clic en **[!UICONTROL Nuevo]**en el mosaico Meta product. Se abre la vista_ Configuración de Creative _.
 
    La página de configuración de Creative proporciona una ubicación central para preparar la activación del anuncio Meta. La preparación del anuncio incluye estas tres tareas:
 
@@ -62,13 +62,13 @@ Después de la carga, los recursos se guardan en _[!DNL Content]_. El área_ Med
 
 **Para cargar un recurso desde el contenido**:
 
-_[!DNL Content]_&#x200B;proporciona una vista central para los recursos y las experiencias aprobados de su organización. Puede enfocar la galería[_[!DNL Content]_](/help/user-guide/content/manage-assets.md) que muestra el inventario de recursos mediante las opciones de menú **[!UICONTROL Buscar]** (lupa) y _Filtrar_.
+_[!DNL Content]_proporciona una vista central para los recursos y las experiencias aprobados de su organización. Puede enfocar la galería[_[!DNL Content]_](/help/user-guide/content/manage-assets.md) que muestra el inventario de recursos mediante las opciones de menú **[!UICONTROL Buscar]** (lupa) y _Filtrar_.
 
-1. En _[!DNL Activate]_, haga clic en **[!UICONTROL Nuevo]**&#x200B;en el mosaico Meta Ads. Se abre la vista_ Configuración de Creative _.
+1. En _[!DNL Activate]_, haga clic en **[!UICONTROL Nuevo]**en el mosaico Meta Ads. Se abre la vista_ Configuración de Creative _.
 
 1. Haga clic en **[!UICONTROL Seleccionar]** y, a continuación, seleccione **[!UICONTROL Seleccionar del contenido]**. Se abre la vista _Seleccionar contenido_, que muestra una galería de recursos de imagen que puede filtrar o buscar.
 
-1. Utilice las herramientas de búsqueda y filtrado de la galería _[!DNL Content]_&#x200B;para seleccionar al menos un recurso para cargar.
+1. Utilice las herramientas de búsqueda y filtrado de la galería _[!DNL Content]_para seleccionar al menos un recurso para cargar.
 
 1. Haga clic en **[!UICONTROL Usar]** para incluir el recurso seleccionado en el elemento creativo. La ventana _Configuración de Creative_ incluye el recurso en su proporción de aspecto predeterminada en el área _Medios_. El panel _Vista previa_ obtiene una vista previa del recurso en la ubicación del anuncio que admite esta relación de aspecto.
 
@@ -76,9 +76,9 @@ Si la carga no se ha realizado correctamente, se abrirá un mensaje de error inf
 
 **Para cargar un recurso externo**:
 
-Puede cargar hasta seis imágenes estáticas externas a la galería _[!DNL Content]_&#x200B;desde Microsoft OneDrive o Dropbox.
+Puede cargar hasta seis imágenes estáticas externas a la galería _[!DNL Content]_desde Microsoft OneDrive o Dropbox.
 
-1. En _[!DNL Activate]_, haga clic en **[!UICONTROL Nuevo]**&#x200B;en el mosaico Meta. Se abre la ventana_ Configuración de Creative _.
+1. En _[!DNL Activate]_, haga clic en **[!UICONTROL Nuevo]**en el mosaico Meta. Se abre la ventana_ Configuración de Creative _.
 
 1. En la sección _Medios_, haga clic en **[!UICONTROL Seleccionar]**. Un menú desplegable muestra opciones para _Seleccionar entre el contenido_ o _Cargar_.
 
@@ -102,7 +102,7 @@ Utilice la sección _Texto_ de la página _Activar Meta ad_ para agregar texto a
 | Texto principal | sí | 500 |
 | Titular | sí | 255 |
 | Descripción | no | 125 |
-| Llamada a la acción | sí | solo opciones del menú desplegable |
+| Call to action | sí | solo opciones del menú desplegable |
 | Mostrar URL | no | 1000 |
 | URL del sitio web | sí | 1000 |
 | Imagen | se requiere al menos uno |                                 |

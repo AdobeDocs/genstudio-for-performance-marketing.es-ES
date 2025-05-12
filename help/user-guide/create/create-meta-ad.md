@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: a9da9ba1e93335896640e52837cc7226ec8e4bef
+source-git-commit: b24ec61c6c8b5e359364d23d0e152b3a5b72dacf
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Para resaltar una capa individual para revisarla, haga clic en un campo o imagen
 * **Para [editar el nombre del borrador del anuncio Meta](/help/user-guide/create/manage-variants.md#change-draft-name)**, haga clic en el título de _Borrador sin título_ en la parte superior del lienzo y escriba un nuevo título.
 * **Para [editar manualmente un Meta ad](/help/user-guide/create/manage-variants.md#manually-edit-text)**, haga clic en cualquiera de las secciones de anuncios (como la línea de asunto,
 encabezado o copia de cuerpo) y edite según sea necesario.
-* **Para cambiar o seleccionar la llamada a la acción**, haga clic en el botón call-to-action y seleccione las opciones de texto de botón disponibles. En _Vínculo_, escriba una dirección URL para el texto de call-to-action.
+* **Para cambiar o seleccionar call to action**, haga clic en el botón call-to-action y seleccione las opciones de texto de botón disponibles. En _Vínculo_, escriba una dirección URL para el texto de call-to-action.
 <!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **Para [agregar un vínculo a una imagen en una variante](/help/user-guide/create/manage-variants.md#add-image-link)**, haga clic en un recurso de imagen (o en el área del recurso de imagen si la imagen no existe actualmente) y haga clic en el icono de vínculo.
 * **Para [regenerar una sección de una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, haga clic en un campo de texto editable y use las opciones _[!UICONTROL Ediciones sugeridas]_ o escriba una nueva solicitud y haga clic en **[!UICONTROL Generar]**.
@@ -148,4 +148,4 @@ Consulte [[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-a
 
 Puede conectar GenStudio for Performance Marketing a Meta para recibir análisis avanzados y perspectivas sobre el rendimiento del contenido.
 
-Ver [Meta ads connect](/help/user-guide/connectors/connect-channel.md#meta-ads-connect).
+Ver [Meta ads connect](/help/user-guide/connectors/meta-ads.md).

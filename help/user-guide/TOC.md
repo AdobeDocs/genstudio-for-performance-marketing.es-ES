@@ -5,10 +5,10 @@ user-guide-description: Explore las funcionalidades de Adobe GenStudio for Perfo
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 2b4563bfa1738462039ebc6303dbb8ef30019d6a
+source-git-commit: 94d7c028bfc73d114e7da3a3676730d5e7edab99
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 21%
+source-wordcount: '220'
+ht-degree: 20%
 
 ---
 
@@ -26,6 +26,9 @@ ht-degree: 21%
    + [Mensajes efectivos](effective-prompts.md)
 + Configuración {#settings}
    + [Conectar medios de pago](connectors/connect-channel.md)
+   + Cuentas de medios de pago {#connect-account}
+      + [Administrador de Google Campaign 360](connectors/google-cm360.md)
+      + [Metadatos](connectors/meta-ads.md)
 + Directrices {#guidelines}
    + [Resumen de directrices](guidelines/overview.md)
    + [Marcas](guidelines/brands.md)
