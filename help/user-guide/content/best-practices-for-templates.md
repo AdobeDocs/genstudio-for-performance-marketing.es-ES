@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 0f296fe6ec92178498e2e0eeb3e190a194e46aa0
+source-git-commit: 5666fbf3bae23181232d806b12f520dbc8bc38cf
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -48,6 +48,8 @@ Al crear plantillas, asegúrese de que cumplen los requisitos específicos del c
 - Utilizar HTML y CSS en línea limpios y adaptables
 - Usar fuentes Adobe o Google
 - **no** usa JavaScript
+
+{{note-css-effects}}
 
 Tenga en cuenta las siguientes sugerencias y restricciones al trabajar con cada tipo de plantilla para garantizar un rendimiento y una compatibilidad óptimos:
 

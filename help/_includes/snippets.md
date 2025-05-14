@@ -1,7 +1,7 @@
 ---
-source-git-commit: e46f074381e76c48827bcf12b46ed8f063a3cd52
+source-git-commit: 5666fbf3bae23181232d806b12f520dbc8bc38cf
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,12 @@ ht-degree: 0%
 >[!TIP]
 >
 >GenStudio for Performance Marketing requiere que se conecte a una cuenta de canal para comenzar a recibir datos. Ver [Conectar cuenta de medios pagados](/help/user-guide/connectors/connect-channel.md).
+
+## Nota sobre los efectos CSS {#note-css-effects}
+
+>[!NOTE]
+>
+>GenStudio for Performance Marketing no admite determinados efectos gráficos CSS, como el efecto de filtro `backdrop-filter` (desenfoque, brillo, contraste). Si la plantilla utiliza estas propiedades, es posible que no aparezcan como se espera en el contenido exportado.
 
 ## AEM Assets de notas {#note-aem-assets}
 
