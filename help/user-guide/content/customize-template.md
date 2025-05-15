@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 0f296fe6ec92178498e2e0eeb3e190a194e46aa0
+source-git-commit: d0fd0bd2ac98149ec4d6449a7490d55cc48d9ae2
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1480'
 ht-degree: 0%
 
 ---
@@ -47,10 +47,10 @@ En la tabla siguiente se enumeran los nombres de campo reconocidos por GenStudio
 | `{{sub_headline}}` | Subtítulo | correo electrónico<br>Banner y anuncio en pantalla |
 | `{{introductory_text}}` | Texto introductorio | Anuncio de LinkedIn |
 | `{{body}}` | Copia de cuerpo | Enviar por correo electrónico <br>Meta ad <br>Banner y anuncio en pantalla |
-| `{{cta}}` | Llamada a la acción<br>Ver [Llamadas a la acción](#calls-to-action) | Enviar por correo electrónico <br>Meta ad <br>Anuncio para mostrar y titular <br>Anuncio de LinkedIn |
+| `{{cta}}` | Call to action<br>Ver [llamadas a la acción](#calls-to-action) | Enviar por correo electrónico <br>Meta ad <br>Anuncio para mostrar y titular <br>Anuncio de LinkedIn |
 | `{{image}}` | Imagen: seleccionar de [!DNL Content] | Enviar por correo electrónico <br>Meta ad <br>Anuncio para mostrar y titular <br>Anuncio de LinkedIn |
 | `{{on_image_text}}` | En texto de imagen<br>Ver [En texto de imagen](#on-image-text). | Meta ad <br>LinkedIn ad |
-| `{{link}}` | Llamada a acción en la imagen<br>Ver [Vínculo en la imagen](#link-on-image). | email |
+| `{{link}}` | Call to action en la imagen<br>Ver [Vínculo en la imagen](#link-on-image). | email |
 
 <!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
 
@@ -73,7 +73,7 @@ Hay un límite de 20 campos al cargar una plantilla en GenStudio for Performance
 
 ### Llamadas a la acción
 
-Una llamada a la acción (CTA) incluye una frase y un vínculo. Para que las capacidades _[!UICONTROL Refrasear]_ y _[!UICONTROL Agregar vínculo]_ funcionen correctamente durante el proceso de generación de variantes, debe incluir marcadores de posición para el vínculo y la frase en la plantilla.
+Un Call to action (CTA) incluye una frase y un vínculo. Para que las capacidades _[!UICONTROL Refrasear]_ y _[!UICONTROL Agregar vínculo]_ funcionen correctamente durante el proceso de generación de variantes, debe incluir marcadores de posición para el vínculo y la frase en la plantilla.
 
 Siga estas directrices para configurar los marcadores de posición de CTA:
 
@@ -95,7 +95,7 @@ Siga estas directrices para configurar los marcadores de posición de CTA:
   <a class="button" href="{{pod1_link}}" >Register now</a>
   ```
 
-GenStudio for Performance Marketing también puede proporcionar frases de llamada a la acción de variante. Ver [Revisar la llamada a la acción](/help/user-guide/create/manage-variants.md#revise-call-to-action).
+GenStudio for Performance Marketing también puede proporcionar frases de llamada a la acción de variante. Ver [Revisar Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action).
 
 ### Vínculo en la imagen
 
@@ -110,6 +110,27 @@ En este ejemplo:
 - `{{link}}` es un marcador de posición para la dirección URL real.
 - `src="image-source.jpg"` debe reemplazarse con la dirección URL real del origen de la imagen.
 - `{{imageDescription}}` es un nombre de campo definido por el usuario que proporciona un marcador de posición para el texto alternativo de la imagen, el cual es útil para la accesibilidad y la optimización de los motores de búsqueda.
+
+### Texto alternativo
+
+Use un nombre de campo definido por el usuario como marcador de posición para generar una descripción de texto alternativo (atributo HTML `alt="text"`) para una imagen. El siguiente marcador de posición `{{imageDescription}}` se usa con el campo `{{image}}` dentro de la misma etiqueta `<img>`, lo que garantiza que la relación entre la imagen y su descripción persista.
+
+```html
+<img src="{{image}}" alt="{{imageDescription}}">
+```
+
+En este ejemplo:
+
+- `{{image}}` es el marcador de posición para la dirección URL de origen de imagen.
+- `{{imageDescription}}` es el marcador de posición del texto alternativo, que proporciona una descripción de la imagen para fines de accesibilidad y optimización de los motores de búsqueda.
+
+### En texto de imagen
+
+El marcador de posición `{{ on_image_text }}` se usa para especificar una superposición de texto de mensajes cortos e impactantes, colocados directamente en la imagen de una experiencia.
+
+```html
+<div class="image-text">{{ on_image_text }}</div>
+```
 
 <!-- this field does not work in Create canvas 2025/03
 
@@ -151,22 +172,14 @@ Para crear una sección editable, agregue corchetes dobles alrededor del nombre 
 </tbody>
 ```
 
-## En texto de imagen
-
-El marcador de posición `{{ on_image_text }}` se usa para especificar una superposición de texto de mensajes cortos e impactantes, colocados directamente en la imagen de una experiencia.
-
-```html
-<div class="image-text">{{ on_image_text }}</div>
-```
-
 ## Secciones o grupos
 
 _Las secciones_ informan a GenStudio for Performance Marketing de que los campos de esta sección requieren un alto grado de coherencia. El establecimiento de esta relación ayuda a la IA a generar contenido que coincida con los elementos creativos de la sección.
 
-Utilice un prefijo de su elección en el nombre del campo para indicar que un campo forma parte de una sección o grupo. Use un nombre de campo (`headline`, `body`, `image` o `cta`) después del guion bajo (`_`).
+Utilice un prefijo de su elección en el nombre del campo para indicar que un campo forma parte de una sección o grupo. Use un nombre de campo (como `headline`, `body`, `image` o `cta`) después del guion bajo (`_`).
 
-- _Correcto_ (??): `pod1_body`
-- _Incorrecto_ (❌): `pod1_link`
+- _Correcto_ (👍): `pod1_body`
+- _Incorrecto_ (❌): `pod1body`
 
 Cada sección solo puede utilizar uno de cada tipo de campo. Por ejemplo, los campos siguientes pertenecen a la sección `pod1`:
 
@@ -177,9 +190,10 @@ Cada sección solo puede utilizar uno de cada tipo de campo. Por ejemplo, los ca
 
 Debido a esta regla, las secciones no se pueden anidar.
 
-Cada tipo de plantilla, como correo electrónico o MetaAd, tiene restricciones específicas del canal en el uso de secciones. Consulte [directrices específicas del canal](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) en el tema _Prácticas recomendadas para usar plantillas_.
+Cada tipo de plantilla, como correo electrónico o MetaAd, tiene restricciones específicas del canal en el uso de secciones. Consulte [directrices específicas del canal](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) en el tema _Prácticas recomendadas para usar plantillas_.
 
 Por ejemplo, una plantilla de correo electrónico puede incluir hasta tres secciones; por lo tanto, puede tener tres secciones de titular y cuerpo:
+
 
 - `pre_header`
 - `pod1_headline`
@@ -192,7 +206,9 @@ Por ejemplo, una plantilla de correo electrónico puede incluir hasta tres secci
 
 GenStudio for Performance Marketing entiende que `pod1_headline` está más relacionado con `pod1_body` que con `pod2_body`.
 
-Consulte [Mensajes estructurados](/help/user-guide/effective-prompts.md#structured-prompts) para obtener información sobre cómo crear un mensaje que genere contenido variable para cada sección en un mensaje de correo electrónico de varias secciones.
+>[!TIP]
+>
+>Consulte [Mensajes estructurados](/help/user-guide/effective-prompts.md#structured-prompts) para obtener información sobre cómo crear un mensaje que genere contenido variable para cada sección en un mensaje de correo electrónico de varias secciones.
 
 ## Previsualización de plantilla
 

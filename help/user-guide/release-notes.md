@@ -4,9 +4,9 @@ description: Obtenga información sobre las últimas funciones y mejoras de Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: c51afb3decac43f3a71d5859ba4296a8c09730d7
+source-git-commit: c3c3ca28d31539383863cf7c8ad11a24aed0965f
 workflow-type: tm+mt
-source-wordcount: '2252'
+source-wordcount: '2300'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,18 @@ ht-degree: 1%
 
 Esta información de la versión detalla las últimas actualizaciones de la aplicación de GenStudio for Performance Marketing.
 
-## 2025.04.10 {#latest}
+## 2025.05.15 {#latest}
+
+### Correcciones y mejoras
+
+* Se habilitó la funcionalidad para [agregar texto alternativo](/help/user-guide/create/manage-variants.md#add-alt-text-for-images) a una imagen para una variante individual.
+* Se agregó [nueva relación de aspecto meta](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) —Horizontal 1.19:1 (1080 píxeles de anchura).
+* Ahora puede elegir más de una experiencia para exportarla o descargarla. Ver [Exportar experiencias](/help/user-guide/content/manage-assets.md#export-experiences).
+<!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
+
+## Notas de la versión anteriores
+
++++Notas a partir del 15 de mayo de 2025
 
 ### Correcciones y mejoras
 
@@ -23,8 +34,6 @@ Esta información de la versión detalla las últimas actualizaciones de la apli
 * Funcionalidad habilitada para [ver y seleccionar capas individuales](/help/user-guide/create/manage-variants.md#view-layers) (campos de texto editables o imágenes editables) de una experiencia para resaltarlas en revisiones, como la regeneración de contenido o el recorte de imágenes.
 * Se ha agregado un [nuevo campo de plantilla](/help/user-guide/content/use-templates.md#template-elements), `sub-headline`, para texto adicional en las experiencias a fin de atraer la atención de la audiencia y resaltar los mensajes de marketing.
 * Se agregó compatibilidad con [publicar experiencias de anuncios](/help/user-guide/activation/overview.md) de GenStudio for Performance Marketing en Google Campaign Manager 360. Activate admite vistas previas de anuncios detalladas de Google Campaign Manager 360 antes de publicarlas en un anunciante de Campaign Manager 360. Los anuncios publicados mediante Activate se incorporan automáticamente a Insights una vez en directo, lo que permite a los usuarios rastrear el rendimiento de los anuncios e informar sobre él.
-
-## Notas de la versión anteriores
 
 +++Notas del 13 de marzo de 2025
 
@@ -97,7 +106,7 @@ Los programas de Beta ofrecen una forma de ayudar a dar forma al desarrollo de p
 
 ### Generar nuevas llamadas a la acción
 
-Ahora puede generar nuevas frases de call-to-action (CTA) al administrar variantes. Use las nuevas opciones _Refrasear_ y _Agregar vínculo_ para generar nuevas frases y editar el vínculo de CTA. La plantilla debe estar configurada correctamente para que funcionen estas nuevas funciones de CTA. Siga las directrices de _Personalizar una plantilla_: [Llamadas a la acción](/help/user-guide/content/customize-template.md#calls-to-action). Para obtener instrucciones sobre la administración de CTA en variantes, consulte [Revisar la llamada a la acción](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
+Ahora puede generar nuevas frases de call-to-action (CTA) al administrar variantes. Use las nuevas opciones _Refrasear_ y _Agregar vínculo_ para generar nuevas frases y editar el vínculo de CTA. La plantilla debe estar configurada correctamente para que funcionen estas nuevas funciones de CTA. Siga las directrices de _Personalizar una plantilla_: [Llamadas a la acción](/help/user-guide/content/customize-template.md#calls-to-action). Para obtener instrucciones sobre la administración de CTA en variantes, consulte [Revisar Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
 
 ### Correcciones y mejoras
 

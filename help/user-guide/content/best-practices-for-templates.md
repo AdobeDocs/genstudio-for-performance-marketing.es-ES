@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 5666fbf3bae23181232d806b12f520dbc8bc38cf
+source-git-commit: f7913f4df1ae0f8d86bdaca778d102d21b0b6c3f
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,7 @@ Siga estas prácticas recomendadas de diseño al personalizar las plantillas de 
 - Cuadrado 1:1 (1080 x 1080 píxeles)
 - Vertical 4:5 (1080 x 1350 píxeles)
 - Historia 9:16 (1080 x 1920 píxeles)
+- Horizontal: 1,91:1 (1080 píxeles de anchura)
 - Tamaño de imagen personalizado: (anchura mínima de imagen de 50 x 50 píxeles)
 
 **Nombres de campo reconocidos**:
@@ -137,17 +138,17 @@ Siga estas prácticas recomendadas de diseño al personalizar las plantillas de 
 
 **Dimensiones compatibles**:
 
-- Vertical: (píxeles)
+- Anchura x Altura (píxeles)
+- Vertical:
    - 300 x 600
    - 160 x 600 &#x200B;
-- Horizontal: (píxeles)
+- Horizontal:
    - 300 x 250
    - 728 x 90
    - 336 x 280
    - 320 x 50
    - 970 x 250 &#x200B;
-- Personalizado: (píxeles)
-   - 50 x 50 a 2000 x 2000
+- Personalizado: 50 x 50 a 2000 x 2000
 
 **Nombres de campo reconocidos**:
 

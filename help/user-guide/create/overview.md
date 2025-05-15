@@ -4,9 +4,9 @@ description: Genere rápidamente contenido de alto rendimiento que no pertenezca
 level: Beginner
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 4eb45ec7e845847ebac86986924bbc39aaed42c0
+source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '710'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 GenStudio for Performance Marketing [!DNL Create] aprovecha el poder de Adobe GenAI para permitir que los especialistas en marketing y los equipos distribuidos creen experiencias de alto rendimiento y de marca.
 
-![Crear inicio](/help/assets/create-home.png){width="600" zoomable="yes"}
+![Crear página principal](/help/assets/create-home.png){width="600" zoomable="yes"}
 
 La página de inicio de [!DNL Create] está organizada en secciones de canal—_Medios de propiedad_, _Medios de pago_ y _Contenido_—y en una sección de _Recientes_ que muestra todos los borradores recientes y el contenido publicado. Cada sección de canal permite la creación de contenido para ese conjunto específico de canales. Por ejemplo, ve a la sección _Medios en propiedad_ para empezar a crear un correo electrónico o banner.
 
@@ -28,75 +28,138 @@ Con [!DNL Create], puede generar contenido para los siguientes canales:
 * [Banners](banner-experiences.md)
 * [Imágenes](generate-assets.md)
 
-Junto con el poder de [las directrices[!DNL Brands]](/help/user-guide/guidelines/overview.md)—, [!DNL Products], y [!DNL Personas]—[Contenido](/help/user-guide/content/overview.md), [Campañas](/help/user-guide/campaigns/overview.md) [&#128279;](/help/user-guide/approvals/overview.md), Revisiones y Aprobaciones, [Activation](/help/user-guide/activation/overview.md) y [Insights](/help/user-guide/insights/overview.md), [!DNL Create] facilita la creación de contenido marketing impactantes alineados con marca.
+Junto con la potencia de [directrices](/help/user-guide/guidelines/overview.md)—[!DNL Brands], [!DNL Products] y [!DNL Personas]—[Contenido](/help/user-guide/content/overview.md), [Campañas](/help/user-guide/campaigns/overview.md), [Revisiones y aprobaciones](/help/user-guide/approvals/overview.md), [Activación](/help/user-guide/activation/overview.md) y [Perspectivas](/help/user-guide/insights/overview.md), [!DNL Create] facilita la creación de contenido de marketing impactante y alineado con la marca.
 
-Los editores y administradores de sistemas tienen acceso completo a [!DNL Create]. Consulte [Funciones de usuario y permisos](/help/user-guide/user-roles.md) para obtener información detallada sobre el acceso a funciones.
+Los editores y administradores de sistema tienen acceso completo a [!DNL Create]. Consulte [Funciones de usuario y permisos](/help/user-guide/user-roles.md) para obtener información detallada sobre el acceso a funciones.
 
 ## Casos de uso de [!DNL Create]
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="Crear contenido nuevo" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong>Crear una experiencia de correo electrónico</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
+
       <img alt="Crear una experiencia de Meta ad" src="../../assets/icons/icon-addContent.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
+
          <strong>Crear una experiencia de Meta ad</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-linkedin.md">
+
       <img alt="Crear una experiencia de publicidad de LinkedIn" src="../../assets/icons/icon-dataAnalytics.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-linkedin.md">
+
          <strong>Crear una experiencia de anuncio de LinkedIn</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-display-ad.md">
+
       <img alt="Crear una experiencia de anuncio en pantalla" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-display-ad.md">
+
          <strong>Crear una experiencia de anuncio en pantalla</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-banner-experience.md">
-      <img alt="Crear una banner experiencia" src="../../assets/icons/icon-search.png" width="35">
+
+      <img alt="Crear una experiencia de banner" src="../../assets/icons/icon-search.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-banner-experience.md">
+
          <strong>Crear una experiencia de banner</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/generate-assets.md">
+
       <img alt="Creación de imágenes" src="../../assets/icons/icon-asset.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/generate-assets.md">
+
          <strong>Generar imágenes</strong>
+
          </a>
+
       </div>
+
    </td>
+
 </tr>
+
 </table>
 
 GenStudio for Performance Marketing permite que los especialistas en marketing **creen nuevo contenido de marketing**. En este caso de uso, use [directrices](/help/user-guide/guidelines/overview.md) definidas e imágenes de inspiración para informar la creación de contenido alineado con la marca.
@@ -107,9 +170,9 @@ GenStudio for Performance Marketing permite que los especialistas en marketing *
 
 ### Plantillas
 
-Después de seleccionar qué canal desea producir en el _¿Qué desea crear hoy?_ , puede acceder a plantillas aprobadas por marca para usarlas en contenido generación. Use plantillas para saltar inicio el proceso de creación de contenido y mantenerse alineado con un identidad de marca definido.
+Después de seleccionar qué canal desea producir en _¿Qué desea crear hoy?_, puede acceder a plantillas aprobadas por la marca para usarlas en la generación de contenido. Utilice plantillas para iniciar el proceso de creación de contenido y mantenerse alineado con una identidad de marca definida.
 
-Las plantillas se cargan [y almacenan en [!DNL Content]](/help/user-guide/content/overview.md) y se puede acceder a ellas en [!DNL Create].
+Se han [cargado y almacenado las plantillas en [!DNL Content]](/help/user-guide/content/overview.md), y se puede acceder a ellas desde [!DNL Create].
 
 ### Parámetros
 
@@ -137,11 +200,11 @@ Una vez que termine de generar variaciones de contenido, envíe los borradores p
 
 ### Borradores
 
-En la sección _Trabajo reciente_ de [!DNL Create], acceda y administre todos los borradores recientes. Ver y complete el trabajo anterior para prepararlo para publicarlo [[!DNL Content]](/help/user-guide/content/overview.md) o exportarlo para su uso.
+En la sección _Recientes_ de [!DNL Create], puede obtener acceso y administrar todos los borradores recientes. Vea y complete su trabajo anterior para prepararlo para publicarlo en [[!DNL Content]](/help/user-guide/content/overview.md) o exportarlo para su uso. Haga clic en el icono de opciones (tres puntos) para eliminar un borrador.
 
-Los borradores en curso se guardan automáticamente. Cuando vuelva a la página de inicio de [!DNL Create], la sección _Trabajo reciente_ se actualizará con los borradores más recientes. Cada borrador de esta sección muestra un estado, como _Borrador_ o _Aprobado_.
+Los borradores se guardan automáticamente y se muestran en la sección _Recientes_ del inicio de [!DNL Create]. Cada borrador de esta sección muestra un estado, como _Borrador_ o _Aprobado_.
 
-Haga clic en los iconos de ordenación (cuadrícula o tabla) para mostrar _Trabajo reciente_ elementos en una vista de cuadrícula o tabla.
+Haga clic en el icono de vista de galería (cuadrícula) para mostrar _Recientes_ elementos en una vista de cuadrícula o de tabla.
 
 ### Administrar variantes
 
