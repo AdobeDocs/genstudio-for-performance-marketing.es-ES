@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: d0fd0bd2ac98149ec4d6449a7490d55cc48d9ae2
+source-git-commit: 04bb7adcc9ce7eaeca2ea1f3ef39882f8e43ff6d
 workflow-type: tm+mt
 source-wordcount: '1480'
 ht-degree: 0%
@@ -30,10 +30,10 @@ GenStudio for Performance Marketing reconoce ciertos [elementos](use-templates.m
 
 Dentro del encabezado o del cuerpo de una plantilla de HTML, puede utilizar la sintaxis [!DNL Handlebars] para insertar un marcador de posición de contenido donde necesite que GenStudio for Performance Marketing rellene la plantilla con contenido real. GenStudio for Performance Marketing reconoce e interpreta los marcadores de posición de contenido en función del [nombre de _campo_ reconocido](#recognized-field-names).
 
-Por ejemplo, puede usar `{{ headline }}` con la sintaxis [!DNL Handlebars] para indicar dónde se debe colocar el titular del correo electrónico. GenStudio reconoce este campo, genera un titular relevante basado en las directrices y los criterios de solicitud e inserta el titular en esta ubicación:
+Por ejemplo, puede usar `{{headline}}` con la sintaxis [!DNL Handlebars] para indicar dónde se debe colocar el titular del correo electrónico. GenStudio reconoce este campo, genera un titular relevante basado en las directrices y los criterios de solicitud e inserta el titular en esta ubicación:
 
 ```handlebars
-<div>{{ headline }}</div>
+<div>{{headline}}</div>
 ```
 
 ### Nombres de campo reconocidos
@@ -126,10 +126,10 @@ En este ejemplo:
 
 ### En texto de imagen
 
-El marcador de posición `{{ on_image_text }}` se usa para especificar una superposición de texto de mensajes cortos e impactantes, colocados directamente en la imagen de una experiencia.
+El marcador de posición `{{on_image_text}}` se usa para especificar una superposición de texto de mensajes cortos e impactantes, colocados directamente en la imagen de una experiencia.
 
 ```html
-<div class="image-text">{{ on_image_text }}</div>
+<div class="image-text">{{on_image_text}}</div>
 ```
 
 <!-- this field does not work in Create canvas 2025/03
@@ -166,7 +166,7 @@ Para crear una sección editable, agregue corchetes dobles alrededor del nombre 
 <tbody>
     <tr>
         <td>
-            <p><span class="footer-text">{{ footerLegal }}</span></p>
+            <p><span class="footer-text">{{footerLegal}}</span></p>
         </td>
     </tr>
 </tbody>
@@ -190,7 +190,7 @@ Cada sección solo puede utilizar uno de cada tipo de campo. Por ejemplo, los ca
 
 Debido a esta regla, las secciones no se pueden anidar.
 
-Cada tipo de plantilla, como correo electrónico o MetaAd, tiene restricciones específicas del canal en el uso de secciones. Consulte [directrices específicas del canal](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) en el tema _Prácticas recomendadas para usar plantillas_.
+Cada tipo de plantilla, como correo electrónico o MetaAd, tiene restricciones específicas del canal en el uso de secciones. Consulte [directrices específicas del canal](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) en el tema _Prácticas recomendadas para usar plantillas_.
 
 Por ejemplo, una plantilla de correo electrónico puede incluir hasta tres secciones; por lo tanto, puede tener tres secciones de titular y cuerpo:
 
@@ -236,9 +236,9 @@ Otro ejemplo puede ser evitar el uso de códigos de seguimiento al obtener una v
 
 ```html
 <a class="button" {{#if _genStudio.browser }}
-   href="{{ link }}"{{/if}}{{#if _genStudio.export }}
-   href="{{ link }}?trackingid=<%=getTrackingId()%>&mv=email"{{/if}}
-   target="_blank">{{ cta }}</a>
+   href="{{link}}"{{/if}}{{#if _genStudio.export }}
+   href="{{link}}?trackingid=<%=getTrackingId()%>&mv=email"{{/if}}
+   target="_blank">{{cta}}</a>
 ```
 
 ## Contenido estático
@@ -270,15 +270,15 @@ El siguiente es un ejemplo básico de una plantilla de HTML para un correo elect
             }
         </style>
     </head>
-    <body>{{ pre_header }}
+    <body>{{pre_header}}
         <div class="container">
-            <h1>{{ headline }}</h1>
-            <p><a href="{{ link }}">
-            <img alt="{{ headline }}"
-                    src="{{ image }}"
+            <h1>{{headline}}</h1>
+            <p><a href="{{link}}">
+            <img alt="{{headline}}"
+                    src="{{image}}"
                     width="600" height="600"
                     border="0"/></a></p>
-            <p>{{ body }}</p>
+            <p>{{body}}</p>
         </div>
     </body>
 </html>
@@ -315,22 +315,22 @@ La siguiente es la misma plantilla de HTML en el ejemplo anterior, pero con dos 
             }
         </style>
     </head>
-    <body>{{ pre_header }}
+    <body>{{pre_header}}
         <div class="container">
-            <h1>{{ headline }}</h1>
-            <p>{{ body }}</p>
+            <h1>{{headline}}</h1>
+            <p>{{body}}</p>
             <!-- Pod1 -->
             <div class="pod">
-                <h2>{{ pod1_headline }}</h2>
-                <p><img alt="{{ headline }}" src="{{ pod1_image }}" width="200" height="200" border="0"></p>
-                <p>{{ pod1_body }}</p>
+                <h2>{{pod1_headline}}</h2>
+                <p><img alt="{{ headline }}" src="{{pod1_image}}" width="200" height="200" border="0"></p>
+                <p>{{pod1_body}}</p>
             </div>
             <!-- End of Pod1 -->
             <!-- Pod2 -->
             <div class="pod">
-                <h2>{{ pod2_headline }}</h2>
-                <p><img alt="{{ headline }}" src="{{ pod2_image }}" width="200" height="200" border="0"></p>
-                <p>{{ pod2_body }}</p>
+                <h2>{{pod2_headline}}</h2>
+                <p><img alt="{{headline}}" src="{{pod2_image}}" width="200" height="200" border="0"></p>
+                <p>{{pod2_body}}</p>
             </div>
             <!-- End of Pod2 -->
         </div>
@@ -377,8 +377,8 @@ El siguiente es un ejemplo básico de una plantilla de publicidad Meta. El encab
     </head>
     <body>
         <div class="ad-container">
-            <img src="{{ image }}" alt="Ad Image" class="ad-image" />
-            <div class="ad-text">{{ on_image_text }}</div>
+            <img src="{{image}}" alt="Ad Image" class="ad-image" />
+            <div class="ad-text">{{on_image_text}}</div>
         </div>
     </body>
 </html>

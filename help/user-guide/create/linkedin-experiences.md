@@ -6,9 +6,9 @@ badgeBeta: label="Beta" tooltip="Esta función se encuentra actualmente en Beta,
 role: User
 level: Beginner
 exl-id: 4d43a214-c635-440f-9dbb-f371bc253195
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 8d79c2bd2347bebb18ecb432a7087fb3d1ac1356
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,8 @@ Las secciones editables de una experiencia de LinkedIn incluyen:
 * Titular
 * Texto introductorio
 * Descripción
-* Llamada a la acción (CTA)
+* Call to action (CTA)
 * Imagen
-* Logotipo de marca
 
 Ver [elementos de plantilla](/help/user-guide/content/use-templates.md#template-elements).
 
@@ -41,7 +40,7 @@ Al hacer clic en **[!UICONTROL Generar]**, aparece un indicador de carga en la p
 Cada campo y sección de las experiencias de LinkedIn se carga progresivamente en esta secuencia:
 
 1. Texto principal para todas las variaciones
-1. Llamada a acción y direcciones URL asociadas
+1. Call-to-action y direcciones URL asociadas
 1. Titulares
 1. Texto en la imagen
 1. Validación de marca
