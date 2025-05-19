@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe GenStudio for Performance Marketing permite a los administradores de sistemas y editores de GenStudio publicar experiencias publicitarias en la plataforma de Google Campaign Manager 360.
 
-Puede iniciar la publicación de una experiencia de anuncio de Google Campaign Manager 360 desde la galería _[!DNL Content]_o desde el inicio_[!DNL Activate]_.
+Puede iniciar la publicación de una experiencia de anuncio de Google Campaign Manager 360 desde la galería _[!DNL Content]_&#x200B;o desde el inicio&#x200B;_[!DNL Activate]_.
 
 ## Paso 1: Configurar las cuentas de Google Campaign Manager 360
 
@@ -30,11 +30,11 @@ Una vez finalizada la sincronización, puede ver las cuentas añadidas.
 
 ## Paso 3: Seleccione el contenido para su experiencia publicitaria
 
-Puede iniciar el proceso de publicación desde la galería de experiencias _[!DNL Content]_o desde la página de inicio_[!DNL Activate]_. Las experiencias aprobadas no se pueden editar. Cada experiencia solo puede contener un recurso.
+Puede iniciar el proceso de publicación desde la galería de experiencias _[!DNL Content]_&#x200B;o desde la página de inicio&#x200B;_[!DNL Activate]_. Las experiencias aprobadas no se pueden editar. Cada experiencia solo puede contener un recurso.
 
 **Para seleccionar experiencias**:
 
-1. Use las herramientas de búsqueda y filtrado de la galería _[!DNL Content]_para identificar la experiencia que desea activar y luego haga clic en **[!UICONTROL Usar]**. (También puede seleccionar una experiencia de_[!DNL Activate]_ haciendo clic en **[!UICONTROL Nuevo]** en la tarjeta de producto de Google Campaign Manager 360).
+1. Use las herramientas de búsqueda y filtrado de la galería _[!DNL Content]_&#x200B;para identificar la experiencia que desea activar y luego haga clic en **[!UICONTROL Usar]**. (También puede seleccionar una experiencia de&#x200B;_[!DNL Activate]_ haciendo clic en **[!UICONTROL Nuevo]** en la tarjeta de producto de Google Campaign Manager 360).
 
    Se abre la página de Google Campaign Manager 360 _Configuración de experiencias_ para esta experiencia. Ya contiene los detalles de la experiencia, que no se pueden revisar. Se le puede pedir que seleccione una plataforma antes de continuar con la activación.
 
