@@ -3,7 +3,7 @@ title: Administración de activaciones
 description: Obtenga información sobre cómo administrar experiencias activadas con Adobe GenStudio for Performance Marketing.
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: 9efa42bac9e5623ace963d0de19eeb24467b69d8
+source-git-commit: 65bf96b7b2871e0c28dbe341b71f4e8584de9f3e
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Administración de activaciones
 
-_[!DNL Activate]_&#x200B;ofrece una vista centralizada del estado de activación de cada canal de publicidad, incluidas las activaciones Publicado (correcto), Fallido (incorrecto) y Publicación (pendiente). La vista_ Experiencias activadas _muestra todas las activaciones de una cuenta de anuncio de canal conectada.
+_[!DNL Activate]_ofrece una vista centralizada del estado de activación de cada canal de publicidad, incluidas las activaciones Publicado (correcto), Fallido (incorrecto) y Publicación (pendiente). La vista_ Experiencias activadas _muestra todas las activaciones de una cuenta de anuncio de canal conectada.
 
-_[!DNL Activate]_&#x200B;organiza las experiencias activadas por canal de publicidad. Haga clic en **[!UICONTROL Ver]**&#x200B;en el mosaico del canal. Se abre la vista de_ experiencias activadas _para el canal seleccionado. Esta vista enumera las experiencias por nombre y las ordena por fecha de activación. Si su organización no ha activado experiencias para ese canal, el mosaico del producto no incluye el botón **[!UICONTROL Ver]**.
+_[!DNL Activate]_organiza las experiencias activadas por canal de publicidad. Haga clic en **[!UICONTROL Ver]**en el mosaico del canal. Se abre la vista de_ experiencias activadas _para el canal seleccionado. Esta vista enumera las experiencias por nombre y las ordena por fecha de activación. Si su organización no ha activado experiencias para ese canal, el mosaico del producto no incluye el botón **[!UICONTROL Ver]**.
 
 ## Vista de experiencia activada
 
@@ -41,7 +41,7 @@ En la vista _Experiencias activadas_, haga clic en una activación. La vista de 
 
 * **Fecha y hora de publicación**: Fecha y hora de publicación desde el administrador del canal de publicidad
 * **ID de anuncio**: ID asignado por el canal de pago y utilizado para el seguimiento. Haga clic en el botón **[!UICONTROL Abrir]** que se encuentra junto a este campo para ver el anuncio publicado en el Administrador de metadatos de anuncios
-* **Detalles de Creative**: los recursos de imagen, textos y metadatos seleccionados asignados durante el flujo de trabajo de activación de GenStudio for Performance Marketing
+* **Detalles de la experiencia**: los recursos de imagen, los textos y los metadatos seleccionados asignados durante el flujo de trabajo de activación de GenStudio for Performance Marketing
 * **Configuración del canal**: Las cuentas de canal de pago utilizadas para activar la experiencia de anuncio
 
 La vista _Detalles_ de una activación fallida incluye el motivo del error.
