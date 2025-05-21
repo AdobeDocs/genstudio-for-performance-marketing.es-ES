@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 04bb7adcc9ce7eaeca2ea1f3ef39882f8e43ff6d
+source-git-commit: f6c00f473d561cae123997ab3e310867fbdf60d1
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1530'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Una vez que la plantilla esté lista, puedes [cargarla en GenStudio for Performa
 
 GenStudio for Performance Marketing reconoce ciertos [elementos](use-templates.md#template-elements) dentro de una plantilla, pero solo si los identifica con un [nombre de campo reconocido](#recognized-field-names).
 
-Dentro del encabezado o del cuerpo de una plantilla de HTML, puede utilizar la sintaxis [!DNL Handlebars] para insertar un marcador de posición de contenido donde necesite que GenStudio for Performance Marketing rellene la plantilla con contenido real. GenStudio for Performance Marketing reconoce e interpreta los marcadores de posición de contenido en función del [nombre de _campo_ reconocido](#recognized-field-names).
+Dentro del encabezado o del cuerpo de una plantilla de HTML, puede utilizar la sintaxis [!DNL Handlebars] para insertar un marcador de posición de contenido donde necesite que GenStudio for Performance Marketing rellene la plantilla con contenido real. GenStudio for Performance Marketing reconoce e interpreta estos marcadores de posición en función del [nombre de campo _reconocido_](#recognized-field-names). Cada nombre de campo está asociado con reglas y comportamientos específicos que determinan cómo se genera e inserta el contenido en la plantilla.
 
 Por ejemplo, puede usar `{{headline}}` con la sintaxis [!DNL Handlebars] para indicar dónde se debe colocar el titular del correo electrónico. GenStudio reconoce este campo, genera un titular relevante basado en las directrices y los criterios de solicitud e inserta el titular en esta ubicación:
 
@@ -38,7 +38,7 @@ Por ejemplo, puede usar `{{headline}}` con la sintaxis [!DNL Handlebars] para in
 
 ### Nombres de campo reconocidos
 
-En la tabla siguiente se enumeran los nombres de campo reconocidos por GenStudio for Performance Marketing para agregar un marcador de posición a una plantilla. Agregue estos nombres de campo con la sintaxis [!DNL Handlebars] a la plantilla donde necesita que GenStudio for Performance Marketing genere un determinado tipo de contenido.
+En la tabla siguiente se enumeran los nombres de campo reconocidos por GenStudio for Performance Marketing para agregar un marcador de posición a una plantilla. Cada campo sigue directrices de canal específicas, instrucciones de LLM y reglas basadas en roles. Agregue estos nombres de campo con la sintaxis [!DNL Handlebars] a la plantilla donde necesita que GenStudio for Performance Marketing genere un determinado tipo de contenido.
 
 | Campo | Función | Plantilla de canal |
 | ----------------------- | ------------------------- | ------------------------------------------------ |
@@ -174,9 +174,12 @@ Para crear una sección editable, agregue corchetes dobles alrededor del nombre 
 
 ## Secciones o grupos
 
-_Las secciones_ informan a GenStudio for Performance Marketing de que los campos de esta sección requieren un alto grado de coherencia. El establecimiento de esta relación ayuda a la IA a generar contenido que coincida con los elementos creativos de la sección.
+Puede utilizar secciones en una plantilla de correo electrónico de marketing cuando tenga dos o tres agrupaciones de campos. _Las secciones_ informan a GenStudio for Performance Marketing de que los campos de esta sección requieren un alto grado de coherencia. El establecimiento de esta relación ayuda a la IA a generar contenido que coincida con los elementos creativos de la sección.
 
-Utilice un prefijo de su elección en el nombre del campo para indicar que un campo forma parte de una sección o grupo. Use un nombre de campo (como `headline`, `body`, `image` o `cta`) después del guion bajo (`_`).
+
+Utilice un nombre de grupo de su elección como prefijo para indicar que un campo forma parte de una sección o grupo. Use un nombre de campo (como `headline`, `body`, `image` o `cta`) después del guion bajo (`_`).
+
+Sintaxis: `groupname_fieldname`
 
 - _Correcto_ (👍): `pod1_body`
 - _Incorrecto_ (❌): `pod1body`
@@ -190,10 +193,9 @@ Cada sección solo puede utilizar uno de cada tipo de campo. Por ejemplo, los ca
 
 Debido a esta regla, las secciones no se pueden anidar.
 
-Cada tipo de plantilla, como correo electrónico o MetaAd, tiene restricciones específicas del canal en el uso de secciones. Consulte [directrices específicas del canal](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) en el tema _Prácticas recomendadas para usar plantillas_.
+Cada tipo de plantilla, como correo electrónico o MetaAd, tiene restricciones específicas del canal en el uso de secciones. Consulte [directrices específicas del canal](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) en el tema _Prácticas recomendadas para usar plantillas_.
 
 Por ejemplo, una plantilla de correo electrónico puede incluir hasta tres secciones; por lo tanto, puede tener tres secciones de titular y cuerpo:
-
 
 - `pre_header`
 - `pod1_headline`

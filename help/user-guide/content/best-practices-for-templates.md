@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: f7913f4df1ae0f8d86bdaca778d102d21b0b6c3f
+source-git-commit: dc958a831e3fa26cfc18f7c1a5febd0662102d43
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '982'
 ht-degree: 0%
 
 ---
@@ -67,9 +67,9 @@ Siga estas prácticas recomendadas de diseño al personalizar las plantillas de 
 
 **Restricciones**:
 
-- Uso de [secciones](customize-template.md#sections-or-groups):
-   - Una plantilla básica (solo una sección) puede generar un único conjunto de elementos de plantilla.
-   - Una plantilla compleja (varias secciones) puede generar hasta tres conjuntos de elementos de plantilla.
+- Los correos electrónicos de marketing pueden tener 0, 2 o 3 [secciones](customize-template.md#sections-or-groups):
+   - Una plantilla básica (cero secciones) puede generar un único conjunto de elementos de plantilla, lo que no requiere la convención de nombres de grupos.
+   - Una plantilla compleja (varias secciones) puede generar hasta tres conjuntos de elementos de plantilla, lo que requiere que se adhiera a la convención de nomenclatura de grupos: (`groupname_fieldname`)
 - Los campos máximos permitidos en una plantilla son 20
 - El tamaño máximo de archivo de HTML es 102 KB
 
@@ -77,7 +77,7 @@ Siga estas prácticas recomendadas de diseño al personalizar las plantillas de 
 
 Para el correo electrónico, el campo `subject` se incluye automáticamente. Utilice marcadores de posición de contenido para los siguientes campos:
 
-- `pre_header`
+- `pre_header` (texto enriquecido no habilitado)
 - `headline`
 - `sub_headline`
 - `body`
@@ -103,8 +103,11 @@ Siga estas prácticas recomendadas de diseño al personalizar las plantillas de 
 
 - Uso de [secciones](customize-template.md#sections-or-groups):
    - Solo se puede utilizar una sección, lo que genera un único conjunto de elementos de plantilla.
+- Se requiere exactamente un campo de imagen.
 
 **Proporciones de aspecto compatibles**:
+
+Se debe establecer la relación de aspecto:
 
 - Cuadrado 1:1 (1080 x 1080 píxeles)
 - Vertical 4:5 (1080 x 1350 píxeles)
@@ -135,10 +138,11 @@ Siga estas prácticas recomendadas de diseño al personalizar las plantillas de 
 
 - Uso de [secciones](customize-template.md#sections-or-groups):
    - Solo se puede utilizar una sección, lo que genera un único conjunto de elementos de plantilla.
+- Se requiere exactamente un campo de imagen.
 
 **Dimensiones compatibles**:
 
-- Anchura x Altura (píxeles)
+- Se debe definir la anchura y la altura (píxeles)
 - Vertical:
    - 300 x 600
    - 160 x 600 &#x200B;
@@ -171,6 +175,7 @@ Siga estas prácticas recomendadas de diseño al personalizar las plantillas de 
 
 - Uso de [secciones](customize-template.md#sections-or-groups):
    - Solo se puede utilizar una sección, lo que genera un único conjunto de elementos de plantilla.
+- Se requiere exactamente un campo de imagen.
 - Tamaño máximo de imagen de 5 MB
 - Titular máximo de 70 caracteres
 - Texto introductorio máximo de 150 caracteres

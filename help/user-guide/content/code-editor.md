@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation
 exl-id: b46fc7a9-88c1-474a-9d7b-1df7740d8f5a
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 3739a218ce67749d0038059e3504ab9a4df8f065
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -35,3 +35,18 @@ Si hay errores en su plantilla, es posible que vea un mensaje de `Template is in
 ![Corregir plantilla no válida](/help/assets/animation/template-code-editor.gif){width="600" zoomable="yes"}
 
 El panel _[!UICONTROL Comprobar campos detectados]_ se actualiza para reflejar los cambios que ha realizado. Cuando esté seguro de que los campos son correctos y están completos, haga clic en **[!UICONTROL Siguiente]** para continuar [cargando la plantilla](/help/user-guide/content/use-templates.md#add-a-template).
+
+## Problemas y soluciones comunes de las plantillas
+
+| **Error** | **Descripción** | **Solución** |
+|-----------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| Error al analizar | No se pudo analizar el contenido de la plantilla como Handlebars válidos. | Compruebe si hay errores de sintaxis de HTML y Handlebars y corríjalos para garantizar un formato válido para [los marcadores de posición de contenido](/help/user-guide/content/customize-template.md#content-placeholders). |
+| Grupo no asignado | Un campo de imagen en una plantilla de correo electrónico de varios grupos no está asignado a ningún grupo. | Compruebe si los prefijos de sección se utilizan de forma coherente. Cada [sección](/help/user-guide/content/customize-template.md#sections-or-groups) solo puede usar uno de cada tipo de campo (`headline`, `body`, `image` `cta`). Asigne el campo `image` a un grupo válido de la plantilla. |
+| Falta la imagen | Falta un campo de imagen obligatorio. | Se requiere exactamente un campo `image` para ciertos tipos de plantilla, como un anuncio Meta, de visualización o de banner. Agregue el campo `image` requerido a la plantilla. |
+| Grupo único no válido | La plantilla de correo electrónico contiene exactamente un grupo, lo que no es válido. | Una plantilla de correo electrónico básica contiene un único conjunto de elementos de plantilla que no requieren la convención de nomenclatura de grupos definida en [Secciones o grupos](/help/user-guide/content/customize-template.md#sections-or-groups). Ajuste la plantilla para que tenga cero secciones quitando cualquier sintaxis de nomenclatura de grupo. |
+| Sin campos | La plantilla no contiene ningún campo. | Agregue [nombres de campo reconocidos](/help/user-guide/content/customize-template.md#recognized-field-names) mediante la sintaxis Handlebars a la plantilla donde necesita que GenStudio for Performance Marketing genere un determinado tipo de contenido. |
+| Faltan propiedades requeridas | Faltan algunas propiedades de metadatos requeridas. | Cada tipo de plantilla tiene requisitos y restricciones basados en las directrices de canal. Por ejemplo, Meta requiere una proporción de aspecto y los anuncios de visualización requieren dimensiones. [Siga las directrices de plantillas específicas del canal](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines). |
+| Nombre reservado utilizado | Se está utilizando un nombre de campo prohibido o reservado. | Algunos [nombres de campo](/help/user-guide/content/customize-template.md#recognized-field-names), como `subject` o `introductory_text`, están reservados. Cambie el nombre de los campos que utilizan nombres reservados o prohibidos. |
+| Demasiados campos | El número de campos supera el límite global de 20. | Elimine los campos innecesarios para asegurarse de que el total no supera los 20. |
+| Demasiados grupos | El número de grupos supera el máximo permitido del canal. | Las plantillas meta, display y LinkedIn no permiten varias secciones. El correo electrónico requiere un nombre de grupo al definir dos o tres secciones. Reduzca la cantidad de grupos en su plantilla para cumplir con los [requisitos del canal](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines). |
+| Campo no compatible | La plantilla utiliza un campo que el canal no admite. | Reemplazar o quitar campos no admitidos según los [nombres de campo reconocidos](/help/user-guide/content/customize-template.md#recognized-field-names). |
