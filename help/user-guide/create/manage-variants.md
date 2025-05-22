@@ -3,9 +3,9 @@ title: Administrar variantes
 description: Personalice y mejore las variantes y los recursos generados para adaptarlos a sus necesidades de marketing digital.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 09a8af603945686ad58e3edc6a5c77d79fdf2956
+source-git-commit: 654adf4f774b5e4915a67e0c0c3e5d07268d1a89
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ Puede recortar y cambiar manualmente la posición de los recursos de imagen en v
 
 ## Cambiar proporción de aspecto
 
-Puede cambiar rápidamente la proporción de aspecto de los anuncios Meta para adaptarse al tamaño de anuncio deseado.
+Puede cambiar rápidamente la proporción de aspecto de los anuncios Meta para adaptarse al tamaño de anuncio deseado. Elija una proporción de aspecto de imagen que coincida estrechamente con las dimensiones de la plantilla para evitar recortes o estiramientos no deseados. Por ejemplo, si la plantilla tiene 1200 × 628 píxeles (un rectángulo ancho), al utilizar una imagen cuadrada 1:1 se pueden recortar los lados, lo que podría cortar el contenido importante. El tamaño óptimo de la imagen sería de 628 x 628 píxeles, que coincide con la altura de la plantilla.
 
 Las relaciones de tamaño y aspecto disponibles son:
 
@@ -155,7 +155,7 @@ Puede añadir o intercambiar imágenes en variantes generadas directamente desde
 1. Haga clic en el icono **[!UICONTROL Intercambiar del contenido]**.
 1. Utilice los filtros y la función de búsqueda en la vista de recursos de GenStudio [!DNL Content] para restringir aún más los resultados de búsqueda.
 
-   También puede usar imágenes disponibles en repositorios conectados de Adobe Experience Manager (AEM) Assets Content Hub seleccionando ese repositorio en el menú [**[!UICONTROL Ubicación &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   También puede usar imágenes disponibles en repositorios conectados de Adobe Experience Manager (AEM) Assets Content Hub seleccionando ese repositorio en el menú [**[!UICONTROL Ubicación ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Haga clic para seleccionar una imagen y haga clic en **[!UICONTROL Usar]**.
 
