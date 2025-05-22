@@ -4,7 +4,7 @@ description: Obtenga información sobre las últimas funciones y mejoras de Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: c3c3ca28d31539383863cf7c8ad11a24aed0965f
+source-git-commit: 2e30223f67d8ad7e230245c825600e60a57e2ccd
 workflow-type: tm+mt
 source-wordcount: '2300'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Esta información de la versión detalla las últimas actualizaciones de la apli
 
 ## Notas de la versión anteriores
 
-+++Notas a partir del 15 de mayo de 2025
++++Notas a partir del 15 de abril de 2025
 
 ### Correcciones y mejoras
 
