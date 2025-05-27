@@ -3,9 +3,9 @@ title: Validación de marca en Adobe GenStudio for Performance Marketing
 description: Descubra cómo funciona el sistema de validación de marca integrado en GenStudio for Performance Marketing.
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 29685c96353703705f3f742e88f3934644bc4282
+source-git-commit: 8f8d10db351f440ccd64f4ef5a54b6ace9f9db85
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ GenStudio for Performance Marketing valida la marca y comprueba otros contenidos
 
 ## Resumen de comprobación de contenido
 
-Se puede acceder a un resumen de la validación de marca y a otra información de comprobación de contenido para cada variante de contenido generada a través del icono de resumen _Comprobación de contenido_ para cada variante en el lienzo.
+Se puede acceder a un resumen de la validación de la marca y a otra información de comprobación de contenido para cada elemento de contenido generado mediante el icono de resumen _Comprobación de contenido_ para cada variante en el lienzo.
 
 El resumen _Comprobación de contenido_ muestra:
 
@@ -33,17 +33,17 @@ El resumen _Comprobación de contenido_ muestra:
 
 ![Resumen de comprobación de contenido](/help/assets/content-check-summary.png){width="400" zoomable="yes"}
 
-Haga clic en el porcentaje para ver qué tan compatible es la variante. Las puntuaciones se actualizan automáticamente a medida que realiza ediciones en las variantes. Puede hacer clic en _Ver y corregir problemas_ para garantizar una mayor conformidad.
+Haga clic en el porcentaje para ver qué tan compatible es la variante. Las puntuaciones se actualizan automáticamente a medida que realiza ediciones en las variantes u otro contenido. Puede hacer clic en _Ver y corregir problemas_ para garantizar una mayor conformidad.
 
 Ver [Mejorar la alineación de la marca](#improve-brand-alignment).
 
 ## Panel de verificación de contenido
 
-El panel _Comprobación de contenido_ se abre en el lado derecho del lienzo cuando se hace clic desde la barra de acciones derecha _o_ desde el icono de resumen [_Comprobación de contenido_](#content-check-summary) para una variante. Este panel proporciona una validación de marca detallada. las directrices de la plataforma y la información sobre los estándares de accesibilidad iluminan las oportunidades de mejora para cada sección de variante.
+El panel _Comprobación de contenido_ se abre en el lado derecho del lienzo cuando se hace clic desde la barra de acciones derecha _o_ desde el icono de resumen [_Comprobación de contenido_](#content-check-summary). Este panel proporciona información detallada sobre la validación de marca, las directrices de plataforma y los estándares de accesibilidad, e ilustra las oportunidades de mejora.
 
 ![Panel de verificación de contenido](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
 
-El panel _Comprobación de contenido_ muestra validación e [información de cumplimiento](/help/user-guide/guidelines/overview.md#compliance) para cada sección de la variante:
+El panel _Comprobación de contenido_ muestra información de validación y [conformidad](/help/user-guide/guidelines/overview.md#compliance) para imágenes y secciones de variante:
 
 * Representación de la información de resumen de _comprobación de contenido_ para [!DNL Brand], directrices de plataforma y estándares de accesibilidad
 * _Necesita revisión_ sección que muestra el número de directrices con errores e información detallada sobre cada directriz que necesita revisión
@@ -67,22 +67,21 @@ Para maximizar la eficacia del contenido generado y mantener una identidad de ma
 
 **Para mejorar la alineación de marca de las variantes generadas**:
 
-1. Haga clic en el icono del panel _Comprobación de contenido_ en la barra de acciones derecha para ver la información de validación y accesibilidad de una sola variante.
+1. Haga clic en el icono del panel _Comprobación de contenido_ en la barra de acciones derecha para ver la información de validación y accesibilidad.
 
-   Puede ver un resumen de las comprobaciones de _Necesidades de revisión_ y _Superado_ para ver qué secciones y directrices necesitan mejorarse.
+   Puede ver un resumen de las comprobaciones de _Necesidades de revisión_ y _Superado_ para ver qué necesita mejora.
 
    >[!NOTE]
    >
    > La directriz _Brand voice_ indicada en el panel _Comprobación de contenido_ se aplica a toda la variante, no a una sección individual. Se resalta toda la variante de contenido para sugerir mejoras.
 
 1. Haga clic en para corregir las directrices que actualmente no son compatibles.
-1. Haga clic para expandir e inspeccionar cada comprobación que deba revisarse en secciones disponibles como _Titular_ y _Voz de marca_.
+1. Haga clic aquí para expandir e inspeccionar cada comprobación que deba revisarse en secciones disponibles como _Titular_, _Color_ y _Marca_.
 
-   Utilice el razonamiento proporcionado para cada comprobación para guiarle en la revisión de las variantes.
+   Utilice el razonamiento proporcionado para cada comprobación para guiarle en la revisión de imágenes y variantes.
 
 1. Después de realizar las revisiones necesarias, haga clic en **[!UICONTROL Puntuación de comprobación]** para volver a comprobar y validar los cambios y asegurarse de que estén más en consonancia con la identidad de la marca, las directrices de la plataforma y los estándares de accesibilidad.
 
    El proceso de comprobación de contenido se ejecuta de nuevo. Si los elementos revisados superan la validación, aparece un aviso verde en la parte inferior del lienzo para confirmar que la puntuación se ha actualizado. Si no ha habido ningún cambio después de una nueva comprobación, el banner confirma que no se ha producido ningún cambio en la puntuación. El porcentaje del icono de resumen _Comprobación de contenido_ para la variante revisada también muestra su progreso.
 
 1. Continúe revisando las secciones para asegurarse de que toda la variante pase las comprobaciones de validación y accesibilidad. Desplácese por cada variante con las flechas adyacentes a una variante individual en el lienzo.
-
