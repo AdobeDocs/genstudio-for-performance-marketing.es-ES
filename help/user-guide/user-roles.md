@@ -5,9 +5,9 @@ level: Beginner
 feature: Generative AI, Guidelines
 role: Admin
 exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: a7b1665f9d735dad9f33aa4f92c56088ae85a625
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1123'
 ht-degree: 7%
 
 ---
@@ -26,9 +26,9 @@ Estos títulos de funciones de usuario pueden parecer similares, pero identifica
 
 **Los administradores del sistema de Adobe** tienen privilegios de usuario avanzado en Adobe Admin Console y realizan todas las tareas de administración de usuarios, como agregar o eliminar usuarios. Esta función de administrador del sistema no proporciona privilegios en la aplicación de GenStudio for Performance Marketing, lo que explica por qué los administradores del sistema de Adobe no necesitan una licencia para GenStudio. Los administradores del sistema de Adobe suelen utilizar Admin Console para agregar y eliminar cuentas de usuario de implementaciones de GenStudio y asignar o quitar derechos o permisos de usuarios individuales o grupos de usuarios.
 
-**Los administradores del sistema de GenStudio** son usuarios avanzados dentro de GenStudio for Performance Marketing, pero no tienen permiso para realizar tareas en Adobe Admin Console. Esta función de administrador del sistema requiere una licencia de producto de GenStudio y corresponde a un usuario avanzado en la [descripción del producto de Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/es/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html). Los administradores del sistema de GenStudio tienen derecho total a las funciones de GenStudio for Performance Marketing, incluidas [!DNL Brands], [!DNL Persona] y [!DNL Product], creación, eliminación, actualización y publicación. [Descripción del producto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/es/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) explica cómo se relacionan las funciones de usuario de GenStudio con las licencias de productos.
+**Los administradores del sistema de GenStudio** son usuarios avanzados dentro de GenStudio for Performance Marketing, pero no tienen permiso para realizar tareas en Adobe Admin Console. Esta función de administrador del sistema requiere una licencia de producto de GenStudio y corresponde a un usuario avanzado en la [descripción del producto de Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html). Los administradores del sistema de GenStudio tienen derecho total a las funciones de GenStudio for Performance Marketing, incluidas [!DNL Brands], [!DNL Persona] y [!DNL Product], creación, eliminación, actualización y publicación. [Descripción del producto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) explica cómo se relacionan las funciones de usuario de GenStudio con las licencias de productos.
 
-Consulte [Funciones administrativas](https://helpx.adobe.com/es/enterprise/using/admin-roles.html#enterprise) en la _Guía de administración de empresas y equipos_.
+Consulte [Funciones administrativas](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise) en la _Guía de administración de empresas y equipos_.
 
 ## Derechos
 
@@ -63,12 +63,10 @@ La siguiente tabla muestra los permisos de editor predeterminados:
 | [!DNL Content] | sí | sí | sí | sí |
 | [!DNL Create] | sí | sí | sí | sí |
 | [!DNL Insights] | solo puede configurar conectores |    |     | sí |
-| [!DNL Personas] | sí | sí* | sí* | sí |
-| [!DNL Products] | sí | sí* | sí* | sí |
+| [!DNL Personas] | sí | sí | sí | sí |
+| [!DNL Products] | sí | sí | sí | sí |
 | [!DNL Reviews and approvals] | sí | sí | sí | sí |
 | [!DNL Templates] | no | no | no | sí |
-
-Los editores pueden editar y eliminar [!DNL Personas] y [!DNL Products] que hayan creado.
 
 Los administradores del sistema de GenStudio pueden dar permiso a los editores para editar y eliminar un(a) [!DNL Brand].
 
