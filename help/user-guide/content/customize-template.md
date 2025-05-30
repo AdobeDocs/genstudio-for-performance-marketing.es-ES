@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: f6c00f473d561cae123997ab3e310867fbdf60d1
+source-git-commit: 4a82431c0f6a0f2f16c80160a46241dfa702195b
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1394'
 ht-degree: 0%
 
 ---
@@ -176,7 +176,6 @@ Para crear una sección editable, agregue corchetes dobles alrededor del nombre 
 
 Puede utilizar secciones en una plantilla de correo electrónico de marketing cuando tenga dos o tres agrupaciones de campos. _Las secciones_ informan a GenStudio for Performance Marketing de que los campos de esta sección requieren un alto grado de coherencia. El establecimiento de esta relación ayuda a la IA a generar contenido que coincida con los elementos creativos de la sección.
 
-
 Utilice un nombre de grupo de su elección como prefijo para indicar que un campo forma parte de una sección o grupo. Use un nombre de campo (como `headline`, `body`, `image` o `cta`) después del guion bajo (`_`).
 
 Sintaxis: `groupname_fieldname`
@@ -193,17 +192,14 @@ Cada sección solo puede utilizar uno de cada tipo de campo. Por ejemplo, los ca
 
 Debido a esta regla, las secciones no se pueden anidar.
 
-Cada tipo de plantilla, como correo electrónico o MetaAd, tiene restricciones específicas del canal en el uso de secciones. Consulte [directrices específicas del canal](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) en el tema _Prácticas recomendadas para usar plantillas_.
+Cada tipo de plantilla, como correo electrónico o MetaAd, tiene restricciones específicas del canal en el uso de secciones. Consulte [directrices específicas del canal](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) en el tema _Prácticas recomendadas para usar plantillas_.
 
 Por ejemplo, una plantilla de correo electrónico puede incluir hasta tres secciones; por lo tanto, puede tener tres secciones de titular y cuerpo:
 
 - `pre_header`
-- `pod1_headline`
-- `pod1_body`
-- `pod2_headline`
-- `pod2_body`
-- `pod3_headline`
-- `pod3_body`
+- `pod1_headline`, `pod1_body`
+- `pod2_headline`, `pod2_body`
+- `pod3_headline`, `pod3_body`
 - `cta`
 
 GenStudio for Performance Marketing entiende que `pod1_headline` está más relacionado con `pod1_body` que con `pod2_body`.
@@ -252,138 +248,3 @@ Los archivos externos se incrustan temporalmente únicamente con el fin de crear
 ### Actualizar contenido
 
 Si el origen cambia después de crear la vista previa inicial, use la función [refresh](/help/user-guide/content/use-templates.md#refresh-template) para actualizar la vista previa de la plantilla con la versión más reciente del contenido de los orígenes externos.
-
-## Ejemplos de plantillas
-
-+++Ejemplo: Plantilla de correo electrónico con una sección
-
-El siguiente es un ejemplo básico de una plantilla de HTML para un correo electrónico que contiene una sección. El encabezado contiene CSS en línea simple para el estilo. El cuerpo contiene `pre_header`, `headline` y `image` [marcador de posición](#content-placeholders) que GenStudio for Performance Marketing usará para insertar contenido durante el proceso de generación de correo electrónico.
-
-```html {line-numbers="true" highlight="13"}
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Adobe</title>
-        <style>
-            .container {
-            width: 100%;
-            padding: 20px;
-            font-family: Arial, sans-serif;
-            }
-        </style>
-    </head>
-    <body>{{pre_header}}
-        <div class="container">
-            <h1>{{headline}}</h1>
-            <p><a href="{{link}}">
-            <img alt="{{headline}}"
-                    src="{{image}}"
-                    width="600" height="600"
-                    border="0"/></a></p>
-            <p>{{body}}</p>
-        </div>
-    </body>
-</html>
-```
-
-+++
-
-+++Ejemplo: Plantilla de correo electrónico con varias secciones
-
-La siguiente es la misma plantilla de HTML en el ejemplo anterior, pero con dos secciones más. El encabezado contiene CSS en línea para aplicar estilo a un grupo. El cuerpo usa dos grupos con [marcadores de posición de contenido](#content-placeholders) con un prefijo.
-
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Adobe</title>
-        <style>
-            .container {
-            width: 100%;
-            padding: 20px;
-            font-family: Arial, sans-serif;
-            }
-            .pod {
-            background-color: #f8f8f8;
-            margin: 10px;
-            padding: 20px;
-            border-radius: 5px;
-            }
-            .pod h2 {
-            color: #333;
-            }
-            .pod p {
-                color: #666;
-            }
-        </style>
-    </head>
-    <body>{{pre_header}}
-        <div class="container">
-            <h1>{{headline}}</h1>
-            <p>{{body}}</p>
-            <!-- Pod1 -->
-            <div class="pod">
-                <h2>{{pod1_headline}}</h2>
-                <p><img alt="{{ headline }}" src="{{pod1_image}}" width="200" height="200" border="0"></p>
-                <p>{{pod1_body}}</p>
-            </div>
-            <!-- End of Pod1 -->
-            <!-- Pod2 -->
-            <div class="pod">
-                <h2>{{pod2_headline}}</h2>
-                <p><img alt="{{headline}}" src="{{pod2_image}}" width="200" height="200" border="0"></p>
-                <p>{{pod2_body}}</p>
-            </div>
-            <!-- End of Pod2 -->
-        </div>
-    </body>
-</html>
-```
-
-+++
-
-+++Ejemplo: plantilla de meta-anuncio
-
-El siguiente es un ejemplo básico de una plantilla de publicidad Meta. El encabezado contiene CSS en línea para el estilo. El cuerpo usa [marcadores de posición de contenido](#content-placeholders), como `image` y `on_image_text`, para indicar dónde GenStudio for Performance Marketing puede generar contenido.
-
-```html {line-numbers="true" highlight="33"}
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Adobe</title>
-        <style>
-            .ad-container {
-            font-family: Helvetica, sans-serif;
-            position: relative;
-            text-align: center;
-            height: 100%;
-            }
-            .ad-image {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            }
-            .ad-text {
-            position: absolute;
-            top: 0;
-            left: 0;
-            margin: 1em;
-            background-color: rgba(0, 0, 0, 0.5);
-            color: white;
-            padding: 1em;
-            font-size: 75px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="ad-container">
-            <img src="{{image}}" alt="Ad Image" class="ad-image" />
-            <div class="ad-text">{{on_image_text}}</div>
-        </div>
-    </body>
-</html>
-```
-
-+++

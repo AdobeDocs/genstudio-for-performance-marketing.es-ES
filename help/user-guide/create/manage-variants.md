@@ -3,7 +3,7 @@ title: Administrar variantes
 description: Personalice y mejore las variantes y los recursos generados para adaptarlos a sus necesidades de marketing digital.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 8f8d10db351f440ccd64f4ef5a54b6ace9f9db85
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
 source-wordcount: '1697'
 ht-degree: 0%
@@ -114,7 +114,7 @@ Puede recortar y cambiar manualmente la posición de los recursos de imagen en v
 
 ## Cambiar proporción de aspecto
 
-Puede cambiar rápidamente la [proporción de aspecto de los anuncios Meta](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para ajustar el tamaño de anuncio deseado. Elija una proporción de aspecto de imagen que coincida estrechamente con las dimensiones de la plantilla para evitar recortes o estiramientos no deseados. Por ejemplo, si la plantilla tiene 1200 × 628 píxeles (un rectángulo ancho), al utilizar una imagen cuadrada 1:1 se pueden recortar los lados, lo que podría cortar el contenido importante. El tamaño óptimo de la imagen sería de 628 x 628 píxeles, que coincide con la altura de la plantilla.
+Puede cambiar rápidamente la [proporción de aspecto de los anuncios Meta](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) para ajustar el tamaño de anuncio deseado. Elija una proporción de aspecto de imagen que coincida estrechamente con las dimensiones de la plantilla para evitar recortes o estiramientos no deseados. Por ejemplo, si la plantilla tiene 1200 × 628 píxeles (un rectángulo ancho), al utilizar una imagen cuadrada 1:1 se pueden recortar los lados, lo que podría cortar el contenido importante. El tamaño óptimo de la imagen sería de 628 x 628 píxeles, que coincide con la altura de la plantilla.
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ Puede cambiar rápidamente la [proporción de aspecto de los anuncios Meta](/hel
 
    El número de variaciones afectadas por esta revisión se indica en la esquina superior derecha de la ventana. _Ejemplo_: &quot;4 de 4 variaciones&quot;
 
-1. Seleccione una [proporción de aspecto disponible](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+1. Seleccione una [proporción de aspecto disponible](/help/user-guide/templates/meta-template.md#supported-aspect-ratios).
 
    Solo se pueden elegir los tamaños de relación de aspecto que no se representan actualmente en el lienzo.
 
@@ -148,7 +148,7 @@ Puede añadir o intercambiar imágenes en variantes generadas directamente desde
 1. Haga clic en el icono **[!UICONTROL Intercambiar del contenido]**.
 1. Utilice los filtros y la función de búsqueda en la vista de recursos de GenStudio [!DNL Content] para restringir aún más los resultados de búsqueda.
 
-   También puede usar imágenes disponibles en repositorios conectados de Adobe Experience Manager (AEM) Assets Content Hub seleccionando ese repositorio en el menú [**[!UICONTROL Ubicación &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   También puede usar imágenes disponibles en repositorios conectados de Adobe Experience Manager (AEM) Assets Content Hub seleccionando ese repositorio en el menú [**[!UICONTROL Ubicación ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Haga clic para seleccionar una imagen y haga clic en **[!UICONTROL Usar]**.
 

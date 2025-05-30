@@ -7,9 +7,9 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Antes de empezar a generar un anuncio de LinkedIn, es importante [agregar direct
 
 ## Elija una plantilla
 
-Para generar una nueva experiencia de LinkedIn, necesita una plantilla para proporcionar el marco de trabajo para el contenido. Consulte [Prácticas recomendadas para plantillas](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para obtener información sobre las proporciones de aspecto de LinkedIn admitidas.
+Para generar una nueva experiencia de LinkedIn, necesita una plantilla para proporcionar el marco de trabajo para el contenido. Consulte [Directrices de la plantilla LinkedIn](/help/user-guide/templates/linkedin-template.md) para obtener información sobre las proporciones de aspecto de LinkedIn admitidas.
 
 **Para elegir una plantilla de LinkedIn**:
 

@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Antes de empezar a generar una experiencia de anuncio Meta, es importante [incor
 
 ## Elija una plantilla
 
-Para empezar a generar una nueva experiencia de publicidad de metadatos, utilice una plantilla disponible para proporcionar el marco de trabajo para el contenido. Consulte [Prácticas recomendadas para plantillas](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para obtener información sobre las proporciones de aspecto de metadatos y publicidad admitidas.
+Para empezar a generar una nueva experiencia de publicidad de metadatos, utilice una plantilla disponible para proporcionar el marco de trabajo para el contenido. Consulte [Directrices sobre plantillas de anuncios Meta](/help/user-guide/templates/meta-template.md) para obtener información sobre las proporciones de aspecto de anuncios Meta admitidas.
 
 **Para elegir una plantilla Meta ad**:
 

@@ -5,10 +5,10 @@ user-guide-description: Explore las funcionalidades de Adobe GenStudio for Perfo
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 2745df9f67c1af4261bfdbf096b721e9bb97bc4b
+source-git-commit: 7ac97f040917ee737cd29ba8f5c7d8c72a75e577
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 20%
+source-wordcount: '237'
+ht-degree: 18%
 
 ---
 
@@ -61,12 +61,18 @@ ht-degree: 20%
    + [Administrar recursos y experiencias](content/manage-assets.md)
    + [Conectar un repositorio de AEM](content/connect-aem-repo.md)
    + [Detalles del recurso](content/asset-details.md)
-   + Plantillas {#templates}
-      + [Trabajar con plantillas](content/use-templates.md)
-      + [Personalizar una plantilla](content/customize-template.md)
-      + [Editor de código de plantilla](content/code-editor.md)
-      + [Crear plantillas accesibles](content/accessibility-for-templates.md)
-      + [Prácticas recomendadas para plantillas](content/best-practices-for-templates.md)
++ Plantillas {#templates}
+   + [Trabajar con plantillas](content/use-templates.md)
+   + [Plantillas de inicio](templates/starter-templates.md)
+   + [Personalizar una plantilla](content/customize-template.md)
+   + [Editor de código de plantilla](content/code-editor.md)
+   + [Crear plantillas accesibles](content/accessibility-for-templates.md)
+   + [Prácticas recomendadas para plantillas](content/best-practices-for-templates.md)
+   + Práctica recomendada de canal {#channel-best-practice}
+      + [Guía de anuncios en pantalla](templates/display-template.md)
+      + [Guía de correo electrónico](templates/email-template.md)
+      + [Guía de anuncios de LinkedIn](templates/linkedin-template.md)
+      + [Guía de anuncios Meta](templates/meta-template.md)
 + Campañas {#campaigns}
    + [Resumen de campañas](campaigns/overview.md)
    + [Crear campañas](campaigns/create-campaign.md)

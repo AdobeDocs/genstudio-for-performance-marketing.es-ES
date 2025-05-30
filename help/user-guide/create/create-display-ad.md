@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Para diseñar una experiencia atractiva de anuncios en pantalla, se recomienda [
 
 ## Elija una plantilla
 
-Para crear una experiencia de anuncio en pantalla, utilice una plantilla disponible para proporcionar el marco de trabajo para el contenido. Consulte [Prácticas recomendadas para plantillas](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para obtener información acerca de las dimensiones de anuncios en pantalla admitidas.
+Para crear una experiencia de anuncio en pantalla, utilice una plantilla disponible para proporcionar el marco de trabajo para el contenido. Consulte [Directrices para plantillas de anuncios en pantalla](/help/user-guide/templates/display-template.md) para obtener información sobre las dimensiones de anuncios en pantalla admitidas.
 
 **Para elegir una plantilla de anuncio en pantalla**:
 
@@ -127,7 +127,7 @@ Ver [revisiones y aprobaciones](/help/user-guide/approvals/overview.md).
 Para que los anuncios en pantalla generados estén disponibles para su uso actual y futuro, publíquelo en [!UICONTROL Contenido] y expórtelo para su uso en campañas de marketing.
 
 1. **Para publicar tus nuevas experiencias con anuncios en pantalla**, haz clic en **[!UICONTROL Publicar]** en la barra de herramientas superior o dentro del flujo de aprobaciones.
-   1. Seleccione _[!UICONTROL [!DNL Campaigns]]_&#x200B;y agregue&#x200B;_[!UICONTROL &#x200B; más detalles &#x200B;]_&#x200B;si lo desea.
+   1. Seleccione _[!UICONTROL [!DNL Campaigns]]_y agregue_[!UICONTROL  más detalles ]_si lo desea.
    1. Haga clic en **[!UICONTROL Publicar]**.
 
       ![Publicar un anuncio para mostrar](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
