@@ -64,7 +64,7 @@ El creador de contenido puede continuar con las ediciones mientras recibe y resp
 
 ## Revisión de contenido con Workfront Proof
 
-[!DNL Proofing Viewer] proporciona [herramientas de marcado sólidas](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1) para anotar pruebas y rastrear cambios. También puede comparar dos versiones de prueba.
+[!DNL Proofing Viewer] proporciona [herramientas de marcado sólidas](https://experienceleague.adobe.com/es/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1) para anotar pruebas y rastrear cambios. También puede comparar dos versiones de prueba.
 
 **Para revisar el contenido**:
 
@@ -84,7 +84,7 @@ El creador de contenido puede continuar con las ediciones mientras recibe y resp
 
 ### Comparar pruebas
 
-Desde [!DNL Proofing Viewer], puede [comparar versiones de revisión](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs).
+Desde [!DNL Proofing Viewer], puede [comparar versiones de revisión](https://experienceleague.adobe.com/es/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs).
 
 **Para comparar pruebas**:
 
@@ -94,4 +94,4 @@ Desde [!DNL Proofing Viewer], puede [comparar versiones de revisión](https://ex
 
    Las pruebas se muestran una al lado de la otra, con la versión más reciente en el lado izquierdo.
 
-Workfront Proof proporciona varias herramientas para comparar pruebas, incluida una herramienta de comparación automática. Ver [Usar las herramientas de comparación](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools).
+Workfront Proof proporciona varias herramientas para comparar pruebas, incluida una herramienta de comparación automática. Ver [Usar las herramientas de comparación](https://experienceleague.adobe.com/es/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools).
