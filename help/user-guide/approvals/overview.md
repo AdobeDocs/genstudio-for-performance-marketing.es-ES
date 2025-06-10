@@ -4,9 +4,9 @@ description: Obtenga información acerca del proceso de revisión y aprobación 
 level: Beginner
 feature: Content Review, Content Management
 exl-id: c83f47c0-e8ae-4c54-84b3-c50f67d6b3c2
-source-git-commit: d6f9673c7b6c8bc1aa051c2133759876a59217eb
+source-git-commit: 7955796949c17f7cd877b115cba45c58cdd614a7
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,11 @@ ht-degree: 0%
 
 El flujo de trabajo de revisión y aprobaciones garantiza que todas las partes interesadas, desde equipos creativos hasta expertos legales, puedan revisar y aprobar de forma eficaz los activos y las experiencias de la campaña, incluidos los activos de marca generados por IA.
 
-## [!DNL Review and Approval] ventajas de flujo de trabajo
+>[!NOTE]
+>
+> Esta característica también está disponible como una [integración con Adobe Workfront Proof](/help/user-guide/approvals/proof-integration.md). Esta integración ofrece funcionalidades de prueba en el lienzo de GenStudio for Performance Marketing. Con la integración de Workfront Proof, GenStudio for Performance Marketing obtiene un proceso de revisión más estructurado, transparente y colaborativo, lo que ayuda a los equipos a pasar de Borrador a Final con mayor confianza y claridad.
+
+## Ventajas del flujo de trabajo de revisión y aprobación
 
 * **Compatibilidad con la creación de contenido de IA generativo, iterativo y robusto**. La creación e implementación de contenido alineado con la marca en una organización es un proceso altamente iterativo. Las capacidades generativas de IA de GenStudio for Performance Marketing admiten la creación rápida de cientos de variantes de recursos. Cada revisor puede solicitar varios cambios en un borrador de recurso antes de aprobarlo. Cuantos más revisores haya, mayor será el número de iteraciones potenciales antes de que todas las partes interesadas acuerden una variante final.
 
@@ -23,24 +27,25 @@ El flujo de trabajo de revisión y aprobaciones garantiza que todas las partes i
 
 * **Cumplimiento de los objetivos de la campaña y los requisitos legales**. El proceso de aprobación ayuda a comprobar que el contenido admite los objetivos de la campaña. Garantiza que todos los materiales de marketing cumplan con las normas legales y reglamentarias, lo que minimiza los riesgos y los posibles problemas legales.
 
+* **Integración con Adobe Workfront Proof**. Los usuarios pueden acceder a las potentes funciones de revisión y aprobación de Workfront Proof desde GenStudio for Performance Marketing. El contenido revisado en GenStudio for Performance Marketing se sincroniza con Workfront Proof y los comentarios de revisión y el estado se conservan. [Aspectos destacados de la integración](/help/user-guide/approvals/proof-integration.md) identifica cómo Proof extiende el flujo de trabajo de aprobación de GenStudio for Performance Marketing.
+
 ## Ciclo de vida de revisión y aprobación
 
 Las fases principales del flujo de trabajo de revisión y aprobación incluyen:
 
-* [Solicitar revisión y aprobación del contenido que ha creado](./request-review.md)
-* [Revisar y editar contenido](./review-and-edit.md)
-* [Aprobar contenido](./approve-content.md)
-* [Publicar contenido](./publish-content.md)
+* [Solicitar revisión y aprobación del contenido que ha creado](/help/user-guide/approvals/request-review.md). GenStudio for Performance Marketing optimiza el proceso de solicitud de aprobaciones y administración de aprobadores. Las plantillas de aprobación de Workfront Proof pueden simplificar aún más esta tarea.
 
-## ¿Quién puede solicitar una revisión o aprobar contenido?
+* [Revisar y editar contenido](/help/user-guide/approvals/review-and-edit.md). Las notificaciones mantienen a los creadores de contenido en el bucle sobre los cambios y las aprobaciones solicitadas. La revisión de los déclencheur de contenido genera un nuevo ciclo de aprobación automático.
 
-Si ha creado un recurso o una experiencia, puede pedir a otras personas de la cadena de aprobación de su organización que revisen formalmente su trabajo y lo comenten. Aunque cualquier miembro de la organización GenStudio for Performance Marketing puede revisar un borrador, solo los aprobadores designados pueden realizar comentarios sobre un borrador o aprobarlo.
+* [Aprobar contenido](/help/user-guide/approvals/approve-content.md). Los aprobadores designados marcan el contenido como aprobado o listo para su publicación.
 
-## Acerca de [!DNL Content] borradores
+* [Publicar contenido](/help/user-guide/approvals/publish-content.md). Al publicar el contenido aprobado en [!DNL Content], estará disponible para que otros miembros de su organización lo utilicen o hagan referencia a él.
 
-_Borradores_ son versiones preliminares de recursos o experiencias que no han pasado por el proceso de revisión y aprobación. El estado del borrador indica dónde se encuentra el borrador en el proceso de revisión y aprobación. Un ID de borrador único identifica cada borrador. Este identificador es válido hasta que se apruebe un borrador y se publique en [!DNL Content]. Los comentarios de revisión y las aprobaciones de un borrador están asociados a este ID de borrador individual.
+## Acerca de los borradores de contenido
 
-Cuando un borrador completa el proceso de revisión y aprobación y se publica en [!DNL Content], el ID del borrador caduca y GenStudio for Performance Marketing no guarda los comentarios asociados ni los estados de aprobación. El borrador de URL ya no es válido.
+_Borradores_ son versiones preliminares de recursos o experiencias que no han completado el proceso de revisión y aprobación. El estado del borrador indica dónde se encuentra el borrador en el proceso de revisión y aprobación. Un ID de borrador único identifica cada borrador. Esta ID es válida hasta que se apruebe un borrador y se publique en [!DNL Content]. Los comentarios de revisión y las aprobaciones de un borrador están asociados a este ID de borrador individual. No hay versiones para borradores de contenido de GenStudio.
+
+Cuando un borrador completa el proceso de revisión y aprobación y se publica en [!DNL Content], el ID del borrador caduca. GenStudio for Performance Marketing no guarda los comentarios asociados ni el estado de aprobación. El borrador de URL ya no es válido.
 
 El estado del borrador captura el estado del borrador de contenido a medida que se desplaza por el proceso de revisión y aprobación. El editor de contenido de GenStudio for Performance Marketing que creó el recurso en revisión recibe una notificación de cualquier cambio solicitado en el borrador o en las aprobaciones. Los aprobadores cambian el estado del borrador para indicar si necesita una revisión adicional o si se puede aprobar. Todos los aprobadores designados deben aprobar un recurso o una experiencia para que se pueda publicar.
 
@@ -50,11 +55,19 @@ Estados de borrador disponibles:
 **Necesita trabajo**: indica que uno o más aprobadores han solicitado cambios en el borrador de contenido. El contenido en este estado no se puede guardar en [!DNL Content].
 **Aprobado**: todos los aprobadores designados han aprobado el recurso o la experiencia. El editor de contenido ahora puede agregar metadatos al recurso o la experiencia y guardarlos en [!DNL Content].
 
+>[!NOTE]
+>
+> Los borradores corresponden a _pruebas_ para los usuarios de la integración de Workfront Proof. [Los borradores y las pruebas](/help/user-guide/approvals/proof-integration.md#drafts-and-proofs) difieren en cuanto a persistencia y versiones.
+
+## Funciones de aprobación
+
+_Los revisores_ pueden agregar comentarios, pero no pueden aprobar el contenido. La participación del revisor es útil, pero no esencial. _Los aprobadores_ deben aprobar el contenido para que pueda avanzar en el proceso de aprobación. La integración de Workfront Proof admite una gama más amplia de funciones de usuario.
+
 ## Notificaciones
 
 Las notificaciones internas del producto de GenStudio for Performance Marketing actualizan a los aprobadores y editores de contenido en tiempo real de los cambios de estado de los recursos y `@mention` comentarios. Las notificaciones admiten la iteración rápida a través de varios ciclos de revisión, edición y aprobación.
 
-Los editores y aprobadores de contenido pueden registrarse para recibir estas notificaciones en Slack. Ver [Suscribirse a servicios en Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences#slack).
+Los editores y aprobadores de contenido pueden registrarse para recibir estas notificaciones en Slack. Ver [Suscribirse a servicios en Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/subscription).
 
 Las acciones realizadas por los participantes de la aprobación almacenan en déclencheur las notificaciones automáticas internas del producto y las notificaciones por correo electrónico. Al iniciar un proceso de aprobación, los aprobadores designados reciben notificaciones por correo electrónico y dentro del producto. Se le mantiene al tanto de las notificaciones internas del producto y por correo electrónico cada vez que un aprobador agrega `@mention` comentarios o toma una decisión. Las notificaciones incluyen vínculos al borrador de contenido.
 

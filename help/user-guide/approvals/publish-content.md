@@ -3,16 +3,16 @@ title: Publicar contenido aprobado
 description: Obtenga información sobre cómo publicar contenido aprobado con Adobe GenStudio for Performance Marketing.
 feature: Content Review, Content Management
 exl-id: 2bb93815-8a7f-40db-a56a-2aefda40a2f4
-source-git-commit: bd8a077bf812761944eba1212843eff04a4943d1
+source-git-commit: 82a29250b1a054c91f144c4e9c431324c5e61afa
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
 
 # Publicar contenido aprobado
 
-La etapa final de la creación de contenido aprobado y alineado con la marca es guardarlo en [!DNL Content] con los metadatos apropiados. Usted (el editor o creador de contenido) puede finalizar el recurso aprobado publicándolo o guardándolo en [!DNL Content].
+La etapa final de la creación de contenido aprobado y alineado con la marca es guardarlo en [!DNL Content] con los metadatos apropiados. Usted (el editor de contenido o el creador) puede finalizar el recurso aprobado publicándolo en [!DNL Content].
 
 Cuando todos los aprobadores designados aprueban un borrador, el estado del borrador cambia a **Aprobado**. Adobe GenStudio for Performance Marketing muestra la ventana emergente _Variantes aprobadas listas para publicar_ en el lienzo del editor.
 
@@ -34,9 +34,11 @@ A continuación, puede finalizar el borrador publicándolo en [!DNL Content] con
 
 ## Después de la publicación
 
-Todos los usuarios de GenStudio for Performance Marketing pueden tener acceso a los recursos o experiencias aprobados en [!DNL Content]. El panel Detalles del recurso identifica el historial de carga y aprobación del recurso. Estos atributos identifican el contenido guardado:
+Todos los usuarios de GenStudio for Performance Marketing pueden tener acceso a los recursos o experiencias aprobados en [!DNL Content]. El panel _Detalles del recurso_ identifica el historial de carga y aprobación del recurso. Estos atributos identifican el contenido guardado:
 
 * **[!UICONTROL Creado por]**: Identifica al usuario de GenStudio que cargó el recurso o la experiencia.
 * **[!UICONTROL Historial de aprobación]**: Identifica la fecha y hora de aprobación y al aprobador.
 
 Las direcciones URL de borrador no son válidas después de guardar un recurso o experiencia de borrador en [!DNL Content].
+
+Si ha habilitado la integración de Workfront Proof, los comentarios de prueba y las versiones se guardan después de publicar el recurso o la experiencia.
