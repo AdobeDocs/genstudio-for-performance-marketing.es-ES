@@ -27,7 +27,7 @@ Antes de activar una experiencia publicitaria, todas las cuentas de canal de med
 
 * [Crear una activación](create-activation.md). Puede crear una experiencia publicitaria seleccionando recursos visuales, asignando texto y definiendo metadatos antes de transferirlos a un canal de pago.
 
-* [Administrar activaciones](manage-activations.md). _[!DNL Activate]_proporciona una descripción general de todas las experiencias activadas. También puede ver los detalles de las activaciones individuales.
+* [Administrar activaciones](manage-activations.md). _[!DNL Activate]_&#x200B;proporciona una descripción general de todas las experiencias activadas. También puede ver los detalles de las activaciones individuales.
 
 ## Activar funciones
 

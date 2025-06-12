@@ -132,7 +132,7 @@ En _[!DNL Brands]_, cualquier borrador o [!DNL Brands] publicado aparecerá como
 
 [!DNL brand] muestra un punto verde y &quot;Publicado&quot; junto al nombre, y aparece un botón **[!UICONTROL Editar[!DNL brand]]** en lugar del botón **[!UICONTROL Publicar]**.
 
-**Para cancelar la publicación de un(a)[!DNL brand]** publicado(a), haga clic en la marca para abrirlo y luego en **[!UICONTROL Cancelar la publicación]** en el menú de acciones (icono de tres puntos).
+**Para cancelar la publicación de un(a) [!DNL brand]** publicado(a), haga clic en la marca para abrirlo y luego en **[!UICONTROL Cancelar la publicación]** en el menú de acciones (icono de tres puntos).
 
 La marca publicada ya está disponible para su uso en [_[!DNL Create]_](/help/user-guide/create/overview.md) y [_[!DNL Content]_](/help/user-guide/content/overview.md).
 
@@ -223,7 +223,7 @@ Puede agregar manualmente los detalles de la persona, en lugar de cargar documen
 
 ### Administrar [!DNL Personas]
 
-En la página de inicio de _[!DNL Personas]_, puedes **abrir un elemento[!DNL Persona]**ya creado para editarlo o revisarlo, o **eliminar un elemento personal**de la lista:
+En la página de inicio de _[!DNL Personas]_, puedes **abrir un elemento[!DNL Persona]**&#x200B;ya creado para editarlo o revisarlo, o **eliminar un elemento personal**&#x200B;de la lista:
 
 - Seleccione **[!UICONTROL Abrir]** en el menú de acciones de [!DNL Personas] para revisar un perfil existente.
 - Seleccione **[!UICONTROL Eliminar]** del menú de acción [!DNL Personas] para **eliminar** una persona.
@@ -291,7 +291,7 @@ Puede agregar manualmente los detalles del producto, en lugar de cargar document
 
 ### Administrar [!DNL Products]
 
-En el inicio de _[!DNL Products]_, puede **abrir un elemento[!DNL Product]**ya creado para editarlo o revisarlo, o **eliminar un producto**de la lista:
+En el inicio de _[!DNL Products]_, puede **abrir un elemento[!DNL Product]**&#x200B;ya creado para editarlo o revisarlo, o **eliminar un producto**&#x200B;de la lista:
 
 - Seleccione **[!UICONTROL Abrir]** del menú de acciones [!DNL Products] para revisar un producto existente.
 - Seleccione **[!UICONTROL Eliminar]** del menú de acción [!DNL Products] para **eliminar** un producto.

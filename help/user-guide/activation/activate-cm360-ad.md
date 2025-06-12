@@ -30,7 +30,7 @@ Una vez finalizada la sincronización, puede ver las cuentas añadidas.
 
 ## Paso 3: Seleccione el contenido para su experiencia publicitaria
 
-Puede iniciar el proceso de publicación desde la galería de experiencias _[!DNL Content]_o desde la página de inicio_[!DNL Activate]_. Las experiencias aprobadas no se pueden editar. Cada experiencia solo puede contener un recurso.
+Puede iniciar el proceso de publicación desde la galería de experiencias _[!DNL Content]_&#x200B;o desde la página de inicio&#x200B;_[!DNL Activate]_. Las experiencias aprobadas no se pueden editar. Cada experiencia solo puede contener un recurso.
 
 **Para seleccionar experiencias**:
 
