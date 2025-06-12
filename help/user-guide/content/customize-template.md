@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 4a82431c0f6a0f2f16c80160a46241dfa702195b
+source-git-commit: 2c5a16f0767958d09cfe5bbaa7a5538ca1b4fe75
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1613'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Una vez que la plantilla esté lista, puedes [cargarla en GenStudio for Performa
 
 ## Marcadores de contenido
 
-GenStudio for Performance Marketing reconoce ciertos [elementos](use-templates.md#template-elements) dentro de una plantilla, pero solo si los identifica con un [nombre de campo reconocido](#recognized-field-names).
+GenStudio for Performance Marketing reconoce ciertos tipos de contenido o [elementos](use-templates.md#template-elements) dentro de una plantilla, pero solo si los identifica con un [nombre de campo reconocido](#recognized-field-names).
 
 Dentro del encabezado o del cuerpo de una plantilla de HTML, puede utilizar la sintaxis [!DNL Handlebars] para insertar un marcador de posición de contenido donde necesite que GenStudio for Performance Marketing rellene la plantilla con contenido real. GenStudio for Performance Marketing reconoce e interpreta estos marcadores de posición en función del [nombre de campo _reconocido_](#recognized-field-names). Cada nombre de campo está asociado con reglas y comportamientos específicos que determinan cómo se genera e inserta el contenido en la plantilla.
 
@@ -124,6 +124,14 @@ En este ejemplo:
 - `{{image}}` es el marcador de posición para la dirección URL de origen de imagen.
 - `{{imageDescription}}` es el marcador de posición del texto alternativo, que proporciona una descripción de la imagen para fines de accesibilidad y optimización de los motores de búsqueda.
 
+### Etiqueta de accesibilidad
+
+El atributo `aria-label` se usa para definir un nombre accesible para los elementos que no tienen etiquetas visibles. Este atributo es especialmente útil en plantillas en las que es importante proporcionar contexto para elementos interactivos, como un botón de CTA.
+
+```html
+<a class="button" href="{{link}}" aria-label="{{CTAAriaLabel}}">{{cta}}</a>
+```
+
 ### En texto de imagen
 
 El marcador de posición `{{on_image_text}}` se usa para especificar una superposición de texto de mensajes cortos e impactantes, colocados directamente en la imagen de una experiencia.
@@ -172,9 +180,38 @@ Para crear una sección editable, agregue corchetes dobles alrededor del nombre 
 </tbody>
 ```
 
+### Edición de texto enriquecido
+
+Mejore su contenido creativo durante el proceso de [!DNL Create] con la edición de texto enriquecido. El lienzo determina la capacidad del texto enriquecido en función de la ubicación del marcador de posición de contenido. La funcionalidad de texto enriquecido solo está disponible cuando se usan marcadores de posición de contenido como elementos independientes o en etiquetas HTML de nivel de bloque, como `<p>`, `<div>` o `<span>`.
+
+La edición de texto enriquecido está disponible para contenido independiente en un párrafo:
+
+```html
+<p>{{body}}</p>
+```
+
+Si usa un marcador de posición de contenido dentro de un atributo HTML (como `alt`, `href` o `src`), no se admite la edición de texto enriquecido en ese campo.
+
+La edición de texto enriquecido es **no** disponible para el contenido de `alt`:
+
+```html
+<img src="image.jpg" alt="{{image_description}}">
+```
+
+Si un campo aparece más de una vez, la capacidad de texto enriquecido se determina en función de si se utiliza como atributo HTML en cualquiera de las instancias. Por ejemplo, cuando el titular se utiliza como encabezado y como texto alternativo para una imagen, la etiqueta `alt` tiene prioridad.
+
+La edición de texto enriquecido es **no** disponible para `headline` debido a que se usa como contenido de `alt`:
+
+```html
+<h1>{{headline}}</h1>
+<img src="image.jpg" alt="{{headline}}">
+```
+
+La edición de texto enriquecido puede estar disponible para ciertos campos dentro de canales específicos, como `on_image_text` en canales sociales (Meta, LinkedIn).
+
 ## Secciones o grupos
 
-Puede utilizar secciones en una plantilla de correo electrónico de marketing cuando tenga dos o tres agrupaciones de campos. _Las secciones_ informan a GenStudio for Performance Marketing de que los campos de esta sección requieren un alto grado de coherencia. El establecimiento de esta relación ayuda a la IA a generar contenido que coincida con los elementos creativos de la sección.
+Si la plantilla de correo electrónico requiere varias áreas de contenido, como varias ofertas o artículos, puede organizarlas mediante secciones o grupos. _Las secciones_ informan a GenStudio for Performance Marketing de que los campos de esta sección requieren un alto grado de coherencia. El establecimiento de esta relación ayuda a la IA a generar contenido que coincida con los elementos creativos de la sección.
 
 Utilice un nombre de grupo de su elección como prefijo para indicar que un campo forma parte de una sección o grupo. Use un nombre de campo (como `headline`, `body`, `image` o `cta`) después del guion bajo (`_`).
 
@@ -192,7 +229,7 @@ Cada sección solo puede utilizar uno de cada tipo de campo. Por ejemplo, los ca
 
 Debido a esta regla, las secciones no se pueden anidar.
 
-Cada tipo de plantilla, como correo electrónico o MetaAd, tiene restricciones específicas del canal en el uso de secciones. Consulte [directrices específicas del canal](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) en el tema _Prácticas recomendadas para usar plantillas_.
+Cada tipo de plantilla, como correo electrónico o MetaAd, tiene restricciones específicas del canal en el uso de secciones. Consulte [directrices específicas del canal](/help/user-guide/content/best-practices-for-templates.md) en el tema _Prácticas recomendadas para usar plantillas_.
 
 Por ejemplo, una plantilla de correo electrónico puede incluir hasta tres secciones; por lo tanto, puede tener tres secciones de titular y cuerpo:
 

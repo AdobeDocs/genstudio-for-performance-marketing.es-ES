@@ -5,16 +5,16 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 1f62546f4fc2381bcc4d8fd3acadd1d6470ed9e8
+source-git-commit: 7dfd915ebcc001b12357cfa334346e6698436d7d
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1366'
 ht-degree: 1%
 
 ---
 
 # Trabajo con plantillas
 
-GenStudio for Performance Marketing permite a los creadores de contenido producir rápidamente contenido de marketing coherente de la marca mediante _plantillas_. Una plantilla reduce significativamente el tiempo y el esfuerzo necesarios para generar contenido nuevo al proporcionar un punto de partida que incluye diseños y elementos de diseño preconfigurados.
+GenStudio for Performance Marketing permite a los creadores de contenido producir rápidamente contenido de marketing coherente de la marca mediante _plantillas_. Una plantilla reduce significativamente el tiempo y el esfuerzo necesarios para generar contenido nuevo al proporcionar un punto de partida que incluye diseños y elementos de diseño preconfigurados. Para empezar, cargue una plantilla personalizada en [!DNL Content] o use una plantilla de inicio en [!DNL Create]. Las [plantillas iniciales](/help/user-guide/templates/starter-templates.md) proporcionan una forma rápida de empezar con un diseño estándar, mientras que una plantilla personalizada permite usar diseños y diseños únicos.
 
 Aunque GenStudio for Performance Marketing no admite la creación directa de plantillas dentro de la aplicación, puede diseñar y preparar fácilmente plantillas con herramientas de diseño populares, como Adobe InDesign, Illustrator o Express. Una vez completado el diseño, puede adaptarlo para utilizarlo en GenStudio for Performance Marketing. Empiece a utilizar las plantillas siguiendo estos pasos:
 
@@ -38,7 +38,7 @@ A continuación se muestra una lista de los elementos que se utilizan en las pla
 | **Encabezado** | Correo electrónico | La sección superior del correo electrónico que ve el destinatario al abrir el correo electrónico establece el tono y proporciona contexto para el contenido incluido. |
 | **Titular** | Meta ad, Banner y anuncios de visualización, LinkedIn | El primer contenido que el destinatario ve debe ser convincente para captar el interés. |
 | **Subtítulo** | Correo electrónico, banner y anuncios en pantalla | Elemento de texto secundario que admite el titular. Por lo general, es conciso y está diseñado para complementar el titular principal, lo que lleva la atención del lector más allá en el contenido. |
-| **Texto introductorio** | LinkedIn | El mensaje principal transmite el mensaje principal, similar a la copia de cuerpo. Puede utilizar hasta 150 caracteres, incluidos espacios, un máximo de cuatro emojis y puntuación. |
+| **Texto introductorio** | LinkedIn | El mensaje principal transmite el mensaje principal, similar a la copia del cuerpo. Puede utilizar hasta 150 caracteres, incluidos espacios, un máximo de cuatro emojis y puntuación. |
 | **Cuerpo** | Correo electrónico, Meta-anuncio, Banner y Anuncios en pantalla | El texto principal del anuncio transmite el mensaje principal. Debe ser atractivo, informativo y persuasivo alentar la acción deseada de la audiencia. |
 | **CTA** | Correo electrónico, publicidad en metadatos, anuncios en banners y pantallas, LinkedIn | Un botón de call-to-action utiliza una frase y un vínculo para animar al destinatario a realizar una acción específica, como hacer clic en un vínculo o realizar una compra. |
 | **Imágenes** | Correo electrónico, publicidad en metadatos, anuncios en banners y pantallas, LinkedIn | Mejore el atractivo visual, divida el texto y admita el mensaje. Las imágenes deben ser de alta calidad y llamativas. |
@@ -59,7 +59,7 @@ Usted [personaliza su plantilla](customize-template.md) para usarla en GenStudio
 
 ## Administración de plantillas
 
-La galería _[!DNL Templates]_&#x200B;muestra su inventario de plantillas personalizadas para generar experiencias en GenStudio for Performance Marketing.
+La galería _[!DNL Templates]_muestra su inventario de plantillas personalizadas para generar experiencias en GenStudio for Performance Marketing.
 
 ### Buscar conjunto de datos
 

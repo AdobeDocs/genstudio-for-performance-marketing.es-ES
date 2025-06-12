@@ -5,9 +5,9 @@ level: Beginner
 role: User
 feature: Media Templates, Guidelines, Generative AI
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 1ff6a3ecf0a0773c3a6f13d6993042b0620c6dd2
+source-git-commit: 7495891b58d7830453ba81048df3373820823136
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,14 @@ Los administradores de sistemas configuran Adobe GenStudio for Performance Marke
 
 ### Paso 1: Añadir directrices
 
-La configuración de los componentes clave de la identidad de marca de su organización es un requisito previo esencial para el trabajo de los editores de contenido y los colaboradores. [Directrices](/help/user-guide/guidelines/overview.md) capturan características de la marca, como logotipos, tono de voz y paletas de color. Puede cargar documentos de [[!DNL Brands] guidelines](/help/user-guide/guidelines/brands.md) o escribir manualmente la información de marca. [[!DNL Personas] directrices](/help/user-guide/guidelines/personas.md) y [[!DNL Products] directrices](/help/user-guide/guidelines/products.md) también son importantes. Las capacidades generativas de IA subyacentes de GenStudio for Performance Marketing utilizan estas directrices para establecer protecciones que guíen la generación de contenido.
+Las [directrices](/help/user-guide/guidelines/overview.md) de marca capturan características de marca. Las capacidades generativas de IA subyacentes de GenStudio for Performance Marketing utilizan estas directrices para establecer protecciones que guíen la generación de contenido. Puede cargar documentos de [[!DNL Brands] guideline](/help/user-guide/guidelines/brands.md) o escribir manualmente información de marca.
+
+Los editores de contenido y los colaboradores no pueden comenzar su trabajo hasta que se establezcan los elementos básicos de la [identidad de marca](/help/user-guide/guidelines/brands.md) de su organización. Estos componentes de marca incluyen ambos:
+
+* Elementos intangibles, como el tono de voz
+* Activos tangibles, como logotipos, paletas de color y tipografía.
+
+Antes de crear directrices, aprenda cómo GenStudio for Performance Marketing define [componentes de marca](/help/user-guide/guidelines/brands.md)
 
 #### Preparación de los documentos de directrices
 

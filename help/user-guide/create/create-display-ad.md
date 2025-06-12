@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: d82891b2347c6b97bf8f6eef9cffe363ea341725
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -80,12 +80,15 @@ Para resaltar una capa individual para revisarla, haga clic en un campo o imagen
 
 * **Para [editar el nombre del borrador del anuncio para mostrar](/help/user-guide/create/manage-variants.md#change-draft-name)**, haga clic en el título de _Borrador sin título_ en la parte superior del lienzo y escriba un nuevo título.
 * **Para [editar manualmente un anuncio en pantalla](/help/user-guide/create/manage-variants.md#manually-edit-text)**, haga doble clic en cualquiera de las secciones o campos de anuncios en pantalla (como la línea de asunto, el encabezado o la copia de cuerpo) y edítelo según sea necesario.
+* **Para [aplicar formato de texto](/help/user-guide/create/manage-variants.md#manually-edit-text)** en una variante, haz clic en el texto en la imagen o en el vínculo en línea de una variante y haz clic en **[!UICONTROL Dar formato al texto]**.
 * **Para [volver a generar una sección de una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, haga clic en un campo de texto editable y use las opciones _[!UICONTROL Ediciones sugeridas]_ o escriba un nuevo mensaje en _[!UICONTROL Generar nuevo texto_ sección] y haga clic en **[!UICONTROL Generar]**.
 * **Para [agregar o intercambiar imágenes en una variante](/help/user-guide/create/manage-variants.md#swap-image)**, haga clic en un recurso de imagen (o en el área del recurso de imagen si todavía no existe una imagen) y haga clic en el icono **[!UICONTROL Intercambiar desde contenido]**.
 * **Para [agregar un vínculo a una imagen en una variante](/help/user-guide/create/manage-variants.md#add-image-link)**, haga clic en un recurso de imagen (o en el área del recurso de imagen si la imagen no existe actualmente) y haga clic en el icono de vínculo.
 * **Para [agregar texto alternativo para imágenes en una variante](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**, haga clic en un recurso de imagen y use la opción _Texto alternativo_ para agregar o generar texto alternativo manualmente por imagen.
+* **Para [agregar etiquetas de accesibilidad](/help/user-guide/create/manage-variants.md#add-accessibility-labels) a las variantes**, haga clic en una imagen o en un vínculo de call-to-action y, a continuación, proporcione una breve descripción que explique lo que hace el vínculo o el botón.
 * **Para [cambiar el tamaño y la proporción de aspecto del anuncio](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**, haga clic en el botón _[!UICONTROL Cambiar tamaño]_ (cuadro con un icono de botón en el lado izquierdo del lienzo) y seleccione un nuevo tamaño y proporción de aspecto para aplicar a todas las variantes. Las variantes se duplican y se cambia su tamaño.
-* **Para [recortar o cambiar la posición de las imágenes](/help/user-guide/create/manage-variants.md#crop-assets)**, pase el ratón sobre la imagen, haga clic en el icono de recorte que aparece y ajuste el tamaño y la ubicación de la imagen. Haga clic en **[!UICONTROL Aplicar]**.
+* **Para [recortar o cambiar la posición de las imágenes](/help/user-guide/create/manage-variants.md#crop-assets)**, haga clic en una imagen, haga clic en **[!UICONTROL Editar]** (icono de lápiz) y, a continuación, en **[!UICONTROL Recortar]**. Ajuste el tamaño y la ubicación de la imagen.
+* **Para [usar Generative Expand para cambiar el tamaño y ajustar las imágenes](/help/user-guide/create/manage-variants.md#use-generative-expand) a su plantilla de trabajo**, haga clic en una imagen, haga clic en **[!UICONTROL Editar]** (icono de lápiz) y luego en **[!UICONTROL Expandir]**. Ajuste la imagen para ajustar la proporción de aspecto y la plantilla necesarias.
 
 <!-- # Preview for device
 When revising and preparing email experiences, you can toggle between previews for desktop and mobile views to ensure coherence and visual appeal of draft variants.
@@ -127,7 +130,7 @@ Ver [revisiones y aprobaciones](/help/user-guide/approvals/overview.md).
 Para que los anuncios en pantalla generados estén disponibles para su uso actual y futuro, publíquelo en [!UICONTROL Contenido] y expórtelo para su uso en campañas de marketing.
 
 1. **Para publicar tus nuevas experiencias con anuncios en pantalla**, haz clic en **[!UICONTROL Publicar]** en la barra de herramientas superior o dentro del flujo de aprobaciones.
-   1. Seleccione _[!UICONTROL [!DNL Campaigns]]_&#x200B;y agregue&#x200B;_[!UICONTROL &#x200B; más detalles &#x200B;]_&#x200B;si lo desea.
+   1. Seleccione _[!UICONTROL [!DNL Campaigns]]_y agregue_[!UICONTROL  más detalles ]_si lo desea.
    1. Haga clic en **[!UICONTROL Publicar]**.
 
       ![Publicar un anuncio para mostrar](/help/assets/publish-displayad.png){width="450" zoomable="yes"}

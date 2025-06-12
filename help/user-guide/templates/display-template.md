@@ -4,9 +4,10 @@ description: Siga las prácticas recomendadas al utilizar plantillas de anuncios
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 78313c2a2177a2ccb39e37a87ca3c657e7906d0a
+exl-id: 076239b3-9444-48f9-bdd6-ef2b757bdf0d
+source-git-commit: 4760da26d20e91489a74bb238e07f0d3b426c0a1
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '288'
 ht-degree: 1%
 
 ---
@@ -27,12 +28,16 @@ Siga estas prácticas recomendadas de diseño al personalizar las plantillas de 
 
 ## Nombres de campo reconocidos
 
-Para los titulares y anuncios en pantalla, GenStudio for Performance Marketing genera automáticamente el campo `cta`. Al personalizar la plantilla, utilice marcadores de posición de contenido para los siguientes campos obligatorios:
+Al personalizar el titular o la plantilla de anuncio en pantalla, utilice marcadores de posición de contenido para los siguientes campos obligatorios:
 
 - `headline`
 - `sub_headline`
 - `body`
 - `image` (obligatorio, seleccionado entre JPEG de contenido, PNG o GIF)
+
+GenStudio for Performance Marketing genera automáticamente los campos siguientes. No es necesario aplicar marcadores de posición de contenido para:
+
+- `cta`
 
 Consulte [Marcadores de posición de contenido](/help/user-guide/content/customize-template.md#content-placeholders) para obtener más información sobre el uso de nombres de campo en las plantillas.
 

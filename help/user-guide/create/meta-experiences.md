@@ -5,18 +5,18 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: 0344e43bc9cd417ea7b3ecd3a394bbcd6b104303
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
 
 # Metaexperiencias
 
-Con Adobe GenStudio for Performance Marketing, puedes usar IA generativa para optimizar la [creación de metaexperiencias de alto impacto](/help/user-guide/create/create-meta-ad.md).
+Con Adobe GenStudio for Performance Marketing, puedes usar IA generativa para optimizar la [creación de metaexperiencias de alto impacto](/help/user-guide/create/create-meta-ad.md). [!DNL Create] permite que los creadores de contenido usen [directrices](/help/user-guide/guidelines/overview.md), recursos de imagen y un [mensaje bien diseñado](/help/user-guide/effective-prompts.md) para [crear experiencias de anuncios Meta rápidamente](/help/user-guide/create/create-meta-ad.md).
 
-[!DNL Create] permite que los creadores de contenido usen [directrices](/help/user-guide/guidelines/overview.md), recursos de imagen y un [mensaje bien diseñado](/help/user-guide/effective-prompts.md) para [crear experiencias de anuncios Meta rápidamente](/help/user-guide/create/create-meta-ad.md).
+Al generar experiencias Meta, se crean cuatro variaciones que se muestran en el lienzo. GenStudio for Performance Marketing admite [anuncios Meta estándar y personalizados](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
 Al generar experiencias Meta, se crean cuatro variaciones que se muestran en el lienzo.
 
@@ -28,13 +28,9 @@ Las secciones editables de una experiencia de correo electrónico incluyen:
 * Cuerpo
 * Call to action (CTA)
 * Texto en la imagen
-* Imagen
+* Imagen/vídeo
 
 Ver [elementos de plantilla](/help/user-guide/content/use-templates.md#template-elements).
-
-<!-- ## Meta ad capabilities
-
-Content creators and marketers can produce brand-consistent Meta ad experiences in GenStudio for Performance Marketing. -->
 
 ## Canales de metacaracteres
 

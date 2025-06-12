@@ -3,7 +3,8 @@ title: Adobe GenStudio for Performance Marketing Campaigns
 description: Aprenda a crear y administrar campañas de marketing digital que aprovechen los recursos y las experiencias de IA generativa.
 feature: Campaign Planning, Campaign Brief
 badgeBeta: label="Beta" tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."
-source-git-commit: edbeb7f0d08e2215a23f15cfeff77a5217cd264b
+exl-id: b7c4194f-fa61-4739-acd6-7acbdd98e9b2
+source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 0%
@@ -16,12 +17,11 @@ Una campaña de GenStudio for Performance Marketing define los rasgos clave de l
 
 Los elementos clave de la campaña se almacenan en un objeto de campaña, lo que crea un contexto compartido para todos los recursos y experiencias etiquetados con el mismo nombre de campaña único. Esta etiqueta identifica la campaña en GenStudio for Performance Marketing.
 
-Los administradores de sistemas de GenStudio y los editores de Genstudio pueden crear campañas.
+Los administradores del sistema de GenStudio y los editores de GenStudio pueden crear campañas.
 
 ## Definición de detalles de campaña
 
 {{$include /help/_includes/campaign-details.md}}
-
 
 **Para ingresar los detalles de la campaña**:
 

@@ -3,7 +3,7 @@ title: Administración de activaciones
 description: Obtenga información sobre cómo administrar experiencias activadas con Adobe GenStudio for Performance Marketing.
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: 65bf96b7b2871e0c28dbe341b71f4e8584de9f3e
+source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Administración de activaciones
 
-_[!DNL Activate]_&#x200B;ofrece una vista centralizada del estado de activación de cada canal de publicidad, incluidas las activaciones Publicado (correcto), Fallido (incorrecto) y Publicación (pendiente). La vista_ Experiencias activadas _muestra todas las activaciones de una cuenta de anuncio de canal conectada.
+[!DNL Activate] ofrece una vista centralizada del estado de activación de cada canal de publicidad, incluidas las activaciones Publicado (correcto), Fallido (incorrecto) y Publicación (pendiente). La vista _Experiencias activadas_ muestra todas las activaciones de una cuenta de anuncio de canal conectada.
 
-_[!DNL Activate]_&#x200B;organiza las experiencias activadas por canal de publicidad. Haga clic en **[!UICONTROL Ver]**&#x200B;en el mosaico del canal. Se abre la vista de_ experiencias activadas _para el canal seleccionado. Esta vista enumera las experiencias por nombre y las ordena por fecha de activación. Si su organización no ha activado experiencias para ese canal, el mosaico del producto no incluye el botón **[!UICONTROL Ver]**.
+[!DNL Activate] organiza las experiencias activadas por canal de publicidad. Haga clic en **[!UICONTROL Ver]** en el mosaico del canal. Se abre la vista de _experiencias activadas_ para el canal seleccionado. Esta vista enumera las experiencias por nombre y las ordena por fecha de activación. Si su organización no ha activado experiencias para ese canal, el mosaico del producto no incluye el botón **[!UICONTROL Ver]**.
 
 ## Vista de experiencia activada
 

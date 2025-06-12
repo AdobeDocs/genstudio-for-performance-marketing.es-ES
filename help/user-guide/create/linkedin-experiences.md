@@ -6,18 +6,16 @@ badgeBeta: label="Beta" tooltip="Esta función se encuentra actualmente en Beta,
 role: User
 level: Beginner
 exl-id: 4d43a214-c635-440f-9dbb-f371bc253195
-source-git-commit: 8d79c2bd2347bebb18ecb432a7087fb3d1ac1356
+source-git-commit: c34576c93550eff6f15b31416e7a41ec36339fe5
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
 
 # Experiencias de LinkedIn
 
-Con Adobe GenStudio for Performance Marketing, puede aprovechar la IA generativa para [crear de manera eficiente experiencias de LinkedIn eficaces](/help/user-guide/create/create-linkedin.md).
-
-[!DNL Create] permite que los creadores y especialistas en marketing de contenido empleen [directrices](/help/user-guide/guidelines/overview.md), recursos de imagen y [un mensaje instructivo](/help/user-guide/effective-prompts.md) para [generar experiencias de LinkedIn adaptadas a la marca](/help/user-guide/create/create-email-experience.md).
+Con Adobe GenStudio for Performance Marketing, puede aprovechar la IA generativa para [crear de manera eficiente experiencias de LinkedIn eficaces](/help/user-guide/create/create-linkedin.md). [!DNL Create] permite que los creadores y especialistas en marketing de contenido empleen [directrices](/help/user-guide/guidelines/overview.md), recursos de imagen y [un mensaje instructivo](/help/user-guide/effective-prompts.md) para [generar experiencias de LinkedIn adaptadas a la marca](/help/user-guide/create/create-email-experience.md).
 
 Al generar experiencias de LinkedIn, se crean cuatro variaciones que se muestran en el lienzo.
 
@@ -27,7 +25,7 @@ Las secciones editables de una experiencia de LinkedIn incluyen:
 * Texto introductorio
 * Descripción
 * Call to action (CTA)
-* Imagen
+* Imagen/vídeo
 
 Ver [elementos de plantilla](/help/user-guide/content/use-templates.md#template-elements).
 

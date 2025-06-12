@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo activar contenido con Adobe Experi
 level: Beginner
 feature: Ad Activation
 exl-id: 365fe253-d189-467e-a723-f54cd74ff60b
-source-git-commit: 11513e8cb4bc629ae205183aa1ebb02f18150527
+source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Activar Adobe GenStudio for Performance Marketing
 
-GenStudio for Performance Marketing _[!DNL Activate]_&#x200B;proporciona una ubicación central para preparar la experiencia de anuncio para la activación en determinados canales de publicidad de pago._ Activation _es el proceso de preparación de experiencias de publicidad, recursos y texto como una experiencia de publicidad creativa diseñada exclusivamente para colocarla en un canal de pago específico. Activation ofrece la experiencia creativa a canales designados en un estado inactivo, listos para la revisión final y la implementación desde el canal. Las experiencias publicitarias se pueden distribuir en los mercados para los que están destinadas.
+GenStudio for Performance Marketing [!DNL Activate] proporciona una ubicación central para preparar la experiencia de anuncio para la activación en determinados canales de publicidad de pago. _Activation_ es el proceso de preparación de experiencias de publicidad, recursos y texto como una experiencia de publicidad creativa diseñada exclusivamente para colocarla en un canal de pago específico. Activation ofrece la experiencia creativa a canales designados en un estado inactivo, listos para la revisión final y la implementación desde el canal. Las experiencias publicitarias se pueden distribuir en los mercados para los que están destinadas.
 
 Los editores de contenido y los administradores del sistema pueden publicar experiencias cuyos recursos se generen en GenStudio for Performance Marketing o se carguen en esta.
 
@@ -23,19 +23,19 @@ Antes de activar una experiencia publicitaria, todas las cuentas de canal de med
 
 ## Activar casos de uso
 
-* Activar experiencias aprobadas directamente desde _[!DNL Content]_&#x200B;para determinados canales de publicidad pagada.
+* Activar experiencias aprobadas directamente desde [!DNL Content] para determinados canales de publicidad pagada.
 
 * [Crear una activación](create-activation.md). Puede crear una experiencia publicitaria seleccionando recursos visuales, asignando texto y definiendo metadatos antes de transferirlos a un canal de pago.
 
-* [Administrar activaciones](manage-activations.md). _[!DNL Activate]_&#x200B;proporciona una descripción general de todas las experiencias activadas. También puede ver los detalles de las activaciones individuales.
+* [Administrar activaciones](manage-activations.md). _[!DNL Activate]_proporciona una descripción general de todas las experiencias activadas. También puede ver los detalles de las activaciones individuales.
 
 ## Activar funciones
 
-_[!DNL Activate]_&#x200B;facilita la preparación de experiencias de publicidad para su distribución en los canales de pago de destino.
+[!DNL Activate] facilita la preparación de experiencias de publicidad para su distribución en los canales de pago de destino.
 
 ### Activar una experiencia aprobada directamente desde el contenido
 
-Puede activar una experiencia aprobada directamente desde _[!DNL Content]_&#x200B;o activar varias experiencias aprobadas como un grupo de activación para determinados canales de pago. Todas las experiencias de un grupo deben segmentarse en el mismo canal de pago.
+Puede activar una experiencia aprobada directamente desde [!DNL Content] o activar varias experiencias aprobadas como un grupo de activación para determinados canales de pago. Todas las experiencias de un grupo deben segmentarse en el mismo canal de pago.
 
 ### Preparar una experiencia para su activación
 
@@ -43,7 +43,7 @@ La página _Configuración de experiencias_ consolida las herramientas que neces
 
 ### Seleccionar recursos para la experiencia publicitaria
 
-Busque y seleccione recursos visuales aprobados de _[!DNL Content]_, o bien cargue recursos de Dropbox o OneDrive. Puede cargar recursos directamente desde el dispositivo. Una experiencia de anuncio se puede ejecutar en varias ubicaciones. Assets se puede cargar en las relaciones de aspecto que requieren sus ubicaciones de anuncios.
+Busque y seleccione recursos visuales aprobados de [!DNL Content], o bien cargue recursos de Dropbox o OneDrive. Puede cargar recursos directamente desde el dispositivo. Una experiencia de anuncio se puede ejecutar en varias ubicaciones. Assets se puede cargar en las relaciones de aspecto que requieren sus ubicaciones de anuncios.
 
 ### Previsualización y activación de la experiencia en un canal de publicidad
 

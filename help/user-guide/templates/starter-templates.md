@@ -3,12 +3,12 @@ title: Preparar una plantilla de correo electrónico para GenStudio for Performa
 description: Obtenga información sobre cómo preparar una plantilla de correo electrónico para utilizarla en Adobe GenStudio for Performance Marketing.
 level: Beginner
 feature: Media Templates
-hide: true
-hidefromtoc: true
+badgeBeta: label="Beta" tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."
 recommendations: noDisplay, noCatalog
-source-git-commit: 35a519a8d28e260bfa6d9ed671bd5bf1cfeda931
+exl-id: 47dbebd1-f2d8-4a9d-b86c-2d398af259f6
+source-git-commit: a7c69659c348fad3e067a84c1d242809a83b42fb
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '410'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 1%
 _Las plantillas iniciales_ son opciones de plantillas predefinidas diseñadas para ayudarle a empezar rápidamente con GenStudio for Performance Marketing y aprender a crear medios eficaces. En [!DNL Create], seleccione un tipo de medio. Si las plantillas de inicio están disponibles, cambie a la pestaña **[!UICONTROL Plantillas de inicio]** para buscar y seleccionar una plantilla que se ajuste a sus necesidades.
 
 ![Ficha Plantillas de inicio](/help/assets/starter-templates.png "Seleccionar fichas de plantilla"){width="350"}
-
-## Selección de la relación de aspecto correcta
 
 Seleccionar la proporción de aspecto adecuada para su anuncio es importante para maximizar el impacto y garantizar que el contenido se muestre correctamente en diferentes plataformas y ubicaciones. Tenga en cuenta lo siguiente al elegir una relación de aspecto:
 
