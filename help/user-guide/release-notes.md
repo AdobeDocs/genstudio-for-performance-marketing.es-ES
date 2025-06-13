@@ -4,9 +4,9 @@ description: Obtenga información sobre las últimas funciones y mejoras de Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
+source-git-commit: 13687f4ac6c558a419c0bb7b83aa4f6d174aabbc
 workflow-type: tm+mt
-source-wordcount: '2667'
+source-wordcount: '2694'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,8 @@ Junto con el contenido de la imagen, ahora puedes agregar videos a los anuncios 
 * Ahora puede [usar formato de edición de texto enriquecido para texto](/help/user-guide/create/manage-variants.md#manually-edit-text) en las variantes generadas. Experimente con infinidad de opciones de formato para texto de variante, como color, tamaño, listas y mucho más.
 
 * Ahora puede [crear un nuevo conjunto de anuncios](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set) durante la configuración de la plataforma clonando un conjunto de anuncios existente durante la configuración de la plataforma. Los conjuntos de metadatos de publicidad definen el momento, los detalles de canal y la audiencia de un anuncio específico. Una metacampaña puede contener varios conjuntos de anuncios, pero un conjunto de anuncios está asociado exclusivamente a una campaña.
+
+* Ahora puede exportar los detalles de la campaña para que sean accesibles externamente como informes de campaña en Word o PDF. Seleccione una campaña y haga clic en **[!UICONTROL Exportar]** (esquina superior derecha).
 
 ## Notas de la versión anteriores
 
