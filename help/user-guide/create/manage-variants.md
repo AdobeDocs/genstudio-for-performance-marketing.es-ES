@@ -3,9 +3,9 @@ title: Administrar variantes
 description: Personalice y mejore las variantes y los recursos generados para adaptarlos a sus necesidades de marketing digital.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
+source-git-commit: ab4bc7eddf0ef4c514a64338ca4e68814c4616a5
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2106'
 ht-degree: 0%
 
 ---
@@ -196,27 +196,26 @@ Puede añadir o intercambiar imágenes en variantes generadas directamente desde
 1. Haga clic en el icono **[!UICONTROL Intercambiar del contenido]**.
 1. Utilice los filtros y la función de búsqueda en la vista de recursos de GenStudio [!DNL Content] para restringir aún más los resultados de búsqueda.
 
-   También puede usar imágenes disponibles en repositorios conectados de Adobe Experience Manager (AEM) Assets Content Hub seleccionando ese repositorio en el menú [**[!UICONTROL Ubicación &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   También puede usar imágenes disponibles en repositorios conectados de Adobe Experience Manager (AEM) Assets Content Hub seleccionando ese repositorio en el menú [**[!UICONTROL Ubicación ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Haga clic para seleccionar una imagen y haga clic en **[!UICONTROL Usar]**.
 
    La imagen se agrega o intercambia en la variante aplicable.
 
-## Añadir vínculo de imagen
+## Añadir vínculos
 
-De forma similar a añadir o intercambiar imágenes en variantes generadas, puede añadir un vínculo a las imágenes. La plantilla que usó para generar variantes _debe_ contener un marcador de posición de [contenido para el vínculo](/help/user-guide/content/customize-template.md#content-placeholders) para habilitar esta funcionalidad.
+Puede agregar un vínculo a texto, imágenes y botones de CTA dentro de sus variantes. La plantilla que usó para generar variantes _debe_ contener un marcador de posición de [contenido para el vínculo](/help/user-guide/content/customize-template.md#content-placeholders) para habilitar esta funcionalidad.
 
-**Para agregar un vínculo de imagen en una variante**:
+**Para agregar un vínculo en una variante**:
 
-1. Después de generar un conjunto de variantes, haga clic en un recurso de imagen.
-
-   Si la variante no tiene actualmente un recurso de imagen colocado, haga clic en el área del recurso de imagen.
-
-1. Haga clic en el icono de vínculo.
-1. Haga clic en **[!UICONTROL Quitar vínculo]** para quitar el vínculo predeterminado existente.
-1. Agregue un vínculo en el campo de texto y haga clic en **[!UICONTROL Aplicar]**.
-
-   El vínculo definido se aplica a todas las imágenes del conjunto de variantes.
+1. Al editar un anuncio, haga clic en la variable del elemento y busque el icono **[!UICONTROL Agregar vínculo]** o **[!UICONTROL Editar vínculo]**.
+2. Haga clic en el icono para abrir la ventana al campo de texto.
+3. Introduzca el destino. Se aceptan vínculos que incluyen direcciones URL, direcciones de correo electrónico o números de teléfono:
+   * `https://`
+   * `mailto:`
+   * `tel:`
+   * `sms:`
+   * `https://wa.me/` o `whatsapp://`
 
 ## Agregar texto alternativo para imágenes
 
