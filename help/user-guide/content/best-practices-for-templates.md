@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: adf987b016825861b5522b44b61263000eb63859
+source-git-commit: e2b2e3b541c4d07530b9e725fceebabccbf6c84d
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Al crear plantillas, asegúrese de que cumplen los requisitos específicos del c
 
 {{note-css-effects}}
 
-Consulte más sugerencias y restricciones al trabajar con cada tipo de plantilla para garantizar un rendimiento y una compatibilidad óptimos:
+Consulte más sugerencias y restricciones al trabajar con cada tipo de plantilla para garantizar un rendimiento óptimo:
 
 - [Correos electrónicos](/help/user-guide/templates/email-template.md)
 - [Publicidad en pantalla y banner](/help/user-guide/templates/display-template.md)
