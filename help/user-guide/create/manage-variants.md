@@ -3,9 +3,9 @@ title: Administrar variantes
 description: Personalice y mejore las variantes y los recursos generados para adaptarlos a sus necesidades de marketing digital.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: ab4bc7eddf0ef4c514a64338ca4e68814c4616a5
+source-git-commit: 2cf3bd4cb01f75dbff9fcf0cca7239256fc81129
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2101'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ El formato de texto disponible incluye:
 * Tamaño de texto
 * Enlace
 
-Las opciones de formato de texto variarán según el canal (metadatos, correo electrónico, etc.)
+Las opciones de formato de texto varían según el canal (metadatos, correo electrónico, etc.)
 
 **Para editar texto manualmente en variantes generadas**:
 
@@ -162,7 +162,7 @@ Esta función de expansión generativa está emparejada con la herramienta de re
 
 ## Cambiar proporción de aspecto
 
-Puede cambiar rápidamente la [proporción de aspecto de los anuncios Meta](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) para ajustar el tamaño de anuncio deseado. Elija una proporción de aspecto de imagen que coincida estrechamente con las dimensiones de la plantilla para evitar recortes o estiramientos no deseados. Por ejemplo, si la plantilla tiene 1200 × 628 píxeles (un rectángulo ancho), al utilizar una imagen cuadrada 1:1 se pueden recortar los lados, lo que podría cortar el contenido importante. El tamaño óptimo de la imagen sería de 628 x 628 píxeles, que coincide con la altura de la plantilla.
+Puede cambiar rápidamente la [proporción de aspecto de los anuncios Meta](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) para ajustar el tamaño de anuncio deseado. Elija una proporción de aspecto de imagen que coincida estrechamente con las dimensiones de la plantilla para evitar recortes o estiramientos no deseados. Por ejemplo, si la plantilla tiene 1200 × 628 píxeles (un rectángulo ancho), al utilizar una imagen cuadrada de 1:1 se pueden recortar los lados, lo que podría cortar el contenido importante. El tamaño óptimo de la imagen sería de 628 x 628 píxeles, que coincide con la altura de la plantilla.
 
 >[!NOTE]
 >
@@ -170,7 +170,7 @@ Puede cambiar rápidamente la [proporción de aspecto de los anuncios Meta](/hel
 
 **Para cambiar la proporción de aspecto de los Meta ads generados**:
 
-1. Después de generar un conjunto de variantes, seleccione el icono de cambio de tamaño de la relación de aspecto (la flecha que señala a la esquina del cuadro) en el lado izquierdo del lienzo.
+1. Después de generar un conjunto de variantes, haga clic en **[!UICONTROL Cambiar tamaño de relación de aspecto]** (la flecha que señala a la esquina del cuadro) en el lado izquierdo del lienzo.
 
    La proporción de aspecto que se usa actualmente para tus anuncios se muestra en la parte superior de la ventana _[!UICONTROL Cambiar tamaño]_.
 
@@ -196,7 +196,7 @@ Puede añadir o intercambiar imágenes en variantes generadas directamente desde
 1. Haga clic en el icono **[!UICONTROL Intercambiar del contenido]**.
 1. Utilice los filtros y la función de búsqueda en la vista de recursos de GenStudio [!DNL Content] para restringir aún más los resultados de búsqueda.
 
-   También puede usar imágenes disponibles en repositorios conectados de Adobe Experience Manager (AEM) Assets Content Hub seleccionando ese repositorio en el menú [**[!UICONTROL Ubicación &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   También puede usar imágenes disponibles en repositorios conectados de Adobe Experience Manager (AEM) Assets Content Hub seleccionando ese repositorio en el menú [**[!UICONTROL Ubicación ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Haga clic para seleccionar una imagen y haga clic en **[!UICONTROL Usar]**.
 
