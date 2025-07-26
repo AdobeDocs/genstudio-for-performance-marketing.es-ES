@@ -4,24 +4,57 @@ description: Obtenga información sobre las últimas funciones y mejoras de Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 13687f4ac6c558a419c0bb7b83aa4f6d174aabbc
+source-git-commit: 09dea200babd7bdd20a3372c91aca9918117897e
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '3052'
 ht-degree: 0%
 
 ---
 
 # Notas de la versión de GenStudio for Performance Marketing
 
-Esta información de la versión detalla las últimas actualizaciones de la aplicación de GenStudio for Performance Marketing.
+Esta información de la versión proporciona las últimas actualizaciones para la aplicación de GenStudio for Performance Marketing.
 
-## 2025,06 {#latest}
+## 25.07.25 {#latest}
+
+### Filtro de recursos compatibles
+
+Un nuevo filtro en el módulo [!DNL Insights] oculta automáticamente [recursos de imagen y vídeo no compatibles](/help/user-guide/insights/ads.md#ad-formats) de las vistas previas de anuncios, lo que elimina el desorden visual y los mosaicos rotos. Esta mejora garantiza que los usuarios solo vean los medios que están disponibles y listos para usar, lo que crea una experiencia más limpia y fiable. El filtro funciona junto con el filtro de anuncios de compatibilidad existente.
+
+### Activación de varios recursos para Meta
+
+La activación de imágenes de relación de aspecto múltiple para Meta Ads permite a los anunciantes cargar y activar varios recursos de imagen en diferentes relaciones de aspecto con un solo creativo de publicidad. Esta función permite que un anuncio proporcione el ajuste creativo adecuado para varias ubicaciones de metadatos, como fuentes, historias y carretes. Los anunciantes pueden obtener una vista previa de cómo se representará cada imagen en las ubicaciones y publicar todas las versiones en el Meta en una sola llamada de API.
+
+### Formato de texto enriquecido en variantes
+
+[Editar campos de texto en variantes generadas con formato de texto enriquecido](/help/user-guide/create/manage-variants.md#manually-edit-text) opciones que incluyen negrita, cursiva, subrayado, alineación de texto, listas, color de texto, tamaño de texto y vínculos. Esto le permite refinar el texto y el estilo de la audiencia, así como aplicar formato para ajustarse a los requisitos de diseño.
+
+### Etiquetas de accesibilidad para imágenes y vínculos
+
+Agregue etiquetas de accesibilidad (Aria-labels) a las imágenes y a los vínculos de call-to-action en sus variantes para proporcionar nombres accesibles que ayuden a los usuarios a comprender el propósito de los elementos interactivos. Consulte [Administrar variantes](/help/user-guide/create/manage-variants.md) para obtener instrucciones detalladas.
+
+### Generación de contenido que no esté en inglés
+
+[!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
+
+El nuevo menú desplegable Selector de idioma del cajón de mensajes admite la creación de contenido multilingüe, lo que permite a los especialistas en marketing regional desarrollar contenido de marca para sus audiencias locales. Actualmente, esta función es compatible con 12 idiomas de GA y 5 idiomas de Beta, con una lista de idiomas que proporciona un flujo de trabajo definido y una directiva de idioma clara a la LLM para obtener resultados más coherentes.
+
+### Selección de plantilla opcional para anuncios Meta
+
+[!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
+
+La selección de plantillas ahora es opcional con los anuncios Meta, lo que permite a los usuarios crear anuncios sin necesidad de texto y logotipo en la parte superior del contenido. Esta mejora permite otros tipos de medios, como GIF animados y vídeos, que pueden no requerir superposiciones de texto o la colocación de logotipos.
+
+
+## Notas de la versión anteriores
+
++++Notas a partir del 15 de junio de 2025
 
 ### Plantillas iniciales disponibles
 
 [!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
 
-[Las plantillas de inicio](/help/user-guide/templates/starter-templates.md) proporcionan una forma de impulsar el proceso creativo. Ahora puede seleccionar una plantilla de inicio de anuncio de Meta o LinkedIn.
+[Las plantillas de inicio](/help/user-guide/templates/starter-templates.md) proporcionan una forma de iniciar el proceso creativo. Ahora puede seleccionar una plantilla de inicio de anuncio de Meta o LinkedIn.
 
 ### Funcionalidad de IA expandida generativa
 
@@ -53,14 +86,14 @@ Junto con el contenido de la imagen, ahora puedes agregar videos a los anuncios 
 
 * Ahora puede exportar los detalles de la campaña para que sean accesibles externamente como informes de campaña en Word o PDF. Seleccione una campaña y haga clic en **[!UICONTROL Exportar]** (esquina superior derecha).
 
-## Notas de la versión anteriores
++++
 
 +++Notas a partir del 15 de mayo de 2025
 
 ### Correcciones y mejoras
 
 * Se habilitó la funcionalidad para [agregar texto alternativo](/help/user-guide/create/manage-variants.md#add-alt-text-for-images) a una imagen para una variante individual.
-* Se agregó [nueva relación de aspecto meta](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) —Horizontal 1.19:1 (1080 píxeles de anchura).
+* Se agregó [nueva relación de aspecto meta](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) —Horizontal 1.19:1 (anchura de 1080 píxeles).
 * Ahora puede elegir más de una experiencia para exportarla o descargarla. Ver [Exportar experiencias](/help/user-guide/content/manage-assets.md#export-experiences).
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
@@ -202,7 +235,7 @@ Las opciones de exportación ahora incluyen:
 
 Las nuevas funciones adicionales permiten a los editores:
 
-* Use el botón **[!UICONTROL Actualizar]** de la vista _Detalles del recurso_ de la plantilla [!DNL Content] para actualizar la plantilla seleccionada. <!-- GS-7102 -->
+* Use el botón **[!UICONTROL Actualizar]** de la vista [!DNL Content]Detalles del recurso _de la plantilla_ para actualizar la plantilla seleccionada. <!-- GS-7102 -->
 
 * Regenerar secciones de anuncios en pantalla y variantes de correo electrónico. Ver [Crear una experiencia de anuncio en pantalla](/help/user-guide/create/create-display-ad.md#revise-generated-display-ads) y [Crear una experiencia de correo electrónico](/help/user-guide/create/create-email-experience.md#revise-generated-emails). <!-- GS-5080 5078-->
 
