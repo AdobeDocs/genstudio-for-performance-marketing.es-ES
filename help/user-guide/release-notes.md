@@ -4,9 +4,9 @@ description: Obtenga información sobre las últimas funciones y mejoras de Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 09dea200babd7bdd20a3372c91aca9918117897e
+source-git-commit: 7390dc758427d19b23ce054b23fd830662913498
 workflow-type: tm+mt
-source-wordcount: '3052'
+source-wordcount: '3415'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,60 @@ ht-degree: 0%
 
 Esta información de la versión proporciona las últimas actualizaciones para la aplicación de GenStudio for Performance Marketing.
 
-## 25.07.25 {#latest}
+## 2025.08.15 {#latest}
+
+### Perspectivas de atributos de texto
+
+Las perspectivas de atributos de texto de Adobe GenStudio analizan el tono emocional, las técnicas de persuasión y el estilo narrativo utilizados en la copia de publicidad. Una vez que una campaña está activa, GenStudio rastrea cómo se correlacionan estos atributos de texto con métricas de rendimiento clave como CTR, CPA, CPC, impresiones y gasto.
+
+Actualmente solo está disponible para anuncios en inglés. Consulte [Características de texto](/help/user-guide/insights/text-features.md) para obtener información detallada.
+
+### Mejoras de plantilla de perspectivas
+
+* La tarjeta de vista previa del anuncio ahora incluye la opción &quot;Ver más&quot; para texto.
+* Nuevas plantillas para las tarjetas de masonería de la página de anuncios.
+
+### Generar contenido en varios idiomas con validación de marca
+
+El nuevo selector Idioma en el cajón de mensajes admite la creación de contenido multilingüe, lo que permite a los especialistas en marketing regional desarrollar contenido de marca para sus audiencias locales. Actualmente, esta función admite 12 idiomas.
+
+### Compatibilidad con recursos de vídeo en plantillas
+
+* Los recursos de vídeo se pueden añadir en plantillas Meta y LinkedIn.
+
+### Activar mejoras de experiencia
+
+* Nueva funcionalidad para guardar borradores de activaciones.
+* Nueva funcionalidad para reintentar las activaciones fallidas.
+
+### Usar la misma función en varios campos de texto
+
+Ahora se admiten varios campos de texto con la misma función (por ejemplo, cuerpo, cta, en texto de imagen, etc.) para plantillas de cliente complejas.
+
+Explore los detalles de [las instrucciones del Editor de código de plantilla](/help/user-guide/content/code-editor.md).
+
+### Nuevos modelos Clio 4 Standard y Clio 4 Ultra image generation compatibles
+
+[!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
+
+Adobe GenStudio for Performance Marketing ahora es compatible con el último grupo de Firefly Image Model 4, incluidas dos variantes potentes:
+
+**Clio 4 Standard**: optimizado para velocidad y simplicidad, ideal para generar ilustraciones, iconos, fotos de objetos básicas y retratos de un solo sujeto, que cubren el 90% de las necesidades creativas diarias.
+
+**Clio 4 Ultra**: Prioriza el fotorrealismo y la precisión, sobresaliendo en el procesamiento de retratos humanos, grupos de tamaño mediano y escenas complejas para tareas creativas de alto nivel.
+
+Consulte [Generar recursos](/help/user-guide/create/generate-assets.md) para obtener información detallada sobre el uso de estos nuevos modelos de generación de imágenes.
+
+### Traducción lista para usar para correo electrónico
+
+[!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
+
+Adobe GenStudio for Performance Marketing ahora ofrece funcionalidades integradas de traducción de correo electrónico que permiten a los especialistas en marketing escalar de forma eficaz sus campañas de correo electrónico a nivel global. Esta función le permite tomar una experiencia de correo electrónico aprobada y traducirla a varios idiomas de destino mediante los servicios de traducción de Azure Open AI.
+
+
+## Notas de la versión anteriores
+
++++Notas de 2025.07.25
 
 ### Filtro de recursos compatibles
 
@@ -45,8 +98,7 @@ El nuevo menú desplegable Selector de idioma del cajón de mensajes admite la c
 
 La selección de plantillas ahora es opcional con los anuncios Meta, lo que permite a los usuarios crear anuncios sin necesidad de texto y logotipo en la parte superior del contenido. Esta mejora permite otros tipos de medios, como GIF animados y vídeos, que pueden no requerir superposiciones de texto o la colocación de logotipos.
 
-
-## Notas de la versión anteriores
++++
 
 +++Notas a partir del 15 de junio de 2025
 
@@ -110,7 +162,7 @@ Junto con el contenido de la imagen, ahora puedes agregar videos a los anuncios 
 
 +++
 
-+++Notas del 13 de marzo de 2025
++++Notas a partir del 13 de marzo de 2025
 
 ### Activar anuncios Meta
 
@@ -157,7 +209,7 @@ El nuevo marco de trabajo de extensibilidad [de GenStudio for Performance Market
 
 +++
 
-+++Notas del 13 de febrero de 2025
++++Notas a partir del 13 de febrero de 2025
 
 ### Mejoras en la página de aterrizaje de [!DNL Create]
 
@@ -361,7 +413,7 @@ Esta versión incluye mejoras en la localización en toda la interfaz de usuario
 
 +++
 
-+++Notas de 2024.10.31
++++Notas de la versión 2024.10.31
 
 ### Nuevas funciones
 
