@@ -4,9 +4,9 @@ description: Obtenga información sobre las últimas funciones y mejoras de Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 7390dc758427d19b23ce054b23fd830662913498
+source-git-commit: 778be59db2bf159c57095fbb2d89cff8c9704b33
 workflow-type: tm+mt
-source-wordcount: '3415'
+source-wordcount: '3411'
 ht-degree: 0%
 
 ---
@@ -47,15 +47,15 @@ Ahora se admiten varios campos de texto con la misma función (por ejemplo, cuer
 
 Explore los detalles de [las instrucciones del Editor de código de plantilla](/help/user-guide/content/code-editor.md).
 
-### Nuevos modelos Clio 4 Standard y Clio 4 Ultra image generation compatibles
+### Nuevos modelos de generación de imágenes de Firefly compatibles
 
 [!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
 
 Adobe GenStudio for Performance Marketing ahora es compatible con el último grupo de Firefly Image Model 4, incluidas dos variantes potentes:
 
-**Clio 4 Standard**: optimizado para velocidad y simplicidad, ideal para generar ilustraciones, iconos, fotos de objetos básicas y retratos de un solo sujeto, que cubren el 90% de las necesidades creativas diarias.
+**Imagen de Firefly 4**: optimizada para ofrecer velocidad y simplicidad, es ideal para generar ilustraciones, iconos, fotografías de objetos básicas y retratos de un solo sujeto, y cubre el 90% de las necesidades creativas diarias.
 
-**Clio 4 Ultra**: Prioriza el fotorrealismo y la precisión, sobresaliendo en el procesamiento de retratos humanos, grupos de tamaño mediano y escenas complejas para tareas creativas de alto nivel.
+**Firefly Image 4 Ultra**: Prioriza el fotorrealismo y la precisión, sobresaliendo en el procesamiento de retratos humanos, grupos de tamaño mediano y escenas complejas para tareas creativas de alto nivel.
 
 Consulte [Generar recursos](/help/user-guide/create/generate-assets.md) para obtener información detallada sobre el uso de estos nuevos modelos de generación de imágenes.
 
