@@ -1,11 +1,11 @@
 ---
-title: Administración de recursos y experiencias
+title: Administración de Assets y experiencias
 description: Simplifique y mejore la administración de los recursos aprobados por la marca para usarlos y reutilizarlos en su recorrido de marketing digital.
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 1df977edbca284e67a5d28a6835bf5fc5608aa33
+source-git-commit: 6880aadb104aac6b3282980760406168df3da5fe
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1514'
 ht-degree: 1%
 
 ---
@@ -90,7 +90,7 @@ En la tabla siguiente se enumeran las tareas de administración disponibles para
 
 ### Añadir recursos
 
-Al agregar recursos a [!DNL Content], se almacenan de forma predeterminada en el repositorio `GenStudio assets`. El botón _[!UICONTROL Agregar recursos]_ solo está disponible cuando la _[!UICONTROL ubicación]_ es el repositorio `GenStudio assets`.
+Al agregar recursos a [!DNL Content], se almacenan en el repositorio `GenStudio assets` de forma predeterminada. El botón _[!UICONTROL Agregar recursos]_ solo está disponible cuando la _[!UICONTROL ubicación]_ es el repositorio `GenStudio assets`.
 
 ![Campo de ubicación](/help/assets/content-location.png "Campo de ubicación"){width="350"}
 
@@ -98,11 +98,11 @@ Al agregar recursos a [!DNL Content], se almacenan de forma predeterminada en el
 
 1. En _[!DNL Content]_, haga clic en **[!UICONTROL Agregar recursos]**.
 
-1. En la vista _Agregar los recursos aprobados_, suelte uno o varios archivos en el espacio de colocación. Opcionalmente, puede seleccionar entre archivos locales mediante **[!UICONTROL Examinar]** o importar archivos desde Dropbox o Microsoft OneDrive.
+2. En la vista _Agregar los recursos aprobados_, suelte uno o varios archivos en el espacio de colocación. Opcionalmente, puede seleccionar entre archivos locales mediante **[!UICONTROL Examinar]** o importar archivos desde Dropbox o Microsoft OneDrive.
 
-1. En la sección _Agregar detalles_, seleccione un **[!UICONTROL nombre de campaña]** o escriba un nombre nuevo.
+3. En la sección _Agregar detalles_, seleccione un **[!UICONTROL nombre de campaña]** o escriba un nombre nuevo.
 
-1. Para mejorar la capacidad de detección, agregue detalles opcionales como _Nombre de marca_, _Personas_, _Región_ y _Palabras clave_ en la sección **Más detalles**.
+4. Para permitir la detección, agregue detalles opcionales como _Nombre de marca_, _Personas_, _Región_ y _Palabras clave_ en la sección **Más detalles**.
 
    Cuantos más detalles proporcione, más experimentará las sólidas capacidades de GenStudio for Performance Marketing. Seleccione uno o más detalles de la lista o introduzca uno nuevo cuando corresponda, por ejemplo, con palabras clave. Cada detalle que agregue aparecerá debajo de la lista. Haga clic **`x`** para eliminar un detalle.
 
@@ -110,11 +110,11 @@ Al agregar recursos a [!DNL Content], se almacenan de forma predeterminada en el
 
    Ver [detalles de metadatos](/help/user-guide/content/asset-details.md#system-metadata).
 
-1. Haga clic en **[!UICONTROL Agregar recursos]**.
+5. Haga clic en **[!UICONTROL Agregar recursos]**.
 
-1. Cuando finalice la carga del recurso, haga clic en **Listo**.
+6. Cuando finalice la carga del recurso, haga clic en **Listo**.
 
-1. Para ver los nuevos recursos que has cargado, haz clic en **[!UICONTROL Actualizar]** en la notificación _Nuevos recursos disponibles_ que aparece en la parte inferior del lienzo.
+7. Para ver los nuevos recursos que has cargado, haz clic en **[!UICONTROL Actualizar]** en la notificación _Nuevos recursos disponibles_ que aparece en la parte inferior del lienzo.
 
 ### Descarga de recursos
 
@@ -140,17 +140,21 @@ Al agregar recursos a [!DNL Content], se almacenan de forma predeterminada en el
 
 Puede seleccionar una o varias experiencias aprobadas para descargarlas en un formato compatible con el canal de destino. El nombre del archivo descargado se indica mediante la fecha de exportación: `2025-06-15-export.zip`. Al descomprimir el archivo, existe una carpeta para cada tipo de canal que incluye los recursos exportados en los formatos seleccionados. Cada recurso exportado conserva su nombre de recurso original como nombre de archivo.
 
+>[!WARNING]
+>
+>Los recursos recuperados no se pueden mostrar sin saneamiento. Todos los usuarios deben gestionar scripts entre sitios (XSS) desde las plantillas mediante técnicas de saneamiento de entrada en su extremo.
+
 **Para exportar o descargar experiencias**:
 
 1. En _[!DNL Content]_, seleccione una o más experiencias.
 
    Aparece un banner con el número de experiencias seleccionadas a la izquierda y las opciones [!UICONTROL Activar], [!UICONTROL Descargar] o [!UICONTROL Eliminar] a la derecha.
 
-1. (Opcional) Si elige activar, es posible que se le pida que seleccione una plataforma y continúe con el flujo de trabajo [!DNL Activate]. Consulte [Activar](/help/user-guide/activation/overview.md).
+2. (Opcional) Si elige activar, es posible que se le pida que seleccione una plataforma y continúe con el flujo de trabajo [!DNL Activate]. Consulte [Activar](/help/user-guide/activation/overview.md).
 
-1. Haga clic en **[!UICONTROL Descargar]**.
+3. Haga clic en **[!UICONTROL Descargar]**.
 
-1. En la ventana emergente _Descargar_, seleccione uno de los formatos disponibles.
+4. En la ventana emergente _Descargar_, seleccione uno de los formatos disponibles.
 
    Si ha seleccionado varias experiencias de diferentes canales, tiene la oportunidad de seleccionar el formato para cada tipo de canal.
 
