@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation
 exl-id: b46fc7a9-88c1-474a-9d7b-1df7740d8f5a
-source-git-commit: 81c4b10e22ac347eb2a464496bd65b29c3c94efa
+source-git-commit: f9fec89a522f3c82367516b79dbc79db5a106bbf
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 1%
@@ -24,7 +24,7 @@ El editor de código de plantilla está diseñado para ayudarle a comprobar y re
 
 El panel _[!UICONTROL Comprobar campos detectados]_ muestra una lista de campos que GenStudio for Performance Marketing reconoce en la plantilla. Revise la lista y puede desplazarse por el código HTML para ver la formación de la plantilla.
 
-![Vista del editor de código](/help/assets/template-detected-fields.png "Comprobar campos detectados"){width="600" zoomable="yes"}
+![Vista del editor de código](/help/assets/template-detected-fields.png "Comprobar campos detectados"){width="600"}
 
 Si observa que falta un campo en la lista, busque el código de plantilla y busque la ubicación del campo que falta. Inserte el marcador de posición correcto mediante la sintaxis Handlebars y un [nombre de campo reconocido](/help/user-guide/content/customize-template.md#recognized-field-names). Utilice el formulario Buscar y reemplazar, que aparece en la parte inferior del editor de código, para buscar cadenas específicas en el código. (Windows `CTRL`+`F` o macOS `CMD`+`F`)
 
@@ -36,7 +36,7 @@ Puede seleccionar y cambiar los roles de los campos basados en texto (por ejempl
 >
 >Las variables de imagen no pueden tener sus funciones ajustadas.
 
-![Selección de campo de varios roles](/help/assets/multirole-dropdown-field.png "Selección de campo de varios roles"){width="600" zoomable="yes"}
+![Selección de campo de varios roles](/help/assets/multirole-dropdown-field.png "Selección de campo de varios roles"){width="600"}
 
 Para asignar una función a una variable:
 
@@ -49,7 +49,7 @@ Para asignar una función a una variable:
 
 Si hay errores en su plantilla, es posible que vea un mensaje de `Template is invalid` que incluye una breve explicación del problema. En el ejemplo siguiente, el mensaje indica que el campo `_image` no se ajusta a la convención de nomenclatura de campos establecida en la plantilla de varios pods. El mensaje también indica que debe actualizar el nombre del campo con el prefijo correcto. Busque el campo `_image` en el editor de código de plantilla y actualice el nombre como se recomienda.
 
-![Corregir plantilla no válida](/help/assets/animation/template-code-editor.gif){width="600" zoomable="yes"}
+![Corregir plantilla no válida](/help/assets/animation/template-code-editor.gif){width="600"}
 
 El panel _[!UICONTROL Comprobar campos detectados]_ se actualiza para reflejar los cambios que ha realizado. Cuando esté seguro de que los campos son correctos y están completos, haga clic en **[!UICONTROL Siguiente]** para continuar [cargando la plantilla](/help/user-guide/content/use-templates.md#add-a-template).
 

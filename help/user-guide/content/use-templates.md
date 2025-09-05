@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 7dfd915ebcc001b12357cfa334346e6698436d7d
+source-git-commit: 2f15dc05f65ec216c7d242ffb3e14a83c76f3000
 workflow-type: tm+mt
 source-wordcount: '1366'
 ht-degree: 1%
@@ -59,7 +59,7 @@ Usted [personaliza su plantilla](customize-template.md) para usarla en GenStudio
 
 ## Administración de plantillas
 
-La galería _[!DNL Templates]_&#x200B;muestra su inventario de plantillas personalizadas para generar experiencias en GenStudio for Performance Marketing.
+La galería _[!DNL Templates]_muestra su inventario de plantillas personalizadas para generar experiencias en GenStudio for Performance Marketing.
 
 ### Buscar conjunto de datos
 
@@ -72,7 +72,7 @@ Por ejemplo, es posible que desee encontrar una plantilla con un tipo de canal o
 
 A continuación, se muestra un filtro por tipo de canal, como correo electrónico, anuncios de visualización, anuncios Meta y anuncios LinkedIn.
 
-![Lista de plantillas de contenido](/help/assets/content-templates-filter.png "Buscar en las plantillas de LinkedIn"){width="650" zoomable="yes"}
+![Lista de plantillas de contenido](/help/assets/content-templates-filter.png "Buscar en las plantillas de LinkedIn"){width="650"}
 
 La capacidad de búsqueda de plantillas está disponible durante [!UICONTROL Crear] al seleccionar una plantilla para medios propios o de pago. Si determinadas opciones de filtro no están visibles, indica que ninguna plantilla del repositorio coincide con los criterios de metadatos correspondientes. Asegúrese de que las plantillas estén etiquetadas correctamente con los metadatos para que se puedan detectar a través de estos filtros.
 
@@ -84,32 +84,32 @@ Antes de cargar una plantilla, asegúrate de que esté totalmente preparada y li
 
 1. En _[!DNL Content]_, seleccione la sección **[!UICONTROL Plantillas]**.
 
-1. Haga clic en **[!UICONTROL Agregar plantilla]**.
+2. Haga clic en **[!UICONTROL Agregar plantilla]**.
 
-1. En el panel _[!UICONTROL Agregar su plantilla aprobada]_, busque el archivo de plantilla de HTML o arrastre el archivo de plantilla de HTML al espacio de colocación. Haga clic en **[!UICONTROL Siguiente]**.
+3. En el panel _[!UICONTROL Agregar su plantilla aprobada]_, busque el archivo de plantilla de HTML o arrastre el archivo de plantilla de HTML al espacio de colocación. Haga clic en **[!UICONTROL Siguiente]**.
 
-1. En el panel _[!UICONTROL Comprobar campos detectados]_, revise los campos. Compruebe que está utilizando la plantilla correcta y que todos los detalles son los esperados.
+4. En el panel _[!UICONTROL Comprobar campos detectados]_, revise los campos. Compruebe que está utilizando la plantilla correcta y que todos los detalles son los esperados.
 
    Ejemplo de previsualización para una plantilla de correo electrónico:
 
-   ![Campos de vista previa detectados](/help/assets/template-detected-fields.png){width="650" zoomable="yes"}
+   ![Campos de vista previa detectados](/help/assets/template-detected-fields.png){width="650"}
 
    >[!TIP]
    >
    >Si la plantilla no es correcta, haga clic en **[!UICONTROL Atrás]** y vuelva al paso anterior. Cargue el archivo de plantilla corregido. O use el [editor de código de plantilla](/help/user-guide/content/code-editor.md) para hacer correcciones simples.
 
-1. Haga clic en **[!UICONTROL Siguiente]** cuando esté satisfecho con la vista previa de la plantilla.
+5. Haga clic en **[!UICONTROL Siguiente]** cuando esté satisfecho con la vista previa de la plantilla.
 
-1. En _[!UICONTROL Proporcione detalles de plantilla y cargue]_, asigne un nombre a la plantilla y seleccione un tipo de **[!UICONTROL canal]**.
+6. En _[!UICONTROL Proporcione detalles de plantilla y cargue]_, asigne un nombre a la plantilla y seleccione un tipo de **[!UICONTROL canal]**.
 
    El nombre de la plantilla y el tipo de canal son obligatorios. Los requisitos adicionales pueden incluir:
 
    - **Meta**: requiere proporción de aspecto
    - **Titular y anuncio para mostrar**: requiere dimensiones
 
-1. Añada tantos detalles como pueda para mejorar la identificación de la plantilla en las búsquedas y el filtrado.
+7. Añada tantos detalles como pueda para mejorar la identificación de la plantilla en las búsquedas y el filtrado.
 
-1. Haga clic en **[!UICONTROL Listo]**.
+8. Haga clic en **[!UICONTROL Listo]**.
 
 ### Actualizar plantilla
 
@@ -119,9 +119,9 @@ Las plantillas pueden incluir archivos estáticos, como iconos o logotipos. [El 
 
 1. En _[!DNL Content]_, seleccione la sección **[!UICONTROL Plantillas]**.
 
-1. Haga clic en una plantilla para obtener una vista completa y una lista de detalles.
+2. Haga clic en una plantilla para obtener una vista completa y una lista de detalles.
 
-1. Haga clic en **[!UICONTROL Actualizar]** (flechas de círculo) desde la esquina superior derecha para actualizar todos los recursos utilizados en la plantilla.
+3. Haga clic en **[!UICONTROL Actualizar]** (flechas de círculo) desde la esquina superior derecha para actualizar todos los recursos utilizados en la plantilla.
 
 ### Crear una experiencia con una plantilla
 
@@ -131,11 +131,11 @@ Busque y utilice una plantilla existente en GenStudio for Performance Marketing 
 
 1. En _[!DNL Content]_, seleccione la sección **[!UICONTROL Plantillas]**.
 
-1. Haga clic en una plantilla para obtener una vista completa y una lista de detalles.
+2. Haga clic en una plantilla para obtener una vista completa y una lista de detalles.
 
-1. Haga clic en **[!UICONTROL Crear experiencia]** (pincel) en la esquina superior derecha para usar la plantilla.
+3. Haga clic en **[!UICONTROL Crear experiencia]** (pincel) en la esquina superior derecha para usar la plantilla.
 
-1. Continuar para [crear](/help/user-guide/create/overview.md#create-use-cases) una experiencia.
+4. Continuar para [crear](/help/user-guide/create/overview.md#create-use-cases) una experiencia.
 
 ## Plantillas de AJO y Marketo
 
