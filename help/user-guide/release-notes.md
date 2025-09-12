@@ -4,9 +4,9 @@ description: Obtenga información sobre las últimas funciones y mejoras de Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 778be59db2bf159c57095fbb2d89cff8c9704b33
+source-git-commit: a666052494382be09bb24ef5d4d803d5ec710baf
 workflow-type: tm+mt
-source-wordcount: '3411'
+source-wordcount: '3502'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,17 @@ ht-degree: 0%
 
 Esta información de la versión proporciona las últimas actualizaciones para la aplicación de GenStudio for Performance Marketing.
 
-## 2025.08.15 {#latest}
+## 2025.09.11 {#latest}
+
+### Nueva funcionalidad Generative Expand AI para medios de pago
+
+La nueva función GenExpand permite a los especialistas en marketing adaptar dinámicamente sus recursos creativos para admitir diferentes proporciones de aspecto en canales de medios de pago como Meta, LinkedIn, Display Ads y Banners. Cuando una imagen no coincide con la proporción de aspecto deseada, como añadir una imagen estrecha a un diseño ancho, puede utilizar GenExpand para revisar la imagen para que se ajuste.
+
+Esta función optimiza el proceso de edición y cambio de tamaño de la imagen directamente en GenStudio for Performance Marketing. Consulte [Funcionalidades generativas de IA expandida](/help/user-guide/create/manage-variants.md#use-generative-expand) para obtener información detallada.
+
+## Notas de la versión anteriores
+
++++Notas a partir del 15 de agosto de 2025
 
 ### Perspectivas de atributos de texto
 
@@ -65,8 +75,7 @@ Consulte [Generar recursos](/help/user-guide/create/generate-assets.md) para obt
 
 Adobe GenStudio for Performance Marketing ahora ofrece funcionalidades integradas de traducción de correo electrónico que permiten a los especialistas en marketing escalar de forma eficaz sus campañas de correo electrónico a nivel global. Esta función le permite tomar una experiencia de correo electrónico aprobada y traducirla a varios idiomas de destino mediante los servicios de traducción de Azure Open AI.
 
-
-## Notas de la versión anteriores
++++
 
 +++Notas de 2025.07.25
 
