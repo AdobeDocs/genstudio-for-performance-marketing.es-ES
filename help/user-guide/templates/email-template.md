@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: 4760da26d20e91489a74bb238e07f0d3b426c0a1
+source-git-commit: 49d8d5daa2f3c93c18cd9132dab5207871b51237
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -44,23 +44,24 @@ El máximo de campos permitidos en una plantilla es 20. Consulte [Marcadores de 
 
 ## Correo electrónico de varias secciones
 
-_Las secciones_ le permiten organizar el contenido en distintos grupos, lo que admite diseños más complejos. En Genstudio for Performance Marketing, puede definir cada sección utilizando una convención de nomenclatura de grupos. Consulte [Personalizar secciones de plantilla](/help/user-guide/content/customize-template.md#sections-or-groups).
+_Las secciones_ le permiten organizar el contenido en distintos grupos, lo que admite diseños más complejos. En GenStudio for Performance Marketing, puede definir cada sección utilizando una convención de nombres de grupo. Consulte [Personalizar secciones de plantilla](/help/user-guide/content/customize-template.md#sections-or-groups).
 
 Las plantillas de varias secciones pueden tener 0, 2 o 3 secciones:
 
 - Una plantilla básica (cero secciones) puede generar un único conjunto de elementos de plantilla, lo que no requiere la convención de nombres de grupos.
-- Una plantilla compleja (varias secciones) puede generar hasta tres conjuntos de elementos de plantilla, lo que requiere que se adhiera a la convención de nomenclatura de grupos: (`groupname_fieldname`)
+- Una plantilla compleja (varias secciones) puede generar hasta tres conjuntos de elementos de plantilla, lo que requiere que se adhiera a la convención de nomenclatura de grupos: `<groupname_fieldname>`.
+- Cuando se utilizan varias secciones, los elementos que queden independientes fuera de una sección no se rellenan.
 
-Ejemplo de nombres de campo para dos secciones:
+Estos son ejemplos de nombres de campo, utilizando la convención de nomenclatura de grupos, para dos secciones:
 
-- `pod1_headline`, `pod1_body`, `pod1_cta`
-- `pod2_headline`, `pod2_body`, `pod2_cta`
+- En la sección 1:`pod1_headline`, `pod1_body`, `pod1_cta`
+- En la sección 2:`pod2_headline`, `pod2_body`, `pod2_cta`
 
 ## Ejemplos de plantillas
 
 +++Ejemplo: Plantilla de correo electrónico con una sección
 
-El siguiente es un ejemplo básico de una plantilla de correo electrónico de HTML con una sección. `<head>` incluye CSS en línea simple para el estilo y `<body>` usa marcadores de posición de contenido como `pre_header`, `headline`, `sub_headline`, `body`, `cta` y `image` con vínculo y. Estos marcadores de posición permiten a GenStudio for Performance Marketing insertar contenido dinámico durante la generación de correo electrónico.
+Este es un ejemplo básico de una plantilla de correo electrónico de HTML con una sección. `<head>` incluye CSS en línea simple para el estilo y `<body>` usa marcadores de posición de contenido como `pre_header`, `headline`, `sub_headline`, `body`, `cta` y `image` con vínculo y. Estos marcadores de posición permiten a GenStudio for Performance Marketing insertar contenido dinámico durante la generación de correo electrónico.
 
 ```html
 <!DOCTYPE html>
@@ -109,7 +110,7 @@ El siguiente es un ejemplo básico de una plantilla de correo electrónico de HT
 
 +++Ejemplo: Plantilla de correo electrónico con varias secciones
 
-La siguiente es la misma plantilla de HTML en el ejemplo anterior, pero con dos secciones más. El encabezado contiene CSS en línea para aplicar estilo a un grupo. El cuerpo usa dos grupos con [marcadores de posición de contenido](#content-placeholders) con un prefijo.
+Esta es la misma plantilla de HTML en el ejemplo anterior, pero con dos secciones más. El encabezado contiene CSS en línea para aplicar estilo a un grupo. El cuerpo usa dos grupos con [marcadores de posición de contenido](#content-placeholders) con un prefijo.
 
 ```html
 <!DOCTYPE html>
@@ -151,8 +152,6 @@ La siguiente es la misma plantilla de HTML en el ejemplo anterior, pero con dos 
     </head>
     <body>{{pre_header}}
         <div class="container">
-            <h1>{{headline}}</h1>
-            <p>{{body}}</p>
             <!-- Pod1 -->
             <div class="pod">
                 <h2>{{pod1_headline}}</h2>
