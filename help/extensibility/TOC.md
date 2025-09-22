@@ -5,10 +5,10 @@ user-guide-description: Explore las funcionalidades del marco de trabajo de exte
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: Developer
-source-git-commit: bcf969f599279ba28354837b3949316a1bf7df27
+source-git-commit: 7acf7b0abf0737701083890a1d6a693bb64ffbbf
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 57%
+source-wordcount: '55'
+ht-degree: 63%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 57%
 # Guía del usuario de extensibilidad de Adobe GenStudio for Performance Marketing {#ext-guide}
 
 + [Guía de extensibilidad](home.md)
-+ Introducción a {#get-started}
-   + [Información general](overview.md)
++ Introducción {#get-started}
+   + [Configurar su entorno](setup.md)
 + Desarrollo de aplicaciones {#apps}
    + [Creación de un proyecto de App Builder](create-project.md)
    + [Desarrollo de una aplicación de App Builder](create-app.md)
    + [Implemente la aplicación](deploy-app.md)
    + [Distribuya su aplicación](distribute-app.md)
-   + Extensiones de interfaz de usuario {#ui}
+   + Extensiones de IU {#ui}

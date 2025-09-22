@@ -4,7 +4,7 @@ description: Obtenga información sobre las últimas funciones y mejoras de Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: a666052494382be09bb24ef5d4d803d5ec710baf
+source-git-commit: 06f273d520c39042e180b5acaec33004df1cd5fe
 workflow-type: tm+mt
 source-wordcount: '3502'
 ht-degree: 0%
@@ -195,7 +195,7 @@ Como parte del proceso de validación de la marca, se han introducido [estándar
 
 ### Extensibilidad
 
-El nuevo marco de trabajo de extensibilidad [de GenStudio for Performance Marketing](/help/extensibility/overview.md) proporciona herramientas para que las organizaciones incorporen sus propios protocolos de conformidad de notificaciones en el flujo de trabajo de creación y validación de contenido mediante complementos o aplicaciones ampliables.
+El nuevo marco de trabajo de extensibilidad [de GenStudio for Performance Marketing](/help/extensibility/setup.md) proporciona herramientas para que las organizaciones incorporen sus propios protocolos de conformidad de notificaciones en el flujo de trabajo de creación y validación de contenido mediante complementos o aplicaciones ampliables.
 
 ### Plantillas
 

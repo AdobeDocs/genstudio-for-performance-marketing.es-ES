@@ -1,11 +1,11 @@
 ---
-title: Creación de una aplicación de App Builder para ampliar GenStudio for Performance Marketing
-description: Comience a crear una aplicación o un complemento.
+title: Crear una aplicación de App Builder
+description: Comience a crear una aplicación o un complemento para ampliar GenStudio for Performance Marketing.
 feature: Extensibility
 exl-id: 4e757dd4-a02d-472c-bc13-6f27dffa48f2
-source-git-commit: 89b7f477310326755a6b34cb97d5ad5664e98dec
+source-git-commit: 04a4f6432c5db87489e39f9396a7782c86441695
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Los desarrolladores que amplían las capacidades nativas de GenStudio for Perfor
 
 * npm (empaquetado con Node.js)
 
-* Interfaz de línea de comandos (CLI) de Adobe Developer. Para instalar: `npm install -g @adobe/aio-cli`
+* Interfaz de línea de comandos (CLI) de Adobe Developer. Para instalarlo con npm, ejecute: `npm install -g @adobe/aio-cli`
 
 >[!ENDSHADEBOX]
 
@@ -47,10 +47,10 @@ Los componentes clave de las aplicaciones de App Builder incluyen estos archivos
 * Archivos de configuración de App Builder:
 
    * `app.config.yaml`
-   * `ext.config.yaml`: archivo de configuración para el complemento
-   * `app.config.yaml`: archivo de configuración para el complemento (incluye la definición de su aplicación como complemento de GenStudio for Performance Marketing)
+   * `ext.config.yaml`: archivo de configuración para el complemento.
+   * `app.config.yaml`: archivo de configuración para el complemento (incluye la definición de su aplicación como complemento de GenStudio for Performance Marketing).
    * `.aio`
-   * `.env`: no comprometa el archivo `.env` con el control de código fuente
+   * `.env`: no confirme el archivo `.env` al control de código fuente.
 
 ### código Source
 
@@ -70,7 +70,7 @@ Los componentes clave de las aplicaciones de App Builder incluyen estos archivos
 
 ### Componentes de código Source
 
-* `ExtensionRegistration.tsx`: define las API necesarias que la aplicación host (GenStudio for Performance Marketing) necesita para cargar y mostrar el complemento.
+* `ExtensionRegistration.tsx`: define las API necesarias para que la aplicación host (GenStudio for Performance Marketing) cargue y muestre el complemento.
 
 * `App.tsx`: componente de la aplicación principal que define el enrutamiento a otros componentes.
 
@@ -88,7 +88,7 @@ Puede utilizar una aplicación de ejemplo para iniciar la creación de su comple
 
 1. Descargue una aplicación de ejemplo del repositorio [GenStudio UIX Examples](https://github.com/adobe/genstudio-uix-examples).
 
-1. En el área de trabajo del proyecto App Builder en [Adobe Developer Console](https://developer.adobe.com/console/), seleccione **[!UICONTROL Descargar todo]** para descargar los detalles del proyecto.
+1. En el área de trabajo del proyecto App Builder en [Adobe Developer Console](https://developer.adobe.com/console/), seleccione [!UICONTROL Descargar todo] para descargar los detalles del proyecto.
 
 1. Abra la aplicación de ejemplo localmente en el entorno de desarrollo integrado (IDE) que prefiera.
 
@@ -106,17 +106,15 @@ Puede utilizar una aplicación de ejemplo para iniciar la creación de su comple
 
 ## Añadir código personalizado al complemento.
 
-Usted define su código de complemento en `AdditionalContextDialog.tsx` y `RightPanel.tsx` archivos. Estos dos archivos definen el aspecto y el comportamiento de las ventanas emergentes cuando los usuarios acceden al complemento.
+Defina su código de complemento en `AdditionalContextDialog.tsx` y `RightPanel.tsx` archivos. Estos dos archivos definen el aspecto y el comportamiento de las ventanas emergentes cuando los usuarios acceden al complemento.
 
 * `AdditionalContextDialog.tsx`: defina este componente si planea usar el complemento _Agregar contexto_. Los usuarios interactúan con este componente al hacer clic en _Complementos_ en el cajón de mensajes de [!DNL Create].
 
 * `RightPanel.tsx`: defina este componente si planea usar el complemento _Panel derecho_ (validación de experiencia). Los usuarios interactúan con este componente al hacer clic en el complemento de validación en el panel derecho en un borrador de experiencia de [!DNL Create].
 
-Ya está listo para [Implementar su aplicación](deploy-app.md)
-
 ## Prácticas recomendadas para el desarrollo de aplicaciones
 
-El mantenimiento del entorno de desarrollo puede ayudarle a evitar errores de desarrollo e implementación de aplicaciones:
+El mantenimiento del entorno de desarrollo puede ayudar a evitar errores de desarrollo e implementación de aplicaciones:
 
 * Si utiliza una versión anterior de una aplicación de ejemplo, actualice las dependencias reinstalándolas:
 
@@ -125,3 +123,5 @@ El mantenimiento del entorno de desarrollo puede ayudarle a evitar errores de de
   ```
 
 * Actualice GenStudio UIX SDK. Confirme que está usando la versión más reciente de [GenStudio UIX SDK](https://github.com/adobe/genstudio-uix-sdk). Consulte [Repositorio de ejemplo de UIX de GenStudio](https://github.com/adobe/genstudio-uix-examples) para obtener información sobre cómo usar los cambios más recientes de SDK.
+
+Ahora está listo para [implementar su aplicación](deploy-app.md)
