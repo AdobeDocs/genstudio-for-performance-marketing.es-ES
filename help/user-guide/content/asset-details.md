@@ -3,7 +3,7 @@ title: Detalles del recurso
 description: Adobe GenStudio for Performance Marketing almacena contenido aprobado con metadatos enriquecidos para permitir búsquedas y realizar un seguimiento del rendimiento.
 feature: Generative AI, Content Attributes, Content Management
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 1%
@@ -87,13 +87,13 @@ La siguiente tabla detalla los metadatos (detalles del recurso) que puede defini
 
 ## Contexto generador
 
-La sección [!UICONTROL Contexto generador] muestra qué información se utilizó para generar la experiencia, como la `Prompt` utilizada durante el proceso [!DNL Create]. Esta perspectiva puede ayudarle a crear variantes aún más exitosas.
+La sección [!UICONTROL Contexto generador] muestra qué información se utilizó para generar la experiencia, como la `Prompt` utilizada durante el proceso [!DNL Create]. Esta insight puede ayudarle a crear variantes aún más exitosas.
 
 La información puede incluir:
 
 - `Brand`, `Product` y `Persona` parámetros seleccionados durante el proceso [!DNL Create]
 - `Subject line` y `Preheader` para experiencias de correo electrónico
-- `Headline` y `Body` para anuncios Meta
+- `Headline` y `Body` para anuncios de Meta
 
 ## Historia
 

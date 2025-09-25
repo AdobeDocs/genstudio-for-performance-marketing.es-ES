@@ -6,10 +6,10 @@ feature: Media Templates
 badgeBeta: label="Beta" tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."
 recommendations: noDisplay, noCatalog
 exl-id: 47dbebd1-f2d8-4a9d-b86c-2d398af259f6
-source-git-commit: a7c69659c348fad3e067a84c1d242809a83b42fb
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 1%
+source-wordcount: '403'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ A continuación se resumen las plantillas de inicio disponibles, los tipos de me
 
 ### Plantillas de anuncios de LinkedIn
 
-Todas las relaciones de aspecto son compatibles con las imágenes estáticas. Para vídeo, use 9:16 para historias de LinkedIn y asegúrese de que el vídeo esté optimizado para formatos cortos y verticales.
+Todas las relaciones de aspecto son compatibles con las imágenes estáticas. Para el vídeo, use 9:16 para historias de LinkedIn y asegúrese de que el vídeo esté optimizado para formatos cortos y verticales.
 
 | Proporción de aspecto | Orientación | Directrices |
 |--------------|--------------|------------------------------------------------------------------------------------------------|
@@ -41,9 +41,9 @@ Todas las relaciones de aspecto son compatibles con las imágenes estáticas. Pa
 | 1,91:1 | Horizontal | Estándar para fuentes de noticias o contenido patrocinado. Mantenga los elementos visuales y los mensajes clave dentro de zonas seguras. |
 | 1:1,91 | Vertical | Formato vertical alto. Mantenga los elementos visuales y los mensajes clave dentro de zonas seguras. |
 | 2:3, 4:5 | Vertical | Adecuado para formatos verticales y ayuda al creativo a destacar en dispositivos móviles. |
-| 09:16 | Vertical | Lo mejor para historias de LinkedIn (experiencia de pantalla completa para vídeo). |
+| 9:16 | Vertical | Lo mejor para historias de LinkedIn (experiencia de pantalla completa para vídeo). |
 
-### Plantillas de publicidad meta
+### Plantillas de publicidad de Meta
 
 Todas las relaciones de aspecto son compatibles con los tipos de medios de vídeo e imágenes estáticas.
 
@@ -52,4 +52,4 @@ Todas las relaciones de aspecto son compatibles con los tipos de medios de víde
 | 1:1 | Cuadrado | Recomendado para publicaciones de fuentes, anuncios de carrusel y vídeos de fuentes para lograr una compatibilidad amplia. |
 | 1,91:1 | Horizontal | Ideal para titulares, anuncios de vínculos y anuncios de vídeo de pantalla ancha. |
 | 4:5 | Vertical | Ideal para fuentes móviles; maximiza el espacio vertical y la visibilidad, especialmente para contenido de vídeo. |
-| 09:16 | Vertical | Diseñado para historias y carretes, proporciona una experiencia de pantalla completa envolvente. |
+| 9:16 | Vertical | Diseñado para historias y carretes, proporciona una experiencia de pantalla completa envolvente. |

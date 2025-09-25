@@ -4,7 +4,7 @@ description: Aprenda a optimizar las activaciones a los canales de publicidad de
 level: Intermediate
 feature: Ad Activation
 exl-id: 5bc624c2-d064-4190-8761-ed05d0629d1f
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
@@ -35,15 +35,15 @@ Estas son algunas prácticas recomendadas comunes y los errores que pueden evita
 
 * **Revise su conjunto de anuncios y asegúrese de que solo hay un anuncio activo en cada momento**
 
-  Si necesita activar varios Meta Ads, cree conjuntos de anuncios dinámicos de Creative independientes para cada uno. Error de muestra: _El conjunto de anuncios dinámicos de Creative permite como máximo un anuncio activo en él. Los usuarios no pueden crear más de un anuncio en el mismo conjunto de anuncios de Dynamic Creative. (100)_
+  Si necesita activar varios anuncios de Meta, cree conjuntos de anuncios de Dynamic Creative independientes para cada uno. Error de muestra: _El conjunto de anuncios dinámicos de Creative permite como máximo un anuncio activo en él. Los usuarios no pueden crear más de un anuncio en el mismo conjunto de anuncios de Dynamic Creative. (100)_
 
 * **Hacer coincidir el número de reglas aplicadas con la cantidad especificada por la plataforma**
 
   Los canales de pago esperan que el número de reglas aplicadas coincida con el formato especificado.  Si es necesario, ajuste el número de reglas para que coincidan con el valor que especifica la plataforma. Error de ejemplo: _La fuente de recursos de publicidad tiene reglas de destino X para format: name of format, pero se espera exactamente la regla de destino X para este formato. (100)_
 
-* **Elija una llamada a la acción (CTA) que sea compatible con el objetivo del conjunto de anuncios**
+* **Elija un call-to-action (CTA) que sea compatible con el objetivo del conjunto de anuncios**
 
-  Las llamadas a acción que son incompatibles con el objetivo de la déclencheur de conjuntos de anuncios de Dynamic Creative generan un error. Error de muestra: _No se admite la llamada a la acción de tipo X para el objetivo Y en el conjunto de anuncios de Dynamic Creative. (100)_
+  Las llamadas a acción que son incompatibles con el objetivo de la déclencheur de conjuntos de anuncios de Dynamic Creative generan un error. Error de muestra: _No se admite el tipo X de call to action para el objetivo Y en Dynamic Creative Ad Set. (100)_
 
 * **Asegúrese de que el límite del conjunto de anuncios de destino admita el número de experiencias publicitarias**
 
@@ -51,4 +51,4 @@ Estas son algunas prácticas recomendadas comunes y los errores que pueden evita
 
 * **Asegúrese de que la plataforma admite el tipo de CTA seleccionado**
 
-  Confirme que su experiencia incluye un tipo de CTA compatible. Error de muestra: _(#100) Llamada no válida al tipo de acción (100)_
+  Confirme que su experiencia incluye un tipo de CTA compatible. Error de muestra: _(#100) Tipo de call to action no válido (100)_

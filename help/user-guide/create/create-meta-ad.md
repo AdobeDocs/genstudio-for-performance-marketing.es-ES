@@ -1,36 +1,36 @@
 ---
-title: Crear una experiencia de Meta ad
-description: Aprenda a crear experiencias de publicidad Meta en la marca (para Facebook o Instagram) con Adobe GenStudio for Performance Marketing.
+title: Crear una experiencia de Meta Ad
+description: Aprenda a crear experiencias de publicidad de Meta en la marca (para Facebook o Instagram) con Adobe GenStudio for Performance Marketing.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: d82891b2347c6b97bf8f6eef9cffe363ea341725
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 0%
 
 ---
 
-# Crear una experiencia de Meta ad
+# Crear una experiencia de anuncio de Meta
 
-Este tutorial muestra cómo generar [experiencias de anuncios Meta](/help/user-guide/create/meta-experiences.md) de marca mediante GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icono de pincel en el área de navegación izquierda).
+Este tutorial muestra cómo generar [experiencias de anuncios de Meta de marca](/help/user-guide/create/meta-experiences.md) con GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icono de pincel en el área de navegación izquierda).
 
-Antes de empezar a generar una experiencia de anuncio Meta, es importante [incorporar directrices](/help/user-guide/guidelines/add-guidelines.md) en GenStudio for Performance Marketing y familiarizarse con los conceptos básicos de [creación de un mensaje](/help/user-guide/effective-prompts.md).
+Antes de empezar a generar una experiencia de anuncio de Meta, es importante [incorporar directrices](/help/user-guide/guidelines/add-guidelines.md) en GenStudio for Performance Marketing y familiarizarse con los conceptos básicos de [creación de un mensaje](/help/user-guide/effective-prompts.md).
 
 ## Elija una plantilla
 
-Para empezar a generar una nueva experiencia de publicidad de metadatos, utilice una plantilla disponible para proporcionar el marco de trabajo para el contenido. Consulte [Directrices sobre plantillas de anuncios Meta](/help/user-guide/templates/meta-template.md) para obtener información sobre las proporciones de aspecto de anuncios Meta admitidas.
+Para empezar a generar una nueva experiencia publicitaria de Meta, utilice una plantilla disponible para proporcionar el marco de trabajo para el contenido. Consulte [Directrices de plantillas de anuncios de Meta](/help/user-guide/templates/meta-template.md) para obtener información sobre las proporciones de aspecto de anuncios de Meta compatibles.
 
 Al seleccionar una plantilla, tiene la opción de utilizar una de las plantillas cargadas o una plantilla de inicio.
 
-**Para elegir una plantilla Meta ad**:
+**Para elegir una plantilla de anuncio de Meta**:
 
 1. En _[!DNL Create]_, haga clic en **[!UICONTROL Meta ads]**.
 1. Seleccione **[!UICONTROL Plantillas personalizadas]** para examinar las plantillas cargadas o **[!UICONTROL Plantillas iniciales]** para examinar las plantillas creadas previamente.
 
-   Si planea agregar recursos de vídeo a las variantes Meta, debe elegir una plantilla de inicio. Están precargadas con áreas de contenido definidas por el sistema que facilitan el uso de vídeos.
+   Si planea agregar recursos de vídeo a las variantes de Meta, debe elegir una plantilla de inicio. Están precargadas con áreas de contenido definidas por el sistema que facilitan el uso de vídeos.
 
 1. Haga clic para seleccionar una plantilla y luego haga clic en **[!UICONTROL Usar]**.
 
@@ -38,7 +38,7 @@ Al seleccionar una plantilla, tiene la opción de utilizar una de las plantillas
 
 ## Añadir parámetros
 
-Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Parámetros_ en el cajón de solicitud mejora el proceso de generación de contenido y es un paso crucial en la preparación para generar un anuncio Meta.
+Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Parámetros_ en el cajón de solicitud mejora el proceso de generación de contenido y es un paso crucial en la preparación para generar un anuncio de Meta.
 
 Si usa una plantilla con directrices predefinidas—[!DNL Brands], [!DNL Personas] o [!DNL Products]—estas directrices se aplican a las variantes. Si lo desea, puede cambiarlos.
 
@@ -68,7 +68,7 @@ Cuando haya terminado de agregar parámetros, puede contraer el cajón de mensaj
 
 ## Introduzca una solicitud
 
-Una vez seleccionadas las directrices, cree un mensaje con lenguaje natural para empezar a generar contenido para la nueva experiencia de publicidad de Meta. Las indicaciones detalladas generan un resultado de mayor calidad que las indicaciones vagas o ambiguas.
+Una vez seleccionadas las directrices, cree un mensaje con lenguaje natural para empezar a generar contenido para la nueva experiencia publicitaria de Meta. Las indicaciones detalladas generan un resultado de mayor calidad que las indicaciones vagas o ambiguas.
 
 Consulte [Escribir mensajes efectivos](/help/user-guide/effective-prompts.md) para obtener más información sobre cómo escribir mensajes.
 
@@ -81,26 +81,26 @@ Consulte [Escribir mensajes efectivos](/help/user-guide/effective-prompts.md) pa
 
 De forma predeterminada, se generan y muestran en el lienzo cuatro variaciones (todas alimentadas por el mensaje, las directrices y el contenido añadido).
 
-El contenido generado se carga progresivamente: a medida que se generan cada sección de las metaexperiencias, estas aparecen en el lienzo. Vea [metaexperiencias](/help/user-guide/create/meta-experiences.md#progressive-loading) para conocer cómo se cargan esos cambios en el lienzo.
+El contenido generado se carga progresivamente: a medida que se generan todas las secciones de las experiencias de Meta, estas aparecen en el lienzo. Consulte [experiencias de Meta](/help/user-guide/create/meta-experiences.md#progressive-loading) para saber cómo se cargan los cambios en el lienzo.
 
-## Elija el canal Meta ads
+## Elija el canal de anuncios de Meta
 
-Al generar un anuncio Meta, puede elegir entre anuncios de Facebook o Instagram.
+Al generar un anuncio de Meta, puede elegir entre anuncios de Facebook o Instagram.
 
-Cambie la opción de canal Meta ads (entre **Facebook** e **Instagram**) en la barra de menú derecha (iconos de Facebook e Instagram) para ver y administrar variantes de cada canal.
+Alterne la opción de canal de anuncios de Meta (entre **Facebook** e **Instagram**) en la barra de menú derecha (iconos de Facebook e Instagram) para ver y administrar las variantes de cada canal.
 
-Al [revisar los anuncios Meta](#revise-generated-variants), puede cambiar la proporción de aspecto de los anuncios de Facebook e Instagram.
+Al [revisar los anuncios de Meta](#revise-generated-variants), puede cambiar la proporción de aspecto de los anuncios de Facebook e Instagram.
 
 ## Revisar variantes generadas
 
-Antes de seleccionar qué enviar para su aprobación o publicación a [!DNL Content], puede editar los anuncios Meta o eliminar una variante del conjunto de anuncios generados.
+Antes de seleccionar qué enviar para su aprobación o publicación a [!DNL Content], puede editar los anuncios de Meta o eliminar una variante del conjunto de anuncios generados.
 
 Para resaltar una capa individual para revisarla, haga clic en un campo o imagen editable y luego en _[!UICONTROL Ver capas]_.
 
 **Para revisar las variantes generadas**:
 
-* **Para [editar el nombre del borrador del anuncio Meta](/help/user-guide/create/manage-variants.md#change-draft-name)**, haga clic en el título de _Borrador sin título_ en la parte superior del lienzo y escriba un nuevo título.
-* **Para [editar manualmente un Meta ad](/help/user-guide/create/manage-variants.md#manually-edit-text)**, haga clic en cualquiera de las secciones de anuncios (como la línea de asunto,
+* **Para [editar el nombre del borrador del anuncio de Meta](/help/user-guide/create/manage-variants.md#change-draft-name)**, haz clic en el título de _Borrador sin título_ en la parte superior del lienzo y escribe un nuevo título.
+* **Para [editar manualmente un anuncio de Meta](/help/user-guide/create/manage-variants.md#manually-edit-text)**, haga clic en cualquiera de las secciones de anuncios (como la línea de asunto,
 encabezado o copia de cuerpo) y edite según sea necesario.
 * **Para cambiar o seleccionar call to action**, haga clic en el botón call-to-action y seleccione las opciones de texto de botón disponibles. En _Vínculo_, escriba una dirección URL para el texto de call-to-action.
 * **Para [aplicar formato de texto](/help/user-guide/create/manage-variants.md#manually-edit-text)** en una variante, haz clic en el texto en la imagen o en el vínculo en línea de una variante y haz clic en **[!UICONTROL Dar formato al texto]**.
@@ -113,7 +113,7 @@ encabezado o copia de cuerpo) y edite según sea necesario.
 * **Para [usar Generative Expand para cambiar el tamaño y ajustar las imágenes](/help/user-guide/create/manage-variants.md#use-generative-expand) a su plantilla de trabajo**, haga clic en una imagen, haga clic en **[!UICONTROL Editar]** (icono de lápiz) y luego en **[!UICONTROL Expandir]**. Ajuste la imagen para ajustar la proporción de aspecto y la plantilla necesarias.
 * **Para [agregar texto alternativo para imágenes en una variante](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**, haga clic en un recurso de imagen y use la opción _Texto alternativo_ para agregar o generar texto alternativo manualmente por imagen.
 * **Para [agregar etiquetas de accesibilidad](/help/user-guide/create/manage-variants.md#add-accessibility-labels) a las variantes**, haga clic en una imagen o en un vínculo de call-to-action y, a continuación, proporcione una breve descripción que explique lo que hace el vínculo o el botón.
-* **Para [eliminar un Meta ad](/help/user-guide/create/manage-variants.md#delete-variant)**, haga clic en el menú de opciones de una variante y haga clic en **[!UICONTROL Eliminar variante]**.
+* **Para [eliminar un anuncio de Meta](/help/user-guide/create/manage-variants.md#delete-variant)**, haz clic en el menú de opciones de una variante y haz clic en **[!UICONTROL Eliminar variante]**.
 
 ### Administrar vídeos
 
@@ -145,22 +145,22 @@ Utilice el panel Aprobaciones, accesible como icono en la barra de acciones dere
 
 **Para obtener revisiones y aprobaciones**:
 
-1. [Inicie una solicitud de aprobación](/help/user-guide/approvals/request-review.md) para solicitar una [aprobación de las experiencias de anuncio Meta ](/help/user-guide/approvals/approve-content.md).
+1. [Iniciar una solicitud de aprobación](/help/user-guide/approvals/request-review.md) para solicitar una [aprobación de las experiencias de anuncios de Meta ](/help/user-guide/approvals/approve-content.md) redactadas.
 
    ![Enviar borradores para su revisión y aprobación](/help/assets/send-approval-meta.png){width="450" zoomable="yes"}
 
 1. [Quitar o agregar revisores](/help/user-guide/approvals/review-and-edit.md#manage-approvals) durante el proceso de revisión.
 1. [Acceda al contenido para revisarlo](/help/user-guide/approvals/review-and-edit.md#access-content-for-review) y vea las solicitudes de revisión.
-1. Edite los borradores por comentarios de revisión y [publique sus experiencias de anuncio Meta](#publish-and-export-experience).
+1. Edite los borradores por comentarios de revisión y [publique sus experiencias de anuncios de Meta](#publish-and-export-experience).
 
 Consulte [Revisiones y aprobaciones](/help/user-guide/approvals/overview.md) para obtener más información.
 
 ## Publicar y exportar experiencias
 
-Para que los anuncios Meta generados estén disponibles para su uso actual y futuro, publíquelos en [!UICONTROL Contenido] y exporte el contenido para su uso en campañas de marketing.
+Para que los anuncios de Meta generados estén disponibles para su uso actual y futuro, publíquelo en [!UICONTROL Contenido] y expórtelo para su uso en campañas de marketing.
 
-1. **Para publicar tus nuevas experiencias con Meta Ad**, haz clic en **[!UICONTROL Publicar]** en la barra de herramientas superior o dentro del flujo de aprobaciones.
-1. **Para exportar tus nuevas experiencias con Meta Ad**, haz clic en **[!UICONTROL Exportar]** en la barra de herramientas superior.
+1. **Para publicar tus nuevas experiencias publicitarias de Meta**, haz clic en **[!UICONTROL Publicar]** en la barra de herramientas superior o dentro del flujo de aprobaciones.
+1. **Para exportar las nuevas experiencias de anuncios de Meta**, haga clic en **[!UICONTROL Exportar]** en la barra de herramientas superior.
    1. Seleccione el formato (HTML e imágenes o CSV e imágenes (JPG o PNG)) y haga clic en **[!UICONTROL Exportar]**.
 
 Consulte [[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content) para obtener más información.

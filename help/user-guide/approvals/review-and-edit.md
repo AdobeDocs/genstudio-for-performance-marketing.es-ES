@@ -3,7 +3,7 @@ title: Revisar y editar contenido
 description: Aprenda a revisar y editar contenido de forma iterativa con Adobe GenStudio for Performance Marketing.
 feature: Content Review, Content Management
 exl-id: 9a3a15aa-355f-439e-9417-850704402f39
-source-git-commit: 8aa55fba08fa438ae2320c1159aa3c27877ee778
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -64,7 +64,7 @@ El creador de contenido puede continuar con las ediciones mientras recibe y resp
 
 ## Revisión de contenido con Workfront Proof
 
-[!DNL Proofing Viewer] proporciona [herramientas de marcado sólidas](https://experienceleague.adobe.com/es/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1) para anotar pruebas y rastrear cambios. También puede comparar dos versiones de prueba.
+[!DNL Proofing Viewer] proporciona [herramientas de marcado sólidas](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1) para anotar pruebas y rastrear cambios. También puede comparar dos versiones de prueba.
 
 **Para revisar el contenido**:
 
@@ -84,7 +84,7 @@ El creador de contenido puede continuar con las ediciones mientras recibe y resp
 
 ### Comparar pruebas
 
-Desde [!DNL Proofing Viewer], puede [comparar versiones de revisión](https://experienceleague.adobe.com/es/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs).
+Desde [!DNL Proofing Viewer], puede [comparar versiones de revisión](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs).
 
 **Para comparar pruebas**:
 
@@ -94,4 +94,4 @@ Desde [!DNL Proofing Viewer], puede [comparar versiones de revisión](https://ex
 
    Las pruebas se muestran una al lado de la otra, con la versión más reciente en el lado izquierdo.
 
-Workfront Proof proporciona varias herramientas para comparar pruebas, incluida una herramienta de comparación automática. Ver [Usar las herramientas de comparación](https://experienceleague.adobe.com/es/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools).
+Workfront Proof proporciona varias herramientas para comparar pruebas, incluida una herramienta de comparación automática. Ver [Usar las herramientas de comparación](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools).

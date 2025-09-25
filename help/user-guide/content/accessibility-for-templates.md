@@ -1,11 +1,11 @@
 ---
-title: Creación de plantillas accesibles
+title: Crear plantillas accesibles
 description: Cree plantillas en Adobe GenStudio for Performance Marketing capaces de llegar a una mayor audiencia y proporcionar una experiencia óptima.
 feature: Media Templates
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: 28c128ad6f3d173b7516a6b1309555c12e6a4e2d
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Utilice fuentes fáciles de leer. Por ejemplo, las fuentes Sans Serif tienen un 
 
 Proporcionar un contraste adecuado entre el texto y el fondo. Evite utilizar colores de fuente que produzcan texto oscuro sobre un fondo oscuro y texto claro sobre un fondo claro. Tenga en cuenta las directrices de contraste para una proporción óptima:
 
-- Texto e imágenes de texto: relación de contraste de al menos 4.5:1
+- Texto e imágenes de texto: relación de contraste de al menos 4,5:1
 - Texto e imágenes grandes de texto a gran escala: relación de contraste de al menos 3:1
 
 ## Objetivo del vínculo (solo vínculo)

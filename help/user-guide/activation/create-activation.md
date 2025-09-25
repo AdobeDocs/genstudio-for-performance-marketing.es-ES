@@ -3,7 +3,7 @@ title: Flujo de trabajo de activación
 description: Obtenga información acerca del flujo de trabajo de activación para experiencias publicitarias.
 feature: Ad Activation
 exl-id: 17e1bade-d52a-4953-a85c-c10d093e73d6
-source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
+source-git-commit: 72cd93d9d6fdd99d5a524d05cba923e9c0191960
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Flujo de trabajo de activación
 
-[!DNL Activate] admite la activación de experiencias de anuncio en formatos específicos de canal, como una experiencia de anuncio Meta o Google Campaign Manager 360.
+[!DNL Activate] admite la activación de experiencias de anuncio en formatos específicos de canal, como una experiencia de anuncio de Meta o Google Campaign Manager 360.
 
 Una experiencia de GenStudio for Performance Marketing es un componente de la campaña de marketing, como un anuncio, que se prepara como una experiencia de anuncio para una audiencia específica en un canal de publicidad de pago o correo electrónico. Las experiencias para la activación contienen tres componentes principales:
 
@@ -34,11 +34,11 @@ Aunque los requisitos de ubicación únicos definen cada canal de pago, todas la
 
 1. **Prepare su experiencia para la activación**. Puede preparar las experiencias para la activación de dos formas:
 
-   * Activar una experiencia aprobada con la configuración predefinida directamente desde [!DNL Content]. Esta forma optimizada de activar una o más experiencias publicitarias en un solo canal. Una vez que seleccione una experiencia de la galería [!DNL Content], no podrá editar ni agregar recursos a su experiencia publicitaria. Activar desde [!DNL Content] está disponible para las experiencias publicitarias Meta y Google Campaign Manager 360.
+   * Activar una experiencia aprobada con la configuración predefinida directamente desde [!DNL Content]. Esta forma optimizada de activar una o más experiencias publicitarias en un solo canal. Una vez que seleccione una experiencia de la galería [!DNL Content], no podrá editar ni agregar recursos a su experiencia publicitaria. Activar desde [!DNL Content] está disponible para experiencias publicitarias de Meta y Google Campaign Manager 360.
 
    * Organice su experiencia publicitaria seleccionando recursos visuales de [!DNL Content], agregando elementos de texto y relaciones de aspecto. Este método implica más pasos, pero ofrece una mayor flexibilidad creativa. La preparación incluye la selección de los recursos de medios en la relación de aspecto adecuada para la ubicación específica del anuncio y la asignación de texto a los elementos de call-to-action y a la copia de cuerpo. Puede agregar metadatos informativos que ayuden a los usuarios a buscar la experiencia después de la activación. Cada ubicación de canal de publicidad especifica relaciones de aspecto válidas para los recursos visuales incluidos en la ubicación.
 
-1. **Revise y publique su experiencia en el canal de destino**. Use el panel _Vista previa_ durante la configuración de la experiencia para evaluar la elección de la ubicación del anuncio y los elementos de texto antes de finalizar la activación. La revisión final previa a la publicación se realizará en la aplicación de administración de anuncios del canal de destino. Por ejemplo, después de activar una experiencia de Meta Ads en GenStudio for Performance Marketing, debe iniciar sesión en el Administrador de Meta Ads, revisar su experiencia publicitaria y, a continuación, seleccionar sus atributos específicos antes de publicarla.
+1. **Revise y publique su experiencia en el canal de destino**. Use el panel _Vista previa_ durante la configuración de la experiencia para evaluar la elección de la ubicación del anuncio y los elementos de texto antes de finalizar la activación. La revisión final previa a la publicación se realizará en la aplicación de administración de anuncios del canal de destino. Por ejemplo, después de activar una experiencia de anuncio de Meta en GenStudio for Performance Marketing, debe iniciar sesión en el Administrador de anuncios de Meta, revisar la experiencia de anuncio y, a continuación, seleccionar sus atributos específicos antes de publicarla.
 
 Una vez que una experiencia de anuncio está activa en su canal de medios de pago de destinatario, [!DNL Insights] puede realizar el seguimiento y analizar sus datos de rendimiento.
 

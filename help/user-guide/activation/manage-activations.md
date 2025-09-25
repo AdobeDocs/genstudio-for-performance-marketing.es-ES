@@ -1,9 +1,9 @@
 ---
-title: Administración de activaciones
+title: Administrar activaciones
 description: Obtenga información sobre cómo administrar experiencias activadas con Adobe GenStudio for Performance Marketing.
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
+source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Haga clic en la activación para abrir una vista enfocada de los detalles de act
 En la vista _Experiencias activadas_, haga clic en una activación. La vista de solo lectura _Detalles de activación_ captura los detalles que definen una experiencia activada, incluidas las activaciones fallidas. Esta vista incluye información derivada tanto de GenStudio for Performance Marketing como del canal de publicidad.
 
 * **Fecha y hora de publicación**: Fecha y hora de publicación desde el administrador del canal de publicidad
-* **ID de anuncio**: ID asignado por el canal de pago y utilizado para el seguimiento. Haga clic en el botón **[!UICONTROL Abrir]** que se encuentra junto a este campo para ver el anuncio publicado en el Administrador de metadatos de anuncios
+* **ID de anuncio**: ID asignado por el canal de pago y utilizado para el seguimiento. Haga clic en el botón **[!UICONTROL Abrir]** situado junto a este campo para ver el anuncio publicado en el Administrador de Meta Ads
 * **Detalles de la experiencia**: los recursos de imagen, los textos y los metadatos seleccionados asignados durante el flujo de trabajo de activación de GenStudio for Performance Marketing
 * **Configuración del canal**: Las cuentas de canal de pago utilizadas para activar la experiencia de anuncio
 

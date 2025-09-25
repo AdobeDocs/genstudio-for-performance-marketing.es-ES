@@ -1,11 +1,11 @@
 ---
-title: Mostrar experiencias de publicidad
+title: Mostrar experiencias publicitarias
 description: Obtenga información sobre las experiencias de anuncios en pantalla en Adobe GenStudio for Performance Marketing.
 feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: 7951646f-38da-437d-a270-c5ac99fa51cf
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 1%

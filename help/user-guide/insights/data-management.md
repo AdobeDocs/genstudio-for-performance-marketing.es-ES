@@ -6,7 +6,7 @@ level: Experienced
 role: Admin, Data Architect
 last-substantial-update: 2025-1-7
 exl-id: a5ab44d6-75c0-405b-82ad-9c65f6094bd6
-source-git-commit: f98a853965ce05420cd178c294b3b4d69500977b
+source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Tenga cuidado y no elimine las siguientes conexiones de datos necesarias para qu
 - Conexiones de AEP: flujos de datos con el prefijo `GS Insights`
 - AEP Connections: cuenta de GS Insights
 
-Consulte [Eliminar implicaciones](https://experienceleague.adobe.com/es/docs/analytics-platform/using/technotes/deletion) en la guía de _Customer Journey Analytics_ antes de eliminar cualquier componente de datos en AEP.
+Consulte [Eliminar implicaciones](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion) en la guía de _Customer Journey Analytics_ antes de eliminar cualquier componente de datos en AEP.
 
 >[!ENDSHADEBOX]
 

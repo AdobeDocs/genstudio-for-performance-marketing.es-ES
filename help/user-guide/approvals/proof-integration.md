@@ -1,8 +1,9 @@
 ---
-title: Integración de Workfront Proof con revisión y aprobaciones
+title: Integración de Workfront Proof con revisiones y aprobaciones
 description: Integración de Workfront Proof con Adobe GenStudio for Performance Marketing.
 feature: Content Review, Content Management
-source-git-commit: f8508ee9440714137141e933cfe0f5761a510c7a
+exl-id: 149db773-4787-4cfb-b29e-c49f13abf39a
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 0%
@@ -11,13 +12,13 @@ ht-degree: 0%
 
 # Integración de Workfront Proof con GenStudio for Performance Marketing
 
-La integración con Workfront Proof mejora el ciclo de vida de revisión y aprobación de GenStudio for Performance Marketing con funciones avanzadas, incluidas plantillas de aprobación, flujos de trabajo de varias fases y la capacidad de [comparar versiones de prueba](https://experienceleague.adobe.com/es/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs). Este control de versiones estructurado garantiza la transparencia, la responsabilidad y la colaboración optimizada a lo largo del ciclo de vida de la revisión de contenido.
+La integración con Workfront Proof mejora el ciclo de vida de revisión y aprobación de GenStudio for Performance Marketing con funciones avanzadas, incluidas plantillas de aprobación, flujos de trabajo de varias fases y la capacidad de [comparar versiones de prueba](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs). Este control de versiones estructurado garantiza la transparencia, la responsabilidad y la colaboración optimizada a lo largo del ciclo de vida de la revisión de contenido.
 
 >[!BEGINSHADEBOX]
 
 **Requisitos previos**:
 
-Instale la [extensión de Adobe Workfront Web Viewer](https://experienceleague.adobe.com/es/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/review-a-proof/review-proof-in-web-viewer-extension)
+Instale la [extensión de Adobe Workfront Web Viewer](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/review-a-proof/review-proof-in-web-viewer-extension)
 
 >[!ENDSHADEBOX]
 
@@ -44,7 +45,7 @@ La siguiente tabla compara las funciones estándar de revisión y aprobación de
 
 ### Licencias y funciones de usuario
 
-Las licencias identifican el conjunto de derechos de usuario dentro de un producto. Workfront Proof proporciona más tipos de licencia o funciones de usuario que GenStudio for Performance Marketing. [Resumen de funciones de revisión](https://experienceleague.adobe.com/es/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles) presenta las funciones de usuario asociadas con el flujo de trabajo de revisión y aprobación de Workfront Proof.
+Las licencias identifican el conjunto de derechos de usuario dentro de un producto. Workfront Proof proporciona más tipos de licencia o funciones de usuario que GenStudio for Performance Marketing. [Resumen de funciones de revisión](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles) presenta las funciones de usuario asociadas con el flujo de trabajo de revisión y aprobación de Workfront Proof.
 
 | Licencia de GenStudio for Performance Marketing       | Licencia de Workfront                 | Descripción                                                                                                                                                      |
 |---------------------------------------------------|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -56,7 +57,7 @@ Los administradores del sistema de Adobe administran el aprovisionamiento de usu
 
 >[!NOTE]
 >
-> Workfront Proof proporciona [funciones de usuario adicionales](https://experienceleague.adobe.com/es/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles). No todos los roles son visibles dentro de Performance Marketing. Sin embargo, el sistema respeta cualquier función establecida dentro de una plantilla de Workfront Proof.
+> Workfront Proof proporciona [funciones de usuario adicionales](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles). No todos los roles son visibles dentro de Performance Marketing. Sin embargo, el sistema respeta cualquier función establecida dentro de una plantilla de Workfront Proof.
 
 ### Borradores y pruebas
 
@@ -78,9 +79,9 @@ Las plantillas de aprobación admiten aprobaciones de varias etapas, que apoyan 
 
 Los revisores pueden hacer clic directamente en áreas específicas de la prueba para dejar comentarios precisos y contextuales. Todos los comentarios se marcan con la hora y se guardan como parte del historial de versiones de la prueba. El historial de comentarios no está disponible en GenStudio for Performance Marketing.
 
-Puede [comparar dos versiones de una revisión](https://experienceleague.adobe.com/es/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs) para evaluar comentarios y contenido de revisión.
+Puede [comparar dos versiones de una revisión](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs) para evaluar comentarios y contenido de revisión.
 
 ## Notificaciones y recordatorios
 
 Los revisores y aprobadores reciben notificaciones por correo electrónico cuando hay una nueva prueba disponible para su revisión o cuando una revisión en curso ha cambiado de estado.
-[Las notificaciones y los recordatorios de prueba](https://experienceleague.adobe.com/es/docs/workfront/using/workfront-proof/proof-notifications-and-reminders/proof-notifications-and-reminders/proof-notifications-and-reminders) incluyen un vínculo personalizado a la prueba, detalles sobre la prueba y su progreso en el proceso de aprobación e información sobre las versiones.
+[Las notificaciones y los recordatorios de prueba](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/proof-notifications-and-reminders/proof-notifications-and-reminders/proof-notifications-and-reminders) incluyen un vínculo personalizado a la prueba, detalles sobre la prueba y su progreso en el proceso de aprobación e información sobre las versiones.

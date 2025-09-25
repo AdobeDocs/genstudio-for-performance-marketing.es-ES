@@ -7,7 +7,7 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: d82891b2347c6b97bf8f6eef9cffe363ea341725
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '1224'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Puede seleccionar de la lista de plantillas personalizadas o elegir una plantill
 1. En _[!DNL Create]_, haga clic en **[!UICONTROL LinkedIn]**.
 1. Seleccione **[!UICONTROL Plantillas personalizadas]** para examinar las plantillas cargadas o **[!UICONTROL Plantillas iniciales]** para examinar las plantillas creadas previamente.
 
-   Si planea agregar recursos de vídeo a las variantes Meta, debe elegir una plantilla de inicio. Están precargadas con áreas de contenido definidas por el sistema que facilitan el uso de vídeos.
+   Si planea agregar recursos de vídeo a las variantes de Meta, debe elegir una plantilla de inicio. Están precargadas con áreas de contenido definidas por el sistema que facilitan el uso de vídeos.
 
 1. Haga clic para seleccionar una plantilla y luego haga clic en **[!UICONTROL Usar]**.
 
@@ -130,13 +130,13 @@ Utilice el panel Aprobaciones, al que se puede acceder desde la barra de menú s
 
 **Para obtener revisiones y aprobaciones**:
 
-1. [Inicie una solicitud de aprobación](/help/user-guide/approvals/request-review.md) para solicitar una [aprobación de las experiencias de anuncio Meta ](/help/user-guide/approvals/approve-content.md).
+1. [Iniciar una solicitud de aprobación](/help/user-guide/approvals/request-review.md) para solicitar una [aprobación de las experiencias de anuncios de Meta ](/help/user-guide/approvals/approve-content.md) redactadas.
 
    ![Enviar borradores para su revisión y aprobación](/help/assets/send-approval-meta.png){width="450" zoomable="yes"}
 
 1. [Quitar o agregar revisores](/help/user-guide/approvals/review-and-edit.md#manage-approvals) durante el proceso de revisión.
 1. [Acceda al contenido para revisarlo](/help/user-guide/approvals/review-and-edit.md#access-content-for-review) y vea las solicitudes de revisión.
-1. Edite los borradores por comentarios de revisión y [publique sus experiencias de anuncio Meta](#publish-and-export-experience).
+1. Edite los borradores por comentarios de revisión y [publique sus experiencias de anuncios de Meta](#publish-and-export-experience).
 
 Consulte [Revisiones y aprobaciones](/help/user-guide/approvals/overview.md) para obtener más información.
 
