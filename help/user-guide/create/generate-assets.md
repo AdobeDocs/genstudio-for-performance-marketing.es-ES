@@ -105,9 +105,9 @@ Después de generar variantes de imagen, puede editarlas directamente en Adobe G
 
    Aparece una ventana _Con tecnología Adobe Express_.
 
-1. Realice la edición de imágenes, como [recortar una imagen](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-images.html), [quitar un objeto](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html) y aplicar efectos.
+1. Realice la edición de imágenes, como [recortar una imagen](https://helpx.adobe.com/es/express/create-and-edit-images/edit-images/crop-images.html), [quitar un objeto](https://helpx.adobe.com/es/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html) y aplicar efectos.
 
-   Consulte [Documentación de Adobe Express](https://helpx.adobe.com/express/user-guide.html) para obtener información sobre cómo revisar imágenes en GenStudio for Performance Marketing con Adobe Express.
+   Consulte [Documentación de Adobe Express](https://helpx.adobe.com/es/express/user-guide.html) para obtener información sobre cómo revisar imágenes en GenStudio for Performance Marketing con Adobe Express.
 
 1. Haga clic en _[!UICONTROL Aplicar cambios]_ para guardar las ediciones.
 1. Siga editando las variantes de imagen individuales que desee y aplicando cambios para guardar el progreso.
