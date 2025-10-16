@@ -4,7 +4,7 @@ description: Obtenga información sobre las últimas funciones y mejoras de Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: a294111abbe89030a7095458c4b08de18722230f
+source-git-commit: 015f2f14edfb05cab11a66a8e5bc9b357f2e3ab9
 workflow-type: tm+mt
 source-wordcount: '3763'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Esta información de la versión proporciona las últimas actualizaciones para la aplicación de GenStudio for Performance Marketing.
 
-## 2025.10.26 {#latest}
+## 2025.10.16 {#latest}
 
 ### Nuevos complementos de GenStudio para Photoshop y Figma
 
