@@ -4,9 +4,9 @@ description: Obtenga información sobre las últimas funciones y mejoras de Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 06f273d520c39042e180b5acaec33004df1cd5fe
+source-git-commit: a294111abbe89030a7095458c4b08de18722230f
 workflow-type: tm+mt
-source-wordcount: '3502'
+source-wordcount: '3763'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,54 @@ ht-degree: 0%
 
 Esta información de la versión proporciona las últimas actualizaciones para la aplicación de GenStudio for Performance Marketing.
 
-## 2025.09.11 {#latest}
+## 2025.10.26 {#latest}
+
+### Nuevos complementos de GenStudio para Photoshop y Figma
+
+* Cree anuncios personalizados y en la marca directamente utilizando los nuevos complementos de GenStudio para las herramientas de diseño de Adobe Photoshop y Figma.
+
+### Funcionalidades de vídeo ampliadas
+
+* Los especialistas en marketing ahora pueden añadir fácilmente clips de introducción y de salida para enmarcar anuncios de vídeo con marcas o mensajes preproducidos.
+* Agregar superposiciones de imagen, texto y logotipo a lo largo de todo el vídeo
+
+### Perspectivas ampliadas para LinkedIn, Meta y TikTok
+
+* GenStudio Insights ahora incluye la creación de informes de rendimiento de LinkedIn Ads, lo que permite a los especialistas en marketing ver y analizar el rendimiento de sus campañas y anuncios directamente dentro de la plataforma para:
+   * LinkedIn Ads
+   * Meta Ads
+   * TikTok Ads
+
+### Activación de Amazon Ads
+
+* GenStudio ahora admite la activación de anuncios en pantalla directamente en la plataforma de anuncios de Amazon.
+
+### Activación de FlashTalk
+
+* GenStudio ahora es compatible con la activación de anuncios de visualización directamente en la plataforma de servicio de anuncios Flashtalk (Innovid).
+* Los usuarios deben configurar manualmente su token de API de FlashTalk en coordinación con el equipo de Ingeniería de activación. La configuración del token de autoservicio se agregará en una versión futura.
+
+### Integración con Adobe Campaign V8
+
+* GenStudio for Performance Marketing ahora se integra con Adobe Campaign V8, lo que permite a los especialistas en marketing aprovechar sin problemas la creación de contenido con tecnología de IA junto con las funciones de orquestación avanzadas de Campaign.
+
+### Reproducción automática de vídeo
+
+* Ahora, los vídeos se reproducen automáticamente en los módulos [!DNL Create], [!DNL Content] y [!DNL Insights], lo que ofrece experiencias de vista previa sin problemas.
+
+### Importación de plantillas de correo electrónico de terceros
+
+* GenStudio for Performance Marketing ahora admite la integración perfecta con sistemas de diseño de correo electrónico de terceros a través de un marco de trabajo de extensibilidad. Las funciones clave incluyen:
+
+   * Importar automáticamente plantillas de sistemas de diseño de correo electrónico de terceros durante la creación de contenido
+   * Incorporar metadatos de plantilla junto con plantillas importadas
+   * Mantener una única fuente de datos conectándose directamente a sistemas de terceros
+   * Se proporciona SDK y una aplicación de ejemplo para crear integraciones personalizadas
+
+
+## Notas de la versión anteriores
+
++++Notas a partir del 11 de septiembre de 2025
 
 ### Nueva funcionalidad Generative Expand AI para medios de pago
 
@@ -23,7 +70,7 @@ La nueva función GenExpand permite a los especialistas en marketing adaptar din
 
 Esta función optimiza el proceso de edición y cambio de tamaño de la imagen directamente en GenStudio for Performance Marketing. Consulte [Funcionalidades generativas de IA expandida](/help/user-guide/create/manage-variants.md#use-generative-expand) para obtener información detallada.
 
-## Notas de la versión anteriores
++++
 
 +++Notas a partir del 15 de agosto de 2025
 
@@ -44,7 +91,7 @@ El nuevo selector Idioma en el cajón de mensajes admite la creación de conteni
 
 ### Compatibilidad con recursos de vídeo en plantillas
 
-* Los recursos de vídeo se pueden añadir en plantillas Meta y LinkedIn.
+* Se pueden añadir recursos de vídeo en plantillas de Meta y LinkedIn.
 
 ### Activar mejoras de experiencia
 
@@ -85,7 +132,7 @@ Un nuevo filtro en el módulo [!DNL Insights] oculta automáticamente [recursos 
 
 ### Activación de varios recursos para Meta
 
-La activación de imágenes de relación de aspecto múltiple para Meta Ads permite a los anunciantes cargar y activar varios recursos de imagen en diferentes relaciones de aspecto con un solo creativo de publicidad. Esta función permite que un anuncio proporcione el ajuste creativo adecuado para varias ubicaciones de metadatos, como fuentes, historias y carretes. Los anunciantes pueden obtener una vista previa de cómo se representará cada imagen en las ubicaciones y publicar todas las versiones en el Meta en una sola llamada de API.
+La activación de imágenes de relación de aspecto múltiple para Meta Ads permite a los anunciantes cargar y activar varios recursos de imagen en diferentes relaciones de aspecto con un solo creativo de publicidad. Esta función permite que un anuncio proporcione el ajuste creativo adecuado para varias ubicaciones de Meta, como Fuentes, Historias y Carretes. Los anunciantes pueden obtener una vista previa de cómo se representará cada imagen en las ubicaciones y publicar todas las versiones en Meta en una sola llamada de API.
 
 ### Formato de texto enriquecido en variantes
 
@@ -101,11 +148,11 @@ Agregue etiquetas de accesibilidad (Aria-labels) a las imágenes y a los víncul
 
 El nuevo menú desplegable Selector de idioma del cajón de mensajes admite la creación de contenido multilingüe, lo que permite a los especialistas en marketing regional desarrollar contenido de marca para sus audiencias locales. Actualmente, esta función es compatible con 12 idiomas de GA y 5 idiomas de Beta, con una lista de idiomas que proporciona un flujo de trabajo definido y una directiva de idioma clara a la LLM para obtener resultados más coherentes.
 
-### Selección de plantilla opcional para anuncios Meta
+### Selección de plantilla opcional para anuncios de Meta
 
 [!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
 
-La selección de plantillas ahora es opcional con los anuncios Meta, lo que permite a los usuarios crear anuncios sin necesidad de texto y logotipo en la parte superior del contenido. Esta mejora permite otros tipos de medios, como GIF animados y vídeos, que pueden no requerir superposiciones de texto o la colocación de logotipos.
+La selección de plantillas ahora es opcional con los anuncios de Meta, lo que permite a los usuarios crear anuncios sin necesidad de texto y logotipo en la parte superior del contenido. Esta mejora permite otros tipos de medios, como GIF animados y vídeos, que pueden no requerir superposiciones de texto o la colocación de logotipos.
 
 +++
 
@@ -143,7 +190,7 @@ Junto con el contenido de la imagen, ahora puedes agregar videos a los anuncios 
 
 * Ahora puede [usar formato de edición de texto enriquecido para texto](/help/user-guide/create/manage-variants.md#manually-edit-text) en las variantes generadas. Experimente con infinidad de opciones de formato para texto de variante, como color, tamaño, listas y mucho más.
 
-* Ahora puede [crear un nuevo conjunto de anuncios](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set) durante la configuración de la plataforma clonando un conjunto de anuncios existente durante la configuración de la plataforma. Los conjuntos de metadatos de publicidad definen el momento, los detalles de canal y la audiencia de un anuncio específico. Una metacampaña puede contener varios conjuntos de anuncios, pero un conjunto de anuncios está asociado exclusivamente a una campaña.
+* Ahora puede [crear un nuevo conjunto de anuncios](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set) durante la configuración de la plataforma clonando un conjunto de anuncios existente durante la configuración de la plataforma. Los conjuntos de anuncios de Meta definen el momento, los detalles de canal y la audiencia de un anuncio específico. Una campaña de Meta puede contener varios conjuntos de anuncios, pero un conjunto de anuncios está asociado exclusivamente a una campaña.
 
 * Ahora puede exportar los detalles de la campaña para que sean accesibles externamente como informes de campaña en Word o PDF. Seleccione una campaña y haga clic en **[!UICONTROL Exportar]** (esquina superior derecha).
 
@@ -154,7 +201,7 @@ Junto con el contenido de la imagen, ahora puedes agregar videos a los anuncios 
 ### Correcciones y mejoras
 
 * Se habilitó la funcionalidad para [agregar texto alternativo](/help/user-guide/create/manage-variants.md#add-alt-text-for-images) a una imagen para una variante individual.
-* Se agregó [nueva relación de aspecto meta](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) —Horizontal 1.19:1 (anchura de 1080 píxeles).
+* Se agregó [nueva proporción de aspecto de Meta](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) —Horizontal 1.19:1 (anchura de 1080 píxeles).
 * Ahora puede elegir más de una experiencia para exportarla o descargarla. Ver [Exportar experiencias](/help/user-guide/content/manage-assets.md#export-experiences).
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
@@ -173,9 +220,9 @@ Junto con el contenido de la imagen, ahora puedes agregar videos a los anuncios 
 
 +++Notas a partir del 13 de marzo de 2025
 
-### Activar anuncios Meta
+### Activar anuncios de Meta
 
-Los especialistas en marketing ahora pueden [publicar experiencias de anuncios](/help/user-guide/activation/overview.md) de GenStudio for Performance Marketing en el administrador de metadatos de anuncios. [!DNL Activate] admite previsualizaciones detalladas de Meta y Android antes de la implementación. Los meta-anuncios publicados a través de [!DNL Activate] se incorporan automáticamente a [!DNL Insights] una vez que se activan, lo que permite a los usuarios rastrear el rendimiento de los anuncios e informar sobre él.
+Los especialistas en marketing ahora pueden [publicar experiencias de anuncios](/help/user-guide/activation/overview.md) de GenStudio for Performance Marketing en el Administrador de Meta Ads. [!DNL Activate] admite vistas previas de anuncios detallados de Meta antes de la implementación. Los anuncios de Meta publicados a través de [!DNL Activate] se incorporan automáticamente a [!DNL Insights] una vez publicados, lo que permite a los usuarios realizar un seguimiento y generar informes sobre el rendimiento de los anuncios.
 
 ### Creación de experiencias de LinkedIn
 
@@ -191,7 +238,7 @@ Se agregó compatibilidad con [creación de experiencias de banner](/help/user-g
 
 ### Compatibilidad
 
-Como parte del proceso de validación de la marca, se han introducido [estándares de cumplimiento](/help/user-guide/guidelines/overview.md) en [comprobaciones de contenido](/help/user-guide/guidelines/brand-validation.md). Estas comprobaciones revisan cada variante de una experiencia comparándola con las directrices de [!DNL Brand], las directrices de plataforma (como para Meta) y los estándares de ADA. Este proceso proporciona un resumen completo de las directrices y normas que deben revisarse para mejorar su cumplimiento.
+Como parte del proceso de validación de la marca, se han introducido [estándares de cumplimiento](/help/user-guide/guidelines/overview.md) en [comprobaciones de contenido](/help/user-guide/guidelines/brand-validation.md). Estas comprobaciones revisan cada variante de una experiencia en relación con las directrices de [!DNL Brand], las directrices de plataforma (como para Meta) y los estándares ADA. Este proceso proporciona un resumen completo de las directrices y normas que deben revisarse para mejorar su cumplimiento.
 
 ### Extensibilidad
 
@@ -246,13 +293,13 @@ Ahora puede generar nuevas frases de call-to-action (CTA) al administrar variant
 
 ### Correcciones y mejoras
 
-* Los recuentos de caracteres ahora se muestran en todos los campos generados y manuales de los anuncios en pantalla. Ver _Recuentos de caracteres_ en [metaexperiencias](/help/user-guide/create/meta-experiences.md#character-counts). <!-- GS-7732 -->
+* Los recuentos de caracteres ahora se muestran en todos los campos generados y manuales de los anuncios en pantalla. Ver _Recuentos de caracteres_ en [experiencias de Meta](/help/user-guide/create/meta-experiences.md#character-counts). <!-- GS-7732 -->
 
 * _Los colaboradores_ ahora pueden ver los recursos, pero no crearlos, editarlos o eliminarlos. Anteriormente, los derechos de colaborador no se aplicaban como se esperaba en [!DNL Create]. <!-- GS-7614 -->
 
 * Los editores de contenido ahora pueden editar metadatos de recursos, experiencias y plantillas. <!-- GS-4905 -->
 
-* Ahora se admiten tamaños de imagen personalizados dentro de plantillas de publicidad Meta. <!-- GS-7512 -->
+* Ahora se admiten tamaños de imagen personalizados dentro de plantillas de anuncios de Meta. <!-- GS-7512 -->
 
 * Las selecciones de persona, marca y producto ahora se cargan previamente durante la generación de la plantilla. <!-- GS-8069 -->
 
@@ -260,13 +307,13 @@ Ahora puede generar nuevas frases de call-to-action (CTA) al administrar variant
 
 * El menú desplegable del selector [!DNL Brand] ahora funciona según lo esperado para las plantillas. Anteriormente, el selector no se cargaba correctamente en algunas plantillas. <!-- GS-8908 -->
 
-* Los editores ahora pueden seleccionar un máximo de cuatro imágenes para correos electrónicos de un solo pod y anuncios Meta. <!-- GS-2631 -->
+* Los editores ahora pueden seleccionar un máximo de cuatro imágenes para correos electrónicos de un solo pod y anuncios de Meta. <!-- GS-2631 -->
 
 * El valor de año del campo `Created by` de una experiencia aprobada ahora se mantiene coherente como se espera después de editar los metadatos de la experiencia. <!-- GS-8344 -->
 
 * Los editores de contenido ahora pueden seleccionar correctamente una plantilla de [!DNL Create]. Anteriormente, la aplicación arrojaba un error de consola cuando un editor seleccionaba una plantilla.  <!-- GS-8798 -->
 
-* Se han resuelto los problemas con las operaciones de redimensionado y regeneración para los anuncios Meta. <!-- GS-8900 -->
+* Se han resuelto los problemas con las operaciones de cambio de tamaño y regeneración para anuncios de Meta. <!-- GS-8900 -->
 
 * El botón **[!UICONTROL Atrás]** ahora devuelve a los usuarios a la página anterior o a la página de aterrizaje [!DNL Create] según lo esperado. <!-- GS-8622 -->
 
@@ -292,7 +339,7 @@ Los editores ahora pueden especificar valores personalizados para estos aspectos
 
 Las opciones de exportación ahora incluyen:
 
-* Exporte anuncios en pantalla y anuncios Meta como HTML, JPEG o PNG. Ver [Crear una experiencia de anuncio en pantalla](/help/user-guide/create/create-display-ad.md) y [Crear una experiencia de anuncio meta](/help/user-guide/create/create-meta-ad.md). <!-- GS-7093 6655 5152-->
+* Exporte anuncios en pantalla y anuncios de Meta como HTML, JPEG o PNG. Ver [Crear una experiencia de anuncio en pantalla](/help/user-guide/create/create-display-ad.md) y [Crear una experiencia de anuncio meta](/help/user-guide/create/create-meta-ad.md). <!-- GS-7093 6655 5152-->
 
 Las nuevas funciones adicionales permiten a los editores:
 
@@ -338,11 +385,11 @@ Las nuevas funciones adicionales permiten a los editores:
 
 * Los editores ahora ven un mensaje de error como se espera cuando un borrador no se puede cargar en el área [!DNL Create] _Trabajo reciente_.  <!-- GS-8081 -->
 
-* El lienzo ahora muestra los anuncios Meta redimensionados y los anuncios de visualización en el orden correcto.  <!-- GS-7375 -->
+* El lienzo ahora muestra los anuncios de Meta cuyo tamaño se ha cambiado y los anuncios en el orden correcto.  <!-- GS-7375 -->
 
 * Los editores ahora pueden hacer clic en los campos del correo electrónico y mostrar anuncios. <!-- GS-6297 -->
 
-* La capacidad Editar fragmento para anuncios Meta y de correo electrónico ahora se activa como se espera con un solo clic. <!-- GS-8081 -->
+* La capacidad de edición de fragmentos para correos electrónicos y anuncios de Meta ahora se activa según lo esperado con un solo clic. <!-- GS-8081 -->
 
 * Se mejoró el rendimiento del botón [!DNL Create] **[!UICONTROL Atrás]**. <!-- GS-6767 -->
 
@@ -392,19 +439,19 @@ Esta versión incluye mejoras en la localización en toda la interfaz de usuario
 
 * Ahora, seleccionar **[!UICONTROL Eliminar]** del menú de acción [!DNL Create] (...) funciona según lo esperado. <!-- GS-6871 -->
 
-* Ahora los usuarios pueden controlar todos los elementos interactivos de las plantillas de publicidad Meta mediante el teclado. <!-- GS-4066 -->
+* Ahora los usuarios pueden controlar todos los elementos interactivos de plantillas de anuncios de Meta solo mediante el teclado. <!-- GS-4066 -->
 
 * Se ha añadido la extracción de dimensiones de imagen de los campos de imagen de plantilla a las plantillas de anuncio de visualización. Las solicitudes de recorte inteligente ahora se envían para la dimensión real de la imagen y no para toda la plantilla. <!-- GS-6926 -->
 
-* Se localizó la cadena `Zoom to fit to screen` en el correo electrónico y los anuncios Meta generados. <!-- GS-5063 -->
+* Se localizó la cadena `Zoom to fit to screen` en el correo electrónico y los anuncios de Meta generados. <!-- GS-5063 -->
 
 * El cajón de mensajes [!DNL Create] ahora se cierra como se espera cuando un usuario hace clic fuera. <!-- GS-5254 -->
 
-* La exportación de metadatos ahora incluye la etiqueta de call-to-action seleccionada según lo esperado. <!-- GS-6504 -->
+* La exportación de anuncios de Meta ahora incluye la etiqueta de call-to-action seleccionada según lo esperado. <!-- GS-6504 -->
 
 * La puntuación de la marca ahora se actualiza y se conserva según lo esperado para las experiencias regeneradas. <!-- GS-6535 -->
 
-* La exportación de anuncios Meta y anuncios de visualización de HTML ya no incluye los elementos envolvente `div` y `chrome`. <!-- GS-7116 -->
+* La exportación de HTML de anuncios de Meta y anuncios en pantalla ya no incluye los elementos envoltorios `div` y `chrome`. <!-- GS-7116 -->
 
 * Ya se han resuelto los problemas con el procesamiento del borrador de correo electrónico durante la publicación. <!-- GS-6394 -->
 
@@ -414,11 +461,11 @@ Esta versión incluye mejoras en la localización en toda la interfaz de usuario
 
 #### Regeneración de imagen
 
-* Ahora, cambiar el tamaño de varias variantes de MetaAd funciona según lo esperado. Anteriormente, el lienzo no mostraba variantes regeneradas, pero permanecía en blanco. <!-- GS-7010 -->
+* Cambiar el tamaño de varias variantes de anuncios de Meta ahora funciona según lo esperado. Anteriormente, el lienzo no mostraba variantes regeneradas, pero permanecía en blanco. <!-- GS-7010 -->
 
 * La regeneración de fragmentos ahora funciona según lo esperado para las experiencias cuyo tamaño se ha cambiado. <!-- GS-6836 -->
 
-* La regeneración de las imágenes de Meta y Ad después de cambiar su tamaño ya no provoca un error. Anteriormente, el cambio de tamaño de las imágenes antes de la regeneración cambió los metadatos de canal de `meta` a `facebook`. <!-- GS-7042 -->
+* La regeneración de imágenes de anuncios de Meta después de cambiar su tamaño ya no provoca un error. Anteriormente, el cambio de tamaño de las imágenes antes de la regeneración cambió los metadatos de canal de `meta` a `facebook`. <!-- GS-7042 -->
 
 +++
 
