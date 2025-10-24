@@ -5,10 +5,10 @@ user-guide-description: Explore las funcionalidades de Adobe GenStudio for Perfo
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 69915cf03785c3a916bab75cbc34d0126749cddc
+source-git-commit: 48dae1e6ce14a7dc1f2cc5fbad60eefebe99bf4e
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 18%
+source-wordcount: '242'
+ht-degree: 19%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 18%
    + Cuentas de medios de pago {#connect-account}
       + [Administrador de Google Campaign 360](connectors/google-cm360.md)
       + [LinkedIn](connectors/linkedin-ads.md)
-      + [Metadatos](connectors/meta-ads.md)
+      + [Meta Ads](connectors/meta-ads.md)
 + Directrices {#guidelines}
    + [Resumen de directrices](guidelines/overview.md)
    + [Marcas](guidelines/brands.md)
@@ -40,13 +40,13 @@ ht-degree: 18%
 + Crear {#create}
    + [[!DNL Create] Información general](create/overview.md)
    + [Experiencias de correo electrónico](create/email-experiences.md)
-   + [Metaexperiencias](create/meta-experiences.md)
+   + [experiencias de Meta](create/meta-experiences.md)
    + [Experiencias de LinkedIn](create/linkedin-experiences.md)
    + [Mostrar experiencias de anuncios](create/display-ad-experiences.md)
    + [Experiencias del titular](create/banner-experiences.md)
    + [Administrar variantes](create/manage-variants.md)
    + [Crear una experiencia de correo electrónico](create/create-email-experience.md)
-   + [Crear una experiencia de Meta ad](create/create-meta-ad.md)
+   + [Crear una experiencia de anuncio de Meta](create/create-meta-ad.md)
    + [Crear una experiencia de LinkedIn](create/create-linkedin.md)
    + [Crear una experiencia de anuncio en pantalla](create/create-display-ad.md)
    + [Crear una experiencia de banner](create/create-banner-experience.md)
@@ -63,6 +63,7 @@ ht-degree: 18%
    + [Administrar recursos y experiencias](content/manage-assets.md)
    + [Conectar un repositorio de AEM](content/connect-aem-repo.md)
    + [Detalles del recurso](content/asset-details.md)
+   + [Content Credentials](content/content-credentials.md)
 + Plantillas {#templates}
    + [Trabajar con plantillas](content/use-templates.md)
    + [Plantillas de inicio](templates/starter-templates.md)
@@ -74,7 +75,7 @@ ht-degree: 18%
       + [Guía de anuncios en pantalla](templates/display-template.md)
       + [Guía de correo electrónico](templates/email-template.md)
       + [Guía de anuncios de LinkedIn](templates/linkedin-template.md)
-      + [Guía de anuncios Meta](templates/meta-template.md)
+      + [Guía de anuncios de Meta](templates/meta-template.md)
 + Campañas {#campaigns}
    + [Resumen de campañas](campaigns/overview.md)
    + [Crear campañas](campaigns/create-campaign.md)
