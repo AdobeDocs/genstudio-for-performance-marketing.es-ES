@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 2c5a16f0767958d09cfe5bbaa7a5538ca1b4fe75
+source-git-commit: 730e8f89f466ab457670cefe98833f5f4732636c
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 0%
@@ -43,13 +43,13 @@ En la tabla siguiente se enumeran los nombres de campo reconocidos por GenStudio
 | Campo | Función | Plantilla de canal |
 | ----------------------- | ------------------------- | ------------------------------------------------ |
 | `{{pre_header}}` | Preencabezado | email |
-| `{{headline}}` | Titular | Enviar por correo electrónico <br>Meta ad <br>Anuncio para mostrar y titular <br>Anuncio de LinkedIn |
+| `{{headline}}` | Titular | Enviar por correo electrónico <br>Anuncio de Meta <br>Anuncio para mostrar y titular <br>Anuncio de LinkedIn |
 | `{{sub_headline}}` | Subtítulo | correo electrónico<br>Banner y anuncio en pantalla |
 | `{{introductory_text}}` | Texto introductorio | Anuncio de LinkedIn |
-| `{{body}}` | Copia de cuerpo | Enviar por correo electrónico <br>Meta ad <br>Banner y anuncio en pantalla |
-| `{{cta}}` | Call to action<br>Ver [llamadas a la acción](#calls-to-action) | Enviar por correo electrónico <br>Meta ad <br>Anuncio para mostrar y titular <br>Anuncio de LinkedIn |
-| `{{image}}` | Imagen: seleccionar de [!DNL Content] | Enviar por correo electrónico <br>Meta ad <br>Anuncio para mostrar y titular <br>Anuncio de LinkedIn |
-| `{{on_image_text}}` | En texto de imagen<br>Ver [En texto de imagen](#on-image-text). | Meta ad <br>LinkedIn ad |
+| `{{body}}` | Copia de cuerpo | Enviar por correo electrónico <br>Anuncio de Meta <br>Anuncio en titular y en pantalla |
+| `{{cta}}` | Call to action<br>Ver [llamadas a la acción](#calls-to-action) | Enviar por correo electrónico <br>Anuncio de Meta <br>Anuncio para mostrar y titular <br>Anuncio de LinkedIn |
+| `{{image}}` | Imagen: seleccionar de [!DNL Content] | Enviar por correo electrónico <br>Anuncio de Meta <br>Anuncio para mostrar y titular <br>Anuncio de LinkedIn |
+| `{{on_image_text}}` | En texto de imagen<br>Ver [En texto de imagen](#on-image-text). | Anuncio de Meta <br>LinkedIn |
 | `{{link}}` | Call to action en la imagen<br>Ver [Vínculo en la imagen](#link-on-image). | email |
 
 <!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
@@ -57,7 +57,7 @@ En la tabla siguiente se enumeran los nombres de campo reconocidos por GenStudio
 GenStudio for Performance Marketing genera automáticamente ciertos campos en las siguientes plantillas:
 
 - **La plantilla de correo electrónico** no requiere que identifique el campo `subject`
-- **La plantilla de anuncio Meta** no requiere que identifique los campos `headline`, `body` y `CTA`
+- **Meta y la plantilla** no requieren que identifique los campos `headline`, `body` y `CTA`
 - **El titular y la plantilla de anuncio para mostrar** no requieren que identifique el campo `CTA`
 - **La plantilla de anuncio de LinkedIn** no requiere que identifique los campos `headline`, `introductory_text` y `CTA`
 
@@ -229,7 +229,7 @@ Cada sección solo puede utilizar uno de cada tipo de campo. Por ejemplo, los ca
 
 Debido a esta regla, las secciones no se pueden anidar.
 
-Cada tipo de plantilla, como correo electrónico o MetaAd, tiene restricciones específicas del canal en el uso de secciones. Consulte [directrices específicas del canal](/help/user-guide/content/best-practices-for-templates.md) en el tema _Prácticas recomendadas para usar plantillas_.
+Cada tipo de plantilla, como el correo electrónico o el anuncio de Meta, tiene restricciones específicas del canal en el uso de secciones. Consulte [directrices específicas del canal](/help/user-guide/content/best-practices-for-templates.md) en el tema _Prácticas recomendadas para usar plantillas_.
 
 Por ejemplo, una plantilla de correo electrónico puede incluir hasta tres secciones; por lo tanto, puede tener tres secciones de titular y cuerpo:
 
@@ -259,7 +259,7 @@ Consulte [Editor de código de plantilla](/help/user-guide/content/code-editor.m
 
 Puede controlar la visibilidad del contenido especial mediante los Ayudantes integrados (expresiones especiales en el lenguaje de plantilla [!DNL Handlebars] que realizan determinadas acciones). Por ejemplo, se puede añadir una sentencia condicional que añada parámetros de seguimiento a los vínculos en la plantilla exportada, manteniendo limpios los vínculos de vista previa.
 
-El valor `_genStudio.browser` se establece al procesar una plantilla y el valor `genStudio.export` se establece al exportar una plantilla. Puede decidir incluir cierto contenido en la parte superior de un correo electrónico mediante un envoltorio condicional, por ejemplo, cuando la plantilla se utiliza para la exportación:
+El valor `_genStudio.canvas` se establece al procesar una plantilla y el valor `genStudio.export` se establece al exportar una plantilla. Puede decidir incluir cierto contenido en la parte superior de un correo electrónico mediante un envoltorio condicional, por ejemplo, cuando la plantilla se utiliza para la exportación:
 
 ```handlebars
 {{#if _genStudio.export}}
@@ -270,7 +270,7 @@ El valor `_genStudio.browser` se establece al procesar una plantilla y el valor 
 Otro ejemplo puede ser evitar el uso de códigos de seguimiento al obtener una vista previa de una plantilla en GenStudio for Performance Marketing. El siguiente ejemplo muestra cómo añadir parámetros de seguimiento a los vínculos en la plantilla exportada, manteniendo limpios los vínculos de vista previa:
 
 ```html
-<a class="button" {{#if _genStudio.browser }}
+<a class="button" {{#if _genStudio.canvas }}
    href="{{link}}"{{/if}}{{#if _genStudio.export }}
    href="{{link}}?trackingid=<%=getTrackingId()%>&mv=email"{{/if}}
    target="_blank">{{cta}}</a>
@@ -278,7 +278,7 @@ Otro ejemplo puede ser evitar el uso de códigos de seguimiento al obtener una v
 
 ## Contenido estático
 
-Las plantillas de correo electrónico y metadatos suelen vincularse a imágenes y archivos CSS alojados en otros dominios. Cuando GenStudio for Performance Marketing genera miniaturas para vistas previas de plantillas o las experiencias derivadas de ellas, valida el origen de contenido e incrusta una copia con fines de vista previa.
+Las plantillas de correo electrónico y Meta suelen vincularse a imágenes y archivos CSS alojados en otros dominios. Cuando GenStudio for Performance Marketing genera miniaturas para vistas previas de plantillas o las experiencias derivadas de ellas, valida el origen de contenido e incrusta una copia con fines de vista previa.
 
 Los archivos externos se incrustan temporalmente únicamente con el fin de crear la vista previa de la plantilla, lo que garantiza que la vista previa refleje con precisión el contenido tal como aparece en el momento de la creación. Estos archivos externos **no** están almacenados de forma permanente en GenStudio for Performance Marketing. Una vez creada la vista previa de la plantilla, GenStudio for Performance Marketing sigue haciendo referencia al vínculo de origen original proporcionado en la plantilla.
 
