@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+source-git-commit: 3fe6e235b774cf5a99627d981230f96d5e51ac02
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,45 @@ Revise y defina las [directrices de canal](/help/user-guide/guidelines/brands.md
 ![Especificaciones del cuerpo](/help/assets/channel-email-body.png)
 
 Conozca de qué manera las [directrices de marcas, productos y personas](/help/user-guide/guidelines/overview.md) influyen en el contenido generado y cómo adaptarlo a sus objetivos de marketing.
+
+## Carga de imágenes para plantillas
+
+Las imágenes utilizadas en las plantillas deben proceder del repositorio de contenido y deben cargarse correctamente para garantizar que la imagen se muestre con precisión.
+
+Cuando una plantilla incluye una imagen de extremo a extremo (sangrado completo), la imagen seleccionada cambia de tamaño automáticamente para ajustarse a las dimensiones completas de la plantilla. Sin embargo, si la imagen no coincide con la proporción de aspecto de la plantilla, la imagen se recorta para ajustarse a las dimensiones de la plantilla y es posible que no se muestre según lo esperado.
+
+No hay funcionalidad de &quot;autoajuste&quot; para las imágenes incluidas en las plantillas.
+
+Para resolver el recorte de imágenes, los usuarios deben definir la proporción de aspecto de la imagen que se utilizará en la plantilla cuando se cargue en el repositorio de contenido. Al cargar una plantilla aprobada:
+
+1. [Continúe con el proceso de carga de plantillas](/help/user-guide/content/use-templates.md#add-a-template) hasta que llegue a la página **[!UICONTROL Agregar detalles]**.
+
+2. Defina la proporción de aspecto de la imagen que se usará en la plantilla en **[!UICONTROL Anchura del anuncio (px)]** y **[!UICONTROL Altura del anuncio (px)]**. Esto define la ventana de imagen para la sección de la plantilla que muestra la imagen.
+
+3. En la sección **[!UICONTROL Más detalles]**, seleccione la lista desplegable **[!UICONTROL Tamaño de imagen]** y elija _Recortar a un tamaño fijo_.
+   ![Recortado a un tamaño fijo](./images/crop-to-fixed-size.png "Recortado a un tamaño fijo"){width="80%"}
+
+Para determinar el tamaño y la proporción de aspecto de una imagen en el explorador:
+
+1. Inspeccione la imagen.
+   - Windows/Linux:
+      - Presione F12.
+   - macOS:
+      - Pulse Comando + Opción + I.
+
+1. Pase el ratón sobre la imagen.
+
+1. Observe la relación de aspecto. Utilícelo para definir la proporción de aspecto de la imagen en la plantilla.
+
+Cuando estos detalles no se aplican durante la carga, se asume que la imagen es toda la proporción de aspecto de la plantilla y las imágenes que no coinciden exactamente con esa proporción de aspecto aparecerán recortadas.
+
+![Imagen recortada en un anuncio en pantalla](./images/cropped-display.png "Recorte de imagen"){width="60%"}
+
+**❌Se recortó la imagen en una plantilla de anuncio en pantalla**
+
+![Imagen mostrada en un anuncio en pantalla](./images/full-fit.png "Imagen mostrada en el anuncio en pantalla"){width="60%"}
+
+**✅imagen completamente mostrada**
 
 ## Siga las directrices de plantillas específicas del canal
 
