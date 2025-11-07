@@ -3,9 +3,9 @@ title: Administración de Assets y experiencias
 description: Simplifique y mejore la administración de los recursos aprobados por la marca para usarlos y reutilizarlos en su recorrido de marketing digital.
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 6880aadb104aac6b3282980760406168df3da5fe
+source-git-commit: 279bf9e1fab24c286df4a0600b472c456231ddb6
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1509'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ Adobe GenStudio for Performance Marketing [!DNL Content] simplifica y mejora la 
 
 ## [!DNL Content] galería
 
-La galería muestra un inventario de recursos, experiencias o plantillas aprobados según la vista seleccionada. La opción de filtro (canal) situada encima de la parte izquierda de la tabla abre el menú **[!UICONTROL Filtro]**, en el que puede seleccionar entre muchas categorías para filtrar el contenido mostrado en la galería. En la vista _[!UICONTROL Assets]_, haga clic en el icono de búsqueda (lupa) para usar una palabra clave para encontrar un recurso.
+La galería muestra un inventario de recursos, experiencias o plantillas aprobados según la vista seleccionada. La opción de filtro (funnel) situada encima de la parte izquierda de la tabla abre el menú **[!UICONTROL Filtro]**, en el que puede seleccionar entre muchas categorías para filtrar el contenido mostrado en la galería. En la vista _[!UICONTROL Assets]_, haga clic en el icono de búsqueda (lupa) para usar una palabra clave para encontrar un recurso.
 
 A continuación se muestra una búsqueda del término `space` en la galería [!UICONTROL Assets]:
 
@@ -158,10 +158,9 @@ Puede seleccionar una o varias experiencias aprobadas para descargarlas en un fo
 
    Si ha seleccionado varias experiencias de diferentes canales, tiene la oportunidad de seleccionar el formato para cada tipo de canal.
 
-   - Correo electrónico, LinkedIn: `HTML`, `CSV`
-   - Meta, titular y anuncio en pantalla: `HTML`, `JPEG`, `PNG`
+   - Correo electrónico, LinkedIn: `HTML`, `CSV`, `PDF`
+   - Meta, titular y anuncio en pantalla: `HTML`, `JPEG`, `PNG`, `PDF`
 
-   ![Descargar experiencias](/help/assets/content-bulk-export.png "Descargar experiencias múltiples"){width=350}
 
 ## Editar en Express
 
