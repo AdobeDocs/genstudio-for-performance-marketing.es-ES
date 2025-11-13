@@ -19,7 +19,7 @@ GenStudio for Performance Marketing aprovecha [el poder de las directrices](over
 **Para ver o modificar un perfil**:
 
 1. En el área de navegación izquierda, haga clic en **[!UICONTROL Personas]**.
-1. Para [ver detalles individuales o modificar una persona](add-guidelines.md#manage-personas), haz clic en el menú de acción _[!DNL Personas]_y selecciona **Abrir**.
+1. Para [ver detalles individuales o modificar una persona](add-guidelines.md#manage-personas), haz clic en el menú de acción _[!DNL Personas]_&#x200B;y selecciona **Abrir**.
 1. Revise las directrices de perfiles haciendo clic en un campo de texto de categoría de directrices.
 
 Consulte [Agregar directrices](add-guidelines.md) para obtener información sobre cómo agregar o modificar un perfil en GenStudio for Performance Marketing.

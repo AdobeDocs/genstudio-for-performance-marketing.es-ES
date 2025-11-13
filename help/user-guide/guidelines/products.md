@@ -19,7 +19,7 @@ ht-degree: 0%
 **Para ver o modificar un producto**:
 
 1. En el área de navegación izquierda, haga clic en **[!UICONTROL Productos]**.
-1. Para [ver detalles individuales o modificar un producto](add-guidelines.md#manage-products), haz clic en el menú de acción _[!DNL Products]_y selecciona **[!UICONTROL Abrir]**.
+1. Para [ver detalles individuales o modificar un producto](add-guidelines.md#manage-products), haz clic en el menú de acción _[!DNL Products]_&#x200B;y selecciona **[!UICONTROL Abrir]**.
 1. Revise las directrices del producto haciendo clic en un campo de texto de categoría de directrices.
 
 Consulte [Agregar directrices](add-guidelines.md) para obtener información sobre cómo agregar o modificar un producto en GenStudio for Performance Marketing.

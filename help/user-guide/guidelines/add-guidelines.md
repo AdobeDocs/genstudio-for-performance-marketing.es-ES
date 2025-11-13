@@ -80,7 +80,7 @@ Puede agregar manualmente los detalles de la marca, en lugar de cargar documento
    - _Cuándo usar esta marca_: Haz clic en **[!UICONTROL Agregar]** (o haz clic en el campo de texto para cambiar el texto existente) e introduce información general e información de uso sobre la marca. Haga clic en **[!UICONTROL Guardar cambios]**.
    - [_[!DNL Brand] directrices de voz _](brands.md#brand-voice-guidelines): Agregue información aplicable en cada campo de directrices.
 
-     ![Agregar [!DNL Brand] directrices de voz ](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
+     ![Agregar [!DNL Brand] directrices de voz &#x200B;](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
 
    - [_Directrices de imagen_](brands.md#image-guidelines): haga clic en **[!UICONTROL Agregar categoría]** para agregar categorías de guía como &quot;Directrices generales de arte&quot; o &quot;Fotografía de producto&quot;. Rellene las directrices en cada categoría añadida.
    - [_Directrices de canal_](brands.md#channel-guidelines): haga clic en cada canal disponible y agregue las directrices correspondientes.
@@ -132,7 +132,7 @@ En _[!DNL Brands]_, cualquier borrador o [!DNL Brands] publicado aparecerá como
 
 [!DNL brand] muestra un punto verde y &quot;Publicado&quot; junto al nombre, y aparece un botón **[!UICONTROL Editar[!DNL brand]]** en lugar del botón **[!UICONTROL Publicar]**.
 
-**Para cancelar la publicación de un(a)[!DNL brand]** publicado(a), haga clic en la marca para abrirlo y luego en **[!UICONTROL Cancelar la publicación]** en el menú de acciones (icono de tres puntos).
+**Para cancelar la publicación de un(a) [!DNL brand]** publicado(a), haga clic en la marca para abrirlo y luego en **[!UICONTROL Cancelar la publicación]** en el menú de acciones (icono de tres puntos).
 
 La marca publicada ya está disponible para su uso en [_[!DNL Create]_](/help/user-guide/create/overview.md) y [_[!DNL Content]_](/help/user-guide/content/overview.md).
 
@@ -225,7 +225,7 @@ Puede agregar manualmente los detalles de la persona, en lugar de cargar documen
 
 ### Administrar [!DNL Personas]
 
-En la página de inicio de _[!DNL Personas]_, puedes **abrir un elemento[!DNL Persona]**ya creado para editarlo o revisarlo, o **eliminar un elemento personal**de la lista:
+En la página de inicio de _[!DNL Personas]_, puedes **abrir un elemento[!DNL Persona]**&#x200B;ya creado para editarlo o revisarlo, o **eliminar un elemento personal**&#x200B;de la lista:
 
 - Seleccione **[!UICONTROL Abrir]** en el menú de acciones de [!DNL Personas] para revisar un perfil existente.
 - Seleccione **[!UICONTROL Eliminar]** del menú de acción [!DNL Personas] para **eliminar** una persona.
@@ -296,7 +296,7 @@ Puede agregar manualmente los detalles del producto, en lugar de cargar document
 
 ### Administrar [!DNL Products]
 
-En el inicio de _[!DNL Products]_, puede **abrir un elemento[!DNL Product]**ya creado para editarlo o revisarlo, o **eliminar un producto**de la lista:
+En el inicio de _[!DNL Products]_, puede **abrir un elemento[!DNL Product]**&#x200B;ya creado para editarlo o revisarlo, o **eliminar un producto**&#x200B;de la lista:
 
 - Seleccione **[!UICONTROL Abrir]** del menú de acciones [!DNL Products] para revisar un producto existente.
 - Seleccione **[!UICONTROL Eliminar]** del menú de acción [!DNL Products] para **eliminar** un producto.
@@ -306,11 +306,11 @@ En el inicio de _[!DNL Products]_, puede **abrir un elemento[!DNL Product]**ya c
 
 >[!NOTE]
 >
->La característica [!DNL Audiences] requiere la incorporación del equipo de Adobe para que aparezca en GenStudio. Si _[!DNL Audiences]_no aparece en los parámetros de la plantilla, comuníquese con el representante de Adobe.
+>La característica [!DNL Audiences] requiere la incorporación del equipo de Adobe para que aparezca en GenStudio. Si _[!DNL Audiences]_&#x200B;no aparece en los parámetros de la plantilla, comuníquese con el representante de Adobe.
 
 [!DNL Audiences] proporciona segmentos de clientes segmentados desde Adobe Real-Time Customer Data Platform (RTCDP), lo que aporta datos de segmentación precisos al flujo de trabajo de generación de contenido. GenStudio for Performance Marketing aprovecha las definiciones de audiencia para ayudarle a crear contenido de marketing personalizado y adaptado a segmentos de clientes específicos.
 
-[!DNL Audiences] aparece como una lista desplegable en el panel de parámetros, en [el flujo de trabajo _[!DNL Create]_](../create/overview.md#templates)._[!DNL Audiences]_ puede agregar especificidad a _[!DNL Personas]_cuando se utilizan ambas directrices, pero también se puede utilizar de forma independiente de forma eficaz.
+[!DNL Audiences] aparece como una lista desplegable en el panel de parámetros, en [el flujo de trabajo _[!DNL Create]_](../create/overview.md#templates)._[!DNL Audiences]_ puede agregar especificidad a _[!DNL Personas]_&#x200B;cuando se utilizan ambas directrices, pero también se puede utilizar de forma independiente de forma eficaz.
 
 Durante la incorporación, las definiciones de audiencia se importan y transforman en un formato compatible con GenStudio. Este proceso suele tardar unos días en completarse. Póngase en contacto con el equipo de Adobe para iniciarlo.
 
@@ -318,11 +318,11 @@ Durante la incorporación, las definiciones de audiencia se importan y transform
 
 - Acceso de la organización a Adobe Real-Time Customer Data Platform
 - Audiencias existentes ya configuradas en los entornos limitados de RTCDP
-- La integración de _[!DNL Audience]_requiere un proceso de incorporación manual por parte del equipo de Adobe
+- La integración de _[!DNL Audience]_&#x200B;requiere un proceso de incorporación manual por parte del equipo de Adobe
 
 **Para seleccionar una audiencia**:
 
-1. En [el flujo de trabajo _[!DNL Create]_](../create/overview.md#templates), seleccione una plantilla y haga clic en el botón **[!UICONTROL Usar]**para abrir el borrador.
+1. En [el flujo de trabajo _[!DNL Create]_](../create/overview.md#templates), seleccione una plantilla y haga clic en el botón **[!UICONTROL Usar]**&#x200B;para abrir el borrador.
 1. En la lista de parámetros, haga clic en el menú desplegable _[!UICONTROL Audiencia]_ para ver todas las audiencias disponibles.
    ![Menú desplegable Audiencia en el panel Parámetros personales](./audience-dropdown.png){width=450}
 1. Seleccione una audiencia para asignarla de la lista. El sistema sugiere audiencias recomendadas que se alinean con los [!DNL Persona] seleccionados, si se ha seleccionado un [!DNL Persona].
