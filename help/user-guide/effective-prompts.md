@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Create Prompt, Generative AI
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 72cd93d9d6fdd99d5a524d05cba923e9c0191960
+source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 2%
@@ -47,7 +47,7 @@ Para [correos electrónicos](/help/user-guide/create/email-experiences.md), los 
 
 >[!NOTE]
 >
->Si se agregan directrices en _Parameters_ en el cajón de mensajes, no es necesario incluir una referencia a ellas en el mensaje. GenStudio for Performance Marketing aprovecha [!DNL Brands], [!DNL Products] y [!DNL Personas] en la generación de contenido.
+>Si se agregan directrices en _Parameters_ en el cajón de mensajes, no es necesario incluir una referencia a ellas en el mensaje. GenStudio for Performance Marketing aprovecha automáticamente las de la generación de contenido.
 
 ### Directrices
 

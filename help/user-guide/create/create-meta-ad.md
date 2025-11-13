@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: 4658a759f5a4e03c54f645cfa1d1bbcc84fe1d91
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1393'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Al seleccionar una plantilla, tiene la opción de utilizar una de las plantillas
 
 Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Parámetros_ en el cajón de solicitud mejora el proceso de generación de contenido y es un paso crucial en la preparación para generar un anuncio de Meta.
 
-Si usa una plantilla con directrices predefinidas—[!DNL Brands], [!DNL Personas] o [!DNL Products]—estas directrices se aplican a las variantes. Si lo desea, puede cambiarlos.
+Si usa una plantilla con directrices predefinidas (como [!DNL Brands], [!DNL Personas] o [!DNL Products]), estas directrices se aplican a las variantes. Si lo desea, puede cambiarlos.
 
 **Para agregar parámetros y recursos**:
 
@@ -145,7 +145,7 @@ Utilice el panel Aprobaciones, accesible como icono en la barra de acciones dere
 
 **Para obtener revisiones y aprobaciones**:
 
-1. [Iniciar una solicitud de aprobación](/help/user-guide/approvals/request-review.md) para solicitar una [aprobación de las experiencias de anuncios de Meta &#x200B;](/help/user-guide/approvals/approve-content.md) redactadas.
+1. [Iniciar una solicitud de aprobación](/help/user-guide/approvals/request-review.md) para solicitar una [aprobación de las experiencias de anuncios de Meta ](/help/user-guide/approvals/approve-content.md) redactadas.
 
    ![Enviar borradores para su revisión y aprobación](/help/assets/send-approval-meta.png){width="450" zoomable="yes"}
 

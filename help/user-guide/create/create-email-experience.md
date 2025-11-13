@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: 4658a759f5a4e03c54f645cfa1d1bbcc84fe1d91
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Para crear una nueva experiencia de correo electrónico, utilice una plantilla d
 
 Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Parámetros_ en el cajón de solicitud sobrecarga el proceso de generación de contenido y es un paso preparatorio integral para generar una experiencia de correo electrónico.
 
-Si usa una plantilla con directrices predefinidas—[!DNL Brands], [!DNL Personas] o [!DNL Products]—estas directrices se aplican a las variantes. Si lo desea, puede cambiarlos.
+Si usa una plantilla con directrices predefinidas (como [!DNL Brands], [!DNL Personas] o [!DNL Products]), estas directrices se aplican a las variantes. Si lo desea, puede cambiarlos.
 
 **Para agregar parámetros y recursos**:
 

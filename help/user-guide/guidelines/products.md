@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Products]
 description: GenStudio for Performance Marketing [!DNL Products] incorpora todos los aspectos de tu producto (imágenes, descripciones y propuestas de valor) para crear contenido relevante que resalte las fortalezas del producto y mantenga la coherencia en la mensajería del producto.
 feature: Product Personalization, Variant Generation, Generative AI
 exl-id: a9aee814-cca6-4973-a6db-842de7622a8a
-source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
+source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 [!DNL Products] en GenStudio for Performance Marketing aprovecha una comprensión profunda de las especificaciones del producto, las ventajas y los factores de diferenciación para generar contenido impactante.
 
-[!DNL Products] engloba todos los elementos de un producto específico, como imágenes, descripciones y propuestas de valor, para crear una representación de marca coherente. Al aprovechar la tecnología de IA avanzada de Adobe, las directrices de GenStudio for Performance Marketing ([[!DNL Brands], [!DNL Products] y [!DNL Personas]](/help/user-guide/guidelines/overview.md)) trabajan juntas para generar contenido atractivo que muestre los puntos fuertes de sus productos y garantice la coherencia en todos los mensajes.
+[!DNL Products] engloba todos los elementos de un producto específico, como imágenes, descripciones y propuestas de valor, para crear una representación de marca coherente. Aprovechando la avanzada tecnología de IA de Adobe, las [directrices](/help/user-guide/guidelines/overview.md) de GenStudio for Performance Marketing trabajan juntas para generar contenido atractivo que muestre los puntos fuertes de sus productos y garantice la coherencia en todos los mensajes.
 
 **Para ver o modificar un producto**:
 
 1. En el área de navegación izquierda, haga clic en **[!UICONTROL Productos]**.
-1. Para [ver detalles individuales o modificar un producto](add-guidelines.md#manage-products), haz clic en el menú de acción _[!DNL Products]_&#x200B;y selecciona **[!UICONTROL Abrir]**.
+1. Para [ver detalles individuales o modificar un producto](add-guidelines.md#manage-products), haz clic en el menú de acción _[!DNL Products]_y selecciona **[!UICONTROL Abrir]**.
 1. Revise las directrices del producto haciendo clic en un campo de texto de categoría de directrices.
 
 Consulte [Agregar directrices](add-guidelines.md) para obtener información sobre cómo agregar o modificar un producto en GenStudio for Performance Marketing.

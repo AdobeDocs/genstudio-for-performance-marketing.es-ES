@@ -1,24 +1,24 @@
 ---
-title: Información general sobre  [!DNL Brands], [!DNL Products] y [!DNL Personas]
-description: Agregue  [!DNL Brands], [!DNL Products], and [!DNL Personas] a GenStudio for Performance Marketing para crear un perfil de marca completo que incluya todos los aspectos de la representación de una marca.
+title: Descripción general de las directrices de canal
+description: Añada directrices de canal a GenStudio for Performance Marketing para crear un perfil de marca completo que incluya todos los aspectos de la representación de una marca.
 level: Beginner
 feature: Brand Personalization, Product Personalization, Persona Personalization, Variant Generation, Generative AI
 exl-id: 577c627b-0895-4958-a883-3133b4a3efde
-source-git-commit: dcd347dedd17497a080989df9e92dbf175cd2b2e
+source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
 
 # Directrices de GenStudio for Performance Marketing
 
-Las directrices de GenStudio for Performance Marketing **[!DNL Brands]**, **[!DNL Products]** y **[!DNL Personas]** se pueden cargar o agregar manualmente a GenStudio for Performance Marketing, lo que permite a los usuarios establecer directrices de marca que capturan la esencia de la identidad de una marca.
+Las directrices de GenStudio for Performance Marketing se pueden cargar o añadir manualmente a GenStudio for Performance Marketing, lo que permite a los usuarios establecer directrices de marca que capturan la esencia de la identidad de una marca.
 
 Las siguientes directrices ayudan a garantizar que cualquier contenido generado por IA se adapte a la identidad de la marca y a las especificaciones de accesibilidad, lo que permite una personalización eficaz del contenido:
 
 * [Directrices de canal predeterminadas](/help/user-guide/guidelines/brands.md#default-channel-guidelines) para [!DNL Brands] basadas en las prácticas recomendadas del sector y las especificaciones de cada plataforma
-* Directrices definidas por el usuario para [!DNL Brands], [!DNL Products] y [!DNL Personas]
+* Directrices definidas por el usuario (como [!DNL Brands], [!DNL Products] y [!DNL Personas])
 * Directrices de la plataforma para canales como Meta, LinkedIn y más
 * [Directrices de accesibilidad de la Ley para personas estadounidenses con discapacidades (ADA)](#compliance)
 
@@ -28,7 +28,7 @@ Las directrices ayudan a garantizar que cualquier contenido generado por IA se a
 
 Para crear contenido de marketing atractivo con GenStudio for Performance Marketing, empiece por crear un perfil de marca completo agregando [[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) y [[!DNL Personas]](/help/user-guide/guidelines/personas.md).
 
-Consulte [Agregar directrices](/help/user-guide/guidelines/add-guidelines.md) para obtener información sobre cómo agregar [!DNL Brands], [!DNL Products] y [!DNL Personas].
+Consulte [Agregar directrices](/help/user-guide/guidelines/add-guidelines.md) para obtener información sobre cómo agregar cada tipo.
 
 ## Capacidades
 
@@ -44,14 +44,14 @@ Al incorporar datos de marca, producto y persona en GenStudio for Performance Ma
 
 ## Casos de uso
 
-Las directrices [!DNL Brands], [!DNL Products] y [!DNL Personas] habilitan dos casos de uso principales para garantizar que cualquier contenido generado se adhiera a la representación deseada de una marca:
+Las directrices para el canal habilitan dos casos de uso principales para garantizar que el contenido generado se adhiera a la representación deseada de una marca:
 
 * **Generación de contenido** en [[!DNL Create]](/help/user-guide/create/overview.md) o [Contenido](/help/user-guide/content/overview.md)
 * [**Validación de marca**](#content-checks), lo cual sucede como parte del proceso de creación de contenido
 
 ## Comprobaciones de contenido
 
-En colaboración con la funcionalidad de IA generativa de Adobe, [!DNL Brands], [!DNL Products] y [!DNL Personas] desempeñan un papel crucial a la hora de garantizar que todo el contenido de GenStudio for Performance Marketing se ajuste a la identidad de su marca.
+Junto con la funcionalidad de IA generativa de Adobe, [!DNL Brands], [!DNL Products] y [!DNL Personas] desempeñan un papel crucial a la hora de garantizar que todo el contenido de GenStudio for Performance Marketing se ajuste a la identidad de su marca.
 
 GenStudio for Performance Marketing valida la marca y comprueba el contenido, incluidos los estándares de accesibilidad de ADA y los estándares de plataforma, y proporciona una lista de comprobación para el contenido generado a fin de resaltar las áreas de mejora.
 

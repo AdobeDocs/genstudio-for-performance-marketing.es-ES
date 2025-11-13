@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Personas]
 description: GenStudio for Performance Marketing [!DNL Personas]  representa fielmente sus segmentos de clientes y captura sus intereses, puntos problemáticos, preferencias y características de comportamiento.
 feature: Persona Personalization, Variant Generation, Generative AI
 exl-id: f8c86f0b-81fe-4b94-b3d1-438de411864a
-source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
+source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 [!DNL Personas] proporciona una representación auténtica de los segmentos de sus clientes, incluida su información, intereses, puntos problemáticos, preferencias y características de comportamiento.
 
-GenStudio for Performance Marketing aprovecha el poder de las directrices [[!DNL Brands],  [!DNL Products] y  [!DNL Personas]](overview.md), así como la tecnología de IA generativa de Adobe para depurar contenido de marketing personalizado para los clientes de destino&#x200B;
+GenStudio for Performance Marketing aprovecha [el poder de las directrices](overview.md) y la tecnología de IA generativa de Adobe para revisar el contenido de marketing personalizado para sus clientes de destino&#x200B;
 
 **Para ver o modificar un perfil**:
 
 1. En el área de navegación izquierda, haga clic en **[!UICONTROL Personas]**.
-1. Para [ver detalles individuales o modificar una persona](add-guidelines.md#manage-personas), haz clic en el menú de acción _[!DNL Personas]_&#x200B;y selecciona **Abrir**.
+1. Para [ver detalles individuales o modificar una persona](add-guidelines.md#manage-personas), haz clic en el menú de acción _[!DNL Personas]_y selecciona **Abrir**.
 1. Revise las directrices de perfiles haciendo clic en un campo de texto de categoría de directrices.
 
 Consulte [Agregar directrices](add-guidelines.md) para obtener información sobre cómo agregar o modificar un perfil en GenStudio for Performance Marketing.

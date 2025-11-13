@@ -1,28 +1,26 @@
 ---
 title: Añadir directrices a Adobe GenStudio for Performance Marketing
-description: Aprenda a agregar directrices ([!DNL Brands], [!DNL Products] y [!DNL Personas]) en Adobe GenStudio for Performance Marketing.
+description: Aprenda a añadir directrices como parámetros para las peticiones de datos en Adobe GenStudio for Performance Marketing.
 feature: Brand Personalization, Product Personalization, Persona Personalization, Variant Generation, Generative AI
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+source-git-commit: a4df9c81339a8fe5197200d58abc8b48df59da6f
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2476'
 ht-degree: 0%
 
 ---
 
 # Adición de directrices
 
-[[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) y [[!DNL Personas]](/help/user-guide/guidelines/personas.md) son directrices definidas por el usuario en GenStudio for Performance Marketing que garantizan que cualquier contenido generado por IA se personalice para alinearse con la identidad de la marca, lo que permite una personalización eficaz del contenido.
-
-Consulte la [descripción general de las directrices](/help/user-guide/guidelines/overview.md).
+GenStudio for Performance Marketing le permite establecer directrices definidas por el usuario que garantizan que cualquier contenido generado por IA se personalice para alinearse con la identidad de una marca. Esta página ofrece instrucciones para configurar y utilizar cada directriz disponible específica. Para obtener una explicación general, vea la [descripción general de las directrices](/help/user-guide/guidelines/overview.md).
 
 Añadir directrices a GenStudio for Performance Marketing es un paso importante en el proceso de creación. Las directrices informan el proceso de creación de contenido, junto con mensajes definidos por el usuario, [comprobaciones de accesibilidad y contenido](overview.md#compliance) y la tecnología de IA generativa de Adobe para crear recursos impactantes.
 
 Las directrices pueden estar definidas por el usuario o pueden existir como directrices predeterminadas, como [default [!DNL Brand] channel guidelines](/help/user-guide/guidelines/brands.md#default-channel-guidelines).
 
-Al crear variantes a partir de una plantilla con directrices predefinidas—[!DNL Brands], [!DNL Personas] o [!DNL Products]—estas directrices se aplican a las variantes. Si lo desea, puede cambiarlos.
+Al crear variantes a partir de una plantilla con directrices de canal predefinidas (como [!DNL Brands], [!DNL Personas] o [!DNL Products]), estas directrices se aplican a las variantes. Si lo desea, puede cambiarlos.
 
 {{in-academy}}
 
@@ -30,9 +28,11 @@ Al crear variantes a partir de una plantilla con directrices predefinidas—[!DN
 
 Para agregar [!DNL Brand], [carga una guía de marca](#upload-a-brand) o [crea manualmente una marca](#manually-add-brand) seleccionando directrices e introduciendo los detalles de tu marca. [Publicar [!DNL Brand]](#publish-brand) en [!DNL Content] para que esté disponible para usarla en futuras generaciones de contenido.
 
-Si carga directrices de marca escritas en un idioma que no sea inglés (o crea manualmente una marca en un idioma que no sea inglés), GenStudio for Performance Marketing muestra esas directrices en ese mismo idioma.
+En el área de navegación izquierda, haga clic en **[!DNL Brands]** de la lista _Compartido_.
 
-En el área de navegación izquierda, haga clic en **[!DNL Brands]** de la lista _Compartido_. En el panel _[!DNL Brands]_, seleccione **Agregar marca**.
+![Directrices en GenStudio for Performance Marketing](/help/assets/guidelines.png){width="650" zoomable="yes"}
+
+Si carga directrices de marca escritas en un idioma que no sea inglés (o crea manualmente una marca en un idioma que no sea inglés), GenStudio for Performance Marketing muestra esas directrices en ese mismo idioma.
 
 >[!TIP]
 >
@@ -46,7 +46,7 @@ Ver [[!DNL Brands]](/help/user-guide/guidelines/brands.md).
 
 **Para cargar documentos de marca**:
 
-1. Seleccione el botón **[!UICONTROL Agregar marca]**.
+1. En el panel _[!DNL Brands]_, seleccione el botón **[!UICONTROL Agregar marca]**.
 1. Elija **[!UICONTROL Cargar PDF]** e introduzca un nombre de marca en la ventana emergente _Elija una forma de agregar su marca_.
 1. Seleccione **[!UICONTROL Continuar]**.
 1. Examine y adjunte o arrastre sus documentos de directrices de marca a la ventana emergente _[!UICONTROL Agregar su marca]_.
@@ -80,7 +80,7 @@ Puede agregar manualmente los detalles de la marca, en lugar de cargar documento
    - _Cuándo usar esta marca_: Haz clic en **[!UICONTROL Agregar]** (o haz clic en el campo de texto para cambiar el texto existente) e introduce información general e información de uso sobre la marca. Haga clic en **[!UICONTROL Guardar cambios]**.
    - [_[!DNL Brand] directrices de voz _](brands.md#brand-voice-guidelines): Agregue información aplicable en cada campo de directrices.
 
-     ![Agregar [!DNL Brand] directrices de voz &#x200B;](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
+     ![Agregar [!DNL Brand] directrices de voz ](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
 
    - [_Directrices de imagen_](brands.md#image-guidelines): haga clic en **[!UICONTROL Agregar categoría]** para agregar categorías de guía como &quot;Directrices generales de arte&quot; o &quot;Fotografía de producto&quot;. Rellene las directrices en cada categoría añadida.
    - [_Directrices de canal_](brands.md#channel-guidelines): haga clic en cada canal disponible y agregue las directrices correspondientes.
@@ -97,9 +97,9 @@ No tiene que [publicar](#publish-brand) su [!DNL Brand] para que la información
 
 Después de agregar manualmente un(a) [!DNL Brand], puede cambiar la imagen en miniatura para asegurarse de que se pueda distinguir fácilmente dentro de su lista de [!DNL Brands].
 
-Si se crea un(a) [!DNL Brand] mediante extracción de documento (en lugar de agregarse manualmente), se implementa automáticamente un logotipo disponible dentro de esos documentos como imagen en miniatura.
+Si se crea un(a) [!DNL Brand] con extracción de documento (en lugar de agregarse manualmente), se implementa automáticamente un logotipo disponible dentro de esos documentos como imagen en miniatura.
 
-**Para cambiar manualmente la imagen en miniatura de un[!DNL Brand]**:
+**Cambiar manualmente la imagen en miniatura de[!DNL Brand]**:
 
 1. Seleccione **[!UICONTROL Cambiar miniatura]** en el menú de acciones.
 1. Cargar una nueva imagen en la ficha _Cargar_.
@@ -121,7 +121,7 @@ En _[!DNL Brands]_, cualquier borrador o [!DNL Brands] publicado aparecerá como
 **Para publicar un borrador de marca**:
 
 1. En el área de navegación izquierda, haga clic en **[!UICONTROL [!DNL Brands]]**.
-1. Haga clic para abrir un borrador de [!DNL Brand] existente.
+1. Haga clic en un mosaico de miniaturas para abrir un borrador de [!DNL Brand] existente.
 1. Haga clic en el botón **[!UICONTROL Publicar]** (solo disponible para borradores).
 1. En la ventana emergente _Publicar marca_, verifique quién tiene acceso para ver y usar la [!DNL Brand] publicada.
 1. En la ventana emergente _Publicar marca_ que aparece, seleccione **[!UICONTROL Publicar]**.
@@ -132,13 +132,13 @@ En _[!DNL Brands]_, cualquier borrador o [!DNL Brands] publicado aparecerá como
 
 [!DNL brand] muestra un punto verde y &quot;Publicado&quot; junto al nombre, y aparece un botón **[!UICONTROL Editar[!DNL brand]]** en lugar del botón **[!UICONTROL Publicar]**.
 
-**Para cancelar la publicación de un(a) [!DNL brand]** publicado(a), haga clic en la marca para abrirlo y luego en **[!UICONTROL Cancelar la publicación]** en el menú de acciones (icono de tres puntos).
+**Para cancelar la publicación de un(a)[!DNL brand]** publicado(a), haga clic en la marca para abrirlo y luego en **[!UICONTROL Cancelar la publicación]** en el menú de acciones (icono de tres puntos).
 
 La marca publicada ya está disponible para su uso en [_[!DNL Create]_](/help/user-guide/create/overview.md) y [_[!DNL Content]_](/help/user-guide/content/overview.md).
 
 ### Administrar marcas
 
-En la página de inicio _[!DNL Brands]_, puede hacer clic para abrir una marca ya creada y administrarla o publicarla.
+En la página de inicio _[!DNL Brands]_, puede hacer clic en para abrir una marca ya creada con el fin de administrarla o publicarla.
 
 Para **ver la información de marca**, haz clic en **[!UICONTROL [!DNL Brands]]** en el área de navegación izquierda y haz clic para abrir una marca existente.
 
@@ -163,9 +163,11 @@ Para **ver la información de marca**, haz clic en **[!UICONTROL [!DNL Brands]]*
 
 ## Agregar [!DNL Personas]
 
-Para agregar una persona, [sube una guía de persona](#upload-a-persona) o [crea manualmente una persona](#manually-add-persona) seleccionando directrices e introduciendo tus detalles de persona.
+Para agregar una persona, [sube una persona](#upload-a-persona) o [crea manualmente una persona](#manually-add-persona) seleccionando directrices e introduciendo tus detalles de persona.
 
-En el área de navegación izquierda, haga clic en **[!DNL Personas]** de la lista _Compartido_. En el panel _[!DNL Personas]_, seleccione **Agregar persona**.
+En el área de navegación izquierda, haga clic en **[!DNL Personas]** de la lista _Compartido_.
+
+![Directrices en GenStudio for Performance Marketing](/help/assets/guidelines.png){width="650" zoomable="yes"}
 
 Puede agregar [!DNL Persona] en GenStudio for Performance Marketing para ayudar a dirigir el contenido que cree a su audiencia ideal.
 
@@ -177,7 +179,7 @@ Puede cargar sus propios documentos de personalidad para rellenar nuevos perfile
 
 Ver [[!DNL Personas]](/help/user-guide/guidelines/personas.md).
 
-1. Seleccione el botón **[!UICONTROL Agregar persona]**.
+1. En el panel _[!DNL Personas]_, seleccione el botón **[!UICONTROL Agregar persona]**.
 1. Elija **[!UICONTROL Cargar archivos]** e introduzca un nombre de persona en la ventana emergente _Elija una forma de agregar su persona_.
 1. Seleccione **[!UICONTROL Continuar]**.
 1. Examine y adjunte o arrastre sus documentos de directrices de personalidad a la ventana emergente _[!UICONTROL Agregar su personalidad]_.
@@ -223,7 +225,7 @@ Puede agregar manualmente los detalles de la persona, en lugar de cargar documen
 
 ### Administrar [!DNL Personas]
 
-En la página de inicio de _[!DNL Personas]_, puedes **abrir un elemento[!DNL Persona]**&#x200B;ya creado para editarlo o revisarlo, o **eliminar un elemento personal**&#x200B;de la lista:
+En la página de inicio de _[!DNL Personas]_, puedes **abrir un elemento[!DNL Persona]**ya creado para editarlo o revisarlo, o **eliminar un elemento personal**de la lista:
 
 - Seleccione **[!UICONTROL Abrir]** en el menú de acciones de [!DNL Personas] para revisar un perfil existente.
 - Seleccione **[!UICONTROL Eliminar]** del menú de acción [!DNL Personas] para **eliminar** una persona.
@@ -231,9 +233,12 @@ En la página de inicio de _[!DNL Personas]_, puedes **abrir un elemento[!DNL Pe
 
 ## Agregar [!DNL Products]
 
-Para agregar un producto, [sube una guía de productos](#upload-a-product) o [crea manualmente un producto](#manually-add-product) seleccionando directrices e introduciendo los detalles del producto.
+Para agregar un producto:
 
-En el área de navegación izquierda, haga clic en **[!DNL Products]** de la lista _Compartido_. En el panel _[!DNL Products]_, seleccione **Agregar producto**.
+1. En el área de navegación izquierda, haga clic en **[!DNL Products]** de la lista _Compartido_.
+   ![Directrices en GenStudio for Performance Marketing](/help/assets/guidelines.png){width="650" zoomable="yes"}
+1. En el panel _[!DNL Products]_, seleccione **Agregar producto**.
+1. Elija [cargar un producto](#upload-a-product) o [crear manualmente un producto](#manually-add-product) seleccionando directrices e introduciendo los detalles del producto.
 
 ![Agregar un(a) [!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"}
 
@@ -260,7 +265,7 @@ Ver [[!DNL Products]](/help/user-guide/guidelines/products.md).
 
    Se abre la vista del nuevo producto, que muestra los detalles de las directrices del producto extraídas de los documentos. Una ventana emergente le notifica _&quot;Su producto está listo para revisarse&quot;_ y le recuerda que revise el contenido extraído y realice las modificaciones necesarias.
 
-### Añadir el producto manualmente
+### Añadir manualmente un producto
 
 Puede agregar manualmente los detalles del producto, en lugar de cargar documentos de producto existentes, para rellenar [productos](products.md) nuevos.
 
@@ -282,7 +287,7 @@ Puede agregar manualmente los detalles del producto, en lugar de cargar document
       También puede eliminar o recortar una imagen en miniatura existente en la ficha _Cargar_.
 
    1. Haga clic en **[!UICONTROL Usar imagen]**.
-1. Para editar la imagen de portada, pasa el ratón sobre la portada y en el menú de acciones selecciona **[!UICONTROL Editar portada]**.
+   1. Para editar la imagen de portada, pasa el ratón sobre la portada y en el menú de acciones selecciona **[!UICONTROL Editar portada]**.
    1. Elija una imagen de la galería en la ficha _Galería_ _o_ cargue una nueva imagen en la ficha _Cargar_.
    1. Haga clic en **[!UICONTROL Usar imagen]**.
    1. Para cambiar la posición de la imagen de portada, haga clic en **[!UICONTROL Cambiar posición]** en el menú de acción, arrastre la imagen a la posición deseada y haga clic en **[!UICONTROL Guardar]**.
@@ -291,8 +296,35 @@ Puede agregar manualmente los detalles del producto, en lugar de cargar document
 
 ### Administrar [!DNL Products]
 
-En el inicio de _[!DNL Products]_, puede **abrir un elemento[!DNL Product]**&#x200B;ya creado para editarlo o revisarlo, o **eliminar un producto**&#x200B;de la lista:
+En el inicio de _[!DNL Products]_, puede **abrir un elemento[!DNL Product]**ya creado para editarlo o revisarlo, o **eliminar un producto**de la lista:
 
 - Seleccione **[!UICONTROL Abrir]** del menú de acciones [!DNL Products] para revisar un producto existente.
 - Seleccione **[!UICONTROL Eliminar]** del menú de acción [!DNL Products] para **eliminar** un producto.
 - Seleccione **[!UICONTROL Rename]** del menú de acción [!DNL Products] para **Rename** un producto.
+
+## Agregar [!DNL Audiences]
+
+>[!NOTE]
+>
+>La característica [!DNL Audiences] requiere la incorporación del equipo de Adobe para que aparezca en GenStudio. Si _[!DNL Audiences]_no aparece en los parámetros de la plantilla, comuníquese con el representante de Adobe.
+
+[!DNL Audiences] proporciona segmentos de clientes segmentados desde Adobe Real-Time Customer Data Platform (RTCDP), lo que aporta datos de segmentación precisos al flujo de trabajo de generación de contenido. GenStudio for Performance Marketing aprovecha las definiciones de audiencia para ayudarle a crear contenido de marketing personalizado y adaptado a segmentos de clientes específicos.
+
+[!DNL Audiences] aparece como una lista desplegable en el panel de parámetros, en [el flujo de trabajo _[!DNL Create]_](../create/overview.md#templates)._[!DNL Audiences]_ puede agregar especificidad a _[!DNL Personas]_cuando se utilizan ambas directrices, pero también se puede utilizar de forma independiente de forma eficaz.
+
+Durante la incorporación, las definiciones de audiencia se importan y transforman en un formato compatible con GenStudio. Este proceso suele tardar unos días en completarse. Póngase en contacto con el equipo de Adobe para iniciarlo.
+
+**Requisitos previos**:
+
+- Acceso de la organización a Adobe Real-Time Customer Data Platform
+- Audiencias existentes ya configuradas en los entornos limitados de RTCDP
+- La integración de _[!DNL Audience]_requiere un proceso de incorporación manual por parte del equipo de Adobe
+
+**Para seleccionar una audiencia**:
+
+1. En [el flujo de trabajo _[!DNL Create]_](../create/overview.md#templates), seleccione una plantilla y haga clic en el botón **[!UICONTROL Usar]**para abrir el borrador.
+1. En la lista de parámetros, haga clic en el menú desplegable _[!UICONTROL Audiencia]_ para ver todas las audiencias disponibles.
+   ![Menú desplegable Audiencia en el panel Parámetros personales](./audience-dropdown.png){width=450}
+1. Seleccione una audiencia para asignarla de la lista. El sistema sugiere audiencias recomendadas que se alinean con los [!DNL Persona] seleccionados, si se ha seleccionado un [!DNL Persona].
+1. Haga clic en **[!UICONTROL Ver detalles de la audiencia]** para ver la descripción ampliada y las preferencias de mensajería generadas para la audiencia seleccionada. Los detalles de la audiencia informan la generación de contenido, lo que garantiza que el creativo se ajuste a las características y preferencias específicas del segmento de destino.
+   ![Panel de detalles de audiencia](./audience-details.png){width=450}

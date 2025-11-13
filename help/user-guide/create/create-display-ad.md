@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: 4658a759f5a4e03c54f645cfa1d1bbcc84fe1d91
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Para crear una experiencia de anuncio en pantalla, utilice una plantilla disponi
 
 Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Parámetros_ en el cajón de solicitud sobrecarga el proceso de generación de contenido y es un paso preparatorio integral para generar una experiencia de anuncio en pantalla.
 
-Si usa una plantilla con directrices predefinidas—[!DNL Brands], [!DNL Personas] o [!DNL Products]—estas directrices se aplican a las variantes. Si lo desea, puede cambiarlos.
+Si usa una plantilla con directrices predefinidas (como [!DNL Brands], [!DNL Personas] o [!DNL Products]), estas directrices se aplican a las variantes. Si lo desea, puede cambiarlos.
 
 **Para agregar parámetros y recursos**:
 
@@ -130,7 +130,7 @@ Ver [revisiones y aprobaciones](/help/user-guide/approvals/overview.md).
 Para que los anuncios en pantalla generados estén disponibles para su uso actual y futuro, publíquelo en [!UICONTROL Contenido] y expórtelo para su uso en campañas de marketing.
 
 1. **Para publicar tus nuevas experiencias con anuncios en pantalla**, haz clic en **[!UICONTROL Publicar]** en la barra de herramientas superior o dentro del flujo de aprobaciones.
-   1. Seleccione _[!UICONTROL [!DNL Campaigns]]_&#x200B;y agregue&#x200B;_[!UICONTROL &#x200B; más detalles &#x200B;]_&#x200B;si lo desea.
+   1. Seleccione _[!UICONTROL [!DNL Campaigns]]_y agregue_[!UICONTROL  más detalles ]_si lo desea.
    1. Haga clic en **[!UICONTROL Publicar]**.
 
       ![Publicar un anuncio para mostrar](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
