@@ -4,9 +4,9 @@ description: Obtenga información sobre las últimas funciones y mejoras de Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 015f2f14edfb05cab11a66a8e5bc9b357f2e3ab9
+source-git-commit: f6dc843acc6d29b107f5165dfd2ee1d2c9e72f0f
 workflow-type: tm+mt
-source-wordcount: '3763'
+source-wordcount: '4162'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,53 @@ ht-degree: 0%
 
 Esta información de la versión proporciona las últimas actualizaciones para la aplicación de GenStudio for Performance Marketing.
 
-## 2025.10.16 {#latest}
+## 2025.11.14 {#latest}
+
+### Integración de audiencias de Real-Time CDP
+
+* GenStudio for Performance Marketing ahora se integra con Adobe Real-Time Customer Data Platform (RTCDP), lo que permite a los especialistas en marketing aprovechar las definiciones de audiencia directamente en el flujo de trabajo [!DNL Create].
+* Al seleccionar [!DNL Audience] parámetros durante la generación de contenido, los especialistas en marketing pueden crear textos personalizados, creativos y de correo electrónico basados en el contexto del cliente, incluidas las preferencias de mensajería, los segmentos del comprador, las fases de recorrido y los datos de comportamiento.
+
+### Innovid Insights para publicidad de display
+
+* [!DNL Insights] ahora incluye Innovid (anteriormente Flashtalk) como canal de publicidad gráfica, lo que permite a los especialistas en marketing analizar el rendimiento de la campaña junto con Meta, LinkedIn y TikTok en una plataforma unificada.
+* Con la actualización diaria de datos y el acceso a métricas de rendimiento clave, incluidas impresiones, clics y CTR, los especialistas en marketing pueden tomar decisiones de optimización más rápidas sin cambiar entre herramientas.
+
+### Traducción predeterminada para medios de pago y correo electrónico
+
+* Traduzca al instante experiencias aprobadas de correo electrónico y medios de pago a más de 40 idiomas directamente desde GenStudio for Performance Marketing.
+* Con los servicios de traducción de Azure Open AI, los equipos pueden traducir contenido de forma masiva a varios idiomas de destino de forma simultánea.
+
+### Exportación de PDF para experiencias
+
+[!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
+
+* Los especialistas en marketing ahora pueden [exportar experiencias al formato PDF](/help/user-guide/content/manage-assets.md#export-experiences) para su revisión, aprobación y archivo.
+
+### Modelos personalizados en Firefly Image Model 4
+
+* GenStudio for Performance Marketing ahora es compatible con [modelos personalizados entrenados en Adobe Firefly Image Model 4](/help/user-guide/create/generate-assets.md), que ofrecen capacidades mejoradas de generación de imágenes de marca con un mejor fotorrealismo y detalle.
+
+### Activación de anuncio de vídeo único de Meta
+
+* Los especialistas en marketing ahora pueden [activar anuncios de Meta con recursos de vídeo únicos](/help/user-guide/activation/activate-meta-ad.md) directamente desde GenStudio for Performance Marketing al Administrador de Meta Ads. Esto permite a los compradores de medios, los especialistas en marketing de rendimiento y los equipos creativos publicar experiencias de anuncios de vídeo sin problemas, manteniendo el mismo flujo de trabajo optimizado utilizado para la activación de anuncios estáticos.
+* Los usuarios pueden configurar los detalles creativos de las publicidades de vídeo, obtener una vista previa del aspecto del vídeo y activar anuncios de vídeo en plataformas Meta.
+
+### CPA por tipo de acción para campañas de Meta
+
+* Analice el [costo por acción (CPA) con un seguimiento de conversión flexible](/help/user-guide/insights/ads.md) para las campañas publicitarias de Meta.
+* En lugar de una única métrica fija, seleccione entre varios tipos de acción (compras, eventos de complemento al carro de compras, posibles clientes, vistas de vídeo o conversiones personalizadas) para calcular y ver el CPA en campañas, anuncios, activos y atributos de [!DNL Insights].
+
+### Correcciones y mejoras
+
+* Se ha agregado una extensión de SDK que permite a los clientes conectarse a sus propios DAM en lugar de utilizar AEM Assets como predeterminados para los recursos durante la generación de contenido.
+* Los usuarios ahora pueden aplicar etiquetas [!DNL Brand] para agrupar los registros [!DNL Product] y [!DNL Persona] por [!DNL Brand].
+* El flujo de [!DNL Experience Translations] se ha optimizado junto con la nueva característica de traducción para medios de pago y correo electrónico.
+
+
+## Notas de la versión anteriores
+
++++Notas de la versión 2025.10.16
 
 ### Nuevos complementos de GenStudio para Photoshop y Figma
 
@@ -59,8 +105,9 @@ Esta información de la versión proporciona las últimas actualizaciones para l
    * Mantener una única fuente de datos conectándose directamente a sistemas de terceros
    * Se proporciona SDK y una aplicación de ejemplo para crear integraciones personalizadas
 
++++
 
-## Notas de la versión anteriores
+
 
 +++Notas a partir del 11 de septiembre de 2025
 
