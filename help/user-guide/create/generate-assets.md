@@ -16,13 +16,13 @@ ht-degree: 0%
 
 # Generar imágenes
 
-Con el uso de GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icono de pincel), puede generar recursos generados por _[!DNL On-brand images]_que se inspiren en una imagen elegida, capturando su impacto visual y su estética general.<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
+Con el uso de GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icono de pincel), puede generar recursos generados por _[!DNL On-brand images]_&#x200B;que se inspiren en una imagen elegida, capturando su impacto visual y su estética general.<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
 
 Para diseñar una imagen llamativa y efectiva, se recomienda [agregar directrices a GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) y revisar los [conceptos básicos para escribir avisos](/help/user-guide/effective-prompts.md).
 
 ## Tipos de imagen
 
-_[!DNL On-brand images]_son recursos generados que se inspiran en una imagen elegida y capturan su impacto visual y su estética general. Estas imágenes se crean utilizando imágenes que ya están disponibles en [!DNL Content] y un mensaje cuidadosamente diseñado que guía el diseño. Siguen estrictamente tanto las directrices de marca como los parámetros elegidos durante el proceso de generación.
+_[!DNL On-brand images]_&#x200B;son recursos generados que se inspiran en una imagen elegida y capturan su impacto visual y su estética general. Estas imágenes se crean utilizando imágenes que ya están disponibles en [!DNL Content] y un mensaje cuidadosamente diseñado que guía el diseño. Siguen estrictamente tanto las directrices de marca como los parámetros elegidos durante el proceso de generación.
 
 _[!DNL On-brand images]_<!-- and _[!DNL Similar images]_ --> incorpora directrices establecidas, parámetros y un [mensaje cuidadosamente diseñado](/help/user-guide/effective-prompts.md) para que entregue recursos de imagen llamativos.
 

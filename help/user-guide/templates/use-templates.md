@@ -59,7 +59,7 @@ Usted [personaliza su plantilla](customize-template.md) para usarla en GenStudio
 
 ## Administración de plantillas
 
-La galería _[!DNL Templates]_muestra su inventario de plantillas personalizadas para generar experiencias en GenStudio for Performance Marketing.
+La galería _[!DNL Templates]_&#x200B;muestra su inventario de plantillas personalizadas para generar experiencias en GenStudio for Performance Marketing.
 
 ### Buscar conjunto de datos
 
