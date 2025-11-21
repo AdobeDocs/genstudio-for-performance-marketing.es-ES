@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: 49d8d5daa2f3c93c18cd9132dab5207871b51237
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -40,11 +40,11 @@ GenStudio for Performance Marketing genera automáticamente los campos siguiente
 - `pre_header`
 - `subject`
 
-El máximo de campos permitidos en una plantilla es 20. Consulte [Marcadores de posición de contenido](/help/user-guide/content/customize-template.md#content-placeholders) para obtener más información sobre el uso de nombres de campo en las plantillas.
+El máximo de campos permitidos en una plantilla es 20. Consulte [Marcadores de posición de contenido](/help/user-guide/templates/customize-template.md#content-placeholders) para obtener más información sobre el uso de nombres de campo en las plantillas.
 
 ## Correo electrónico de varias secciones
 
-_Las secciones_ le permiten organizar el contenido en distintos grupos, lo que admite diseños más complejos. En GenStudio for Performance Marketing, puede definir cada sección utilizando una convención de nombres de grupo. Consulte [Personalizar secciones de plantilla](/help/user-guide/content/customize-template.md#sections-or-groups).
+_Las secciones_ le permiten organizar el contenido en distintos grupos, lo que admite diseños más complejos. En GenStudio for Performance Marketing, puede definir cada sección utilizando una convención de nombres de grupo. Consulte [Personalizar secciones de plantilla](/help/user-guide/templates/customize-template.md#sections-or-groups).
 
 Las plantillas de varias secciones pueden tener 0, 2 o 3 secciones:
 

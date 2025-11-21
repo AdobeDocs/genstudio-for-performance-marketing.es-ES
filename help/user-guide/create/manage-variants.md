@@ -3,7 +3,7 @@ title: Administrar variantes
 description: Personalice y mejore las variantes y los recursos generados para adaptarlos a sus necesidades de marketing digital.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '2101'
 ht-degree: 0%
@@ -196,7 +196,7 @@ Puede añadir o intercambiar imágenes en variantes generadas directamente desde
 1. Haga clic en el icono **[!UICONTROL Intercambiar del contenido]**.
 1. Utilice los filtros y la función de búsqueda en la vista de recursos de GenStudio [!DNL Content] para restringir aún más los resultados de búsqueda.
 
-   También puede usar imágenes disponibles en repositorios conectados de Adobe Experience Manager (AEM) Assets Content Hub seleccionando ese repositorio en el menú [**[!UICONTROL Ubicación &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   También puede usar imágenes disponibles en repositorios conectados de Adobe Experience Manager (AEM) Assets Content Hub seleccionando ese repositorio en el menú [**[!UICONTROL Ubicación ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Haga clic para seleccionar una imagen y haga clic en **[!UICONTROL Usar]**.
 
@@ -204,7 +204,7 @@ Puede añadir o intercambiar imágenes en variantes generadas directamente desde
 
 ## Añadir vínculos
 
-Puede agregar un vínculo a texto, imágenes y botones de CTA dentro de sus variantes. La plantilla que usó para generar variantes _debe_ contener un marcador de posición de [contenido para el vínculo](/help/user-guide/content/customize-template.md#content-placeholders) para habilitar esta funcionalidad.
+Puede agregar un vínculo a texto, imágenes y botones de CTA dentro de sus variantes. La plantilla que usó para generar variantes _debe_ contener un marcador de posición de [contenido para el vínculo](/help/user-guide/templates/customize-template.md#content-placeholders) para habilitar esta funcionalidad.
 
 **Para agregar un vínculo en una variante**:
 
@@ -221,7 +221,7 @@ Puede agregar un vínculo a texto, imágenes y botones de CTA dentro de sus vari
 
 Al añadir contenido (imágenes) durante el proceso de creación, puede definir texto alternativo para cada imagen incluida. Añadir texto alternativo a las imágenes mejora la accesibilidad, la optimización del motor de búsqueda y la experiencia del usuario.
 
-Para habilitar la funcionalidad de texto alternativo, [agregue un marcador de posición de contenido](/help/user-guide/content/customize-template.md#alternative-text) en la plantilla.
+Para habilitar la funcionalidad de texto alternativo, [agregue un marcador de posición de contenido](/help/user-guide/templates/customize-template.md#alternative-text) en la plantilla.
 
 **Para agregar texto alternativo a imágenes en variantes generadas**:
 
@@ -247,7 +247,7 @@ Proporcione un nombre accesible para los vínculos de imagen y call-to-action en
 1. Haga clic en el cuadro de texto y añada una breve descripción que explique lo que hace el vínculo o el botón. Por ejemplo, puede usar &quot;Comprar en el sitio oficial de WKND&quot; para un vínculo de botón de call to action.
 1. Haga clic en **[!UICONTROL Aplicar]**.
 
-Para habilitar la funcionalidad de etiquetas de accesibilidad, [agregue un marcador de posición de contenido](/help/user-guide/content/customize-template.md) en la plantilla.
+Para habilitar la funcionalidad de etiquetas de accesibilidad, [agregue un marcador de posición de contenido](/help/user-guide/templates/customize-template.md) en la plantilla.
 
 ## Vista previa del dispositivo
 

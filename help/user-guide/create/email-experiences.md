@@ -5,7 +5,7 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: e2bddd02-914e-43a8-92b6-fdcbced94a6a
-source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Las secciones editables de una experiencia de correo electrónico incluyen:
 * Call to action (CTA)
 * Imagen
 
-Ver [elementos de plantilla](/help/user-guide/content/use-templates.md#template-elements).
+Ver [elementos de plantilla](/help/user-guide/templates/use-templates.md#template-elements).
 
 <!-- ## Email capabilities
 
@@ -39,7 +39,7 @@ Content creators and marketers can produce brand-consistent email experiences in
 
 Las experiencias de correo electrónico pueden tener varias secciones, lo que permite una personalización completa para alinearse con la marca y los objetivos. [Seleccione [!DNL Products] y recursos visuales para cada sección](/help/user-guide/create/create-email-experience.md#add-parameters) y use [mensajes estructurados](/help/user-guide/effective-prompts.md#structured-prompts) para crear contenido único. Cada sección admite un recurso visual.
 
-Consulte [personalización de plantillas con secciones](/help/user-guide/content/customize-template.md#sections-or-groups) para obtener información sobre cómo crear una plantilla de varias secciones.
+Consulte [personalización de plantillas con secciones](/help/user-guide/templates/customize-template.md#sections-or-groups) para obtener información sobre cómo crear una plantilla de varias secciones.
 
 ## Carga progresiva
 

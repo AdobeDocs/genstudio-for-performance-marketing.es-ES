@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 076239b3-9444-48f9-bdd6-ef2b757bdf0d
-source-git-commit: 85cc8ee51bd6b934811583dc0a8460d6d7083a70
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -39,7 +39,7 @@ GenStudio for Performance Marketing genera automáticamente los campos siguiente
 
 - `cta`
 
-Consulte [Marcadores de posición de contenido](/help/user-guide/content/customize-template.md#content-placeholders) para obtener más información sobre el uso de nombres de campo en las plantillas.
+Consulte [Marcadores de posición de contenido](/help/user-guide/templates/customize-template.md#content-placeholders) para obtener más información sobre el uso de nombres de campo en las plantillas.
 
 ## Dimensiones compatibles
 

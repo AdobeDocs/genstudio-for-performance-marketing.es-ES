@@ -5,7 +5,7 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: 7951646f-38da-437d-a270-c5ac99fa51cf
-source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Las secciones editables de una experiencia de anuncio en pantalla incluyen:
 * Call to action (CTA)
 * Imagen
 
-Ver [elementos de plantilla](/help/user-guide/content/use-templates.md#template-elements).
+Ver [elementos de plantilla](/help/user-guide/templates/use-templates.md#template-elements).
 
 <!-- ## Character counts
 

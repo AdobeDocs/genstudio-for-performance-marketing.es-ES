@@ -5,7 +5,7 @@ level: Beginner
 role: User
 feature: Media Templates, Guidelines, Generative AI
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Consulte [Asignar permisos de marca](configure-brand-permissions.md).
 
 Las plantillas aceleran la creación de contenido. Una plantilla contiene funciones aprobadas, como encabezados y pies de página, y está optimizada para canales específicos. Normalmente, los administradores de sistemas cargan y administran plantillas para su organización. Los editores de contenido utilizan plantillas para iniciar el proceso de creación de contenido dentro de los límites establecidos de la marca de la organización.
 
-Ver [Trabajar con plantillas](/help/user-guide/content/use-templates.md).
+Ver [Trabajar con plantillas](/help/user-guide/templates/use-templates.md).
 
 ### Paso 4: cargar los recursos aprobados
 

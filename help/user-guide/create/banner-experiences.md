@@ -6,7 +6,7 @@ badgeBeta: label="Beta" tooltip="Esta función se encuentra actualmente en Beta,
 role: User
 level: Beginner
 exl-id: 91d0c2ef-3610-4a1a-b1ab-a9e2a6cb3723
-source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Adobe GenStudio for Performance Marketing le permite aprovechar la IA generativa
 
 Al generar experiencias de banner, se crean cuatro variaciones que se muestran en el lienzo.
 
-Consulte [Seguir las directrices de plantillas específicas del canal](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para obtener información sobre dimensiones admitidas, nombres de campos reconocidos y mucho más.
+Consulte [Seguir las directrices de plantillas específicas del canal](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para obtener información sobre dimensiones admitidas, nombres de campos reconocidos y mucho más.
 
 Las secciones editables de una experiencia de anuncio en pantalla incluyen:
 
@@ -31,7 +31,7 @@ Las secciones editables de una experiencia de anuncio en pantalla incluyen:
 * Call to action (CTA)
 * Imagen
 
-Ver [elementos de plantilla](/help/user-guide/content/use-templates.md#template-elements).
+Ver [elementos de plantilla](/help/user-guide/templates/use-templates.md#template-elements).
 
 <!-- ## Character counts
 

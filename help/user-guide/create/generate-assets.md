@@ -7,7 +7,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c1118ada-7fee-43cd-aff4-eab69539afb4
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 # Generar imágenes
 
-Con el uso de GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icono de pincel), puede generar recursos generados por _[!DNL On-brand images]_&#x200B;que se inspiren en una imagen elegida, capturando su impacto visual y su estética general.<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
+Con el uso de GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icono de pincel), puede generar recursos generados por _[!DNL On-brand images]_que se inspiren en una imagen elegida, capturando su impacto visual y su estética general.<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
 
 Para diseñar una imagen llamativa y efectiva, se recomienda [agregar directrices a GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) y revisar los [conceptos básicos para escribir avisos](/help/user-guide/effective-prompts.md).
 
 ## Tipos de imagen
 
-_[!DNL On-brand images]_&#x200B;son recursos generados que se inspiran en una imagen elegida y capturan su impacto visual y su estética general. Estas imágenes se crean utilizando imágenes que ya están disponibles en [!DNL Content] y un mensaje cuidadosamente diseñado que guía el diseño. Siguen estrictamente tanto las directrices de marca como los parámetros elegidos durante el proceso de generación.
+_[!DNL On-brand images]_son recursos generados que se inspiran en una imagen elegida y capturan su impacto visual y su estética general. Estas imágenes se crean utilizando imágenes que ya están disponibles en [!DNL Content] y un mensaje cuidadosamente diseñado que guía el diseño. Siguen estrictamente tanto las directrices de marca como los parámetros elegidos durante el proceso de generación.
 
 _[!DNL On-brand images]_<!-- and _[!DNL Similar images]_ --> incorpora directrices establecidas, parámetros y un [mensaje cuidadosamente diseñado](/help/user-guide/effective-prompts.md) para que entregue recursos de imagen llamativos.
 
@@ -34,7 +34,7 @@ Puede generar [!DNL On-brand images] utilizando las directrices definidas, los p
 
 ### Elija una imagen de referencia
 
-Para crear un _[!DNL On-brand images]_, seleccione una imagen existente guardada en [!DNL Content]. Consulte [Prácticas recomendadas para plantillas](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para obtener información sobre las dimensiones [!DNL on-brand image] admitidas.
+Para crear un _[!DNL On-brand images]_, seleccione una imagen existente guardada en [!DNL Content]. Consulte [Prácticas recomendadas para plantillas](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para obtener información sobre las dimensiones [!DNL on-brand image] admitidas.
 
 **Para elegir una imagen de referencia**:
 
@@ -105,9 +105,9 @@ Después de generar variantes de imagen, puede editarlas directamente en Adobe G
 
    Aparece una ventana _Con tecnología Adobe Express_.
 
-1. Realice la edición de imágenes, como [recortar una imagen](https://helpx.adobe.com/es/express/create-and-edit-images/edit-images/crop-images.html), [quitar un objeto](https://helpx.adobe.com/es/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html) y aplicar efectos.
+1. Realice la edición de imágenes, como [recortar una imagen](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-images.html), [quitar un objeto](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html) y aplicar efectos.
 
-   Consulte [Documentación de Adobe Express](https://helpx.adobe.com/es/express/user-guide.html) para obtener información sobre cómo revisar imágenes en GenStudio for Performance Marketing con Adobe Express.
+   Consulte [Documentación de Adobe Express](https://helpx.adobe.com/express/user-guide.html) para obtener información sobre cómo revisar imágenes en GenStudio for Performance Marketing con Adobe Express.
 
 1. Haga clic en _[!UICONTROL Aplicar cambios]_ para guardar las ediciones.
 1. Siga editando las variantes de imagen individuales que desee y aplicando cambios para guardar el progreso.

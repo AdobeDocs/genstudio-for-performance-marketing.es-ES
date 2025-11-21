@@ -4,7 +4,7 @@ description: Obtenga información sobre las últimas funciones y mejoras de Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: f6dc843acc6d29b107f5165dfd2ee1d2c9e72f0f
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '4162'
 ht-degree: 0%
@@ -149,7 +149,7 @@ El nuevo selector Idioma en el cajón de mensajes admite la creación de conteni
 
 Ahora se admiten varios campos de texto con la misma función (por ejemplo, cuerpo, cta, en texto de imagen, etc.) para plantillas de cliente complejas.
 
-Explore los detalles de [las instrucciones del Editor de código de plantilla](/help/user-guide/content/code-editor.md).
+Explore los detalles de [las instrucciones del Editor de código de plantilla](/help/user-guide/templates/code-editor.md).
 
 ### Nuevos modelos de generación de imágenes de Firefly compatibles
 
@@ -248,7 +248,7 @@ Junto con el contenido de la imagen, ahora puedes agregar videos a los anuncios 
 ### Correcciones y mejoras
 
 * Se habilitó la funcionalidad para [agregar texto alternativo](/help/user-guide/create/manage-variants.md#add-alt-text-for-images) a una imagen para una variante individual.
-* Se agregó [nueva proporción de aspecto de Meta](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) —Horizontal 1.19:1 (anchura de 1080 píxeles).
+* Se agregó [nueva proporción de aspecto de Meta](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) —Horizontal 1.19:1 (anchura de 1080 píxeles).
 * Ahora puede elegir más de una experiencia para exportarla o descargarla. Ver [Exportar experiencias](/help/user-guide/content/manage-assets.md#export-experiences).
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
@@ -258,9 +258,9 @@ Junto con el contenido de la imagen, ahora puedes agregar videos a los anuncios 
 
 ### Correcciones y mejoras
 
-* Nuevas opciones de filtro para las plantillas Ahora puedes refinar tu lista de _[!UICONTROL Seleccionar plantillas]_ en [!DNL Create] y en _[!UICONTROL Contenido]_ > _[!UICONTROL Plantillas]_. Ver [plantillas de búsqueda](/help/user-guide/content/use-templates.md#search-templates). Asegúrese de que las plantillas estén etiquetadas correctamente con los metadatos para que se puedan detectar a través de estos filtros.
+* Nuevas opciones de filtro para las plantillas Ahora puedes refinar tu lista de _[!UICONTROL Seleccionar plantillas]_ en [!DNL Create] y en _[!UICONTROL Contenido]_ > _[!UICONTROL Plantillas]_. Ver [plantillas de búsqueda](/help/user-guide/templates/use-templates.md#search-templates). Asegúrese de que las plantillas estén etiquetadas correctamente con los metadatos para que se puedan detectar a través de estos filtros.
 * Funcionalidad habilitada para [ver y seleccionar capas individuales](/help/user-guide/create/manage-variants.md#view-layers) (campos de texto editables o imágenes editables) de una experiencia para resaltarlas en revisiones, como la regeneración de contenido o el recorte de imágenes.
-* Se ha agregado un [nuevo campo de plantilla](/help/user-guide/content/use-templates.md#template-elements), `sub-headline`, para texto adicional en las experiencias a fin de atraer la atención de la audiencia y resaltar los mensajes de marketing.
+* Se ha agregado un [nuevo campo de plantilla](/help/user-guide/templates/use-templates.md#template-elements), `sub-headline`, para texto adicional en las experiencias a fin de atraer la atención de la audiencia y resaltar los mensajes de marketing.
 * Se agregó compatibilidad con [publicar experiencias de anuncios](/help/user-guide/activation/overview.md) de GenStudio for Performance Marketing en Google Campaign Manager 360. Activate admite vistas previas de anuncios detalladas de Google Campaign Manager 360 antes de publicarlas en un anunciante de Campaign Manager 360. Los anuncios publicados mediante Activate se incorporan automáticamente a Insights una vez en directo, lo que permite a los usuarios rastrear el rendimiento de los anuncios e informar sobre él.
 
 +++
@@ -275,13 +275,13 @@ Los especialistas en marketing ahora pueden [publicar experiencias de anuncios](
 
 [!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
 
-Se agregó compatibilidad con [la creación de experiencias de LinkedIn](/help/user-guide/create/create-linkedin.md). Consulte la ficha [Anuncio de LinkedIn](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) en las directrices específicas del canal.
+Se agregó compatibilidad con [la creación de experiencias de LinkedIn](/help/user-guide/create/create-linkedin.md). Consulte la ficha [Anuncio de LinkedIn](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) en las directrices específicas del canal.
 
 ### Crear experiencias de banner
 
 [!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
 
-Se agregó compatibilidad con [creación de experiencias de banner](/help/user-guide/create/create-banner-experience.md). Consulte la pestaña [Banner](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) en las directrices específicas del canal.
+Se agregó compatibilidad con [creación de experiencias de banner](/help/user-guide/create/create-banner-experience.md). Consulte la pestaña [Banner](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) en las directrices específicas del canal.
 
 ### Compatibilidad
 
@@ -293,12 +293,12 @@ El nuevo marco de trabajo de extensibilidad [de GenStudio for Performance Market
 
 ### Plantillas
 
-* **Editor de código de plantilla**: el nuevo [editor de código de plantilla](/help/user-guide/content/code-editor.md) le ayuda a comprobar y perfeccionar su plantilla para que pueda utilizarla de forma óptima al generar nuevas experiencias con GenStudio for Performance Marketing.
+* **Editor de código de plantilla**: el nuevo [editor de código de plantilla](/help/user-guide/templates/code-editor.md) le ayuda a comprobar y perfeccionar su plantilla para que pueda utilizarla de forma óptima al generar nuevas experiencias con GenStudio for Performance Marketing.
 
   ![Vista del editor de código](/help/assets/template-detected-fields.png "Comprobar campos detectados"){width="500" zoomable="yes"}
 
-* **Vínculos en la imagen**: personalice la plantilla de correo electrónico habilitando vínculos de imagen. Ver [Personalizar una plantilla: vínculo en la imagen](/help/user-guide/content/customize-template.md#link-on-image).
-* **Plantillas de AJO y Marketo**: cargue una plantilla que haya creado en Adobe Journey Optimizer (AJO) o Marketo. Ver [Trabajar con plantillas de AJO y Marketo](/help/user-guide/content/use-templates.md#templates-from-ajo-and-marketo).
+* **Vínculos en la imagen**: personalice la plantilla de correo electrónico habilitando vínculos de imagen. Ver [Personalizar una plantilla: vínculo en la imagen](/help/user-guide/templates/customize-template.md#link-on-image).
+* **Plantillas de AJO y Marketo**: cargue una plantilla que haya creado en Adobe Journey Optimizer (AJO) o Marketo. Ver [Trabajar con plantillas de AJO y Marketo](/help/user-guide/templates/use-templates.md#templates-from-ajo-and-marketo).
 
 ### Correcciones y mejoras
 
@@ -336,7 +336,7 @@ Los programas de Beta ofrecen una forma de ayudar a dar forma al desarrollo de p
 
 ### Generar nuevas llamadas a la acción
 
-Ahora puede generar nuevas frases de call-to-action (CTA) al administrar variantes. Use las nuevas opciones _Refrasear_ y _Agregar vínculo_ para generar nuevas frases y editar el vínculo de CTA. La plantilla debe estar configurada correctamente para que funcionen estas nuevas funciones de CTA. Siga las directrices de _Personalizar una plantilla_: [Llamadas a la acción](/help/user-guide/content/customize-template.md#calls-to-action). Para obtener instrucciones sobre la administración de CTA en variantes, consulte [Revisar Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
+Ahora puede generar nuevas frases de call-to-action (CTA) al administrar variantes. Use las nuevas opciones _Refrasear_ y _Agregar vínculo_ para generar nuevas frases y editar el vínculo de CTA. La plantilla debe estar configurada correctamente para que funcionen estas nuevas funciones de CTA. Siga las directrices de _Personalizar una plantilla_: [Llamadas a la acción](/help/user-guide/templates/customize-template.md#calls-to-action). Para obtener instrucciones sobre la administración de CTA en variantes, consulte [Revisar Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
 
 ### Correcciones y mejoras
 
@@ -382,7 +382,7 @@ Los editores ahora pueden especificar valores personalizados para estos aspectos
 
 * Dimensiones de las imágenes en las experiencias de anuncios en pantalla durante la carga de imágenes.<!-- GS-7166 -->
 
-* Consulte las directrices específicas del canal en las [Prácticas recomendadas para plantillas](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+* Consulte las directrices específicas del canal en las [Prácticas recomendadas para plantillas](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
 Las opciones de exportación ahora incluyen:
 
@@ -446,7 +446,7 @@ Las nuevas funciones adicionales permiten a los editores:
 
 ### Nuevas funciones
 
-Se ha agregado compatibilidad para mostrar contenido estático alojado en dominios externos. GenStudio for Performance Marketing valida el origen de contenido definido en la plantilla e incrusta una copia para obtener la vista previa de la plantilla. Ver [contenido estático](/help/user-guide/content/customize-template.md#static-content). <!-- GS-6107 -->
+Se ha agregado compatibilidad para mostrar contenido estático alojado en dominios externos. GenStudio for Performance Marketing valida el origen de contenido definido en la plantilla e incrusta una copia para obtener la vista previa de la plantilla. Ver [contenido estático](/help/user-guide/templates/customize-template.md#static-content). <!-- GS-6107 -->
 
 ### Correcciones y mejoras
 
