@@ -3,9 +3,9 @@ title: Validación de marca en Adobe GenStudio for Performance Marketing
 description: Descubra cómo funciona el sistema de validación de marca integrado en GenStudio for Performance Marketing.
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 436e2d7c02cef91eee7f4180f049b71b42ec76d5
+source-git-commit: e2acf90ef5fef6af03a756882caf53ab125055c4
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ GenStudio for Performance Marketing valida la marca y comprueba otros contenidos
 
 * Directrices [!DNL Brand] definidas o predeterminadas
 * Directrices de Platform
-* Estándares de la Ley de Estadounidenses con Discapacidades (ADA)
+* [Estándares de la Ley para personas estadounidenses con discapacidades (ADA)](/help/user-guide/guidelines/brand-validation.md#american-with-disabilities-act-ada-validation)
 <!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
 
 
@@ -81,8 +81,19 @@ Para maximizar la eficacia del contenido generado y mantener una identidad de ma
 
    Utilice el razonamiento proporcionado para cada comprobación para guiarle en la revisión de imágenes y variantes.
 
-1. Después de realizar las revisiones necesarias, haga clic en **[!UICONTROL Puntuación de comprobación]** para volver a comprobar y validar los cambios y asegurarse de que estén más en consonancia con la identidad de la marca, las directrices de la plataforma y los estándares de accesibilidad.
+1. Después de realizar las revisiones necesarias, haga clic en **[!UICONTROL Puntuación de comprobación]** para volver a comprobar y validar los cambios y asegurarse de que se ajustan a la identidad de la marca, las directrices de la plataforma y los estándares de accesibilidad.
 
    El proceso de comprobación de contenido se ejecuta de nuevo. Si los elementos revisados superan la validación, aparece un aviso verde en la parte inferior del lienzo para confirmar que la puntuación se ha actualizado. Si no ha habido ningún cambio después de una nueva comprobación, el banner confirma que no se ha producido ningún cambio en la puntuación. El porcentaje del icono de resumen _Comprobación de contenido_ para la variante revisada también muestra su progreso.
 
 1. Continúe revisando las secciones para asegurarse de que toda la variante pase las comprobaciones de validación y accesibilidad. Desplácese por cada variante con las flechas adyacentes a una variante individual en el lienzo.
+
+## Validación de la Ley de estadounidenses con discapacidades (ADA)
+
+Estas comprobaciones de accesibilidad se incluyen para el cumplimiento legal de la Ley de estadounidenses con discapacidades (ADA):
+
+[Contenido no textual de WCAG 1.1.1](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html): garantiza que las imágenes proporcionen un atributo `<alt>`.
+[Contraste de WCAG 1.4.3 (mínimo)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html): garantiza que el texto generado tenga un contraste de 4.5:1 en el fondo.
+[WCAG 3.1.3 Palabras inusuales](https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.html): identifica las palabras o frases utilizadas de una manera inusual o restringida, incluidos los términos y la jerga.
+[WCAG 3.1.4 Abreviaciones](https://www.w3.org/WAI/WCAG21/Understanding/abbreviations.html): un mecanismo para identificar la forma expandida o el significado de las abreviaturas.
+[Nivel de lectura de WCAG 3.1.5](https://www.w3.org/WAI/WCAG21/Understanding/reading-level.html): garantiza que el contenido sea legible en un nivel de educación secundaria inferior.
+
