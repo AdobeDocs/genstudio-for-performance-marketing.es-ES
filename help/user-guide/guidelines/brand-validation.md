@@ -1,11 +1,11 @@
 ---
 title: Validación de marca en Adobe GenStudio for Performance Marketing
-description: Descubra cómo funciona el sistema de validación de marca integrado en GenStudio for Performance Marketing.
+description: Obtenga información acerca del sistema de validación de marca integrado en GenStudio for Performance Marketing.
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: e2acf90ef5fef6af03a756882caf53ab125055c4
+source-git-commit: 6a33f7e3a769eda459f70e6ab4e8559064ede2b4
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ GenStudio for Performance Marketing valida la marca y comprueba otros contenidos
 
 * Directrices [!DNL Brand] definidas o predeterminadas
 * Directrices de Platform
-* [Estándares de la Ley para personas estadounidenses con discapacidades (ADA)](/help/user-guide/guidelines/brand-validation.md#american-with-disabilities-act-ada-validation)
+* [Compatibilidad con accesibilidad](/help/user-guide/guidelines/brand-validation.md#supporting-your-accessibility-strategy)
 <!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
 
 
@@ -87,13 +87,16 @@ Para maximizar la eficacia del contenido generado y mantener una identidad de ma
 
 1. Continúe revisando las secciones para asegurarse de que toda la variante pase las comprobaciones de validación y accesibilidad. Desplácese por cada variante con las flechas adyacentes a una variante individual en el lienzo.
 
-## Validación de la Ley de estadounidenses con discapacidades (ADA)
+## Apoyar su estrategia de accesibilidad
 
-Estas comprobaciones de accesibilidad se incluyen para el cumplimiento legal de la Ley de estadounidenses con discapacidades (ADA):
+GenStudio for Performance Marketing incluye comprobaciones de contenido diseñadas para ayudar a los clientes a seguir sus propias prácticas recomendadas de accesibilidad.
 
-[Contenido no textual de WCAG 1.1.1](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html): garantiza que las imágenes proporcionen un atributo `<alt>`.
-[Contraste de WCAG 1.4.3 (mínimo)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html): garantiza que el texto generado tenga un contraste de 4.5:1 en el fondo.
-[WCAG 3.1.3 Palabras inusuales](https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.html): identifica las palabras o frases utilizadas de una manera inusual o restringida, incluidos los términos y la jerga.
-[WCAG 3.1.4 Abreviaciones](https://www.w3.org/WAI/WCAG21/Understanding/abbreviations.html): un mecanismo para identificar la forma expandida o el significado de las abreviaturas.
-[Nivel de lectura de WCAG 3.1.5](https://www.w3.org/WAI/WCAG21/Understanding/reading-level.html): garantiza que el contenido sea legible en un nivel de educación secundaria inferior.
+Esta función incluye estas comprobaciones de contenido:
 
+* Las imágenes proporcionan un atributo `<alt>`.
+* El texto generado tiene un contraste de 4.5:1 con su fondo.
+* Se evitan las palabras o frases utilizadas de manera inusual o restringida, incluyendo expresiones idiomáticas y jerga.
+* Hay disponibles formularios ampliados o el significado de las abreviaturas.
+* El contenido es legible en un nivel de educación secundaria inferior.
+
+Se recomienda a los clientes que utilicen estas funciones como parte de su estrategia de accesibilidad más amplia, aunque los clientes siguen siendo responsables de su propio cumplimiento legal y de la accesibilidad.
