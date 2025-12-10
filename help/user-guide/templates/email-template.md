@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
+source-git-commit: 8fb4a0e3acaf1a45d8f0f00f975247fc8fb746e3
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,10 @@ El máximo de campos permitidos en una plantilla es 20. Consulte [Marcadores de 
 
 _Las secciones_ le permiten organizar el contenido en distintos grupos, lo que admite diseños más complejos. En GenStudio for Performance Marketing, puede definir cada sección utilizando una convención de nombres de grupo. Consulte [Personalizar secciones de plantilla](/help/user-guide/templates/customize-template.md#sections-or-groups).
 
-Las plantillas de varias secciones pueden tener 0, 2 o 3 secciones:
+Las plantillas de correo electrónico de varias secciones pueden tener hasta 10 secciones:
 
 - Una plantilla básica (cero secciones) puede generar un único conjunto de elementos de plantilla, lo que no requiere la convención de nombres de grupos.
-- Una plantilla compleja (varias secciones) puede generar hasta tres conjuntos de elementos de plantilla, lo que requiere que se adhiera a la convención de nomenclatura de grupos: `<groupname_fieldname>`.
+- Una plantilla compleja (varias secciones) puede generar conjuntos de elementos de plantilla, lo que requiere que se adhiera a la convención de nomenclatura de grupos: `<groupname_fieldname>`.
 - Cuando se utilizan varias secciones, los elementos que queden independientes fuera de una sección no se rellenan.
 
 Estos son ejemplos de nombres de campo, utilizando la convención de nomenclatura de grupos, para dos secciones:

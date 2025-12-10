@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 9f4cfd470590b2971c615a6437e6ae730cde5c18
+source-git-commit: 8fb4a0e3acaf1a45d8f0f00f975247fc8fb746e3
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1612'
 ht-degree: 0%
 
 ---
@@ -222,26 +222,18 @@ Sintaxis: `groupname_fieldname`
 - _Correcto_ (👍): `pod1_body`
 - _Incorrecto_ (❌): `pod1body`
 
-Cada sección solo puede utilizar uno de cada tipo de campo. Por ejemplo, los campos siguientes pertenecen a la sección `pod1`:
+Cada sección solo puede utilizar uno de cada tipo de campo. Debido a esta regla, las secciones no se pueden anidar.
+
+Por ejemplo, los campos siguientes pertenecen a la sección `pod1`:
 
 - `pod1_headline`
 - `pod1_body`
 - `pod1_image`
 - `pod1_cta`
 
-Debido a esta regla, las secciones no se pueden anidar.
+GenStudio for Performance Marketing entiende que `pod1_headline` está más relacionado con `pod1_body` que con `pod2_body`.
 
 Cada tipo de plantilla, como el correo electrónico o el anuncio de Meta, tiene restricciones específicas del canal en el uso de secciones. Consulte [directrices específicas del canal](/help/user-guide/templates/best-practices-for-templates.md) en el tema _Prácticas recomendadas para usar plantillas_.
-
-Por ejemplo, una plantilla de correo electrónico puede incluir hasta tres secciones; por lo tanto, puede tener tres secciones de titular y cuerpo:
-
-- `pre_header`
-- `pod1_headline`, `pod1_body`
-- `pod2_headline`, `pod2_body`
-- `pod3_headline`, `pod3_body`
-- `cta`
-
-GenStudio for Performance Marketing entiende que `pod1_headline` está más relacionado con `pod1_body` que con `pod2_body`.
 
 >[!TIP]
 >
