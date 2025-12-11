@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 4658a759f5a4e03c54f645cfa1d1bbcc84fe1d91
+source-git-commit: d3ddbefc47d3289041783a1a277aa2e855d13ccb
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Si usa una plantilla con directrices predefinidas (como [!DNL Brands], [!DNL Per
 1. Haga clic en el icono _Parameters_ para expandir el cajón de mensajes.
 1. En la sección _Parameters_, seleccione las directrices—[!DNL Brands], [!DNL Personas] y [!DNL Products]—para informar sobre la creación de contenido.
 
-   ![Elegir persona](/help/assets/persona-select.png){width="600" zoomable="yes"}
+   ![Elegir persona](/help/assets/persona-select-meta.png){width="300" align="center" zoomable="yes"}
 
    Si no hay marcas, personalidades o productos disponibles en estos menús, [agregue directrices a su GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
@@ -145,7 +145,7 @@ Utilice el panel Aprobaciones, accesible como icono en la barra de acciones dere
 
 **Para obtener revisiones y aprobaciones**:
 
-1. [Iniciar una solicitud de aprobación](/help/user-guide/approvals/request-review.md) para solicitar una [aprobación de las experiencias de anuncios de Meta &#x200B;](/help/user-guide/approvals/approve-content.md) redactadas.
+1. [Iniciar una solicitud de aprobación](/help/user-guide/approvals/request-review.md) para solicitar una [aprobación de las experiencias de anuncios de Meta ](/help/user-guide/approvals/approve-content.md) redactadas.
 
    ![Enviar borradores para su revisión y aprobación](/help/assets/send-approval-meta.png){width="450" zoomable="yes"}
 

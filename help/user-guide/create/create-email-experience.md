@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 4658a759f5a4e03c54f645cfa1d1bbcc84fe1d91
+source-git-commit: 0db148b99a78714020b0ad4d9c1f71e6ccc945b5
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Si usa una plantilla con directrices predefinidas (como [!DNL Brands], [!DNL Per
 1. Haga clic en el icono _Parameters_ para expandir el cajón de mensajes.
 1. En la sección _Parameters_, seleccione las directrices—[!DNL Brands], [!DNL Personas] y [!DNL Products]—para informar sobre la creación de contenido.
 
-   ![Elegir persona](/help/assets/persona-select.png){width="600" zoomable="yes"}
+   ![Elegir persona](/help/assets/persona-select-email.png){width="300" align="center"}
 
    Si no hay marcas, personalidades o productos disponibles en estos menús, [agregue directrices a su GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 

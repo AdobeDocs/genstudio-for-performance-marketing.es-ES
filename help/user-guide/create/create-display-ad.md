@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 4658a759f5a4e03c54f645cfa1d1bbcc84fe1d91
+source-git-commit: 0db148b99a78714020b0ad4d9c1f71e6ccc945b5
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Cuando haya terminado de agregar parámetros, contraiga el cajón de mensajes ha
 
 Una vez seleccionadas las directrices, cree un mensaje con lenguaje natural para empezar a generar contenido para la nueva experiencia de anuncio en pantalla. Para mejorar la calidad de las experiencias de anuncios en pantalla generadas, es crucial crear indicadores detallados y descriptivos.
 
-![Escriba un mensaje](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
+![Escriba un mensaje](/help/assets/prompt-displayad.png){width="300" align="center"}
 
 Consulte [Escribir mensajes efectivos](/help/user-guide/effective-prompts.md) para obtener más información sobre cómo escribir mensajes.
 
@@ -130,7 +130,7 @@ Ver [revisiones y aprobaciones](/help/user-guide/approvals/overview.md).
 Para que los anuncios en pantalla generados estén disponibles para su uso actual y futuro, publíquelo en [!UICONTROL Contenido] y expórtelo para su uso en campañas de marketing.
 
 1. **Para publicar tus nuevas experiencias con anuncios en pantalla**, haz clic en **[!UICONTROL Publicar]** en la barra de herramientas superior o dentro del flujo de aprobaciones.
-   1. Seleccione _[!UICONTROL [!DNL Campaigns]]_&#x200B;y agregue&#x200B;_[!UICONTROL &#x200B; más detalles &#x200B;]_&#x200B;si lo desea.
+   1. Seleccione _[!UICONTROL [!DNL Campaigns]]_y agregue_[!UICONTROL  más detalles ]_si lo desea.
    1. Haga clic en **[!UICONTROL Publicar]**.
 
       ![Publicar un anuncio para mostrar](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
