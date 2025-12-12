@@ -2,13 +2,14 @@
 title: Crear una experiencia de titular
 description: Aprenda a crear experiencias de banner en Adobe [!DNL GenStudio] for Performance Marketing.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
+badgeBeta: label="Beta" tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
-source-git-commit: f323537b698961bb71ffeb830ff06c5993fe38c5
+source-git-commit: 6c2a8ca1fd981bc4f6eb15f1487b304c0c8f67b4
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -57,7 +58,7 @@ Cuando haya terminado de agregar parámetros, contraiga el cajón de mensajes ha
 
 Una vez seleccionadas las directrices, utilice un lenguaje natural para crear un mensaje que inicie la generación de contenido para la nueva experiencia del titular. Para garantizar resultados de alta calidad, es esencial crear indicadores detallados y descriptivos.
 
-![Escriba un mensaje](/help/assets/prompt-displayad.png){width="300" align="center"}
+![Escriba un mensaje](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
 
 Consulte [Escribir mensajes efectivos](/help/user-guide/effective-prompts.md) para obtener más información sobre cómo escribir mensajes.
 
@@ -126,7 +127,7 @@ Ver [revisiones y aprobaciones](/help/user-guide/approvals/overview.md).
 Para que los banners generados estén disponibles para su uso actual y futuro, publíquelos en [!UICONTROL Contenido] y expórtelos para su uso en campañas de marketing.
 
 1. **Para publicar tus nuevas experiencias de banner**, haz clic en **[!UICONTROL Publicar]** en la barra de herramientas superior o dentro del flujo de aprobaciones.
-   1. Seleccione _[!UICONTROL [!DNL Campaigns]]_&#x200B;y agregue&#x200B;_[!UICONTROL &#x200B; más detalles &#x200B;]_&#x200B;si lo desea.
+   1. Seleccione _[!UICONTROL [!DNL Campaigns]]_y agregue_[!UICONTROL  más detalles ]_si lo desea.
    1. Haga clic en **[!UICONTROL Publicar]**.
 
       ![Publicar un titular](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
