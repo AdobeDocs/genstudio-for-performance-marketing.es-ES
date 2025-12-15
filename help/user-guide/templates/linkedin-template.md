@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 85432185-8311-411b-b57b-f482c3d45854
-source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
+source-git-commit: ff694925dea4741d13ae71a68e23a5e604134521
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '287'
 ht-degree: 2%
 
 ---
@@ -41,13 +41,15 @@ Consulte [Marcadores de posición de contenido](/help/user-guide/templates/custo
 
 ## Proporciones de aspecto admitidas
 
-| Proporción de aspecto | Plataforma | Tamaño mínimo (px) | Tamaño máximo (px) | Notas |
-|-------------------|-----------------|---------------|----------------|-------------------------------------------------------------------------------------|
-| Cuadrado 1:1 | Escritorio, Móvil | 360 x 360 | 4320 x 4320 | Muy versátil. Ideal para lograr una apariencia uniforme en todos los dispositivos y ubicaciones. |
-| Horizontal 1.91:1 | Escritorio | 640 x 360 | 7680 x 4320 | Formato horizontal estándar. Se utiliza comúnmente para contenido patrocinado y anuncios de fuentes de noticias. |
-| Vertical 1:1.91 | Dispositivo móvil | 360 x 640 | 2430 x 4320 | Formato vertical alto. Optimizado para la visualización móvil, que ofrece más presencia en la pantalla. |
-| Vertical 2:3 | Dispositivo móvil | 360 x 640 | 2430 x 4320 | Un poco menos alto que 1:1.91. Ideal para campañas con prioridad móvil. |
-| Vertical 4:5 | Dispositivo móvil | 360 x 640 | 2430 x 4320 | Recomendado para dispositivos móviles. Equilibra la visibilidad y el contenido, lo que a menudo produce un mayor impacto. |
+Todas las anchuras de las plantillas de LinkedIn están codificadas a 1200 píxeles.
+
+| Proporción de aspecto | Plataforma | Dimensiones (px) | Notas |
+|-------------------|-----------------|------------|-------------------------------------------------------------------------------------|
+| Cuadrado 1:1 | Escritorio, Móvil | 1200 x 1200 | Muy versátil. Ideal para lograr una apariencia uniforme en todos los dispositivos y ubicaciones. |
+| Horizontal 1.91:1 | Escritorio | 1200 x 628 | Formato horizontal estándar. Se utiliza comúnmente para contenido patrocinado y anuncios de fuentes de noticias. |
+| Vertical 1:1.91 | Dispositivo móvil | 1200 x 2292 | Formato vertical alto. Optimizado para la visualización móvil, que ofrece más presencia en la pantalla. |
+| Vertical 2:3 | Dispositivo móvil | 1200 x 1800 | Un poco menos alto que 1:1.91. Ideal para campañas con prioridad móvil. |
+| Vertical 4:5 | Dispositivo móvil | 1200 x 1500 | Recomendado para dispositivos móviles. Equilibra la visibilidad y el contenido, lo que a menudo produce un mayor impacto. |
 
 <!-- Potentially add an example
 
