@@ -4,9 +4,9 @@ description: Obtenga información sobre las últimas funciones y mejoras de Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: f0e0a0d4bf0b0a75169a245f15734266586cdb17
+source-git-commit: c7300b3f531947081253aaf719e099512b419539
 workflow-type: tm+mt
-source-wordcount: '4225'
+source-wordcount: '4384'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,31 @@ ht-degree: 0%
 
 Esta información de la versión proporciona las últimas actualizaciones para la aplicación de GenStudio for Performance Marketing.
 
-## 2025.12.12 {#latest}
+## 2026,01 {#latest}
+
+### Rediseño del panel de solicitud del lienzo HTML
+
+El alimentador de mensajes en lienzo de HTML [!DNL Create] ahora aparece como un panel del lado izquierdo en correos electrónicos, anuncios en pantalla y anuncios de medios de pago, y reemplaza el alimentador inferior anterior. Esta actualización mantiene la misma funcionalidad principal a la vez que mejora la presentación y la coherencia del espacio de trabajo al generar contenido.
+
+### Generación de correo electrónico de varios pods de hasta 10 secciones
+
+Ahora puede crear correos electrónicos con hasta 10 pods/secciones en [!DNL Create], lo que expande la generación de correo electrónico de varios pods más allá del límite anterior de 1 a 3 pods. Esta mejora permite diseños de correo electrónico más completos y estructurados en un flujo de una sola generación sin vincular el contenido en varias pasadas.
+
+### Content Credentials para la autenticidad de recursos
+
+[!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
+
+GenStudio for Performance Marketing ahora es compatible con Content Credentials, lo que permite a los equipos aplicar y conservar metadatos de autenticidad en los recursos a lo largo de la creación, revisión y exportación. Los distintivos y detalles de credenciales aparecen en los flujos de trabajo clave para que las organizaciones puedan verificar la procedencia y mantener la confianza al compartir contenido.
+
+## Notas de la versión anteriores
+
++++Notas de 2025.12.12
 
 ### Intercambio de logotipo para plantillas
 
 Los especialistas en marketing ahora pueden intercambiar dinámicamente logotipos dentro de las plantillas directamente en el flujo de trabajo [!DNL Create], lo que elimina la necesidad de crear varias variaciones de plantillas para distintos logotipos de marca, marcas secundarias o líneas de productos. Esta función permite a los creadores seleccionar o intercambiar el logotipo adecuado en el momento de la creación del contenido, lo que optimiza la administración de plantillas y reduce la sobrecarga de producción.
 
-## Notas de la versión anteriores
++++
 
 +++Notas de 2025.11.14
 
@@ -67,8 +85,6 @@ Los especialistas en marketing ahora pueden intercambiar dinámicamente logotipo
 * El flujo de [!DNL Experience Translations] se ha optimizado junto con la nueva característica de traducción para medios de pago y correo electrónico.
 
 +++
-
-## Notas de la versión anteriores
 
 +++Notas de la versión 2025.10.16
 
