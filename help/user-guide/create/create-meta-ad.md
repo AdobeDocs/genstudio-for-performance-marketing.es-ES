@@ -145,7 +145,7 @@ Utilice el panel Aprobaciones, accesible como icono en la barra de acciones dere
 
 **Para obtener revisiones y aprobaciones**:
 
-1. [Iniciar una solicitud de aprobación](/help/user-guide/approvals/request-review.md) para solicitar una [aprobación de las experiencias de anuncios de Meta ](/help/user-guide/approvals/approve-content.md) redactadas.
+1. [Iniciar una solicitud de aprobación](/help/user-guide/approvals/request-review.md) para solicitar una [aprobación de las experiencias de anuncios de Meta &#x200B;](/help/user-guide/approvals/approve-content.md) redactadas.
 
    ![Enviar borradores para su revisión y aprobación](/help/assets/send-approval-meta.png){width="450" zoomable="yes"}
 
