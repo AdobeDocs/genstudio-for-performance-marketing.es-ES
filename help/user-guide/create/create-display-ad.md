@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 6c2a8ca1fd981bc4f6eb15f1487b304c0c8f67b4
+source-git-commit: 81923bf493ec6fa2ed1a2fa655a76b01d7c87bc7
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Pa
 
 Si usa una plantilla con directrices predefinidas (como [!DNL Brands], [!DNL Personas] o [!DNL Products]), estas directrices se aplican a las variantes. Si lo desea, puede cambiarlos.
 
+![Escriba parámetros en el cajón de mensajes](/help/assets/prompt-displayad2.png){width="300" align="center"}
+
 **Para agregar parámetros y recursos**:
 
 1. Haga clic en el icono _Parameters_ para expandir el cajón de mensajes.
@@ -59,14 +61,12 @@ Cuando haya terminado de agregar parámetros, contraiga el cajón de mensajes ha
 
 Una vez seleccionadas las directrices, cree un mensaje con lenguaje natural para empezar a generar contenido para la nueva experiencia de anuncio en pantalla. Para mejorar la calidad de las experiencias de anuncios en pantalla generadas, es crucial crear indicadores detallados y descriptivos.
 
-![Escriba un mensaje](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
-
 Consulte [Escribir mensajes efectivos](/help/user-guide/effective-prompts.md) para obtener más información sobre cómo escribir mensajes.
 
 **Para escribir un mensaje**:
 
 1. Escriba una solicitud en el cuadro de solicitud _&quot;Describa las experiencias que desea generar&quot;_.
-1. Haga clic en **[!UICONTROL Generar]**.
+2. Haga clic en **[!UICONTROL Generar]**.
 
 De forma predeterminada, se generan y muestran en el lienzo cuatro variaciones (impulsadas por el mensaje, las directrices y el contenido añadido).
 
@@ -106,9 +106,9 @@ Para optimizar las variantes generadas y garantizar el cumplimiento estricto de 
 
 1. Haga clic en el icono del panel _Comprobación de contenido_ en la barra de acciones derecha para abrir el panel [_Comprobación de contenido_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Vea un resumen de las comprobaciones de *Necesidades de revisión* y *Superado* para ver qué secciones y directrices necesitan mejorarse.
 
-   ![_Comprobación de contenido_ panel](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
+   ![_Comprobación de contenido_ panel](/help/assets/content-check-panel.png){width="300"}
 
-1. [Revise manualmente las variantes](#revise-generated-variants) para asegurarse de que las variantes estén alineadas con las comprobaciones de contenido realizadas.
+2. [Revise manualmente las variantes](#revise-generated-variants) para asegurarse de que las variantes estén alineadas con las comprobaciones de contenido realizadas.
 
 Consulte [Validación de marca](/help/user-guide/guidelines/brand-validation.md).
 
@@ -130,7 +130,7 @@ Ver [revisiones y aprobaciones](/help/user-guide/approvals/overview.md).
 Para que los anuncios en pantalla generados estén disponibles para su uso actual y futuro, publíquelo en [!UICONTROL Contenido] y expórtelo para su uso en campañas de marketing.
 
 1. **Para publicar tus nuevas experiencias con anuncios en pantalla**, haz clic en **[!UICONTROL Publicar]** en la barra de herramientas superior o dentro del flujo de aprobaciones.
-   1. Seleccione _[!UICONTROL [!DNL Campaigns]]_&#x200B;y agregue&#x200B;_[!UICONTROL &#x200B; más detalles &#x200B;]_&#x200B;si lo desea.
+   1. Seleccione _[!UICONTROL [!DNL Campaigns]]_y agregue_[!UICONTROL  más detalles ]_si lo desea.
    1. Haga clic en **[!UICONTROL Publicar]**.
 
       ![Publicar un anuncio para mostrar](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
