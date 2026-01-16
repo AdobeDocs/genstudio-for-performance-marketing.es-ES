@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 168ea3d21f5771aeb05553ffe992dc9648b0e4e4
+source-git-commit: 4172d58660b0242976f73d7575142456ae8c4ae1
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Si usa una plantilla con directrices predefinidas (como [!DNL Brands], [!DNL Per
 1. Haga clic en el icono _Parameters_ para expandir el cajón de mensajes.
 1. En la sección _Parameters_, seleccione las directrices—[!DNL Brands], [!DNL Personas] y [!DNL Products]—para informar sobre la creación de contenido.
 
-   ![Elegir persona](/help/assets/persona-select-email2.png){width="300" align="center"}
+   ![Elegir persona](/help/assets/persona-select-email2.png){width="50%" align="center"}
 
    Si no hay marcas, personalidades o productos disponibles en estos menús, [agregue directrices a su GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
@@ -110,9 +110,9 @@ Para optimizar las variantes generadas y garantizar el cumplimiento estricto de 
 
 1. Haga clic en el icono del panel _Comprobación de contenido_ en la barra de acciones derecha para abrir el panel [_Comprobación de contenido_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Vea un resumen de las comprobaciones de *Necesidades de revisión* y *Superado* para ver qué secciones y directrices necesitan mejorarse.
 
-   ![_Comprobación de contenido_ panel](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
+   ![_Comprobación de contenido_ panel](/help/assets/content-check-panel.png){width="300"}
 
-1. [Revise manualmente las variantes](#revise-generated-variants) para asegurarse de que las variantes estén alineadas con las comprobaciones de contenido realizadas.
+2. [Revise manualmente las variantes](#revise-generated-variants) para asegurarse de que las variantes estén alineadas con las comprobaciones de contenido realizadas.
 
 Consulte [Validación de marca](/help/user-guide/guidelines/brand-validation.md).
 

@@ -7,7 +7,7 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: 4d3022fa302b5e198a7e9dc91b63319a25fb5a31
+source-git-commit: 4172d58660b0242976f73d7575142456ae8c4ae1
 workflow-type: tm+mt
 source-wordcount: '1224'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Pa
 1. Haga clic en el icono _Parameters_ para expandir el cajón de mensajes.
 1. En la sección _Parameters_, seleccione las directrices—[!DNL Brands], [!DNL Personas] y [!DNL Products]—para informar sobre la creación de contenido.
 
-   ![Elegir persona](/help/assets/persona-select-linkedin2.png){width="300" align="center"}
+   ![Elegir persona](/help/assets/persona-select-linkedin2.png){width="50%" align="center"}
 
    Si no hay marcas, personalidades o productos disponibles en estos menús, [agregue directrices a su GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
@@ -118,9 +118,9 @@ Para optimizar las variantes generadas y garantizar el cumplimiento estricto de 
 
 1. Haga clic en el icono del panel _Comprobación de contenido_ en la barra de acciones derecha para abrir el panel [_Comprobación de contenido_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Vea un resumen de las comprobaciones de *Necesidades de revisión* y *Superado* para ver qué secciones y directrices necesitan mejorarse.
 
-   ![_Comprobación de contenido_ panel](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
+   ![_Comprobación de contenido_ panel](/help/assets/content-check-panel.png){width="300"}
 
-1. [Revise manualmente las variantes](#revise-generated-linkedin-ads) para asegurarse de que sus variantes estén alineadas con las comprobaciones de contenido completadas.
+2. [Revise manualmente las variantes](#revise-generated-linkedin-ads) para asegurarse de que sus variantes estén alineadas con las comprobaciones de contenido completadas.
 
 Consulte [Validación de marca](/help/user-guide/guidelines/brand-validation.md).
 
@@ -130,7 +130,7 @@ Utilice el panel Aprobaciones, al que se puede acceder desde la barra de menú s
 
 **Para obtener revisiones y aprobaciones**:
 
-1. [Iniciar una solicitud de aprobación](/help/user-guide/approvals/request-review.md) para solicitar una [aprobación de las experiencias de anuncios de Meta &#x200B;](/help/user-guide/approvals/approve-content.md) redactadas.
+1. [Iniciar una solicitud de aprobación](/help/user-guide/approvals/request-review.md) para solicitar una [aprobación de las experiencias de anuncios de Meta ](/help/user-guide/approvals/approve-content.md) redactadas.
 
    ![Enviar borradores para su revisión y aprobación](/help/assets/send-approval-meta.png){width="450" zoomable="yes"}
 
