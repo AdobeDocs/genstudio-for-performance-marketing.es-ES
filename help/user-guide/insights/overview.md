@@ -4,9 +4,9 @@ description: Aprenda a optimizar los anuncios en función de las métricas de re
 level: Intermediate
 feature: Reporting and Insights
 exl-id: 26402a06-f776-42be-9d8d-fc498c0f75a8
-source-git-commit: 42a211956854126798024a97fc0befc3626160b7
+source-git-commit: 8bdfe52173b93e55f627f37cb1d6c5b16827d899
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,16 @@ Esta conexión permite que GenStudio for Performance Marketing reciba datos esta
 
 {{connect-insights}}
 
+## Canales admitidos
+
+Los canales admitidos en Insights son Meta, LinkedIn, TikTok, DV360 e Innovid.
+
+Meta, LinkedIn y TikTok proporcionan una visibilidad completa de las campañas, los anuncios, los medios y los atributos. DV360 e Innovid ofrecen actualmente una cobertura de datos más limitada.
+
+En este momento, los datos de medios no están disponibles para DV360 e Innovid, lo que significa que la pestaña Atributos tampoco se muestra para estos canales. La pestaña Atributos depende de los datos de nivel de medios para que aparezcan las características extraídas de las experiencias.
+
+Esta limitación se debe a restricciones en las propias plataformas de medios de pago y no a un problema con GenStudio for Performance Marketing.
+
 ## Panel de control
 
 El panel [!DNL Insights] tiene una tabla configurable para cada tipo de contenido: [!UICONTROL Canales], [!UICONTROL Anuncios], [!UICONTROL Medios] y [!UICONTROL Atributos].
@@ -39,17 +49,17 @@ Cada vista muestra una tabla correspondiente, en la que puede buscar por palabra
 
 [!UICONTROL Anuncios], [!UICONTROL Medios] y [!UICONTROL Atributos] incluyen una vista de galería que permite analizar y ordenar recursos con tarjetas con una miniatura de imagen o vídeo. Hay una opción para mostrar una de las tres métricas clave en cada tarjeta: `Click-through rate`, `Cost per click` y `Spend`.
 
-### Canales
+### Campañas
 
-La vista [[!DNL Insights] _[!UICONTROL Canales &#x200B;]_](channels.md) es la vista predeterminada y muestra una lista de los detalles de la campaña activa, como los objetivos, el presupuesto, la fecha de inicio y la actividad. Asegúrese de [conectar una cuenta de canal](/help/user-guide/connectors/connect-channel.md) para que GenStudio for Performance Marketing empiece a recibir los datos estadísticos.
+La vista [[!DNL Insights] _[!UICONTROL Campañas ]_](campaigns.md) es la vista predeterminada y muestra una lista de detalles de campañas activas, como objetivos, presupuesto, fecha de inicio y actividad. Asegúrese de [conectar una cuenta de canal](/help/user-guide/connectors/connect-channel.md) para que GenStudio for Performance Marketing empiece a recibir los datos estadísticos.
 
 ### Anuncios
 
-La vista [[!DNL Insights] _[!UICONTROL Anuncios &#x200B;]_](ads.md) se centra en evaluar la efectividad de un anuncio. La vista [!UICONTROL Anuncios] le permite analizar las métricas de un anuncio en función de su ubicación dentro de un intervalo de fechas especificado. Al hacer clic en un&#x200B;_[!UICONTROL &#x200B; nombre del anuncio &#x200B;]_, puedes ver las métricas de rendimiento del anuncio, el rendimiento por ubicación de anuncio y los atributos.
+La vista [[!DNL Insights] _[!UICONTROL Anuncios ]_](ads.md) se centra en evaluar la efectividad de un anuncio. La vista [!UICONTROL Anuncios] le permite analizar las métricas de un anuncio en función de su ubicación dentro de un intervalo de fechas especificado. Al hacer clic en un_[!UICONTROL  nombre del anuncio ]_, puedes ver las métricas de rendimiento del anuncio, el rendimiento por ubicación de anuncio y los atributos.
 
 ### Medios
 
-La vista [[!DNL Insights] _[!UICONTROL Media &#x200B;]_](media.md) está diseñada para ayudarle a analizar el rendimiento del contenido creativo. Puede identificar atributos de medios que contribuyan a mejorar una métrica seleccionada, como clics o impresiones.
+La vista [[!DNL Insights] _[!UICONTROL Media ]_](media.md) está diseñada para ayudarle a analizar el rendimiento del contenido creativo. Puede identificar atributos de medios que contribuyan a mejorar una métrica seleccionada, como clics o impresiones.
 
 Al hacer clic en el contenido multimedia, se proporciona más contexto sobre su rendimiento en diferentes anuncios y ubicaciones de anuncios:
 
@@ -61,4 +71,4 @@ En la vista de detalles de medios, la parte izquierda muestra una miniatura del 
 
 Los _atributos_ del contenido ayudan a identificar el contenido creativo mediante detalles inherentes, como el color, el tono, la composición (como el asunto, las fuentes, los elementos visuales) y otros componentes clave. Los atributos suelen ser el conjunto de información de contenido menos medido y analizado.
 
-La vista [[!DNL Insights] _[!UICONTROL Atributos &#x200B;]_](attributes.md) puede ayudarle a investigar e identificar qué atributos funcionan mejor con determinadas audiencias, canales y regiones, así como a resaltar las tendencias estacionales. Con estas perspectivas, puede utilizar atributos de rendimiento para crear variantes, dirigirse a una audiencia específica o experimentar con diferentes estrategias de campaña.
+La vista [[!DNL Insights] _[!UICONTROL Atributos ]_](attributes.md) puede ayudarle a investigar e identificar qué atributos funcionan mejor con determinadas audiencias, canales y regiones, así como a resaltar las tendencias estacionales. Con estas perspectivas, puede utilizar atributos de rendimiento para crear variantes, dirigirse a una audiencia específica o experimentar con diferentes estrategias de campaña.

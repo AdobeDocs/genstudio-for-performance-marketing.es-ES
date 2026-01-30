@@ -4,9 +4,9 @@ description: Vea una descripción general de la participación del cliente, el p
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+source-git-commit: 8bdfe52173b93e55f627f37cb1d6c5b16827d899
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -48,17 +48,21 @@ Los formatos de anuncio hacen referencia a los distintos elementos creativos y d
 
 [!DNL Insights] en GenStudio for Performance Marketing admite actualmente los siguientes formatos de publicidad disponibles.
 
-| Compatible | No compatible |
-|----------------------------------|-----------------------------------|
-| Anuncios dinámicos<br>Anuncios De Vínculo<br>Anuncios De Imagen Simples<br>Anuncios De Vídeo Simples | Anuncios De Tienda<br>Anuncios De Compras Advantage+<br>Anuncios De Catálogo Advantage+<br>Anuncios De Carrusel<br>Anuncios De Mensajería<br>Anuncios De Posibles Clientes<br>Anuncios De Colección<br>Anuncios De Llamadas<br>Anuncios De Publicación De Páginas Propias<br>Anuncios De Colaboración<br>Anuncios Flexibles |
+| Canal | Compatible | No compatible |
+|---|---|---|
+| Meta | <ul><li>Anuncios dinámicos</li><li>Anuncios de vínculos</li><li>Anuncios de imagen simples</li><li>Anuncios de vídeo simples</li><li>Anuncios de tienda</li></ul> | <ul><li>Ventaja + Anuncios de catálogo</li><li>Anuncios de carrusel</li><li>Anuncios de Messenger</li><li>Anuncios de posibles clientes</li><li>Anuncios de colección</li><li>Anuncios de llamadas</li><li>Anuncios de publicación de páginas en propiedad</li><li>Anuncios de asociación</li><li>Anuncios flexibles</li></ul> |
+| LinkedIn | <ul><li>Anuncios de imagen única</li><li>Anuncios de vídeo único</li><li>Anuncios de artículos</li></ul> | <ul><li>Anuncios de carrusel</li><li>Anuncios de documentos</li><li>Anuncios de eventos</li><li>Thought Leader Ads</li><li>Anuncios de generación de clientes potenciales</li><li>Anuncios de seguidores</li><li>Anuncios de conversación</li><li>Anuncios destacados</li><li>Anuncios de trabajo</li><li>Anuncios de contenido</li><li>Anuncios de mensajes</li></ul> |
+| TikTok | <ul><li>Anuncios de imagen única</li><li>Anuncios de vídeo único</li></ul> | <ul><li>Anuncios en el canal (vídeo, Spark, carrusel)</li><li>Anuncios Premium (TopView, Brand Takeover)</li><li>Anuncios interactivos (retos de etiquetas, efectos de marca)</li><li>Commerce Ads (Shopping, Catalog, LIVE)</li><li>Posible cliente y anuncios de mensajería</li><li>Es difícil clasificarlos, ya que no tenemos los recursos para determinar el tipo de anuncio</li></ul> |
+| DV360 | <ul><li>DISPLAY_AND_VIDEO_ADS</li><li>YOUTUBE_AND_PARTNERS_AD</li></ul> | Difícil de categorizar. No tenemos los recursos para determinar el tipo de anuncio. |
+| Innovid | N/D | Es difícil clasificarlos, ya que no tenemos los recursos para determinar el tipo de anuncio. |
 
 ### Ubicaciones de anuncios
 
 Las ubicaciones de los anuncios hacen referencia a las ubicaciones o plataformas específicas en las que los anuncios aparecen dentro de una campaña. Estas ubicaciones determinan cómo y dónde interactúa la audiencia con el contenido. Las ubicaciones de anuncios amplían el alcance de la audiencia, lo que ayuda a maximizar la visibilidad, la participación y la eficacia general de la campaña.
 
-Al crear una campaña con anuncios de Meta, es posible que hayas seleccionado dónde publicar tus anuncios en función del [objetivo](channels.md#objectives) de la campaña.
+Al crear una campaña, es posible que hayas seleccionado dónde publicar tus anuncios en función del [objetivo](campaigns.md#objectives) de la campaña.
 
-A continuación se muestra una lista de ubicaciones de anuncios compatibles:
+A continuación se muestra una lista de las ubicaciones de anuncios compatibles con Meta:
 
 | Audience Network | Facebook/Meta \* | Instagram | Messenger |
 |--------------------|--------------------|-------------------------|---------------------|
@@ -80,10 +84,10 @@ La siguiente tabla proporciona definiciones y perspectivas para métricas clave 
 | **[!UICONTROL Medios]** | El número de recursos utilizados en las ubicaciones de anuncios y anuncios | El recuento de la tabla Anuncios puede ser diferente al recuento de la vista Detalles de anuncio. Esta discrepancia puede producirse si el origen del canal, como Meta y GenStudio, utiliza cálculos de resumen ligeramente diferentes. |
 | **[!UICONTROL Impresiones]** | Un recuento de cada vez que la ubicación del anuncio o el anuncio se carga en el canal, independientemente de la interacción o visualización. | Un recuento alto de impresiones puede indicar una visibilidad amplia, pero si se trata de un insight de verdadero rendimiento, considéralo en relación con otras métricas de participación. |
 | **[!UICONTROL Clics]** | El número de veces que los usuarios interactúan con un elemento en el que se puede hacer clic, como un vínculo o un botón de call-to-action, en una ubicación de anuncio. | Un alto número de clics indica un fuerte interés y participación en el contenido, que puede ser eficaz y llegar a la audiencia adecuada. |
-| **[!UICONTROL tasa de pulsaciones &#x200B;]**<br>_CTR_ | Porcentaje (%) de impresiones que generaron clics en el anuncio dentro de una campaña.<br>**Cálculo**: `clicks` dividido por `impressions` | Una alta tasa de clics indica que el contenido es muy relevante y motivador para la audiencia en cuanto a mensajería y diseño, y que se dirige de manera efectiva a los intereses de la audiencia. |
-| **[!UICONTROL CPM &#x200B;]**<br>_Costo por mil_ | El coste medio por cada mil impresiones de publicidad.<br>**Cálculo**: importe total `spent` dividido por alcance y luego multiplicado por 1000 | Un valor bajo puede indicar una visibilidad rentable, especialmente cuando se asocia con una tasa de pulsaciones alta. |
-| **[!UICONTROL CPA &#x200B;]**<br>_Costo por acción_ | Coste promedio empleado para realizar una acción específica del cliente, como una compra o suscripción.<br>**Cálculo**: importe total `spent` dividido por el número de acciones del cliente completadas | Se utiliza para monitorizar el gasto en anuncios que resultan en valiosas acciones de los clientes. |
-| **[!UICONTROL CPC &#x200B;]**<br>_Costo por clic_ | El coste medio asociado con cada clic en una ubicación de anuncio.<br>**Cálculo**: importe total `spent` dividido entre `clicks` | Unos costes medios menores pueden indicar un gasto publicitario rentable, especialmente en comparación con un aumento de las conversiones. |
+| **[!UICONTROL tasa de pulsaciones ]**<br>_CTR_ | Porcentaje (%) de impresiones que generaron clics en el anuncio dentro de una campaña.<br>**Cálculo**: `clicks` dividido por `impressions` | Una alta tasa de clics indica que el contenido es muy relevante y motivador para la audiencia en cuanto a mensajería y diseño, y que se dirige de manera efectiva a los intereses de la audiencia. |
+| **[!UICONTROL CPM ]**<br>_Costo por mil_ | El coste medio por cada mil impresiones de publicidad.<br>**Cálculo**: importe total `spent` dividido por alcance y luego multiplicado por 1000 | Un valor bajo puede indicar una visibilidad rentable, especialmente cuando se asocia con una tasa de pulsaciones alta. |
+| **[!UICONTROL CPA ]**<br>_Costo por acción_ | Coste promedio empleado para realizar una acción específica del cliente, como una compra o suscripción.<br>**Cálculo**: importe total `spent` dividido por el número de acciones del cliente completadas | Se utiliza para monitorizar el gasto en anuncios que resultan en valiosas acciones de los clientes. |
+| **[!UICONTROL CPC ]**<br>_Costo por clic_ | El coste medio asociado con cada clic en una ubicación de anuncio.<br>**Cálculo**: importe total `spent` dividido entre `clicks` | Unos costes medios menores pueden indicar un gasto publicitario rentable, especialmente en comparación con un aumento de las conversiones. |
 | **[!UICONTROL Gasto]** | Cantidad gastada del presupuesto de Campaign durante un período de tiempo determinado para publicar este anuncio. | Un gasto elevado en un período corto puede indicar un uso rápido, lo que podría dar lugar a un agotamiento prematuro de los recursos. Realice un seguimiento de la cantidad gastada con respecto a las métricas de rendimiento clave para ayudar a monitorizar la rentabilidad general de la inversión. |
 | **Atributos** | Lista de características inherentes presentes en este anuncio. | Los atributos ayudan a identificar los elementos creativos que más interesan a su audiencia. Ver [Categorías](/help/user-guide/insights/attributes.md#categories). |
 
@@ -95,8 +99,8 @@ La siguiente tabla proporciona definiciones para métricas de rendimiento de ubi
 
 | Métrica | Definición | Insight |
 | ---------------------------- | ----------------------------- | --------------------------------- |
-| **[!UICONTROL tasa de pulsaciones &#x200B;]**<br>_CTR_ | El porcentaje (%) de impresiones de una sola ubicación de publicidad que resultó en clics.<p>**Cálculo**:`clicks` dividido entre `impressions`<p>Esta métrica ayuda a determinar la eficacia de la colocación de anuncios para atraer a la audiencia. | Un CTR alto indica que la ubicación del anuncio es relevante y convincente para la audiencia, lo que conduce a más interacciones. |
-| **[!UICONTROL CPA &#x200B;]**<br>_Costo por acción_ | Coste promedio empleado en una sola ubicación de publicidad para lograr una acción del cliente deseada, como una compra o suscripción.<p>**Cálculo**: importe total `spent` dividido por el número de acciones del cliente completadas<p>Esta métrica ayuda a evaluar la rentabilidad de la colocación de anuncios a la hora de impulsar acciones valiosas. | Un CPA menor sugiere que la ubicación del anuncio es eficaz para convertir las interacciones de audiencia en acciones deseadas a un coste más bajo. |
-| **[!UICONTROL CPC &#x200B;]**<br>_Costo por clic_ | El coste medio asociado a cada clic en una sola ubicación de publicidad.<p>**Cálculo**: importe total `spent` dividido entre `clicks`<p>Esta métrica ayuda a evaluar la rentabilidad de la ubicación del anuncio en la generación de clics. | Un CPC más bajo indica que la colocación de anuncios está generando clics a un coste más bajo, lo que puede ser beneficioso para maximizar el retorno de la inversión. |
+| **[!UICONTROL tasa de pulsaciones ]**<br>_CTR_ | El porcentaje (%) de impresiones de una sola ubicación de publicidad que resultó en clics.<p>**Cálculo**:`clicks` dividido entre `impressions`<p>Esta métrica ayuda a determinar la eficacia de la colocación de anuncios para atraer a la audiencia. | Un CTR alto indica que la ubicación del anuncio es relevante y convincente para la audiencia, lo que conduce a más interacciones. |
+| **[!UICONTROL CPA ]**<br>_Costo por acción_ | Coste promedio empleado en una sola ubicación de publicidad para lograr una acción del cliente deseada, como una compra o suscripción.<p>**Cálculo**: importe total `spent` dividido por el número de acciones del cliente completadas<p>Esta métrica ayuda a evaluar la rentabilidad de la colocación de anuncios a la hora de impulsar acciones valiosas. | Un CPA menor sugiere que la ubicación del anuncio es eficaz para convertir las interacciones de audiencia en acciones deseadas a un coste más bajo. |
+| **[!UICONTROL CPC ]**<br>_Costo por clic_ | El coste medio asociado a cada clic en una sola ubicación de publicidad.<p>**Cálculo**: importe total `spent` dividido entre `clicks`<p>Esta métrica ayuda a evaluar la rentabilidad de la ubicación del anuncio en la generación de clics. | Un CPC más bajo indica que la colocación de anuncios está generando clics a un coste más bajo, lo que puede ser beneficioso para maximizar el retorno de la inversión. |
 | **[!UICONTROL Gasto]** | La cantidad gastada en una sola ubicación de publicidad, que representa una fracción de la cantidad total gastada en todo el anuncio. Esta métrica ayuda a realizar un seguimiento de la asignación del presupuesto y la eficiencia de gasto de cada ubicación de publicidad. | La supervisión del gasto puede ayudar a garantizar que los recursos se utilicen de forma eficaz en diferentes ubicaciones. |
 | **Atributos** | Lista de funciones inherentes presentes en esta ubicación de anuncio. | Los atributos ayudan a identificar los elementos creativos que más interesan a su audiencia. Ver [Categorías](/help/user-guide/insights/attributes.md#categories). |
