@@ -3,9 +3,9 @@ title: Integraciones de Adobe GenStudio for Performance Marketing
 description: Obtenga información acerca de las integraciones disponibles para Adobe GenStudio for Performance Marketing.
 feature: Generative AI
 role: User
-source-git-commit: 5f5627712c26bdb14aa8a729c57697f5df322572
+source-git-commit: fd6e2f182568839cef59e4f6c87569b3e576851f
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 GenStudio for Performance Marketing ofrece integraciones con otros productos de diseño potentes para proporcionar una experiencia perfecta a los especialistas en marketing que dependen de esos productos. Aquí encontrará información sobre las integraciones disponibles y cómo utilizarlas.
 
 Explore los complementos que ofrece GenStudio for Performance Marketing, con otros productos de Adobe y más allá, para optimizar los flujos de trabajo de diseño.
+
+Nota: Aunque estos complementos permiten a los creativos realizar anuncios y exportarlos como experiencias aprobadas a GenStudio, las plantillas de Adobe Express dentro de GenStudio for Performance Marketing son el método recomendado para los creativos para crear plantillas de anuncios.
 
 ## Complemento Figma
 
