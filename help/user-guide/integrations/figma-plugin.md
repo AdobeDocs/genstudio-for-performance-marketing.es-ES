@@ -3,9 +3,10 @@ title: Complemento Figma para Adobe GenStudio for Performance Marketing
 description: Aprenda a configurar y utilizar el complemento Figma para GenStudio for Performance Marketing.
 feature: Generative AI
 role: User
-source-git-commit: bb6b8de80bdf6089e70756bea5dbf3e6a7945052
+exl-id: 232fbbc6-c523-4525-8d26-a8ac8d62c035
+source-git-commit: c6080555812fa82a7b71eee7e2deb963a881d9f4
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '2124'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ Las funciones de este complemento incluyen:
 * Exportar [!DNL Experiences] generado a GenStudio for Performance Marketing.
 * Utilice opciones de plugin que se adapten a los elementos seleccionados en el lienzo Figma.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478812?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
 
 ## Creación de una plantilla
 
@@ -146,6 +147,117 @@ Las opciones que se incluyen son:
 | **[!UICONTROL Alargar]** | Generar una variación más larga del texto. |
 
 Después de seleccionar una opción **[!UICONTROL Action]**, vuelva a generar el contenido con el botón **[!UICONTROL Regenerar]**.
+
+## Generar una imagen
+
+Generar imágenes para utilizarlas en las plantillas mediante un mensaje de texto.
+
+1. Seleccione **[!UICONTROL Generar imagen]**.
+1. Seleccione un modelo en el menú desplegable. También puede elegir cualquier modelo personalizado que haya creado.
+1. Seleccione el icono de configuración para ajustar la configuración de generación.
+1. Opcional: seleccione una relación de aspecto.
+1. Opcional: ajuste el estilo de la imagen mediante uno de los procedimientos siguientes:
+   * Cargue una imagen de referencia desde su dispositivo o AEM seleccionando **[!UICONTROL Cargar imagen]**.
+   * Elija una de las imágenes de archivo de Adobe seleccionando **[!UICONTROL Examinar galería]**.
+   * Elija un valor de intensidad con el regulador. La fuerza ajusta la rigurosidad con la que Firefly se adhiere al estilo proporcionado.
+1. Seleccione el botón **&lt;**.
+1. Introduzca una solicitud.
+1. Seleccione el icono Generar. Las imágenes aparecen en el panel del complemento.
+1. Incluya imágenes en el lienzo mediante uno de estos métodos:
+   * Arrastre y suelte cualquier imagen en el lienzo.
+   * Seleccione un marco en el lienzo Figma y seleccione una imagen en la ventana del complemento para insertarla en el marco.
+   * Seleccione el icono de carga para cargar una imagen en el lienzo.
+   * Seleccione los 3 puntos y **[!UICONTROL Descargar todo a Figma]**.
+1. Opcional: seleccione los 3 puntos para realizar más acciones:
+   * Seleccione **[!UICONTROL Generar más]** para ejecutar de nuevo la solicitud.
+   * Seleccione **[!UICONTROL Copiar solicitud]** para copiar la solicitud.
+1. Opcional: seleccione el icono de lápiz para utilizar el relleno Generativo y Generar acciones similares en una sola imagen.
+
+## Generación de imágenes similares
+
+Genere un conjunto de imágenes similares.
+
+1. Seleccione la tarjeta **[!UICONTROL Generar]** similar.
+1. Seleccione una imagen como referencia mediante una de las siguientes acciones:
+   * Seleccione una imagen en el lienzo Figma.
+   * Seleccione **[!UICONTROL Cargar imagen]** para cargarla desde el dispositivo.
+   * Seleccione **[!UICONTROL Examinar recursos de AEM]** para cargarlos desde AEM.
+1. Seleccione el icono Generar. Las variaciones aparecen en el panel del complemento.
+1. Incluya imágenes en el lienzo mediante uno de estos métodos:
+   * Arrastre y suelte cualquier imagen en el lienzo.
+   * Seleccione un marco en el lienzo Figma y seleccione una imagen en la ventana del complemento para insertarla en el marco.
+   * Seleccione el icono de carga para cargar una imagen en el lienzo.
+   * Seleccione los 3 puntos y **[!UICONTROL Descargar todo a Figma]**.
+1. Opcional: seleccione los 3 puntos para realizar más acciones:
+   * Seleccione **[!UICONTROL Generar más]** para ejecutar de nuevo la solicitud.
+1. Opcional: seleccione el icono de lápiz para utilizar el relleno Generativo y Generar acciones similares en una sola imagen.
+
+## Quitar el fondo
+
+Quitar el fondo de una imagen.
+
+1. Seleccione la tarjeta **[!UICONTROL Quitar fondo]**.
+1. Seleccione una imagen como referencia mediante una de las siguientes acciones:
+   * Seleccione una imagen en el lienzo Figma.
+   * Seleccione **[!UICONTROL Cargar imagen]** para cargarla desde el dispositivo.
+   * Seleccione **[!UICONTROL Examinar recursos de AEM]** para cargarlos desde AEM.
+1. Seleccione **[!UICONTROL Quitar]**. Si la imagen se seleccionó desde el lienzo, la imagen se reemplaza en el lienzo Figma. Si la imagen se seleccionó desde un dispositivo o AEM, puede arrastrar y soltar la imagen en el lienzo o seleccionar **[!UICONTROL Insertar imagen]** para colocar la imagen en el lienzo.
+
+## Relleno generativo
+
+Aplique rellenos generativos a un área de la imagen.
+
+1. Seleccione la tarjeta **[!UICONTROL Relleno generativo]**.
+1. Seleccione una imagen como referencia mediante una de las siguientes acciones:
+   * Seleccione una imagen en el lienzo Figma.
+   * Seleccione **[!UICONTROL Cargar imagen]** para cargarla desde el dispositivo.
+   * Seleccione **[!UICONTROL Examinar recursos de AEM]** para cargarlos desde AEM.
+1. Seleccione la herramienta Pincel y cree una máscara.
+1. Opcional: seleccione el acento circunflejo desplegable y ajuste el tamaño del pincel.
+1. Seleccione el botón Restablecer para quitar la máscara.
+1. De forma opcional, seleccione el icono Eliminar fondo para eliminar el fondo.
+1. Escriba una solicitud para guiar la generación de la máscara seleccionada y seleccione el botón **[!UICONTROL Generar]**.
+1. Incluya imágenes en el lienzo mediante uno de estos métodos:
+   * Arrastre y suelte cualquier imagen en el lienzo.
+   * Seleccione un marco en el lienzo Figma y seleccione una imagen en la ventana del complemento para insertarla en el marco.
+   * Seleccione el icono de carga para cargar una imagen en el lienzo.
+   * Seleccione los 3 puntos y **[!UICONTROL Descargar todo a Figma]**.
+1. Opcional: seleccione los 3 puntos para realizar más acciones:
+   * Seleccione **[!UICONTROL Copiar solicitud]** para copiar la solicitud.
+1. Opcional: seleccione el icono de lápiz para utilizar el relleno Generativo y Generar acciones similares en una sola imagen.
+
+## Preguntar para editar
+
+Edite el contenido de una imagen con un mensaje de texto.
+
+1. Seleccione la tarjeta **[!UICONTROL Preguntar si desea editar]**.
+1. Seleccione una imagen como referencia mediante una de las siguientes acciones:
+   * Seleccione una imagen en el lienzo Figma.
+   * Seleccione **[!UICONTROL Cargar imagen]** para cargarla desde el dispositivo.
+   * Seleccione **[!UICONTROL Examinar recursos de AEM]** para cargarlos desde AEM.
+1. Seleccione el icono de configuración para ajustar la configuración de generación.
+1. Opcional: seleccione una proporción de aspecto y seleccione el botón **&lt;**.
+1. Escriba una solicitud para guiar la generación y seleccione el botón **[!UICONTROL Generar]**.
+1. Incluya imágenes en el lienzo mediante uno de estos métodos:
+   * Arrastre y suelte cualquier imagen en el lienzo.
+   * Seleccione un marco en el lienzo Figma y seleccione una imagen en la ventana del complemento para insertarla en el marco.
+   * Seleccione el icono de carga para cargar una imagen en el lienzo.
+   * Seleccione los 3 puntos y **[!UICONTROL Descargar todo a Figma]**.
+1. Opcional: seleccione los 3 puntos para realizar más acciones:
+   * Seleccione **[!UICONTROL Generar más]** para ejecutar de nuevo la solicitud.
+   * Seleccione **[!UICONTROL Copiar solicitud]** para copiar la solicitud.
+1. Opcional: seleccione el icono de lápiz para utilizar el relleno Generativo y Generar acciones similares en una sola imagen.
+
+## Expansión generativa
+
+Expanda las dimensiones de las imágenes y agregue contenido generativo con Expansión generativa. La expansión generativa permite transformar imágenes mal ajustadas en la relación de aspecto más adecuada para las plantillas de titulares, anuncios de Meta, anuncios de LinkedIn o anuncios de visualización.
+
+1. Seleccione la tarjeta **[!UICONTROL Generative Expand]**.
+1. Seleccione una imagen en el lienzo.
+1. Cambie el tamaño del fotograma temporal Gen Expand a las nuevas dimensiones que desee.
+1. Opcional: Mueva la imagen a cualquier lugar dentro del marco.
+1. Escriba una solicitud para guiar la generación y seleccione el botón **[!UICONTROL Generar]**.
+1. Seleccione cualquier imagen del lienzo para reemplazar la imagen original con el resultado generado.
 
 ## Exportar experiencias
 
