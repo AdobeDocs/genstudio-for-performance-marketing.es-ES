@@ -29,7 +29,7 @@ Las funciones de este complemento incluyen:
 * Exportar [!DNL Experiences] generado a GenStudio for Performance Marketing.
 * Utilice opciones de plugin que se adapten a los elementos seleccionados en el lienzo Figma.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478812?captions=spa&learn=on)
 
 ## Creación de una plantilla
 
