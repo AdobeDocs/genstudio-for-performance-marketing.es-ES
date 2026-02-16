@@ -4,9 +4,9 @@ description: Aprenda a configurar y utilizar el complemento Figma para GenStudio
 feature: Generative AI
 role: User
 exl-id: 232fbbc6-c523-4525-8d26-a8ac8d62c035
-source-git-commit: e585c6ff70198fe572b21252ab00b9b1ad368d02
+source-git-commit: 4ab7e82336bfa6907331b0684253e48066e7d021
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,7 @@ ht-degree: 0%
 # Complemento Figma para GenStudio for Performance Marketing
 
 El complemento GenStudio for Performance Marketing Figma añade un nuevo panel a la aplicación Figma que le permite generar contenido propio de la marca.
+[Busque e instale el complemento desde el mercado de la comunidad Figma](https://www.figma.com/community/plugin/1604251370122180013/firefly-enterprise-and-genstudio).
 
 Esta página describe cómo configurar y utilizar el complemento.
 
@@ -28,7 +29,7 @@ Las funciones de este complemento incluyen:
 * Exportar [!DNL Experiences] generado a GenStudio for Performance Marketing.
 * Utilice opciones de plugin que se adapten a los elementos seleccionados en el lienzo Figma.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478812?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
 
 ## Creación de una plantilla
 
