@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 71b46454fa6fe2037ea6b103c0dfeedad74b8919
+source-git-commit: d702f2ece03b29d260ff053d5b1f7fa958621880
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -39,12 +39,12 @@ Ver [elementos de plantilla](use-templates.md#template-elements).
 
 El texto de marcador de posición puede ayudar a definir la sintaxis o la estructura del contenido que un usuario debe rellenar posteriormente en una plantilla. Por ejemplo, {first_name}.{last_name}@email.etc. para definir una dirección de correo electrónico. Sin embargo, algunos delimitadores comunes ya están reservados para otros significados en GenStudio for Performance Marketing:
 
-❌ &lt; >: en uso para etiquetas de HTML.
-❌ {{ }}{{ }} - En uso para expresiones Handlebar.
+❌ `< >` - En uso para HTML tags.
+❌ `{{ }}`: en uso para expresiones Handlebar.
 
 Utilice corchetes sencillos (rectos o curvos) para indicar el texto del marcador de posición y evitar confusiones con las etiquetas existentes.
 
-✅ {first_name} - Marcador de posición para el nombre.
+✅ `{first_name}` - Marcador de posición para el nombre.
 
 ## Configuración de directrices de canal
 
