@@ -3,9 +3,15 @@ title: Activar un anuncio de Meta
 description: Obtenga información sobre cómo activar una experiencia de anuncio de Meta.
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
+TQID: https://experienceleague.adobe.com/hDR0ngNiGnCXCCOgNhVG8gX4kHGrNvfybPbuMLwYk7U
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: d87258a7-722c-4afd-b632-adddc447c7aaid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1907'
+source-wordcount: 1931
 ht-degree: 1%
 
 ---
@@ -116,7 +122,7 @@ Puede cargar hasta seis imágenes estáticas externas a la galería [!DNL Conten
 
 1. En la sección _Medios_, haga clic en **[!UICONTROL Seleccionar]**. Un menú desplegable muestra opciones para _Seleccionar entre el contenido_ o _Cargar_.
 
-1. Haga clic en **[!UICONTROL Cargar]** Se abre la ventana _Agregar proporciones de aspecto_.
+1. Haga clic en **[!UICONTROL Cargar]**. Se abre la ventana _Agregar proporciones de aspecto_.
 
 1. Para seleccionar imágenes en las relaciones de aspecto admitidas, arrastre y suelte los archivos de imagen en el área de carga de imágenes. También puede examinar el dispositivo en busca de recursos.
 
@@ -198,7 +204,7 @@ Puede crear un nuevo conjunto de anuncios durante la configuración de la plataf
 
 >[!NOTE]
 >
->Si el conjunto de anuncios se crea correctamente pero no se pudo guardar el nombre del conjunto de anuncios, el conjunto de anuncios se guarda en el Administrador de Meta Ads con su nombre predeterminado (_nombre original del conjunto de anuncios - Copiar_).
+Si el conjunto de anuncios se crea correctamente pero no se pudo guardar el nombre del conjunto de anuncios, el conjunto de anuncios se guarda en el Administrador de Meta Ads con su nombre predeterminado (_nombre original del conjunto de anuncios - Copiar_).
 
 ### ID de seguimiento
 

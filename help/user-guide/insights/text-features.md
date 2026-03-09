@@ -3,9 +3,15 @@ title: Funciones de texto
 description: Obtenga información acerca de la función de texto de las categorías de atributos utilizadas en GenStudio for Performance Marketing.
 feature: Reporting and Insights, Text Attributes, Generative AI
 exl-id: 7b81b0ae-0c62-468f-965c-fd8070644fb3
-source-git-commit: 3ccc6313a7c559f1c0846c144d23b783da0aecfa
+TQID: https://experienceleague.adobe.com/Oec5q249StCtuG-2-n1dYmJoEDRPaqLF2QANpwClQ3A
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: 1298
 ht-degree: 1%
 
 ---
@@ -20,7 +26,7 @@ GenStudio for Performance Marketing usa la IA de Adobe y las capacidades de apre
 
 El tono representa un carácter general, una actitud o una atmósfera exhibida a través del lenguaje. Una simple elección de palabras y signos de puntuación, la estructura de la oración y el estilo pueden alterar el tono del mensaje. Por ejemplo, considere los siguientes mensajes urgentes utilizando los tres niveles básicos de tono:
 
-| Tono | Descripción | Ejemplo |
+| Tono | Descripción | Ejemplos |
 | -------------- | ----------------------------------- | --------------------------------------------------------- |
 | Formal | Lenguaje pulido y profesional. | `Take advantage of this distinctive and exceptional opportunity!` |
 | Conversatorio | Lenguaje amable e informal. | `Don't miss out on this great opportunity!` |
@@ -30,7 +36,7 @@ Otros valores secundarios de tono proporcionan una distinción más precisa del 
 
 En la tabla siguiente se enumeran los valores tonales reconocidos por la API de GenStudio for Performance Marketing.
 
-| Tono | Descripción | Ejemplo |
+| Tono | Descripción | Ejemplos |
 | -------------- | ------------------------------------------------ | --------------------------------------------------------- |
 | Asertivo | Confiado y contundente en su expresión. | `You need to act now to secure this deal!` |
 | Directo | Directo y al grano. | `Don't miss the chance!` |
@@ -59,7 +65,7 @@ La IA de GenStudio for Performance Marketing detecta y distingue estas caracter�
 
 Los atributos de la narrativa, o factor de atractivo, ayudan a identificar medios que comunican los valores, el propósito o la identidad que resuenan con la audiencia objetivo. En la tabla siguiente se enumeran los estilos narrativos reconocidos por la API de GenStudio for Performance Marketing.
 
-| Factor de apelación | Descripción | Ejemplo |
+| Factor de apelación | Descripción | Ejemplos |
 | ----------------- | --------------------------------------------------------------------- | ------------------------------------------ |
 | Autenticidad | Genuino y real, destacando a menudo la transparencia y la honestidad. | `A behind-the-scenes look at how our products are made.` |
 | Celebración | Marcando ocasiones especiales o logros con alegría y festividad. | `Join us in celebrating our 10th anniversary with special offers!` |
@@ -81,7 +87,7 @@ Los atributos de la narrativa, o factor de atractivo, ayudan a identificar medio
 
 Las técnicas de persuasión se utilizan para influir en el comportamiento del consumidor y dirigir las acciones deseadas. Estas estrategias se dirigen a déclencheur psicológicos específicos y a segmentos de clientes para aumentar la efectividad de los mensajes de marketing. En la tabla siguiente se enumeran las tácticas de persuasión reconocidas por la IA de GenStudio for Performance Marketing.
 
-| Táctico | Descripción | Ejemplo |
+| Táctico | Descripción | Ejemplos |
 | --------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------- |
 | Antropomorfismo | Atribución de características humanas a productos o marcas. | `Our friendly chatbot is here to help you.` |
 | Comparación | Resaltar las diferencias entre las opciones para influir en la elección. | `See how we compare to the competition.` |
@@ -99,7 +105,7 @@ Las técnicas de persuasión se utilizan para influir en el comportamiento del c
 
 Las emociones están dirigidas en los mensajes de marketing para evocar sentimientos específicos y respuestas de la audiencia, lo que puede mejorar la participación y la conexión con la marca. La siguiente tabla enumera las emociones reconocidas por la IA de GenStudio for Performance Marketing.
 
-| Emoción | Descripción | Ejemplo |
+| Emoción | Descripción | Ejemplos |
 | ------------- | --------------------------------------------------------------------------- | --------------------------------------------------------- |
 | Aspiración | Inspirando un deseo de lograr o lograr algo más grande. | `Imagine the possibilities with our premium service.` |
 | Desafío | Animar a la audiencia a superar un obstáculo o a aceptar una nueva tarea. | `Are you ready to take the next step in your career?` |
@@ -115,7 +121,7 @@ Las emociones están dirigidas en los mensajes de marketing para evocar sentimie
 
 La puntuación de legibilidad evalúa lo fácil que es leer y comprender un fragmento de texto. Ayuda a garantizar que el contenido sea adecuado para la audiencia de destino. Las puntuaciones se basan en varios factores, incluida la longitud de la frase y la complejidad de la palabra. En la tabla siguiente se enumeran los niveles de legibilidad reconocidos por la API de GenStudio for Performance Marketing.
 
-| Nivel de legibilidad | Descripción | Ejemplo |
+| Nivel de legibilidad | Descripción | Ejemplos |
 | ------------------- | ------------------------------------------------------------------ | --------------------------------------------------------- |
 | 5.º grado | Lenguaje muy simple, adecuado para niños pequeños. | `The cat sat on the mat.` |
 | 6.º grado | Lenguaje sencillo y claro, adecuado para una audiencia general. | `You can find great deals on our website.` |
@@ -129,7 +135,7 @@ La puntuación de legibilidad evalúa lo fácil que es leer y comprender un frag
 
 Comprender y aprovechar atributos de recuento como recuentos de etiquetas, recuentos de palabras, recuentos de oraciones y proporciones de palabras de detención puede mejorar significativamente su estrategia de contenido. Estas métricas ofrecen perspectivas valiosas sobre la eficacia y el alcance de sus esfuerzos de marketing. En la tabla siguiente se enumeran las categorías de recuento reconocidas por la API de GenStudio for Performance Marketing.
 
-| Categoría | Descripción | Ejemplo |
+| Categoría | Descripción | Ejemplos |
 | --------------------- | --------------------------------------------------------------------------- | --------------------- |
 | Recuento de Emojis | El número de emoji presentes en el texto. Los emojis pueden mejorar la participación y transmitir emociones rápidamente. | `😊`, `🚀`, `❤️` |
 | Recuento de HashTags | El número de hashtags usados en el texto. Los hashtags ayudan a categorizar el contenido y aumentar la capacidad de detección en los medios sociales. | `#Marketing`, `#Sale` |

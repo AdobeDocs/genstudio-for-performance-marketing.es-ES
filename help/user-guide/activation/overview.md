@@ -4,9 +4,16 @@ description: Obtenga información sobre cómo activar contenido con Adobe Experi
 level: Beginner
 feature: Ad Activation
 exl-id: 365fe253-d189-467e-a723-f54cd74ff60b
-source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
+TQID: https://experienceleague.adobe.com/-Nal0YqjTzKw4g2SM3IuMf0a13e87CWdTqBZPd0dBkU
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2: id: d87258a7-722c-4afd-b632-adddc447c7aaid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: 474
 ht-degree: 0%
 
 ---
@@ -27,7 +34,7 @@ Antes de activar una experiencia publicitaria, todas las cuentas de canal de med
 
 * [Crear una activación](create-activation.md). Puede crear una experiencia publicitaria seleccionando recursos visuales, asignando texto y definiendo metadatos antes de transferirlos a un canal de pago.
 
-* [Administrar activaciones](manage-activations.md). _[!DNL Activate]_&#x200B;proporciona una descripción general de todas las experiencias activadas. También puede ver los detalles de las activaciones individuales.
+* [Administrar activaciones](manage-activations.md). _[!DNL Activate]_proporciona una descripción general de todas las experiencias activadas. También puede ver los detalles de las activaciones individuales.
 
 ## Activar funciones
 
@@ -47,4 +54,4 @@ Busque y seleccione recursos visuales aprobados de [!DNL Content], o bien cargue
 
 ### Previsualización y activación de la experiencia en un canal de publicidad
 
-Confirme las cuentas de canal de pago, los conjuntos de anuncios y las campañas Meta asociadas con esta activación de publicidad. El panel _Vista previa_ le permite ver experiencias de anuncios en diferentes ubicaciones antes de finalizarlo. (Cuando selecciona una ubicación en el panel _Vista previa_, solo se ve afectada la vista del anuncio. Su selección de ubicación en el panel _Vista previa_ no se ha guardado.) Cuando esté satisfecho con la experiencia publicitaria, haga clic en **[!UICONTROL Publicar]** para insertar la experiencia y sus metadatos asociados en el canal de publicidad de pago.
+Confirme las cuentas de canal de pago, los conjuntos de anuncios y las campañas de Meta asociadas con esta activación de publicidad. El panel _Vista previa_ le permite ver experiencias de anuncios en diferentes ubicaciones antes de finalizarlo. (Cuando selecciona una ubicación en el panel _Vista previa_, solo se ve afectada la vista del anuncio. Su selección de ubicación en el panel _Vista previa_ no se ha guardado.) Cuando esté satisfecho con la experiencia publicitaria, haga clic en **[!UICONTROL Publicar]** para insertar la experiencia y sus metadatos asociados en el canal de publicidad de pago.

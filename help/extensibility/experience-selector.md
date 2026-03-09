@@ -2,10 +2,16 @@
 title: GenStudio Experience Selector MFE
 description: Comprenda e implemente el Micro FrontEnd del selector de experiencias para sus aplicaciones y complementos de GenStudio.
 feature: Extensibility, Extensions, Experiences
-source-git-commit: 27e85e62f83bad391348c45da1558cd1a58204fc
+exl-id: 918d3772-406b-4e16-bddc-0d5b160978d3
+TQID: https://experienceleague.adobe.com/0KCx1agovbj3-ShbAZ6JiHnHchMI47F9g4mvE4NPpvc
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bfaa655b-e017-428d-80d0-09de2183b296
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 5%
+source-wordcount: 601
+ht-degree: 4%
 
 ---
 
@@ -44,7 +50,7 @@ La función `renderExperienceSelectorWithSUSI` acepta un objeto de configuració
 | Propiedad | Tipo | Requerido | Descripción |
 |----------|------|----------|-------------|
 | `apiKey` | cadena | Sí | Clave de API para servicios de GenStudio |
-| `imsOrg` | cadena | Sí | ID de organización IMS |
+| `imsOrg` | cadena | Sí | ID de organización de IMS |
 | `env` | cadena | Sí | Entorno (`stage`, `prod`) |
 | `susiConfig` | objeto | Sí | [Configuración de autenticación SUSI](#susi-configuration) |
 | `onSelectionConfirmed` | función | Sí | Llamada de retorno cuando se confirma la selección |

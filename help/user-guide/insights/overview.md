@@ -4,9 +4,16 @@ description: Aprenda a optimizar los anuncios en función de las métricas de re
 level: Intermediate
 feature: Reporting and Insights
 exl-id: 26402a06-f776-42be-9d8d-fc498c0f75a8
-source-git-commit: 8bdfe52173b93e55f627f37cb1d6c5b16827d899
+TQID: https://experienceleague.adobe.com/7ERGkM2wuM8JHYf-bi-SAVMSblhwpkt7NNuUNgCCcfc
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: b03d2162-d906-40a0-9cbd-001391e22d4aid: bb0d2eba-617d-4fdd-b920-2f535b5c031cid: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: 675
 ht-degree: 0%
 
 ---
@@ -51,15 +58,15 @@ Cada vista muestra una tabla correspondiente, en la que puede buscar por palabra
 
 ### Campañas
 
-La vista [[!DNL Insights] _[!UICONTROL Campañas &#x200B;]_](campaigns.md) es la vista predeterminada y muestra una lista de detalles de campañas activas, como objetivos, presupuesto, fecha de inicio y actividad. Asegúrese de [conectar una cuenta de canal](/help/user-guide/connectors/connect-channel.md) para que GenStudio for Performance Marketing empiece a recibir los datos estadísticos.
+La vista [[!DNL Insights] _[!UICONTROL Campañas ]_](campaigns.md) es la vista predeterminada y muestra una lista de detalles de campañas activas, como objetivos, presupuesto, fecha de inicio y actividad. Asegúrese de [conectar una cuenta de canal](/help/user-guide/connectors/connect-channel.md) para que GenStudio for Performance Marketing empiece a recibir los datos estadísticos.
 
 ### Anuncios
 
-La vista [[!DNL Insights] _[!UICONTROL Anuncios &#x200B;]_](ads.md) se centra en evaluar la efectividad de un anuncio. La vista [!UICONTROL Anuncios] le permite analizar las métricas de un anuncio en función de su ubicación dentro de un intervalo de fechas especificado. Al hacer clic en un&#x200B;_[!UICONTROL &#x200B; nombre del anuncio &#x200B;]_, puedes ver las métricas de rendimiento del anuncio, el rendimiento por ubicación de anuncio y los atributos.
+La vista [[!DNL Insights] _[!UICONTROL Anuncios ]_](ads.md) se centra en evaluar la efectividad de un anuncio. La vista [!UICONTROL Anuncios] le permite analizar las métricas de un anuncio en función de su ubicación dentro de un intervalo de fechas especificado. Al hacer clic en un_[!UICONTROL  nombre del anuncio ]_, puedes ver las métricas de rendimiento del anuncio, el rendimiento por ubicación de anuncio y los atributos.
 
 ### Medios
 
-La vista [[!DNL Insights] _[!UICONTROL Media &#x200B;]_](media.md) está diseñada para ayudarle a analizar el rendimiento del contenido creativo. Puede identificar atributos de medios que contribuyan a mejorar una métrica seleccionada, como clics o impresiones.
+La vista [[!DNL Insights] _[!UICONTROL Media ]_](media.md) está diseñada para ayudarle a analizar el rendimiento del contenido creativo. Puede identificar atributos de medios que contribuyan a mejorar una métrica seleccionada, como clics o impresiones.
 
 Al hacer clic en el contenido multimedia, se proporciona más contexto sobre su rendimiento en diferentes anuncios y ubicaciones de anuncios:
 
@@ -71,4 +78,4 @@ En la vista de detalles de medios, la parte izquierda muestra una miniatura del 
 
 Los _atributos_ del contenido ayudan a identificar el contenido creativo mediante detalles inherentes, como el color, el tono, la composición (como el asunto, las fuentes, los elementos visuales) y otros componentes clave. Los atributos suelen ser el conjunto de información de contenido menos medido y analizado.
 
-La vista [[!DNL Insights] _[!UICONTROL Atributos &#x200B;]_](attributes.md) puede ayudarle a investigar e identificar qué atributos funcionan mejor con determinadas audiencias, canales y regiones, así como a resaltar las tendencias estacionales. Con estas perspectivas, puede utilizar atributos de rendimiento para crear variantes, dirigirse a una audiencia específica o experimentar con diferentes estrategias de campaña.
+La vista [[!DNL Insights] _[!UICONTROL Atributos ]_](attributes.md) puede ayudarle a investigar e identificar qué atributos funcionan mejor con determinadas audiencias, canales y regiones, así como a resaltar las tendencias estacionales. Con estas perspectivas, puede utilizar atributos de rendimiento para crear variantes, dirigirse a una audiencia específica o experimentar con diferentes estrategias de campaña.

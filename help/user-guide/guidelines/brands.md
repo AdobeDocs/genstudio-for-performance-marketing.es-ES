@@ -3,10 +3,16 @@ title: GenStudio for Performance Marketing [!DNL Brands]
 description: GenStudio for Performance Marketing [!DNL Brands]  es una colección completa de recursos de marca (copias de marketing, imágenes, experiencias y mucho más) para informar la creación de contenido alineado con la marca.
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: a67efc3bc517ffe2d130efd4e577ef652e07d462
+TQID: https://experienceleague.adobe.com/mZ70azBCwP8KshE6iX7hwGvEWawBkU36aDejZbAkRAY
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: f54ee13b-9545-4d68-9842-a12026e60aafid: fee2c7a9-112e-463c-b451-44aaecaa6966
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 1%
+source-wordcount: 1525
+ht-degree: 2%
 
 ---
 
@@ -34,7 +40,7 @@ Las directrices proporcionan a GenStudio for Performance Marketing una imagen cl
 
 >[!NOTE]
 >
->Si carga directrices de marca escritas en un idioma que no sea inglés (o crea manualmente una marca en un idioma que no sea inglés), GenStudio for Performance Marketing muestra esas directrices en ese mismo idioma.
+Si carga directrices de marca escritas en un idioma que no sea inglés (o crea manualmente una marca en un idioma que no sea inglés), GenStudio for Performance Marketing muestra esas directrices en ese mismo idioma.
 
 Algunas directrices de canal, abstractas de [directrices de plataforma y estándares de accesibilidad de ADA](/help/user-guide/guidelines/overview.md#compliance), se rellenan previamente como valores predeterminados.
 
@@ -48,9 +54,9 @@ La siguiente tabla muestra cada categoría de directrices de voz de marca y ejem
 
 | Categoría de directriz | Descripción | Prácticas recomendadas |
 | ------------------| :---------- | :---------- |
-| [!UICONTROL Tono de voz] | Personalidad de la marca expresada a través de la comunicación escrita | Utilice palabras descriptivas para transmitir claramente la emoción y el tono de la marca. <br>_Ejemplos_: &quot;genuino&quot;, &quot;juguetón&quot;<br><br>Sea conciso (3-6 pautas) y céntrese en los atributos clave de voz de la marca.<br><br>Seleccione palabras/frases que sean coherentes en todos los canales de comunicación para crear una identidad de marca coherente. |
+| [!UICONTROL Tono de voz] | Personalidad de la marca expresada a través de la comunicación escrita | Utilice palabras descriptivas para transmitir claramente la emoción y el tono de la marca. <br>_Ejemplos_: &quot;genuino&quot;, &quot;juguetón&quot;<br><br>Sea conciso (de 3 a 6 directrices) y céntrese en los atributos clave de voz de la marca.<br><br>Seleccione palabras y frases que sean coherentes en todos los canales de comunicación para crear una identidad de marca coherente. |
 | [!UICONTROL Valores de marca] | Principios que impulsan la cultura de marca, la experiencia del cliente y las estrategias empresariales | Utilice palabras descriptivas para transmitir la misión, la visión y las necesidades de audiencia de la marca. <br>_Ejemplos_: &quot;autenticidad&quot;, &quot;inspirador&quot;, &quot;progresivo&quot;<br><br>Sea conciso (directrices de 3 a 6) y céntrese en los valores o temas principales de la marca. |
-| [!UICONTROL Directrices editoriales] | Directrices de comunicación que definen las prácticas recomendadas para crear mensajes de marca | Utilice frases positivas (5-10 directrices) para establecer una base sólida.<br>_Ejemplos_: &quot;Use un lenguaje sencillo y accesible&quot; en lugar de &quot;Evite usar jerga&quot;<br><br>Proporcione instrucciones claras y procesables. <br>_Ejemplos_: &quot;Mantén frases de menos de 20 palabras&quot; en lugar de &quot;Sé conciso&quot;<br><br>Refleja el estilo de tu marca, por ejemplo, usando preferencias de sintaxis específicas. <br>_Ejemplos_: &quot;Use un guión largo en lugar de dos puntos&quot;, &quot;Use el caso de las oraciones&quot;<br><br>Cree directrices precisas que mantengan la coherencia en los resultados. |
+| [!UICONTROL Directrices editoriales] | Directrices de comunicación que definen las prácticas recomendadas para crear mensajes de marca | Use frases positivas (5-10 directrices) para establecer una base sólida.<br>_Ejemplos_: &quot;Use un lenguaje sencillo y accesible&quot; en lugar de &quot;Evite usar jerga&quot;<br><br>Proporcione instrucciones claras y procesables. <br>_Ejemplos_: &quot;Mantenga frases de menos de 20 palabras&quot; en lugar de &quot;Sea conciso&quot;<br><br>Refleje el estilo de su marca, por ejemplo, usando preferencias de sintaxis específicas. <br>_Ejemplos_: &quot;Use un guión largo en lugar de dos puntos&quot;, &quot;Use el caso de las oraciones&quot;<br><br>Cree directrices precisas que mantengan la coherencia en los resultados. |
 | [!UICONTROL Restricciones editoriales] | Directrices de comunicación que definen lo que se debe evitar en la mensajería de marca | Utilice frases negativas directas (5-10 directrices) para especificar lo que se debe evitar. <br>_Ejemplo_: &quot;Evite usar...&quot;<br><br>Proporcione instrucciones claras y procesables. <br>_Ejemplo_: &quot;Evitar preguntas retóricas&quot; |
 
 ### Directrices de imagen
@@ -76,15 +82,15 @@ En la tabla siguiente se muestra cada sección de canal, los canales para los qu
 
 | Secciones | Canales | Descripción | Prácticas recomendadas |
 | ------------------| --------- | --------- | -------- |
-| General | correo electrónico, metadatos, banners y anuncios en pantalla | Una segunda línea de asunto o texto de previsualización de correo electrónico | Defina el tono/emoción general para que sea coherente a lo largo del correo electrónico (directrices 2-5).<br>_Ejemplos_: &quot;Mantener un tono cordial y accesible&quot;, &quot;Evitar el lenguaje demasiado formal&quot;<br><br> |
-| Asunto | email | Un título atractivo e interesante para resumir el contenido de un correo electrónico | Proporcionar orientación específica (2-5 directrices) sobre el tono, la longitud, etc. Agregue líneas de asunto con éxito anteriormente en la sección _Ejemplos_ para obtener un resultado de mejor calidad.<br>_Ejemplo_: &quot;Alinear el asunto con el cuerpo del correo electrónico&quot; |
-| Preencabezado | email | Una segunda línea de asunto o texto de previsualización de correo electrónico | Proporcionar orientación específica (2-5 directrices) sobre el tono, la longitud ideal, etc. Agregue los encabezados previos correctos en la sección _Ejemplos_ para obtener un resultado de mejor calidad.<br>_Ejemplo_: &quot;Límite de 60 a 80 caracteres&quot; |
-| Titular | correo electrónico, metadatos, anuncios en banner y pantalla, LinkedIn | Un título o una frase para captar la atención del lector | Proporcionar orientación específica (2-5 directrices) sobre el tono, la longitud ideal, etc. Agregue titulares exitosos anteriormente en la sección _Ejemplos_ para obtener un resultado de mejor calidad.<br>_Ejemplos_: &quot;Use frases llamativas para llamar la atención&quot; |
-| Subtítulo | correo electrónico, titular y anuncios en pantalla | Un segundo o tercer título o frase para captar la atención del lector | Proporcionar directrices específicas (2-5 directrices) que definen el tono, la longitud ideal, etc. Agregue los subtitulares que se aprobaron anteriormente en la sección _Ejemplos_ para obtener un resultado de mejor calidad.<br>_Ejemplos_: &quot;Use frases llamativas para llamar la atención&quot; |
+| General | correo electrónico, Meta, titular y anuncios en pantalla | Una segunda línea de asunto o texto de previsualización de correo electrónico | Defina el tono o la emoción generales para que sean coherentes en todo el correo electrónico (de 2 a 5 directrices).<br>_Ejemplos_: &quot;Mantenga un tono cordial y accesible&quot;, &quot;Evite el lenguaje demasiado formal&quot;<br><br> |
+| Asunto | email | Un título atractivo e interesante para resumir el contenido de un correo electrónico | Proporcionar orientación específica (2-5 directrices) sobre el tono, la longitud, etc. Agregue líneas de asunto con éxito en la sección _Ejemplos_ para obtener un resultado de mejor calidad.<br>_Ejemplo_: &quot;Alinear el asunto con el cuerpo del correo electrónico&quot; |
+| Preencabezado | email | Una segunda línea de asunto o texto de previsualización de correo electrónico | Proporcionar orientación específica (2-5 directrices) sobre el tono, la longitud ideal, etc. Agregue encabezados previos correctos en la sección _Ejemplos_ para obtener un resultado de mejor calidad.<br>_Ejemplo_: &quot;Límite de 60 a 80 caracteres&quot; |
+| Titular | correo electrónico, Meta, titular y anuncios en pantalla, LinkedIn | Un título o una frase para captar la atención del lector | Proporcionar orientación específica (2-5 directrices) sobre el tono, la longitud ideal, etc. Agregue titulares exitosos anteriormente en la sección _Ejemplos_ para obtener un resultado de mejor calidad.<br>_Ejemplos_: &quot;Use frases llamativas para llamar la atención&quot; |
+| Subtítulo | correo electrónico, titular y anuncios en pantalla | Un segundo o tercer título o frase para captar la atención del lector | Proporcionar directrices específicas (2-5 directrices) que definen el tono, la longitud ideal, etc. Agregue los subtítulos que anteriormente tuvieron éxito en la sección _Ejemplos_ para obtener resultados de mejor calidad.<br>_Ejemplos_: &quot;Use frases llamativas para llamar la atención&quot; |
 | Descripción | LinkedIn | Frases descriptivas que definen el tono-emoción general | Proporcionar orientación específica (2-5 directrices) sobre el tono, la longitud ideal, etc. Agregue descripciones exitosas anteriormente en la sección _Ejemplos_ para obtener un resultado de mejor calidad.<br>_Ejemplos_: &quot;Mantenga un tono cordial y accesible&quot; |
-| Cuerpo | correo electrónico, metadatos, anuncios en banner y pantalla, LinkedIn | Contenido de marketing que incluye mensajes, vínculos e imágenes | Proporcionar orientación específica (2-5 directrices) sobre el tono, la longitud ideal, etc. Agregue la copia que se realizó correctamente anteriormente a la sección _Ejemplos_ para obtener un resultado de mejor calidad.<br>_Ejemplos_: &quot;Límite de 80 a 100 caracteres&quot;, &quot;Evitar acrónimos excesivos&quot; |
-| Texto en la imagen | Meta, LinkedIn | Guía específica sobre el tono, la longitud ideal, etc. para el texto que aparece sobre las imágenes | Proporcionar orientación específica (1-2 oraciones) sobre el tono, la longitud ideal, etc. Agregue el texto que anteriormente funcionó correctamente a la sección _Examples_ para obtener un resultado de mejor calidad.<br>_Ejemplos_: &quot;Céntrese en el momento&quot; |
-| Call-to-action (CTA) | correo electrónico, metadatos, banners y anuncios en pantalla | (Call to action) Instrucción dada al lector que inspira una respuesta. Normalmente, una o dos palabras, como `Get started` | Proporcionar orientación específica (2-5 directrices) sobre el tono, la longitud ideal, etc. Agregue las CTA que se realizaron correctamente anteriormente a la sección _Ejemplos_ para obtener un resultado de mejor calidad.<br>_Ejemplos_: &quot;No usar puntuación final&quot; |
+| Cuerpo | correo electrónico, Meta, titular y anuncios en pantalla, LinkedIn | Contenido de marketing que incluye mensajes, vínculos e imágenes | Proporcionar orientación específica (2-5 directrices) sobre el tono, la longitud ideal, etc. Agregue la copia correcta a la sección _Ejemplos_ para obtener un resultado de mejor calidad.<br>_Ejemplos_: &quot;Límite de 80 a 100 caracteres&quot;, &quot;Evitar acrónimos excesivos&quot; |
+| Texto en la imagen | Meta, LinkedIn | Directrices específicas sobre el tono, la longitud ideal, etc. del texto que aparece sobre las imágenes | Proporcionar orientación específica (1-2 oraciones) sobre el tono, la longitud ideal, etc. Agregue texto que anteriormente se completó correctamente a la sección _Ejemplos_ para obtener un resultado de mejor calidad.<br>_Ejemplos_: &quot;Céntrese en el momento&quot; |
+| Call-to-action (CTA) | correo electrónico, Meta, titular y anuncios en pantalla | (Call to action) Instrucción dada al lector que inspira una respuesta. Normalmente, una o dos palabras, como `Get started` | Proporcionar orientación específica (2-5 directrices) sobre el tono, la longitud ideal, etc. Agregue las CTA que se realizaron correctamente anteriormente a la sección _Ejemplos_ para obtener un resultado de mejor calidad.<br>_Ejemplos_: &quot;No use la puntuación final&quot; |
 
 #### Directrices de canal predeterminadas
 
@@ -146,7 +152,7 @@ Add logos to your brand in the **[!UICONTROL Logos]** tab.
 Cada logotipo cargado incluye los siguientes detalles en el mosaico del logotipo:
 
 - Tipo de archivo
-- Tamaño de archivo
+- Tamaño del archivo
 - Resolución
 
 Desde el menú de acciones (tres puntos) de un logotipo, puedes [ver los detalles y administrar](/help/user-guide/guidelines/add-guidelines.md#manage-brands) un logotipo individual:

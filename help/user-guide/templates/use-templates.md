@@ -5,16 +5,23 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: a18b4f89ffde43432885dc2c2e323eaf19361fc7
+TQID: https://experienceleague.adobe.com/kXXSni5VZMFH615A-Re1-QjLooEyfXcMwVBwXnxp58s
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: 1374
 ht-degree: 1%
 
 ---
 
 # Trabajo con plantillas
 
-GenStudio for Performance Marketing permite a los creadores de contenido producir rápidamente contenido de marketing coherente de la marca mediante _plantillas_. Una plantilla reduce significativamente el tiempo y el esfuerzo necesarios para generar contenido nuevo al proporcionar un punto de partida que incluye diseños y elementos de diseño preconfigurados. Para empezar, cargue una plantilla personalizada en [!DNL Content] o use una plantilla de inicio en [!DNL Create]. Las [plantillas iniciales](/help/user-guide/templates/starter-templates.md) proporcionan una forma rápida de empezar con un diseño estándar, mientras que una plantilla personalizada permite usar diseños y diseños únicos.
+GenStudio for Performance Marketing permite a los creadores de contenido producir rápidamente contenido de marketing coherente de la marca mediante _plantillas_. Una plantilla reduce significativamente el tiempo y el esfuerzo necesarios para generar contenido nuevo al proporcionar un punto de partida que incluye diseños y elementos de diseño preconfigurados. Para empezar, cargue una plantilla personalizada en [!DNL Content] o use una plantilla de inicio en [!DNL Create]. [Las plantillas de inicio](/help/user-guide/templates/starter-templates.md) proporcionan una forma rápida de empezar con un diseño estándar, mientras que una plantilla personalizada permite usar diseños y diseños únicos.
 
 Aunque GenStudio for Performance Marketing no admite la creación directa de plantillas dentro de la aplicación, puede diseñar y preparar fácilmente plantillas con herramientas de diseño populares, como Adobe InDesign, Illustrator o Express. Una vez completado el diseño, puede adaptarlo para utilizarlo en GenStudio for Performance Marketing. Empiece a utilizar las plantillas siguiendo estos pasos:
 
@@ -47,7 +54,7 @@ A continuación se muestra una lista de los elementos que se utilizan en las pla
 
 >[!TIP]
 >
->Ver los [nombres de campo reconocidos](customize-template.md#recognized-field-names) que GenStudio for Performance Marketing admite para las plantillas de cada tipo de canal.
+Ver los [nombres de campo reconocidos](customize-template.md#recognized-field-names) que GenStudio for Performance Marketing admite para las plantillas de cada tipo de canal.
 
 ## Personalizar plantilla
 
@@ -55,11 +62,11 @@ Usted [personaliza su plantilla](customize-template.md) para usarla en GenStudio
 
 >[!TIP]
 >
->Siga las [directrices de accesibilidad](accessibility-for-templates.md) y las [prácticas recomendadas](/help/user-guide/templates/best-practices-for-templates.md) para que pueda llegar a más audiencia y proporcionar una experiencia óptima.
+Siga las [directrices de accesibilidad](accessibility-for-templates.md) y las [prácticas recomendadas](/help/user-guide/templates/best-practices-for-templates.md) para que pueda llegar a más audiencia y proporcionar una experiencia óptima.
 
 ## Administración de plantillas
 
-La galería _[!DNL Templates]_&#x200B;muestra su inventario de plantillas personalizadas para generar experiencias en GenStudio for Performance Marketing.
+La galería _[!DNL Templates]_muestra su inventario de plantillas personalizadas para generar experiencias en GenStudio for Performance Marketing.
 
 ### Buscar conjunto de datos
 
@@ -96,7 +103,7 @@ Antes de cargar una plantilla, asegúrate de que esté totalmente preparada y li
 
    >[!TIP]
    >
-   >Si la plantilla no es correcta, haga clic en **[!UICONTROL Atrás]** y vuelva al paso anterior. Cargue el archivo de plantilla corregido. O use el [editor de código de plantilla](/help/user-guide/templates/code-editor.md) para hacer correcciones simples.
+   Si la plantilla no es correcta, haga clic en **[!UICONTROL Atrás]** y vuelva al paso anterior. Cargue el archivo de plantilla corregido. O use el [editor de código de plantilla](/help/user-guide/templates/code-editor.md) para hacer correcciones simples.
 
 5. Haga clic en **[!UICONTROL Siguiente]** cuando esté satisfecho con la vista previa de la plantilla.
 
@@ -113,7 +120,7 @@ Antes de cargar una plantilla, asegúrate de que esté totalmente preparada y li
 
 ### Actualizar plantilla
 
-Las plantillas pueden incluir archivos estáticos, como iconos o logotipos. [El contenido estático](/help/user-guide/templates/customize-template.md#static-content) no se almacena después de crear la vista previa de la plantilla. GenStudio for Performance Marketing sigue haciendo referencia al vínculo de origen proporcionado en la plantilla. Utilice la actualización para actualizar la vista previa de la plantilla con las últimas versiones de estos recursos.
+Las plantillas pueden incluir archivos estáticos, como iconos o logotipos. [El contenido estático ](/help/user-guide/templates/customize-template.md#static-content) no se almacena después de crear la vista previa de la plantilla. GenStudio for Performance Marketing sigue haciendo referencia al vínculo de origen proporcionado en la plantilla. Utilice la actualización para actualizar la vista previa de la plantilla con las últimas versiones de estos recursos.
 
 **Para actualizar la plantilla**:
 

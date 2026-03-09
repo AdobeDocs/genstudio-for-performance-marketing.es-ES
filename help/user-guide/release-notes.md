@@ -4,9 +4,15 @@ description: Obtenga información sobre las últimas funciones y mejoras de Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: c7300b3f531947081253aaf719e099512b419539
+TQID: https://experienceleague.adobe.com/V33xtE9DNQS4PXKR0hfGuwpQyuAFApllCSYbR03xAjs
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: b03d2162-d906-40a0-9cbd-001391e22d4aid: b286a442-6f0d-405a-adea-abb4a98e2d7bid: bb0d2eba-617d-4fdd-b920-2f535b5c031cid: be495d08-ecd1-455f-951e-c22de504e667id: d1558755-1618-43a0-bf5d-134ebe62e93bid: d87258a7-722c-4afd-b632-adddc447c7aaid: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: ee4b6e5f-5b7a-421b-9859-0f964841a866id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '4384'
+source-wordcount: 4448
 ht-degree: 0%
 
 ---
@@ -15,7 +21,7 @@ ht-degree: 0%
 
 Esta información de la versión proporciona las últimas actualizaciones para la aplicación de GenStudio for Performance Marketing.
 
-## 2026,01 {#latest}
+## 2026.01 {#latest}
 
 ### Rediseño del panel de solicitud del lienzo HTML
 
@@ -123,7 +129,7 @@ Los especialistas en marketing ahora pueden intercambiar dinámicamente logotipo
 
 ### Importación de plantillas de correo electrónico de terceros
 
-* GenStudio for Performance Marketing ahora admite la integración perfecta con sistemas de diseño de correo electrónico de terceros a través de un marco de trabajo de extensibilidad. Las funciones clave incluyen:
+* GenStudio for Performance Marketing ahora admite la integración perfecta con sistemas de diseño de correo electrónico de terceros a través de un marco de trabajo de extensibilidad. Las funcionalidades clave incluyen:
 
    * Importar automáticamente plantillas de sistemas de diseño de correo electrónico de terceros durante la creación de contenido
    * Incorporar metadatos de plantilla junto con plantillas importadas
@@ -250,7 +256,7 @@ Junto con el contenido de la imagen, ahora puedes agregar videos a los anuncios 
 
 ### Correcciones y mejoras
 
-* Se agregó compatibilidad con [publicar experiencias de anuncios](/help/user-guide/activation/activate-linkedin-ad.md) de GenStudio for Performance Marketing en el Administrador de campañas de LinkedIn. [!DNL Activate] admite vistas previas de anuncios detallados de LinkedIn antes de publicar en el Administrador de campañas de LinkedIn.
+* Se agregó compatibilidad con [publicar experiencias de anuncios](/help/user-guide/activation/activate-linkedin-ad.md) de GenStudio for Performance Marketing en el Administrador de campañas de LinkedIn. [!DNL Activate] admite vistas previas de anuncios detallados de LinkedIn antes de publicarlos en el Administrador de campañas de LinkedIn.
 
 * La [integración de Workfront Proof](/help/user-guide/approvals/overview.md) ofrece a GenStudio for Performance Marketing las sólidas capacidades de revisión y aprobación de Proof. El contenido revisado en GenStudio for Performance Marketing se sincroniza con Workfront Proof y los comentarios de revisión y el estado se conservan.
 
@@ -294,7 +300,7 @@ Junto con el contenido de la imagen, ahora puedes agregar videos a los anuncios 
 
 ### Activar anuncios de Meta
 
-Los especialistas en marketing ahora pueden [publicar experiencias de anuncios](/help/user-guide/activation/overview.md) de GenStudio for Performance Marketing en el Administrador de Meta Ads. [!DNL Activate] admite vistas previas de anuncios detallados de Meta antes de la implementación. Los anuncios de Meta publicados a través de [!DNL Activate] se incorporan automáticamente a [!DNL Insights] una vez publicados, lo que permite a los usuarios realizar un seguimiento y generar informes sobre el rendimiento de los anuncios.
+Los especialistas en marketing ahora pueden [publicar experiencias de anuncios](/help/user-guide/activation/overview.md) de GenStudio for Performance Marketing en el Administrador de Meta Ads. [!DNL Activate] admite Meta detallado y vistas previas antes de la implementación. Los anuncios de Meta publicados a través de [!DNL Activate] se incorporan automáticamente a [!DNL Insights] una vez publicados, lo que permite a los usuarios realizar un seguimiento y generar informes sobre el rendimiento de los anuncios.
 
 ### Creación de experiencias de LinkedIn
 
@@ -415,7 +421,7 @@ Las opciones de exportación ahora incluyen:
 
 Las nuevas funciones adicionales permiten a los editores:
 
-* Use el botón **[!UICONTROL Actualizar]** de la vista [!DNL Content]Detalles del recurso _de la plantilla_ para actualizar la plantilla seleccionada. <!-- GS-7102 -->
+* Use el botón **[!UICONTROL Actualizar]** de la vista _Detalles del recurso_ de la plantilla [!DNL Content] para actualizar la plantilla seleccionada. <!-- GS-7102 -->
 
 * Regenerar secciones de anuncios en pantalla y variantes de correo electrónico. Ver [Crear una experiencia de anuncio en pantalla](/help/user-guide/create/create-display-ad.md#revise-generated-display-ads) y [Crear una experiencia de correo electrónico](/help/user-guide/create/create-email-experience.md#revise-generated-emails). <!-- GS-5080 5078-->
 
@@ -569,7 +575,7 @@ Esta versión presenta Adobe GenStudio for Performance Marketing, una aplicació
 
 Las principales funciones del producto incluyen:
 
-**[!DNL Create]** presenta el lienzo, que ofrece una experiencia de mensaje estructurada que permite a los editores de contenido generar rápidamente contenido y variantes. Los administradores de sistemas entrenan el producto en directrices de marca organizativas. [!DNL Create] garantiza que todo el contenido generado por IA se ajuste a las directrices de marca (marca, perfiles de clientes y descripciones de productos) y optimiza la producción de contenido de marketing de alto impacto y coherente con la marca.
+**[!DNL Create]** presenta el lienzo, que ofrece una experiencia de mensaje estructurada que permite a los editores de contenido generar rápidamente contenido y variantes. Los administradores de sistemas entrenan el producto en directrices de marca organizativas. [!DNL Create] garantiza que todo el contenido generado por IA se ajuste a las directrices de marca (marca, personalidades del cliente y descripciones de productos) y optimiza la producción de contenido de marketing de alto impacto y coherente con la marca.
 
 **[!DNL Content]** almacena recursos y experiencias aprobados seleccionados y compatibles con la marca. Los usuarios de GenStudio for Performance Marketing pueden encontrar, editar, reutilizar y compartir fácilmente los recursos aprobados, lo que reduce la necesidad de volver a crear contenido desde cero para cada campaña.
 

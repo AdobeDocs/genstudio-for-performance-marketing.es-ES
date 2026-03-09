@@ -3,10 +3,16 @@ title: Administración de Assets y experiencias
 description: Simplifique y mejore la administración de los recursos aprobados por la marca para usarlos y reutilizarlos en su recorrido de marketing digital.
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
+TQID: https://experienceleague.adobe.com/G9pgYplVoU0cVTOveP57W7MtUehg1E5GAiuGzjL8wRc
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f321b88b-6bb7-49cc-a16a-ae2b665ebd32id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1509'
-ht-degree: 1%
+source-wordcount: 1518
+ht-degree: 0%
 
 ---
 
@@ -42,7 +48,7 @@ Si determinadas opciones de filtro no están visibles, indica que ninguna planti
 
    >[!IMPORTANT]
    >
-   >La lista _Ubicación_ solo está disponible cuando [se conecta a un repositorio de AEM](connect-aem-repo.md).
+   La lista _Ubicación_ solo está disponible cuando [se conecta a un repositorio de AEM](connect-aem-repo.md).
 
 1. Haga clic en **[!UICONTROL Buscar]** (lupa) para escribir una palabra clave o descripción.
 
@@ -78,7 +84,7 @@ En [!UICONTROL Contenido], puede almacenar, recuperar y administrar fácilmente 
 
 En la tabla siguiente se enumeran las tareas de administración disponibles para los recursos, las experiencias y las plantillas:
 
-| Tareas | Recursos | Experiencias | Plantillas |
+| Tareas | Assets | Experiencias | Plantillas |
 | --------------------------------------------------------- | :----: | :---------: | :-------: |
 | [Ver detalles](/help/user-guide/content/asset-details.md) | ✓ | ✓ | ✓ |
 | [Crear experiencia](/help/user-guide/create/overview.md) |        |             | ✓ |
@@ -142,7 +148,7 @@ Puede seleccionar una o varias experiencias aprobadas para descargarlas en un fo
 
 >[!WARNING]
 >
->Los recursos recuperados no se pueden mostrar sin saneamiento. Todos los usuarios deben gestionar scripts entre sitios (XSS) desde las plantillas mediante técnicas de saneamiento de entrada en su extremo.
+Los recursos recuperados no se pueden mostrar sin saneamiento. Todos los usuarios deben gestionar scripts entre sitios (XSS) desde las plantillas mediante técnicas de saneamiento de entrada en su extremo.
 
 **Para exportar o descargar experiencias**:
 
@@ -197,6 +203,6 @@ Criterios para mejorar imágenes con la característica [!DNL Edit in Adobe Expr
 
    >[!TIP]
    >
-   >Cuantos más detalles proporcione, más experimentará las sólidas capacidades de GenStudio for Performance Marketing. Seleccione uno o más detalles de la lista o introduzca uno nuevo cuando corresponda, por ejemplo, con palabras clave. Cada detalle que agregue aparecerá debajo de la lista. Haga clic **`x`** para eliminar un detalle.
+   Cuantos más detalles proporcione, más experimentará las sólidas capacidades de GenStudio for Performance Marketing. Seleccione uno o más detalles de la lista o introduzca uno nuevo cuando corresponda, por ejemplo, con palabras clave. Cada detalle que agregue aparecerá debajo de la lista. Haga clic **`x`** para eliminar un detalle.
 
 1. Haga clic en **[!UICONTROL Guardar]**.

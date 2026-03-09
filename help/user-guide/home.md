@@ -3,9 +3,15 @@ title: Guía del usuario de Adobe GenStudio
 description: Explore las funcionalidades de Adobe GenStudio for Performance Marketing. Aprenda a crear recursos en la marca, generar variaciones y optimizar experiencias.
 role: User
 exl-id: beae7802-09e6-4ca3-9ffa-b8494aea5ae4
-source-git-commit: 1ff6a3ecf0a0773c3a6f13d6993042b0620c6dd2
+TQID: https://experienceleague.adobe.com/apgYIh5ri1UwarpHziyvJDEJPAOnmDu4QCulAP1-uRE
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e4a0febc-5163-4017-82ce-fc7594509fb6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: 208
 ht-degree: 8%
 
 ---
@@ -41,7 +47,7 @@ GenStudio for Performance Marketing es una aplicación basada en la plataforma d
          </a>
       </div>
       <p>
-         <em>Crear anuncios Meta y correos electrónicos con marca y que tengan un buen rendimiento.</em>
+         <em>Cree correos electrónicos y anuncios de Meta que tengan el mismo rendimiento y que no sean de marca.</em>
       </p>
    </td>
    <td valign="top">
@@ -104,11 +110,11 @@ GenStudio for Performance Marketing es una aplicación basada en la plataforma d
    <div>
       <a href="/help/user-guide/create/create-meta-ad.md">
       <img alt="Personas que mueven archivos a una carpeta" src="../assets/card-manage-content.png">
-      <strong>Crear una experiencia de Meta ad</strong>
+      <strong>Crear una experiencia de anuncio en Meta</strong>
       </a>
    </div>
    <p>
-      <em>Aprenda a crear una experiencia de anuncio Meta adaptada a la marca.</em>
+      <em>Aprenda a crear una experiencia de anuncio de Meta adaptada a la marca.</em>
    </p>
 </td>
 <td valign="top">
