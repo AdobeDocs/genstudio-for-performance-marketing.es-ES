@@ -3,10 +3,20 @@ title: Integración de Workfront Proof con revisiones y aprobaciones
 description: Integración de Workfront Proof con Adobe GenStudio for Performance Marketing.
 feature: Content Review, Content Management
 exl-id: 149db773-4787-4cfb-b29e-c49f13abf39a
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+TQID: https://experienceleague.adobe.com/G9e9Ft0l9OmSX1lCJY8syzP2-pIswt0MkCpOYlox-Zk
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 0%
+source-wordcount: 910
+ht-degree: 1%
 
 ---
 
@@ -38,14 +48,14 @@ La siguiente tabla compara las funciones estándar de revisión y aprobación de
 
 | Función        | GenStudio for Performance Marketing                                                                 | Workfront Proof                                                                 |
 |-------------------------------|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
-| **Ciclo de vida de borrador/prueba**        | El contenido del borrador caduca tras la publicación. | Cadenas de aprobación de varias fases y basadas en funciones con registros persistentes y con marca de tiempo.<br> Todas las versiones se conservan indefinidamente. |
+| **Ciclo de vida de borrador/prueba**        | El contenido del borrador caduca tras la publicación. | Cadenas de aprobación de varias fases basadas en roles con registros persistentes y con marca de tiempo.<br> Todas las versiones se conservan indefinidamente. |
 | **Comentarios**                | Los comentarios están vinculados al ID de borrador y se descartan después de la publicación.                                           | Los comentarios y anotaciones persistentes se conservan para la auditoría y el cumplimiento.     |
 | **Versiones**           | Los borradores se tratan como instancias únicas.<br>No hay comparación en paralelo.                                      | Control de versiones completo con herramientas de comparación de superposiciones y en paralelo.        |
 | **Administración de proyectos** | Administración de campañas básica. | Administración completa del ciclo de vida de la campaña, incluidas la personalización, las plantillas, la creación de informes y las auditorías detalladas. |
 
 ### Licencias y funciones de usuario
 
-Las licencias identifican el conjunto de derechos de usuario dentro de un producto. Workfront Proof proporciona más tipos de licencia o funciones de usuario que GenStudio for Performance Marketing. [Resumen de funciones de revisión](https://experienceleague.adobe.com/es/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles) presenta las funciones de usuario asociadas con el flujo de trabajo de revisión y aprobación de Workfront Proof.
+Las licencias identifican el conjunto de derechos de usuario dentro de un producto. Workfront Proof proporciona más tipos de licencia o funciones de usuario que GenStudio for Performance Marketing. [Información general sobre las funciones de revisión &#x200B;](https://experienceleague.adobe.com/es/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles) presenta las funciones de usuario asociadas con el flujo de trabajo de revisión y aprobación de Workfront Proof.
 
 | Licencia de GenStudio for Performance Marketing       | Licencia de Workfront                 | Descripción                                                                                                                                                      |
 |---------------------------------------------------|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -57,7 +67,7 @@ Los administradores del sistema de Adobe administran el aprovisionamiento de usu
 
 >[!NOTE]
 >
-> Workfront Proof proporciona [funciones de usuario adicionales](https://experienceleague.adobe.com/es/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles). No todos los roles son visibles dentro de Performance Marketing. Sin embargo, el sistema respeta cualquier función establecida dentro de una plantilla de Workfront Proof.
+>Workfront Proof proporciona [funciones de usuario adicionales](https://experienceleague.adobe.com/es/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles). No todos los roles son visibles dentro de Performance Marketing. Sin embargo, el sistema respeta cualquier función establecida dentro de una plantilla de Workfront Proof.
 
 ### Borradores y pruebas
 
@@ -84,4 +94,4 @@ Puede [comparar dos versiones de una revisión](https://experienceleague.adobe.c
 ## Notificaciones y recordatorios
 
 Los revisores y aprobadores reciben notificaciones por correo electrónico cuando hay una nueva prueba disponible para su revisión o cuando una revisión en curso ha cambiado de estado.
-[Las notificaciones y los recordatorios de prueba](https://experienceleague.adobe.com/es/docs/workfront/using/workfront-proof/proof-notifications-and-reminders/proof-notifications-and-reminders/proof-notifications-and-reminders) incluyen un vínculo personalizado a la prueba, detalles sobre la prueba y su progreso en el proceso de aprobación e información sobre las versiones.
+[Las notificaciones y los recordatorios de prueba](https://experienceleague.adobe.com/es/docs/workfront/using/workfront-proof/proof-notifications-and-reminders/proof-notifications-and-reminders/proof-notifications-and-reminders) incluyen un vínculo personalizado a la prueba, detalles sobre la prueba y su progreso a través del proceso de aprobación e información sobre las versiones.

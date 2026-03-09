@@ -4,16 +4,29 @@ description: Aprenda a encontrar, editar, reutilizar y compartir recursos aproba
 level: Beginner
 feature: Content Management, Media Templates
 exl-id: e44e9c2d-33ee-4621-93a2-27f49478a8c9
-source-git-commit: 650a32a1bbb10c17ff25c5bbb36f12cead218dfc
+TQID: https://experienceleague.adobe.com/G5Hk3l4ZnlHt81nYxgpFSN2vs6g2-CkiSwLtpAKZqAc
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: 338
 ht-degree: 1%
 
 ---
 
 # Adobe GenStudio for Performance Marketing [!DNL Content]
 
-GenStudio for Performance Marketing [!DNL Content] proporciona una ubicación central para almacenar, buscar y compartir todos los recursos, experiencias y plantillas aprobados por la marca. Puede editar y remezclar contenido, aprovechar el uso y la opinión de insight sobre el contenido y actualizar y reutilizar los recursos existentes mediante IA generativa.
+GenStudio for Performance Marketing [!DNL Content] proporciona una ubicación central para almacenar, buscar y compartir todos los recursos, experiencias y plantillas aprobados por la marca. Puede editar y remezclar contenido, obtener insight sobre el uso y la opinión del contenido y actualizar y reutilizar los recursos existentes mediante IA generativa.
 
 ## Casos de uso de [!DNL Content]
 

@@ -3,9 +3,26 @@ title: Validación de marca en Adobe GenStudio for Performance Marketing
 description: Obtenga información acerca del sistema de validación de marca integrado en GenStudio for Performance Marketing.
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 6a33f7e3a769eda459f70e6ab4e8559064ede2b4
+TQID: https://experienceleague.adobe.com/0avyL5lvm9hWdlxGE0RwPhP0dX2bA91GNnlKLG1oqEY
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+  - id: fee2c7a9-112e-463c-b451-44aaecaa6966
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: 786
 ht-degree: 0%
 
 ---
@@ -74,7 +91,7 @@ Para maximizar la eficacia del contenido generado y mantener una identidad de ma
 
    >[!NOTE]
    >
-   > La directriz _Brand voice_ indicada en el panel _Comprobación de contenido_ se aplica a toda la variante, no a una sección individual. Se resalta toda la variante de contenido para sugerir mejoras.
+   >La directriz _Brand voice_ indicada en el panel _Comprobación de contenido_ se aplica a toda la variante, no a una sección individual. Se resalta toda la variante de contenido para sugerir mejoras.
 
 1. Haga clic en para corregir las directrices que actualmente no son compatibles.
 1. Haga clic aquí para expandir e inspeccionar cada comprobación que deba revisarse en secciones disponibles como _Titular_, _Color_ y _Marca_.

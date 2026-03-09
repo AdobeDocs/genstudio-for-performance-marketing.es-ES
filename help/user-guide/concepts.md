@@ -4,14 +4,40 @@ description: Aprenda los conceptos y la terminología de Adobe GenStudio for Per
 feature: Generative AI
 role: User
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+TQID: https://experienceleague.adobe.com/i3VF7S-ndAMDoF1akF3l20tStW-IPS--MSysxD-MArc
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+  - id: f912fa8d-7beb-4468-9ea7-1c0f198b59ef
+subfeature_v2:
+  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+  - id: ec92a2bc-afe3-4ff0-a985-0c8ef22b4da0
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: 754
 ht-degree: 0%
 
 ---
 
-# Conceptos 
+# Conceptos
 
 GenStudio for Performance Marketing es un producto empresarial independiente que incorpora supply chain de contenido de Adobe para optimizar las campañas de marketing. Es difícil crear contenido personalizado y aprobado por la marca a escala, monitorizar la eficacia y adaptarse rápidamente al mercado en constante cambio. GenStudio for Performance Marketing reúne a Creative Cloud y Experience Cloud en una aplicación que aprovecha la IA generativa como multiplicador de rendimiento para los equipos de marketing empresarial.
 
@@ -94,85 +120,44 @@ Cuando aparezca este mensaje, puede editar la solicitud e intentarlo de nuevo _o
 La demanda es alta para experiencias de calidad en varios canales a un ritmo más rápido. GenStudio for Performance Marketing simplifica el supply chain de contenido en un flujo de trabajo bien organizado para los especialistas en marketing. GenStudio for Performance Marketing aprovecha la tecnología de Adobe en cada fase del ciclo de vida.
 
 <table style="table-layout:auto">
-
 <tr style="border: 0;">
-
     <td>
-
        <p><strong>Flujo de trabajo y planificación</strong></p>
-
     </td>
-
     <td>
-
         <p>Haga una lluvia de ideas, defina directrices y cree una estrategia en torno al contenido para atraer a su audiencia.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td>
-
         <p><strong>Creación y producción</strong></p>
-
     </td>
-
     <td>
-
         <p>Produzca el contenido en función del plan. Colabore en tiempo real, reciba comentarios, realice ediciones y apruebe contenido.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td>
-
-        <p><strong>Gestión de contenido</strong></p>
-
+        <p><strong>Administración de contenido</strong></p>
     </td>
-
     <td>
-
         <p>Almacene, comparta y busque recursos creativos en el repositorio centralizado. Reutilice y revitalice contenido en función del rendimiento.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td>
-
         <p><strong>Envío y activación</strong></p>
-
     </td>
-
     <td>
-
         <p>Active el contenido y publíquelo en varios canales de marketing.</P>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td>
-
         <p><strong>Informes e información</strong></p>
-
     </td>
-
     <td>
-
         <p>Recopile datos y obtenga perspectivas para la optimización del rendimiento de los recursos.</p>
-
     </td>
-
 </tr>
-
 </table>

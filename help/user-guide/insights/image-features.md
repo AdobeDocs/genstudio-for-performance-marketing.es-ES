@@ -4,9 +4,26 @@ description: Obtenga información acerca de la función de imagen de las categor
 level: Intermediate
 feature: Reporting and Insights, Image Attributes, Generative AI
 exl-id: b7e3d202-4085-48a4-a6ba-c950dfd52233
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+TQID: https://experienceleague.adobe.com/dFi5aYBN8Mr3cYF9tHcAEh2ncDiQdCZiQIPrksmSmdw
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2:
+  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: 1056
 ht-degree: 0%
 
 ---
@@ -43,7 +60,7 @@ En la tabla siguiente se enumeran las categorías de funciones de imagen reconoc
 
 <!-- For the writer: turn off word wrap to work with these tables. Option + Z -->
 
-| Categoría | Descripción | Ejemplo |
+| Categoría | Descripción | Ejemplos |
 | ----------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Distribución de atención | Nivel de atención del visualizador distribuido en una imagen, que indica cuánto enfoque pueden recibir las distintas áreas de la imagen. Una distribución más alta significa que ninguna área domina el enfoque del espectador, mientras que una distribución más baja significa que uno o dos puntos focales capturan la atención del espectador. | `high`, `medium`, `low`<p>Ejemplo de la distribución `low` a la izquierda y la distribución `high` a la derecha:<p>![juego de pelota de distribución baja y alta](/help/assets/category/image-attn-lowhigh.png "Diferencia en la distribución baja y alta"){width="200" zoomable="yes"} |
 | Ángulo de cámara | La perspectiva desde la que la cámara capta el sujeto, lo que afecta la percepción e interpretación de la imagen por parte del espectador. Si el estilo de la imagen es `photograph`, se identifica este rasgo. | `Low angle`, `High angle`, `Eye level`, `Neutral angle`, `Overhead view`, `Bird's eye view`<p>Ejemplo de `Overhead view`:<p>![Vista general](/help/assets/category/image-camera-angle.png "Par de pantalones cortos desde arriba"){width="200" zoomable="yes"} |

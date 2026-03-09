@@ -3,9 +3,14 @@ title: Distribuya su aplicación
 description: Distribuya su aplicación, o complemento, para GenStudio for Performance Marketing.
 feature: Extensibility
 exl-id: 4935356b-08df-402c-b1a2-b89627afc188
-source-git-commit: 2df93292f456cc952f72faea3d25ca0503a4e2db
+TQID: https://experienceleague.adobe.com/6SHsqsafwqCWS3dspM65BTVAqZ09WwW2IxF-PIecINE
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: 303
 ht-degree: 0%
 
 ---
@@ -16,7 +21,7 @@ La distribución del complemento hace que esté disponible para su uso por parte
 
 En este tema se describe la distribución privada. La distribución privada restringe la implementación del complemento a la organización, identificada por la organización de IMS, para la que se desarrolló.
 
-La distribución pública hace que el complemento esté disponible como aplicación en Adobe Exchange. [Distribución pública](https://developer.adobe.com/app-builder/docs/guides/distribution/public/) en la documentación para desarrolladores de _App Builder_ describe cómo poner tu aplicación a disposición de cualquier organización de Adobe.
+La distribución pública hace que el complemento esté disponible como aplicación en Adobe Exchange. [La distribución pública &#x200B;](https://developer.adobe.com/app-builder/docs/guides/distribution/public/) de la documentación para desarrolladores de _App Builder_ describe cómo poner la aplicación a disposición de cualquier organización de Adobe.
 
 >[!BEGINSHADEBOX]
 
