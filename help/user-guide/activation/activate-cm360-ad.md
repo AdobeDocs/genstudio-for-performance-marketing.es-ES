@@ -4,11 +4,17 @@ description: Obtenga información sobre cómo activar una experiencia de Google 
 feature: Ad Activation
 exl-id: e4ee4e04-8dd0-4e05-a0f7-0ddca2fbb6be
 TQID: https://experienceleague.adobe.com/pQbT2OC7-jK33HhJWgTBBtJrmEvr48mGkl8v-fTkOLQ
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-subfeature_v2: id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2:
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 551
@@ -36,7 +42,7 @@ Una vez finalizada la sincronización, puede ver las cuentas añadidas.
 
 ## Paso 3: Seleccione el contenido para su experiencia publicitaria
 
-Puede iniciar el proceso de publicación desde la galería de experiencias _[!DNL Content]_o desde la página de inicio_[!DNL Activate]_. Las experiencias aprobadas no se pueden editar. Cada experiencia solo puede contener un recurso.
+Puede iniciar el proceso de publicación desde la galería de experiencias _[!DNL Content]_&#x200B;o desde la página de inicio&#x200B;_[!DNL Activate]_. Las experiencias aprobadas no se pueden editar. Cada experiencia solo puede contener un recurso.
 
 **Para seleccionar experiencias**:
 

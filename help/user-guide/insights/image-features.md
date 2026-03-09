@@ -5,12 +5,22 @@ level: Intermediate
 feature: Reporting and Insights, Image Attributes, Generative AI
 exl-id: b7e3d202-4085-48a4-a6ba-c950dfd52233
 TQID: https://experienceleague.adobe.com/dFi5aYBN8Mr3cYF9tHcAEh2ncDiQdCZiQIPrksmSmdw
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2:
+  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 1056
@@ -55,7 +65,7 @@ En la tabla siguiente se enumeran las categorías de funciones de imagen reconoc
 | Distribución de atención | Nivel de atención del visualizador distribuido en una imagen, que indica cuánto enfoque pueden recibir las distintas áreas de la imagen. Una distribución más alta significa que ninguna área domina el enfoque del espectador, mientras que una distribución más baja significa que uno o dos puntos focales capturan la atención del espectador. | `high`, `medium`, `low`<p>Ejemplo de la distribución `low` a la izquierda y la distribución `high` a la derecha:<p>![juego de pelota de distribución baja y alta](/help/assets/category/image-attn-lowhigh.png "Diferencia en la distribución baja y alta"){width="200" zoomable="yes"} |
 | Ángulo de cámara | La perspectiva desde la que la cámara capta el sujeto, lo que afecta la percepción e interpretación de la imagen por parte del espectador. Si el estilo de la imagen es `photograph`, se identifica este rasgo. | `Low angle`, `High angle`, `Eye level`, `Neutral angle`, `Overhead view`, `Bird's eye view`<p>Ejemplo de `Overhead view`:<p>![Vista general](/help/assets/category/image-camera-angle.png "Par de pantalones cortos desde arriba"){width="200" zoomable="yes"} |
 | Ajuste de cámara | Los ajustes y configuraciones específicos de los controles de la cámara que influyen en el aspecto final y la calidad de la imagen. Si el estilo de la imagen es `photograph`, se identifica este rasgo. | `Fast shutter speed`, `Long exposure`, `Bokeh blur`, `Motion blur`, `Tilt-shift blur`, `Flash`, `Wide-angle`, `Black and white`, `Double-exposure`, `Macro`, `Normal mode`<p>Ejemplo de configuración de `Fast shutter speed`:<p>![Velocidad de obturación rápida](/help/assets/category/image-camera-setting.png "Navegando en una ola"){width="200" zoomable="yes"} |
-| Color y tono | Los colores y las cualidades tonales de una imagen. Identifica hasta tres colores de un conjunto predefinido de 40 colores en diferentes capas de imagen:<p>**[!UICONTROL Colores de primer plano]**—colores de la capa frontal de la imagen<br>**[!UICONTROL Colores de fondo ]**—colores de la capa posterior de la imagen | Valores de color: `Red`, `Dark Red`, `Green`, `Bright Green`, `Dark Green`, `Light Green`, `Mud Green`, `Blue`, `Dark Blue`, `Light Blue`, `Royal Blue`, `Black`, `White`, `Off White`, `Gray`, `Dark Gray`, `Silver`, `Cream`, `Magenta`, `Cyan`, `Yellow`, `Mustard`, `Khaki`, `Brown`, `Dark Brown`, `Violet`, `Pink`, `Dark Pink`, `Maroon`, `Tan`, `Purple`, `Lavender`, `Turquoise`, `Plum`, `Gold`, `Emerald`, `Orange`, `Beige`, `Lilac`, `Olive` |
+| Color y tono | Los colores y las cualidades tonales de una imagen. Identifica hasta tres colores de un conjunto predefinido de 40 colores en diferentes capas de imagen:<p>**[!UICONTROL Colores de primer plano]**—colores de la capa frontal de la imagen<br>**[!UICONTROL Colores de fondo &#x200B;]**—colores de la capa posterior de la imagen | Valores de color: `Red`, `Dark Red`, `Green`, `Bright Green`, `Dark Green`, `Light Green`, `Mud Green`, `Blue`, `Dark Blue`, `Light Blue`, `Royal Blue`, `Black`, `White`, `Off White`, `Gray`, `Dark Gray`, `Silver`, `Cream`, `Magenta`, `Cyan`, `Yellow`, `Mustard`, `Khaki`, `Brown`, `Dark Brown`, `Violet`, `Pink`, `Dark Pink`, `Maroon`, `Tan`, `Purple`, `Lavender`, `Turquoise`, `Plum`, `Gold`, `Emerald`, `Orange`, `Beige`, `Lilac`, `Olive` |
 | Temperatura de color | Describe la calidez o la frialdad general de los colores de la imagen. | Valores de tono o temperatura: `warm`, `cool`, `neutral`<br>![colores y tonos fríos](/help/assets/category/image-color-temp.png "Temperatura de color con fondo frío y varios objetos de color"){width="200" zoomable="yes"} |
 | Densidad del contenido | La concentración de elementos visuales y detalles dentro de una imagen, lo que indica cuánta información se empaqueta en el espacio visual.<p>A diferencia de la distribución de la atención, que mide cómo se propaga el enfoque del visualizador entre diferentes áreas de una imagen, la densidad del contenido se centra en la cantidad de información visual presente. Una mayor densidad de contenido significa que hay más elementos presentes. | `high`, `medium`, `low`<p>Ejemplo de `low` densidad a la izquierda y `high` densidad a la derecha:<p>![juego de pelota de baja y alta densidad](/help/assets/category/image-attn-lowhigh.png "Diferencia en la densidad de contenido baja y alta"){width="200" zoomable="yes"} |
 | Estilo de imagen | El tratamiento visual de una imagen, como una fotografía o un boceto. Una vez que la IA determina el estilo de la imagen, se pueden identificar otros rasgos. Por ejemplo, si la imagen es una fotografía, pueden aplicarse los ajustes de la cámara, la proximidad de la cámara y las condiciones de iluminación. | `Photograph`, `Photograph with text overlay`, `Sketch`, `Painting`, `Digital cartoon`, `Infographics`, `Graphic design`, `Collage`, `Software screenshot`<p>Ejemplo de `digital cartoon` estilo de imagen![estilo de imagen de viñeta](/help/assets/category/image-style.png "Caricatura de estilo de imagen de un gato"){width="200" zoomable="yes"} |

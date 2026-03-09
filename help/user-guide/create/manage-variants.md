@@ -4,11 +4,24 @@ description: Personalice y mejore las variantes y los recursos generados para ad
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
 TQID: https://experienceleague.adobe.com/2VdZdQv90JGEpCM7BE4egbz933eotbeePy3ze35mM0o
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: be495d08-ecd1-455f-951e-c22de504e667id: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
+  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 2125
@@ -96,7 +109,7 @@ Después de generar un conjunto de variantes, puede revisar el texto y el víncu
 
 >[!NOTE]
 >
-Puede editar el texto de las etiquetas de CTA con la opción _[!UICONTROL Refrasear]_ si el texto de las etiquetas es un campo de plantilla generado (no codificado en la plantilla). Puede editar un vínculo de CTA con la opción _[!UICONTROL Editar vínculo]_ si el vínculo existe y se puede editar (no codificado en la plantilla).
+>Puede editar el texto de las etiquetas de CTA con la opción _[!UICONTROL Refrasear]_ si el texto de las etiquetas es un campo de plantilla generado (no codificado en la plantilla). Puede editar un vínculo de CTA con la opción _[!UICONTROL Editar vínculo]_ si el vínculo existe y se puede editar (no codificado en la plantilla).
 
 **Para revisar el CTA en una variante**:
 
@@ -172,7 +185,7 @@ Puede cambiar rápidamente la [proporción de aspecto de los anuncios de Meta](/
 
 >[!NOTE]
 >
-Según las plantillas disponibles, es posible que haya diferentes tamaños y relaciones de aspecto.
+>Según las plantillas disponibles, es posible que haya diferentes tamaños y relaciones de aspecto.
 
 **Para cambiar la proporción de aspecto de los anuncios de Meta generados**:
 
@@ -202,7 +215,7 @@ Puede añadir o intercambiar imágenes en variantes generadas directamente desde
 1. Haga clic en el icono **[!UICONTROL Intercambiar del contenido]**.
 1. Utilice los filtros y la función de búsqueda en la vista de recursos de GenStudio [!DNL Content] para restringir aún más los resultados de búsqueda.
 
-   También puede usar imágenes disponibles en repositorios conectados de Adobe Experience Manager (AEM) Assets Content Hub seleccionando ese repositorio en el menú [**[!UICONTROL Ubicación ]**](/help/user-guide/content/manage-assets.md#location).
+   También puede usar imágenes disponibles en repositorios conectados de Adobe Experience Manager (AEM) Assets Content Hub seleccionando ese repositorio en el menú [**[!UICONTROL Ubicación &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Haga clic para seleccionar una imagen y haga clic en **[!UICONTROL Usar]**.
 
