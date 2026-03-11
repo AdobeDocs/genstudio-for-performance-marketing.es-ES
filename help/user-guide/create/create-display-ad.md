@@ -27,7 +27,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
 source-wordcount: 1143
 ht-degree: 0%
@@ -111,9 +111,11 @@ Para resaltar una capa individual para revisarla, haga clic en un campo o imagen
 * **Para [recortar o cambiar la posición de las imágenes](/help/user-guide/create/manage-variants.md#crop-assets)**, haga clic en una imagen, haga clic en **[!UICONTROL Editar]** (icono de lápiz) y, a continuación, en **[!UICONTROL Recortar]**. Ajuste el tamaño y la ubicación de la imagen.
 * **Para [usar Generative Expand para cambiar el tamaño y ajustar las imágenes](/help/user-guide/create/manage-variants.md#use-generative-expand) a su plantilla de trabajo**, haga clic en una imagen, haga clic en **[!UICONTROL Editar]** (icono de lápiz) y luego en **[!UICONTROL Expandir]**. Ajuste la imagen para ajustar la proporción de aspecto y la plantilla necesarias.
 
-<!-- # Preview for device
+<!-- 
+# Preview for device
 When revising and preparing email experiences, you can toggle between previews for desktop and mobile views to ensure coherence and visual appeal of draft variants.
-**To preview variants for desktop and mobile devices** toggle the device preview option—between **desktop** and **mobile**—in the right menu bar (computer and phone icons) to preview how variants appear. -->
+**To preview variants for desktop and mobile devices** toggle the device preview option—between **desktop** and **mobile**—in the right menu bar (computer and phone icons) to preview how variants appear. 
+-->
 
 ## Enviar comentarios de generación
 

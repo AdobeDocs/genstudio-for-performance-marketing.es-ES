@@ -30,7 +30,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 242ab858144fd152fd55645143f869fddf7b6fe0
 workflow-type: tm+mt
 source-wordcount: 754
 ht-degree: 0%
@@ -67,10 +67,12 @@ GenStudio for Performance Marketing usa la serie GPT de LLM de terceros a travé
 
 _[!DNL Generative Actions]_, tal como se define en la [descripción del producto de Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/es/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html), son las unidades que cuantifican el uso de características de IA generativa dentro de GenStudio for Performance Marketing.
 
-<!-- Add example about usage mode?
+<!-- 
+Add example about usage mode?
 Where users check how many generative actions they have left
 How they re-up their genactions
-If genactions roll over month to month or not -->
+If genactions roll over month to month or not 
+-->
 
 ### Tarifas
 
@@ -89,10 +91,12 @@ Las siguientes funciones consumen [!DNL Generative Actions] a la velocidad espec
 | Creación de anuncios en pantalla | 5 por generación |
 | Regenerar secciones | 1 por generación |
 
-<!-- | Generate on-brand images | 1 per prompt  |
+<!-- 
+| Generate on-brand images | 1 per prompt  |
 | Translation              | 1 per prompt  |
 | Video: ADLS              | 1 per prompt  |
-| Video: TTS + Avatar      | 1 per prompt  | -->
+| Video: TTS + Avatar      | 1 per prompt  | 
+-->
 
 [!DNL Generative Actions] _no se_ consumen cuando:
 
@@ -120,44 +124,85 @@ Cuando aparezca este mensaje, puede editar la solicitud e intentarlo de nuevo _o
 La demanda es alta para experiencias de calidad en varios canales a un ritmo más rápido. GenStudio for Performance Marketing simplifica el supply chain de contenido en un flujo de trabajo bien organizado para los especialistas en marketing. GenStudio for Performance Marketing aprovecha la tecnología de Adobe en cada fase del ciclo de vida.
 
 <table style="table-layout:auto">
+
 <tr style="border: 0;">
+
     <td>
+
        <p><strong>Flujo de trabajo y planificación</strong></p>
+
     </td>
+
     <td>
+
         <p>Haga una lluvia de ideas, defina directrices y cree una estrategia en torno al contenido para atraer a su audiencia.</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
+
     <td>
+
         <p><strong>Creación y producción</strong></p>
+
     </td>
+
     <td>
+
         <p>Produzca el contenido en función del plan. Colabore en tiempo real, reciba comentarios, realice ediciones y apruebe contenido.</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
+
     <td>
+
         <p><strong>Administración de contenido</strong></p>
+
     </td>
+
     <td>
+
         <p>Almacene, comparta y busque recursos creativos en el repositorio centralizado. Reutilice y revitalice contenido en función del rendimiento.</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
+
     <td>
+
         <p><strong>Envío y activación</strong></p>
+
     </td>
+
     <td>
+
         <p>Active el contenido y publíquelo en varios canales de marketing.</P>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
+
     <td>
+
         <p><strong>Informes e información</strong></p>
+
     </td>
+
     <td>
+
         <p>Recopile datos y obtenga perspectivas para la optimización del rendimiento de los recursos.</p>
+
     </td>
+
 </tr>
+
 </table>
