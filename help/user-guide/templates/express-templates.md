@@ -1,12 +1,12 @@
 ---
-title: Uso de plantillas de Adobe Express en GenStudio
+title: Uso de plantillas de Adobe Express en GenStudio for Performance Marketing
 description: Explore las funciones de GenStudio for Performance Marketing que pueden integrar los recursos de Adobe Express.
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 161d6c46f7b20ac47caa6135e437ea48cb6d99db
+source-git-commit: 05bc285ff614c8d3e15beab3411c7666b01d1155
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1701'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Esta guía explica los requisitos y las características con las plantillas de [
 
 ## Acerca de las plantillas de [!DNL Adobe Express]
 
-En [!DNL Adobe Express], se pueden crear [nuevos documentos utilizando las plantillas de inicio existentes](https://helpx.adobe.com/es/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5) que se proporcionan en la aplicación, o con [plantillas personalizadas que pueden incluir restricciones de marca útiles](https://helpx.adobe.com/es/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html) como:
+En [!DNL Adobe Express], se pueden crear [nuevos documentos utilizando las plantillas de inicio existentes](https://helpx.adobe.com/es/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5) que se proporcionan en la aplicación, o con [plantillas personalizadas que pueden incluir restricciones de marca útiles](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html) como:
 
 - [Elementos bloqueados](https://helpx.adobe.com/es/express/web/invite-collaborate/object-locking.html) que no se pueden modificar
 - Restricciones de bloqueo que controlan cómo los usuarios pueden desbloquear elementos cuando es necesario
@@ -243,3 +243,4 @@ Consulte [Validación de marca](/help/user-guide/guidelines/brand-validation.md)
 ## Revisar y aprobar
 
 Después de editar y ajustar las variantes, apruebe y publique su contenido con [el flujo de trabajo de revisiones y aprobación](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/approve/overview).
+
