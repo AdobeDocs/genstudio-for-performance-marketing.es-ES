@@ -1,12 +1,12 @@
 ---
-title: Uso de plantillas de Adobe Express en GenStudio
+title: Uso de plantillas de Adobe Express en GenStudio for Performance Marketing
 description: Explore las funciones de GenStudio for Performance Marketing que pueden integrar los recursos de Adobe Express.
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 161d6c46f7b20ac47caa6135e437ea48cb6d99db
+source-git-commit: 05bc285ff614c8d3e15beab3411c7666b01d1155
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1701'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ Esta guía explica los requisitos y las características con las plantillas de [
 
 ## Acerca de las plantillas de [!DNL Adobe Express]
 
-En [!DNL Adobe Express], se pueden crear [nuevos documentos utilizando las plantillas de inicio existentes](https://helpx.adobe.com/es/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5) que se proporcionan en la aplicación, o con [plantillas personalizadas que pueden incluir restricciones de marca útiles](https://helpx.adobe.com/es/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html) como:
+En [!DNL Adobe Express], se pueden crear [nuevos documentos utilizando las plantillas de inicio existentes](https://helpx.adobe.com/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5) que se proporcionan en la aplicación, o con [plantillas personalizadas que pueden incluir restricciones de marca útiles](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html) como:
 
-- [Elementos bloqueados](https://helpx.adobe.com/es/express/web/invite-collaborate/object-locking.html) que no se pueden modificar
+- [Elementos bloqueados](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html) que no se pueden modificar
 - Restricciones de bloqueo que controlan cómo los usuarios pueden desbloquear elementos cuando es necesario
 
-La configuración de bloqueo establecida en la plantilla de [!DNL Adobe Express] también se aplicará en [!DNL GenStudio for Performance Marketing]. Use [las [!DNL Adobe Express] instrucciones para crear una plantilla personalizada con restricciones de marca](https://helpx.adobe.com/es/express/web/brands-libraries-projects/create-manage-brands/template-control.html).
+La configuración de bloqueo establecida en la plantilla de [!DNL Adobe Express] también se aplicará en [!DNL GenStudio for Performance Marketing]. Use [las [!DNL Adobe Express] instrucciones para crear una plantilla personalizada con restricciones de marca](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/template-control.html).
 
 Para utilizar fuentes personalizadas en una plantilla Express, los administradores deben aceptar primero la oferta correspondiente a Fuentes personalizadas en Admin Console, que se incluye como parte del derecho de licencia Express.
 
@@ -57,11 +57,11 @@ Al seleccionar una plantilla [!DNL Express] y hacer clic en **[!UICONTROL Usar]*
 
 ## Acerca de las variantes y [!DNL Experiences] con [!DNL Adobe Express] plantillas
 
-Las plantillas de [!DNL Express] ofrecen muchas de las mismas características con las que estará familiarizado al [administrar otras variantes](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text). Sin embargo, hay algunas mejoras importantes para optimizar cualquier flujo de trabajo para el contenido de [!DNL Express]. Esta sección describe características exclusivas de la implementación de [!DNL Adobe Express].
+Las plantillas de [!DNL Express] ofrecen muchas de las mismas características con las que estará familiarizado al [administrar otras variantes](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text). Sin embargo, hay algunas mejoras importantes para optimizar cualquier flujo de trabajo para el contenido de [!DNL Express]. Esta sección describe características exclusivas de la implementación de [!DNL Adobe Express].
 
 ### Generar automáticamente varios tamaños
 
-Cuando se han creado [varias páginas para un recurso en [!DNL Express]](https://helpx.adobe.com/es/express/web/arrange-layers-and-pages/add-pages.html), esas páginas se transfieren a cualquier plantilla creada a partir de ese recurso. Las páginas rápidas se generarán en tamaños diferentes del contenido creativo de [!DNL GenStudio for Performance Marketing].
+Cuando se han creado [varias páginas para un recurso en [!DNL Express]](https://helpx.adobe.com/express/web/arrange-layers-and-pages/add-pages.html), esas páginas se transfieren a cualquier plantilla creada a partir de ese recurso. Las páginas rápidas se generarán en tamaños diferentes del contenido creativo de [!DNL GenStudio for Performance Marketing].
 
 Cuando existe contenido de varios tamaños para un recurso en [!DNL Express], se pueden generar variantes para todos esos tamaños en una sola generación.
 
@@ -192,7 +192,7 @@ Las opciones de etiquetado varían según el tipo de elemento.
 
 ### Restricciones de bloqueo de plantilla
 
-Las plantillas pueden incluir [elementos bloqueados](https://helpx.adobe.com/es/express/web/invite-collaborate/object-locking.html) que se transfieren desde [!DNL Express] y controlan cómo se pueden modificar algunas características. La plantilla respeta estos ajustes, que también se pueden modificar:
+Las plantillas pueden incluir [elementos bloqueados](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html) que se transfieren desde [!DNL Express] y controlan cómo se pueden modificar algunas características. La plantilla respeta estos ajustes, que también se pueden modificar:
 
 1. Seleccione un elemento bloqueado en la plantilla.
 1. Haga clic en el icono de bloqueo en la parte superior izquierda del elemento seleccionado.
@@ -242,4 +242,5 @@ Consulte [Validación de marca](/help/user-guide/guidelines/brand-validation.md)
 
 ## Revisar y aprobar
 
-Después de editar y ajustar las variantes, apruebe y publique su contenido con [el flujo de trabajo de revisiones y aprobación](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/approve/overview).
+Después de editar y ajustar las variantes, apruebe y publique su contenido con [el flujo de trabajo de revisiones y aprobación](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/overview).
+

@@ -5,7 +5,7 @@ user-guide-description: Explore las funcionalidades de Adobe GenStudio for Perfo
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 689c259f8766848815850d38cc0b13d3669dd718
+source-git-commit: 05bc285ff614c8d3e15beab3411c7666b01d1155
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 19%
@@ -70,7 +70,7 @@ ht-degree: 19%
    + [Personalizar una plantilla](templates/customize-template.md)
    + [Editor de código de plantilla](templates/code-editor.md)
    + [Crear plantillas accesibles](templates/accessibility-for-templates.md)
-   + [Usando plantillas rápidas](templates/express-templates.md)
+   + [Usando plantillas rápidas](/help/user-guide/templates/express-templates.md)
    + [Prácticas recomendadas para plantillas](templates/best-practices-for-templates.md)
    + Práctica recomendada de canal {#channel-best-practice}
       + [Guía de anuncios en pantalla](templates/display-template.md)
