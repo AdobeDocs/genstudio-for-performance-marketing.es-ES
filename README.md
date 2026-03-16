@@ -1,5 +1,5 @@
 ---
-source-git-commit: 3af756e5bc0e2731187c3879c1593605706d6a2c
+source-git-commit: 28ad1f3a659fd1f44283c8e5913810f8637b87a2
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -11,7 +11,7 @@ Este sitio contiene la documentación más reciente sobre el producto GenStudio 
 
 ## Código de conducta de Adobe Open Source
 
-Este proyecto ha adoptado el [Código de conducta de Adobe Open Source](code-of-conduct.md) o el Código de conducta de [.NET Foundation](https://dotnetfoundation.org/about/policies/code-of-conduct). Consulte el artículo [Contribución](contributing.md).
+Este proyecto ha adoptado el [Código de conducta de Adobe Open Source](code-of-conduct.md) o el Código de conducta de [.NET Foundation](https://dotnetfoundation.org/about/policies/code-of-conduct). Ver la página [Colaborando](contributing.md).
 
 ### Cambios menores
 
@@ -37,12 +37,12 @@ Consulte la [Guía para colaboradores de Adobe Docs](https://experienceleague.ad
 
 Todos los artículos de este repositorio utilizan Markdown al estilo de GitHub. Si no está familiarizado con el uso de markdown, consulte:
 
-- [Conceptos básicos sobre marcado](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Hoja de referencia de marcado imprimible](https://docs.github.com/en/get-started/getting-started-with-git/git-cheatsheet)
+- [Conceptos básicos de Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [Hoja de trucos de markdown imprimible](https://docs.github.com/en/get-started/getting-started-with-git/git-cheatsheet)
 
 ## Etiquetas
 
-En el repositorio público, se asignan etiquetas automatizadas a las solicitudes de recepción para ayudarnos a administrar el flujo de trabajo de dichas solicitudes y para ayudarle a informar sobre el estado de su solicitud de recepción:
+En el repositorio público, se asignan etiquetas automatizadas a las solicitudes de extracción para ayudarnos a administrar el flujo de trabajo de la solicitud de extracción y para informarle sobre el estado de la solicitud de extracción:
 
-- **Cambio enviado al autor**: se notificó al autor de la solicitud de recepción pendiente.
-- **Listo para combinarse**: listo para que el equipo de revisión de solicitudes de extracción lo revise.
+- **Cambio enviado al autor**: se ha notificado al autor la solicitud de extracción pendiente.
+- **listo para combinar**: listo para que el equipo de revisión de solicitudes de extracción lo revise.
