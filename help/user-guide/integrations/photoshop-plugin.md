@@ -5,19 +5,13 @@ feature: Generative AI
 role: User
 exl-id: e3f57acd-f2dd-4957-aa5e-c97595a29899
 TQID: https://experienceleague.adobe.com/9p-ohsF1gIVKv3vwjnP9o675l3gJT3tVxx34PefFzCQ
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 87ea02eca400ec5c2144126156ebf2450e3c3049
 workflow-type: tm+mt
-source-wordcount: 816
+source-wordcount: 856
 ht-degree: 1%
 
 ---
@@ -39,7 +33,7 @@ Las funciones de este complemento incluyen:
 * Creación de traducciones de contenido en la marca
 * Exportar [!DNL Experiences] generado a GenStudio for Performance Marketing
 
->[!VIDEO](https://video.tv.adobe.com/v/3478823?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478808?learn=on)
 
 ## Instalación del complemento
 
@@ -146,6 +140,10 @@ Los nuevos documentos se añaden al espacio de trabajo de Photoshop con contenid
 Los usuarios pueden seleccionar la exportación después de la generación o traducción del contenido. Las experiencias exportadas se rellenan en la sección de contenido de GenStudio for Performance Marketing.
 
 ![Recursos exportados mostrados en la sección de contenido](./content-assets.png){width="90%"}
+
+## Convertir fotogramas de Figma a Photoshop
+
+Los marcos Figma se pueden convertir en documentos de Photoshop y exportar para su uso con el complemento de Photoshop. Para entender cómo convertir marcos, vea la sección [Convertir marcos de Figma a Photoshop](figma-plugin.md#convert-figma-frames-to-photoshop) en la página del complemento Figma.
 
 ## Resolución de problemas
 

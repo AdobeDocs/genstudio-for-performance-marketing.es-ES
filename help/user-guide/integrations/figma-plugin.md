@@ -5,29 +5,22 @@ feature: Generative AI
 role: User
 exl-id: 232fbbc6-c523-4525-8d26-a8ac8d62c035
 TQID: https://experienceleague.adobe.com/JKHpT5m-4KZvq-iWF2u11hRaFFRhKMo-ofbWk-xvRMI
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-subfeature_v2:
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 884a1c9bb7ebdf1430c47bbcbecc8f1d5b91f6fc
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181
+subfeature_v2: id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 4b3f2ae27b9368b95e440a58cb04f4b063da616e
 workflow-type: tm+mt
-source-wordcount: 1202
-ht-degree: 0%
+source-wordcount: 1725
+ht-degree: 1%
 
 ---
 
 # Complemento Figma para GenStudio for Performance Marketing
 
 El complemento GenStudio for Performance Marketing Figma añade un nuevo panel a la aplicación Figma que le permite generar contenido propio de la marca.
-[Busque e instale el complemento desde el mercado de la comunidad Figma &#x200B;](https://www.figma.com/community/plugin/1604251370122180013/firefly-enterprise-and-genstudio).
+[Busque e instale el complemento desde el mercado de la comunidad Figma ](https://www.figma.com/community/plugin/1604251370122180013/firefly-enterprise-and-genstudio).
 
 Esta página describe cómo configurar y utilizar el complemento.
 
@@ -42,7 +35,7 @@ Las funciones de este complemento incluyen:
 * Exportar [!DNL Experiences] generado a GenStudio for Performance Marketing.
 * Utilice opciones de plugin que se adapten a los elementos seleccionados en el lienzo Figma.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478812?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
 
 ## Creación de una plantilla
 
@@ -87,7 +80,7 @@ Para asignar roles de elemento:
 
 El complemento recuerda estas asignaciones para utilizar con el contenido generado. Una función de campo\ se puede asignar a varios elementos de plantilla.
 
-![Asignación de funciones de campo](./field-role-mapping.png){width="600"}
+![Asignación de funciones de campo](./field-role-mapping.png){width="60%"}
 
 ### Excepciones de asignación de campos
 
@@ -98,9 +91,9 @@ El complemento recuerda estas asignaciones para utilizar con el contenido genera
 Utilice GenStudio for Performance Marketing AI para generar o realizar variaciones de elementos en plantillas Figma.
 
 1. Si utiliza GenStudio Plugin Playground o ya ha preparado plantillas, seleccione el nodo de la sección que contiene sus plantillas de publicidad. Puede hacerlo desde el panel **Capas** o haciendo clic directamente en la sección del lienzo.
-   ![Selección o variaciones de sección](./plugin-playground.png){width="500" zoomable="yes"}
+   ![Selección o variaciones de sección](./plugin-playground.png){width="50%" zoomable="yes"}
 1. En la ventana del complemento, introduzca un nombre de proyecto para las variaciones, elija una plataforma para el contenido y rellene el resto de la información necesaria. A continuación, haga clic en el botón **[!UICONTROL Finalizar configuración]**.
-   ![Ventana del proyecto de instalación](./setup-project.png){width="300" zoomable="yes"}
+   ![Ventana del proyecto de instalación](./setup-project.png){width="30%" zoomable="yes"}
 1. Seleccione [!DNL Brand], [!DNL Persona] y [!DNL Product] para usar en la generación de contenido.
 1. Seleccione el número de variaciones que desea producir (hasta ocho).
 1. Use el botón en **[!UICONTROL Seleccionar contenido]** para examinar y elegir imágenes de sus recursos. Los 40 recursos añadidos más recientemente aparecen primero y puede buscar otros recursos. Las imágenes seleccionadas cambian de tamaño automáticamente para adaptarse a las plantillas.
@@ -113,10 +106,10 @@ Utilice GenStudio for Performance Marketing AI para generar o realizar variacion
 Utilice GenStudio for Performance Marketing AI para generar variaciones de copia de anuncios o traducir plantillas Figma.
 
 1. Seleccione el nodo de sección que contiene las plantillas de publicidad. Puede hacerlo desde el panel **Capas** o haciendo clic directamente en la sección del lienzo.
-   ![Selección o variaciones de sección](./plugin-playground.png){width="500" zoomable="yes"}
+   ![Selección o variaciones de sección](./plugin-playground.png){width="50%" zoomable="yes"}
 1. En la ventana del complemento, introduzca un nombre de proyecto para las variaciones y elija una plataforma para el contenido.
 1. En **[!UICONTROL ¿Cuál es el objetivo?]**, seleccione **[!UICONTROL Generar variaciones]** o **[!UICONTROL Traducir]** y luego haga clic en el botón **[!UICONTROL Finalizar configuración]**.
-   ![Ventana del proyecto de instalación](./setup-project.png){width="300" zoomable="yes"}
+   ![Ventana del proyecto de instalación](./setup-project.png){width="30%" zoomable="yes"}
 1. Seleccione [!DNL Brand], [!DNL Persona] y [!DNL Product] para usar en la generación de contenido.
 1. Seleccione el número de variaciones que desea producir.
 1. Use el botón en **[!UICONTROL Seleccionar contenido]** para examinar y elegir imágenes de sus recursos. Los 40 recursos añadidos más recientemente aparecen primero y puede buscar otros recursos. Las imágenes seleccionadas cambian de tamaño automáticamente para adaptarse a las plantillas.
@@ -129,7 +122,7 @@ Utilice GenStudio for Performance Marketing AI para generar variaciones de copia
 ## Traducir contenido después de la generación
 
 1. Seleccione la generación que desee traducir.
-   ![Seleccionar generación](./select-generation.png){width="200" zoomable="yes"}
+   ![Seleccionar generación](./select-generation.png){width="20%" zoomable="yes"}
 1. Elija **[!UICONTROL Traducción]** y luego haga clic en **[!UICONTROL Traducir]**.
 1. Seleccione el o los idiomas de destino.
 1. Haga clic en **[!UICONTROL Seleccionar]**.
@@ -146,7 +139,7 @@ Los resultados de la traducción incluyen:
 
 Cuando edita contenido existente en un campo, aparecen opciones útiles en el panel del complemento.
 
-![Opciones de acciones de complemento](./figma-other-actions.png){width="300" zoomable="yes"}
+![Opciones de acciones de complemento](./figma-other-actions.png){width="30%" zoomable="yes"}
 
 Las opciones que se incluyen son:
 
@@ -168,15 +161,72 @@ Las variaciones se pueden exportar desde Figma como GenStudio for Performance Ma
 
 1. Seleccione el contenido que desea exportar en el lienzo Figma mediante uno de los procedimientos siguientes:
    * Seleccione la sección de generación en el lienzo y, a continuación, haga clic en **[!UICONTROL Marcar todo para exportar]** en el panel del complemento.
-     ![Selección de sección de generación](./select-generation-section.png){width="200" zoomable="yes"}
+     ![Selección de sección de generación](./select-generation-section.png){width="20%" zoomable="yes"}
    * Seleccione una generación individual en el lienzo y, a continuación, haga clic en **[!UICONTROL Marcar para exportación]** en el panel del complemento.
-     ![Selección de generación individual](./select-generation.png){width="200" zoomable="yes"}
+     ![Selección de generación individual](./select-generation.png){width="20%" zoomable="yes"}
 1. Seleccione el elemento Exportar del menú de la barra lateral.
    ![Botón Marcar para exportar mostrado para un anuncio de Meta](./mark-for-export.png){width="60%" zoomable="yes"}
 1. Seleccione un destino.
 1. Haga clic en **[!UICONTROL Exportar]** para exportar el contenido.
 
 Se crea un archivo ZIP en el panel del complemento o aparece un vínculo a **[!UICONTROL Abrir en GenStudio]**. Use el vínculo ZIP para elegir dónde guardar el archivo o seleccione **[!UICONTROL Abrir en GenStudio]**.
+
+## Convertir fotogramas de Figma a Photoshop
+
+>[!NOTE]
+>
+> Para realizar esta tarea, necesita el complemento Figma y el complemento [Photoshop para GenStudio for Performance Marketing](photoshop-plugin.md).
+
+Puede usar el complemento Figma para convertir un marco Figma, varios marcos o un documento completo al formato Photoshop y exportarlo para utilizarlo con el [complemento Photoshop](photoshop-plugin.md). Actualmente, solo se admiten propiedades principales como visibilidad, tamaño de fuente y atributos de capa básicos durante la conversión. Todavía no se admiten funciones como tachado, superíndice, subíndice, opacidad como porcentajes, degradados y propiedades avanzadas similares.
+
+El complemento admite los siguientes tipos de capas Figma para la conversión:
+
+* **Cuadro**
+* **Grupo**
+* **Instancia**
+* **Texto**
+* **Vector**
+* **Imagen**
+
+Cuando se convierte a PSD, las capas admitidas se asignan a Photoshop de la siguiente manera:
+
+| Tipo de capa Figma | Convierte a Photoshop | Notas |
+| --- | --- | --- |
+| **Cuadro** | Grupo de capas | <ul><li>Los fotogramas de Figma se convierten en grupos de capas de Photoshop.</li><li>Los fotogramas anidados se convierten en grupos anidados.</li><li>Las dimensiones de marco se convierten en la mesa de trabajo o los límites de grupo de PSD (según la selección).</li></ul> |
+| **Grupo** | Grupo de capas | <ul><li>Los grupos Figma se convierten directamente en grupos de capas de Photoshop.</li><li>Se conservan la jerarquía de capas y el orden de apilamiento.</li></ul> |
+| **Instancia** | Grupo de capas | <ul><li>Los componentes y las instancias se acoplan en grupos de capas estándar de Photoshop. Los metadatos de componente y la lógica de variante no se conservan.</li><li>Todas las capas secundarias permanecen dentro del grupo.</li></ul> |
+| **Texto** | Capa de texto | <ul><li>Las capas de texto Figma se convierten en capas de texto Photoshop editables.</li><li>Se conservan la jerarquía y la posición del texto.</li></ul> |
+| **Vector** | Capa de forma | <ul><li>Las capas vectoriales de Figma se convierten en capas de forma de Photoshop.</li><li>Las rutas se conservan cuando es posible.</li><li>Los vectores complejos pueden rasterizarse si se aplican efectos no compatibles.</li></ul> |
+| **Imagen** | Capa de trama | <ul><li>Las capas de imagen Figma se convierten en capas rasterizadas de Photoshop.</li><li>Se conservan la escala y la posición de las imágenes.</li></ul> |
+
+### Cómo convertir fotogramas
+
+Para convertir fotogramas:
+
+1. Abra el complemento de Firefly Enterprise y GenStudio en Figma y haga clic en la ficha **[!UICONTROL Exportar]** en la interfaz de usuario del complemento.
+1. En el lienzo, seleccione el marco o marcos que desea exportar. Puede elegir uno o varios marcos.
+1. Realice una de las siguientes acciones:
+
+   * Haga clic en **[!UICONTROL Exportar]** para exportar el archivo convertido a una ubicación elegida o
+   * Haga clic en **[!UICONTROL Transferir al complemento de Photoshop]** para almacenar en caché el archivo convertido para utilizarlo de inmediato en el complemento de Photoshop.
+     ![Botón Transferir al complemento de Photoshop](./transfer-to-ps-button.png){width="60%"}
+1. Cuando aparece el cuadro de diálogo **[!UICONTROL Se requiere la clave del archivo]**, el complemento necesita una URL de archivo Figma para completar la conversión. Añada la dirección URL del documento:
+
+   1. En Figma, haz clic en **[!UICONTROL Compartir]** en la esquina superior derecha del lienzo.
+   1. En **[!UICONTROL Compartir este archivo]**, haga clic en **[!UICONTROL Copiar vínculo]**.
+   1. Pegue el vínculo copiado en el campo **[!UICONTROL URL del archivo Figma]** del cuadro de diálogo del complemento.
+
+1. Haga clic en **[!UICONTROL Enviar]**. El complemento lee los marcos seleccionados en Figma y los convierte en un documento JSON, un formato intermedio para los datos del archivo.
+   ![Cuadro de diálogo obligatorio con clave de archivo](./file-key-required.png){width="40%"}
+1. En Photoshop, abra el complemento de GenStudio y haga clic en la ficha **[!UICONTROL Importar]**.
+1. Realice una de las siguientes acciones:
+
+   * Haga clic en **[!UICONTROL Desde el complemento]** para elegir un archivo convertido con **[!UICONTROL Transferir al complemento de Photoshop]** de la lista de archivos en caché, o
+   * Haga clic en **[!UICONTROL Cargar JSON]** para buscar y seleccionar el archivo JSON que desea cargar.
+     ![Botón Cargar JSON](./upload-json.png){width="40%"}
+1. El complemento GenStudio de Photoshop convierte la información del documento JSON en un documento de Photoshop abierto.
+1. Haga clic en **[!UICONTROL Listo]**. El nuevo archivo se abre en Photoshop y está listo para usarse. O haga clic en **[!UICONTROL Guardar como...]** para elegir una ubicación donde guardar el archivo.
+   ![Cuadro de diálogo de botón Listo](./import-done-button.png){width="40%"}
 
 ## Historial de generación
 
