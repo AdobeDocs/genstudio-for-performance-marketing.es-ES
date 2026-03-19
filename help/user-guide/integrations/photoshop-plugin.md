@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 87ea02eca400ec5c2144126156ebf2450e3c3049
 workflow-type: tm+mt
-source-wordcount: 816
+source-wordcount: 856
 ht-degree: 1%
 
 ---
@@ -146,6 +146,10 @@ Los nuevos documentos se añaden al espacio de trabajo de Photoshop con contenid
 Los usuarios pueden seleccionar la exportación después de la generación o traducción del contenido. Las experiencias exportadas se rellenan en la sección de contenido de GenStudio for Performance Marketing.
 
 ![Recursos exportados mostrados en la sección de contenido](./content-assets.png){width="90%"}
+
+## Convertir fotogramas de Figma a Photoshop
+
+Los marcos Figma se pueden convertir en documentos de Photoshop y exportar para su uso con el complemento de Photoshop. Para entender cómo convertir marcos, vea la sección [Convertir marcos de Figma a Photoshop](figma-plugin.md#convert-figma-frames-to-photoshop) en la página del complemento Figma.
 
 ## Resolución de problemas
 
