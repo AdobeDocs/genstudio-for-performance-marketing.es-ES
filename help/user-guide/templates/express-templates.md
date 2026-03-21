@@ -19,7 +19,7 @@ Esta guía explica los requisitos y las características con las plantillas de [
 
 ## Acerca de las plantillas de [!DNL Adobe Express]
 
-En [!DNL Adobe Express], se pueden crear [nuevos documentos utilizando las plantillas de inicio existentes](https://helpx.adobe.com/es/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5) que se proporcionan en la aplicación, o con [plantillas personalizadas que pueden incluir restricciones de marca útiles](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html) como:
+En [!DNL Adobe Express], se pueden crear [nuevos documentos utilizando las plantillas de inicio existentes](https://helpx.adobe.com/es/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5) que se proporcionan en la aplicación, o con [plantillas personalizadas que pueden incluir restricciones de marca útiles](https://helpx.adobe.com/es/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html) como:
 
 - [Elementos bloqueados](https://helpx.adobe.com/es/express/web/invite-collaborate/object-locking.html) que no se pueden modificar
 - Restricciones de bloqueo que controlan cómo los usuarios pueden desbloquear elementos cuando es necesario
