@@ -1,6 +1,6 @@
 ---
-title: Complemento de Photoshop para Adobe GenStudio for Performance Marketing
-description: Obtenga información sobre cómo instalar, configurar y utilizar el complemento de Photoshop para GenStudio for Performance Marketing.
+title: GenStudio Photoshop para Adobe GenStudio for Performance Marketing
+description: Obtenga información sobre cómo instalar, configurar y utilizar GenStudio Photoshop para GenStudio for Performance Marketing.
 feature: Generative AI
 role: User
 exl-id: e3f57acd-f2dd-4957-aa5e-c97595a29899
@@ -15,16 +15,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 87ea02eca400ec5c2144126156ebf2450e3c3049
+source-git-commit: 8c7ac98d651195c28a2c82341c68d40b067b2c76
 workflow-type: tm+mt
-source-wordcount: 856
-ht-degree: 1%
+source-wordcount: 847
+ht-degree: 92%
 
 ---
 
-# Complemento de Photoshop para GenStudio for Performance Marketing
+# GenStudio Photoshop para GenStudio for Performance Marketing
 
-El complemento GenStudio for Performance Marketing Photoshop agrega un panel a Adobe Photoshop que le permite generar contenido propio de la marca.
+GenStudio Photoshop agrega un panel a Adobe Photoshop que le permite generar contenido propio de la marca.
 
 Esta página describe cómo instalar y configurar el complemento y cómo utilizarlo.
 
@@ -53,7 +53,7 @@ Siga estas instrucciones para instalar el complemento.
 ### Pasos de instalación
 
 1. Descargue y actualice el complemento desde Creative Cloud Marketplace en Adobe Exchange.
-1. Busque **Complemento de GenStudio para Photoshop** en Adobe Exchange.
+1. Busque **GenStudio Photoshop** en Adobe Exchange.
 1. Siga las indicaciones para instalar el complemento.
 
 ### Desinstalar el complemento
@@ -149,7 +149,7 @@ Los usuarios pueden seleccionar la exportación después de la generación o tra
 
 ## Convertir fotogramas de Figma a Photoshop
 
-Los marcos Figma se pueden convertir en documentos de Photoshop y exportar para su uso con el complemento de Photoshop. Para entender cómo convertir marcos, vea la sección [Convertir marcos de Figma a Photoshop](figma-plugin.md#convert-figma-frames-to-photoshop) en la página del complemento Figma.
+Los marcos Figma se pueden convertir en documentos de Photoshop y exportar para su uso con GenStudio Photoshop. Para entender cómo convertir marcos, vea la sección [Convertir marcos de Figma a Photoshop](figma-plugin.md#convert-figma-frames-to-photoshop) en la página del complemento Figma.
 
 ## Resolución de problemas
 

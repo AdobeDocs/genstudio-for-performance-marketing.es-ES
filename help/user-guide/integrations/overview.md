@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a3045fbab1e26338bdfbed21f6a373d56719ee07
+source-git-commit: 8c7ac98d651195c28a2c82341c68d40b067b2c76
 workflow-type: tm+mt
-source-wordcount: 201
+source-wordcount: 195
 ht-degree: 0%
 
 ---
@@ -40,9 +40,8 @@ El complemento GenStudio for Performance Marketing Figma agrega un nuevo panel a
 
 Obtenga más información acerca del complemento Figma en la página [Complemento Figma](figma-plugin.md).
 
-## Complemento de Photoshop
+## GenStudio Photoshop
 
-El complemento GenStudio for Performance Marketing Photoshop agrega un nuevo panel a Adobe Photoshop que permite a los usuarios realizar acciones de GenStudio for Performance Marketing, como generar contenido de marca.
+GenStudio Photoshop agrega un nuevo panel a Adobe Photoshop que permite a los usuarios realizar acciones de GenStudio for Performance Marketing, como generar contenido de marca.
 
-Obtenga más información acerca del complemento de Photoshop en la página [Complemento de Photoshop](photoshop-plugin.md).
-
+Obtenga más información acerca de GenStudio Photoshop en la página [GenStudio Photoshop](photoshop-plugin.md).

@@ -17,10 +17,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 4b3f2ae27b9368b95e440a58cb04f4b063da616e
+source-git-commit: 8c7ac98d651195c28a2c82341c68d40b067b2c76
 workflow-type: tm+mt
-source-wordcount: 1725
-ht-degree: 1%
+source-wordcount: 1713
+ht-degree: 93%
 
 ---
 
@@ -182,9 +182,9 @@ Se crea un archivo ZIP en el panel del complemento o aparece un vínculo a **[!U
 
 >[!NOTE]
 >
-> Para realizar esta tarea, necesita el complemento Figma y el complemento [Photoshop para GenStudio for Performance Marketing](photoshop-plugin.md).
+> Para realizar esta tarea, necesita el complemento Figma y [GenStudio Photoshop](photoshop-plugin.md).
 
-Puede usar el complemento Figma para convertir un marco Figma, varios marcos o un documento completo al formato Photoshop y exportarlo para utilizarlo con el [complemento Photoshop](photoshop-plugin.md). Actualmente, solo se admiten propiedades principales como visibilidad, tamaño de fuente y atributos de capa básicos durante la conversión. Todavía no se admiten funciones como tachado, superíndice, subíndice, opacidad como porcentajes, degradados y propiedades avanzadas similares.
+Puede usar el complemento Figma para convertir un marco Figma, varios marcos o un documento completo al formato Photoshop y exportarlo para utilizarlo con [GenStudio Photoshop](photoshop-plugin.md). Actualmente, solo se admiten propiedades principales como visibilidad, tamaño de fuente y atributos de capa básicos durante la conversión. Todavía no se admiten funciones como tachado, superíndice, subíndice, opacidad como porcentajes, degradados y propiedades avanzadas similares.
 
 El complemento admite los siguientes tipos de capas Figma para la conversión:
 
@@ -215,8 +215,8 @@ Para convertir fotogramas:
 1. Realice una de las siguientes acciones:
 
    * Haga clic en **[!UICONTROL Exportar]** para exportar el archivo convertido a una ubicación elegida o
-   * Haga clic en **[!UICONTROL Transferir al complemento de Photoshop]** para almacenar en caché el archivo convertido para utilizarlo de inmediato en el complemento de Photoshop.
-     ![Botón Transferir al complemento de Photoshop](./transfer-to-ps-button.png){width="60%"}
+   * Haga clic en **[!UICONTROL Transferir a GenStudio Photoshop]** para almacenar en caché el archivo convertido para su uso inmediato en GenStudio Photoshop.
+     ![Botón Transferir a GenStudio Photoshop](./transfer-to-ps-button.png){width="40%"}
 1. Cuando aparece el cuadro de diálogo **[!UICONTROL Se requiere la clave del archivo]**, el complemento necesita una URL de archivo Figma para completar la conversión. Añada la dirección URL del documento:
 
    1. En Figma, haz clic en **[!UICONTROL Compartir]** en la esquina superior derecha del lienzo.
@@ -224,14 +224,14 @@ Para convertir fotogramas:
    1. Pegue el vínculo copiado en el campo **[!UICONTROL URL del archivo Figma]** del cuadro de diálogo del complemento.
 
 1. Haga clic en **[!UICONTROL Enviar]**. El complemento lee los marcos seleccionados en Figma y los convierte en un documento JSON, un formato intermedio para los datos del archivo.
-   ![Cuadro de diálogo obligatorio con clave de archivo](./file-key-required.png){width="40%"}
-1. En Photoshop, abra el complemento de GenStudio y haga clic en la ficha **[!UICONTROL Importar]**.
+   ![Cuadro de diálogo obligatorio con clave de archivo](./file-key-required.png){width="35%"}
+1. En Photoshop, abra GenStudio Photoshop y haga clic en la ficha **[!UICONTROL Importar]**.
 1. Realice una de las siguientes acciones:
 
-   * Haga clic en **[!UICONTROL Desde el complemento]** para elegir un archivo convertido con **[!UICONTROL Transferir al complemento de Photoshop]** de la lista de archivos en caché, o
+   * Haga clic en **[!UICONTROL Desde el complemento]** para elegir un archivo convertido con **[!UICONTROL Transferir a GenStudio Photoshop]** de la lista de archivos en caché, o
    * Haga clic en **[!UICONTROL Cargar JSON]** para buscar y seleccionar el archivo JSON que desea cargar.
      ![Botón Cargar JSON](./upload-json.png){width="40%"}
-1. El complemento GenStudio de Photoshop convierte la información del documento JSON en un documento de Photoshop abierto.
+1. GenStudio Photoshop convierte la información del documento JSON en un documento de Photoshop abierto.
 1. Haga clic en **[!UICONTROL Listo]**. El nuevo archivo se abre en Photoshop y está listo para usarse. O haga clic en **[!UICONTROL Guardar como...]** para elegir una ubicación donde guardar el archivo.
    ![Cuadro de diálogo de botón Listo](./import-done-button.png){width="40%"}
 
