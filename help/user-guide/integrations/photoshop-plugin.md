@@ -39,7 +39,7 @@ Las funciones de este complemento incluyen:
 * Creación de traducciones de contenido en la marca
 * Exportar [!DNL Experiences] generado a GenStudio for Performance Marketing
 
->[!VIDEO](https://video.tv.adobe.com/v/3478808?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478823?captions=spa&learn=on)
 
 ## Instalación del complemento
 
