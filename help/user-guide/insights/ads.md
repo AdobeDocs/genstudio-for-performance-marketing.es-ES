@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 59f51bf35c5ad81845d2cd11c6659a0833e4de7b
+source-git-commit: 0c9aa3dd0939e9e31d3e53f02c954e65a151026b
 workflow-type: tm+mt
-source-wordcount: 1457
+source-wordcount: 1464
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Los formatos de anuncio hacen referencia a los distintos elementos creativos y d
 | LinkedIn | <ul><li>Anuncios de imagen única</li><li>Anuncios de vídeo único</li><li>Anuncios de artículos</li></ul> | <ul><li>Anuncios de carrusel</li><li>Anuncios de documentos</li><li>Anuncios de eventos</li><li>Thought Leader Ads</li><li>Anuncios de generación de clientes potenciales</li><li>Anuncios de seguidores</li><li>Anuncios de conversación</li><li>Anuncios destacados</li><li>Anuncios de trabajo</li><li>Anuncios de contenido</li><li>Anuncios de mensajes</li></ul> |
 | TikTok | <ul><li>Anuncios de imagen única</li><li>Anuncios de vídeo único</li></ul> | <ul><li>Anuncios en el canal (vídeo, Spark, carrusel)</li><li>Anuncios Premium (TopView, Brand Takeover)</li><li>Anuncios interactivos (retos de etiquetas, efectos de marca)</li><li>Commerce Ads (Shopping, Catalog, LIVE)</li><li>Posible cliente y anuncios de mensajería</li><li>Es difícil clasificarlos, ya que no tenemos los recursos para determinar el tipo de anuncio</li></ul> |
 | DV360 | <ul><li>DISPLAY_AND_VIDEO_ADS</li><li>YOUTUBE_AND_PARTNERS_AD</li></ul> | El canal de medios de pago no proporciona acceso para recuperar recursos creativos, lo que dificulta la clasificación precisa de los tipos de anuncios. |
-| Innovid | N/D | Es difícil clasificarlos, ya que no tenemos los recursos para determinar el tipo de anuncio. |
+| Innovid | N/D | El canal de medios de pago no proporciona acceso para recuperar recursos creativos, lo que dificulta la clasificación precisa de los tipos de anuncios. |
 
 ### Ubicaciones de anuncios
 
