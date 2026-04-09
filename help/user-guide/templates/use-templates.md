@@ -23,16 +23,16 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 70984b2c03e14a14b36fca6dfc62dcda9138949e
 workflow-type: tm+mt
-source-wordcount: 1374
+source-wordcount: 1410
 ht-degree: 1%
 
 ---
 
 # Trabajo con plantillas
 
-GenStudio for Performance Marketing permite a los creadores de contenido producir rápidamente contenido de marketing coherente de la marca mediante _plantillas_. Una plantilla reduce significativamente el tiempo y el esfuerzo necesarios para generar contenido nuevo al proporcionar un punto de partida que incluye diseños y elementos de diseño preconfigurados. Para empezar, cargue una plantilla personalizada en [!DNL Content] o use una plantilla de inicio en [!DNL Create]. [Las plantillas de inicio](/help/user-guide/templates/starter-templates.md) proporcionan una forma rápida de empezar con un diseño estándar, mientras que una plantilla personalizada permite usar diseños y diseños únicos.
+GenStudio for Performance Marketing permite a los creadores de contenido producir rápidamente contenido de marketing coherente de la marca mediante _plantillas_. Una plantilla reduce significativamente el tiempo y el esfuerzo necesarios para generar contenido nuevo al proporcionar un punto de partida que incluye diseños y elementos de diseño preconfigurados. Para empezar, cargue una plantilla personalizada en [!DNL Content] o use una plantilla de inicio en [!DNL Create]. Las [plantillas iniciales](/help/user-guide/templates/starter-templates.md) proporcionan una forma rápida de empezar con un diseño estándar, mientras que una plantilla personalizada permite usar diseños y diseños únicos.
 
 Aunque GenStudio for Performance Marketing no admite la creación directa de plantillas dentro de la aplicación, puede diseñar y preparar fácilmente plantillas con herramientas de diseño populares, como Adobe InDesign, Illustrator o Express. Una vez completado el diseño, puede adaptarlo para utilizarlo en GenStudio for Performance Marketing. Empiece a utilizar las plantillas siguiendo estos pasos:
 
@@ -131,7 +131,7 @@ Antes de cargar una plantilla, asegúrate de que esté totalmente preparada y li
 
 ### Actualizar plantilla
 
-Las plantillas pueden incluir archivos estáticos, como iconos o logotipos. [El contenido estático &#x200B;](/help/user-guide/templates/customize-template.md#static-content) no se almacena después de crear la vista previa de la plantilla. GenStudio for Performance Marketing sigue haciendo referencia al vínculo de origen proporcionado en la plantilla. Utilice la actualización para actualizar la vista previa de la plantilla con las últimas versiones de estos recursos.
+Las plantillas pueden incluir archivos estáticos, como iconos o logotipos. [El contenido estático](/help/user-guide/templates/customize-template.md#static-content) no se almacena después de crear la vista previa de la plantilla. GenStudio for Performance Marketing sigue haciendo referencia al vínculo de origen proporcionado en la plantilla. Utilice la actualización para actualizar la vista previa de la plantilla con las últimas versiones de estos recursos.
 
 **Para actualizar la plantilla**:
 
@@ -158,6 +158,8 @@ Busque y utilice una plantilla existente en GenStudio for Performance Marketing 
 ## Plantillas de AJO y Marketo
 
 Puede cargar una plantilla que haya creado en Adobe Journey Optimizer (AJO) o Marketo. GenStudio for Performance Marketing detecta los patrones específicos de la aplicación y los ignora, conservando el formulario original para utilizarlo de forma continua en AJO o Marketo. No es necesario realizar ningún cambio en la sintaxis original de AJO o Marketo.
+
+Para usar plantillas de AJO de tu biblioteca Journey Optimizer en GenStudio (incluida la pestaña **[!UICONTROL Plantilla de AJO]** al crear experiencias de correo electrónico), tu organización debe instalar y configurar la aplicación [Journey Optimizer para GenStudio](/help/extensibility/journey-optimizer-for-genstudio.md) desde Adobe Exchange.
 
 Los patrones de aplicación reconocidos incluyen:
 
