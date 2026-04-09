@@ -23,9 +23,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 70984b2c03e14a14b36fca6dfc62dcda9138949e
+source-git-commit: 10f44078f4c1b5865006311f9b32eab479986722
 workflow-type: tm+mt
-source-wordcount: 1410
+source-wordcount: 1443
 ht-degree: 1%
 
 ---
@@ -160,6 +160,8 @@ Busque y utilice una plantilla existente en GenStudio for Performance Marketing 
 Puede cargar una plantilla que haya creado en Adobe Journey Optimizer (AJO) o Marketo. GenStudio for Performance Marketing detecta los patrones específicos de la aplicación y los ignora, conservando el formulario original para utilizarlo de forma continua en AJO o Marketo. No es necesario realizar ningún cambio en la sintaxis original de AJO o Marketo.
 
 Para usar plantillas de AJO de tu biblioteca Journey Optimizer en GenStudio (incluida la pestaña **[!UICONTROL Plantilla de AJO]** al crear experiencias de correo electrónico), tu organización debe instalar y configurar la aplicación [Journey Optimizer para GenStudio](/help/extensibility/journey-optimizer-for-genstudio.md) desde Adobe Exchange.
+
+Para usar plantillas de Marketo de tu biblioteca Marketo Engage en GenStudio (incluida la pestaña **[!UICONTROL Plantillas de Marketo]** al crear experiencias de correo electrónico), tu organización debe instalar y configurar [Marketo para GenStudio](/help/extensibility/marketo-for-genstudio.md) desde Adobe Exchange.
 
 Los patrones de aplicación reconocidos incluyen:
 
