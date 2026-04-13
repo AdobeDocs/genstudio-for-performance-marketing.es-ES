@@ -4,9 +4,9 @@ description: Obtenga información sobre las últimas funciones y mejoras de Adob
 hidefromtoc: true
 hide: true
 exl-id: 2ae60dcb-ac95-4ed4-bceb-84b396f7fa4e
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+source-git-commit: 51b4eea1a1de48edc52b7f740638c2a2989d9c19
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '592'
 ht-degree: 2%
 
 ---
