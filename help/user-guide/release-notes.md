@@ -68,7 +68,7 @@ y revise la CPA de forma consistente en las tablas Anuncios, Assets (Medios) y A
 
 ### Audiencias de RTCDP en el flujo de trabajo Crear
 
-Las [audiencias de Adobe Real-Time Customer Data Platform (RTCDP)](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines#add-audiences) están disponibles en el flujo de trabajo [!DNL Create] para que pueda generar experiencias en masa en las definiciones de audiencia junto con las directrices existentes.
+Las [audiencias de Adobe Real-Time Customer Data Platform (RTCDP)](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines#add-audiences) están disponibles en el flujo de trabajo [!DNL Create] para que pueda generar experiencias en masa en las definiciones de audiencia junto con las directrices existentes.
 
 ### Canal de visualización Innovid en [!DNL Insights]
 
