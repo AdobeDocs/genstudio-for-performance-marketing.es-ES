@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b3ebb731f7b9a7968a232fe2283b5ef2441c3f6c
+source-git-commit: 90c6d3e24ec752f0cb23476e7fc407dee294a4c9
 workflow-type: tm+mt
-source-wordcount: 4584
+source-wordcount: 5224
 ht-degree: 0%
 
 ---
@@ -50,7 +50,77 @@ ht-degree: 0%
 
 Esta información de la versión proporciona las últimas actualizaciones para la aplicación de GenStudio for Performance Marketing.
 
-## 2026.03 {#latest}
+## 2026.04 {#latest}
+
+### CPA por tipo de acción para cuentas de publicidad de Meta
+
+Para las campañas publicitarias de Meta en [!DNL Insights], ahora puede analizar el costo por acción (CPA) mediante la acción de conversión que coincide con la forma en que se optimiza la campaña, en lugar de usar una única métrica predeterminada.
+
+Elija entre los tipos de acción de Meta disponibles, como:
+
+* Compras
+* Eventos de complemento al carro de compras
+* posibles clientes
+* Visualizaciones de vídeos
+* Conversiones personalizadas
+
+y revise la CPA de forma consistente en las tablas Anuncios, Assets (Medios) y Atributos [!DNL Insights].
+
+### Audiencias de RTCDP en el flujo de trabajo Crear
+
+Las [audiencias de Adobe Real-Time Customer Data Platform (RTCDP)](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines#add-audiences) están disponibles en el flujo de trabajo [!DNL Create] para que pueda generar experiencias en masa en las definiciones de audiencia junto con las directrices existentes.
+
+### Canal de visualización Innovid en [!DNL Insights]
+
+Innovid aparece ahora como un canal de visualización en [!DNL Insights], por lo que puede revisar el rendimiento de la campaña y la publicidad junto a Meta, LinkedIn, TikTok y otras fuentes conectadas en un solo lugar, con métricas actualizadas diariamente.
+
+Utilice Innovid para evaluar las impresiones, los clics y la tasa de pulsaciones.
+
+### Activación de LinkedIn con un solo recurso de vídeo
+
+Ahora puede [activar experiencias de anuncios de LinkedIn que usen un solo recurso de vídeo](/help/user-guide/activation/activate-linkedin-ad.md) para LinkedIn Campaign Manager desde GenStudio for Performance Marketing, siguiendo el mismo flujo de activación de extremo a extremo que usa para los anuncios estáticos de LinkedIn.
+
+### Traducción predeterminada para experiencias de medios de pago y correo electrónico
+
+Ahora usa la tarjeta **[!UICONTROL Traducir y localizar]** en la [Crear página de inicio](/help/user-guide/create/overview.md), o elige **[!UICONTROL Traducir]** del menú de acciones en una experiencia de medios pagados o de correo electrónico aprobada en [Administrar recursos y experiencias](/help/user-guide/content/manage-assets.md), para traducir contenido
+
+Para medios de pago, traduzca el contenido a **40+** idiomas en un solo flujo.
+
+Para correo electrónico, traduzca el contenido a **más de 10** idiomas compatibles en un solo flujo.
+
+### Conexión DAM de terceros para recursos de plantilla
+
+Las organizaciones ahora pueden usar un complemento registrado para **conectar su propio repositorio de administración de recursos digitales (DAM)** para que los autores puedan examinar y seleccionar los medios de ese sistema en el flujo de parámetros de la plantilla.
+
+Consulte [Buscar extensiones DAM](/help/extensibility/deploy-app.md#find-dam-extensions) y [Empezar a crear aplicaciones ampliables](/help/extensibility/setup.md) para ver cómo se crean y distribuyen los complementos.
+
+### Microfront-end del selector de experiencias para integraciones
+
+**Selector de experiencia** incorpora GenStudio en aplicaciones de socios y personalizadas. Incruste el microfront-end (MFE) para ofrecer exploración, filtrado y selección en una aplicación asociada o personalizada con una interfaz de usuario e inicio de sesión coherentes que se ajusten a su integración.
+
+Adopte el paquete independiente, las opciones de configuración y los patrones de incrustación en [GenStudio Experience Selector MFE](/help/extensibility/experience-selector.md). Su equipo enviará la experiencia del selector sin reconstruir la UX de selección desde cero.
+
+### Modelos personalizados en Firefly Image Model 4
+
+[Generar imágenes](/help/user-guide/create/generate-assets.md) en [!DNL Create]. La lista **[!UICONTROL Modelo] ahora incluye modelos personalizados entrenados en el Modelo de imagen 4 de Adobe Firefly** para el trabajo de **texto a imagen** y **texto a imagen** que refleja el entrenamiento del Modelo de imagen 4, no solo modelos personalizados basados en el Modelo de imagen 3 más antiguos.
+
+Permanece en el mismo flujo de [!DNL Create] mientras que la nueva base de Firefly potencia la generación segura de la marca con los modelos con formación en Image Model 4. Los parámetros y los indicadores se comportan como los otros modelos seleccionados, no hay ningún flujo de trabajo paralelo que se ponga de pie.
+
+### Plantillas rápidas en lienzo de Horizonte (Meta, LinkedIn y Display)
+
+Las plantillas **Horizon Canvas** y Adobe Express ahora están **disponibles de forma general** para **Meta**, **LinkedIn** y **Display** en [!DNL Create]. Los diseños de varios tamaños, los diseños Express listos para el movimiento (cuando son compatibles), los bloqueos de capas y la edición de WYSIWYG reemplazan el antiguo cuello de botella de las plantillas de HTML para esos canales, por lo que los equipos envían creatividad en la marca más rápido.
+
+Lea [Uso de plantillas de Adobe Express en GenStudio for Performance Marketing](/help/user-guide/templates/express-templates.md) para ver los formatos compatibles, las plantillas iniciales y personalizadas y las funciones de lienzo. El tema detalla la compatibilidad específica con el canal a medida que escala los diseños exprés.
+
+### Exportación de PDF para revisión y archivo
+
+[!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
+
+Puede [exportar experiencias a PDF](/help/user-guide/content/manage-assets.md#export-experiences) desde la exportación de borrador en el lienzo [!DNL Create] y desde experiencias aprobadas en [!DNL Content], lo que produce un documento no editable para la revisión de partes interesadas, los registros de aprobación y el archivo, especialmente cuando los equipos necesitan una instantánea fija para el cumplimiento o los flujos de trabajo de revisión regulados.
+
+## Notas de la versión anteriores
+
++++Notas a partir del 15 de marzo de 2026
 
 ### Plantillas rápidas para Meta, LinkedIn y Display
 
@@ -69,7 +139,7 @@ Explore los detalles de [Uso de plantillas de Adobe Express en GenStudio for Per
 
 Ahora puede crear, aprobar y activar anuncios de vídeo en fuente de TikTok desde GenStudio for Performance Marketing. Genere anuncios fácilmente en el flujo de trabajo [!DNL Create] y luego publique la experiencia en [!DNL Content]. Use [!DNL Insights] para TikTok con el fin de supervisar el rendimiento e informar a la siguiente actualización creativa.
 
-## Notas de la versión anteriores
++++
 
 +++Notas a partir del 15 de enero de 2026
 
@@ -306,7 +376,7 @@ Junto con el contenido de la imagen, ahora puedes agregar videos a los anuncios 
 
 ### Correcciones y mejoras
 
-* Se agregó compatibilidad con [publicar experiencias de anuncios](/help/user-guide/activation/activate-linkedin-ad.md) de GenStudio for Performance Marketing en el Administrador de campañas de LinkedIn. [!DNL Activate] admite vistas previas de anuncios detallados de LinkedIn antes de publicarlos en el Administrador de campañas de LinkedIn.
+* Se agregó compatibilidad con [publicar experiencias de anuncios](/help/user-guide/activation/activate-linkedin-ad.md) de GenStudio for Performance Marketing en el Administrador de campañas de LinkedIn. [!DNL Activate] admite vistas previas de anuncios detallados de LinkedIn antes de publicar en el Administrador de campañas de LinkedIn.
 
 * La [integración de Workfront Proof](/help/user-guide/approvals/overview.md) ofrece a GenStudio for Performance Marketing las sólidas capacidades de revisión y aprobación de Proof. El contenido revisado en GenStudio for Performance Marketing se sincroniza con Workfront Proof y los comentarios de revisión y el estado se conservan.
 
@@ -350,7 +420,7 @@ Junto con el contenido de la imagen, ahora puedes agregar videos a los anuncios 
 
 ### Activar anuncios de Meta
 
-Los especialistas en marketing ahora pueden [publicar experiencias de anuncios](/help/user-guide/activation/overview.md) de GenStudio for Performance Marketing en el Administrador de Meta Ads. [!DNL Activate] admite Meta detallado y vistas previas antes de la implementación. Los anuncios de Meta publicados a través de [!DNL Activate] se incorporan automáticamente a [!DNL Insights] una vez publicados, lo que permite a los usuarios realizar un seguimiento y generar informes sobre el rendimiento de los anuncios.
+Los especialistas en marketing ahora pueden [publicar experiencias de anuncios](/help/user-guide/activation/overview.md) de GenStudio for Performance Marketing en el Administrador de Meta Ads. [!DNL Activate] admite vistas previas de anuncios detallados de Meta antes de la implementación. Los anuncios de Meta publicados a través de [!DNL Activate] se incorporan automáticamente a [!DNL Insights] una vez publicados, lo que permite a los usuarios realizar un seguimiento y generar informes sobre el rendimiento de los anuncios.
 
 ### Creación de experiencias de LinkedIn
 
@@ -625,7 +695,7 @@ Esta versión presenta Adobe GenStudio for Performance Marketing, una aplicació
 
 Las principales funciones del producto incluyen:
 
-**[!DNL Create]** presenta el lienzo, que ofrece una experiencia de mensaje estructurada que permite a los editores de contenido generar rápidamente contenido y variantes. Los administradores de sistemas entrenan el producto en directrices de marca organizativas. [!DNL Create] garantiza que todo el contenido generado por IA se ajuste a las directrices de marca (marca, personalidades del cliente y descripciones de productos) y optimiza la producción de contenido de marketing de alto impacto y coherente con la marca.
+**[!DNL Create]** presenta el lienzo, que ofrece una experiencia de mensaje estructurada que permite a los editores de contenido generar rápidamente contenido y variantes. Los administradores de sistemas entrenan el producto en directrices de marca organizativas. [!DNL Create] garantiza que todo el contenido generado por IA se ajuste a las directrices de marca (marca, perfiles de clientes y descripciones de productos) y optimiza la producción de contenido de marketing de alto impacto y coherente con la marca.
 
 **[!DNL Content]** almacena recursos y experiencias aprobados seleccionados y compatibles con la marca. Los usuarios de GenStudio for Performance Marketing pueden encontrar, editar, reutilizar y compartir fácilmente los recursos aprobados, lo que reduce la necesidad de volver a crear contenido desde cero para cada campaña.
 
