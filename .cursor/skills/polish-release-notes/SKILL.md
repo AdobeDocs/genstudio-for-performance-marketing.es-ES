@@ -2,9 +2,9 @@
 name: polish-release-notes
 description: ""
 notes: refines only newly added
-source-git-commit: 1a33b08048233c5f9a82b5f428082aa5c71b0052
+source-git-commit: ee2875f35035e23e2577adbde5f408702b77d233
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -46,27 +46,38 @@ Mantener diferencias **mínimas**: solo saltos de párrafo y redacción, sin ref
 - **Contenido de procedimientos &quot;**&quot;: pasos numerados, &quot;haga clic en **[!UICONTROL ...]** y luego...&quot;, tutoriales completos de la interfaz de usuario o frases de tutoriales. Las notas de la versión resumen **lo que se envió** y **por qué importa**, no lecciones prácticas.
 - Contenido que viola [Contenido prohibido](../generate-release-notes/SKILL.md#prohibited-content) en la aptitud generada (sin claves Jira, URL solo internas, wiki como prueba, etc.).
 
-## Conservar (no eliminar ni reescribir estructuralmente)
+## Eliminar durante el pulido (programación de versiones)
 
-- `[!DNL …]`, `[!UICONTROL …]`, `[!BADGE …]` y otros códigos abreviados de ExL.
-- Vínculos de documentación y patrones de anclaje **relativos** existentes: `[phrase](/help/...)` en texto de anclaje significativo.
-- Los bloques de distintivo de Beta son exactamente los mismos que se usan en [generate-release-notes example](../generate-release-notes/examples.md).
+Drafts sometimes include **italicized** lines (`_…_` or `*…*`) about **availability**—for example limited release, Summit timing, GA, broader rollout, or Beta **windows**. That language belongs in **release management**, not in polished customer-facing notes for this page.
 
-## Lista de comprobación de flujo
+- **Remove entirely** those **italic** lines or **trailing italic clauses** when their **primary purpose** is scheduling or rollout status (including **GA**, **limited release**, **Summit**, or similar).
+- **Do not** strip ordinary (non-italic) sentences that describe product behavior—only scheduling copy that was set in **italics** as a disclaimer.
+- **Keep** the **[!BADGE Beta]** block when the feature is Beta; the badge is the supported pattern for Beta, not a separate italic scheduling line.
+- After removal, **tighten surrounding prose** if a paragraph now starts or ends awkwardly; do not replace removed italics with new scheduling sentences unless the user explicitly asks.
 
-1. [ ] Confirmar **qué** `###` bajo `## … {#latest}` están en el ámbito (nuevo en esta ronda).
-2. [ ] Para cada `###` en el ámbito, ajuste la copia según [voz y tono](#voice-and-tone) y [reglas de párrafo](#paragraph-rules).
-3. [ ] Eliminar o acortar cualquier instrucción de **procedimientos**; conservar **resultados de usuario**.
-4. [ ] Verifique que los vínculos y los códigos abreviados sigan siendo válidos; realice un análisis rápido de los identificadores internos o los patrones prohibidos según [comprobaciones de calidad](#quality-checks).
+## Preserve (do not strip or rewrite structurally)
 
-## Comprobaciones de calidad
+- `[!DNL …]`, `[!UICONTROL …]`, `[!BADGE …]`, and other ExL shortcodes.
+- Existing **relative** documentation links and anchor patterns: `[phrase](/help/...)` on meaningful anchor text.
+- Beta badge blocks exactly as used in [generate-release-notes examples](../generate-release-notes/examples.md).
 
-- [ ] Solo cambiaron los **nuevos** `###` bloques acordados menores de `{#latest}`; no se tocaron los archivos ni los meses anteriores.
-- [ ] No hay ID nuevos de estilo Jira, URL de wiki internas ni idioma de &quot;ver ticket&quot;.
-- [ ] párrafos son **2-3 frases** cada una (máximo tres frases por párrafo).
-- [ ] La copia permanece **objetiva** y alineada con la capacidad descrita.
+## Workflow checklist
+
+1. [ ] Confirm **which** `###` under `## … {#latest}` are in scope (new this round).
+2. [ ] For each in-scope `###`, tighten copy per [Voice and tone](#voice-and-tone) and [Paragraph rules](#paragraph-rules).
+3. [ ] Remove or shorten any **how-to** instructions; keep **user outcomes**.
+4. [ ] Strip **italic (or italic-styled) scheduling and availability** lines per [Remove during polish (release scheduling)](#remove-during-polish-release-scheduling).
+5. [ ] Verify links and shortcodes still valid; run a quick scan for internal IDs or banned patterns per [Quality checks](#quality-checks).
+
+## Quality checks
+
+- [ ] Only the agreed **new** `###` blocks under `{#latest}` changed; archives and older months untouched.
+- [ ] No new Jira-style IDs, internal wiki URLs, or “see ticket” language.
+- [ ] No **scheduling-only** italic disclaimers (GA, limited release, Summit rollout, etc.) remain in polished `{#latest}` subsections—those were removed per [Remove during polish (release scheduling)](#remove-during-polish-release-scheduling); Beta badge blocks are fine where applicable.
+- [ ] Paragraphs are **2–3 sentences** each (max three sentences per paragraph).
+- [ ] Copy stays **factual** and aligned with the described capability.
 
 ## Recursos adicionales
 
-- [samples.md](examples.md) — patrones antes/después.
-- [generate-release-notes](../generate-release-notes/SKILL.md): redacción, archivado, distintivos de Beta y vinculación.
+- [examples.md](examples.md) — before/after patterns.
+- [generate-release-notes](../generate-release-notes/SKILL.md) — drafting, archival, Beta badges, linking.
