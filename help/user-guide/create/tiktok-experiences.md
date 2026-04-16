@@ -5,26 +5,15 @@ feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Conten
 role: User
 level: Beginner
 TQID: https://experienceleague.adobe.com/aK9mP2vR8xT4nW6yB1cF3hJ5kL7mN9pQ2rS4tU6vW8x
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 5f02a3076ca875f9819e5da55824bbf9c5337bb4
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 4d6a7fafb895ad1e2429978c8ee58d750fff8970
 workflow-type: tm+mt
-source-wordcount: 896
-ht-degree: 100%
+source-wordcount: 931
+ht-degree: 89%
 
 ---
 
@@ -32,7 +21,7 @@ ht-degree: 100%
 
 Con [!DNL GenStudio for Performance Marketing], puede crear anuncios de TikTok como experiencias de medios de pago en el flujo de trabajo [[!DNL Create]](/help/user-guide/create/overview.md). Genere variantes creativas, ejecute comprobaciones de marca y canal, publique en [!DNL Content] y actívelo a través de [[!DNL Activate]](/help/user-guide/activation/overview.md) para entregar contenido al administrador de TikTok Ads para su revisión final y lanzamiento.
 
-TikTok en [!DNL GenStudio for Performance Marketing] encaja en un flujo de trabajo omnicanal más amplio: puede analizar el rendimiento de la campaña de TikTok y de la publicidad en [[!DNL Insights]](/help/user-guide/insights/overview.md) junto con otros canales sociales y de visualización (como Meta y LinkedIn), en lugar de cambiar a herramientas de creación de informes independientes.
+TikTok en [!DNL GenStudio for Performance Marketing] encaja en un flujo de trabajo omnicanal más amplio: puede analizar el rendimiento de las campañas y los anuncios de TikTok en las vistas estándar de [!DNL Insights]: [!UICONTROL Campañas], [!UICONTROL Anuncios], [!UICONTROL Medios] y [!UICONTROL Atributos], en [[!DNL Insights]](/help/user-guide/insights/overview.md#dashboard) junto con otros canales sociales y de visualización (como Meta y LinkedIn), en lugar de cambiar a herramientas de sistema de informes independientes. La descripción general de **[!UICONTROL Insights 2.0]** en canales múltiples ([Información general sobre Insights — Insights 2.0](/help/user-guide/insights/overview.md#insights-20)) se centra únicamente en Meta y LinkedIn; TikTok no se incluye allí en este momento.
 
 [!DNL Insights] muestra métricas, entre ellas:
 
@@ -77,7 +66,7 @@ Un administrador del sistema ha conectado su cuenta de TikTok Ads en [!DNL Activ
 
 ### Iniciar una experiencia de TikTok
 
-![Canal de TikTok en el flujo de trabajo de creación](../../assets/tiktok/create-tiktok-experience.png){width="90%"}
+![Canal de TikTok en el flujo de trabajo Crear](../../assets/tiktok/create-tiktok-experience.png){width="90%"}
 **Para iniciar una experiencia de TikTok**:
 
 1. Vaya a **[!UICONTROL Crear]** y elija **[!UICONTROL TikTok]**.
@@ -183,7 +172,7 @@ Aparece un modal _Publicación en curso_ que se cierra automáticamente. Se le r
 
 ![Modo de publicación de GenStudio](../../assets/tiktok/publishing-modal.png){width="30%"}
 
-La tabla de activación muestra las activaciones más recientes, con un estado **Pendiente** mientras se completa el procesamiento. Puede salir mientras se completa la publicación.
+La tabla de activación muestra las activaciones más recientes, con un estado **Pendiente** mientras se completa el procesamiento.Puede salir mientras se completa la publicación.
 
 ![página de detalles de TikTok](../../assets/tiktok/tiktok-details-page.png){width="90%"}
 
