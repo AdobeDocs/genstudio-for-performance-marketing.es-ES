@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 4d6a7fafb895ad1e2429978c8ee58d750fff8970
 workflow-type: tm+mt
-source-wordcount: 675
+source-wordcount: 943
 ht-degree: 0%
 
 ---
@@ -42,6 +42,24 @@ En el panel [!DNL Insights], puede:
 - **Optimizar contenido de bajo rendimiento**: encuentre contenido que no funcione bien y use la IA generativa integrada para crear variaciones inmediatamente, lo que podría mejorar su eficacia sin comenzar desde cero.
 - **Revitalizar contenido de alto rendimiento**: tome contenido exitoso y ajústelo para actualizar el anuncio para la audiencia o adapte el contenido a pantalla completa para usarlo en nuevas campañas, lo que podría extender su ciclo de vida y rendimiento.
 
+El módulo [!DNL Insights] incluye **[!UICONTROL Insights 2.0]**, una experiencia de rendimiento en canales múltiples para redes sociales de pago. Funciona junto con la tabla detallada y las vistas de galería en la sección [Tablero](#dashboard) de este artículo.
+
+## Insights 2.0 {#insights-20}
+
+**[!UICONTROL Insights 2.0]** ofrece una capa de inteligencia de rendimiento que ofrece a los especialistas en marketing una visión clara del rendimiento del marketing social de pago en todas las cuentas conectadas.
+
+**En [!UICONTROL Insights 2.0], puede:**
+
+- **Revise la información general de canales múltiples o de un solo canal (Meta y LinkedIn)**: vea una instantánea consolidada en ambos canales sociales de pago o explore en profundidad un canal.
+- **Usar el informe de rendimiento entre canales**: vea la proporción de resultados de cada canal con una visualización de la contribución porcentual, que incluye el gasto total (porcentaje e cantidad) y las métricas de participación en el rendimiento como CTR, CPC y CPM.
+- **Usar el informe de rendimiento de anuncios**: identifique anuncios de alto y bajo rendimiento con clasificaciones y métricas que admitan decisiones de optimización.
+- **Analizar las métricas de conversión de Meta**: Céntrese en las conversiones con visibilidad sobre el CPA en todas las etapas de funnel (por ejemplo, visitas comprometidas, solicitudes de información, inicio de aplicaciones, clientes potenciales y finalización de aplicaciones) y revise las tendencias de conversión a lo largo del tiempo, con datos de conversión disponibles en GenStudio for Performance Marketing.
+- **Explorar información de las etiquetas de publicidad**: Los identificadores de seguimiento de anuncios se analizan en etiquetas estructuradas para que pueda analizar el rendimiento por las dimensiones que defina (como call to action, geografía, formato o concepto), ver la asignación de presupuesto en esas dimensiones y dedicar menos tiempo a descodificar manualmente las convenciones de nomenclatura.
+
+>[!NOTE]
+>
+>**[!UICONTROL Insights 2.0]** actualmente incluye SOLAMENTE **Meta** y **LinkedIn**. TikTok, DV360 e Innovid no se incluyen en la descripción general de **[!UICONTROL Insights 2.0]** en este momento. Las vistas de **[!UICONTROL Campañas]**, **[!UICONTROL Anuncios]**, **[!UICONTROL Medios]** y **[!UICONTROL Atributos]** de la sección [Tablero](#dashboard) siguen admitiendo el conjunto de canales más amplio descrito en [Canales admitidos](#channels-supported).
+
 ## Conectores de datos
 
 La primera vez que abra [!DNL Insights], verá un banner que le guiará para conectar Adobe GenStudio for Performance Marketing con una cuenta de canal.
@@ -50,7 +68,7 @@ Esta conexión permite que GenStudio for Performance Marketing reciba datos esta
 
 {{connect-insights}}
 
-## Canales admitidos
+## Canales admitidos {#channels-supported}
 
 Los canales admitidos en Insights son Meta, LinkedIn, TikTok, DV360 e Innovid.
 
@@ -60,7 +78,7 @@ En este momento, los datos de medios no están disponibles para DV360 e Innovid,
 
 Esta limitación se debe a restricciones en las propias plataformas de medios de pago y no a un problema con GenStudio for Performance Marketing.
 
-## Panel de control
+## Panel de control {#dashboard}
 
 El panel [!DNL Insights] tiene una tabla configurable para cada tipo de contenido: [!UICONTROL Canales], [!UICONTROL Anuncios], [!UICONTROL Medios] y [!UICONTROL Atributos].
 

@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 5f02a3076ca875f9819e5da55824bbf9c5337bb4
+source-git-commit: 4d6a7fafb895ad1e2429978c8ee58d750fff8970
 workflow-type: tm+mt
-source-wordcount: 896
-ht-degree: 100%
+source-wordcount: 931
+ht-degree: 89%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 Con [!DNL GenStudio for Performance Marketing], puede crear anuncios de TikTok como experiencias de medios de pago en el flujo de trabajo [[!DNL Create]](/help/user-guide/create/overview.md). Genere variantes creativas, ejecute comprobaciones de marca y canal, publique en [!DNL Content] y actívelo a través de [[!DNL Activate]](/help/user-guide/activation/overview.md) para entregar contenido al administrador de TikTok Ads para su revisión final y lanzamiento.
 
-TikTok en [!DNL GenStudio for Performance Marketing] encaja en un flujo de trabajo omnicanal más amplio: puede analizar el rendimiento de la campaña de TikTok y de la publicidad en [[!DNL Insights]](/help/user-guide/insights/overview.md) junto con otros canales sociales y de visualización (como Meta y LinkedIn), en lugar de cambiar a herramientas de creación de informes independientes.
+TikTok en [!DNL GenStudio for Performance Marketing] encaja en un flujo de trabajo omnicanal más amplio: puede analizar el rendimiento de las campañas y los anuncios de TikTok en las vistas estándar de [!DNL Insights]: [!UICONTROL Campañas], [!UICONTROL Anuncios], [!UICONTROL Medios] y [!UICONTROL Atributos], en [[!DNL Insights]](/help/user-guide/insights/overview.md#dashboard) junto con otros canales sociales y de visualización (como Meta y LinkedIn), en lugar de cambiar a herramientas de sistema de informes independientes. La descripción general de **[!UICONTROL Insights 2.0]** en canales múltiples ([Información general sobre Insights — Insights 2.0](/help/user-guide/insights/overview.md#insights-20)) se centra únicamente en Meta y LinkedIn; TikTok no se incluye allí en este momento.
 
 [!DNL Insights] muestra métricas, entre ellas:
 
@@ -77,7 +77,7 @@ Un administrador del sistema ha conectado su cuenta de TikTok Ads en [!DNL Activ
 
 ### Iniciar una experiencia de TikTok
 
-![Canal de TikTok en el flujo de trabajo de creación](../../assets/tiktok/create-tiktok-experience.png){width="90%"}
+![Canal de TikTok en el flujo de trabajo Crear](../../assets/tiktok/create-tiktok-experience.png){width="90%"}
 **Para iniciar una experiencia de TikTok**:
 
 1. Vaya a **[!UICONTROL Crear]** y elija **[!UICONTROL TikTok]**.
@@ -183,7 +183,7 @@ Aparece un modal _Publicación en curso_ que se cierra automáticamente. Se le r
 
 ![Modo de publicación de GenStudio](../../assets/tiktok/publishing-modal.png){width="30%"}
 
-La tabla de activación muestra las activaciones más recientes, con un estado **Pendiente** mientras se completa el procesamiento. Puede salir mientras se completa la publicación.
+La tabla de activación muestra las activaciones más recientes, con un estado **Pendiente** mientras se completa el procesamiento.Puede salir mientras se completa la publicación.
 
 ![página de detalles de TikTok](../../assets/tiktok/tiktok-details-page.png){width="90%"}
 

@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 4d6a7fafb895ad1e2429978c8ee58d750fff8970
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: 665
 ht-degree: 0%
 
 ---
@@ -90,4 +90,4 @@ Ver [Cargar recursos aprobados](/help/user-guide/content/manage-assets.md).
 
 ### Paso 5: Conectarse a una cuenta de medios de pago
 
-Configure una conexión entre GenStudio for Performance Marketing y sus cuentas de medios de pago para recibir datos de campañas de marketing, recursos y experiencias activos. Use [!DNL Insights] para analizar datos derivados del canal. Ver [Conectar cuenta de medios pagados](/help/user-guide/connectors/connect-channel.md).
+Configure una conexión entre GenStudio for Performance Marketing y sus cuentas de medios de pago para recibir datos de campañas de marketing, recursos y experiencias activos. Use [!DNL Insights] to analyze channel-derived data, including the **[!UICONTROL Insights 2.0]** cross-channel overview when you work with Meta and LinkedIn ([Overview of Insights](/help/user-guide/insights/overview.md#insights-20)). See [Connect paid media account](/help/user-guide/connectors/connect-channel.md).
