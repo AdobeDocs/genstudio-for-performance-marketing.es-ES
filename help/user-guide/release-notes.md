@@ -1,5 +1,5 @@
 ---
-title: Adobe GenStudio for Performance Marketing Release Notes
+title: Notas de la versión de Adobe GenStudio for Performance Marketing
 description: Obtenga información sobre las últimas funciones y mejoras de Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
 role: User
@@ -39,74 +39,44 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 45495ee2df117d6c9d87324fc1ac421387fd3032
+source-git-commit: f7f72c23c8bc7a52040af2c897b94d107a7c95bf
 workflow-type: tm+mt
-source-wordcount: 4994
+source-wordcount: 4727
 ht-degree: 0%
 
 ---
 
-# GenStudio for Performance Marketing release notes
+# Notas de la versión de GenStudio for Performance Marketing
 
-This release information provides the latest updates to the GenStudio for Performance Marketing application.
+Esta información de la versión proporciona las últimas actualizaciones para la aplicación de GenStudio for Performance Marketing.
 
 ## 2026.04.16 {#latest}
 
-### New [!DNL Insights] 2.0 overview
+### Recomendaciones según el contexto en [!DNL Create]
 
-Version 2.0 of [[!DNL Insights]](/help/user-guide/insights/overview.md) brings **Meta** and **LinkedIn** performance together in one workspace. Cross-channel and channel-specific snapshots, contribution-style reporting, and high- and low-performing ad views make it easier to see where spend is working.
+En el [flujo de trabajo de creación](/help/user-guide/create/overview.md), **[!UICONTROL Seleccionar del contenido]** ahora se abre con la ordenación **[!UICONTROL Relevancia]**, por lo que la cuadrícula refleja [!DNL Brands], [!DNL Products], [!DNL Personas] e idiomas en el cajón de mensajes.
 
-### [!DNL Insights] from Ad tags
+O si la actualización debería llevar a un ajuste contextual, cambie a **[!UICONTROL Añadidos recientemente]**.
 
-**Insights from Ad Tags** divides tracking IDs into tag dimensions you can analyze alongside performance (like cost, engagement, conversions, and more) without exporting ad names to spreadsheets. Stronger and weaker tag values surface in the experience so your naming convention becomes something you can steer, not something you decode offline.
+### Anuncios de TV (CTV) conectados en [!DNL Create]
 
-### Context-aware recommendations in [!DNL Create]
+**Adobe GenStudio para CTV** permite a los especialistas en marketing de rendimiento publicar anuncios CTV compatibles de alta calidad mediante un flujo de trabajo optimizado con prioridad GenAI, desde el inicio hasta el inicio.
 
-In the [creation workflow](/help/user-guide/create/overview.md), **[!UICONTROL Select from content]** now opens with **[!UICONTROL Relevance]** sorting, so the grid reflects the [!DNL Brands], [!DNL Products], [!DNL Personas], and languages in your prompt drawer.
+Puede ensamblar escenas, apoyarse en la ayuda de IA generativa cuando aún faltan audio o imágenes, refinar escena por escena y luego exportar o guardar en [!DNL Content] después de la revisión.
 
-Or if recency should lead instead of contextual fit, switch to **[!UICONTROL Recently Added]**.
+### HTML5 muestra plantillas, variaciones y cambia de tamaño
 
-### Content Fragment Swap in HTML Canvas
+Puede **cargar un archivo zip de HTML5 basado en DOM para desarrollar una plantilla de visualización** en [!DNL Create], producir variaciones de anuncios de HTML5 y cambiar el tamaño de los elementos creativos a proporciones de aspecto adicionales. Las experiencias finalizadas se pueden activar en [Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md) y [[!DNL Innovid]](/help/user-guide/activation/activate-innovid-ad.md).
 
-For [email experiences](/help/user-guide/create/create-email-experience.md) on the HTML Canvas, **assemble email experiences using three slot types in a single canvas**:
+## Notas de la versión anteriores
 
-* Generative slots (AI-generated copy)
-* Content Fragment slots (pre-approved Content Fragments selected from a connected AEM repository via the Content Advisor MFE)
-* Locked slots (immutable fields such as legal disclaimers)
++++Notas a partir del 15 de marzo de 2026
 
-These content fragments exist together in the same canvas so modular, approved copy ships without rebuilding HTML by hand.
+### Plantillas rápidas para Meta, LinkedIn y Display
 
-### Create [!DNL Brands], [!DNL Products], and [!DNL Personas] from a URL
+[!DNL Create] ahora admite [plantillas Express en el lienzo de Horizon](/help/user-guide/templates/express-templates.md) para Meta, LinkedIn y Display. Puede utilizar plantillas de Adobe Express, incluidas las plantillas de inicio y los diseños de marca personalizados, directamente en el flujo de trabajo de creación.
 
-Create [!DNL Brands], [!DNL Products], or [!DNL Personas] starting from a public, branded URL, with outputs grounded in what the brand publishes online.
-
-Brand guidelines can generate in one automatic pass. Products and Personas start from suggested candidates you confirm before full details are created.
-
-### Connected TV (CTV) ads in [!DNL Create]
-
-**Adobe GenStudio for CTV** enables performance marketers to self-serve high-quality, compliant CTV ads through a streamlined, GenAI-first workflow from brief to launch.
-
-You can assemble scenes, lean on generative AI help when audio or visuals are still missing, refine scene by scene, then export or save to [!DNL Content] after review.
-
-### HTML5 display templates, variations, and resize
-
-You can **upload a DOM-based HTML5 zip file to develop a display template** in [!DNL Create], produce HTML5 ad variations, and resize creative to additional aspect ratios. Finished experiences can be activated to [Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md) and [[!DNL Innovid]](/help/user-guide/activation/activate-innovid-ad.md).
-
-### Firefly Creative Production workflows in GenStudio
-
-[!BADGE Beta]{type=Informative tooltip="This feature is currently in Beta, so some functionality may be limited or subject to change."}
-
-**Firefly Creative Production** workflows can be published and run from GenStudio for Performance Marketing, so marketers can perform production runs in-app, download deliverables, and route finished assets to [[!DNL Content]](/help/user-guide/content/overview.md) with fewer tool hops.
-
-## Earlier release notes
-
-+++Notes from 2026.03.15
-
-### Express templates for Meta, LinkedIn, and Display
-
-[!DNL Create] now supports [Express templates on the Horizon Canvas](/help/user-guide/templates/express-templates.md) for Meta, LinkedIn, and Display. You can use Adobe Express templates—including starter templates and custom branded layouts—directly in the creation workflow.
-
-The canvas supports template features including:
+El lienzo admite funciones de plantilla, entre las que se incluyen:
 
 * varios tamaños por plantilla
 * Bloqueos de capa y opciones de desbloqueo establecidas en Express
@@ -133,7 +103,7 @@ Ahora puede crear correos electrónicos con hasta 10 pods/secciones en [!DNL Cre
 
 ### Content Credentials para la autenticidad de recursos
 
-[!BADGE Beta]{type=Informative tooltip="This feature is currently in Beta, so some functionality may be limited or subject to change."}
+[!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
 
 GenStudio for Performance Marketing ahora es compatible con Content Credentials, lo que permite a los equipos aplicar y conservar metadatos de autenticidad en los recursos a lo largo de la creación, revisión y exportación. Los distintivos y detalles de credenciales aparecen en los flujos de trabajo clave para que las organizaciones puedan verificar la procedencia y mantener la confianza al compartir contenido.
 
@@ -166,7 +136,7 @@ Los especialistas en marketing ahora pueden intercambiar dinámicamente logotipo
 
 ### Exportación de PDF para experiencias
 
-[!BADGE Beta]{type=Informative tooltip="This feature is currently in Beta, so some functionality may be limited or subject to change."}
+[!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
 
 * Los especialistas en marketing ahora pueden [exportar experiencias al formato PDF](/help/user-guide/content/manage-assets.md#export-experiences) para su revisión, aprobación y archivo.
 
@@ -284,7 +254,7 @@ Explore los detalles de [las instrucciones del Editor de código de plantilla](/
 
 ### Nuevos modelos de generación de imágenes de Firefly compatibles
 
-[!BADGE Beta]{type=Informative tooltip="This feature is currently in Beta, so some functionality may be limited or subject to change."}
+[!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
 
 Adobe GenStudio for Performance Marketing ahora es compatible con el último grupo de Firefly Image Model 4, incluidas dos variantes potentes:
 
@@ -296,7 +266,7 @@ Consulte [Generar recursos](/help/user-guide/create/generate-assets.md) para obt
 
 ### Traducción lista para usar para correo electrónico
 
-[!BADGE Beta]{type=Informative tooltip="This feature is currently in Beta, so some functionality may be limited or subject to change."}
+[!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
 
 Adobe GenStudio for Performance Marketing ahora ofrece funcionalidades integradas de traducción de correo electrónico que permiten a los especialistas en marketing escalar de forma eficaz sus campañas de correo electrónico a nivel global. Esta función le permite tomar una experiencia de correo electrónico aprobada y traducirla a varios idiomas de destino mediante los servicios de traducción de Azure Open AI.
 
@@ -322,13 +292,13 @@ Agregue etiquetas de accesibilidad (Aria-labels) a las imágenes y a los víncul
 
 ### Generación de contenido que no esté en inglés
 
-[!BADGE Beta]{type=Informative tooltip="This feature is currently in Beta, so some functionality may be limited or subject to change."}
+[!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
 
 El nuevo menú desplegable Selector de idioma del cajón de mensajes admite la creación de contenido multilingüe, lo que permite a los especialistas en marketing regional desarrollar contenido de marca para sus audiencias locales. Actualmente, esta función es compatible con 12 idiomas de GA y 5 idiomas de Beta, con una lista de idiomas que proporciona un flujo de trabajo definido y una directiva de idioma clara a la LLM para obtener resultados más coherentes.
 
 ### Selección de plantilla opcional para anuncios de Meta
 
-[!BADGE Beta]{type=Informative tooltip="This feature is currently in Beta, so some functionality may be limited or subject to change."}
+[!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
 
 La selección de plantillas ahora es opcional con los anuncios de Meta, lo que permite a los usuarios crear anuncios sin necesidad de texto y logotipo en la parte superior del contenido. Esta mejora permite otros tipos de medios, como GIF animados y vídeos, que pueden no requerir superposiciones de texto o la colocación de logotipos.
 
@@ -338,19 +308,19 @@ La selección de plantillas ahora es opcional con los anuncios de Meta, lo que p
 
 ### Plantillas iniciales disponibles
 
-[!BADGE Beta]{type=Informative tooltip="This feature is currently in Beta, so some functionality may be limited or subject to change."}
+[!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
 
 [Las plantillas de inicio](/help/user-guide/templates/starter-templates.md) proporcionan una forma de iniciar el proceso creativo. Ahora puede seleccionar una plantilla de inicio de anuncio de Meta o LinkedIn.
 
 ### Funcionalidad de IA expandida generativa
 
-[!BADGE Beta]{type=Informative tooltip="This feature is currently in Beta, so some functionality may be limited or subject to change."}
+[!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
 
 Ahora, en GenStudio for Performance Marketing [!DNL Create] puede usar [Generative Expand AI capability](/help/user-guide/create/manage-variants.md#use-generative-expand) para expandir las dimensiones de las imágenes y agregar contenido generativo para ajustar sus plantillas de anuncios en variantes de medios de pago.
 
 ### Añadir vídeos a anuncios
 
-[!BADGE Beta]{type=Informative tooltip="This feature is currently in Beta, so some functionality may be limited or subject to change."}
+[!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
 
 Junto con el contenido de la imagen, ahora puedes agregar videos a los anuncios de [LinkedIn](/help/user-guide/create/create-linkedin.md#manage-videos) y [Meta](/help/user-guide/create/create-meta-ad.md#manage-videos). Consulte la vista previa de reproducción automática de los vídeos directamente en GenStudio for Performance Marketing a medida que elige y añada vídeos a sus variantes.
 
@@ -404,13 +374,13 @@ Los especialistas en marketing ahora pueden [publicar experiencias de anuncios](
 
 ### Creación de experiencias de LinkedIn
 
-[!BADGE Beta]{type=Informative tooltip="This feature is currently in Beta, so some functionality may be limited or subject to change."}
+[!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
 
 Se agregó compatibilidad con [la creación de experiencias de LinkedIn](/help/user-guide/create/create-linkedin.md). Consulte la ficha [Anuncio de LinkedIn](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) en las directrices específicas del canal.
 
 ### Crear experiencias de banner
 
-[!BADGE Beta]{type=Informative tooltip="This feature is currently in Beta, so some functionality may be limited or subject to change."}
+[!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
 
 Se agregó compatibilidad con [creación de experiencias de banner](/help/user-guide/create/create-banner-experience.md). Consulte la pestaña [Banner](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) en las directrices específicas del canal.
 
@@ -459,7 +429,7 @@ Ahora puede descargar la tabla visible desde cualquier vista de [!DNL Insights] 
 
 ### Integración con Adobe Workfront Proof
 
-[!BADGE Beta]{type=Informative tooltip="This feature is currently in Beta, so some functionality may be limited or subject to change."}
+[!BADGE Beta]{type=Informative tooltip="Esta función se encuentra actualmente en Beta, por lo que algunas funciones pueden estar limitadas o sujetas a cambios."}
 
 El programa Beta de integración de GenStudio for Performance Marketing y Adobe Workfront Proof se lanzará este mes. Workfront Proof aumenta el ciclo vital de creación y activación de contenido con plantillas de aprobación, flujos de trabajo de varias fases y anotaciones. Los usuarios de GenStudio for Performance Marketing con derechos de Workfront Proof pueden utilizar las funcionalidades avanzadas de Proof en GenStudio for Performance Marketing para revisar y comentar contenido generado por GenStudio.
 
