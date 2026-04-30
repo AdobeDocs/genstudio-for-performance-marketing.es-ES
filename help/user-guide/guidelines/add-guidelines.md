@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7417595bdb075a49cdcfc988be5b900801816019
+source-git-commit: e43c9569f3fc5a2353a6fc0e15189ac31f216050
 workflow-type: tm+mt
-source-wordcount: 3052
+source-wordcount: 3019
 ht-degree: 0%
 
 ---
@@ -44,26 +44,6 @@ Las directrices pueden estar definidas por el usuario o pueden existir como dire
 Al crear variantes a partir de una plantilla con directrices de canal predefinidas (como [!DNL Brands], [!DNL Personas] o [!DNL Products]), estas directrices se aplican a las variantes. Si lo desea, puede cambiarlos.
 
 {{in-academy}}
-
-## Directrices al añadir desde una dirección URL
-
-Cuando agregue [!DNL Brand], [!DNL Product] o [!DNL Persona] desde una dirección URL en [!DNL GenStudio for Performance Marketing], tenga en cuenta la siguiente información.
-
-**Requisitos previos para flujos de trabajo basados en URL**:
-
-- Tiene una cuenta **activa [!DNL GenStudio for Performance Marketing]** con Brand Manager o permisos superiores.
-- La **URL es de acceso público**. Las páginas protegidas con contraseña o con acceso de inicio de sesión producirán un resultado limitado.
-- **Para obtener los mejores resultados, usa la dirección URL del sitio web de la marca** (una página de inicio o una página de producto/categoría) en lugar de un retailer, un revendedor o un agregador.
-
-**Tipos de URL y sus resultados esperados**:
-
-| Tipo de URL | Qué esperar |
-| --- | --- |
-| Página principal de marca | Se obtienen directrices de marca completas y el sistema muestra una amplia cobertura de productos y personas. |
-| Página de categoría del producto | Los productos y los perfiles se asignan a la categoría representada en esa página. |
-| Página de aterrizaje de campaña | Las señales personales son especialmente útiles, pero la salida de marca puede reflejar la campaña en lugar de la marca completa. |
-| Retailer o página de socio | El sistema prioriza el contenido de terceros, por lo que la salida será limitada. |
-| Página cerrada / requerida para el inicio de sesión | El contenido de la página no está disponible, por lo que el resultado será conservador. |
 
 ## Añadir marcas
 
@@ -136,7 +116,7 @@ No tiene que [publicar](#publish-brand) su [!DNL Brand] para que la información
 
 ### Creación de una marca a partir de una dirección URL
 
-**Requisitos previos:** Consulte [Requisitos previos para flujos de trabajo basados en URL](#prerequisites-for-url-based-workflows). Para saber cómo afectan las distintas direcciones URL a los resultados, consulte [Tipos de direcciones URL y resultados esperados](#url-types-and-expected-output).
+**Requisitos previos:** Consulte [Directrices al agregar desde una dirección URL](#guidance-when-adding-from-a-url).
 
 **Para crear una marca a partir de una dirección URL:**
 
@@ -279,7 +259,7 @@ Puede agregar manualmente los detalles de la persona, en lugar de cargar documen
 
 ### Agregando [!DNL Personas] desde la dirección URL
 
-**Requisitos previos:** Consulte [Requisitos previos para flujos de trabajo basados en URL](#prerequisites-for-url-based-workflows). Para saber cómo afectan las distintas direcciones URL a los resultados, consulte [Tipos de direcciones URL y resultados esperados](#url-types-and-expected-output).
+**Requisitos previos:** Consulte [Directrices al agregar desde una dirección URL](#guidance-when-adding-from-a-url).
 
 **Para agregar personalidades desde una dirección URL:**
 
@@ -363,7 +343,7 @@ Puede agregar manualmente los detalles del producto, en lugar de cargar document
 
 ### Adición de productos desde la URL
 
-**Requisitos previos:** Consulte [Requisitos previos para flujos de trabajo basados en URL](#prerequisites-for-url-based-workflows). Para saber cómo afectan las distintas direcciones URL a los resultados, consulte [Tipos de direcciones URL y resultados esperados](#url-types-and-expected-output).
+**Requisitos previos:** Consulte [Directrices al agregar desde una dirección URL](#guidance-when-adding-from-a-url).
 
 **Para agregar [!DNL Products] desde una dirección URL:**
 
@@ -408,3 +388,23 @@ Durante la incorporación, las definiciones de audiencia se importan y transform
 1. Seleccione una audiencia para asignarla de la lista. El sistema sugiere audiencias recomendadas que se alinean con los [!DNL Persona] seleccionados, si se ha seleccionado un [!DNL Persona].
 1. Haga clic en **[!UICONTROL Ver detalles de la audiencia]** para ver la descripción ampliada y las preferencias de mensajería generadas para la audiencia seleccionada. Los detalles de la audiencia informan la generación de contenido, lo que garantiza que el creativo se ajuste a las características y preferencias específicas del segmento de destino.
    ![Panel de detalles de audiencia](./audience-details.png){width=450}
+
+## Directrices al añadir desde una dirección URL
+
+Cuando agregue [!DNL Brand], [!DNL Product] o [!DNL Persona] desde una dirección URL en [!DNL GenStudio for Performance Marketing], tenga en cuenta la siguiente información.
+
+**Requisitos previos para flujos de trabajo basados en URL**:
+
+- Tiene una cuenta **activa [!DNL GenStudio for Performance Marketing]** con Brand Manager o permisos superiores.
+- La **URL es de acceso público**. Las páginas protegidas con contraseña o con acceso de inicio de sesión producirán un resultado limitado.
+- **Para obtener los mejores resultados, usa la dirección URL del sitio web de la marca** (una página de inicio o una página de producto/categoría) en lugar de un retailer, un revendedor o un agregador.
+
+**Tipos de URL y sus resultados esperados**:
+
+| Tipo de URL | Qué esperar |
+| --- | --- |
+| Página principal de marca | Se obtienen directrices de marca completas y el sistema muestra una amplia cobertura de productos y personas. |
+| Página de categoría del producto | Los productos y los perfiles se asignan a la categoría representada en esa página. |
+| Página de aterrizaje de campaña | Las señales personales son especialmente útiles, pero la salida de marca puede reflejar la campaña en lugar de la marca completa. |
+| Retailer o página de socio | El sistema prioriza el contenido de terceros, por lo que la salida será limitada. |
+| Página cerrada / requerida para el inicio de sesión | El contenido de la página no está disponible, por lo que el resultado será conservador. |
