@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 6b964da5bf0d0d10508a43f17f68faf1114270c1
+source-git-commit: 1dbfb6115c9340f9c14cef75d5144a303314fa71
 workflow-type: tm+mt
 source-wordcount: 1835
 ht-degree: 85%
@@ -93,9 +93,9 @@ El complemento debe comprender los diferentes elementos de la plantilla, como el
 
 Consulte cómo se asignan algunas de estas funciones de campo a continuación.
 
-| ![Publicación de Facebook con los roles indicados](./facebook-post.png){width="50%" align="center"}<br> | ![Se ha indicado una historia de Facebook con roles de campo](./facebook-story.png){width="60%" align="center"}<br> |
+| ![Publicación de Facebook con los roles indicados](./facebook-post.png){width="60%" align="center" zoomable="yes"}<br> | ![Se ha indicado una historia de Facebook con roles de campo](./facebook-story.png){width="70%" align="center" zoomable="yes"}<br> |
 |:---:|:---:|
-| ![Se ha indicado una publicación de Instagram con funciones de campo](./instagram-post.png){width="50%" align="center"}<br> | ![Se ha indicado una historia de Instagram con los roles](./instagram-story.png){width="60%" align="center"}<br> |
+| ![Se ha indicado una publicación de Instagram con funciones de campo](./instagram-post.png){width="60%" align="center" zoomable="yes"}<br> | ![Se ha indicado una historia de Instagram con los roles](./instagram-story.png){width="70%" align="center" zoomable="yes"}<br> |
 
 **Los roles de campo de LinkedIn incluyen**:
 
@@ -109,7 +109,7 @@ Consulte cómo se asignan algunas de estas funciones de campo a continuación.
 
 Consulte cómo se asignan algunas de estas funciones de campo a continuación.
 
-![Publicación de LinkedIn con los roles de campo indicados](./linkedin-ad.png){width="20%" align="center"}
+![Publicación de LinkedIn con los roles de campo indicados](./linkedin-ad.png){width="30%" align="center" zoomable="yes"}
 
 El complemento recuerda estas asignaciones para utilizar con el contenido generado. Una función de campo se puede asignar a varios elementos de plantilla. Los campos manuales son para elementos que desea conservar la comestibilidad del texto, pero que no se marcarán para la generación.
 
@@ -122,7 +122,7 @@ Para asignar roles de elemento:
 1. Seleccione un elemento en la plantilla (texto, imagen, etc.).
 1. Utilice el menú desplegable para asignar una función.
 
-![Asignación de funciones de campo](./field-role-mapping.png){width="60%"}
+![Asignación de funciones de campo](./field-role-mapping.png){width="60%" zoomable="yes"}
 
 {{$include /help/_includes/field-mapping-exceptions.md}}
 
