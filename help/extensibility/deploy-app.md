@@ -14,9 +14,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 3a50cdb378d024370808680ec9b606c789429dc2
 workflow-type: tm+mt
-source-wordcount: 447
+source-wordcount: 501
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Puede forzar una compilación e implementación de su aplicación sin volver a e
 
 >[!NOTE]
 >
->Forzar una compilación e implementación sobrescribe la implementación existente. **Pruebe exhaustivamente la aplicación** primero en un entorno de prueba.
+>Forzar una compilación e implementación sobrescribe la implementación existente. **Primero pruebe exhaustivamente su aplicación** en un entorno de prueba.
 
 ```bash
 aio app build --force-build
@@ -111,6 +111,10 @@ Las extensiones de validación se pueden encontrar después de una generación d
 Ejecute la extensión seleccionada para validar el contenido generado.
 
 ![Validación válida](./validation-valid.png){width="600" zoomable="yes"}
+
+Cuando haya errores, puede utilizar la extensión para actualizar la copia de experiencias mediante programación. Al hacer clic en el botón **[!UICONTROL Copiar]**, se copiará el texto sugerido en el portapapeles. Al hacer clic en el botón **[!UICONTROL Aplicar]**, se aplicará el texto a un cuadro de texto específico de la experiencia generada.
+
+![Error de validación que muestra los botones Copiar y Aplicar](./validation-copy-apply.png){width="600" zoomable="yes"}
 
 ### Buscar extensiones DAM
 
