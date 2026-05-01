@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: afce03c5167b728fe04e4722a1e4f39868d523df
 workflow-type: tm+mt
-source-wordcount: 1931
+source-wordcount: 1980
 ht-degree: 1%
 
 ---
@@ -53,9 +53,9 @@ Confirme que las cuentas de publicidad de Meta conectadas tienen permiso total p
 
 ## Paso 2: Conéctese a sus cuentas de Meta
 
-Para que su organización pueda activar experiencias, un administrador del sistema de GenStudio debe conectar sus cuentas de Meta a GenStudio for Performance Marketing. Esta conexión permite que los datos fluyan entre GenStudio y las herramientas de marketing externas como Meta, lo que permite el proceso de activación.
+Para que su organización pueda activar experiencias, un administrador del sistema de GenStudio debe conectar sus cuentas de Meta a GenStudio for Performance Marketing. Esta conexión permite que los datos fluyan entre GenStudio y las herramientas de marketing externas como Meta, lo que permite el proceso de activación. Ver [Conectarse a Meta Ads](/help/user-guide/connectors/meta-ads.md).
 
-Ver [Conectarse a Meta Ads](/help/user-guide/connectors/meta-ads.md).
+Para seleccionar una cuenta de Instagram, asegúrese en Meta Business Manager de que [la cuenta de Instagram que desea usar está conectada a la misma cuenta de publicidad](/help/user-guide/connectors/meta-ads.md#connect-an-instagram-account) seleccionada durante la incorporación. Si falta esta conexión, es posible que la cuenta de Instagram no aparezca en el menú desplegable [!DNL GenStudio for Performance Marketing] _cuenta de Instagram_ durante la activación.
 
 Una vez finalizada la sincronización, puede ver las cuentas añadidas. Las grandes cantidades de datos tardan más en sincronizarse.
 
