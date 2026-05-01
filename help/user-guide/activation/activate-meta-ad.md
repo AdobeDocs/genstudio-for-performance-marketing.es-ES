@@ -4,22 +4,14 @@ description: Obtenga información sobre cómo activar una experiencia de anuncio
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
 TQID: https://experienceleague.adobe.com/hDR0ngNiGnCXCCOgNhVG8gX4kHGrNvfybPbuMLwYk7U
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: d87258a7-722c-4afd-b632-adddc447c7aa
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: d87258a7-722c-4afd-b632-adddc447c7aaid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: afce03c5167b728fe04e4722a1e4f39868d523df
 workflow-type: tm+mt
-source-wordcount: 1931
+source-wordcount: 1980
 ht-degree: 1%
 
 ---
@@ -53,9 +45,9 @@ Confirme que las cuentas de publicidad de Meta conectadas tienen permiso total p
 
 ## Paso 2: Conéctese a sus cuentas de Meta
 
-Para que su organización pueda activar experiencias, un administrador del sistema de GenStudio debe conectar sus cuentas de Meta a GenStudio for Performance Marketing. Esta conexión permite que los datos fluyan entre GenStudio y las herramientas de marketing externas como Meta, lo que permite el proceso de activación.
+Para que su organización pueda activar experiencias, un administrador del sistema de GenStudio debe conectar sus cuentas de Meta a GenStudio for Performance Marketing. Esta conexión permite que los datos fluyan entre GenStudio y las herramientas de marketing externas como Meta, lo que permite el proceso de activación. Ver [Conectarse a Meta Ads](/help/user-guide/connectors/meta-ads.md).
 
-Ver [Conectarse a Meta Ads](/help/user-guide/connectors/meta-ads.md).
+Para seleccionar una cuenta de Instagram, asegúrese en Meta Business Manager de que [la cuenta de Instagram que desea usar está conectada a la misma cuenta de publicidad](/help/user-guide/connectors/meta-ads.md#connect-an-instagram-account) seleccionada durante la incorporación. Si falta esta conexión, es posible que la cuenta de Instagram no aparezca en el menú desplegable [!DNL GenStudio for Performance Marketing] _cuenta de Instagram_ durante la activación.
 
 Una vez finalizada la sincronización, puede ver las cuentas añadidas. Las grandes cantidades de datos tardan más en sincronizarse.
 
