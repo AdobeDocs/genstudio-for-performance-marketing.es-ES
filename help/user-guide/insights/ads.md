@@ -24,24 +24,24 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 10082fcc357e53ce6a084fb466d60a5674ea9f9e
+source-git-commit: acdd8a2f6b066a7b4849e92c94127011dc6daed5
 workflow-type: tm+mt
-source-wordcount: 1464
+source-wordcount: 1469
 ht-degree: 1%
 
 ---
 
-# Información general sobre anuncios y ubicación de anuncios
+# Información general sobre las etiquetas y la ubicación de anuncios
 
-La vista [!DNL Insights] _[!UICONTROL Anuncios]_ muestra una lista de anuncios para la cuenta de anuncio de canal conectada. Un _anuncio_ es un recurso promocional que incluye contenido visual e interactivo que se va a distribuir a una audiencia específica como parte de una campaña de marketing.
+La vista [!DNL Insights] _[!UICONTROL Etiquetas de anuncios]_ muestra una lista de anuncios para la cuenta de anuncio de canal conectada. Un _anuncio_ es un recurso promocional que incluye contenido visual e interactivo que se va a distribuir a una audiencia específica como parte de una campaña de marketing.
 
 {{connect-insights}}
 
-La tabla _[!UICONTROL Ads]_ está organizada con [!UICONTROL Nombres de anuncios]. Haga clic en el icono de configuración (cog) situado encima de la parte derecha de la tabla para alternar las columnas visibles.
+La tabla _[!UICONTROL Etiquetas de anuncios]_ está organizada con [!UICONTROL Nombres de anuncios]. Haga clic en el icono de configuración (cog) situado encima de la parte derecha de la tabla para alternar las columnas visibles.
 
-![Filtro y tabla de anuncios](/help/assets/insights-ads-filter.png){zoomable="yes"}
+![Métricas de rendimiento de perspectivas de etiquetas de publicidad](./ad-tags-tab.png)
 
-La vista de galería _[!UICONTROL Ad]_ muestra un collage de vistas previas de anuncios y una métrica, como la tasa de pulsaciones. Haga clic en el icono de configuración (cog) situado encima de la parte derecha de la galería para abrir **[!UICONTROL Configuración de la tarjeta]** y alternar una de las tres métricas visibles:
+La vista de galería _[!UICONTROL Etiquetas de anuncios]_ muestra un collage de vistas previas de anuncios y una métrica, como la tasa de pulsaciones. Haga clic en el icono de configuración (cog) situado encima de la parte derecha de la galería para abrir **[!UICONTROL Configuración de la tarjeta]** y alternar una de las tres métricas visibles:
 
 - CPA (coste por acción)
 - CTR (tasa de pulsaciones)

@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4d6a7fafb895ad1e2429978c8ee58d750fff8970
+source-git-commit: d3d3bd0d0790ecfe5a9c0e796b74fcf97672f1d2
 workflow-type: tm+mt
-source-wordcount: 943
+source-wordcount: 959
 ht-degree: 0%
 
 ---
@@ -52,9 +52,13 @@ El módulo [!DNL Insights] incluye **[!UICONTROL Insights 2.0]**, una experienci
 
 - **Revise la información general de canales múltiples o de un solo canal (Meta y LinkedIn)**: vea una instantánea consolidada en ambos canales sociales de pago o explore en profundidad un canal.
 - **Usar el informe de rendimiento entre canales**: vea la proporción de resultados de cada canal con una visualización de la contribución porcentual, que incluye el gasto total (porcentaje e cantidad) y las métricas de participación en el rendimiento como CTR, CPC y CPM.
+  ![Informe de rendimiento en canales múltiples](./cross-channel-report.png)
 - **Usar el informe de rendimiento de anuncios**: identifique anuncios de alto y bajo rendimiento con clasificaciones y métricas que admitan decisiones de optimización.
+  ![Informe de rendimiento del anuncio](./ad-performance-report.png)
 - **Analizar las métricas de conversión de Meta**: Céntrese en las conversiones con visibilidad sobre el CPA en todas las etapas de funnel (por ejemplo, visitas comprometidas, solicitudes de información, inicio de aplicaciones, clientes potenciales y finalización de aplicaciones) y revise las tendencias de conversión a lo largo del tiempo, con datos de conversión disponibles en GenStudio for Performance Marketing.
+  ![Métricas de conversión de Meta](./meta-conversion-report.png)
 - **Explorar información de las etiquetas de publicidad**: Los identificadores de seguimiento de anuncios se analizan en etiquetas estructuradas para que pueda analizar el rendimiento por las dimensiones que defina (como call to action, geografía, formato o concepto), ver la asignación de presupuesto en esas dimensiones y dedicar menos tiempo a descodificar manualmente las convenciones de nomenclatura.
+  ![Informe de etiquetas de publicidad de Insights 2.0](./ad-tags-insights.png)
 
 >[!NOTE]
 >
@@ -92,10 +96,6 @@ Cada vista muestra una tabla correspondiente, en la que puede buscar por palabra
 
 La vista [[!DNL Insights] _[!UICONTROL Campañas &#x200B;]_](campaigns.md) es la vista predeterminada y muestra una lista de detalles de campañas activas, como objetivos, presupuesto, fecha de inicio y actividad. Asegúrese de [conectar una cuenta de canal](/help/user-guide/connectors/connect-channel.md) para que GenStudio for Performance Marketing empiece a recibir los datos estadísticos.
 
-### Anuncios
-
-La vista [[!DNL Insights] _[!UICONTROL Anuncios &#x200B;]_](ads.md) se centra en evaluar la efectividad de un anuncio. La vista [!UICONTROL Anuncios] le permite analizar las métricas de un anuncio en función de su ubicación dentro de un intervalo de fechas especificado. Al hacer clic en un&#x200B;_[!UICONTROL &#x200B; nombre del anuncio &#x200B;]_, puedes ver las métricas de rendimiento del anuncio, el rendimiento por ubicación de anuncio y los atributos.
-
 ### Medios
 
 La vista [[!DNL Insights] _[!UICONTROL Media &#x200B;]_](media.md) está diseñada para ayudarle a analizar el rendimiento del contenido creativo. Puede identificar atributos de medios que contribuyan a mejorar una métrica seleccionada, como clics o impresiones.
@@ -111,3 +111,7 @@ En la vista de detalles de medios, la parte izquierda muestra una miniatura del 
 Los _atributos_ del contenido ayudan a identificar el contenido creativo mediante detalles inherentes, como el color, el tono, la composición (como el asunto, las fuentes, los elementos visuales) y otros componentes clave. Los atributos suelen ser el conjunto de información de contenido menos medido y analizado.
 
 La vista [[!DNL Insights] _[!UICONTROL Atributos &#x200B;]_](attributes.md) puede ayudarle a investigar e identificar qué atributos funcionan mejor con determinadas audiencias, canales y regiones, así como a resaltar las tendencias estacionales. Con estas perspectivas, puede utilizar atributos de rendimiento para crear variantes, dirigirse a una audiencia específica o experimentar con diferentes estrategias de campaña.
+
+### Etiquetas de anuncios
+
+La vista [[!DNL Insights] _[!UICONTROL Anuncios &#x200B;]_](ads.md) se centra en evaluar la efectividad de un anuncio. La vista [!UICONTROL Anuncios] le permite analizar las métricas de un anuncio en función de su ubicación dentro de un intervalo de fechas especificado. Al hacer clic en un&#x200B;_[!UICONTROL &#x200B; nombre del anuncio &#x200B;]_, puedes ver las métricas de rendimiento del anuncio, el rendimiento por ubicación de anuncio y los atributos.
