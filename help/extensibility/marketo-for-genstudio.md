@@ -22,7 +22,7 @@ Este tema es para **administradores** que instalan la aplicación, recopilan cre
 
 ## Instalación de la aplicación desde Adobe Exchange
 
->[!VIDEO](https://video.tv.adobe.com/v/3483299?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3483314?captions=spa&learn=on)
 
 1. Abra [Adobe Exchange](https://exchange.adobe.com) y vaya a **[!UICONTROL Experience Cloud]**.
 1. Abra el listado de [Marketo for GenStudio](https://exchange.adobe.com/apps/ec/ab6p21vo8r/marketo-for-genstudio).
