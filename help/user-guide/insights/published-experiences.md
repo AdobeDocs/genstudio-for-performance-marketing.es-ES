@@ -1,6 +1,6 @@
 ---
-title: Información general sobre anuncios y ubicación de anuncios
-description: Vea una descripción general de la participación del cliente, el presupuesto y los gastos para el rendimiento de los anuncios y la colocación de anuncios en Adobe GenStudio for Performance Marketing.
+title: Detalles de experiencias publicadas
+description: Consulte una descripción general de la participación del cliente, el presupuesto y los gastos para ver las experiencias publicadas y el rendimiento de la ubicación en Adobe GenStudio for Performance Marketing.
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
@@ -24,45 +24,21 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: acdd8a2f6b066a7b4849e92c94127011dc6daed5
+source-git-commit: d61c45100a8ec4973e87948315f5500e023a29eb
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: 1320
 ht-degree: 1%
 
 ---
 
-# Información general sobre las etiquetas y la ubicación de anuncios
 
-La vista [!DNL Insights] _[!UICONTROL Etiquetas de anuncios]_ muestra una lista de anuncios para la cuenta de anuncio de canal conectada. Un _anuncio_ es un recurso promocional que incluye contenido visual e interactivo que se va a distribuir a una audiencia específica como parte de una campaña de marketing.
+# Detalles de experiencias publicadas {#ad-details}
 
-{{connect-insights}}
+Seleccione una experiencia publicada y vea las métricas de rendimiento, los atributos de texto y las ubicaciones asociadas a cada experiencia. Los _[!UICONTROL detalles de experiencias publicadas]_ incluyen métricas para las experiencias `click-through rate`, `cost per action` y `spend`: la cantidad del presupuesto que se ha gastado en la experiencia. Dado que las experiencias pueden tener varias ubicaciones, como una fuente o un banner, puede ver un desglose de las mismas métricas para cada ubicación. Utilice las flechas izquierda y derecha debajo de **[!UICONTROL Rendimiento por ubicación]** para recorrer las métricas de ubicación.
 
-La tabla _[!UICONTROL Etiquetas de anuncios]_ está organizada con [!UICONTROL Nombres de anuncios]. Haga clic en el icono de configuración (cog) situado encima de la parte derecha de la tabla para alternar las columnas visibles.
+![Detalles de experiencias publicadas con métricas y ubicaciones](/help/assets/insights-ad-details.png){zoomable="yes"}
 
-![Métricas de rendimiento de perspectivas de etiquetas de publicidad](./ad-tags-tab.png)
-
-La vista de galería _[!UICONTROL Etiquetas de anuncios]_ muestra un collage de vistas previas de anuncios y una métrica, como la tasa de pulsaciones. Haga clic en el icono de configuración (cog) situado encima de la parte derecha de la galería para abrir **[!UICONTROL Configuración de la tarjeta]** y alternar una de las tres métricas visibles:
-
-- CPA (coste por acción)
-- CTR (tasa de pulsaciones)
-- CPC (coste por clic)
-- Gasto
-
-{{filter-table}}
-
-## Detalles del anuncio
-
-Seleccione un anuncio y vea las métricas de rendimiento, los atributos de texto y las ubicaciones asociadas a cada anuncio. La _[!UICONTROL página de detalles del anuncio]_ incluye métricas para el anuncio `click-through rate`, `cost per action` y `spend`: la cantidad del presupuesto que se ha gastado en el anuncio. Dado que los anuncios pueden tener varias ubicaciones, como una fuente o un banner, puede ver un desglose de las mismas métricas para cada ubicación de publicidad. Utilice las flechas izquierda y derecha debajo de **[!UICONTROL Rendimiento por ubicación de anuncio]** para recorrer las métricas de ubicación.
-
-![Detalles de anuncios con métricas y ubicaciones de anuncios](/help/assets/insights-ad-details.png){zoomable="yes"}
-
-### Atributos de anuncio
-
-Debajo de la vista previa del anuncio hay una lista de atributos asociados con el anuncio.
-
-{{$include /help/_includes/generated-attributes.md}}
-
-### Formatos de anuncio
+## Formatos de anuncio
 
 Los formatos de anuncio hacen referencia a los distintos elementos creativos y diseños que se utilizan para alinearse con los objetivos de la campaña, atraer a la audiencia de destino y ayudar a rastrear las métricas de rendimiento.
 
@@ -76,7 +52,7 @@ Los formatos de anuncio hacen referencia a los distintos elementos creativos y d
 | DV360 | <ul><li>DISPLAY_AND_VIDEO_ADS</li><li>YOUTUBE_AND_PARTNERS_AD</li></ul> | El canal de medios de pago no proporciona acceso para recuperar recursos creativos, lo que dificulta la clasificación precisa de los tipos de anuncios. |
 | Innovid | N/D | El canal de medios de pago no proporciona acceso para recuperar recursos creativos, lo que dificulta la clasificación precisa de los tipos de anuncios. |
 
-### Ubicaciones de anuncios
+## Ubicaciones de anuncios
 
 Las ubicaciones de los anuncios hacen referencia a las ubicaciones o plataformas específicas en las que los anuncios aparecen dentro de una campaña. Estas ubicaciones determinan cómo y dónde interactúa la audiencia con el contenido. Las ubicaciones de anuncios amplían el alcance de la audiencia, lo que ayuda a maximizar la visibilidad, la participación y la eficacia general de la campaña.
 
@@ -124,4 +100,3 @@ La siguiente tabla proporciona definiciones para métricas de rendimiento de ubi
 | **[!UICONTROL CPC &#x200B;]**<br>_Costo por clic_ | El coste medio asociado a cada clic en una sola ubicación de publicidad.<p>**Cálculo**: importe total `spent` dividido entre `clicks`<p>Esta métrica ayuda a evaluar la rentabilidad de la ubicación del anuncio en la generación de clics. | Un CPC más bajo indica que la colocación de anuncios está generando clics a un coste más bajo, lo que puede ser beneficioso para maximizar el retorno de la inversión. |
 | **[!UICONTROL Gasto]** | La cantidad gastada en una sola ubicación de publicidad, que representa una fracción de la cantidad total gastada en todo el anuncio. Esta métrica ayuda a realizar un seguimiento de la asignación del presupuesto y la eficiencia de gasto de cada ubicación de publicidad. | La supervisión del gasto puede ayudar a garantizar que los recursos se utilicen de forma eficaz en diferentes ubicaciones. |
 | **Atributos** | Lista de funciones inherentes presentes en esta ubicación de anuncio. | Los atributos ayudan a identificar los elementos creativos que más interesan a su audiencia. Ver [Categorías](/help/user-guide/insights/attributes.md#categories). |
-

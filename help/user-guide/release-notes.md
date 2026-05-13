@@ -39,7 +39,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f7f72c23c8bc7a52040af2c897b94d107a7c95bf
+source-git-commit: c9b8177a564cfcdfd2b63cd28fa22eb93a52d3a7
 workflow-type: tm+mt
 source-wordcount: 4727
 ht-degree: 0%
@@ -151,7 +151,7 @@ Los especialistas en marketing ahora pueden intercambiar dinámicamente logotipo
 
 ### CPA por tipo de acción para campañas de Meta
 
-* Analice el [costo por acción (CPA) con un seguimiento de conversión flexible](/help/user-guide/insights/ads.md) para las campañas publicitarias de Meta.
+* Analice el [costo por acción (CPA) con un seguimiento de conversión flexible](/help/user-guide/insights/published-experiences.md) para las campañas publicitarias de Meta.
 * En lugar de una única métrica fija, seleccione entre varios tipos de acción (compras, eventos de complemento al carro de compras, posibles clientes, vistas de vídeo o conversiones personalizadas) para calcular y ver el CPA en campañas, anuncios, activos y atributos de [!DNL Insights].
 
 ### Correcciones y mejoras
@@ -276,7 +276,7 @@ Adobe GenStudio for Performance Marketing ahora ofrece funcionalidades integrada
 
 ### Filtro de recursos compatibles
 
-Un nuevo filtro en el módulo [!DNL Insights] oculta automáticamente [recursos de imagen y vídeo no compatibles](/help/user-guide/insights/ads.md#ad-formats) de las vistas previas de anuncios, lo que elimina el desorden visual y los mosaicos rotos. Esta mejora garantiza que los usuarios solo vean los medios que están disponibles y listos para usar, lo que crea una experiencia más limpia y fiable. El filtro funciona junto con el filtro de anuncios de compatibilidad existente.
+Un nuevo filtro en el módulo [!DNL Insights] oculta automáticamente [recursos de imagen y vídeo no compatibles](/help/user-guide/insights/published-experiences.md#ad-formats) de las vistas previas de anuncios, lo que elimina el desorden visual y los mosaicos rotos. Esta mejora garantiza que los usuarios solo vean los medios que están disponibles y listos para usar, lo que crea una experiencia más limpia y fiable. El filtro funciona junto con el filtro de anuncios de compatibilidad existente.
 
 ### Activación de varios recursos para Meta
 
