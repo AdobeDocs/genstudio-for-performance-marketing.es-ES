@@ -4,19 +4,13 @@ description: Implemente su aplicación de App Builder o complemento para GenStud
 feature: Extensibility
 exl-id: 51888ab7-7772-4ac8-838d-26db3019e9b0
 TQID: https://experienceleague.adobe.com/7Z4Fb-jPi4FHrTeOgHxxO4fl982sqri-7uEDoylFF-s
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: bfaa655b-e017-428d-80d0-09de2183b296
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 3a50cdb378d024370808680ec9b606c789429dc2
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bfaa655b-e017-428d-80d0-09de2183b296id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: ca8bfb11a301697c92e97bad41ea3ba8aa359847
 workflow-type: tm+mt
-source-wordcount: 501
+source-wordcount: 622
 ht-degree: 0%
 
 ---
@@ -91,6 +85,7 @@ Las nuevas extensiones se encuentran en diferentes ubicaciones de la interfaz de
 * [Extensión de administración de activos digitales (DAM)](#find-dam-extensions)
 * [Extensión de plantilla](#find-template-extensions)
 * [Extensión de traducción](#find-translation-extensions)
+* [Extensión de fragmento de contenido](#find-content-fragment-extension)
 
 ### Buscar extensiones de mensajes
 
@@ -128,7 +123,6 @@ Las extensiones de plantilla se encuentran en la ficha **Aplicación de plantill
 
 ![Extensiones de plantilla](./template-ext.png){width="600" zoomable="yes"}
 
-
 ### Buscar extensiones de traducción
 
 Utilice los puntos de extensión de traducción para traer su propio servicio de traducción a través de un proxy en lugar de utilizar la traducción predeterminada de GenStudio.
@@ -136,7 +130,21 @@ No hay ninguna ubicación de interfaz de usuario para estas extensiones.
 
 Si la extensión está registrada, se utiliza el servicio de traducción proporcionado. De lo contrario, se utiliza el servicio de traducción predeterminado de GenStudio.
 
+### Buscar extensión de fragmento de contenido
 
+La extensión de fragmento de contenido de [!DNL GenStudio for Performance Marketing] reemplaza el texto de las experiencias de correo electrónico generadas en el lienzo [!DNL Create] por las entradas de un repositorio de terceros (3P) conectado. Después de configurar e implementar la extensión, se intercambia la copia del lienzo sin abandonar el flujo de trabajo.
+
+>[!NOTE]
+>
+>El intercambio de extensión de fragmento de contenido está disponible para las experiencias de **correo electrónico** en el lienzo hoy. La compatibilidad con el canal **Horizon** estará disponible próximamente.
+
+**Para intercambiar texto con la extensión de fragmento de contenido**:
+
+1. En el lienzo, haga clic en un campo de texto editable de una variante de correo electrónico generada.
+1. Haga clic en **[!UICONTROL Intercambiar]**.
+   ![Intercambiar texto](./subject-line-swap.png){width="400" zoomable="yes"}
+1. Seleccione el repositorio de terceros. Su organización controla qué repositorios aparecen y cómo se comporta la interfaz de usuario del repositorio.
+1. Seleccione la notificación que desee utilizar como texto de reemplazo para el campo.
 
 Si está satisfecho con el complemento, está listo para distribuirlo sin el parámetro `query`.
 
