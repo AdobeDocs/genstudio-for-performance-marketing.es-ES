@@ -17,7 +17,7 @@ Para obtener opciones genéricas de integración de MFE, propiedades de configur
 
 ## Qué hace esta integración
 
->[!VIDEO](https://video.tv.adobe.com/v/3491079?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491082?captions=spa&learn=on)
 
 El componente web Lightning (LWC) `sfgsmfe` carga el paquete UMD del selector de experiencias de Adobe y lo procesa en un `<dialog>` para que los usuarios puedan elegir una experiencia de [!DNL GenStudio for Performance Marketing].
 
