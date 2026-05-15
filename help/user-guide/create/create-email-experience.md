@@ -27,9 +27,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: ecda1f61abaafe858629fc4700f61d89e2ab9e3e
 workflow-type: tm+mt
-source-wordcount: 1098
+source-wordcount: 1132
 ht-degree: 0%
 
 ---
@@ -106,6 +106,7 @@ Antes de seleccionar lo que se enviará para su aprobación o publicación en [!
 
 * **Para [editar el nombre del borrador del correo electrónico](/help/user-guide/create/manage-variants.md#change-draft-name)**, haga clic en el título de _Borrador sin título_ en la parte superior del lienzo y escriba un nuevo título.
 * **Para [editar manualmente un correo electrónico](/help/user-guide/create/manage-variants.md#manually-edit-text)**, haga clic en cualquiera de los campos de texto editables (como la línea de asunto, el encabezado o la copia de cuerpo) y edítelo según sea necesario
+* **Para usar [fragmentos de contenido aprobados en variantes de correo electrónico](/help/user-guide/create/email-experiences.md#content-fragment-swap)**, descubra cómo [!DNL GenStudio for Performance Marketing] combina campos generativos, campos de fragmentos de contenido inyectables y campos bloqueados en un lienzo. Los administradores configuran los orígenes de fragmento tal como se describe en [Buscar extensión de fragmento de contenido](/help/extensibility/deploy-app.md#find-content-fragment-extension).
 * **Para [cambiar o seleccionar Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, haga clic en el botón call-to-action y seleccione _[!UICONTROL Reformular]_ o _[!UICONTROL Agregar vínculo]_.
 * **Para [aplicar formato de texto](/help/user-guide/create/manage-variants.md#manually-edit-text)** en una variante, haga clic en el texto en la imagen de una variante y haga clic en **[!UICONTROL Dar formato al texto]**.
 * **Para [regenerar una sección de una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, haga clic en un campo de texto editable y use las opciones _[!UICONTROL Ediciones sugeridas]_ o escriba una nueva solicitud y haga clic en **[!UICONTROL Generar]**.
