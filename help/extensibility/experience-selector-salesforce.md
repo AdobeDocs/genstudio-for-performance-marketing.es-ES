@@ -2,9 +2,9 @@
 title: MFE del selector de experiencias en Salesforce
 description: Aprenda a implementar y configurar el MFE del Selector de experiencia en Salesforce Lightning, incluidas las plantillas CSP, la autenticación Adobe, las plantillas de correo electrónico Apex y la validación.
 feature: Extensibility, Extensions, Experiences
-source-git-commit: 4cac970f46ab08bcec2f23fd882c552af088c4ea
+source-git-commit: 99a2b657560d20642b7b92aefb976ba2373ebc7f
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Para obtener opciones genéricas de integración de MFE, propiedades de configur
 
 ## Qué hace esta integración
 
->[!VIDEO](https://video.tv.adobe.com/v/3491082?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491079?learn=on)
 
 El componente web Lightning (LWC) `sfgsmfe` carga el paquete UMD del selector de experiencias de Adobe y lo procesa en un `<dialog>` para que los usuarios puedan elegir una experiencia de [!DNL GenStudio for Performance Marketing].
 
@@ -25,7 +25,8 @@ La integración también puede:
 
 * **Vista previa y descodificación:** muestra la carga útil seleccionada como JSON, HTML descodificado y una vista previa de HTML saneada dentro del LWC.
 * **Plantillas de correo electrónico (opcional):** Un flujo de **[!UICONTROL Crear plantilla de correo electrónico]** en Salesforce puede llamar a Apex (`EmailTemplateController.createEmailTemplate`) para insertar un registro `EmailTemplate` (HTML, asunto y carpeta).
-* **Carga en tiempo de ejecución:** El script de GenStudio se carga desde la URL alojada de Adobe en `experience.adobe.com`, no desde un recurso estático de Salesforce en la implementación típica.
+
+El script del Selector de experiencia para [!DNL GenStudio for Performance Marketing] se carga desde la dirección URL alojada de Adobe en `experience.adobe.com`, no desde un recurso estático de Salesforce en la implementación típica.
 
 ## Requisitos previos
 
@@ -42,7 +43,7 @@ La integración también puede:
 
 ## Implementación del paquete (desarrollador)
 
-La integración sigue un diseño de estilo Salesforce DX. El directorio de paquetes predeterminado suele ser `force-app` en su proyecto Salesforce DX.
+El proyecto utiliza el diseño Salesforce DX; el directorio de paquetes predeterminado es `force-app`.
 
 1. Desde la raíz del proyecto, implemente el origen en la organización de destino:
 
@@ -52,12 +53,10 @@ La integración sigue un diseño de estilo Salesforce DX. El directorio de paque
 
 2. Confirme que la implementación se completa sin errores.
 
-Los metadatos habituales en el proyecto incluyen:
+* `force-app/main/default/lwc/sfgsmfe`: paquete LWC (HTML, JS, CSS, meta).
+* `force-app/main/default/classes/EmailTemplateController.cls` — Apex para la creación de plantillas.
 
-* Un paquete LWC denominado `sfgsmfe` (HTML, JavaScript, CSS y meta XML) que aloja la interfaz de usuario del selector y la carga de scripts.
-* Una clase Apex (por ejemplo, `EmailTemplateController`) que crea plantillas de correo electrónico cuando se utiliza ese flujo opcional.
-
-El proyecto también puede definir Recursos estáticos. Si el cargador LWC utiliza la dirección URL de CDN de Adobe para `standalone.js`, esos recursos no son necesarios para esa ruta de carga a menos que cambie la implementación.
+El repositorio también puede contener recursos estáticos (`reactApp`, `sfgsmfe_react`). El cargador actual [!DNL GenStudio for Performance Marketing] en `sfgsmfe.js` usa la dirección URL de CDN de Adobe para `standalone.js`; esos recursos estáticos no son necesarios para esa ruta de carga a menos que cambie la implementación.
 
 ## Añadir el componente a una página de Lightning (administrador)
 
@@ -66,7 +65,7 @@ El componente `sfgsmfe` está expuesto para:
 * Páginas de aplicación de Lightning
 * Páginas principales
 * Registrar páginas
-* Pestañas (colocando el componente en una página de Lightning que se abra desde una pestaña personalizada)
+* Pestañas (a través de una página de Lightning en una pestaña personalizada)
 
 Para añadir el componente:
 
@@ -92,7 +91,8 @@ Si el script no se puede cargar:
 
 1. Abra las herramientas para desarrolladores de exploradores.
 1. Compruebe las fichas **[!UICONTROL Consola]** y **[!UICONTROL Red]** para ver si hay solicitudes bloqueadas o infracciones de CSP.
-1. Agregue o ajuste **[!UICONTROL Sitios de confianza CSP]** (y cualquier configuración relacionada para su versión de Salesforce) para `https://experience.adobe.com`, según la documentación actual de Salesforce para Lightning.
+1. Añada o ajuste **[!UICONTROL URL de confianza]** (y cualquier configuración relacionada para su versión de Salesforce) para `https://experience.adobe.com`, según la documentación actual de Salesforce para Lightning.
+   ![Sitios de confianza CSP de Salesforce](./sf-trusted-urls.png){width="80%" zoomable="yes"}
 
 ## Configurar valores de integración (desarrollador/implementación)
 
@@ -125,13 +125,13 @@ Sugerencias operativas:
 
 ## Lista de comprobación de validación
 
-Utilice esta lista después de la implementación y la configuración:
+Confirme los elementos de esta lista después de la implementación y la configuración para una validación segura de la integración:
 
-* [ La implementación de ] se completa sin errores.
-* [ ] usuarios pueden abrir la página de Lightning que contiene `sfgsmfe`.
-* [ ] El componente no muestra un error de carga; la ficha Red devuelve HTTP 200 para `standalone.js`.
-* [ ] **[!UICONTROL Seleccione una experiencia de GenStudio]** abre el selector y se ejecutan las devoluciones de llamadas de selección.
-* [ ] **[!UICONTROL La plantilla para crear correo electrónico]** se crea correctamente cuando usa ese flujo, y la plantilla aparece en la carpeta configurada en **[!UICONTROL Configuración]**.
+1. La implementación se completa sin errores.
+1. Los usuarios pueden abrir la página de Lightning que contiene `sfgsmfe` y ver la interfaz de usuario del selector de experiencias.
+1. El componente no muestra un error de carga; la ficha Red devuelve HTTP 200 para `standalone.js`.
+1. **[!UICONTROL Seleccionar una experiencia de GenStudio]** abre el selector y se ejecutan las devoluciones de llamadas de selección.
+1. **[!UICONTROL Crear plantilla de correo electrónico]** se realiza correctamente cuando se usa ese flujo, y la plantilla aparece en la carpeta configurada en **[!UICONTROL Configuración]**.
 
 ## Consulte también
 
