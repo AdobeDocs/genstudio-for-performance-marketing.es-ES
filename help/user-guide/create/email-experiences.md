@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 853b63dbc04410c09a0b44c05f3655c06e5dfbcb
+source-git-commit: e41ca23a135e2cacfcc029c04992bbff1b515bd6
 workflow-type: tm+mt
-source-wordcount: 581
+source-wordcount: 580
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Después de generar un conjunto de variantes de correo electrónico, puede ver e
 >
 >El intercambio de fragmentos de contenido está disponible para las experiencias de **correo electrónico** en el lienzo hoy. La compatibilidad con el canal **Horizon** estará disponible próximamente.
 
-El contenido del correo electrónico empresarial a menudo necesita bloques modulares recién generados y aprobados (como exenciones de responsabilidad, lenguaje de seguridad, ofertas y reclamaciones reguladas) junto con el contenido que forma para las plantillas. Los equipos que almacenan contenido modular en [!DNL Adobe Experience Manager], [!DNL Marketo Engage], [!DNL Adobe Journey Optimizer] y [!DNL Adobe Campaign] pueden buscar e intercambiar ese contenido para utilizarlo en las experiencias de correo electrónico sin salir de [!DNL GenStudio for Performance Marketing]. Esto puede resultar útil para lo siguiente:
+El contenido del correo electrónico empresarial a menudo necesita bloques modulares recién generados y aprobados (como exenciones de responsabilidad, lenguaje de seguridad, ofertas y reclamaciones reguladas) junto con el contenido que forma para las plantillas. Los equipos que almacenan contenido modular en [!DNL Adobe Experience Manager] pueden buscar e intercambiar ese contenido para utilizarlo en las experiencias de correo electrónico sin salir de [!DNL GenStudio for Performance Marketing]. Esto puede resultar útil para lo siguiente:
 
 * **Contenido con reconocimiento de cumplimiento:** IA puede llenar espacios creativos mientras que los fragmentos aprobados por el cumplimiento reemplazan los espacios inyectables; las áreas legales bloqueadas permanecen sin cambios a través de la exportación.
 * **Componentes de contenido aprobado reutilizables:** Los titulares aprobados, las exenciones de responsabilidad regional o las descripciones de productos pueden seguir siendo el sistema de registro en [!DNL Adobe Experience Manager] mientras los autores los extraen en variantes sin tener que copiar y pegar soluciones alternativas.
