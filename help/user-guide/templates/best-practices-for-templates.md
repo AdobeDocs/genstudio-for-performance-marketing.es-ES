@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 3322f783cd49ddcb897942e5e91590d53b554bdd
 workflow-type: tm+mt
-source-wordcount: 777
+source-wordcount: 1347
 ht-degree: 0%
 
 ---
@@ -36,10 +36,9 @@ Siga las siguientes recomendaciones al utilizar plantillas con GenStudio for Per
 1. Configure [directrices de canal](#configure-channel-guidelines) para una personalización efectiva del contenido
 1. Diseñe con [estándares de accesibilidad](accessibility-for-templates.md) para obtener una experiencia óptima
 1. Seguir [directrices de plantillas específicas de canal](#follow-channel-specific-template-guidelines)
-
->[!TIP]
->
->Conozca los conceptos básicos de los elementos y procedimientos de plantilla en [Trabajar con plantillas](use-templates.md). Y profundiza en [la personalización de una plantilla](customize-template.md) para obtener instrucciones específicas que puedes usar en tu próxima campaña.
+1. Cuando use [plantillas rápidas](/help/user-guide/templates/express-templates.md), tenga en cuenta las sugerencias específicas de [Prácticas recomendadas de plantillas de Express a GenStudio](#express-to-genstudio-template-best-practices).
+&#x200B;>>
+Conozca los conceptos básicos de los elementos y procedimientos de plantilla en [Trabajar con plantillas](use-templates.md). Y profundiza en [la personalización de una plantilla](customize-template.md) para obtener instrucciones específicas que puedes usar en tu próxima campaña.
 
 ## Uso de los elementos de plantilla adecuados
 
@@ -54,7 +53,7 @@ Ver [elementos de plantilla](use-templates.md#template-elements).
 El texto de marcador de posición puede ayudar a definir la sintaxis o la estructura del contenido que un usuario debe rellenar posteriormente en una plantilla. Por ejemplo, {first_name}.{last_name}@email.etc. para definir una dirección de correo electrónico. Sin embargo, algunos delimitadores comunes ya están reservados para otros significados en GenStudio for Performance Marketing:
 
 ❌ `< >` - En uso para HTML tags.
-❌ `{{ }}`: en uso para expresiones Handlebar.
+❌ `{{ }}` - En uso para expresiones Handlebar.
 
 Utilice corchetes sencillos (rectos o curvos) para indicar el texto del marcador de posición y evitar confusiones con las etiquetas existentes.
 
@@ -125,3 +124,75 @@ Consulte más sugerencias y restricciones al trabajar con cada tipo de plantilla
 - [Publicidad en pantalla y banner](/help/user-guide/templates/display-template.md)
 - [LinkedIn](/help/user-guide/templates/linkedin-template.md)
 - [Anuncios de Meta](/help/user-guide/templates/meta-template.md)
+
+## Prácticas recomendadas de plantillas de Express to GenStudio
+
+Las siguientes sugerencias le ayudan a obtener resultados confiables al convertir diseños de [!DNL Adobe Express] en plantillas para [!DNL GenStudio for Performance Marketing].
+
+### Uso de plantillas de varias variaciones
+
+En [!DNL Adobe Express], las páginas pueden representar varias variaciones de tamaño o relación de aspecto en un archivo de plantilla.
+Cuando selecciona la plantilla en [!DNL GenStudio for Performance Marketing], todas las variaciones aparecen en el lienzo.
+
+Este comportamiento mejora con las plantillas de HTML, que solo admiten una variación por archivo.
+
+### Bloqueo de campos para controlar lo que los especialistas en marketing pueden editar
+
+Utilice el bloqueo para comunicar la intención. Por ejemplo, bloquee una exención de responsabilidad legal para que nunca se genere por IA, pero deje un titular flexible para la generación.
+
+Haga clic con el botón secundario en cualquier elemento de [!DNL Adobe Express] para establecer el comportamiento del bloqueo:
+
+- **[!UICONTROL Bloqueo completo]**: el elemento es estático y AI no genera contenido para él.
+- **[!UICONTROL Bloquear, permitir reemplazo de imagen]** — Bloquea tamaño y posición, pero permite a los usuarios intercambiar la imagen. Esta opción funciona bien con logotipos.
+- **[!UICONTROL Bloquear, permitir reemplazo de texto]**: bloquea el tamaño y la posición, pero permite a los usuarios editar el texto. AI no genera automáticamente contenido para él.
+- **Totalmente flexible** (desbloqueado): los usuarios pueden mover y cambiar el tamaño del elemento, y AI lo trata como contenido para generar.
+
+### Asigne nombres a las capas para una mejor asignación de IA
+
+Al convertir un diseño en una plantilla, IA analiza el diseño y asigna campos como titular, CTA y texto independiente. La IA asigna las plantillas simples con mayor precisión que los diseños muy complejos.
+
+**Práctica recomendada:** En la copia del marcador de posición, incluya el tipo de campo deseado (por ejemplo, `headline`, `sub-headline` o `CTA`) para ayudar a asignar correctamente los campos de IA. Este método puede reducir los errores de asignación.
+
+### Convertir a plantilla
+
+1. En [!DNL Adobe Express], haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Convertir en plantilla]**.
+1. Solo la ficha **[!UICONTROL Información]** y **[!UICONTROL Bloqueos]** se transfieren a [!DNL GenStudio for Performance Marketing].
+1. En el momento de la conversión, elija cómo funciona el desbloqueo:
+   - **[!UICONTROL Permitir que los usuarios desbloqueen]**
+   - **[!UICONTROL Impedir todo desbloqueo]**
+   - **[!UICONTROL Establecer una frase de contraseña]**: un punto intermedio que desaconseja los cambios ocasionales sin bloquear el acceso de forma permanente.
+
+### Mantener una copia del archivo de diseño original
+
+La conversión crea un archivo de plantilla [!DNL Adobe Express] independiente, pero el archivo de diseño original permanece editable.
+
+**Sugerencia:** Mantenga el original para que pueda revisar el diseño, crear variaciones y generar nuevas plantillas más adelante.
+
+### Compartir para una mayor visibilidad
+
+Después de la conversión, la plantilla solo es visible para usted de forma predeterminada. Puede compartirlo con particulares o con toda la organización.
+
+**Requisito:** [!DNL Adobe Express] y [!DNL GenStudio for Performance Marketing] deben usar la misma organización de IMS para sincronizar las plantillas. Normalmente, las plantillas aparecen en [!DNL GenStudio for Performance Marketing] casi inmediatamente después de la conversión.
+
+### Control de asignación de campos de IA
+
+Después de seleccionar una plantilla, AI asigna campos una vez por plantilla y asigna etiquetas como **[!UICONTROL medios principales]**, **[!UICONTROL generados]** o **[!UICONTROL bloqueados]**. Puede ajustar las asignaciones manualmente cuando AI asigne los campos incorrectamente.
+
+Use la opción **[!UICONTROL Habilitar generación]** por campo para activar o desactivar antes de generar. Puede ajustar las asignaciones manualmente cuando AI asigne los campos incorrectamente. Se han planificado correcciones permanentes en las asignaciones de plantillas para una versión futura.
+
+### Diseño en [!DNL Adobe Express], ensamblar en [!DNL GenStudio for Performance Marketing]
+
+Considere estos flujos de trabajo de diseño para utilizar cada servicio de la mejor manera posible:
+
+- Trabajo de diseño completo, como colores, diseños y gráficos en [!DNL Adobe Express].
+- Use [!DNL GenStudio for Performance Marketing] para ensamblar y generar contenido a partir de esas plantillas.
+- Use [!DNL Adobe Express] marcas (colores, logotipos, fuentes y gráficos) para el control de diseño.
+- Usar [!DNL GenStudio for Performance Marketing] marcas para los cambios de color de fuente después de la generación.
+
+### Limitaciones de correo electrónico
+
+El correo electrónico es **no** compatible con el lienzo Horizon para el flujo de trabajo de la plantilla [!DNL Adobe Express]. El correo electrónico sigue utilizando el proceso tradicional de plantillas de HTML.
+
+### Aproveche las fuentes personalizadas
+
+Los equipos suelen preguntar cómo funcionan las fuentes personalizadas con las plantillas [!DNL Adobe Express]. Es posible que los administradores tengan que aceptar la oferta correspondiente a Fuentes personalizadas en Admin Console antes de que esas fuentes estén disponibles; consulte [Usar [!DNL Adobe Express] plantillas](express-templates.md).

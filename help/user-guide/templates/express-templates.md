@@ -4,9 +4,9 @@ description: Explore las funciones de GenStudio for Performance Marketing que pu
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 05bc285ff614c8d3e15beab3411c7666b01d1155
+source-git-commit: de08604b8968e6ae49cabd6632eb40516983d841
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1713'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 [!DNL GenStudio for Performance Marketing] puede usar plantillas que se han creado y diseñado en [!DNL Adobe Express]. Incluya recursos de marca de [!DNL Adobe Express] y use estas poderosas herramientas para integrarlos en atractivas campañas de marketing y [!DNL Experiences].
 
-Esta guía explica los requisitos y las características con las plantillas de [!DNL Adobe Express].
+Esta guía explica los requisitos y las características con las plantillas de [!DNL Adobe Express]. Para obtener más sugerencias y prácticas recomendadas, consulte [Prácticas recomendadas para usar plantillas](/help/user-guide/templates/best-practices-for-templates.md#express-to-genstudio-template-best-practices).
 
 ## Acerca de las plantillas de [!DNL Adobe Express]
 
