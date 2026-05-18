@@ -20,7 +20,7 @@ topic_v2:
 source-git-commit: 7aed06dbb249cfc7e0f15d792563699e63b1a390
 workflow-type: tm+mt
 source-wordcount: 723
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -32,12 +32,12 @@ Descubra cómo las credenciales a prueba de manipulaciones para el contenido que
 >
 > Actualmente, esta función está en versión beta y solo está disponible para las organizaciones a las que se les ha concedido acceso. Si está interesado, póngase en contacto con el representante del equipo de su cuenta de Adobe o [utilice este vínculo para solicitar la inscripción](https://www.feedbackprogram.adobe.com/c/a/5aWPEOthrDv22Mf9CyekOy?source=qr).
 
-## Introducción a Content Credentials {#content-credentials}
+## Introducción a Credenciales de contenido {#content-credentials}
 
 >[!CONTEXTUALHELP]
 >id="gspm_content_credentials"
->title="Content Credentials en [!DNL GenStudio for Performance Marketing]"
->abstract="Las credenciales a prueba de manipulaciones para el contenido que prueba la autenticidad de la marca y fomenta el cumplimiento se pueden incrustar directamente en el flujo de trabajo de marketing."
+>title="Credenciales de contenido en [!DNL GenStudio for Performance Marketing]"
+>abstract="Las credenciales a prueba de manipulaciones para el contenido que prueban la autenticidad de la marca y fomentan el cumplimiento se pueden incrustar directamente en el flujo de trabajo de marketing."
 
 Una vez activado Content Credentials en Admin Console, los usuarios de GenStudio for Performance Marketing pueden activar Content Credentials para todos los recursos globalmente en la aplicación. Si la opción global para aplicar credenciales está desactivada, los usuarios tienen la opción de aplicar Content Credentials a cada recurso individual.
 
