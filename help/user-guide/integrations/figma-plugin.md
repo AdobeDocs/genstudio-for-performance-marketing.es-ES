@@ -17,10 +17,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 1dbfb6115c9340f9c14cef75d5144a303314fa71
+source-git-commit: 8867ca0d3cdc7d6e52a4947b4836c02d2ac58f03
 workflow-type: tm+mt
-source-wordcount: 1835
-ht-degree: 85%
+source-wordcount: 1797
+ht-degree: 77%
 
 ---
 
@@ -245,21 +245,22 @@ Para convertir fotogramas:
 
 1. Abra el complemento de Firefly Enterprise y GenStudio en Figma y haga clic en la ficha **[!UICONTROL Exportar]** en la interfaz de usuario del complemento.
 1. En el lienzo, seleccione el marco o marcos que desea exportar. Puede elegir uno o varios marcos.
-1. Realice una de las siguientes acciones:
+1. Para migrar los fotogramas seleccionados, realice una de las siguientes acciones:
 
    * Haga clic en **[!UICONTROL Exportar]** para exportar el archivo convertido a una ubicación elegida o
-   * Haga clic en **[!UICONTROL Transferir a GenStudio Photoshop]** para almacenar en caché el archivo convertido para su uso inmediato en GenStudio Photoshop.
+   * Haga clic en **[!UICONTROL Transferir a Photoshop]** para almacenar en caché el archivo convertido para su uso inmediato en GenStudio Photoshop.
      ![Botón Transferir a GenStudio Photoshop](./transfer-to-ps-button.png){width="40%"}
-1. Cuando aparece el cuadro de diálogo **[!UICONTROL Se requiere la clave del archivo]**, el complemento necesita una URL de archivo Figma para completar la conversión. Añada la dirección URL del documento:
+1. A continuación, comparta el vínculo de archivo Figma. El complemento necesita una URL de archivo Figma para completar la conversión. Añada la dirección URL del documento.
 
    1. En Figma, haz clic en **[!UICONTROL Compartir]** en la esquina superior derecha del lienzo.
    1. En **[!UICONTROL Compartir este archivo]**, haga clic en **[!UICONTROL Copiar vínculo]**.
-   1. Pegue el vínculo copiado en el campo **[!UICONTROL URL del archivo Figma]** del cuadro de diálogo del complemento.
-
-1. Haga clic en **[!UICONTROL Enviar]**. El complemento lee los marcos seleccionados en Figma y los convierte en un documento JSON, un formato intermedio para los datos del archivo.
-   ![Cuadro de diálogo obligatorio con clave de archivo](./file-key-required.png){width="35%"}
-1. En Photoshop, abra GenStudio Photoshop y haga clic en la ficha **[!UICONTROL Importar]**.
-1. Realice una de las siguientes acciones:
+   1. Pegue el vínculo copiado en el campo **[!UICONTROL Vínculo de archivo Figma]** del cuadro de diálogo del complemento [!DNL GenStudio for Performance Marketing]. Esto debe hacerse para cada archivo:
+      ![Cuadro de diálogo obligatorio con clave de archivo](./file-key-required.png){width="35%"}
+   1. Haga clic en **[!UICONTROL Enviar]**. El complemento lee los marcos seleccionados en Figma y los convierte en un documento JSON, un formato intermedio para los datos del archivo.
+1. Aparecerá una ventana emergente pidiendo acceso para leer el contenido y los metadatos del archivo. Esto solo debe hacerse una vez para todos los archivos. Haga clic en **[!UICONTROL Permitir acceso]**.
+   ![Permitir acceso para leer el contenido y los metadatos del archivo](./figma-access-request.png){width="35%"}
+1. En Photoshop, abra [!DNL GenStudio Photoshop] y haga clic en la ficha **[!UICONTROL Importar]**.
+1. Para seleccionar los archivos convertidos, realice uno de los siguientes pasos:
 
    * Haga clic en **[!UICONTROL Desde el complemento]** para elegir un archivo convertido con **[!UICONTROL Transferir a GenStudio Photoshop]** de la lista de archivos en caché, o
    * Haga clic en **[!UICONTROL Cargar JSON]** para buscar y seleccionar el archivo JSON que desea cargar.
