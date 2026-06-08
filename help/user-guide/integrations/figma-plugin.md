@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8867ca0d3cdc7d6e52a4947b4836c02d2ac58f03
+source-git-commit: d2e2de8b867264daaa05908dd1d2dc56e3feb071
 workflow-type: tm+mt
-source-wordcount: 1797
+source-wordcount: 1775
 ht-degree: 77%
 
 ---
@@ -256,8 +256,8 @@ Para convertir fotogramas:
    1. En **[!UICONTROL Compartir este archivo]**, haga clic en **[!UICONTROL Copiar vínculo]**.
    1. Pegue el vínculo copiado en el campo **[!UICONTROL Vínculo de archivo Figma]** del cuadro de diálogo del complemento [!DNL GenStudio for Performance Marketing]. Esto debe hacerse para cada archivo:
       ![Cuadro de diálogo obligatorio con clave de archivo](./file-key-required.png){width="35%"}
-   1. Haga clic en **[!UICONTROL Enviar]**. El complemento lee los marcos seleccionados en Figma y los convierte en un documento JSON, un formato intermedio para los datos del archivo.
-1. Aparecerá una ventana emergente pidiendo acceso para leer el contenido y los metadatos del archivo. Esto solo debe hacerse una vez para todos los archivos. Haga clic en **[!UICONTROL Permitir acceso]**.
+   1. Haga clic en **[!UICONTROL Enviar]**.
+1. Aparecerá una ventana emergente pidiendo acceso para leer el contenido y los metadatos del archivo. Esto solo debe hacerse una vez para todos los archivos. Haga clic en **[!UICONTROL Permitir acceso]**. El complemento leerá los marcos seleccionados en Figma y los convertirá en un documento JSON, un formato intermedio para los datos del archivo.
    ![Permitir acceso para leer el contenido y los metadatos del archivo](./figma-access-request.png){width="35%"}
 1. En Photoshop, abra [!DNL GenStudio Photoshop] y haga clic en la ficha **[!UICONTROL Importar]**.
 1. Para seleccionar los archivos convertidos, realice uno de los siguientes pasos:
