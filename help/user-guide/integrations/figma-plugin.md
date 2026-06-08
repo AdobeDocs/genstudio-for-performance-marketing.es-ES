@@ -5,21 +5,14 @@ feature: Generative AI
 role: User
 exl-id: 232fbbc6-c523-4525-8d26-a8ac8d62c035
 TQID: https://experienceleague.adobe.com/JKHpT5m-4KZvq-iWF2u11hRaFFRhKMo-ofbWk-xvRMI
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-subfeature_v2:
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8867ca0d3cdc7d6e52a4947b4836c02d2ac58f03
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181
+subfeature_v2: id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: d2e2de8b867264daaa05908dd1d2dc56e3feb071
 workflow-type: tm+mt
-source-wordcount: 1797
+source-wordcount: 1775
 ht-degree: 77%
 
 ---
@@ -42,7 +35,7 @@ Las funciones de este complemento incluyen:
 * Exportar [!DNL Experiences] generado a GenStudio for Performance Marketing.
 * Utilice opciones de plugin que se adapten a los elementos seleccionados en el lienzo Figma.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478812?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
 
 ## Creación de una plantilla
 
@@ -256,8 +249,8 @@ Para convertir fotogramas:
    1. En **[!UICONTROL Compartir este archivo]**, haga clic en **[!UICONTROL Copiar vínculo]**.
    1. Pegue el vínculo copiado en el campo **[!UICONTROL Vínculo de archivo Figma]** del cuadro de diálogo del complemento [!DNL GenStudio for Performance Marketing]. Esto debe hacerse para cada archivo:
       ![Cuadro de diálogo obligatorio con clave de archivo](./file-key-required.png){width="35%"}
-   1. Haga clic en **[!UICONTROL Enviar]**. El complemento lee los marcos seleccionados en Figma y los convierte en un documento JSON, un formato intermedio para los datos del archivo.
-1. Aparecerá una ventana emergente pidiendo acceso para leer el contenido y los metadatos del archivo. Esto solo debe hacerse una vez para todos los archivos. Haga clic en **[!UICONTROL Permitir acceso]**.
+   1. Haga clic en **[!UICONTROL Enviar]**.
+1. Aparecerá una ventana emergente pidiendo acceso para leer el contenido y los metadatos del archivo. Esto solo debe hacerse una vez para todos los archivos. Haga clic en **[!UICONTROL Permitir acceso]**. El complemento leerá los marcos seleccionados en Figma y los convertirá en un documento JSON, un formato intermedio para los datos del archivo.
    ![Permitir acceso para leer el contenido y los metadatos del archivo](./figma-access-request.png){width="35%"}
 1. En Photoshop, abra [!DNL GenStudio Photoshop] y haga clic en la ficha **[!UICONTROL Importar]**.
 1. Para seleccionar los archivos convertidos, realice uno de los siguientes pasos:
