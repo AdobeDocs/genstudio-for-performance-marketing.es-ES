@@ -16,7 +16,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 890
 ht-degree: 0%
@@ -29,7 +29,7 @@ El flujo de trabajo de revisión y aprobaciones garantiza que todas las partes i
 
 >[!NOTE]
 >
->Esta característica también está disponible como una [integración con Adobe Workfront Proof](/help/user-guide/approvals/proof-integration.md). Esta integración ofrece funcionalidades de prueba en el lienzo de GenStudio for Performance Marketing. Con la integración de Workfront Proof, GenStudio for Performance Marketing obtiene un proceso de revisión más estructurado, transparente y colaborativo, lo que ayuda a los equipos a pasar de Borrador a Final con mayor confianza y claridad.
+> Esta característica también está disponible como una [integración con Adobe Workfront Proof](/help/user-guide/approvals/proof-integration.md). Esta integración ofrece funcionalidades de prueba en el lienzo de GenStudio for Performance Marketing. Con la integración de Workfront Proof, GenStudio for Performance Marketing obtiene un proceso de revisión más estructurado, transparente y colaborativo, lo que ayuda a los equipos a pasar de Borrador a Final con mayor confianza y claridad.
 
 ## Ventajas del flujo de trabajo de revisión y aprobación
 
@@ -39,7 +39,7 @@ El flujo de trabajo de revisión y aprobaciones garantiza que todas las partes i
 
 * **Cumplimiento de los objetivos de la campaña y los requisitos legales**. El proceso de aprobación ayuda a comprobar que el contenido admite los objetivos de la campaña. Garantiza que todos los materiales de marketing cumplan con las normas legales y reglamentarias, lo que minimiza los riesgos y los posibles problemas legales.
 
-* **Integración con Adobe Workfront Proof**. Los usuarios pueden acceder a las potentes funciones de revisión y aprobación de Workfront Proof desde GenStudio for Performance Marketing. El contenido revisado en GenStudio for Performance Marketing se sincroniza con Workfront Proof y los comentarios de revisión y el estado se conservan. [Aspectos destacados de la integración &#x200B;](/help/user-guide/approvals/proof-integration.md) identifica cómo Proof amplía el flujo de trabajo de aprobación de GenStudio for Performance Marketing.
+* **Integración con Adobe Workfront Proof**. Los usuarios pueden acceder a las potentes funciones de revisión y aprobación de Workfront Proof desde GenStudio for Performance Marketing. El contenido revisado en GenStudio for Performance Marketing se sincroniza con Workfront Proof y los comentarios de revisión y el estado se conservan. [Aspectos destacados de la integración](/help/user-guide/approvals/proof-integration.md) identifica cómo Proof extiende el flujo de trabajo de aprobación de GenStudio for Performance Marketing.
 
 ## Ciclo de vida de revisión y aprobación
 
@@ -69,7 +69,7 @@ Estados de borrador disponibles:
 
 >[!NOTE]
 >
->Los borradores corresponden a _pruebas_ para los usuarios de la integración de Workfront Proof. [Los borradores y las pruebas &#x200B;](/help/user-guide/approvals/proof-integration.md#drafts-and-proofs) difieren en términos de persistencia y de control de versiones.
+> Los borradores corresponden a _pruebas_ para los usuarios de la integración de Workfront Proof. [Los borradores y las pruebas](/help/user-guide/approvals/proof-integration.md#drafts-and-proofs) difieren en cuanto a persistencia y versiones.
 
 ## Funciones de aprobación
 
@@ -79,7 +79,7 @@ _Los revisores_ pueden agregar comentarios, pero no pueden aprobar el contenido.
 
 Las notificaciones internas del producto de GenStudio for Performance Marketing actualizan a los aprobadores y editores de contenido en tiempo real de los cambios de estado de los recursos y `@mention` comentarios. Las notificaciones admiten la iteración rápida a través de varios ciclos de revisión, edición y aprobación.
 
-Los editores y aprobadores de contenido pueden registrarse para recibir estas notificaciones en Slack. Ver [Suscribirse a servicios en Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/services/customer-attributes/subscription).
+Los editores y aprobadores de contenido pueden registrarse para recibir estas notificaciones en Slack. Ver [Suscribirse a los servicios de CX Enterprise](https://experienceleague.adobe.com/es/docs/core-services/interface/services/customer-attributes/subscription).
 
 Las acciones realizadas por los participantes de la aprobación almacenan en déclencheur las notificaciones automáticas internas del producto y las notificaciones por correo electrónico. Al iniciar un proceso de aprobación, los aprobadores designados reciben notificaciones por correo electrónico y dentro del producto. Se le mantiene al tanto de las notificaciones internas del producto y por correo electrónico cada vez que un aprobador agrega `@mention` comentarios o toma una decisión. Las notificaciones incluyen vínculos al borrador de contenido.
 

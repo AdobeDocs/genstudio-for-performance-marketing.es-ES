@@ -13,7 +13,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 694
 ht-degree: 0%
@@ -36,7 +36,7 @@ Como aprobador designado, puede acceder al contenido para revisarlo de varias fo
 
 * **Acceda al borrador para revisarlo directamente desde el vínculo del borrador en la solicitud de aprobación**. Haga clic en el vínculo del borrador en el correo electrónico de solicitud de aprobación o en la notificación interna del producto. Se abrirá el lienzo en el que se mostrará el recurso o la experiencia. El panel _Aprobación_ se muestra a la derecha.
 
-* **Acceda al borrador para revisarlo desde la lista de solicitudes de aprobación**. Si se le pide que revise varios borradores de contenido, el correo electrónico de notificación incluye el botón **[!UICONTROL Ver todas las notificaciones]**. Haga clic en este botón para navegar a una página que muestre todas las notificaciones que ha recibido, incluidas las solicitudes de aprobación y las notificaciones que ha activado desde otros productos de Adobe Experience Cloud.
+* **Acceda al borrador para revisarlo desde la lista de solicitudes de aprobación**. Si se le pide que revise varios borradores de contenido, el correo electrónico de notificación incluye el botón **[!UICONTROL Ver todas las notificaciones]**. Haga clic en este botón para navegar a una página que muestre todas las notificaciones que ha recibido, incluidas las solicitudes de aprobación y las notificaciones que ha activado desde otros productos de Adobe CX Enterprise.
 
 ## Acceder al contenido para su revisión
 

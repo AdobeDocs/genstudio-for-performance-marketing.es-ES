@@ -12,7 +12,7 @@ feature_v2:
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 338
 ht-degree: 5%
@@ -29,7 +29,7 @@ El módulo de complementos de GenStudio for Performance Marketing proporciona he
 
 En esta guía se describe el proceso de creación de complementos para personalizar y mejorar las funciones principales de creación de contenido impulsado por IA de GenStudio for Performance Marketing.
 
-Los desarrolladores de aplicaciones ampliables para GenStudio for Performance Marketing utilizan el marco de herramientas estándar de desarrollo de aplicaciones de Adobe Experience Cloud para desarrollar e implementar aplicaciones personalizadas o complementos. [Adobe App Builder](https://developer.adobe.com/app-builder/) es fundamental para este conjunto de herramientas de desarrollo.
+Los desarrolladores de aplicaciones ampliables para GenStudio for Performance Marketing utilizan el marco de herramientas estándar de desarrollo de aplicaciones empresariales de Adobe CX para desarrollar e implementar aplicaciones personalizadas o complementos. [Adobe App Builder](https://developer.adobe.com/app-builder/) es fundamental para este conjunto de herramientas de desarrollo.
 
 La creación de complementos incluye estas tareas de alto nivel:
 
