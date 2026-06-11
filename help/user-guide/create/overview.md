@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: da699f7dc5bd4f0994af4a912017dd2503afed69
+source-git-commit: 5aa02e34bb69b8d6254c9a38dc7cd752eadfcad0
 workflow-type: tm+mt
-source-wordcount: 729
-ht-degree: 88%
+source-wordcount: 794
+ht-degree: 81%
 
 ---
 
@@ -234,6 +234,18 @@ En la sección _Recientes_ de [!DNL Create], puede obtener acceso y administrar 
 Los borradores se guardan automáticamente y se muestran en la sección _Recientes_ del inicio de [!DNL Create]. Cada borrador de esta sección muestra un estado, como _Borrador_ o _Aprobado_.
 
 Haga clic en el icono de vista de galería (cuadrícula) para mostrar _Recientes_ elementos en una vista de cuadrícula o de tabla.
+
+### Edición en colaboración
+
+Los creadores de borradores ahora pueden compartir sus borradores con colaboradores, asignar funciones y trabajar para crear contenido juntos en tiempo real. Esta función ofrece algunas ventajas significativas para el flujo de trabajo, además de la simple revisión y aprobación:
+
+* **Fácil colaboración en un borrador existente** con notificaciones rápidas, sin tener que volver a crear ni exportar nada.
+
+* **La coedición en tiempo real** entre los integrantes del equipo se lleva a cabo sin actualizar ni combinar archivos posteriormente.
+
+* **Acceso de solo lectura** para que las partes interesadas curiosas vean el lienzo antes de que comience el flujo de R&amp;A.
+
+Aprenda a [utilizar la edición en colaboración con sus borradores](collaborative-editing.md).
 
 ### Administrar variantes
 
