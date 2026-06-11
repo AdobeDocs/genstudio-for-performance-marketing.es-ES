@@ -17,10 +17,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d2e2de8b867264daaa05908dd1d2dc56e3feb071
+source-git-commit: 2c5e5166bfe9d4b1c6cb56495613ff5cf20fab34
 workflow-type: tm+mt
-source-wordcount: 1775
-ht-degree: 77%
+source-wordcount: 1793
+ht-degree: 76%
 
 ---
 
@@ -219,6 +219,9 @@ Se crea un archivo ZIP en el panel del complemento o aparece un vínculo a **[!U
 
 Puede usar el complemento Figma para convertir un marco Figma, varios marcos o un documento completo al formato Photoshop y exportarlo para utilizarlo con [GenStudio Photoshop](photoshop-plugin.md). Actualmente, solo se admiten propiedades principales como visibilidad, tamaño de fuente y atributos de capa básicos durante la conversión. Todavía no se admiten funciones como tachado, superíndice, subíndice, opacidad como porcentajes, degradados y propiedades avanzadas similares.
 
+<!-- GS-34076: Demo video placement is hardcoded in the tool UI; keep this video above "The plugin supports the following Figma layer types for conversion." -->
+>[!VIDEO](https://video.tv.adobe.com/v/3492271?learn=on)
+
 El complemento admite los siguientes tipos de capas Figma para la conversión:
 
 * **Cuadro**
@@ -245,6 +248,11 @@ Para convertir fotogramas:
 
 1. Abra el complemento de Firefly Enterprise y GenStudio en Figma y haga clic en la ficha **[!UICONTROL Exportar]** en la interfaz de usuario del complemento.
 1. En el lienzo, seleccione el marco o marcos que desea exportar. Puede elegir uno o varios marcos.
+
+   >[!NOTE]
+   >
+   > Los fotogramas no pueden estar dentro de una sección durante la conversión. Seleccione tramas que no estén anidadas dentro de un nodo de sección.
+
 1. Para migrar los fotogramas seleccionados, realice una de las siguientes acciones:
 
    * Haga clic en **[!UICONTROL Exportar]** para exportar el archivo convertido a una ubicación elegida o
