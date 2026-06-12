@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 338
+source-wordcount: 357
 ht-degree: 1%
 
 ---
@@ -100,3 +100,8 @@ Al guardar los recursos aprobados, [!DNL Content] mantiene los metadatos enrique
 ### Trabajo con plantillas
 
 Las plantillas aceleran el proceso de creación para que pueda generar contenido coherente en varios canales. Cargue la plantilla personalizada para utilizarla como punto de partida en el proceso de creación con diseños y elementos de diseño preconfigurados. Obtenga información acerca de los elementos y procedimientos básicos de la plantilla en [Trabajar con plantillas](../templates/use-templates.md). Y profundiza en la creación de plantillas con el tema [Personalizar una plantilla](../templates/customize-template.md).
+
+### Traducir experiencias aprobadas
+
+Puede traducir las experiencias de correo electrónico y medios de pago aprobadas a varios idiomas directamente desde la galería de [!DNL Content] _[!UICONTROL Experiencias]_ o desde la página de aterrizaje de [!DNL Create]. Ver [Traducir del contenido](../create/translate-experiences.md#translate-from-content) o [Traducir de Crear](../create/translate-experiences.md#translate-from-create).
+

@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e41ca23a135e2cacfcc029c04992bbff1b515bd6
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 580
+source-wordcount: 600
 ht-degree: 0%
 
 ---
@@ -108,3 +108,5 @@ Cuando su organización habilita el intercambio de fragmentos de contenido, pued
 ![Panel de IU de fragmentos de contenido](./cf-pane.png){width="500" zoomable="yes"}
 
 Su organización elige qué fuentes de fragmentos de contenido y repositorios están disponibles. Consulte [Buscar extensión de fragmento de contenido](/help/extensibility/deploy-app.md#find-content-fragment-extension) para ver cómo configuran los administradores las fuentes y cómo los autores intercambian la copia del lienzo con **[!UICONTROL Intercambiar]**.
+
+También puede traducir una experiencia de correo electrónico aprobada a varios idiomas en el lienzo de HTML. Ver [Traducir y localizar experiencias](/help/user-guide/create/translate-experiences.md).

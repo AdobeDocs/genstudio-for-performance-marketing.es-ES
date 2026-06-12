@@ -21,22 +21,26 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 318
+source-wordcount: 337
 ht-degree: 0%
 
 ---
 
 # Experiencias de Meta
 
-Con Adobe GenStudio for Performance Marketing, puedes usar IA generativa para optimizar la [creación de experiencias de Meta de alto impacto](/help/user-guide/create/create-meta-ad.md). [!DNL Create] permite a los creadores de contenido usar [directrices](/help/user-guide/guidelines/overview.md), recursos de imagen y un [mensaje bien diseñado](/help/user-guide/effective-prompts.md) para [crear rápidamente experiencias de anuncios de Meta](/help/user-guide/create/create-meta-ad.md).
+Con Adobe GenStudio for Performance Marketing, puedes usar IA generativa para optimizar la [creación de experiencias de Meta de alto impacto](/help/user-guide/create/create-meta-ad.md). [!DNL Create] permite que los creadores de contenido usen [directrices](/help/user-guide/guidelines/overview.md), recursos de imagen y un [mensaje bien diseñado](/help/user-guide/effective-prompts.md) para [crear rápidamente experiencias de anuncios de Meta](/help/user-guide/create/create-meta-ad.md).
 
 Al generar experiencias Meta, se crean cuatro variaciones que se muestran en el lienzo. GenStudio for Performance Marketing admite [anuncios de Meta estándar y personalizados](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
 Al generar experiencias de Meta, se crean cuatro variaciones que se muestran en el lienzo.
 
 GenStudio for Performance Marketing admite [anuncios de Meta estándar y personalizados](/help/user-guide/templates/meta-template.md).
+
+
+Puede traducir una experiencia aprobada de Meta a varios idiomas en el lienzo de HTML. Ver [Traducir y localizar experiencias](/help/user-guide/create/translate-experiences.md).
+
 
 Las secciones editables de una experiencia de correo electrónico incluyen:
 

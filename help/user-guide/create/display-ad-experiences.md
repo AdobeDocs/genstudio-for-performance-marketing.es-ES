@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 106
+source-wordcount: 126
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ Con Adobe GenStudio for Performance Marketing, puedes usar IA generativa para op
 Al generar experiencias de anuncio en pantalla, se crean cuatro variaciones que se muestran en el lienzo.
 
 Consulte [Directrices para plantillas de anuncios en pantalla](/help/user-guide/templates/display-template.md) para obtener información sobre dimensiones admitidas, nombres de campos reconocidos y mucho más.
+
+Puede traducir una experiencia de anuncio en pantalla aprobada a varios idiomas en el lienzo de HTML. Ver [Traducir y localizar experiencias](/help/user-guide/create/translate-experiences.md).
 
 Las secciones editables de una experiencia de anuncio en pantalla incluyen:
 

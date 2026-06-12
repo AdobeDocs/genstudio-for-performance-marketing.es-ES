@@ -21,10 +21,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 1518
-ht-degree: 0%
+source-wordcount: 1546
+ht-degree: 1%
 
 ---
 
@@ -153,6 +153,10 @@ Al agregar recursos a [!DNL Content], se almacenan en el repositorio `GenStudio 
 1. En la vista de recursos, haga clic en **[!UICONTROL Eliminar]** (papelera) en la esquina superior derecha.
 
 1. En la ventana emergente _Eliminar recurso_, verifique el recurso y haga clic en **[!UICONTROL Eliminar]**.
+
+## Traducir experiencias
+
+Puede traducir una experiencia aprobada a uno o más idiomas desde la galería de _[!UICONTROL Experiencias]_ o desde una vista de detalles de experiencia. Ver [Traducir y localizar experiencias](/help/user-guide/create/translate-experiences.md#translate-from-content).
 
 ## Exportar experiencias
 

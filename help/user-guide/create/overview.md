@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5aa02e34bb69b8d6254c9a38dc7cd752eadfcad0
+source-git-commit: 8565bb7f27db5d641613d56e5767882dcaaf60ae
 workflow-type: tm+mt
-source-wordcount: 794
-ht-degree: 81%
+source-wordcount: 820
+ht-degree: 79%
 
 ---
 
@@ -234,6 +234,10 @@ En la sección _Recientes_ de [!DNL Create], puede obtener acceso y administrar 
 Los borradores se guardan automáticamente y se muestran en la sección _Recientes_ del inicio de [!DNL Create]. Cada borrador de esta sección muestra un estado, como _Borrador_ o _Aprobado_.
 
 Haga clic en el icono de vista de galería (cuadrícula) para mostrar _Recientes_ elementos en una vista de cuadrícula o de tabla.
+
+### Traducir y localizar
+
+Puede traducir las experiencias de correo electrónico y medios de pago aprobadas a varios idiomas desde la página de aterrizaje [!DNL Create] o desde [!DNL Content]. Ver [Traducir y localizar experiencias](/help/user-guide/create/translate-experiences.md).
 
 ### Edición en colaboración
 
