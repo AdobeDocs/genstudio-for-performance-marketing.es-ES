@@ -1,9 +1,9 @@
 ---
 name: generate-release-notes
 description: ""
-source-git-commit: 85ad74d3f24fb809b11f57b23bd24a7ae3310f43
+source-git-commit: c3c6aa86f4f520d020f8928612d1be6be1599652
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '957'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ Si la información nueva pertenece al documento, colóquela bajo el encabezado a
 
 Trabaje en este orden. Copie la lista de comprobación y rastree el progreso de las ediciones de varios pasos.
 
+0. [ ] Si **Jira** y **Confluence** MCP están disponibles, ejecute [consumer-release-sources](../consume-release-sources/SKILL.md) primero para ingerir el ticket de trabajo, la wiki de ceremonia (grupos de funciones de GA y Beta) y las páginas de KT. Si MCP no está disponible, utilice el contenido KT/wiki pegado y la asignación de campo [reference.md](reference.md#internal-sources-kt-and-release-wikis).
 1. [ ] Abra `help/user-guide/release-notes.md` y lea el bloque `## YYYY.MM {#latest}` actual. Trate **las notas de versiones anteriores** como contexto de **solo lectura** a menos que esté realizando el paso de archivado en el paso 2.
 2. [ ] Si se agrega una **nueva** versión mensual: archive la última versión actual (consulte [Archivar la última versión anterior](#archive-previous-latest)).
 3. [ ] Agregar o editar **solo** la sección `## YYYY.MM {#latest}` superior (el mes más reciente en la parte superior de la lista de versiones).
@@ -130,7 +131,7 @@ Antes de completar la tarea:
 
 ## Fuentes de contenido (resumen)
 
-Al extraer de los documentos de transferencia de conocimientos o de las wikis de versiones internamente, asigne los campos tal como se describe en [reference.md](reference.md#internal-sources-kt-and-release-wikis). La página enviada debe leerse como documentación de usuario independiente.
+Cuando **Jira/Confluence MCP** esté disponible, comienza con [consumer-release-sources](../consume-release-sources/SKILL.md) (wiki de ceremonia → páginas KT → entrega estructurada). De lo contrario, asigne los campos wiki de la transferencia de conocimientos pegados o la versión tal como se describe en [reference.md](reference.md#internal-sources-kt-and-release-wikis). La página enviada debe leerse como documentación de usuario independiente.
 
 ## Opcional: pulir nuevas subsecciones
 
