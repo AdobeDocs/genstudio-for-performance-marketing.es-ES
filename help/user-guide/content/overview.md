@@ -5,21 +5,14 @@ level: Beginner
 feature: Content Management, Media Templates
 exl-id: e44e9c2d-33ee-4621-93a2-27f49478a8c9
 TQID: https://experienceleague.adobe.com/G5Hk3l4ZnlHt81nYxgpFSN2vs6g2-CkiSwLtpAKZqAc
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 338
+source-wordcount: 357
 ht-degree: 1%
 
 ---
@@ -100,3 +93,8 @@ Al guardar los recursos aprobados, [!DNL Content] mantiene los metadatos enrique
 ### Trabajo con plantillas
 
 Las plantillas aceleran el proceso de creación para que pueda generar contenido coherente en varios canales. Cargue la plantilla personalizada para utilizarla como punto de partida en el proceso de creación con diseños y elementos de diseño preconfigurados. Obtenga información acerca de los elementos y procedimientos básicos de la plantilla en [Trabajar con plantillas](../templates/use-templates.md). Y profundiza en la creación de plantillas con el tema [Personalizar una plantilla](../templates/customize-template.md).
+
+### Traducir experiencias aprobadas
+
+Puede traducir las experiencias de correo electrónico y medios de pago aprobadas a varios idiomas directamente desde la galería de [!DNL Content] _[!UICONTROL Experiencias]_ o desde la página de aterrizaje de [!DNL Create]. Ver [Traducir del contenido](../create/translate-experiences.md#translate-from-content) o [Traducir de Crear](../create/translate-experiences.md#translate-from-create).
+

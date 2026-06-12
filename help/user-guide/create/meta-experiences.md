@@ -6,37 +6,31 @@ role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
 TQID: https://experienceleague.adobe.com/zKvU0COY6lhiGxtx0H5coTozyAiOWcUqh7NZa5FBGGE
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: ee4b6e5f-5b7a-421b-9859-0f964841a866
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: be495d08-ecd1-455f-951e-c22de504e667id: dee4e9a9-78d1-4953-8179-f8da6117027did: ee4b6e5f-5b7a-421b-9859-0f964841a866
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 318
+source-wordcount: 337
 ht-degree: 0%
 
 ---
 
 # Experiencias de Meta
 
-Con Adobe GenStudio for Performance Marketing, puedes usar IA generativa para optimizar la [creación de experiencias de Meta de alto impacto](/help/user-guide/create/create-meta-ad.md). [!DNL Create] permite a los creadores de contenido usar [directrices](/help/user-guide/guidelines/overview.md), recursos de imagen y un [mensaje bien diseñado](/help/user-guide/effective-prompts.md) para [crear rápidamente experiencias de anuncios de Meta](/help/user-guide/create/create-meta-ad.md).
+Con Adobe GenStudio for Performance Marketing, puedes usar IA generativa para optimizar la [creación de experiencias de Meta de alto impacto](/help/user-guide/create/create-meta-ad.md). [!DNL Create] permite que los creadores de contenido usen [directrices](/help/user-guide/guidelines/overview.md), recursos de imagen y un [mensaje bien diseñado](/help/user-guide/effective-prompts.md) para [crear rápidamente experiencias de anuncios de Meta](/help/user-guide/create/create-meta-ad.md).
 
 Al generar experiencias Meta, se crean cuatro variaciones que se muestran en el lienzo. GenStudio for Performance Marketing admite [anuncios de Meta estándar y personalizados](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
 Al generar experiencias de Meta, se crean cuatro variaciones que se muestran en el lienzo.
 
 GenStudio for Performance Marketing admite [anuncios de Meta estándar y personalizados](/help/user-guide/templates/meta-template.md).
+
+
+Puede traducir una experiencia aprobada de Meta a varios idiomas en el lienzo de HTML. Ver [Traducir y localizar experiencias](/help/user-guide/create/translate-experiences.md).
+
 
 Las secciones editables de una experiencia de correo electrónico incluyen:
 
