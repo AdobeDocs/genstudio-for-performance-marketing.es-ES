@@ -4,10 +4,10 @@ description: Aprenda a compartir borradores de medios de pago con colaboradores,
 feature: Create Canvas
 role: User
 level: Beginner
-source-git-commit: 80f96e0db22ab9215660991f0833da719bdc6393
+source-git-commit: 519c4d0273c996dbebcc28ee90a6b31006581305
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 4%
+source-wordcount: '469'
+ht-degree: 5%
 
 ---
 
@@ -30,11 +30,11 @@ La edición colaborativa en el lienzo de Horizon ofrece estas capacidades:
 
 Todos los colaboradores invitados pueden abrir y ver el borrador. En la tabla siguiente se enumeran las acciones de edición y flujo de trabajo por función.
 
-| Función | Editar elementos de mesa de trabajo | Editar campos de Chrome | Compartir borrador | Iniciar revisión y aprobación | Publicación | Notas |
-| --- | --- | --- | --- | --- | --- | --- |
-| **[!UICONTROL Propietario]** | Sí | Sí | Sí | Sí | Sí | Solo creador de documentos |
-| **[!UICONTROL Editor]** | Sí | Sí | Sí | Sí | Sí | Usuarios invitados explícitamente como **[!UICONTROL Editor]** |
-| **[!UICONTROL Visor]** | No | No | No | No | No | Usuarios invitados como **[!UICONTROL Visor]** |
+| Función | Editar elementos de mesa de trabajo | Editar campos de Chrome | Compartir borrador | Eliminar borrador | Iniciar revisión y aprobación | Publicación | Notas |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **[!UICONTROL Propietario]** | Sí | Sí | Sí | Sí | Sí | Sí | Solo creador de documentos |
+| **[!UICONTROL Editor]** | Sí | Sí | Sí | No | Sí | Sí | Usuarios invitados explícitamente como **[!UICONTROL Editor]** |
+| **[!UICONTROL Visor]** | No | No | No | No | No | No | Usuarios invitados como **[!UICONTROL Visor]** |
 
 ## Requisitos previos
 
