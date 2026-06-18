@@ -5,43 +5,14 @@ recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
 TQID: https://experienceleague.adobe.com/V33xtE9DNQS4PXKR0hfGuwpQyuAFApllCSYbR03xAjs
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: b03d2162-d906-40a0-9cbd-001391e22d4a
-  - id: b286a442-6f0d-405a-adea-abb4a98e2d7b
-  - id: bb0d2eba-617d-4fdd-b920-2f535b5c031c
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
-  - id: d87258a7-722c-4afd-b632-adddc447c7aa
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-  - id: ee4b6e5f-5b7a-421b-9859-0f964841a866
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b739e84a2345c8bceceff150aa0aa51ba960b0e7
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: b03d2162-d906-40a0-9cbd-001391e22d4aid: b286a442-6f0d-405a-adea-abb4a98e2d7bid: bb0d2eba-617d-4fdd-b920-2f535b5c031cid: be495d08-ecd1-455f-951e-c22de504e667id: d1558755-1618-43a0-bf5d-134ebe62e93bid: d87258a7-722c-4afd-b632-adddc447c7aaid: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: ee4b6e5f-5b7a-421b-9859-0f964841a866id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3f40cc7affba7d49430e3a0e6cf01f76ac31a02a
 workflow-type: tm+mt
-source-wordcount: 5284
+source-wordcount: 5467
 ht-degree: 0%
 
 ---
@@ -152,6 +123,26 @@ Explore los detalles de [Uso de plantillas de Adobe Express en GenStudio for Per
 ### Contenido de TikTok en GenStudio for Performance Marketing
 
 Ahora puede crear, aprobar y activar anuncios de vídeo en fuente de TikTok desde GenStudio for Performance Marketing. Genere anuncios fácilmente en el flujo de trabajo [!DNL Create] y luego publique la experiencia en [!DNL Content]. Use [!DNL Insights] para TikTok con el fin de supervisar el rendimiento e informar a la siguiente actualización creativa.
+
+### Content Intelligence Featurization V4
+
+La versión 4 de la funcionalidad representa una actualización completa respecto a la versión 3, e introduce un diseño con prioridad publicitaria con muchas nuevas funciones específicas de la publicidad en los tipos de contenido de imagen, texto y vídeo.
+
+Los beneficios con V4 incluyen:
+
+* **Diseño Advertising-First**: diseñado específicamente para el análisis de publicidad con el paquete completo de análisis CTA/Ofertas/Logotipos (18 características combinadas).
+* **Taxonomía granular**: aumento del 249 % en el total de características con una categorización clara y definiciones de características coherentes en imagen/texto/vídeo.
+* **Evaluación de la calidad de la producción**: 13 características de calidad de vídeo para la evaluación de la calidad técnica, la optimización móvil y la clasificación de tipos de producción (CLC/Studio/UGC).
+* **Comprensión semántica mejorada**: nuevas funciones que incluyen Brand personals, deseos humanos, Déclencheur cognitivos y reconocimiento integral de entidades.
+* **Coherencia en todos los canales**: Funciones unificadas entre tipos de contenido que permiten el análisis de publicidad en todos los canales.
+* **Optimización móvil**: Funciones dedicadas para la relación de aspecto, el ajuste de ubicación y la detección nativa de dispositivos móviles.
+
+**Principales adiciones de características:**
+
+* Advertising Suite (más de 20 funciones): CTA/análisis de ofertas/logotipos, promoción conjunta de marca, detección de influenciadores
+* Campaña y contexto del producto (7 funciones): producto, objetivo/tema de campaña, audiencia de Target, país, ubicación geográfica
+* Métricas de calidad de vídeo (13 funciones): calidad técnica, clasificación de producción, optimización móvil
+* Reconocimiento de entidades (9 funciones): Influencer, Eventos, Lugares, Menciones de marcas/productos, Medios populares
 
 +++
 
