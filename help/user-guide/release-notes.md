@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b739e84a2345c8bceceff150aa0aa51ba960b0e7
+source-git-commit: 3f40cc7affba7d49430e3a0e6cf01f76ac31a02a
 workflow-type: tm+mt
-source-wordcount: 5284
+source-wordcount: 5467
 ht-degree: 0%
 
 ---
@@ -152,6 +152,26 @@ Explore los detalles de [Uso de plantillas de Adobe Express en GenStudio for Per
 ### Contenido de TikTok en GenStudio for Performance Marketing
 
 Ahora puede crear, aprobar y activar anuncios de vídeo en fuente de TikTok desde GenStudio for Performance Marketing. Genere anuncios fácilmente en el flujo de trabajo [!DNL Create] y luego publique la experiencia en [!DNL Content]. Use [!DNL Insights] para TikTok con el fin de supervisar el rendimiento e informar a la siguiente actualización creativa.
+
+### Content Intelligence Featurization V4
+
+La versión 4 de la funcionalidad representa una actualización completa respecto a la versión 3, e introduce un diseño con prioridad publicitaria con muchas nuevas funciones específicas de la publicidad en los tipos de contenido de imagen, texto y vídeo.
+
+Los beneficios con V4 incluyen:
+
+* **Diseño Advertising-First**: diseñado específicamente para el análisis de publicidad con el paquete completo de análisis CTA/Ofertas/Logotipos (18 características combinadas).
+* **Taxonomía granular**: aumento del 249 % en el total de características con una categorización clara y definiciones de características coherentes en imagen/texto/vídeo.
+* **Evaluación de la calidad de la producción**: 13 características de calidad de vídeo para la evaluación de la calidad técnica, la optimización móvil y la clasificación de tipos de producción (CLC/Studio/UGC).
+* **Comprensión semántica mejorada**: nuevas funciones que incluyen Brand personals, deseos humanos, Déclencheur cognitivos y reconocimiento integral de entidades.
+* **Coherencia en todos los canales**: Funciones unificadas entre tipos de contenido que permiten el análisis de publicidad en todos los canales.
+* **Optimización móvil**: Funciones dedicadas para la relación de aspecto, el ajuste de ubicación y la detección nativa de dispositivos móviles.
+
+**Principales adiciones de características:**
+
+* Advertising Suite (más de 20 funciones): CTA/análisis de ofertas/logotipos, promoción conjunta de marca, detección de influenciadores
+* Campaña y contexto del producto (7 funciones): producto, objetivo/tema de campaña, audiencia de Target, país, ubicación geográfica
+* Métricas de calidad de vídeo (13 funciones): calidad técnica, clasificación de producción, optimización móvil
+* Reconocimiento de entidades (9 funciones): Influencer, Eventos, Lugares, Menciones de marcas/productos, Medios populares
 
 +++
 
