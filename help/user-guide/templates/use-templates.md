@@ -6,26 +6,15 @@ role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
 TQID: https://experienceleague.adobe.com/kXXSni5VZMFH615A-Re1-QjLooEyfXcMwVBwXnxp58s
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 10f44078f4c1b5865006311f9b32eab479986722
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: dec342aaecde7f5a23c4c98b97703071adf929f5
 workflow-type: tm+mt
-source-wordcount: 1443
+source-wordcount: 1654
 ht-degree: 1%
 
 ---
@@ -77,7 +66,7 @@ Usted [personaliza su plantilla](customize-template.md) para usarla en GenStudio
 
 ## Administración de plantillas
 
-La galería _[!DNL Templates]_&#x200B;muestra su inventario de plantillas personalizadas para generar experiencias en GenStudio for Performance Marketing.
+La galería _[!DNL Templates]_muestra su inventario de plantillas personalizadas para generar experiencias en GenStudio for Performance Marketing.
 
 ### Buscar conjunto de datos
 
@@ -90,7 +79,7 @@ Por ejemplo, es posible que desee encontrar una plantilla con un tipo de canal o
 
 A continuación se muestran los filtros por tipo de canal, como correo electrónico, anuncios en pantalla, anuncios de Meta y anuncios de LinkedIn.
 
-![Lista de plantillas de contenido](/help/assets/content-templates-filter.png "Buscar en las plantillas de LinkedIn"){width="650"}
+![Lista de plantillas de contenido](/help/assets/content-templates-filter.png "Buscar en las plantillas de LinkedIn"){width="650" zoomable="yes"}
 
 La capacidad de búsqueda de plantillas está disponible durante [!UICONTROL Crear] al seleccionar una plantilla para medios propios o de pago. Si determinadas opciones de filtro no están visibles, indica que ninguna plantilla del repositorio coincide con los criterios de metadatos correspondientes. Asegúrese de que las plantillas estén etiquetadas correctamente con los metadatos para que se puedan detectar a través de estos filtros.
 
@@ -100,34 +89,55 @@ Antes de cargar una plantilla, asegúrate de que esté totalmente preparada y li
 
 **Para agregar una plantilla**:
 
-1. En _[!DNL Content]_, seleccione la sección **[!UICONTROL Plantillas]**.
+1. En _[!DNL Content]_, seleccione la sección **[!UICONTROL Plantillas de HTML]**en la barra superior.
 
-2. Haga clic en **[!UICONTROL Agregar plantilla]**.
+1. Haga clic en **[!UICONTROL + Agregar plantilla]**.
 
-3. En el panel _[!UICONTROL Agregar su plantilla aprobada]_, busque el archivo de plantilla de HTML o arrastre el archivo de plantilla de HTML al espacio de colocación. Haga clic en **[!UICONTROL Siguiente]**.
+1. En el panel _[!UICONTROL Agregar su plantilla aprobada]_, elija el tipo de plantilla. A continuación, busque el archivo de plantilla de HTML o arrastre el archivo de plantilla de HTML al espacio de colocación. Haga clic en **[!UICONTROL Siguiente]**.
 
-4. En el panel _[!UICONTROL Comprobar campos detectados]_, revise los campos. Compruebe que está utilizando la plantilla correcta y que todos los detalles son los esperados.
+   ![Tipos de plantilla en el panel](/help/assets/template-choose-type.png){width="500" zoomable="yes"}
 
-   Ejemplo de previsualización para una plantilla de correo electrónico:
-
-   ![Campos de vista previa detectados](/help/assets/template-detected-fields.png){width="650"}
+1. En el panel _[!UICONTROL Comprobar campos detectados]_, revise los campos. Compruebe que está utilizando la plantilla correcta y que todos los detalles son los esperados.
 
    >[!TIP]
    >
-   >Si la plantilla no es correcta, haga clic en **[!UICONTROL Atrás]** y vuelva al paso anterior. Cargue el archivo de plantilla corregido. O use el [editor de código de plantilla](/help/user-guide/templates/code-editor.md) para hacer correcciones simples.
+   >Si los detalles de la plantilla no son correctos, haga clic en **[!UICONTROL Atrás]** y vuelva al paso anterior. Cargue el archivo de plantilla corregido. O use el [editor de código de plantilla](/help/user-guide/templates/code-editor.md) para hacer correcciones simples.
 
-5. Haga clic en **[!UICONTROL Siguiente]** cuando esté satisfecho con la vista previa de la plantilla.
+1. Revise los campos detectados automáticamente. En la vista Previsualización/Código de dos paneles, el panel izquierdo muestra una vista previa en directo de la plantilla con zonas detectadas resaltadas por color.La barra lateral derecha muestra la lista de campos de todos los campos detectados con su estado de ranura actual. Los campos están etiquetados con la notación Handlebars (por ejemplo, `{{headline}}`, `{{body}}`, `{{image}}`) visible en la pestaña Code.
 
-6. En _[!UICONTROL Proporcione detalles de plantilla y cargue]_, asigne un nombre a la plantilla y seleccione un tipo de **[!UICONTROL canal]**.
+   Ejemplo de previsualización para una plantilla de correo electrónico:
+
+   ![Campos de vista previa detectados](/help/assets/template-detected-fields.png){width="650" zoomable="yes"}
+
+1. Si una región no se detectó automáticamente, pasa el ratón sobre ella en el panel Previsualización para ver la característica **pasar el ratón por encima de**. Haga clic para asignar una etiqueta de manillar y establecer el estado de la ranura correcto.
+
+   ![Función de pasar el ratón por encima de la etiqueta que muestra los estados de las ranuras para un campo de logotipo](/help/assets/template-slot-state.png){width="500" zoomable="yes"}
+
+   >[!TIP]
+   >
+   > **Estados de ranura**
+   >
+   > Para cada campo detectado, asigne el estado de ranura adecuado:
+   >
+   > | **Estado de ranura** | **Descripción** | **Usar para** |
+   > |---|---|---|
+   > | **Otro (editable)** | AI genera contenido para este campo durante la ejecución o permite la edición manual de un campo personalizado. | Titulares, texto independiente, CTA: cualquier variación de IA que se desee. O campos personalizados para la edición manual o intercambios de fragmentos de contenido. |
+   > | **Corregido** | AI o los usuarios no pueden modificar el campo. | Descargo de responsabilidad legal, notas al pie de página regulatorias, vínculos de cancelación de suscripción. |
+
+1. Como alternativa, puede editar manualmente el HTML en la pestaña Código y hacer clic en el botón **[!UICONTROL Detectar campos automáticamente]** para volver a ejecutar la detección y actualizar la lista de campos.
+
+1. Haga clic en **[!UICONTROL Siguiente]** cuando esté satisfecho con la vista previa de la plantilla.
+
+1. En _[!UICONTROL Proporcione detalles de plantilla y cargue]_, asigne un nombre a la plantilla y seleccione un tipo de **[!UICONTROL canal]**.
 
    El nombre de la plantilla y el tipo de canal son obligatorios. Los requisitos adicionales pueden incluir:
 
    - **Meta**: requiere proporción de aspecto
    - **Titular y anuncio para mostrar**: requiere dimensiones
 
-7. Añada tantos detalles como pueda para mejorar la identificación de la plantilla en las búsquedas y el filtrado.
+1. Añada tantos detalles como pueda para mejorar la identificación de la plantilla en las búsquedas y el filtrado.
 
-8. Haga clic en **[!UICONTROL Listo]**.
+1. Haga clic en **[!UICONTROL Listo]**.
 
 ### Actualizar plantilla
 
