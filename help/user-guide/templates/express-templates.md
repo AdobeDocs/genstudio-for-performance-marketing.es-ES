@@ -19,12 +19,12 @@ Esta guía explica los requisitos y las características con las plantillas de [
 
 ## Acerca de las plantillas de [!DNL Adobe Express]
 
-En [!DNL Adobe Express], se pueden crear [nuevos documentos utilizando las plantillas de inicio existentes](https://helpx.adobe.com/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5) que se proporcionan en la aplicación, o con [plantillas personalizadas que pueden incluir restricciones de marca útiles](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html) como:
+En [!DNL Adobe Express], se pueden crear [nuevos documentos utilizando las plantillas de inicio existentes](https://helpx.adobe.com/es/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5) que se proporcionan en la aplicación, o con [plantillas personalizadas que pueden incluir restricciones de marca útiles](https://helpx.adobe.com/es/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html) como:
 
-- [Elementos bloqueados](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html) que no se pueden modificar
+- [Elementos bloqueados](https://helpx.adobe.com/es/express/web/invite-collaborate/object-locking.html) que no se pueden modificar
 - Restricciones de bloqueo que controlan cómo los usuarios pueden desbloquear elementos cuando es necesario
 
-La configuración de bloqueo establecida en la plantilla de [!DNL Adobe Express] también se aplicará en [!DNL GenStudio for Performance Marketing]. Use [las [!DNL Adobe Express] instrucciones para crear una plantilla personalizada con restricciones de marca](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/template-control.html).
+La configuración de bloqueo establecida en la plantilla de [!DNL Adobe Express] también se aplicará en [!DNL GenStudio for Performance Marketing]. Use [las [!DNL Adobe Express] instrucciones para crear una plantilla personalizada con restricciones de marca](https://helpx.adobe.com/es/express/web/brands-libraries-projects/create-manage-brands/template-control.html).
 
 Para utilizar fuentes personalizadas en una plantilla Express, los administradores deben aceptar primero la oferta correspondiente a Fuentes personalizadas en Admin Console, que se incluye como parte del derecho de licencia Express.
 
@@ -57,11 +57,11 @@ Al seleccionar una plantilla [!DNL Express] y hacer clic en **[!UICONTROL Usar]*
 
 ## Acerca de las variantes y [!DNL Experiences] con [!DNL Adobe Express] plantillas
 
-Las plantillas de [!DNL Express] ofrecen muchas de las mismas características con las que estará familiarizado al [administrar otras variantes](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text). Sin embargo, hay algunas mejoras importantes para optimizar cualquier flujo de trabajo para el contenido de [!DNL Express]. Esta sección describe características exclusivas de la implementación de [!DNL Adobe Express].
+Las plantillas de [!DNL Express] ofrecen muchas de las mismas características con las que estará familiarizado al [administrar otras variantes](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text). Sin embargo, hay algunas mejoras importantes para optimizar cualquier flujo de trabajo para el contenido de [!DNL Express]. Esta sección describe características exclusivas de la implementación de [!DNL Adobe Express].
 
 ### Generar automáticamente varios tamaños
 
-Cuando se han creado [varias páginas para un recurso en [!DNL Express]](https://helpx.adobe.com/express/web/arrange-layers-and-pages/add-pages.html), esas páginas se transfieren a cualquier plantilla creada a partir de ese recurso. Las páginas rápidas se generarán en tamaños diferentes del contenido creativo de [!DNL GenStudio for Performance Marketing].
+Cuando se han creado [varias páginas para un recurso en [!DNL Express]](https://helpx.adobe.com/es/express/web/arrange-layers-and-pages/add-pages.html), esas páginas se transfieren a cualquier plantilla creada a partir de ese recurso. Las páginas rápidas se generarán en tamaños diferentes del contenido creativo de [!DNL GenStudio for Performance Marketing].
 
 Cuando existe contenido de varios tamaños para un recurso en [!DNL Express], se pueden generar variantes para todos esos tamaños en una sola generación.
 
@@ -129,7 +129,7 @@ El formato de texto disponible incluye:
 
 ### Usar cuadros de flujo de texto vinculados
 
-[!DNL Adobe Express] admite el flujo de texto, que permite a un autor de una plantilla vincular dos cuadros de texto para que una sola frase fluya por ambos cuadros. Por ejemplo, un titular puede comenzar en un cuadro y terminar en otro, o parte de una frase puede utilizar un estilo diferente al resto. Cuando se importa una plantilla con flujo de texto a [!DNL GenStudio for Performance Marketing], el lienzo reconoce y respeta ese vínculo. Obtenga más información acerca de cómo crear cuadros de texto vinculados en [Flujo de texto en Adobe Express](https://helpx.adobe.com/express/web/create-and-edit-documents-and-webpages/create-and-edit-documents/text-flow-faq.html).
+[!DNL Adobe Express] admite el flujo de texto, que permite a un autor de una plantilla vincular dos cuadros de texto para que una sola frase fluya por ambos cuadros. Por ejemplo, un titular puede comenzar en un cuadro y terminar en otro, o parte de una frase puede utilizar un estilo diferente al resto. Cuando se importa una plantilla con flujo de texto a [!DNL GenStudio for Performance Marketing], el lienzo reconoce y respeta ese vínculo. Obtenga más información acerca de cómo crear cuadros de texto vinculados en [Flujo de texto en Adobe Express](https://helpx.adobe.com/es/express/web/create-and-edit-documents-and-webpages/create-and-edit-documents/text-flow-faq.html).
 
 Puede generar una copia para los cuadros de texto vinculados de la misma manera que genera cualquier otro campo, sin necesidad de ninguna configuración adicional. Los cuadros vinculados se comportan como una sola frase conectada a lo largo de la generación, edición y revisión de variante, por lo que nunca es necesario dividir, copiar ni cambiar la posición del texto entre los cuadros.
 
@@ -200,7 +200,7 @@ Las opciones de etiquetado varían según el tipo de elemento.
 
 ### Restricciones de bloqueo de plantilla
 
-Las plantillas pueden incluir [elementos bloqueados](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html) que se transfieren desde [!DNL Express] y controlan cómo se pueden modificar algunas características. La plantilla respeta estos ajustes, que también se pueden modificar:
+Las plantillas pueden incluir [elementos bloqueados](https://helpx.adobe.com/es/express/web/invite-collaborate/object-locking.html) que se transfieren desde [!DNL Express] y controlan cómo se pueden modificar algunas características. La plantilla respeta estos ajustes, que también se pueden modificar:
 
 1. Seleccione un elemento bloqueado en la plantilla.
 1. Haga clic en el icono de bloqueo en la parte superior izquierda del elemento seleccionado.
@@ -250,5 +250,5 @@ Consulte [Validación de marca](/help/user-guide/guidelines/brand-validation.md)
 
 ## Revisar y aprobar
 
-Después de editar y ajustar las variantes, apruebe y publique su contenido con [el flujo de trabajo de revisiones y aprobación](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/overview).
+Después de editar y ajustar las variantes, apruebe y publique su contenido con [el flujo de trabajo de revisiones y aprobación](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/approve/overview).
 
