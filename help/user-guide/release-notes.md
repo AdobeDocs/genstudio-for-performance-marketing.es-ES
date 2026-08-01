@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3f40cc7affba7d49430e3a0e6cf01f76ac31a02a
+source-git-commit: b886e9e46f386a6b81e7430fd462b662403b9bcb
 workflow-type: tm+mt
-source-wordcount: 5467
+source-wordcount: 5723
 ht-degree: 0%
 
 ---
@@ -50,9 +50,25 @@ ht-degree: 0%
 
 Esta información de la versión proporciona las últimas actualizaciones para la aplicación de GenStudio for Performance Marketing.
 
-## 2026.06.11 {#latest}
+## 2026.07.16 {#latest}
 
 **NUEVAS CARACTERÍSTICAS:**
+
+### Edición masiva en el lienzo de Horizon
+
+El lienzo Horizonte ahora vincula campos de texto e imagen relacionados entre los tamaños y páginas de una plantilla de varios tamaños o páginas, por lo que una edición de última milla solo debe realizarse una vez. Elija el ámbito **[!UICONTROL Aplicar a]** en el panel RTE (este tamaño, todos los tamaños o todos los conceptos) y la edición se propaga automáticamente, con la opción de ajustar manualmente el etiquetado de campos cuando sea necesario.
+
+### Activar anuncios en pantalla directamente en The Trade Desk
+
+Los especialistas en marketing ahora pueden publicar creativos de visualización aprobados directamente desde [!DNL GenStudio for Performance Marketing] en las campañas existentes de The Trade Desk. Conecte una cuenta con un token de API, inicie la activación desde [!DNL Activate] o [!DNL Content] y rastree el estado de activación con vínculos profundos de nuevo a Trade Desk.
+
+### Intercambio de fragmento de contenido en el lienzo de Horizon
+
+Ahora puede intercambiar un bloque de texto en el lienzo de Horizon por un fragmento de contenido preaprobado y reutilizable extraído directamente de la biblioteca de fragmentos de contenido de AEM. Los intercambios de fragmentos de contenido funcionan con la edición masiva, por lo que un intercambio puede aplicarse a un solo tamaño o propagarse en todos los tamaños y conceptos a la vez, manteniendo la copia regulada exactamente como se aprueba sin reentrada manual.
+
+## Notas de la versión anteriores
+
++++Notas a partir del 11 de junio de 2026
 
 ### YouTube Shorts en [!DNL Create] y [!DNL Activate]
 
@@ -80,7 +96,11 @@ Ahora, las plantillas de correo electrónico de [!DNL Create] pueden llevar más
 
 Cargue o cree plantillas con los campos de imagen adicionales y, a continuación, genere variantes de marca que respeten la estructura del pod. Vea [experiencias de correo electrónico](/help/user-guide/create/email-experiences.md) para el flujo de trabajo de correo electrónico de extremo a extremo.
 
-## Notas de la versión anteriores
+### Compatibilidad con flujo de texto para plantillas rápidas
+
+[!DNL Create] ahora respeta el flujo de texto, la función de Adobe Express que vincula dos cuadros de texto para que una sola frase fluya a través de ambos, en el lienzo de Horizonte. La copia generada rellena los cuadros vinculados como una frase conectada, de modo que los diseños de anuncio cuyo mensaje se divide en dos cuadros pueden finalmente crearse plantillas para su generación sin necesidad de copiar ni cambiar de posición manualmente. Más información sobre [cuadros de flujo de texto vinculados](/help/user-guide/templates/express-templates.md#use-linked-text-flow-boxes).
+
++++
 
 +++Notas a partir del 15 de mayo de 2026
 
@@ -260,9 +280,9 @@ Los especialistas en marketing ahora pueden intercambiar dinámicamente logotipo
 ### Perspectivas ampliadas para LinkedIn, Meta y TikTok
 
 * GenStudio Insights ahora incluye la creación de informes de rendimiento de LinkedIn Ads, lo que permite a los especialistas en marketing ver y analizar el rendimiento de sus campañas y anuncios directamente dentro de la plataforma para:
-   * LinkedIn Ads
-   * Meta Ads
-   * TikTok Ads
+  * LinkedIn Ads
+  * Meta Ads
+  * TikTok Ads
 
 ### Activación de Amazon Ads
 
@@ -285,10 +305,10 @@ Los especialistas en marketing ahora pueden intercambiar dinámicamente logotipo
 
 * GenStudio for Performance Marketing ahora admite la integración perfecta con sistemas de diseño de correo electrónico de terceros a través de un marco de trabajo de extensibilidad. Las funcionalidades clave incluyen:
 
-   * Importar automáticamente plantillas de sistemas de diseño de correo electrónico de terceros durante la creación de contenido
-   * Incorporar metadatos de plantilla junto con plantillas importadas
-   * Mantener una única fuente de datos conectándose directamente a sistemas de terceros
-   * Se proporciona SDK y una aplicación de ejemplo para crear integraciones personalizadas
+  * Importar automáticamente plantillas de sistemas de diseño de correo electrónico de terceros durante la creación de contenido
+  * Incorporar metadatos de plantilla junto con plantillas importadas
+  * Mantener una única fuente de datos conectándose directamente a sistemas de terceros
+  * Se proporciona SDK y una aplicación de ejemplo para crear integraciones personalizadas
 
 +++
 

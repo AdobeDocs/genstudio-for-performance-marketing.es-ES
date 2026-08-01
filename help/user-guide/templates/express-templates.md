@@ -4,9 +4,9 @@ description: Explore las funciones de GenStudio for Performance Marketing que pu
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: de08604b8968e6ae49cabd6632eb40516983d841
+source-git-commit: 96249838f5ec957edc22eadf51ec828f54002adf
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1870'
 ht-degree: 0%
 
 ---
@@ -126,6 +126,14 @@ El formato de texto disponible incluye:
 1. Introduzca el nuevo texto.
 1. Para dar formato al texto, haga clic en el elemento del cuadro de texto o escríbalo. Las opciones de formato aparecerán en una barra emergente. Si mantiene pulsada la tecla Mayús, se oculta la barra para ver el texto.
 1. Haga clic fuera del campo de texto para guardar los cambios.
+
+### Usar cuadros de flujo de texto vinculados
+
+[!DNL Adobe Express] admite el flujo de texto, que permite a un autor de una plantilla vincular dos cuadros de texto para que una sola frase fluya por ambos cuadros. Por ejemplo, un titular puede comenzar en un cuadro y terminar en otro, o parte de una frase puede utilizar un estilo diferente al resto. Cuando se importa una plantilla con flujo de texto a [!DNL GenStudio for Performance Marketing], el lienzo reconoce y respeta ese vínculo. Obtenga más información acerca de cómo crear cuadros de texto vinculados en [Flujo de texto en Adobe Express](https://helpx.adobe.com/es/express/web/create-and-edit-documents-and-webpages/create-and-edit-documents/text-flow-faq.html).
+
+Puede generar una copia para los cuadros de texto vinculados de la misma manera que genera cualquier otro campo, sin necesidad de ninguna configuración adicional. Los cuadros vinculados se comportan como una sola frase conectada a lo largo de la generación, edición y revisión de variante, por lo que nunca es necesario dividir, copiar ni cambiar la posición del texto entre los cuadros.
+
+Si la copia generada es demasiado larga para los cuadros vinculados, aparecerá una línea roja en la parte inferior del último cuadro para indicar el desbordamiento, que coincidirá con el mismo indicador utilizado en [!DNL Adobe Express]. Acorte la copia o vuelva a generar el campo para eliminar el desbordamiento.
 
 ### Ver capas
 
