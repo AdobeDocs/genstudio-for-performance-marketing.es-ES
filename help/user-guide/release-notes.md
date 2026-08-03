@@ -39,7 +39,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b886e9e46f386a6b81e7430fd462b662403b9bcb
+source-git-commit: 86c5e5236bf256694858ae5b0ca1f6930cf35033
 workflow-type: tm+mt
 source-wordcount: 5723
 ht-degree: 0%
@@ -56,7 +56,7 @@ Esta información de la versión proporciona las últimas actualizaciones para l
 
 ### Edición masiva en el lienzo de Horizon
 
-El lienzo Horizonte ahora vincula campos de texto e imagen relacionados entre los tamaños y páginas de una plantilla de varios tamaños o páginas, por lo que una edición de última milla solo debe realizarse una vez. Elija el ámbito **[!UICONTROL Aplicar a]** en el panel RTE (este tamaño, todos los tamaños o todos los conceptos) y la edición se propaga automáticamente, con la opción de ajustar manualmente el etiquetado de campos cuando sea necesario.
+El lienzo Horizonte ahora vincula campos de texto e imagen relacionados entre los tamaños y páginas de una plantilla de varios tamaños o páginas, por lo que una edición de última milla solo debe realizarse una vez. Elija el ámbito **[!UICONTROL Aplicar a]** en el menú Edición (este tamaño, todos los tamaños o todos los conceptos) y la edición se propaga automáticamente, con la opción de ajustar manualmente el etiquetado de campos cuando sea necesario.
 
 ### Activar anuncios en pantalla directamente en The Trade Desk
 
