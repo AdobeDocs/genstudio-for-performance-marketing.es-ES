@@ -4,16 +4,13 @@ description: Comience a crear una aplicación o un complemento para ampliar GenS
 feature: Extensibility
 exl-id: 4e757dd4-a02d-472c-bc13-6f27dffa48f2
 TQID: https://experienceleague.adobe.com/-GBttZv63YVWezBz1o9yrxvd-Uu5mbP-Aqh7Tm-kco4
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: b6b93e3513804919d43a663bb899e67556a4cbcd
 workflow-type: tm+mt
 source-wordcount: 496
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -45,19 +42,19 @@ Los componentes clave de las aplicaciones de App Builder incluyen estos archivos
 
 * Archivos de aplicación TS:
 
-   * `package.json`
-   * `package-lock.json`
-   * `eslint`
-   * `tsconfig`
-   * `jest test up`
+  * `package.json`
+  * `package-lock.json`
+  * `eslint`
+  * `tsconfig`
+  * `jest test up`
 
 * Archivos de configuración de App Builder:
 
-   * `app.config.yaml`
-   * `ext.config.yaml`: archivo de configuración para el complemento.
-   * `app.config.yaml`: archivo de configuración para el complemento (incluye la definición de su aplicación como complemento de GenStudio for Performance Marketing).
-   * `.aio`
-   * `.env`: no confirme el archivo `.env` al control de código fuente.
+  * `app.config.yaml`
+  * `ext.config.yaml`: archivo de configuración para el complemento.
+  * `app.config.yaml`: archivo de configuración para el complemento (incluye la definición de su aplicación como complemento de GenStudio for Performance Marketing).
+  * `.aio`
+  * `.env`: no confirme el archivo `.env` al control de código fuente.
 
 ### código Source
 

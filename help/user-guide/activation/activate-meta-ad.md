@@ -4,22 +4,14 @@ description: Obtenga información sobre cómo activar una experiencia de anuncio
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
 TQID: https://experienceleague.adobe.com/hDR0ngNiGnCXCCOgNhVG8gX4kHGrNvfybPbuMLwYk7U
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: d87258a7-722c-4afd-b632-adddc447c7aa
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: d87258a7-722c-4afd-b632-adddc447c7aaid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: afce03c5167b728fe04e4722a1e4f39868d523df
 workflow-type: tm+mt
-source-wordcount: 1980
+source-wordcount: 1981
 ht-degree: 1%
 
 ---
@@ -106,7 +98,7 @@ Si decide no activar directamente una experiencia aprobada de [!DNL Content], pu
 
 Utilice la sección _Medios_ para seleccionar al menos un recurso de imagen para incluirlo en su experiencia. Las ubicaciones de anuncios están asociadas con proporciones de aspecto de imagen admitidas, que se enumeran como opciones en el menú desplegable _Ubicaciones_. Este menú muestra las ubicaciones de anuncios compatibles para publicaciones de Facebook o historias de Instagram, organizadas por proporción de aspecto.
 
-Después de la carga, los recursos se guardan en [!DNL Content]. El área _Media_ muestra la imagen de forma predeterminada con una proporción de aspecto de 1:1. Las relaciones de aspecto alternativas incluyen solo los valores admitidos por el canal de publicidad de pago. Se agrupan por orientación vertical y horizontal. GenStudio for Performance Marketing admite la inclusión de hasta seis relaciones de aspecto por experiencia activada.
+Después de la carga, los recursos se guardan en [!DNL Content]. El área _Media_ muestra la imagen de forma predeterminada con una relación de aspecto de 1:1. Las relaciones de aspecto alternativas incluyen solo los valores admitidos por el canal de publicidad de pago. Se agrupan por orientación vertical y horizontal. GenStudio for Performance Marketing admite la inclusión de hasta seis relaciones de aspecto por experiencia activada.
 
 **Para cargar un recurso desde el contenido**:
 

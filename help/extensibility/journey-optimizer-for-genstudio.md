@@ -4,7 +4,7 @@ description: Instale y configure la aplicación de Journey Optimizer para GenStu
 feature: Extensibility
 source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Este tema es para **administradores y desarrolladores** que instalan la aplicaci
 
 ## Instalación de la aplicación desde Adobe Exchange
 
->[!VIDEO](https://video.tv.adobe.com/v/3483302?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3483287?learn=on)
 
 1. Abra [Adobe Exchange](https://exchange.adobe.com) y vaya a **[!UICONTROL CX Enterprise]**.
 1. Abra el listado de [Journey Optimizer for GenStudio](https://exchange.adobe.com/apps/ec/abpopqqr1q/journey-optimizer-for-genstudio).
@@ -79,9 +79,9 @@ Vea la extensión en **[!UICONTROL Administrador de Recorrido]** en AJO **[!UICO
 
 **Ver también** (control de acceso de Journey Optimizer):
 
-* [Control de acceso](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/access-control/access-control-landing-page)
-* [Permisos en Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/access-control/permissions)
-* [Introducción para administradores de sistemas](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/get-started/quick-start/administrator)
+* [Control de acceso](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/access-control-landing-page)
+* [Permisos en Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions)
+* [Introducción para administradores de sistemas](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/quick-start/administrator)
 
 ## Acceso a plantillas de AJO en GenStudio
 

@@ -4,22 +4,14 @@ description: Aprenda a activar una experiencia Innovid.
 feature: Ad Activation
 exl-id: ebb2aa9e-8efb-45b0-9ba2-7b27b8888708
 TQID: https://experienceleague.adobe.com/VTzk2CDlTqawM1ckdHPVzs2ES-y0Ui0mkOLnVD88bJk
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-subfeature_v2:
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 489
+source-wordcount: 490
 ht-degree: 0%
 
 ---
@@ -51,7 +43,7 @@ Para seleccionar experiencias:
 1. Utilice las herramientas de búsqueda y filtrado de la Galería de contenido para identificar la experiencia que desea activar. Luego haga clic en **[!UICONTROL Usar]**. También puede seleccionar una experiencia en Activar haciendo clic en **[!UICONTROL Nuevo]** en la tarjeta de producto Innovid.
 1. Se le pedirá que seleccione una plataforma antes de continuar con la activación. Seleccione *Innovid*. Se abre la página de configuración de Innovid Experience para esta experiencia. Ya contiene los detalles de la experiencia y no se puede revisar. 
 1. (Opcional) Haga clic en **[!UICONTROL Agregar experiencia]** para agregar experiencias a este grupo de activación.
-1. Haga clic en **[!UICONTROL Siguiente]** para confirmar la configuración de la plataforma Innovid. Se abre la vista **[!UICONTROL Configuración de plataforma]**. Esta vista muestra las opciones derivadas de las cuentas configuradas de Innovid.
+1. Haga clic en **[!UICONTROL Siguiente]** para confirmar la configuración de la plataforma Innovid. Se abre la vista **[!UICONTROL Configuración de plataforma]**.Esta vista muestra las opciones derivadas de las cuentas configuradas de Innovid.
 
 ## Paso 4: Confirmar la configuración de la plataforma Innovid
 

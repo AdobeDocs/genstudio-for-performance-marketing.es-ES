@@ -6,22 +6,14 @@ role: Developer, User
 feature: Media Templates
 exl-id: e69039b0-272d-4f39-b0e4-916be710fd5f
 TQID: https://experienceleague.adobe.com/-WHH1xjWFaizXTKjuF-K9UtaR12V3QpMezSqRfwbMIU
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 376
+source-wordcount: 380
 ht-degree: 1%
 
 ---
@@ -65,7 +57,7 @@ Consulte [Marcadores de posición de contenido](/help/user-guide/templates/custo
 | Cuadrado 1:1 | 1080 x 1080 | Estándar para la mayoría de las ubicaciones de Meta; recomendado para una compatibilidad amplia. |
 | Vertical 4:5 | 1080 x 1350 | Optimizado para fuentes móviles; proporciona más espacio vertical. |
 | Historia 9:16 | 1080 x 1920 | Ideal para historias y carretes; llena toda la pantalla móvil. |
-| Horizontal 1.91:1 | 1080 x 566 | Ideal para anuncios de vínculos y ubicaciones de fuentes de noticias; formato ancho. |
+| Horizontal 1,91:1 | 1080 x 566 | Ideal para anuncios de vínculos y ubicaciones de fuentes de noticias; formato ancho. |
 | Personalizado | Mínimo de 50 x 50 (anchura) | Usar solo si es necesario; puede provocar recortes o escalas. |
 
 Si el anuncio no está diseñado en ninguna de estas relaciones de aspecto, GenStudio for Performance Marketing recorta automáticamente la imagen en el tamaño adecuado.

@@ -4,25 +4,14 @@ description: GenStudio for Performance Marketing [!DNL Brands]  es una colecció
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
 TQID: https://experienceleague.adobe.com/mZ70azBCwP8KshE6iX7hwGvEWawBkU36aDejZbAkRAY
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-  - id: fee2c7a9-112e-463c-b451-44aaecaa6966
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: f54ee13b-9545-4d68-9842-a12026e60aafid: fee2c7a9-112e-463c-b451-44aaecaa6966
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
-source-wordcount: 1525
+source-wordcount: 1526
 ht-degree: 2%
 
 ---
@@ -65,9 +54,9 @@ La siguiente tabla muestra cada categoría de directrices de voz de marca y ejem
 
 | Categoría de directriz | Descripción | Prácticas recomendadas |
 | ------------------| :---------- | :---------- |
-| [!UICONTROL Tono de voz] | Personalidad de la marca expresada a través de la comunicación escrita | Utilice palabras descriptivas para transmitir claramente la emoción y el tono de la marca. <br>_Ejemplos_: &quot;genuino&quot;, &quot;juguetón&quot;<br><br>Sea conciso (de 3 a 6 directrices) y céntrese en los atributos clave de voz de la marca.<br><br>Seleccione palabras y frases que sean coherentes en todos los canales de comunicación para crear una identidad de marca coherente. |
+| [!UICONTROL Tono de voz] | Personalidad de la marca expresada a través de la comunicación escrita | Utilice palabras descriptivas para transmitir claramente la emoción y el tono de la marca. <br>_Ejemplos_: &quot;genuino&quot;, &quot;juguetón&quot;<br><br>Sea conciso (3-6 pautas) y céntrese en los atributos clave de voz de la marca.<br><br>Seleccione palabras/frases que sean coherentes en todos los canales de comunicación para crear una identidad de marca coherente. |
 | [!UICONTROL Valores de marca] | Principios que impulsan la cultura de marca, la experiencia del cliente y las estrategias empresariales | Utilice palabras descriptivas para transmitir la misión, la visión y las necesidades de audiencia de la marca. <br>_Ejemplos_: &quot;autenticidad&quot;, &quot;inspirador&quot;, &quot;progresivo&quot;<br><br>Sea conciso (directrices de 3 a 6) y céntrese en los valores o temas principales de la marca. |
-| [!UICONTROL Directrices editoriales] | Directrices de comunicación que definen las prácticas recomendadas para crear mensajes de marca | Use frases positivas (5-10 directrices) para establecer una base sólida.<br>_Ejemplos_: &quot;Use un lenguaje sencillo y accesible&quot; en lugar de &quot;Evite usar jerga&quot;<br><br>Proporcione instrucciones claras y procesables. <br>_Ejemplos_: &quot;Mantenga frases de menos de 20 palabras&quot; en lugar de &quot;Sea conciso&quot;<br><br>Refleje el estilo de su marca, por ejemplo, usando preferencias de sintaxis específicas. <br>_Ejemplos_: &quot;Use un guión largo en lugar de dos puntos&quot;, &quot;Use el caso de las oraciones&quot;<br><br>Cree directrices precisas que mantengan la coherencia en los resultados. |
+| [!UICONTROL Directrices editoriales] | Directrices de comunicación que definen las prácticas recomendadas para crear mensajes de marca | Use frases positivas (5-10 directrices) para establecer una base sólida.<br>_Ejemplos_: &quot;Use un lenguaje sencillo y accesible&quot; en lugar de &quot;Evite usar jerga&quot;<br><br>Proporcione instrucciones claras y procesables. <br>_Ejemplos_: &quot;Mantén frases de menos de 20 palabras&quot; en lugar de &quot;Sé conciso&quot;<br><br>Refleja el estilo de tu marca, por ejemplo, usando preferencias de sintaxis específicas. <br>_Ejemplos_: &quot;Use un guión largo en lugar de dos puntos&quot;, &quot;Use el caso de las oraciones&quot;<br><br>Cree directrices precisas que mantengan la coherencia en los resultados. |
 | [!UICONTROL Restricciones editoriales] | Directrices de comunicación que definen lo que se debe evitar en la mensajería de marca | Utilice frases negativas directas (5-10 directrices) para especificar lo que se debe evitar. <br>_Ejemplo_: &quot;Evite usar...&quot;<br><br>Proporcione instrucciones claras y procesables. <br>_Ejemplo_: &quot;Evitar preguntas retóricas&quot; |
 
 ### Directrices de imagen
