@@ -86,8 +86,8 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 Las nuevas extensiones se encuentran en diferentes ubicaciones de la interfaz de usuario, según el tipo de extensión que haya implementado. Los puntos de extensión disponibles actualmente son:
 
 * Extensión de cumplimiento, que incluye:
-   * [*solicitar puntos de extensión*](#find-prompt-extensions), que permiten a los clientes agregar contexto adicional a la generación de LLM, y
-   * [*puntos de extensión de validación*](#find-validation-extensions), que permiten a los clientes validar el contenido generado desde LLM. La validación suele ir acompañada de la extensión Prompt para garantizar que el contenido generado con una solicitud ampliada se ajuste a los requisitos del cliente (por ejemplo, reclamaciones de medicamentos médicos o reclamaciones legales)
+  * [*solicitar puntos de extensión*](#find-prompt-extensions), que permiten a los clientes agregar contexto adicional a la generación de LLM, y
+  * [*puntos de extensión de validación*](#find-validation-extensions), que permiten a los clientes validar el contenido generado desde LLM. La validación suele ir acompañada de la extensión Prompt para garantizar que el contenido generado con una solicitud ampliada se ajuste a los requisitos del cliente (por ejemplo, reclamaciones de medicamentos médicos o reclamaciones legales)
 * [Extensión de administración de activos digitales (DAM)](#find-dam-extensions)
 * [Extensión de plantilla](#find-template-extensions)
 * [Extensión de traducción](#find-translation-extensions)

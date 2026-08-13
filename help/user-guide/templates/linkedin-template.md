@@ -19,7 +19,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 242ab858144fd152fd55645143f869fddf7b6fe0
 workflow-type: tm+mt
-source-wordcount: 287
+source-wordcount: 293
 ht-degree: 2%
 
 ---
@@ -58,8 +58,8 @@ Todas las anchuras de las plantillas de LinkedIn están codificadas a 1200 píxe
 | Proporción de aspecto | Plataforma | Dimensiones (px) | Notas |
 |-------------------|-----------------|------------|-------------------------------------------------------------------------------------|
 | Cuadrado 1:1 | Escritorio, Móvil | 1200 x 1200 | Muy versátil. Ideal para lograr una apariencia uniforme en todos los dispositivos y ubicaciones. |
-| Horizontal 1.91:1 | Escritorio | 1200 x 628 | Formato horizontal estándar. Se utiliza comúnmente para contenido patrocinado y anuncios de fuentes de noticias. |
-| Vertical 1:1.91 | Dispositivo móvil | 1200 x 2292 | Formato vertical alto. Optimizado para la visualización móvil, que ofrece más presencia en la pantalla. |
+| Horizontal 1,91:1 | Escritorio | 1200 x 628 | Formato horizontal estándar. Se utiliza comúnmente para contenido patrocinado y anuncios de fuentes de noticias. |
+| Vertical 1:1,91 | Dispositivo móvil | 1200 x 2292 | Formato vertical alto. Optimizado para la visualización móvil, que ofrece más presencia en la pantalla. |
 | Vertical 2:3 | Dispositivo móvil | 1200 x 1800 | Un poco menos alto que 1:1.91. Ideal para campañas con prioridad móvil. |
 | Vertical 4:5 | Dispositivo móvil | 1200 x 1500 | Recomendado para dispositivos móviles. Equilibra la visibilidad y el contenido, lo que a menudo produce un mayor impacto. |
 

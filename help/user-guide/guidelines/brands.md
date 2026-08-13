@@ -22,7 +22,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
-source-wordcount: 1525
+source-wordcount: 1526
 ht-degree: 2%
 
 ---
@@ -65,9 +65,9 @@ La siguiente tabla muestra cada categoría de directrices de voz de marca y ejem
 
 | Categoría de directriz | Descripción | Prácticas recomendadas |
 | ------------------| :---------- | :---------- |
-| [!UICONTROL Tono de voz] | Personalidad de la marca expresada a través de la comunicación escrita | Utilice palabras descriptivas para transmitir claramente la emoción y el tono de la marca. <br>_Ejemplos_: &quot;genuino&quot;, &quot;juguetón&quot;<br><br>Sea conciso (de 3 a 6 directrices) y céntrese en los atributos clave de voz de la marca.<br><br>Seleccione palabras y frases que sean coherentes en todos los canales de comunicación para crear una identidad de marca coherente. |
+| [!UICONTROL Tono de voz] | Personalidad de la marca expresada a través de la comunicación escrita | Utilice palabras descriptivas para transmitir claramente la emoción y el tono de la marca. <br>_Ejemplos_: &quot;genuino&quot;, &quot;juguetón&quot;<br><br>Sea conciso (3-6 pautas) y céntrese en los atributos clave de voz de la marca.<br><br>Seleccione palabras/frases que sean coherentes en todos los canales de comunicación para crear una identidad de marca coherente. |
 | [!UICONTROL Valores de marca] | Principios que impulsan la cultura de marca, la experiencia del cliente y las estrategias empresariales | Utilice palabras descriptivas para transmitir la misión, la visión y las necesidades de audiencia de la marca. <br>_Ejemplos_: &quot;autenticidad&quot;, &quot;inspirador&quot;, &quot;progresivo&quot;<br><br>Sea conciso (directrices de 3 a 6) y céntrese en los valores o temas principales de la marca. |
-| [!UICONTROL Directrices editoriales] | Directrices de comunicación que definen las prácticas recomendadas para crear mensajes de marca | Use frases positivas (5-10 directrices) para establecer una base sólida.<br>_Ejemplos_: &quot;Use un lenguaje sencillo y accesible&quot; en lugar de &quot;Evite usar jerga&quot;<br><br>Proporcione instrucciones claras y procesables. <br>_Ejemplos_: &quot;Mantenga frases de menos de 20 palabras&quot; en lugar de &quot;Sea conciso&quot;<br><br>Refleje el estilo de su marca, por ejemplo, usando preferencias de sintaxis específicas. <br>_Ejemplos_: &quot;Use un guión largo en lugar de dos puntos&quot;, &quot;Use el caso de las oraciones&quot;<br><br>Cree directrices precisas que mantengan la coherencia en los resultados. |
+| [!UICONTROL Directrices editoriales] | Directrices de comunicación que definen las prácticas recomendadas para crear mensajes de marca | Use frases positivas (5-10 directrices) para establecer una base sólida.<br>_Ejemplos_: &quot;Use un lenguaje sencillo y accesible&quot; en lugar de &quot;Evite usar jerga&quot;<br><br>Proporcione instrucciones claras y procesables. <br>_Ejemplos_: &quot;Mantén frases de menos de 20 palabras&quot; en lugar de &quot;Sé conciso&quot;<br><br>Refleja el estilo de tu marca, por ejemplo, usando preferencias de sintaxis específicas. <br>_Ejemplos_: &quot;Use un guión largo en lugar de dos puntos&quot;, &quot;Use el caso de las oraciones&quot;<br><br>Cree directrices precisas que mantengan la coherencia en los resultados. |
 | [!UICONTROL Restricciones editoriales] | Directrices de comunicación que definen lo que se debe evitar en la mensajería de marca | Utilice frases negativas directas (5-10 directrices) para especificar lo que se debe evitar. <br>_Ejemplo_: &quot;Evite usar...&quot;<br><br>Proporcione instrucciones claras y procesables. <br>_Ejemplo_: &quot;Evitar preguntas retóricas&quot; |
 
 ### Directrices de imagen

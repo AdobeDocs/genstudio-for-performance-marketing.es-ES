@@ -23,8 +23,8 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 360
-ht-degree: 0%
+source-wordcount: 361
+ht-degree: 1%
 
 ---
 
@@ -56,4 +56,4 @@ En la tabla siguiente se muestra cada categoría de [!DNL Personas] directrices 
 | ------------------| :---------- |-------------|
 | Nombre del usuario | Representa un segmento de audiencia específico para el cual se personalizan los materiales de marketing generados | Agregue un nombre de persona claro y conciso.<br><br>_Ejemplos_: &quot;CMOs of Retail&quot;, &quot;Prospective Nursing Students&quot;, &quot;New Savings Acct Clients&quot; |
 | Descripción | Resumen breve que define las características, necesidades y comportamientos clave | Use un lenguaje conciso para describir claramente la segmentación de audiencia única y personal (de 1 a 2 frases).<br><br>Céntrese en lo que impulsa este segmento de audiencia (necesidades, características principales, etc.)<br><br>Mantenga una descripción concisa y sin datos demográficos profundos ni información adicional. |
-| Preferencias de mensajería | Borrar un resumen de los estilos de comunicación preferidos que resuenan en un perfil específico | Defina requisitos de mensajes únicos y motivaciones de persona, centrándose en cómo persona prefiere recibir e interactuar con las comunicaciones.<br><br>Proporcione preferencias de mensajes específicas en la lista (cada una de las frases de los elementos de la lista 1-2).<br><br>Limite la lista a un total de 10 frases o menos, asegurándose de que se resalte la información más crítica.<br><br>_Ejemplo_: &quot;Preferencias de mensajería para el profesional experto en tecnología:<li>Prefiere una comunicación concisa y sin jergas.</li><li>Responde positivamente a perspectivas basadas en datos y consejos útiles.</li><li>Prefiere elementos visuales como infografías y gráficos para captar rápidamente información compleja.</li><li>Valora la transparencia con un enfoque honesto y directo.</li>&quot; |
+| Preferencias de mensajería | Borrar un resumen de los estilos de comunicación preferidos que resuenan en un perfil específico | Defina los requisitos de mensajería únicos y las motivaciones de persona, centrándose en cómo persona prefiere recibir e interactuar con las comunicaciones.<br><br>Proporcione preferencias de mensajería específicas en la lista (cada una de las frases de los elementos 1 a 2 de la lista).<br><br>Limite la lista a un total de 10 frases o menos para garantizar que se resalte la información más importante.<br><br>_Ejemplo_: &quot;Preferencias de mensajería para profesionales con conocimientos técnicos:<li>Prefiere una comunicación concisa y sin jergas.</li><li>Responde positivamente a perspectivas basadas en datos y consejos útiles.</li><li>Prefiere elementos visuales como infografías y gráficos para captar rápidamente información compleja.</li><li>Valora la transparencia con un enfoque honesto y directo.</li>&quot; |

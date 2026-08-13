@@ -13,7 +13,7 @@ role_v2:
 source-git-commit: b6b93e3513804919d43a663bb899e67556a4cbcd
 workflow-type: tm+mt
 source-wordcount: 496
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -45,19 +45,19 @@ Los componentes clave de las aplicaciones de App Builder incluyen estos archivos
 
 * Archivos de aplicación TS:
 
-   * `package.json`
-   * `package-lock.json`
-   * `eslint`
-   * `tsconfig`
-   * `jest test up`
+  * `package.json`
+  * `package-lock.json`
+  * `eslint`
+  * `tsconfig`
+  * `jest test up`
 
 * Archivos de configuración de App Builder:
 
-   * `app.config.yaml`
-   * `ext.config.yaml`: archivo de configuración para el complemento.
-   * `app.config.yaml`: archivo de configuración para el complemento (incluye la definición de su aplicación como complemento de GenStudio for Performance Marketing).
-   * `.aio`
-   * `.env`: no confirme el archivo `.env` al control de código fuente.
+  * `app.config.yaml`
+  * `ext.config.yaml`: archivo de configuración para el complemento.
+  * `app.config.yaml`: archivo de configuración para el complemento (incluye la definición de su aplicación como complemento de GenStudio for Performance Marketing).
+  * `.aio`
+  * `.env`: no confirme el archivo `.env` al control de código fuente.
 
 ### código Source
 

@@ -21,7 +21,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 376
+source-wordcount: 380
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Consulte [Marcadores de posición de contenido](/help/user-guide/templates/custo
 | Cuadrado 1:1 | 1080 x 1080 | Estándar para la mayoría de las ubicaciones de Meta; recomendado para una compatibilidad amplia. |
 | Vertical 4:5 | 1080 x 1350 | Optimizado para fuentes móviles; proporciona más espacio vertical. |
 | Historia 9:16 | 1080 x 1920 | Ideal para historias y carretes; llena toda la pantalla móvil. |
-| Horizontal 1.91:1 | 1080 x 566 | Ideal para anuncios de vínculos y ubicaciones de fuentes de noticias; formato ancho. |
+| Horizontal 1,91:1 | 1080 x 566 | Ideal para anuncios de vínculos y ubicaciones de fuentes de noticias; formato ancho. |
 | Personalizado | Mínimo de 50 x 50 (anchura) | Usar solo si es necesario; puede provocar recortes o escalas. |
 
 Si el anuncio no está diseñado en ninguna de estas relaciones de aspecto, GenStudio for Performance Marketing recorta automáticamente la imagen en el tamaño adecuado.

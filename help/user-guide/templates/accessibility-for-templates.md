@@ -15,7 +15,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 369
+source-wordcount: 371
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Utilice fuentes fáciles de leer. Por ejemplo, las fuentes Sans Serif tienen un 
 
 Proporcionar un contraste adecuado entre el texto y el fondo. Evite utilizar colores de fuente que produzcan texto oscuro sobre un fondo oscuro y texto claro sobre un fondo claro. Tenga en cuenta las directrices de contraste para una proporción óptima:
 
-- Texto e imágenes de texto: relación de contraste de al menos 4,5:1
+- Texto e imágenes de texto: relación de contraste de al menos 4.5:1
 - Texto e imágenes grandes de texto a gran escala: relación de contraste de al menos 3:1
 
 ## Objetivo del vínculo (solo vínculo)

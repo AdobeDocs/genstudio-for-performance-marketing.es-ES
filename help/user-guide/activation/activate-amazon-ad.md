@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 507
+source-wordcount: 508
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Para seleccionar experiencias:
 
 ## Paso 4: Confirmar la configuración de la plataforma de Amazon Ads
 
-1. Seleccione una cuenta en el menú desplegable Cuenta. La configuración de la cuenta de Amazon Ads determina las cuentas disponibles. La experiencia creativa se envía a la biblioteca creativa de esta cuenta en Amazon Ads cuando se completa la activación.
+1. Seleccione una cuenta en el menú desplegable Cuenta. La configuración de la cuenta de Amazon Ads determina las cuentas disponibles.La experiencia creativa se enviará a la biblioteca creativa de esta cuenta en Amazon Ads cuando se complete la activación.
 
 1. Agregue un nombre al campo Creative name. Amazon Ads identifica la experiencia con este nombre.
 

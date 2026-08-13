@@ -19,7 +19,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: afce03c5167b728fe04e4722a1e4f39868d523df
 workflow-type: tm+mt
-source-wordcount: 1980
+source-wordcount: 1981
 ht-degree: 1%
 
 ---
@@ -106,7 +106,7 @@ Si decide no activar directamente una experiencia aprobada de [!DNL Content], pu
 
 Utilice la sección _Medios_ para seleccionar al menos un recurso de imagen para incluirlo en su experiencia. Las ubicaciones de anuncios están asociadas con proporciones de aspecto de imagen admitidas, que se enumeran como opciones en el menú desplegable _Ubicaciones_. Este menú muestra las ubicaciones de anuncios compatibles para publicaciones de Facebook o historias de Instagram, organizadas por proporción de aspecto.
 
-Después de la carga, los recursos se guardan en [!DNL Content]. El área _Media_ muestra la imagen de forma predeterminada con una proporción de aspecto de 1:1. Las relaciones de aspecto alternativas incluyen solo los valores admitidos por el canal de publicidad de pago. Se agrupan por orientación vertical y horizontal. GenStudio for Performance Marketing admite la inclusión de hasta seis relaciones de aspecto por experiencia activada.
+Después de la carga, los recursos se guardan en [!DNL Content]. El área _Media_ muestra la imagen de forma predeterminada con una relación de aspecto de 1:1. Las relaciones de aspecto alternativas incluyen solo los valores admitidos por el canal de publicidad de pago. Se agrupan por orientación vertical y horizontal. GenStudio for Performance Marketing admite la inclusión de hasta seis relaciones de aspecto por experiencia activada.
 
 **Para cargar un recurso desde el contenido**:
 

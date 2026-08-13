@@ -133,9 +133,9 @@ Este repositorio incluye ejemplos de trabajo para diferentes marcos:
 
 - [Dos **implementaciones de Vanilla JavaScript**](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js):
 
-   - [Esta versión de **ESM de vainilla** usa módulos ES6 y JavaScript moderno](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm).
+  - [Esta versión de **ESM de vainilla** usa módulos ES6 y JavaScript moderno](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm).
 
-   - [Esta versión de **UMD de vainilla** usa el paquete UMD cargado mediante la etiqueta de script](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var).
+  - [Esta versión de **UMD de vainilla** usa el paquete UMD cargado mediante la etiqueta de script](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var).
 
 ## Flujo de autenticación
 

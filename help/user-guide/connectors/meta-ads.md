@@ -44,10 +44,10 @@ En esta página se explica cómo conectar y administrar su cuenta de perfil de M
 
 - Inicio de sesión de Facebook/Meta que puede acceder a todos los servicios de Meta
 - _Control total_ sobre las cuentas de Meta Business Portfolio y Ad, que incluyen:
-   - Administración de campañas
-   - Ver rendimiento
-   - Administrar maquetas de Creative Hub
-   - Análisis avanzado
+  - Administración de campañas
+  - Ver rendimiento
+  - Administrar maquetas de Creative Hub
+  - Análisis avanzado
 - Deshabilite los bloqueadores de ventanas emergentes del explorador
 - Compruebe las asociaciones de páginas de cuentas de Instagram en Meta Business Manager antes de intentar establecer una conexión
 - Confirmar acceso de administrador a todos los recursos que se están conectando

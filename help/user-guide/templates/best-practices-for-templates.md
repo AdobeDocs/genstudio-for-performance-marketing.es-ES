@@ -21,7 +21,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 3322f783cd49ddcb897942e5e91590d53b554bdd
 workflow-type: tm+mt
-source-wordcount: 1347
+source-wordcount: 1352
 ht-degree: 0%
 
 ---
@@ -90,9 +90,9 @@ Para determinar el tamaño y la proporción de aspecto de una imagen en el explo
 
 1. Inspeccione la imagen.
    - En Windows/Linux:
-      - Presione F12.
+     - Presione F12.
    - En macOS:
-      - Pulse Comando + Opción + I.
+     - Pulse Comando + Opción + I.
 
 1. Pase el ratón sobre la imagen.
 

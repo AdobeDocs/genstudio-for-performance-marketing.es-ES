@@ -11,7 +11,7 @@ role_v2:
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 303
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ La distribución del complemento hace que esté disponible para su uso por parte
 
 En este tema se describe la distribución privada. La distribución privada restringe la implementación del complemento a la organización, identificada por la organización de IMS, para la que se desarrolló.
 
-La distribución pública hace que el complemento esté disponible como aplicación en Adobe Exchange. [La distribución pública &#x200B;](https://developer.adobe.com/app-builder/docs/guides/distribution/public/) de la documentación para desarrolladores de _App Builder_ describe cómo poner la aplicación a disposición de cualquier organización de Adobe.
+La distribución pública hace que el complemento esté disponible como aplicación en Adobe Exchange. [Distribución pública](https://developer.adobe.com/app-builder/docs/guides/distribution/public/) en la documentación para desarrolladores de _App Builder_ describe cómo poner tu aplicación a disposición de cualquier organización de Adobe.
 
 >[!BEGINSHADEBOX]
 

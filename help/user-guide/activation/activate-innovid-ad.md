@@ -19,7 +19,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 489
+source-wordcount: 490
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Para seleccionar experiencias:
 1. Utilice las herramientas de búsqueda y filtrado de la Galería de contenido para identificar la experiencia que desea activar. Luego haga clic en **[!UICONTROL Usar]**. También puede seleccionar una experiencia en Activar haciendo clic en **[!UICONTROL Nuevo]** en la tarjeta de producto Innovid.
 1. Se le pedirá que seleccione una plataforma antes de continuar con la activación. Seleccione *Innovid*. Se abre la página de configuración de Innovid Experience para esta experiencia. Ya contiene los detalles de la experiencia y no se puede revisar. 
 1. (Opcional) Haga clic en **[!UICONTROL Agregar experiencia]** para agregar experiencias a este grupo de activación.
-1. Haga clic en **[!UICONTROL Siguiente]** para confirmar la configuración de la plataforma Innovid. Se abre la vista **[!UICONTROL Configuración de plataforma]**. Esta vista muestra las opciones derivadas de las cuentas configuradas de Innovid.
+1. Haga clic en **[!UICONTROL Siguiente]** para confirmar la configuración de la plataforma Innovid. Se abre la vista **[!UICONTROL Configuración de plataforma]**.Esta vista muestra las opciones derivadas de las cuentas configuradas de Innovid.
 
 ## Paso 4: Confirmar la configuración de la plataforma Innovid
 

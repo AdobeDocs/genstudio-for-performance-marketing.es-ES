@@ -24,7 +24,7 @@ topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 2125
+source-wordcount: 2129
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ Esta función de expansión generativa está emparejada con la herramienta de re
 
 ## Cambiar proporción de aspecto
 
-Puede cambiar rápidamente la [proporción de aspecto de los anuncios de Meta](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) para ajustar el tamaño de anuncio deseado. Elija una proporción de aspecto de imagen que coincida estrechamente con las dimensiones de la plantilla para evitar recortes o estiramientos no deseados. Por ejemplo, si la plantilla tiene 1200 × 628 píxeles (un rectángulo ancho), al utilizar una imagen cuadrada de 1:1 se pueden recortar los lados, lo que podría cortar el contenido importante. El tamaño óptimo de la imagen sería de 628 x 628 píxeles, que coincide con la altura de la plantilla.
+Puede cambiar rápidamente la [proporción de aspecto de los anuncios de Meta](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) para ajustar el tamaño de anuncio deseado. Elija una proporción de aspecto de imagen que coincida estrechamente con las dimensiones de la plantilla para evitar recortes o estiramientos no deseados. Por ejemplo, si la plantilla tiene 1200 × 628 píxeles (un rectángulo ancho), al utilizar una imagen cuadrada 1:1 se pueden recortar los lados, lo que podría cortar el contenido importante. El tamaño óptimo de la imagen sería de 628 x 628 píxeles, que coincide con la altura de la plantilla.
 
 >[!NOTE]
 >

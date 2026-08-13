@@ -82,10 +82,10 @@ Por ejemplo, puede indicar a GenStudio for Performance Marketing que genere cont
 La petición de datos estructurada debería:
 
 - Utilice una de las siguientes referencias al nombre de sección en la plantilla de correo electrónico:
-   - Pod
-   - Grupo
-   - Sección
-   - Módulo
+  - Pod
+  - Grupo
+  - Sección
+  - Módulo
 
   Por ejemplo, si la plantilla usa `moduleA` o `Group-3` como nombre de sección, puede hacer referencia a esos nombres de sección en el mensaje.
 

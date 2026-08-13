@@ -43,9 +43,9 @@ Conecte su cuenta de perfil de LinkedIn Ads a GenStudio for Performance Marketin
 
 - _Control total_ sobre las cuentas de publicidad de LinkedIn, incluidas:
 
-   - Cuentas del responsable
-   - Administración de campañas
-   - Ver rendimiento
+  - Cuentas del responsable
+  - Administración de campañas
+  - Ver rendimiento
 
 - Elimine los bloqueadores de ventanas emergentes del explorador
 
