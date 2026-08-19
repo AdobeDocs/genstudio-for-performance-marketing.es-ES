@@ -5,32 +5,21 @@ level: Intermediate
 feature: Content Management, Content Attributes
 exl-id: 9fc1e428-7fa7-4f00-84ba-51c9318766f4
 TQID: https://experienceleague.adobe.com/ATpH1AXBAhr5tJDVkgx0ZaK20YYBmP7NQF0BUCtGiGw
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f321b88b-6bb7-49cc-a16a-ae2b665ebd32
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 7aed06dbb249cfc7e0f15d792563699e63b1a390
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f321b88b-6bb7-49cc-a16a-ae2b665ebd32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: abf48a907a72b060f684865c29b3a42f1ebdc3dc
 workflow-type: tm+mt
-source-wordcount: 723
-ht-degree: 4%
+source-wordcount: 670
+ht-degree: 5%
 
 ---
 
 # Content Credentials para organizaciones
 
 Descubra cómo las credenciales a prueba de manipulaciones para el contenido que demuestra la autenticidad de la marca y fomenta el cumplimiento están integradas directamente en el flujo de trabajo de marketing.
-
->[!WARNING]
->
-> Actualmente, esta función está en versión beta y solo está disponible para las organizaciones a las que se les ha concedido acceso. Si está interesado, póngase en contacto con el representante del equipo de su cuenta de Adobe o [utilice este vínculo para solicitar la inscripción](https://www.feedbackprogram.adobe.com/c/a/5aWPEOthrDv22Mf9CyekOy?source=qr).
 
 ## Introducción a Credenciales de contenido {#content-credentials}
 
@@ -39,23 +28,19 @@ Descubra cómo las credenciales a prueba de manipulaciones para el contenido que
 >title="Credenciales de contenido en [!DNL GenStudio for Performance Marketing]"
 >abstract="Las credenciales a prueba de manipulaciones para el contenido que prueban la autenticidad de la marca y fomentan el cumplimiento se pueden incrustar directamente en el flujo de trabajo de marketing."
 
-Una vez activado Content Credentials en Admin Console, los usuarios de GenStudio for Performance Marketing pueden activar Content Credentials para todos los recursos globalmente en la aplicación. Si la opción global para aplicar credenciales está desactivada, los usuarios tienen la opción de aplicar Content Credentials a cada recurso individual.
+GenStudio for Performance Marketing aplica Content Credentials de forma global a todos los recursos, de forma automática. No hay ningún paso de configuración ni configuración por recurso que activar: las credenciales se incrustan, conservan y actualizan a lo largo del flujo de trabajo de marketing.
 
 Una vez publicado el contenido, Content Credentials será visible en plataformas externas, como LinkedIn.
 
-Los administradores son responsables de cargar un certificado X.509 válido en Admin Console. Este paso garantiza que la firma digital de la empresa esté configurada correctamente y lista para su uso en aplicaciones Adobe DX compatibles.
-
->[!NOTE]
->
->El control de esta configuración podría hacer la transición a Admin Console en el futuro, lo que optimizaría la administración de Content Credentials en todas las aplicaciones y mejoraría la supervisión administrativa.
+Content Credentials compatible con C2PA no requiere ninguna configuración de certificado. La firma de marca es la excepción: para firmar contenido con la firma propia de su organización, un administrador debe cargar un certificado X.509 válido en Admin Console. Este paso garantiza que la firma digital de la empresa esté configurada correctamente y lista para su uso en aplicaciones Adobe DX compatibles.
 
 ## ¿Qué es Content Credentials? 
 
-Content Credentials es un tipo de metadatos duradero y estándar en el sector con detalles sobre cómo se creó el contenido e información de identidad sobre los creadores. Content Credentials se puede ver cuando el contenido se publica en línea en plataformas compatibles o con herramientas como [Adobe&#39;s Inspect tool](https://contentauthenticity.adobe.com/inspect) o la [extensión del explorador Adobe Content Authenticity Chrome](https://helpx.adobe.com/es/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
+Content Credentials es un tipo de metadatos duradero y estándar en el sector con detalles sobre cómo se creó el contenido e información de identidad sobre los creadores. Content Credentials se puede ver cuando el contenido se publica en línea en plataformas compatibles o con herramientas como [Adobe&#39;s Inspect tool](https://contentauthenticity.adobe.com/inspect) o la [extensión del explorador Adobe Content Authenticity Chrome](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
 
 La aplicación de Content Credentials puede ayudar a aumentar la transparencia sobre cómo se creó el contenido y puede ayudar a los usuarios a conectarse con su contenido.
 
-[Más información sobre Content Credentials](https://helpx.adobe.com/es/creative-cloud/help/content-credentials.html) en Adobe.
+[Más información sobre Content Credentials](https://helpx.adobe.com/creative-cloud/help/content-credentials.html) en Adobe.
 
 ## Firma de marca y seguimiento de recursos
 
@@ -71,7 +56,7 @@ La aplicación de Content Credentials se puede realizar a través del flujo de t
 
 En la Galería de contenido, las credenciales se muestran en los recursos importados.
 
-El distintivo de Content Credential en la esquina superior derecha de la miniatura indica contenido &quot;firmado por la marca&quot;.
+El distintivo de Content Credential en la esquina superior derecha de la miniatura indica contenido de [!UICONTROL Marca firmada].
 
 ![Recurso importado con credenciales](./images/import-discovery1.png)
 
@@ -93,7 +78,7 @@ Los metadatos de credenciales se conservan a medida que se seleccionan los recur
 
 Durante las exportaciones de un borrador, los recursos modificados se vuelven a firmar automáticamente y la nueva credencial se vincula al original.
 
-![Datos de credencial de un recurso exportado](./images/edit-and-transformation1.png){width="60%"}
+![Cuadro de diálogo de descarga con opciones de formato de exportación](./images/edit-and-transformation2.png){width="60%"}
 
 ### Revisión y aprobación
 
@@ -103,7 +88,7 @@ En la previsualización Revisar y aprobar, el estado de las credenciales se mues
 
 Los detalles de credenciales por variante se muestran cuando los revisores inspeccionan los recursos. Las experiencias aprobadas se vuelven a firmar cuando los usuarios hacen clic en **[!UICONTROL Guardar en contenido]**.
 
-![Datos de credencial de un recurso aprobado](./images/review-and-approve2.png)
+![Cuadro de diálogo Confirmar detalles del contenido aprobado, con el botón Guardar en contenido](./images/review-and-approve3.png)
 
 ### Activación y exportación
 
