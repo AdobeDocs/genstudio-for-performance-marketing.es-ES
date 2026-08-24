@@ -7,29 +7,15 @@ level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
 TQID: https://experienceleague.adobe.com/RPeJQ02q9HXBSpn-uFqjzLCYbbzv5eNnFBXkFn9j5JI
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: ecda1f61abaafe858629fc4700f61d89e2ab9e3e
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: be495d08-ecd1-455f-951e-c22de504e667id: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: e47c6644de51ead57f1c2e780aa287eb1de7ac87
 workflow-type: tm+mt
-source-wordcount: 1132
+source-wordcount: 1547
 ht-degree: 0%
 
 ---
@@ -111,10 +97,57 @@ Antes de seleccionar lo que se enviará para su aprobación o publicación en [!
 * **Para [aplicar formato de texto](/help/user-guide/create/manage-variants.md#manually-edit-text)** en una variante, haga clic en el texto en la imagen de una variante y haga clic en **[!UICONTROL Dar formato al texto]**.
 * **Para [regenerar una sección de una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, haga clic en un campo de texto editable y use las opciones _[!UICONTROL Ediciones sugeridas]_ o escriba una nueva solicitud y haga clic en **[!UICONTROL Generar]**.
 * **Para [agregar o intercambiar imágenes en una variante](/help/user-guide/create/manage-variants.md#swap-image)**, haga clic en un recurso de imagen (o en el área del recurso de imagen si todavía no existe una imagen) y haga clic en el icono **[!UICONTROL Intercambiar desde contenido]**.
+* **Para [editar una imagen en una variante](#edit-images-in-the-canvas)**, haga clic en un campo de imagen y haga clic en **[!UICONTROL Editar]** (icono de lápiz) para recortar, cambiar la posición o expandir la imagen directamente en el lienzo.
 * **Para [agregar un vínculo a una imagen en una variante](/help/user-guide/create/manage-variants.md#add-image-link)**, haga clic en un recurso de imagen (o en el área del recurso de imagen si la imagen no existe actualmente) y haga clic en el icono de vínculo.
 * **Para [agregar texto alternativo para imágenes en una variante](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**, haga clic en un recurso de imagen y use la opción _Texto alternativo_ para agregar o generar texto alternativo manualmente por imagen.
 * **Para [agregar etiquetas de accesibilidad](/help/user-guide/create/manage-variants.md#add-accessibility-labels) a las variantes**, haga clic en una imagen o en un vínculo de call-to-action y, a continuación, proporcione una breve descripción que explique lo que hace el vínculo o el botón.
 * **Para [eliminar un correo electrónico](/help/user-guide/create/manage-variants.md#delete-variant)**, haga clic para seleccionar el título del correo electrónico (por ejemplo, &quot;Correo electrónico 1/4&quot;) y haga clic en **[!UICONTROL Eliminar variante]**.
+
+## Editar imágenes en el lienzo
+
+Ajuste de imágenes sin salir del lienzo ni depender de herramientas de diseño externas. Puede recortar y cambiar la posición de una imagen para centrarse en un asunto o utilizar Expansión generativa para extender una imagen más allá de sus límites originales. Las ediciones solo se aplican al borrador del correo electrónico. Los recursos de Source de [!DNL Content] y los repositorios de recursos conectados nunca se modifican.
+
+Acceda a la edición de imágenes desde cualquier campo de imagen del lienzo de correo electrónico. Las imágenes editadas se indican visualmente para que pueda rastrear qué imágenes ha cambiado del recurso original.
+
+### Recortar y cambiar la posición de una imagen
+
+Recorte una imagen para utilizar únicamente la región que desee. El recorte en correos electrónicos es de forma libre, sin restricciones de proporción de aspecto, por lo que tiene control total sobre qué parte de la imagen aparece y en qué proporción.
+
+**Para recortar y cambiar la posición de una imagen**:
+
+1. En un borrador de correo electrónico, pase el ratón sobre y haga clic en un campo de imagen.
+1. Haga clic en **[!UICONTROL Editar]** (icono de lápiz).
+1. Haga clic en **[!UICONTROL Recortar]**.
+1. Ajuste la región de recorte y arrastre la imagen a la posición deseada.
+1. Haga clic en **[!UICONTROL Aplicar]** para recortar la imagen seleccionada o en **[!UICONTROL Aplicar a todas las imágenes]** para aplicar el recorte en todos los campos de imagen del borrador.
+
+Para salir sin guardar los cambios, haga clic en **[!UICONTROL Cancelar]**.
+
+![La vista Editar imagen con la herramienta Recortar activa en una imagen del lienzo del correo electrónico](/help/assets/edit-image-crop-email.png){width="650" zoomable="yes"}
+
+### Expandir una imagen con Expansión generativa
+
+Utilice Expansión generativa para extender una imagen más allá de sus límites originales con IA generativa. La expansión del correo electrónico no se limita a un tamaño o proporción fijos, por lo que puede ajustar una imagen al espacio que necesite.
+
+**Para expandir una imagen**:
+
+1. En un borrador de correo electrónico, pase el ratón sobre y haga clic en un campo de imagen.
+1. Haga clic en **[!UICONTROL Editar]** (icono de lápiz).
+1. Haga clic en **[!UICONTROL Expandir]**.
+
+   La imagen se abrirá en la vista _[!UICONTROL Editar imagen]_ en un lienzo expandido y [!DNL GenStudio for Performance Marketing] generará opciones de expansión.
+
+1. Mueva la imagen para colocarla dentro del área expandida.
+1. Seleccione una opción generada o haga clic en **[!UICONTROL Más]** (icono de signo más) para ver más opciones.
+1. Haga clic en **[!UICONTROL Aplicar]** para aplicar el resultado a la imagen seleccionada o en **[!UICONTROL Aplicar a todas las imágenes]** para aplicarlo a todos los campos de imagen del borrador.
+
+Para salir sin guardar los cambios, haga clic en **[!UICONTROL Cancelar]**.
+
+>[!NOTE]
+>
+>El tamaño de salida de la expansión generativa no está restringido, por lo que la calidad puede variar en expansiones muy grandes. Haga clic en **[!UICONTROL Más]** para generar opciones adicionales si el resultado no satisface sus necesidades.
+
+![Un resultado de expansión generativa seleccionado y listo para aplicarse en la vista Editar imagen](/help/assets/generative-expand-email.png){width="650" zoomable="yes"}
 
 ## Enviar comentarios de generación
 
