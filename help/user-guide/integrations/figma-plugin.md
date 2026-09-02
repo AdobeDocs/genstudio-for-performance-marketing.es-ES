@@ -5,18 +5,11 @@ feature: Generative AI
 role: User
 exl-id: 232fbbc6-c523-4525-8d26-a8ac8d62c035
 TQID: https://experienceleague.adobe.com/JKHpT5m-4KZvq-iWF2u11hRaFFRhKMo-ofbWk-xvRMI
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-subfeature_v2:
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181
+subfeature_v2: id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 2c5e5166bfe9d4b1c6cb56495613ff5cf20fab34
 workflow-type: tm+mt
 source-wordcount: 1913
@@ -42,7 +35,7 @@ Las funciones de este complemento incluyen:
 * Exportar [!DNL Experiences] generado a GenStudio for Performance Marketing.
 * Utilice opciones de plugin que se adapten a los elementos seleccionados en el lienzo Figma.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478812?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
 
 ## Creación de una plantilla
 
@@ -220,7 +213,7 @@ Se crea un archivo ZIP en el panel del complemento o aparece un vínculo a **[!U
 Puede usar el complemento Figma para convertir un marco Figma, varios marcos o un documento completo al formato Photoshop y exportarlo para utilizarlo con [GenStudio Photoshop](photoshop-plugin.md). Actualmente, solo se admiten propiedades principales como visibilidad, tamaño de fuente y atributos de capa básicos durante la conversión. Todavía no se admiten funciones como tachado, superíndice, subíndice, opacidad como porcentajes, degradados y propiedades avanzadas similares.
 
 <!-- GS-34076: Demo video placement is hardcoded in the tool UI; keep this video above "The plugin supports the following Figma layer types for conversion." -->
->[!VIDEO](https://video.tv.adobe.com/v/3492274?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3492271?learn=on)
 
 El complemento admite los siguientes tipos de capas Figma para la conversión:
 
