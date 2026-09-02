@@ -21,7 +21,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: b92dff810b9f780d2f7c2f737787bcb07fec6a61
 workflow-type: tm+mt
 source-wordcount: 758
 ht-degree: 0%
@@ -35,6 +35,8 @@ La comunicación con la IA generativa es esencial para trabajar de forma eficaz 
 GenStudio for Performance Marketing proporciona un aviso de IA generativo cada vez que se ofrece la oportunidad de modificar un recurso. Los componentes de un mensaje eficaz deben incluir lenguaje descriptivo, ejemplos e información que no se proporciona a través de las directrices configuradas.
 
 Como práctica recomendada, proporcione a GenStudio for Performance Marketing su información de marca mediante [directrices](/help/user-guide/guidelines/overview.md) para que pueda aprovechar al máximo la IA generativa a fin de producir experiencias de contenido alineadas con la marca.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502672?learn=on)
 
 ## Lenguaje descriptivo
 
