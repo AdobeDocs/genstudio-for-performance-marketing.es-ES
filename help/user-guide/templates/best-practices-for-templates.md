@@ -127,7 +127,7 @@ Consulte más sugerencias y restricciones al trabajar con cada tipo de plantilla
 
 ## Prácticas recomendadas de plantillas de Express to GenStudio
 
->[!VIDEO](https://video.tv.adobe.com/v/3502403?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502416?captions=spa&learn=on&enablevpops)
 
 Las siguientes sugerencias le ayudan a obtener resultados confiables al convertir diseños de [!DNL Adobe Express] en plantillas para [!DNL GenStudio for Performance Marketing].
 
