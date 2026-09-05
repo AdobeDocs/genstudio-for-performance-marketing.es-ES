@@ -36,7 +36,7 @@ GenStudio for Performance Marketing proporciona un aviso de IA generativo cada v
 
 Como práctica recomendada, proporcione a GenStudio for Performance Marketing su información de marca mediante [directrices](/help/user-guide/guidelines/overview.md) para que pueda aprovechar al máximo la IA generativa a fin de producir experiencias de contenido alineadas con la marca.
 
->[!VIDEO](https://video.tv.adobe.com/v/3502672?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3502676?captions=spa&learn=on)
 
 ## Lenguaje descriptivo
 
