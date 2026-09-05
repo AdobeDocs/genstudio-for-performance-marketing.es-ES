@@ -34,7 +34,7 @@ ht-degree: 1%
 
 # Directrices de GenStudio for Performance Marketing
 
->[!VIDEO](https://video.tv.adobe.com/v/3502922?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3502934?captions=spa&learn=on)
 
 Las directrices de GenStudio for Performance Marketing se pueden cargar o añadir manualmente a GenStudio for Performance Marketing, lo que permite a los usuarios establecer directrices de marca que capturan la esencia de la identidad de una marca.
 
