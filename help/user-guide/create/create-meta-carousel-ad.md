@@ -22,7 +22,7 @@ Antes de crear un anuncio de carrusel, asegúrese de tener una plantilla cuyas p
 
 Después de seleccionar una plantilla y abrir el lienzo, elija el formato de carrusel en el cajón de mensajes.
 
-1. En el panel _[!DNL Create your ads]_, expanda_[!UICONTROL  Parámetros ]_.
+1. En el panel _[!DNL Create your ads]_, expanda&#x200B;_[!UICONTROL &#x200B; Parámetros &#x200B;]_.
 1. En el menú desplegable **[!UICONTROL Formato]**, seleccione **[!UICONTROL Carrusel y]**.
 
    ![El panel Crear tus anuncios con la lista desplegable Formato establecida en Anuncio de carrusel y una lista de tarjetas](./carousel-format-cards.png){width="70%" zoomable="yes"}
