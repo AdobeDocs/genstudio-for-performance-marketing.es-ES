@@ -46,7 +46,7 @@ Estos componentes se preparan y aprueban en [!DNL Content] antes de la activaciÃ
 
 Una sola tabla de activaciÃ³n puede incluir experiencias para varios canales de publicidad pagados y formatos de publicidad a la vez.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503541?captions=spa&learn=on)
 
 ## Conectar las cuentas de canal
 
