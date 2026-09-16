@@ -4,13 +4,11 @@ description: Aprenda a crear, revisar, publicar y activar experiencias de medios
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 role: User
 level: Beginner
-source-git-commit: 0f5bc2b5416193c01cc4b2fc96d9cb575e209aa3
+source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 9%
-
+source-wordcount: '581'
+ht-degree: 8%
 ---
-
 
 # Crear una experiencia de publicidad de ChatGPT
 
@@ -77,7 +75,7 @@ Para ejecutar comprobaciones de contenido:
 
 1. Haga clic en **[!UICONTROL Comprobación de contenido]** (comprobaciones de marca y canal).
 1. Revisar los resultados de validación en el panel [_Comprobación de contenido_](/help/user-guide/guidelines/brand-validation.md#content-check-panel).
-1. Resuelva los problemas marcados, como la longitud de la copia o el texto denso en pantalla, editando variantes o regenerando según sea necesario.
+1. Resuelva los problemas marcados (por ejemplo, longitud de copia o texto denso en pantalla) editando variantes o regenerándolas según sea necesario.
 
 Consulte [Validación de marca](/help/user-guide/guidelines/brand-validation.md).
 
@@ -87,8 +85,8 @@ Guardar mueve su experiencia publicitaria de ChatGPT a [!DNL Content] para que s
 
 Hay dos estados:
 
-* **Experiencia de borrador** — Trabajo en curso y no aprobado.
-* **Experiencia publicada** — Aprobada y disponible en [!DNL Content] para su activación.
+* **Experiencia de borrador**: Trabajo en curso y no aprobado.
+* **Experiencia publicada**: aprobada y disponible en [!DNL Content] para su activación.
 
 ### Enviar para revisión
 
@@ -106,65 +104,13 @@ Ver [Solicitar revisión y aprobación](/help/user-guide/approvals/request-revie
 Después de todas las aprobaciones necesarias, publicar en [!DNL Content]:
 
 1. Haga clic en **[!UICONTROL Publicar en contenido]**.
-1. Confirme los metadatos, por ejemplo, el nombre de la campaña o la activación, la región, el idioma, el personaje, el escenario de funnel y **Canal: ChatGPT**.
+1. Confirme los metadatos, como el nombre de la campaña o la activación, la región, el idioma, el personaje, el escenario de funnel y **Canal: ChatGPT**.
 1. Haga clic en **[!UICONTROL Publicar]**.
 
-El anuncio de ChatGPT aparece en [!DNL Content] (detectable con filtros como canal o campaña) y está listo para su selección en [!DNL Activate].
+El anuncio de ChatGPT aparece en [!DNL Content], se puede detectar con filtros como canal o campaña, y está listo para su selección en [!DNL Activate].
 
 Ver [Publicar contenido aprobado](/help/user-guide/approvals/publish-content.md) y [[!DNL Content] información general](/help/user-guide/content/overview.md).
 
 ## Activación de un anuncio de ChatGPT
 
-La activación de ChatGPT utiliza el mismo módulo [[!DNL Activate]](/help/user-guide/activation/overview.md) que Meta y Google Campaign Manager 360. Consulte [Crear una activación](/help/user-guide/activation/create-activation.md) para el flujo de trabajo de activación compartida.
-
-### Iniciar una activación de ChatGPT
-
-Puede comenzar desde [!DNL Content] o desde [!DNL Activate].
-
-**De[!DNL Content]**
-
-* Seleccione una o más **experiencias publicadas** de ChatGPT.
-
-**De[!DNL Activate]**
-
-* Abra la tarjeta **ChatGPT** y haga clic en **[!UICONTROL + Nuevo]**.
-
-Cada experiencia se asigna a **un** anuncio de ChatGPT.
-
-### Configurar la configuración de experiencia
-
-Para cada experiencia seleccionada, confirme lo siguiente:
-
-* **Título**
-* **Cuerpo**
-* **Dirección URL de destino**: debe usar un formato de `https://` válido (por ejemplo, `https://www.example.com`).
-
-### Configurar la configuración de plataforma
-
-Seleccione los detalles del Administrador de anuncios de ChatGPT:
-
-* **Cuenta de anuncios OpenAI**
-* **ChatGPT Campaign**: ya debe existir en OpenAI Ads Manager.
-* **Grupo de anuncios ChatGPT** — ya debe existir en OpenAI Ads Manager.
-* **Nombre del anuncio de ChatGPT** — Un nombre distinto por anuncio de ChatGPT.
-
-### Revisión y publicación
-
-1. Revise todos los detalles creativos y de la plataforma.
-1. Haga clic en **[!UICONTROL Publicar]**.
-
-[!DNL GenStudio for Performance Marketing] inserta anuncios en el Administrador de anuncios de ChatGPT en un estado **inactivo**, de modo que el equipo multimedia controle el tiempo de lanzamiento final y el presupuesto, de manera consistente con otros canales de pago. Ver [Activar descripción general](/help/user-guide/activation/overview.md).
-
-### Qué sucede después de la publicación
-
-* Aparece un modal **publicación en curso** que se cierra automáticamente.
-* Se le redirigirá a la tabla **ChatGPT Activation**, que enumera las activaciones más recientes. El estado muestra **[!UICONTROL Pendiente]** mientras se completa el procesamiento.
-* Puede desplazarse fuera mientras termina la publicación.
-
-Cuando finalice el procesamiento:
-
-* Un elemento emergente de confirmación muestra **éxito** o **error**.
-* Si hace clic en el elemento emergente (o abre la activación de ChatGPT en la tabla de activación), verá la página **Detalles**.
-* Si la activación **[!UICONTROL ha fallado]**, la tabla muestra ese estado más un mensaje de error de ChatGPT.
-
-En OpenAI Ads Manager, los equipos de medios pueden ejecutar comprobaciones finales y activar los anuncios o grupos de anuncios cuando estén listos.
+La activación de ChatGPT utiliza el mismo módulo [[!DNL Activate]](/help/user-guide/activation/overview.md) que otros canales de pago. Consulte [Activar un anuncio de ChatGPT](/help/user-guide/activation/activate-chatgpt-ad.md) para conocer los requisitos previos y los campos de configuración específicos de ChatGPT.

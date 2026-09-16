@@ -7,35 +7,43 @@ exl-id: 5bc624c2-d064-4190-8761-ed05d0629d1f
 TQID: https://experienceleague.adobe.com/-D3DGxTpZ-0J-grE5-jKPrptf4C1Z-OE1t0DCoqhRLQ
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Security
+source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: '530'
 ht-degree: 1%
-
 ---
-
 # Optimización de activaciones
 
 La activación de una experiencia de publicidad para canales de publicidad de pago implica dos fases principales:
 
-* Preparación de la experiencia para su activación
+* Configuración de los detalles de configuración de anuncios y plataformas para cada fila de la tabla de activación
 
-* Publicación de la experiencia en los administradores de anuncios de canal de pago designados
+* Publicación de la activación en los administradores de anuncios de sus canales de publicidad pagada designados
 
-Las siguientes prácticas recomendadas al crear y activar la experiencia publicitaria pueden ayudar a minimizar las posibles complicaciones o errores durante la entrega a los canales de destino.
+Las siguientes prácticas recomendadas al configurar y activar las experiencias publicitarias pueden ayudar a minimizar las posibles complicaciones o errores durante el envío a los canales de destino.
 
 ## Prácticas recomendadas
 
 Estas son algunas prácticas recomendadas comunes y los errores que pueden evitar.
+
+* **Usar un identificador de seguimiento único para cada fila**
+
+  [!DNL Activate] marca los identificadores de seguimiento duplicados como [!UICONTROL Necesita atención] y no le permitirá publicar hasta que cada fila en el formato y la tabla de plataforma afectados tenga un identificador de seguimiento único. Si edita de forma masiva un ID de seguimiento en varias filas, confirme que quería aplicar el mismo valor a cada fila seleccionada.
 
 * **Use direcciones URL de destino válidas y completas**
 
@@ -43,7 +51,7 @@ Estas son algunas prácticas recomendadas comunes y los errores que pueden evita
 
 * **Asegúrese de que la aplicación administra correctamente la caducidad del token**
 
-  Las aplicaciones deben solicitar nuevos tokens según sea necesario. Si es necesario, vuelva a autenticar y obtenga un nuevo token de acceso iniciando sesión de nuevo o actualizando la sesión. Error de muestra: _Error al validar el token de acceso: la sesión se ha invalidado porque el usuario cambió su contraseña o Facebook cambió la sesión por motivos de seguridad. (190)_
+  Las aplicaciones deben solicitar nuevos tokens según sea necesario. Vuelva a autenticar y obtenga un nuevo token de acceso iniciando sesión de nuevo o actualizando la sesión. Error de muestra: _Error al validar el token de acceso: la sesión se ha invalidado porque el usuario cambió su contraseña o Facebook cambió la sesión por motivos de seguridad. (190)_
 
 * **Revise su conjunto de anuncios y asegúrese de que solo hay un anuncio activo en cada momento**
 
