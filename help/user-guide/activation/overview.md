@@ -44,7 +44,7 @@ Un administrador del sistema o editor de GenStudio debe conectar la cuenta de pu
 
 Use [!DNL Activate] para preparar experiencias publicitarias para sus canales de anuncios pagados de destinatario. [Activar experiencias de forma masiva](create-activation.md) en varios canales de publicidad pagada en una sola tabla de activación. A continuación, [administra tus activaciones](manage-activations.md) para ver el estado y los detalles de cada experiencia activada.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503541?captions=spa&learn=on)
 
 ### Activar experiencias aprobadas desde el contenido
 
