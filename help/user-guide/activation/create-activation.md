@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6cb428b368f75e0b646cfa4e6536a4728fdf40e2
+source-git-commit: 0844f7407c4b3a3f8eafe248f498ef7fcd51555d
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1238'
 ht-degree: 1%
 ---
 # Flujo de trabajo de activación
@@ -46,7 +46,7 @@ Estos componentes se preparan y aprueban en [!DNL Content] antes de la activaci�
 
 Una sola tabla de activación puede incluir experiencias para varios canales de publicidad pagados y formatos de publicidad a la vez.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503541?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
 
 ## Conectar las cuentas de canal
 
@@ -58,6 +58,8 @@ Inicie una activación desde uno de los dos puntos de entrada:
 
 * **De[!DNL Content]**: filtrar a Experiencias, seleccione una o más experiencias publicadas y haga clic en **[!UICONTROL Activar]** en la barra de acciones superior.
 * **Desde[!DNL Activate]**: en la página de aterrizaje [!DNL Activate], haga clic en **[!UICONTROL + Nueva activación]**. Se abrirá la galería de Experiencias, donde puede seleccionar experiencias para su activación.
+
+![Seleccionar experiencias publicadas en el contenido y hacer clic en Activar para iniciar una activación](./images/content-select-activate.png)
 
 En cualquier caso, busque por nombre de experiencia o filtre por varios canales para encontrar las experiencias que desee.
 
@@ -99,17 +101,27 @@ Un **identificador de seguimiento** es una etiqueta única que usted asigna a un
 
 Edite campos en línea por fila o seleccione varias filas dentro de la misma tabla de formato y haga clic en **[!UICONTROL Editar detalles]** en la barra de herramientas que aparece para editar masivamente esos campos a la vez. Para configurar los campos de configuración de la plataforma para un grupo de formatos de anuncio, haga clic en **[!UICONTROL Administrar configuración de la plataforma]** y edite los campos en el cuadro de diálogo resultante.
 
+![Selección de varios anuncios en una tabla de activación para editar detalles por lotes o la configuración de la plataforma](./images/bulk-edit-action-bar.png)
+
+![Cuadro de diálogo Administrar configuración de plataforma para elegir una cuenta, campaña y conjunto de anuncios de Meta](./images/manage-platform-settings.png)
+
 Para cambiar entre los campos **[!UICONTROL ID de seguimiento]** más rápidamente, use estos métodos abreviados de teclado:
 
 * Pulse **Intro** para abrir el campo de edición del **[!UICONTROL identificador de seguimiento]** seleccionado.
 * Presione la tecla de flecha **Arriba** o **Abajo** para pasar al campo **[!UICONTROL ID de seguimiento]** anterior o siguiente de esa columna.
 * Pulse **Intro** de nuevo para guardar la edición.
 
+![Edición de un campo de ID de seguimiento en línea en la tabla de activación](./images/tracking-id-edit.png)
+
 ## Revise y publique sus experiencias en sus canales publicitarios
 
 Confirme que cada fila muestre [!UICONTROL Listo para activar]. [!DNL Activate] marca campos que faltan o no son válidos, llamadas a la acción incompatibles e ID de seguimiento duplicados como [!UICONTROL Necesita atención]. Cuando cada fila esté lista, haga clic en **[!UICONTROL Enviar a la plataforma]** y confirme en el cuadro de diálogo de publicación.
 
+![Tabla de activación en la que cada fila muestra Listo para activar y se habilita Enviar a plataformas](./images/ready-to-activate.png)
+
 [!DNL Activate] informa del estado de cada anuncio en tiempo casi real: Pendiente, Publicado o Error. Si un anuncio falla, pase el ratón sobre su estado para ver el error de la plataforma. Puede reintentar cada anuncio fallido de la tabla a la vez haciendo clic en **[!UICONTROL Intentar de nuevo]**, en lugar de reintentar cada uno de forma individual. Las filas publicadas están bloqueadas del nuevo envío e incluyen un vínculo profundo al anuncio en el administrador de anuncios nativo de la plataforma de destino. La revisión final previa a la publicación y el inicio de los anuncios se realizan en el administrador de anuncios del canal de destino: [!DNL Activate] siempre envía los anuncios en un estado inactivo.
+
+![Una tabla de activación que muestra una combinación de los estados Pendiente y Enviado a las plataformas después de publicar](./images/activation-status-pending.png)
 
 Las tablas de activación aparecerán en la página de aterrizaje [!DNL Activate].
 
