@@ -6,52 +6,46 @@ exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
 TQID: https://experienceleague.adobe.com/ird0IiW8L5Axjj2FmEjlUcD1sPaNCNfxj9XNqGfQWiI
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Troubleshooting
+source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
 workflow-type: tm+mt
-source-wordcount: 361
+source-wordcount: '294'
 ht-degree: 1%
-
 ---
-
 # Administración de activaciones
 
-[!DNL Activate] ofrece una vista centralizada del estado de activación de cada canal de publicidad, incluidas las activaciones Publicado (correcto), Fallido (incorrecto) y Publicación (pendiente). La vista _Experiencias activadas_ muestra todas las activaciones de una cuenta de anuncio de canal conectada.
+Las tablas de activación aparecerán en la página de aterrizaje [!DNL Activate]. Cada tabla enumera sus anuncios, junto con su estado:
 
-[!DNL Activate] organiza las experiencias activadas por canal de publicidad. Haga clic en **[!UICONTROL Ver]** en el mosaico del canal. Se abre la vista de _experiencias activadas_ para el canal seleccionado. Esta vista enumera las experiencias por nombre y las ordena por fecha de activación. Si su organización no ha activado experiencias para ese canal, el mosaico del producto no incluye el botón **[!UICONTROL Ver]**.
+| Estado | Significado |
+|---|---|
+| [!UICONTROL Necesita atención] | Al menos un anuncio de la tabla de activación tiene un campo que falta o no es válido, como un call to action incompatible o un ID de seguimiento duplicado. |
+| [!UICONTROL Listo para activar] | Todos los anuncios de la tabla de activación superan la validación y están listos para publicarse. |
+| [!UICONTROL Pendiente] | Se envió toda la tabla de activación y la plataforma de destino la está procesando. |
+| [!UICONTROL Publicado] | Toda la tabla de activación se ha publicado correctamente. |
+| [!UICONTROL Error] | La plataforma de destino rechazó al menos uno de los anuncios de la tabla. Pase el ratón sobre la información del estado para ver el mensaje de error de la plataforma. |
 
-## Vista de experiencia activada
+Para reintentar automáticamente las activaciones fallidas, haz clic en **[!UICONTROL Intentar de nuevo]** en la parte superior derecha.
 
-Esta vista enumera las activaciones por nombre de experiencia en orden cronológico descendente (primero la más reciente enumerada).
-
-En la tabla siguiente se enumeran los atributos que definen cada experiencia.
-
-| Atributo | Valor |
-|------------------|---------------------------------------------------------------------------------------------|
-| Nombre de experiencia | Nombre de la experiencia en GenStudio for Performance Marketing<br>Este nombre identifica la experiencia en _[!DNL Content]_ |
-| Nombre del anuncio | Nombre del anuncio en el canal de publicidad |
-| Fecha de publicación | Fecha en la que se publicó correctamente la experiencia publicitaria<br>Utiliza el formato mes-día-año |
-| Publicado por | Nombre del usuario de GenStudio for Performance Marketing que activó la experiencia |
-| Regiones | Región geográfica en la que se inicia la experiencia |
-| Estado | Estado de la experiencia de publicidad seleccionada<br>Los valores incluyen Error, Publicado y Publicación |
-
-Use **[!UICONTROL Buscar]** (lupa) o desplácese por la lista de experiencias para encontrar una activación por nombre de experiencia.
-
-Haga clic en la activación para abrir una vista enfocada de los detalles de activación.
+Las filas publicadas no se pueden volver a enviar e incluyen un vínculo profundo al anuncio en el administrador de anuncios nativo de la plataforma de destino, por lo que puede ir directamente a él para revisarlo o iniciarlo.
 
 ## Vista de detalles
 
-En la vista _Experiencias activadas_, haga clic en una activación. La vista de solo lectura _Detalles de activación_ captura los detalles que definen una experiencia activada, incluidas las activaciones fallidas. Esta vista incluye información derivada tanto de GenStudio for Performance Marketing como del canal de publicidad.
+Haga clic en una fila de anuncio para abrir una vista enfocada de los detalles de activación. La vista de detalles de solo lectura captura los detalles de definición de un anuncio activado, incluidas las activaciones fallidas, con información derivada tanto de GenStudio for Performance Marketing como de la plataforma de destino:
 
-* **Fecha y hora de publicación**: Fecha y hora de publicación desde el administrador del canal de publicidad
-* **ID de anuncio**: ID asignado por el canal de pago y utilizado para el seguimiento. Haga clic en el botón **[!UICONTROL Abrir]** situado junto a este campo para ver el anuncio publicado en el Administrador de Meta Ads
-* **Detalles de la experiencia**: los recursos de imagen, los textos y los metadatos seleccionados asignados durante el flujo de trabajo de activación de GenStudio for Performance Marketing
-* **Configuración del canal**: Las cuentas de canal de pago utilizadas para activar la experiencia de anuncio
+* **Fecha y hora de publicación**: Fecha y hora de publicación desde la plataforma de destino
+* **ID de anuncio**: ID asignado por la plataforma de destino y utilizado para el seguimiento, con un vínculo profundo al anuncio publicado en el administrador de anuncios nativo de la plataforma
+* **Detalles del anuncio**: Los recursos, copias y metadatos aprobados utilizados para el anuncio
+* **Configuración de plataforma**: los campos de cuenta, campaña y configuración de otra plataforma utilizados para activar el anuncio
 
-La vista _Detalles_ de una activación fallida incluye el motivo del error.
+La vista de detalles de una activación fallida incluye el motivo del error.

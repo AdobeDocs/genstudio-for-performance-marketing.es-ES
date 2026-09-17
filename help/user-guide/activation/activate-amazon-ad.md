@@ -6,79 +6,51 @@ exl-id: 539cb43c-a9d8-4473-8a7d-e81967111741
 TQID: https://experienceleague.adobe.com/4L4JHcYLSsoQ50QbCW7Mof52h5jpz3z8n0UL8CaqLA8
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+    internal-label: Campaigns
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
 subfeature_v2:
   - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+    internal-label: Experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: User
+source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
 workflow-type: tm+mt
-source-wordcount: 508
+source-wordcount: '269'
 ht-degree: 0%
-
 ---
-
 # Activar Amazon Ads
 
-Adobe GenStudio for Performance Marketing permite a los administradores de sistemas y editores de GenStudio publicar experiencias publicitarias en la plataforma de Amazon Ads.
+Adobe GenStudio for Performance Marketing admite la activación de experiencias publicitarias en Amazon Ads.
 
-Puede iniciar la publicación de una experiencia de anuncio de Amazon Ads desde la Galería de contenido o Activar inicio.
+**Formatos compatibles**: Visualización estática.
 
-## Paso 1: Configurar las cuentas de Amazon Ads
+La activación de una experiencia de Amazon Ads sigue los [mismos pasos generales](create-activation.md) necesarios para la activación en otros canales de anuncios pagados. Esta página cubre los requisitos previos y los campos de configuración específicos de Amazon Ads. Después de activar una experiencia en GenStudio for Performance Marketing, utilice Amazon Ads para revisar la experiencia e iniciar el anuncio.
 
-Amazon Ads permite a los especialistas en marketing organizar campañas y anuncios en diferentes cuentas. Cada cuenta incluye una biblioteca creativa. GenStudio for Performance Marketing publica experiencias de publicidad en una biblioteca creativa.
+Los administradores de sistemas y editores de GenStudio pueden activar las experiencias publicitarias.
 
-Antes de intentar realizar una activación, [inicia sesión en tu cuenta de Amazon Ads][1]. Confirme que tiene acceso a los anunciantes de Amazon Ads. Cuando publica una experiencia de Amazon Ads desde GenStudio for Performance Marketing, se envía a la cuenta de publicidad seleccionada durante la creación.
+## Requisitos previos
 
-## Paso 2: Conéctese a sus cuentas de Amazon Ads
+* Acceso a la cuenta de Amazon Ads de destinatario.
+* Acceso de administrador a esa cuenta para leer y escribir en Amazon Ads.
 
-Para que su organización pueda publicar recursos en una biblioteca creativa, un administrador del sistema de GenStudio debe conectar sus cuentas de Amazon Ads a GenStudio for Performance Marketing. Este usuario debe tener acceso de administrador al anunciante para leer y escribir en Amazon Ads. Ver [Conectar cuentas de medios pagados][2].
+Amazon Ads organiza campañas y anuncios en cuentas diferentes, y cada cuenta incluye una biblioteca creativa. La cuenta de destino ya debe existir en Amazon Ads; GenStudio for Performance Marketing publica experiencias de publicidad en la biblioteca creativa de esa cuenta, pero no crea cuentas.
+
+## Conecte su cuenta de Amazon Ads
+
+Para que su organización pueda publicar recursos en una biblioteca creativa, un administrador del sistema de GenStudio debe conectar su cuenta de Amazon Ads a GenStudio for Performance Marketing. Debe tener acceso de administrador a esa cuenta para leer y escribir en Amazon Ads. Ver [Conectar cuentas de medios pagados](/help/user-guide/connectors/connect-channel.md).
 
 Una vez finalizada la sincronización, puede ver las cuentas añadidas.
 
-## Paso 3: Seleccione el contenido para su experiencia publicitaria
+## Campos de configuración de Amazon Ads
 
-Puede iniciar el proceso de publicación desde la galería de Experiencias de contenido o desde la página de inicio de Activar. Las experiencias aprobadas no se pueden editar. Cada experiencia solo puede contener un recurso.
+Los recursos aprobados están bloqueados y no se pueden editar durante la activación, puesto que ya se han revisado y aprobado en [!DNL Content]. Puede editar:
 
-Para seleccionar experiencias:
+* **Campos de texto**: ID de seguimiento (usado como nombre creativo de la plataforma)
+* **Campos de configuración de plataforma**: Cuenta
 
-1. Use las herramientas de búsqueda y filtrado de la Galería de contenido para identificar la experiencia que desea activar y luego haga clic en **[!UICONTROL Usar]**. (También puede seleccionar una experiencia en Activar haciendo clic en **[!UICONTROL Nuevo]** en la tarjeta de producto de Amazon Ads).
-
-1. Se le pedirá que seleccione una plataforma antes de continuar con la activación. Seleccione _Amazon_.
-
-   Se abre la página de configuración de la experiencia de Amazon Ads para esta experiencia. Ya contiene los detalles de la experiencia, que no se pueden revisar.
-
-1. (Opcional) Haga clic en **[!UICONTROL Agregar experiencia]** para agregar experiencias a este grupo de activación.
-
-1. Haga clic en **[!UICONTROL Siguiente]** para confirmar la configuración de la plataforma Amazon Ads.
-
-   Se abre la vista _Configuración de plataforma_. Esta vista se rellena con opciones que se derivan de las cuentas configuradas de Amazon Ads.
-
-## Paso 4: Confirmar la configuración de la plataforma de Amazon Ads
-
-1. Seleccione una cuenta en el menú desplegable Cuenta. La configuración de la cuenta de Amazon Ads determina las cuentas disponibles.La experiencia creativa se enviará a la biblioteca creativa de esta cuenta en Amazon Ads cuando se complete la activación.
-
-1. Agregue un nombre al campo Creative name. Amazon Ads identifica la experiencia con este nombre.
-
-1.Repita el proceso para cada experiencia seleccionada.
-
-1. Haga clic en **[!UICONTROL Siguiente]** para confirmar la configuración de Amazon Ads.
-
-## Paso 5: Previsualizar y activar el anuncio
-
-La página Revisar ofrece la última oportunidad de revisar la activación antes de publicarla.
-
-1. (Opcional) Haga clic en **[!UICONTROL Editar sección]** junto a la etiqueta Configuración de plataforma para editar la configuración de la plataforma. No puede editar el contenido de la experiencia.
-
-1. Haga clic en **[!UICONTROL Publicar]**.
-
-   Las experiencias de los anuncios de Amazon Ads se insertan directamente en la biblioteca creativa de la cuenta de Amazon Ads seleccionada.
-
-## Paso 6: completar la publicación de la experiencia publicitaria
-
-[Inicie sesión en su cuenta de Amazon Ads][1] para administrar los pasos finales de configuración e implementación de su anuncio dentro de la experiencia publicada.
-
-[1]: https://advertising.amazon.com/
-[2]: /help/user-guide/connectors/connect-channel.md
+La experiencia creativa se enviará a la biblioteca creativa de la cuenta seleccionada en Amazon Ads cuando finalice la activación.
