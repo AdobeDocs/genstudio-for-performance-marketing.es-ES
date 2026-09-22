@@ -2,7 +2,7 @@
 title: Uso de asistentes de IA
 description: Obtenga información sobre cómo consultar datos de rendimiento, crear borradores y publicar anuncios aprobados mediante un asistente de IA conectado a [!DNL GenStudio for Performance Marketing].
 role: User
-source-git-commit: 6fb7ddb7549ea6bcd66b6139fbde9ebe12ddaa22
+source-git-commit: 3d22af77d3893233e497a22f7b00c1faf0070cff
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -89,8 +89,9 @@ Convierta una recomendación o plantilla en un borrador editable:
 - &quot;¿Qué puedo cambiar en esta plantilla?&quot;
 - &quot;Crear un anuncio de Meta a partir de esta plantilla. Utilice el titular Rebajas de verano y el call to action Compra ahora. Esta es la información creativa: [describa la campaña, el tono y la oferta]&quot;.
 
-&#x200B;> [!TIP]
-> La creación de un borrador convierte un documento real en Creative Cloud. No es una previsualización. Prepare el informe creativo y copie antes de preguntar.
+>[!TIP]
+>
+>La creación de un borrador convierte un documento real en Creative Cloud. No es una previsualización. Prepare el informe creativo y copie antes de preguntar.
 
 ## Revisión y uso compartido de un borrador
 
@@ -109,8 +110,9 @@ Después de aprobar y publicar un borrador como experiencia, publíquelo en un c
 - &quot;Configurar esta experiencia para mi cuenta de publicidad de Meta y mi campaña&quot;.
 - &quot;Publicar esta experiencia en LinkedIn&quot;.
 
-&#x200B;> [!IMPORTANT]
-> La publicación crea una ubicación de anuncio en directo y puede incurrir en gastos de publicidad. No es reversible a través del asistente. Confirme la cuenta, la campaña y la experiencia de Target antes de publicar. Al repetir la solicitud, se crea otro anuncio.
+>[!IMPORTANT]
+>
+>La publicación crea una ubicación de anuncio en directo y puede incurrir en gastos de publicidad. No es reversible a través del asistente. Confirme la cuenta, la campaña y la experiencia de Target antes de publicar. Al repetir la solicitud, se crea otro anuncio.
 
 ## Interpretar resultados vacíos o no disponibles
 
