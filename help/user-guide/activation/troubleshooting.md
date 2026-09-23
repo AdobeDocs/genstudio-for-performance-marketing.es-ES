@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
+source-git-commit: db0cebfe795569d9913757d190db853097a00405
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '570'
 ht-degree: 1%
 ---
 # Optimización de activaciones
@@ -43,7 +43,7 @@ Estas son algunas prácticas recomendadas comunes y los errores que pueden evita
 
 * **Usar un identificador de seguimiento único para cada fila**
 
-  [!DNL Activate] marca los identificadores de seguimiento duplicados como [!UICONTROL Necesita atención] y no le permitirá publicar hasta que cada fila en el formato y la tabla de plataforma afectados tenga un identificador de seguimiento único. Si edita de forma masiva un ID de seguimiento en varias filas, confirme que quería aplicar el mismo valor a cada fila seleccionada.
+  [!DNL Activate] marca los identificadores de seguimiento duplicados como [!UICONTROL Necesita atención] y no le permitirá publicar hasta que cada fila en el formato y la tabla de plataforma afectados tenga un identificador de seguimiento único. Cada campo **[!UICONTROL ID de seguimiento]** está rellenado previamente con el nombre de la experiencia, de modo que las filas que comparten una experiencia en plataformas o formatos de anuncios comienzan con el mismo valor. Compruebe y resuelva estos duplicados, no solo los introducidos por las ediciones masivas. Si edita de forma masiva un ID de seguimiento en varias filas, confirme que quería aplicar el mismo valor a cada fila seleccionada.
 
 * **Use direcciones URL de destino válidas y completas**
 
