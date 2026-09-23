@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: c8d964aa325aee782c175abf3fce880fb17ae6ca
+source-git-commit: db0cebfe795569d9913757d190db853097a00405
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1233'
 ht-degree: 1%
 ---
 # Flujo de trabajo de activación
@@ -46,7 +46,7 @@ Estos componentes se preparan y aprueban en [!DNL Content] antes de la activaci�
 
 Una sola tabla de activación puede incluir experiencias para varias plataformas de publicidad de pago y formatos de publicidad.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503541?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
 
 ## Conectar las cuentas de plataforma
 
@@ -108,7 +108,7 @@ Para configurar los campos de configuración de la plataforma para un grupo de f
 
 ![Cuadro de diálogo Administrar configuración de plataforma para elegir una cuenta, campaña y conjunto de anuncios de Meta](./images/manage-platform-settings.png)
 
-Los campos **[!UICONTROL ID de seguimiento]** están inicialmente en blanco. Un ID de seguimiento es lo mismo que el nombre publicitario o el nombre creativo de la plataforma de publicidad, y la plataforma de publicidad lo utiliza como nombre identificativo del anuncio. Utilice este campo para identificar ese anuncio para la creación de informes y la resolución de problemas. Escriba los valores que desee usar en los campos **[!UICONTROL ID de seguimiento]**.
+Cada campo **[!UICONTROL ID de seguimiento]** está rellenado previamente con el nombre de la experiencia: la plataforma de publicidad usa este valor como nombre del anuncio o nombre creativo para la generación de informes y la solución de problemas. Edite el valor in situ si desea utilizar otra cosa.
 
 ![Edición de un campo de ID de seguimiento en línea en la tabla de activación](./images/tracking-id-edit.png)
 
