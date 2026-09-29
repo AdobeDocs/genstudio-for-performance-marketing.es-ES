@@ -1,13 +1,12 @@
 ---
 source-git-commit: c9672d8899b54c7998e9cb8b64fe1834339f8010
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 17%
-
+source-wordcount: '443'
+ht-degree: 0%
 ---
 # Código de conducta de Adobe
 
-## Nuestro compromiso
+## Nuestra promesa
 
 En el interés de fomentar un entorno abierto y acogedor,
 los colaboradores y administradores se comprometen a participar en nuestro proyecto y
@@ -21,17 +20,17 @@ Orientación.
 Ejemplos de comportamiento que contribuyen a crear un entorno positivo
 incluir:
 
-* Uso de un lenguaje acogedor e inclusivo
-* Respetar diferentes experiencias y puntos de vista
-* Aceptar con elegancia las críticas constructivas
-* Centrarse en lo que es mejor para la comunidad
+* Uso de un lenguaje amable e inclusivo
+* Respeto a los diferentes puntos de vista y experiencias
+* Aceptación de críticas constructivas
+* Enfocarse en lo que es mejor para la comunidad
 * Mostrar empatía hacia otros miembros de la comunidad
 
-Algunos ejemplos de comportamiento inaceptable de los participantes son:
+Algunos ejemplos de comportamiento inaceptable por parte de los participantes son:
 
 * El uso de lenguaje o imágenes sexualizadas y la atención sexual no deseada o
 avances
-* Bromas de mal gusto, insultos/comentarios despectivos y ataques personales o políticos
+* Comentarios despectivos, insultos y ataques personales o políticos
 * Acoso público o privado
 * Publicar información privada de otras personas, como información física o electrónica
 dirección, sin permiso explícito
@@ -66,7 +65,7 @@ para ello, póngase en contacto con el equipo del proyecto en Grp-opensourceoffi
 las quejas se revisarán e investigarán y darán lugar a una respuesta que
 se considere necesario y adecuado a las circunstancias. El equipo del proyecto es
 obligadas a mantener la confidencialidad con respecto al denunciante de un incidente.
-Los detalles adicionales de las políticas de ejecución específicas pueden publicarse por separado.
+Pueden publicarse por separado más detalles sobre políticas de ejecución específicas.
 
 Los administradores de proyectos que no sigan o apliquen correctamente el Código de conducta
 la fe puede tener repercusiones temporales o permanentes determinadas por otros
@@ -75,4 +74,4 @@ miembros de la dirección del proyecto.
 ## Atribución
 
 Este Código de conducta es una adaptación del [Pacto de los colaboradores](https://contributor-covenant.org), versión 1.4,
-disponible en [https://contributor-covenant.org/version/1/4](https://www.contributor-covenant.org/es/version/1/4/code-of-conduct.html)
+disponible en [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
