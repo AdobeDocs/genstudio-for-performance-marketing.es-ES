@@ -1,26 +1,36 @@
 ---
-title: Conectar a un [!DNL AEM Assets Content Hub] repositorio
+title: Conectar a un repositorio [!DNL AEM Assets Content Hub]
 description: Aprenda a conectar Adobe GenStudio for Performance Marketing a un repositorio de Adobe Experience Manager (AEM) [!DNL Content Hub] y a aprovechar el contenido aprobado existente.
 level: Experienced
 role: Admin, Developer
 feature: Content Management
 recommendations: noDisplay
 exl-id: abb587fd-593c-4b9f-baad-993d92400d9b
-TQID: https://experienceleague.adobe.com/FJ6G7qlBlkrsGk1H7SHhlkqHUHYYGKkTqklTeGDxJho
+TQID: 'https://experienceleague.adobe.com/FJ6G7qlBlkrsGk1H7SHhlkqHUHYYGKkTqklTeGDxJho'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
+subfeature_v2:
+  - id: ec92a2bc-afe3-4ff0-a985-0c8ef22b4da0
+    internal-label: Content management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: '388'
 ht-degree: 3%
-
 ---
-
 # Conectar a un repositorio [!DNL AEM Assets Content Hub]
 
 Si tiene recursos en Adobe Experience Manager (AEM), puede seguir estos pasos para que sean accesibles en GenStudio for Performance Marketing.
@@ -47,20 +57,20 @@ Después de habilitar [!DNL AEM Assets Content Hub], tiene una nueva instancia c
 
 En [!DNL Admin Console], agregue un usuario o grupo de usuarios de GenStudio for Performance Marketing al perfil de producto [!DNL AEM Assets Content Hub]. Si un revisor de contenido no tiene acceso a la misma organización que el repositorio [!DNL AEM Assets Content Hub], puede que tenga dificultades para revisar y aprobar el contenido.
 
-- [Incorporado [!DNL Content Hub] administrador](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-administrator)
-- [Incorporar [!DNL Content Hub] usuarios](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-users)
+- [Incorporado [!DNL Content Hub] administrador](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-administrator)
+- [Incorporar [!DNL Content Hub] usuarios](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-users)
 
 ## Paso 3: Aprobar los recursos
 
 Apruebe los recursos para usarlos en [!DNL AEM Assets Content Hub], lo cual los hace disponibles en GenStudio for Performance Marketing.
 
-Consulte [Aprobar recursos en Experience Manager](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) en la documentación de _AEM as a Cloud Service_.
+Consulte [Aprobar recursos en Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) en la documentación de _AEM as a Cloud Service_.
 
 ## Paso 4: Configurar la visibilidad de los recursos
 
 En las opciones de configuración de _[!DNL AEM Assets Content Hub]_, revise cada conjunto de opciones de configuración para ver los filtros, los detalles de recursos, la búsqueda y la personalización de marca.
 
-Consulte [Configuración de la interfaz de usuario de Content Hub](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options) en la documentación de _AEM as a Cloud Service_.
+Consulte [Configuración de la interfaz de usuario de Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options) en la documentación de _AEM as a Cloud Service_.
 
 ## Paso 5: Verificar la conexión
 

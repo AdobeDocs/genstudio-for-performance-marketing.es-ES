@@ -2,7 +2,13 @@
 title: 'Crear experiencia de anuncio de Meta: anuncios de carrusel'
 description: Aprenda a crear experiencias de anuncios de carrusel de Meta de varias tarjetas, administrar tarjetas y generar conceptos de marca en [!DNL GenStudio for Performance Marketing].
 role: User
-source-git-commit: 1b407c1c66a2426b21cbbf423774ebdff16a7dec
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 1%
@@ -22,7 +28,7 @@ Antes de crear un anuncio de carrusel, asegúrese de tener una plantilla cuyas p
 
 Después de seleccionar una plantilla y abrir el lienzo, elija el formato de carrusel en el cajón de mensajes.
 
-1. En el panel _[!DNL Create your ads]_, expanda&#x200B;_[!UICONTROL &#x200B; Parámetros &#x200B;]_.
+1. En el panel _[!DNL Create your ads]_, expanda_[!UICONTROL  Parámetros ]_.
 1. En el menú desplegable **[!UICONTROL Formato]**, seleccione **[!UICONTROL Carrusel y]**.
 
    ![El panel Crear tus anuncios con la lista desplegable Formato establecida en Anuncio de carrusel y una lista de tarjetas](./carousel-format-cards.png){width="70%" zoomable="yes"}

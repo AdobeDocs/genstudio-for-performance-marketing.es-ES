@@ -3,20 +3,26 @@ title: Guía de extensibilidad de Adobe GenStudio
 description: Explore las funcionalidades de la interfaz de usuario de Adobe GenStudio for Performance Marketing de SDK y aprenda a crear aplicaciones ampliables.
 feature: Extensibility, Compliance
 exl-id: 4eca9e83-a109-431e-bfaa-9a6f7682e56f
-TQID: https://experienceleague.adobe.com/GzRwmsFDOMHJxY-2u4xMSRwGGhqEq-IDK4sQvggZgjs
+TQID: 'https://experienceleague.adobe.com/GzRwmsFDOMHJxY-2u4xMSRwGGhqEq-IDK4sQvggZgjs'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+    internal-label: Compliance
+  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
+    internal-label: Integrations
+subfeature_v2:
+  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
+    internal-label: Extensibility
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
+    internal-label: Developer
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 228
+source-wordcount: '228'
 ht-degree: 4%
-
 ---
-
 # Guía del usuario de extensibilidad de Adobe GenStudio for Performance Marketing
 
 Adobe GenStudio for Performance Marketing facilita la generación de contenido de marketing, la distribución y el análisis de rendimiento impulsados por IA para las organizaciones. Admite la generación de contenido que se adhiere a los estándares de su marca y cumple con las políticas de su empresa. Los desarrolladores de aplicaciones extensibles pueden utilizar el marco de herramientas y extremos de GenStudio for Performance Marketing para ampliar la funcionalidad principal del producto y satisfacer las necesidades específicas de creación de contenido y conformidad de su organización.

@@ -2,13 +2,23 @@
 title: Marketo para GenStudio
 description: Instale y configure la aplicación de Marketo para GenStudio Adobe Exchange para que su organización pueda utilizar plantillas de Marketo Engage en GenStudio for Performance Marketing.
 feature: Extensibility
-source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+feature_v2:
+  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
+    internal-label: Integrations
+subfeature_v2:
+  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
+    internal-label: Extensibility
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 0%
-
 ---
-
 # Marketo para GenStudio
 
 Las organizaciones que usan [!DNL Marketo Engage] y [!DNL GenStudio for Performance Marketing] en la misma organización de [!DNL IMS] pueden instalar la aplicación **Marketo for GenStudio** desde [!DNL Adobe Exchange]. Una vez que un administrador del sistema aprueba la aplicación y completa la implementación, los autores pueden elegir plantillas de Marketo al crear experiencias de correo electrónico en GenStudio, junto a las plantillas cargadas directamente en [!DNL Content].
@@ -22,7 +32,7 @@ Este tema es para **administradores** que instalan la aplicación, recopilan cre
 
 ## Instalación de la aplicación desde Adobe Exchange
 
->[!VIDEO](https://video.tv.adobe.com/v/3483314?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3483299?learn=on)
 
 1. Abra [Adobe Exchange](https://exchange.adobe.com) y vaya a **[!UICONTROL CX Enterprise]**.
 1. Abra el listado de [Marketo for GenStudio](https://exchange.adobe.com/apps/ec/ab6p21vo8r/marketo-for-genstudio).

@@ -2,13 +2,23 @@
 title: Journey Optimizer para GenStudio
 description: Instale y configure la aplicación de Journey Optimizer para GenStudio Adobe Exchange para que su organización pueda utilizar plantillas de Adobe Journey Optimizer en GenStudio for Performance Marketing.
 feature: Extensibility
-source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+feature_v2:
+  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
+    internal-label: Integrations
+subfeature_v2:
+  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
+    internal-label: Extensibility
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
-
 ---
-
 # Journey Optimizer para GenStudio
 
 Las organizaciones que usan [!DNL Adobe Journey Optimizer] (AJO) y [!DNL GenStudio for Performance Marketing] en la misma organización [!DNL IMS] pueden instalar la aplicación **Journey Optimizer for GenStudio** desde [!DNL Adobe Exchange]. Una vez que un administrador del sistema aprueba la aplicación y completa la implementación, los autores pueden elegir plantillas de contenido de AJO al crear experiencias de correo electrónico en GenStudio, junto a las plantillas cargadas directamente en [!DNL Content].
@@ -23,7 +33,7 @@ Este tema es para **administradores y desarrolladores** que instalan la aplicaci
 
 ## Instalación de la aplicación desde Adobe Exchange
 
->[!VIDEO](https://video.tv.adobe.com/v/3483302?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3483287?learn=on)
 
 1. Abra [Adobe Exchange](https://exchange.adobe.com) y vaya a **[!UICONTROL CX Enterprise]**.
 1. Abra el listado de [Journey Optimizer for GenStudio](https://exchange.adobe.com/apps/ec/abpopqqr1q/journey-optimizer-for-genstudio).
@@ -79,9 +89,9 @@ Vea la extensión en **[!UICONTROL Administrador de Recorrido]** en AJO **[!UICO
 
 **Ver también** (control de acceso de Journey Optimizer):
 
-* [Control de acceso](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/access-control/access-control-landing-page)
-* [Permisos en Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/access-control/permissions)
-* [Introducción para administradores de sistemas](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/get-started/quick-start/administrator)
+* [Control de acceso](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/access-control-landing-page)
+* [Permisos en Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions)
+* [Introducción para administradores de sistemas](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/quick-start/administrator)
 
 ## Acceso a plantillas de AJO en GenStudio
 
