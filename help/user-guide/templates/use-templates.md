@@ -90,7 +90,7 @@ Usted [personaliza su plantilla](customize-template.md) para usarla en GenStudio
 
 ## Administración de plantillas
 
-La galería _[!DNL Templates]_muestra su inventario de plantillas personalizadas para generar experiencias en GenStudio for Performance Marketing.
+La galería _[!DNL Templates]_&#x200B;muestra su inventario de plantillas personalizadas para generar experiencias en GenStudio for Performance Marketing.
 
 ### Buscar conjunto de datos
 
@@ -113,7 +113,7 @@ Antes de cargar una plantilla, asegúrate de que esté totalmente preparada y li
 
 **Para agregar una plantilla**:
 
-1. En _[!DNL Content]_, seleccione la sección **[!UICONTROL Plantillas de HTML]**en la barra superior.
+1. En _[!DNL Content]_, seleccione la sección **[!UICONTROL Plantillas de HTML]**&#x200B;en la barra superior.
 
 1. Haga clic en **[!UICONTROL + Agregar plantilla]**.
 

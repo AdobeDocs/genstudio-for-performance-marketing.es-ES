@@ -110,15 +110,15 @@ Cada vista muestra una tabla correspondiente, en la que puede buscar por palabra
 
 ### Campañas
 
-La vista [[!DNL Insights] _[!UICONTROL Campañas ]_](campaigns.md) es la vista predeterminada y muestra una lista de detalles de campañas activas, como objetivos, presupuesto, fecha de inicio y actividad. Asegúrese de [conectar una cuenta de canal](/help/user-guide/connectors/connect-channel.md) para que GenStudio for Performance Marketing empiece a recibir los datos estadísticos.
+La vista [[!DNL Insights] _[!UICONTROL Campañas &#x200B;]_](campaigns.md) es la vista predeterminada y muestra una lista de detalles de campañas activas, como objetivos, presupuesto, fecha de inicio y actividad. Asegúrese de [conectar una cuenta de canal](/help/user-guide/connectors/connect-channel.md) para que GenStudio for Performance Marketing empiece a recibir los datos estadísticos.
 
 ### Experiencias publicadas
 
-La vista [[!DNL Insights] _[!UICONTROL Detalles de experiencias publicadas ]_](published-experiences.md) se centra en evaluar la eficacia de una experiencia. La vista [!UICONTROL Experiencias publicadas] le permite analizar las métricas de una experiencia en función de su ubicación dentro de un intervalo de fechas especificado. Al hacer clic en un_[!UICONTROL  nombre de experiencia ]_, podrá ver las métricas de rendimiento de la experiencia, el rendimiento por ubicación y los atributos.
+La vista [[!DNL Insights] _[!UICONTROL Detalles de experiencias publicadas &#x200B;]_](published-experiences.md) se centra en evaluar la eficacia de una experiencia. La vista [!UICONTROL Experiencias publicadas] le permite analizar las métricas de una experiencia en función de su ubicación dentro de un intervalo de fechas especificado. Al hacer clic en un&#x200B;_[!UICONTROL &#x200B; nombre de experiencia &#x200B;]_, podrá ver las métricas de rendimiento de la experiencia, el rendimiento por ubicación y los atributos.
 
 ### Medios
 
-La vista [[!DNL Insights] _[!UICONTROL Media ]_](media.md) está diseñada para ayudarle a analizar el rendimiento del contenido creativo. Puede identificar atributos de medios que contribuyan a mejorar una métrica seleccionada, como clics o impresiones.
+La vista [[!DNL Insights] _[!UICONTROL Media &#x200B;]_](media.md) está diseñada para ayudarle a analizar el rendimiento del contenido creativo. Puede identificar atributos de medios que contribuyan a mejorar una métrica seleccionada, como clics o impresiones.
 
 Al hacer clic en el contenido multimedia, se proporciona más contexto sobre su rendimiento en diferentes anuncios y ubicaciones de anuncios:
 
@@ -130,8 +130,8 @@ En la vista de detalles de medios, la parte izquierda muestra una miniatura del 
 
 Los _atributos_ del contenido ayudan a identificar el contenido creativo mediante detalles inherentes, como el color, el tono, la composición (como el asunto, las fuentes, los elementos visuales) y otros componentes clave. Los atributos suelen ser el conjunto de información de contenido menos medido y analizado.
 
-La vista [[!DNL Insights] _[!UICONTROL Atributos ]_](attributes.md) puede ayudarle a investigar e identificar qué atributos funcionan mejor con determinadas audiencias, canales y regiones, así como a resaltar las tendencias estacionales. Con estas perspectivas, puede utilizar atributos de rendimiento para crear variantes, dirigirse a una audiencia específica o experimentar con diferentes estrategias de campaña.
+La vista [[!DNL Insights] _[!UICONTROL Atributos &#x200B;]_](attributes.md) puede ayudarle a investigar e identificar qué atributos funcionan mejor con determinadas audiencias, canales y regiones, así como a resaltar las tendencias estacionales. Con estas perspectivas, puede utilizar atributos de rendimiento para crear variantes, dirigirse a una audiencia específica o experimentar con diferentes estrategias de campaña.
 
 ### Etiquetas de anuncios
 
-La vista [[!DNL Insights] _[!UICONTROL Etiquetas de anuncios ]_](ad-tags.md) muestra una lista de anuncios para la cuenta de anuncio de canal conectada. Un_ anuncio _es un recurso promocional que incluye contenido visual e interactivo que se va a distribuir a una audiencia específica como parte de una campaña de marketing.
+La vista [[!DNL Insights] _[!UICONTROL Etiquetas de anuncios &#x200B;]_](ad-tags.md) muestra una lista de anuncios para la cuenta de anuncio de canal conectada. Un_ anuncio _es un recurso promocional que incluye contenido visual e interactivo que se va a distribuir a una audiencia específica como parte de una campaña de marketing.

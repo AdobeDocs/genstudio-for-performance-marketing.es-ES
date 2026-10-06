@@ -54,7 +54,7 @@ Siga las siguientes recomendaciones al utilizar plantillas con GenStudio for Per
 1. Diseñe con [estándares de accesibilidad](accessibility-for-templates.md) para obtener una experiencia óptima
 1. Seguir [directrices de plantillas específicas de canal](#follow-channel-specific-template-guidelines)
 1. Cuando use [plantillas rápidas](/help/user-guide/templates/express-templates.md), tenga en cuenta las sugerencias específicas de [Prácticas recomendadas de plantillas de Express a GenStudio](#express-to-genstudio-template-best-practices).
->>
+&#x200B;>>
 Conozca los conceptos básicos de los elementos y procedimientos de plantilla en [Trabajar con plantillas](use-templates.md). Y profundiza en [la personalización de una plantilla](customize-template.md) para obtener instrucciones específicas que puedes usar en tu próxima campaña.
 
 ## Uso de los elementos de plantilla adecuados
