@@ -2,7 +2,13 @@
 title: Asistentes de IA
 description: Obtenga información sobre cómo conectar asistentes de IA a [!DNL GenStudio for Performance Marketing] para obtener información, crear borradores y publicar anuncios aprobados.
 role: User
-source-git-commit: 6fb7ddb7549ea6bcd66b6139fbde9ebe12ddaa22
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 1%

@@ -1,16 +1,29 @@
 ---
 title: Configuración del intercambio de logotipos en plantillas
-description: Configure los marcadores de posición del logotipo de la marca en las plantillas para habilitar el intercambio de logotipos en  [!DNL GenStudio for Performance Marketing].
+description: Configure los marcadores de posición del logotipo de la marca en las plantillas para habilitar el intercambio de logotipos en [!DNL GenStudio for Performance Marketing].
 feature: Create Canvas
 role: User
 level: Intermediate
-source-git-commit: 98cb7ba338878495e6d7b68f3b8c620abae10127
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+feature_v2:
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+subfeature_v2:
+  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
+    internal-label: Create canvas
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 2%
-
 ---
-
 # Configuración del intercambio de logotipos en plantillas
 
 Esta guía explica cómo configurar los marcadores de posición del logotipo de marca en las plantillas para habilitar la [característica de intercambio de logotipos](/help/user-guide/create/logo-swap.md) en [!DNL GenStudio for Performance Marketing]. Utilice estas directrices para asegurarse de que el marcador de posición se muestra correctamente en varios tamaños de imagen y relaciones de aspecto.

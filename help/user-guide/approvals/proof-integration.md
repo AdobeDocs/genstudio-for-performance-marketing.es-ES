@@ -3,23 +3,33 @@ title: Integración de Workfront Proof con revisiones y aprobaciones
 description: Integración de Workfront Proof con Adobe GenStudio for Performance Marketing.
 feature: Content Review, Content Management
 exl-id: 149db773-4787-4cfb-b29e-c49f13abf39a
-TQID: https://experienceleague.adobe.com/G9e9Ft0l9OmSX1lCJY8syzP2-pIswt0MkCpOYlox-Zk
+TQID: 'https://experienceleague.adobe.com/G9e9Ft0l9OmSX1lCJY8syzP2-pIswt0MkCpOYlox-Zk'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+    internal-label: Compliance
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
+subfeature_v2:
+  - id: dae8b49d-2853-4f33-a27d-a2bad09cbeb6
+    internal-label: Content review
+  - id: ec92a2bc-afe3-4ff0-a985-0c8ef22b4da0
+    internal-label: Content management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Reporting
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 912
+source-wordcount: '911'
 ht-degree: 1%
-
 ---
-
 # Integración de Workfront Proof con GenStudio for Performance Marketing
 
 La integración con Workfront Proof mejora el ciclo de vida de revisión y aprobación de GenStudio for Performance Marketing con funciones avanzadas, incluidas plantillas de aprobación, flujos de trabajo de varias fases y la capacidad de [comparar versiones de prueba](https://experienceleague.adobe.com/es/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs). Este control de versiones estructurado garantiza la transparencia, la responsabilidad y la colaboración optimizada a lo largo del ciclo de vida de la revisión de contenido.
@@ -67,7 +77,7 @@ Los administradores del sistema de Adobe administran el aprovisionamiento de usu
 
 >[!NOTE]
 >
->Workfront Proof proporciona [funciones de usuario adicionales](https://experienceleague.adobe.com/es/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles). No todos los roles son visibles dentro de Performance Marketing. Sin embargo, el sistema respeta cualquier función establecida dentro de una plantilla de Workfront Proof.
+> Workfront Proof proporciona [funciones de usuario adicionales](https://experienceleague.adobe.com/es/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles). No todos los roles son visibles dentro de Performance Marketing. Sin embargo, el sistema respeta cualquier función establecida dentro de una plantilla de Workfront Proof.
 
 ### Borradores y pruebas
 

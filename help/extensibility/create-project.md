@@ -3,20 +3,26 @@ title: Creación de un proyecto de App Builder para ampliar GenStudio for Perfor
 description: Cree un proyecto de App Builder para la aplicación o un complemento.
 feature: Extensibility
 exl-id: 502b6dd5-68ac-4392-bba3-3ab8cd9eefc2
-TQID: https://experienceleague.adobe.com/g2D-NlEnuaepE-A4OMnXjI18sXVXc741LJEBUwbBTmU
+TQID: 'https://experienceleague.adobe.com/g2D-NlEnuaepE-A4OMnXjI18sXVXc741LJEBUwbBTmU'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
+    internal-label: Integrations
+subfeature_v2:
+  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
+    internal-label: Extensibility
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Developer
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 244
+source-wordcount: '244'
 ht-degree: 4%
-
 ---
-
 # Creación de un proyecto de App Builder
 
 Los desarrolladores que amplían las capacidades nativas de Adobe GenStudio for Performance Marketing inician el desarrollo de complementos creando un proyecto de [Adobe App Builder](https://developer.adobe.com/app-builder/).
