@@ -30,7 +30,7 @@ ht-degree: 0%
 ---
 # Creación de plantillas accesibles
 
-Adobe se compromete a proporcionar una experiencia óptima para todas las audiencias. Consulte [Iniciativas de accesibilidad en Adobe](https://www.adobe.com/trust/accessibility/initiatives.html) para obtener más información.
+Adobe se compromete a proporcionar una experiencia óptima para todas las audiencias. Consulte [Iniciativas de accesibilidad en Adobe](https://www.adobe.com/es/trust/accessibility/initiatives.html) para obtener más información.
 
 En GenStudio for Performance Marketing, puede cargar recursos y plantillas que permitan la creación de contenido para diversas experiencias. El cumplimiento de los estándares de accesibilidad ayuda a que el contenido llegue a la audiencia máxima deseada.
 
