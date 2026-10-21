@@ -205,7 +205,7 @@ A continuación se muestra un bloque JSON de muestra que muestra los esquemas.
         },
         "destination_url": {
             "fieldName": "destination_url",
-            "fieldValue": "https://www.adobe.com"
+            "fieldValue": "https://www.adobe.com/es"
         },
         "description": {
             "fieldName": "description",
