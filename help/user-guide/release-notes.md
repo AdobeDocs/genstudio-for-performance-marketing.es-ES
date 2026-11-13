@@ -68,18 +68,34 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 5d651c7ec00aff866ce1f3698521b5baf48b3385
+source-git-commit: 87749b66644ae6b322ccf872a9b21696d87b4b99
 workflow-type: tm+mt
-source-wordcount: '5824'
+source-wordcount: '5942'
 ht-degree: 0%
 ---
 # Notas de la versión de GenStudio for Performance Marketing
 
 Esta información de la versión proporciona las últimas actualizaciones para la aplicación de GenStudio for Performance Marketing.
 
-## 2026.09.15 {#latest}
+## 2026.10.15 {#latest}
 
 **NUEVAS CARACTERÍSTICAS:**
+
+### Generación de estado con impresión de voz y señales visuales
+
+La generación con estado le permite refinar el contenido una tras otra en una conversación en lugar de empezar de nuevo con una nueva solicitud cada vez. La generación recuerda las instrucciones anteriores y las variantes que mantiene y, a continuación, aplica solo el cambio que solicita.
+
+La impresión de voz mantiene la copia en la voz de su marca en los canales con [!DNL Insights], como LinkedIn y Meta. Visual cues ground copy en una imagen o vídeo que seleccione y puede agregar una dirección URL de página web como contexto de referencia en el mensaje.
+
+Obtenga más información en [Generar y refinar contenido con generación con estado](/help/user-guide/create/stateful-generation.md).
+
+### Correcciones y mejoras
+
+* El ID de seguimiento en una activación masiva ahora se rellena automáticamente con el nombre de la experiencia.
+
+## Notas de la versión anteriores
+
++++Notas a partir del 15 de septiembre de 2026
 
 ### Activación masiva
 
@@ -87,7 +103,7 @@ Esta información de la versión proporciona las últimas actualizaciones para l
 
 Obtenga más información en [Flujo de trabajo de activación](/help/user-guide/activation/create-activation.md).
 
-## Notas de la versión anteriores
++++
 
 +++Notas a partir del 16 de julio de 2026
 
