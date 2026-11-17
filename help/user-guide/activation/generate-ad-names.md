@@ -2,9 +2,9 @@
 title: Generar nombres de anuncios
 description: Obtenga información sobre cómo configurar plantillas de nombres, generar nombres de anuncios coherentes y revisar o personalizar nombres antes de enviar anuncios a las plataformas de activación admitidas.
 role: User
-source-git-commit: 7863995df08681a8a427277121a5fbeca131c6a9
+source-git-commit: 888a9509ed1c3705f67fbf541b38a49b7890ac7d
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1746'
 ht-degree: 1%
 ---
 
@@ -12,21 +12,23 @@ ht-degree: 1%
 
 La asignación automatizada de nombres a los anuncios en [!DNL GenStudio for Performance Marketing] le ayuda a seguir las convenciones de asignación de nombres de su organización cuando activa los anuncios. Los nombres coherentes admiten la creación de informes de rendimiento, la atribución y la reconciliación de gastos.
 
-Cargue la convención de nombres para crear una plantilla y úsela para generar nombres a partir de metadatos de experiencia. Revise los resultados y realice las correcciones necesarias antes de enviar anuncios a sus plataformas.
+Una plantilla de nomenclatura define las partes del nombre de un anuncio y su orden. Algunas partes de ejemplo son el producto, la campaña y el mercado. Para crear una plantilla, cargue un archivo de Excel que describa la convención de nombres de su organización.
+
+Utilice la plantilla para generar nombres a partir de información sobre cada experiencia, como su producto o campaña. Revise y corrija los resultados antes de enviar sus anuncios. Los nombres finales se envían a cada plataforma de destino como los nombres de los anuncios.
 
 ## Antes de empezar
 
-La configuración de plantillas es una tarea de una sola vez. Si su plataforma ya tiene una plantilla asignada en su proyecto actual, vaya a [Generar nombres para una activación](#generate-names-for-an-activation).
+Solo es necesario configurar una plantilla una vez. Si su plataforma ya tiene una plantilla asignada en su proyecto actual, vaya directamente a [Generar nombres para una activación](#generate-names-for-an-activation).
+
+De lo contrario, cree una plantilla y pídale al administrador del sistema que [la asigne a sus plataformas](#assign-a-template-to-platforms). Cada proyecto puede tener una plantilla predeterminada diferente para la misma plataforma.
 
 Para configurar la plantilla, prepare un archivo de Excel de no más de 3 MB con una sola hoja. No se admiten archivos CSV. Describa la convención de nombres para anuncios individuales, no para campañas o grupos de anuncios.
 
-Incluya los campos en el orden requerido, los valores permitidos, los códigos correspondientes e instrucciones para elegir valores. Por ejemplo, si se selecciona `Image` para el campo `format`, se puede producir `IMG` en el nombre.
+Enumere los campos en el orden requerido. Para cada campo, incluya los valores permitidos, los códigos correspondientes e instrucciones para elegir un valor. Por ejemplo, la opción `Image` del campo `format` utiliza el código `IMG` en el nombre.
 
-Descargue el [ejemplo de convención de nomenclatura WKND Meta (Excel)](assets/wknd-meta-naming-convention.xlsx) para explorar una estructura de muestra. Incluye definiciones de campo y valores de ejemplo para año, trimestre, marca, producto, campaña, plataforma, formato, versión creativa, persona, mercado, idioma y CTA.
+Para obtener una estructura de ejemplo, descargue el [ejemplo de convención de nombres de WKND Meta (Excel)](assets/wknd-meta-naming-convention.xlsx). El archivo define campos y valores de ejemplo para productos, campañas, mercados y otras partes del nombre de un anuncio.
 
 Reemplace los valores y las reglas de ejemplo por la convención de su organización antes de utilizar el archivo para sus propias activaciones. Los valores de plataforma del ejemplo ilustran las opciones de nomenclatura, no una lista de destinos de activación admitidos.
-
-Un administrador del sistema debe asignar la plantilla a sus plataformas. Los distintos proyectos pueden utilizar diferentes plantillas predeterminadas para la misma plataforma.
 
 ## Creación de una plantilla de nomenclatura
 
@@ -41,7 +43,7 @@ Cree una plantilla a partir del archivo de convención de nombres existente y, a
 1. Seleccione **[!UICONTROL Seleccionar archivo]** en el cuadro de diálogo **[!UICONTROL Cargar archivo]**.
 1. Elija el archivo de Excel.
 
-   También puede arrastrar el archivo al área de carga. Mientras aparece **[!UICONTROL Analizando la hoja de cálculo...]**, los campos y valores se asignan a la plantilla. Esto puede tardar unos minutos.
+   También puede arrastrar el archivo al área de carga. Mientras aparece **[!UICONTROL Analizando la hoja de cálculo...]**, los campos y valores se asignan a la plantilla. Espere unos minutos para que finalice el análisis.
 
 1. Revise los campos, los valores permitidos y la **[!UICONTROL vista previa del nombre del anuncio]**.
 
@@ -58,13 +60,13 @@ Edite una plantilla guardada para ajustar su nombre, campos, separador o reglas.
 1. Vaya a **[!UICONTROL Más]** > **[!UICONTROL Configuración]** > **[!UICONTROL Plantilla de nombre de anuncio]**.
 1. Abra el menú de tres puntos junto a la plantilla.
 1. Seleccione **[!UICONTROL Editar]**.
-1. Seleccione el icono de lápiz junto al título para cambiar el nombre de la plantilla.
-1. Establezca el **[!UICONTROL separador de campos]** para que coincida con su convención.
+1. Para cambiar el nombre de la plantilla, seleccione el icono de lápiz junto al título.
+1. Establezca el **[!UICONTROL separador de campos]** en el carácter que separa las partes del nombre, como un guion bajo (`_`).
 1. Arrastre los campos al orden requerido.
 
    Use **[!UICONTROL Agregar campo]** o el icono de papelera de un campo si necesita cambiar qué campos se incluyen.
 
-1. Seleccione el icono de lápiz de un campo para abrir su configuración.
+1. Para abrir la configuración de un campo, seleccione su icono de lápiz.
 1. Revise **[!UICONTROL Type]** y **[!UICONTROL Name]** en el cuadro de diálogo **[!UICONTROL Editar un campo]**.
 
    Use **[!UICONTROL Lista desplegable]** para un campo con opciones predefinidas o **[!UICONTROL Texto libre]** para un valor que usted ingrese.
@@ -73,11 +75,11 @@ Edite una plantilla guardada para ajustar su nombre, campos, separador o reglas.
 
    **[!UICONTROL Opciones]** contiene las opciones legibles. **[!UICONTROL Code]** contiene los valores correspondientes utilizados en el nombre del anuncio. Por ejemplo, la opción `Image` usa el código `IMG`.
 
-   Use **[!UICONTROL Agregar opción]** para agregar una opción o el icono menos situado junto a una opción para quitarla. No se permiten valores duplicados dentro de un campo.
+   Para agregar una opción, seleccione **[!UICONTROL Agregar opción]**. Para eliminar una opción, seleccione su icono menos. No se permiten valores duplicados dentro de un campo.
 
 1. Escriba las **[!UICONTROL reglas de campo]** necesarias para elegir o dar formato al valor de ese campo.
 
-   En el campo de texto libre `creativeVersion` del ejemplo, puede escribir `Use the experience name as a starting value, with spaces removed.`
+   Para el campo de texto libre `creativeVersion`, escriba esta regla de ejemplo: `Use the experience name as a starting value, with spaces removed.`
 
 1. Seleccione **[!UICONTROL Guardar]** en el cuadro de diálogo de campo.
 
@@ -89,7 +91,7 @@ Edite una plantilla guardada para ajustar su nombre, campos, separador o reglas.
 
 1. Seleccione **[!UICONTROL Guardar]** en la parte superior de la página.
 
-La vista previa refleja el orden de campos y el separador actualizados. Vuelva a abrir la plantilla para comprobar los cambios guardados.
+La vista previa refleja el orden de campos y el separador actualizados. Para comprobar los cambios guardados, vuelva a abrir la plantilla.
 
 El editor de campos muestra cómo las opciones legibles se asignan a los códigos incluidos en los nombres generados:
 
@@ -108,7 +110,7 @@ Los administradores de sistemas establecen la plantilla predeterminada para cada
 
 Cada plataforma tiene una plantilla predeterminada por proyecto. Puede asignar la misma plantilla a varias plataformas.
 
-Puede ver y editar las plantillas en todos los proyectos, pero sólo puede cambiar las asignaciones del proyecto en el que se encuentra actualmente.
+Las plantillas están disponibles para su visualización y edición en todos los proyectos. Sin embargo, sólo puede cambiar las asignaciones de la plataforma en el proyecto actual.
 
 Reemplazar la plantilla predeterminada de una plataforma no elimina la plantilla anterior ni cambia las asignaciones de otros proyectos.
 
@@ -118,7 +120,14 @@ El ejemplo siguiente muestra la vista previa de la plantilla, el orden de los ca
 
 ## Generación de nombres para una activación
 
-Genere nombres después de preparar la activación y revise los metadatos de experiencia que necesita la plantilla, como campaña, producto o persona.
+Prepare la activación antes de generar los nombres. Los metadatos de cada experiencia contienen información como su campaña, producto o persona. Compruebe que los metadatos proporcionan los valores que necesita la plantilla. Consulte [Flujo de trabajo de activación](create-activation.md) para obtener ayuda con la preparación de una activación.
+
+Cuando crea una activación por primera vez, el nombre inicial de cada anuncio depende de la asignación de plantilla de su plataforma:
+
+| Configuración de plataforma | Nombre del anuncio inicial |
+| --- | --- |
+| Se asigna una plantilla de nombre al proyecto actual. | Los campos de plantilla vacíos aparecen como marcadores de posición, como `[market]_[year]`. Los nombres solo se generan después de seleccionar **[!UICONTROL Generar nombre de anuncio]**. |
+| No se ha asignado ninguna plantilla de nombre al proyecto actual. | El anuncio utiliza el nombre de su experiencia. La generación de nombres deja ese nombre sin cambios. |
 
 1. Abra **[!UICONTROL Activar]** en el proyecto deseado.
 1. Añada sus experiencias a una activación.
@@ -130,17 +139,17 @@ Genere nombres después de preparar la activación y revise los metadatos de exp
 
 1. Revise la columna **[!UICONTROL Nombre del anuncio]**.
 
-La generación se aplica a todos los anuncios de plataformas con una plantilla asignada, excepto a los anuncios con las anulaciones habilitadas. Los nombres no se generan automáticamente al abrir la tabla.
+La generación se aplica a todos los anuncios de plataformas con una plantilla asignada, excepto a los anuncios con [invalidaciones de nombres personalizados](#use-a-custom-ad-name). Los nombres no se generan automáticamente al abrir la tabla.
 
-Inicialmente, cada anuncio utiliza el nombre de su experiencia. Si una plataforma no tiene ninguna plantilla asignada, la generación deja sus nombres sin cambiar y puede editarlos manualmente.
+Para plataformas sin una plantilla asignada, edite los nombres de los anuncios basados en la experiencia manualmente según sea necesario.
 
 Si ninguna plataforma tiene plantillas asignadas, no se genera ningún nombre.
 
 ## Corregir un nombre de anuncio individual
 
-Revise los nombres generados antes de enviar sus anuncios. Los valores que faltan aparecen como marcadores de posición de campo resaltados, como `[market]`, y los anuncios afectados muestran **[!UICONTROL Necesita atención]**.
+Revise los nombres generados antes de enviar sus anuncios. Cualquier campo que permanezca vacío después de la generación aparecerá como marcador resaltado, como `[market]`. Los anuncios afectados muestran **[!UICONTROL Necesita atención]**.
 
-La tabla de activación marca los nombres con valores que faltan para que pueda encontrarlos y corregirlos:
+Para buscar nombres que necesiten correcciones, busque marcadores de posición resaltados y **[!UICONTROL Necesita atención]** estados en la tabla de activación:
 
 ![Tabla de activación con una advertencia de valores ausentes, marcadores de posición de mercado resaltados en la columna Nombre del anuncio y estados de atención necesarios.](images/ad-names-missing-values.png)
 
@@ -164,13 +173,13 @@ Los nombres de anuncios idénticos en la misma plataforma se marcan como posible
 
 La advertencia de posible duplicado se borra después de que los nombres se hayan cambiado de nombre.
 
-## Editar varios nombres de anuncio a la vez
+## Editar varios nombres de publicidad {#edit-several-ad-names-at-once}
 
-Utilice la edición masiva para aplicar una corrección compartida sin reemplazar valores que deban ser diferentes para cada anuncio.
+Utilice la edición masiva para aplicar una corrección compartida, conservando al mismo tiempo los valores que difieren entre anuncios.
 
 1. Seleccione los anuncios utilizando sus casillas de verificación de fila.
 1. Seleccione **[!UICONTROL Editar nombre del anuncio]** en la barra de herramientas de selección.
-1. Cambie solo los campos que deben tener el mismo valor en los anuncios seleccionados.
+1. Cambie solo los campos que necesiten el mismo valor en los anuncios seleccionados.
 
    **[!UICONTROL Valores mixtos]** significa que los anuncios seleccionados tienen actualmente valores diferentes para un campo. Deje ese campo intacto para conservar el valor de cada anuncio.
 
@@ -192,7 +201,7 @@ Por ejemplo, si se cambia solamente la persona de `OutdoorBeginners` a `Adventur
 
 ## Usar un nombre de anuncio personalizado
 
-Anule un nombre generado cuando un anuncio necesite un nombre personalizado completo.
+Utilice una anulación para reemplazar todo el nombre generado con un nombre personalizado, en lugar de editar campos de plantilla individuales.
 
 1. Seleccione la fila del anuncio.
 1. Seleccione **[!UICONTROL Editar nombre del anuncio]**.
@@ -202,7 +211,7 @@ Anule un nombre generado cuando un anuncio necesite un nombre personalizado comp
 
 El nombre personalizado permanece sin cambios cuando se vuelven a generar nombres.
 
-Con la anulación habilitada, puede editar el nombre completo en lugar de sus campos de plantilla individuales:
+Con la anulación habilitada, edite el nombre completo en lugar de sus campos de plantilla individuales:
 
 ![Cuadro de diálogo Editar nombre de anuncio con la opción Anular nombres de anuncio habilitada y el nombre completo del anuncio WKND disponible para edición.](images/ad-name-override.png)
 
@@ -213,7 +222,7 @@ Para volver a la nomenclatura basada en plantillas, siga estos pasos:
 1. Seleccione **[!UICONTROL Guardar]**.
 1. Seleccione **[!UICONTROL Generar nombre de anuncio]** sobre la tabla de activación.
 
-Esta acción de generación también se aplica a los demás anuncios aptos de la tabla.
+Esta acción también regenera los nombres de otros anuncios de la tabla que tienen una plantilla asignada y no tienen sobrescritura de nombre personalizado.
 
 ## Responder a los cambios de plantilla
 
@@ -236,6 +245,6 @@ Revisa los nombres y direcciones finales de los campos no resueltos, posibles du
 
 Cuando la activación esté lista, seleccione **[!UICONTROL Enviar a plataformas]**.
 
-Los nombres publicados coinciden exactamente con los nombres finales de [!DNL GenStudio for Performance Marketing], incluidos los nombres generados, los nombres editados mediante campos de plantilla y los nombres reemplazados.
+[!DNL GenStudio for Performance Marketing] envía el nombre final de cada anuncio a la plataforma de destino como nombre de anuncio. El nombre enviado incluye cualquier edición de los campos de plantilla o sobrescrituras de nombres personalizados. Los nombres de los anuncios de la plataforma coinciden exactamente con los nombres finales que ha revisado.
 
 Para destinos de visualización como Innovid, los nombres aparecen como nombres creativos.
