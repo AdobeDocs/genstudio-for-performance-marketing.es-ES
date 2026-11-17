@@ -2,9 +2,9 @@
 title: Generar nombres de anuncios
 description: Obtenga información sobre cómo configurar plantillas de nombres, generar nombres de anuncios coherentes y revisar o personalizar nombres antes de enviar anuncios a las plataformas de activación admitidas.
 role: User
-source-git-commit: 6db986fefd199181e568e5fbc7a3b23554e5e70d
+source-git-commit: 888a9509ed1c3705f67fbf541b38a49b7890ac7d
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1746'
 ht-degree: 1%
 ---
 
@@ -122,6 +122,13 @@ El ejemplo siguiente muestra la vista previa de la plantilla, el orden de los ca
 
 Prepare la activación antes de generar los nombres. Los metadatos de cada experiencia contienen información como su campaña, producto o persona. Compruebe que los metadatos proporcionan los valores que necesita la plantilla. Consulte [Flujo de trabajo de activación](create-activation.md) para obtener ayuda con la preparación de una activación.
 
+Cuando crea una activación por primera vez, el nombre inicial de cada anuncio depende de la asignación de plantilla de su plataforma:
+
+| Configuración de plataforma | Nombre del anuncio inicial |
+| --- | --- |
+| Se asigna una plantilla de nombre al proyecto actual. | Los campos de plantilla vacíos aparecen como marcadores de posición, como `[market]_[year]`. Los nombres solo se generan después de seleccionar **[!UICONTROL Generar nombre de anuncio]**. |
+| No se ha asignado ninguna plantilla de nombre al proyecto actual. | El anuncio utiliza el nombre de su experiencia. La generación de nombres deja ese nombre sin cambios. |
+
 1. Abra **[!UICONTROL Activar]** en el proyecto deseado.
 1. Añada sus experiencias a una activación.
 1. Complete la configuración de la plataforma y toda la información necesaria, incluida la copia, call-to-action (CTA) y la dirección URL del sitio web.
@@ -134,13 +141,13 @@ Prepare la activación antes de generar los nombres. Los metadatos de cada exper
 
 La generación se aplica a todos los anuncios de plataformas con una plantilla asignada, excepto a los anuncios con [invalidaciones de nombres personalizados](#use-a-custom-ad-name). Los nombres no se generan automáticamente al abrir la tabla.
 
-Inicialmente, cada anuncio utiliza el nombre de su experiencia. Si una plataforma no tiene ninguna plantilla asignada, la generación deja sus nombres sin cambiar. Edite estos nombres manualmente según sea necesario.
+Para plataformas sin una plantilla asignada, edite los nombres de los anuncios basados en la experiencia manualmente según sea necesario.
 
 Si ninguna plataforma tiene plantillas asignadas, no se genera ningún nombre.
 
 ## Corregir un nombre de anuncio individual
 
-Revise los nombres generados antes de enviar sus anuncios. Los valores que faltan aparecen como marcadores de posición de campo resaltados, como `[market]`, y los anuncios afectados muestran **[!UICONTROL Necesita atención]**.
+Revise los nombres generados antes de enviar sus anuncios. Cualquier campo que permanezca vacío después de la generación aparecerá como marcador resaltado, como `[market]`. Los anuncios afectados muestran **[!UICONTROL Necesita atención]**.
 
 Para buscar nombres que necesiten correcciones, busque marcadores de posición resaltados y **[!UICONTROL Necesita atención]** estados en la tabla de activación:
 
